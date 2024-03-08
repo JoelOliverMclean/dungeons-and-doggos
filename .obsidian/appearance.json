@@ -1,0 +1,17 @@
+{
+  "accentColor": "",
+  "cssTheme": "ITS Theme",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "S - Encoded Fonts",
+    "S - Encoded Icons",
+    "HoverProperties_-_Columns",
+    "dnd5e-compendium",
+    "dnd5e-float-images",
+    "dnd5e-only-admonitions",
+    "dnd5e-only-statblock",
+    "FantasyFonts",
+    "hide-markdown-link-url"
+  ],
+  "baseFontSize": 15
+}

@@ -1,0 +1,96 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-monster
+tags:
+- compendium/src/5e/mtf
+- monster/cr/18
+- monster/environment/underdark
+- monster/size/huge
+- monster/type/fiend/demon
+aliases: ["Sibriex"]
+---
+# Sibriex
+*Source: Mordenkainen's Tome of Foes p. 137*  
+
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MTF/Sibriex.webp#right)  
+> [!quote]- A quote from Mordenkainen  
+> 
+> No creature embodies the chaotic nature of the Abyss so well as the sibriex. Although the realm of the demons is already a place of infinite horrors, sibriexes for some reason make even more of these monstrosities.
+
+## Sibriex
+
+Thought to be as old as the Abyss itself, sibriexes haunt remote parts of the plane, where they use their vile abilities to breed new horrors and apprehend forbidden lore. Rivulets of blood and bile cascade from a sibriex's body. Where these noxious fluids hit the ground, the land scape becomes polluted.
+
+## Keepers of Forbidden Lore
+
+Sibriexes have spent eons amassing information from across the planes, hoarding knowledge for when it might be useful. Such is their incredible intellect that many seek them out, including demon lords. Some sibriexes act as advisors and oracles, manipulating demons into serving their ends, while other sibriexes cling to their secrets, parceling out lore only when doing so would advance their plans.
+
+## Demon Crafters
+
+Sibriexes can channel the power of the Abyss to create new demons from other creatures. Over the course of days, they can create vast numbers of rutterkins to protect their lands and to ensure that the plane teems with destructive monsters. Some demons petition sibriexes for physical gifts, and if they are moved to do so, sibriexes can graft on new body parts to give the demons greater strength, vision, or stamina. Sibriexes never give aid freely; they demand a service or a treasure in return for the flesh-shaping they provide.
+
+
+## Statblock
+
+```ad-statblock
+title: Sibriex
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MTF/Sibriex.webp#token)
+*Huge fiend (demon), Chaotic Evil*
+
+- **Armor Class** 19 (natural armor)
+- **Hit Points** 150 (`12d12 + 72`) 
+- **Speed** 0 ft., fly 20 ft. (hover)
+
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|10 (+0)| 3 (-4)|23 (+6)|25 (+7)|24 (+7)|25 (+7)|
+
+- **Proficiency Bonus** +6
+- **Saving Throws** Intelligence +13, Charisma +13
+- **Skills** Arcana +13, History +13, Perception +13
+- **Senses** truesight 120 ft., passive Perception 23
+- **Damage Resistances** cold; fire; lightning; bludgeoning, piercing, slashing from nonmagical attacks
+- **Damage Immunities** poison
+- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
+- **Languages** all, telepathy 120 ft.
+- **Challenge** 18
+
+## Traits
+
+***Contamination.*** The sibriex emits an aura of corruption 30 feet in every direction. Plants that aren't creatures wither in the aura, and the ground in it is difficult terrain for other creatures. Any creature that starts its turn in the aura must succeed on a DC 20 Constitution saving throw or take 14 (`4d6`) poison damage. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours.
+
+***Legendary Resistance (3/Day).*** If the sibriex fails a saving throw, it can choose to succeed instead.
+
+***Magic Resistance.*** The sibriex has advantage on saving throws against spells and other magical effects.
+
+***Innate Spellcasting.*** The sibriex's innate spellcasting ability is Charisma (spell save DC 21). It can innately cast the following spells, requiring no material components:
+
+**At will**: [charm person](/3-Mechanics/CLI/spells/charm-person.md), [command](/3-Mechanics/CLI/spells/command.md), [dispel magic](/3-Mechanics/CLI/spells/dispel-magic.md), [hold monster](/3-Mechanics/CLI/spells/hold-monster.md)
+
+**3/day**: [feeblemind](/3-Mechanics/CLI/spells/feeblemind.md)
+
+## Actions
+
+***Multiattack.*** The sibriex uses Squirt Bile once and makes three attacks using its chain, bite, or both.
+
+***Chain.*** *Melee Weapon Attack:* +6 to hit, reach 15 ft., one target. *Hit:* 20 (`2d12 + 7`) piercing damage.
+
+***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (`2d8`) piercing damage plus 9 (`2d8`) acid damage.
+
+***Squirt Bile.*** The sibriex targets one creature it can see within 120 feet of it. The target must succeed on a DC 20 Dexterity saving throw or take 35 (`10d6`) acid damage.
+
+***Warp Creature.*** The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a DC 20 Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), which causes it to also gain 1 level of [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion). While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion) caused by it. Each failed save causes the target to suffer another level of [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion). Once the target reaches 6 levels of [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), it dies and instantly transforms into a living [abyssal wretch](/3-Mechanics/CLI/bestiary/fiend/abyssal-wretch-mtf.md) under the sibriex's control. The transformation of the body can be undone only by a [wish](/3-Mechanics/CLI/spells/wish.md) spell.
+
+## Legendary Actions
+
+***Cast a Spell.*** The sibriex casts a spell.
+
+***Spray Bile.*** The sibriex uses Squirt Bile.
+
+***Warp (Costs 2 Actions).*** The sibriex uses Warp Creature.
+```
+^statblock
+
+## Environment
+
+underdark
