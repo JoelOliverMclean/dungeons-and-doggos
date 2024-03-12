@@ -15,14 +15,10 @@ hp: 71
 ac: 22
 modifier: 4
 pasperc: 13
-Status:
-  - Active
 PlayerKnownLanguages:
-  - Celestial
   - Common
-  - Dwarvish
+Status: Active
 ---
-
 <% await tp.file.move("/1-Party/" + tp.file.title) %>
 
 <%*
@@ -35,13 +31,10 @@ if (!hasTitle) {
     title = tp.file.title;
 }
 _%>
-
-[[Pasted image 20220612052639.png]]
-
 # `=this.file.name`
 
-| Image                                              | Char Name         | Player Name    | Class         | Race         | Level         |
-| -------------------------------------------------- | ----------------- | -------------- | ------------- | ------------ | ------------- |
+| Image                                   | Char Name         | Player Name    | Class         | Race         | Level         |
+| --------------------------------------- | ----------------- | -------------- | ------------- | ------------ | ------------- |
 | ![[ImagePlaceholder.png\|cover hsmall]] | `=this.file.name` | `=this.player` | `=this.class` | `=this.race` | `=this.level` |
 
 ```custom-frames

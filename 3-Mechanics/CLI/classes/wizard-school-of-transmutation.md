@@ -7,7 +7,7 @@ tags:
 aliases: ["School of Transmutation"]
 ---
 # School of Transmutation
-*[Wizard](wizard.md): Arcane Tradition*  
+*[Wizard](3-Mechanics/CLI/classes/wizard.md): Arcane Tradition*  
 *Source: Player's Handbook p. 119*  
 
 

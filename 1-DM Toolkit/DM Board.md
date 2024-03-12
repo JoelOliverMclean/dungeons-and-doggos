@@ -3,7 +3,7 @@ obsidianUIMode: preview
 ---
 
 ```dataview
-TABLE WITHOUT ID link(file.name) AS "Character Name", Player, AC, pasperc As "Pass Perc (WIS)"
+TABLE WITHOUT ID link(file.name) AS "Character Name", Player, ac As "AC", pasperc As "Pass Perc (WIS)"
 from "1-Party"
 where contains(Role, "Player") 
 where contains(Status, "Active")
@@ -73,6 +73,17 @@ actions:
   - type: templaterCreateNote
     templateFile: "z_Templates/TemplatePlayer.md"
     fileName: NewPlayer
+```
+
+```meta-bind-button
+label: New Spellbook
+hidden: false
+id: ""
+style: primary
+actions:
+  - type: templaterCreateNote
+    templateFile: "z_Templates/TemplateSpellbook.md"
+    fileName: NewSpellbook
 ```
 
 ## Known Languages

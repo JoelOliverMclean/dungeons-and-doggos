@@ -28,5 +28,7 @@
   "obsidian-icon-folder",
   "obsidian-chartsview-plugin",
   "helpmate",
-  "obsidian-charts"
+  "obsidian-charts",
+  "obsidian-textgenerator-plugin",
+  "metadata-menu"
 ]

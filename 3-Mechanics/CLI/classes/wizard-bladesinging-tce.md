@@ -7,7 +7,7 @@ tags:
 aliases: ["Bladesinging"]
 ---
 # Bladesinging
-*[Wizard](wizard.md): Arcane Tradition*  
+*[Wizard](3-Mechanics/CLI/classes/wizard.md): Arcane Tradition*  
 *Source: Tasha's Cauldron of Everything p. 76, Sword Coast Adventurer's Guide p. 141*  
 
 

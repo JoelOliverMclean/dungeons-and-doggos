@@ -11399,9 +11399,481 @@
       ]
     },
     {
+      "id": "Map_Waterdeep_Full",
+      "locked": false,
+      "lastAccessed": 1710172472851,
+      "markers": [
+        {
+          "id": "ID_0acaf97af839",
+          "type": "Tavern/Inn",
+          "loc": [
+            2692.5,
+            1991.8370900016891
+          ],
+          "link": "The Yawning Portal",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6653670897068326,
+            -0.4412817195624072
+          ],
+          "description": null,
+          "minZoom": -3,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b68ab28481a",
+          "type": "District",
+          "loc": [
+            5149.33349609375,
+            2144.0020268986345
+          ],
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.0128559655706517,
+            -1.1935104955377926
+          ],
+          "description": "North Ward",
+          "minZoom": null,
+          "maxZoom": -0.75,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_584bebe938f9",
+          "type": "District",
+          "loc": [
+            5266.666748046875,
+            1018.6632761860519
+          ],
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.4812305040985706,
+            -1.2207059505977278
+          ],
+          "description": "North Ward",
+          "minZoom": null,
+          "maxZoom": -0.75,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4848aaa808e9",
+          "type": "District",
+          "loc": [
+            3803.29155865305,
+            2593.6734063273325
+          ],
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.225286893100868,
+            -0.8815254238798408
+          ],
+          "description": "City of the Dead",
+          "minZoom": null,
+          "maxZoom": -0.75,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69280a588b99",
+          "type": "District",
+          "loc": [
+            3842.66650390625,
+            1768.0040537972682
+          ],
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.8352293657259316,
+            -0.8906517332277535
+          ],
+          "description": "Castle Ward",
+          "minZoom": null,
+          "maxZoom": -0.75,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3b38586ae839",
+          "type": "District",
+          "loc": [
+            2917.33349609375,
+            2461.3387137639093
+          ],
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.1627701691737415,
+            -0.6761784120630708
+          ],
+          "description": "Trades Ward",
+          "minZoom": null,
+          "maxZoom": -0.75,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99684999caf8",
+          "type": "District",
+          "loc": [
+            2144,
+            2066.669393830628
+          ],
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.9763229689813159,
+            -0.4969354780330662
+          ],
+          "description": "Dock Ward",
+          "minZoom": null,
+          "maxZoom": -0.75,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8bd85ac8083a",
+          "type": "District",
+          "loc": [
+            1709.3330078125,
+            2730.6713837805883
+          ],
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.2900066167735937,
+            -0.39618853328125164
+          ],
+          "description": "Southern Ward",
+          "minZoom": null,
+          "maxZoom": -0.75,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_18bab83b29b9",
+          "type": "District",
+          "loc": [
+            6421.33349609375,
+            2040.0081075945363
+          ],
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.9637278116655954,
+            -1.4883341560126342
+          ],
+          "description": "Field Ward",
+          "minZoom": null,
+          "maxZoom": -0.75,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_89b98928f839",
+          "type": "Region",
+          "loc": [
+            5459,
+            2303.334683059561
+          ],
+          "link": "Trollskull Alley",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7694219082379121,
+            -0.894691516097003
+          ],
+          "description": null,
+          "minZoom": -3,
+          "maxZoom": 0,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_491ab90aabfa",
+          "type": "Home",
+          "loc": [
+            5488.530902360995,
+            2345.1199711416493
+          ],
+          "link": "Trollskull Manor",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7833801559597261,
+            -0.8995314222712238
+          ],
+          "description": null,
+          "minZoom": 0.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3929fb584a8a",
+          "type": "Merchant",
+          "loc": [
+            5457.685846651231,
+            2392.3779153326705
+          ],
+          "link": "The Bent Nail",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 0.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_283889eacb88",
+          "type": "Merchant",
+          "loc": [
+            5428.223028136481,
+            2381.771489503261
+          ],
+          "link": "The Steam and Steel",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 0.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d88b5ab9e998",
+          "type": "Merchant",
+          "loc": [
+            5486.264738531126,
+            2288.550040347011
+          ],
+          "link": "Tiger's Eye",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 0.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a0989388809",
+          "type": "Merchant",
+          "loc": [
+            5489.093165655871,
+            2233.3992049217723
+          ],
+          "link": "Book Wyrm's Treasure",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 0.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b0b6a985828",
+          "type": "Merchant",
+          "loc": [
+            5441.02025489916,
+            2337.411663935792
+          ],
+          "link": "Corellon's Crown",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 0.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69094b2b18db",
+          "type": "Castle",
+          "loc": [
+            2850.8333740234375,
+            1754.3434794829298
+          ],
+          "link": "Castle Waterdeep",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "2-World/Waterdeep/Waterdeep.md"
+      ]
+    },
+    {
+      "id": "Map_Trollskull_Alley",
+      "locked": false,
+      "lastAccessed": 1710192718877,
+      "markers": [
+        {
+          "id": "ID_9bcb4bd94b58",
+          "type": "Home",
+          "loc": [
+            1519.8081174857891,
+            1860.1620045235593
+          ],
+          "link": "Trollskull Manor",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.09964645208364924,
+            -0.10535947313495711
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_191b2af919f9",
+          "type": "Merchant",
+          "loc": [
+            1211.5095608884544,
+            2324.9674548498106
+          ],
+          "link": "The Bent Nail",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.1245454737395704,
+            -0.08398692411534926
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_383a5889c9fa",
+          "type": "Merchant",
+          "loc": [
+            951.2942654118049,
+            2222.2010347995138
+          ],
+          "link": "The Steam and Steel",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.11904041067170448,
+            -0.06594770842907476
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e898791aca59",
+          "type": "Merchant",
+          "loc": [
+            912.874854511833,
+            1780.501217273773
+          ],
+          "link": "Corellon's Crown",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_483969cac81a",
+          "type": "Merchant",
+          "loc": [
+            1409.4994596206877,
+            1283.1632293837786
+          ],
+          "link": "Tiger's Eye",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.06873738036867418,
+            -0.0977124143114277
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bbb949596868",
+          "type": "Merchant",
+          "loc": [
+            1464.41814383734,
+            739.7059641205419
+          ],
+          "link": "Book Wyrm's Treasure",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5bc8e9387a98",
+          "type": "Tavern/Inn",
+          "loc": [
+            1088.9444430272833,
+            597.7402776414389
+          ],
+          "link": "Frewn's Brews",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.03202016694762053,
+            -0.07549019607843137
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Alley.md"
+      ]
+    },
+    {
       "id": "Regional_Lampoteuo",
       "locked": true,
-      "lastAccessed": 1709912835456,
+      "lastAccessed": 1710193888178,
       "markers": [
         {
           "id": "ID_6b7a8be94beb",
@@ -11457,9 +11929,7 @@
       ],
       "overlays": [],
       "shapes": [],
-      "files": [
-        "2-World/Lampoteuo/Lampoteuo.md"
-      ]
+      "files": []
     }
   ],
   "defaultMarker": {
@@ -11595,9 +12065,10 @@
       "maxZoom": null
     },
     {
-      "type": "Car",
-      "iconName": "car",
-      "color": "#ff0000",
+      "type": "District",
+      "iconName": "city",
+      "color": "#009dff",
+      "alpha": 1,
       "layer": false,
       "transform": {
         "size": 6,
@@ -11606,7 +12077,55 @@
       },
       "isImage": false,
       "tags": [],
-      "minZoom": 3,
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Home",
+      "iconName": "house-user",
+      "color": "#0ba300",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Tavern/Inn",
+      "iconName": "beer",
+      "color": "#ff8800",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Merchant",
+      "iconName": "shopping-basket",
+      "color": "#00eeff",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
       "maxZoom": null
     }
   ],
@@ -11629,20 +12148,19 @@
   "mapViewEnabled": true,
   "mapViewParameters": {
     "darkMode": false,
-    "defaultZoom": 13.5,
+    "defaultZoom": -1,
     "distanceMultiplier": 1,
     "drawColor": "#3388ff",
     "geojson": [],
     "geojsonColor": "#3388ff",
     "gpx": [],
     "gpxColor": "#3388ff",
-    "height": "800px",
-    "image": "[[Map_Josh_Town.png]]",
+    "height": "900px",
+    "image": "[[Map_Waterdeep_Full.webp]]",
     "imageOverlay": [],
     "isMapView": false,
     "layers": [
-      "[[Map_Josh_Town.png]]",
-      "[[Pasted image 20230311075006.png]]"
+      "[[Map_Waterdeep_Full.webp]]"
     ],
     "linksFrom": [],
     "linksTo": [],
@@ -11651,8 +12169,8 @@
     "markerFile": [],
     "markerFolder": [],
     "markerTag": [],
-    "maxZoom": 16,
-    "minZoom": 13.5,
+    "maxZoom": 1.25,
+    "minZoom": -3,
     "osmLayer": true,
     "overlay": [],
     "overlayColor": "blue",
@@ -11662,12 +12180,24 @@
     "verbose": false,
     "zoomDelta": 0.5,
     "zoomFeatures": false,
-    "id": "Map_Josh_Town",
+    "id": "Map_Waterdeep_Full",
+    "lock": false,
+    "recenter": true,
+    "noScrollZoom": false,
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      [
+        7034.9,
+        3451.52
+      ]
+    ],
     "width": "95%",
-    "lock": true,
-    "lat": 50,
-    "long": 50,
-    "unit": "feet",
+    "lat": 3517.45,
+    "long": 1725.76,
+    "unit": "meters",
     "filterTag": []
   },
   "enableDraw": true,

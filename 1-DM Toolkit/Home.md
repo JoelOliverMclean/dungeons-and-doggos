@@ -14,7 +14,7 @@ obsidianUIMode: preview
 > [![[AdventureIcon.png\|sban htiny ctr]]](Lampoteuo)
 > 
 > **[[Link]]**
-> [![[PartyLogo.jpg\|sban htiny ctr p+t]]|](Party%201%2FExample%20Party%201)
+> [![[PartyLogo.jpg\|sban htiny ctr p+t]]|](Nerds%20With%20Dogs)
 
 
 > [!infobox]

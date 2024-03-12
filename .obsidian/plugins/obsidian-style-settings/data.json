@@ -21,5 +21,6 @@
   "ITS@@mini": false,
   "ITS@@notion": false,
   "ITS@@its-d": false,
-  "ITS@@select": "none"
+  "ITS@@select": "wotc-beyond",
+  "ITS@@folder-arrow": true
 }

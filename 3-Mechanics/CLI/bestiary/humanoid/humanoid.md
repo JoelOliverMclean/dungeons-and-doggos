@@ -63,7 +63,7 @@ cssclasses: json5e-note
 - [Drow Shadowblade](drow-shadowblade-mpmm.md)
 - [Drow Shadowblade](drow-shadowblade-mtf.md)
 - [Drow](drow.md)
-- [Druid](druid.md)
+- [Druid](3-Mechanics/CLI/bestiary/humanoid/druid.md)
 - [Duergar Despot](duergar-despot-mpmm.md)
 - [Duergar Despot](duergar-despot-mtf.md)
 - [Duergar Kavalrachni](duergar-kavalrachni-mpmm.md)

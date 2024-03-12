@@ -7,7 +7,7 @@ tags:
 aliases: ["Circle of Dreams"]
 ---
 # Circle of Dreams
-*[Druid](druid.md): Druid Circle*  
+*[Druid](3-Mechanics/CLI/classes/druid.md): Druid Circle*  
 *Source: Xanathar's Guide to Everything p. 22*  
 
 

@@ -13,5 +13,6 @@
     "FantasyFonts",
     "hide-markdown-link-url"
   ],
-  "baseFontSize": 15
+  "baseFontSize": 14,
+  "baseFontSizeAction": true
 }

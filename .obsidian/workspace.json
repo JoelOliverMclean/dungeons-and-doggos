@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e1b2c876770ace1b",
+        "id": "2bedaefefe6d5af7",
         "type": "tabs",
         "children": [
           {
-            "id": "248b5194c319da15",
+            "id": "3e6bb13e49013819",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Party/Example Party 1/Example Party 1.md",
+                "file": "4-Planning/Session 7 Plan.md",
                 "mode": "preview",
-                "source": false
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cc6ce7d7fc4382ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-World/Waterdeep/Waterdeep.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,10 +61,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Waterdeep Drago",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
+                "explainSearch": true,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -63,20 +76,6 @@
             "state": {
               "type": "bookmarks",
               "state": {}
-            }
-          },
-          {
-            "id": "2e6355ae312b2c82",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true
             }
           },
           {
@@ -92,12 +91,26 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "2e6355ae312b2c82",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 431.5
   },
   "right": {
     "id": "4376769ea3073bd6",
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Party/Example Party 1/Example Party 1.md",
+                "file": "2-World/Waterdeep/Waterdeep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,9 +143,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Party/Example Party 1/Example Party 1.md",
+                "file": "2-World/Waterdeep/Waterdeep.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Party/Example Party 1/Example Party 1.md"
+                "file": "2-World/Waterdeep/Waterdeep.md"
               }
             }
           },
@@ -202,11 +215,25 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
+      },
+      {
+        "id": "4ea24be3058e8490",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "516e14e4b437148c",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 541.5
+    "width": 454.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,57 +252,62 @@
       "obsidian-5e-statblocks:Open Creature Pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian42-brat:BRAT": false,
-      "obsidian-custom-frames:Open Obsidian Forum": false
+      "obsidian-custom-frames:Open Obsidian Forum": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "248b5194c319da15",
+  "active": "cc6ce7d7fc4382ba",
   "lastOpenFiles": [
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Manor/Lif.md",
+    "4-Planning/Session 7 Plan.md",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Manor/Trollskull Manor.md",
+    "3-Mechanics/CLI/adventures/waterdeep-dragon-heist/04-trollskull-alley.md",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Frewn's Brews.md",
+    "3-Mechanics/NPCs/Emmek Frewn.md",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Book Wyrm's Treasure.md",
+    "3-Mechanics/CLI/bestiary/npc/emmek-frewn-wdh.md",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Alley.md",
+    "3-Mechanics/Guilds and Groups/Magicians.md",
+    "1-Party/Nerds with Dogs/Mhazhique Waand/Pet Rock.md",
+    "z_Assets/Trollskull Alley-20240311212914483.webp",
+    "3-Mechanics/NPCs/Volothamp Geddarm.md",
+    "z_Assets/Yagra Stonefist.md",
+    "z_Assets/Trilbi the Magnificent.md",
+    "z_Assets/Renaer Neverember.md",
+    "z_Assets/Pet Rock.md",
+    "z_Assets/Floon Blagmaar.md",
+    "z_Assets/Durnan.md",
+    "3-Mechanics/Guilds and Groups/Harpers.md",
+    "3-Mechanics/Items/Broken Stick.md",
+    "3-Mechanics/Where To Get Mechanics.md",
+    "z_Example Notes/Untitled.md",
+    "z_Example Notes/z_Example Notes.md",
     "1-DM Toolkit/Home.md",
-    "3-Mechanics/CLI/adventures/waterdeep-dragon-heist/13-monsters-and-npcs.md",
-    "3-Mechanics/CLI/bestiary/npc/aurinax-wdh.md",
-    "3-Mechanics/CLI/adventures/waterdeep-dragon-heist/14-handouts.md",
-    "3-Mechanics/CLI/CLI.md",
-    "3-Mechanics/CLI/compendium/adventures/waterdeep-dragon-heist/13-monsters-and-npcs.md",
-    "3-Mechanics/CLI/bestiary/dragon/adult-gold-dragon.md",
-    "3-Mechanics/CLI/compendium/adventures/waterdeep-dragon-heist/01-foreword.md",
-    "3-Mechanics/CLI/deities/yuan-ti-sseth.md",
-    "3-Mechanics/CLI/deities/yuan-ti-merrshaulk.md",
-    "3-Mechanics/CLI/deities/yuan-ti-dendar.md",
-    "3-Mechanics/CLI/deities/orc-yurtrus.md",
-    "3-Mechanics/CLI/deities/orc-shargaas.md",
-    "3-Mechanics/CLI/deities/orc-luthic.md",
-    "3-Mechanics/CLI/deities/orc-ilneval.md",
-    "3-Mechanics/CLI/deities/orc-gruumsh.md",
-    "3-Mechanics/CLI/deities/orc-bahgtru.md",
-    "3-Mechanics/CLI/deities/norse-uller.md",
-    "3-Mechanics/CLI/deities/norse-tyr.md",
-    "3-Mechanics/CLI/deities/norse-thrym.md",
-    "3-Mechanics/CLI/deities/norse-thor.md",
-    "3-Mechanics/CLI/deities/norse-surtur.md",
-    "3-Mechanics/CLI/deities/norse-skadi.md",
-    "3-Mechanics/CLI/deities/norse-sif.md",
-    "3-Mechanics/CLI/deities/norse-odur.md",
-    "3-Mechanics/CLI/deities/norse-odin.md",
-    "3-Mechanics/CLI/deities",
-    "3-Mechanics/CLI/classes",
-    "3-Mechanics/CLI/bestiary/undead",
-    "3-Mechanics/CLI/bestiary/plant",
-    "3-Mechanics/CLI/bestiary/ooze",
-    "3-Mechanics/CLI/bestiary/npc",
-    "3-Mechanics/CLI/bestiary/monstrosity",
-    "3-Mechanics/CLI/bestiary/legendary-group",
-    "3-Mechanics/CLI/bestiary/humanoid",
-    "3-Mechanics/CLI/bestiary/giant",
-    "z_Assets/TemplateSettlement-20240122215419380.webp",
-    "z_Assets/Placeholder Images/MiscCombatRulesTitleBar.png",
-    "z_Assets/Placeholder Images/MagicTitleBar.png",
-    "z_Assets/Placeholder Images/HealDeathDmgTitleBar.png",
-    "z_Assets/Placeholder Images/ConditionsTitleBar.png",
-    "z_Assets/Placeholder Images/CombatActionsTitleBar.png",
-    "z_Assets/Placeholder Images/CheckTitleBar.png",
-    "z_Assets/Placeholder Images/AbilitiesTitleBar.png",
-    "z_Assets/Placeholder Images/WeaponsArmorItemsTitleBar.png",
-    "z_Assets/Placeholder Images/SkillsTitleBar.png",
+    "3-Mechanics/NPCs/Yagra Stonefist.md",
+    "3-Mechanics/NPCs/Trilbi the Magnificent.md",
+    "z_Assets/The_Yawning_Portal_Interior.png",
+    "z_Assets/The Yawning Portal-20240311155720770.webp",
+    "1-Party/Nerds with Dogs/Mhazhique Waand",
+    "1-Party/Nerds with Dogs/Lord Maji Cock",
+    "1-Party/Nerds with Dogs/Gil Lioth",
+    "1-Party/Nerds with Dogs/Drewid 'Geoff' Barrymore",
+    "1-Party/Nerds with Dogs/Flick McPlumbs",
+    "2-World/Waterdeep/Southern Ward/Southern Ward.canvas",
+    "z_Assets/Map_Waterdeep_Full.webp",
+    "2-World/Waterdeep/Dock Ward/Dock Ward.canvas",
+    "z_Assets/Pasted Image 20240311110433_430.jpg",
+    "Excalidraw",
+    "z_Assets/Dock Ward detail map.jpg",
+    "z_Assets/Southern ward map.jpg",
+    "2-World/Waterdeep/Southern Ward",
+    "z_Assets/Sea Ward-20240311110126834.webp",
+    "2-World/Waterdeep/Sea Ward",
+    "z_Assets/Dock Ward-20240311110051704.webp",
+    "2-World/Waterdeep/Dock Ward",
+    "z_Assets/Castle Ward-20240311110012215.webp",
+    "2-World/Waterdeep/Castle Ward",
+    "2-World/Waterdeep/North Ward/North Ward.canvas",
     "Untitled.canvas"
   ]
 }

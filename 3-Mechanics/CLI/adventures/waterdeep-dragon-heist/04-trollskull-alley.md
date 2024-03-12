@@ -36,11 +36,15 @@ When the characters first arrive, the tavern's taproom is filled with broken fur
 
 #### Spirit on Tap
 
-The former tavern is haunted by the poltergeist ([specter](/3-Mechanics/CLI/bestiary/undead/specter.md)) of the tavern's previous barkeeper, a half-elf named Lif. Maintaining the tavern was his life's work, and he couldn't abandon the place in death.
+^fa33b7
 
-The poltergeist understands Common and Elvish, but it can't speak. It invisibly causes mischief at the expense of the new owners by smashing plates, breaking beer barrels, and so forth. If the characters don't take the hint, it writes not-so-subtle warnings (such as "Closing time!" and "Last call!") on dusty floors and grimy windows. To truly claim the tavern as their own, the characters must either appease the poltergeist or destroy it.
+The former tavern is haunted by the poltergeist ([specter](/3-Mechanics/CLI/bestiary/undead/specter.md)) of the tavern's previous barkeeper, a half-elf named Lif. Maintaining the tavern was his life's work, and he couldn't abandon the place in death. ^167d38
+
+The poltergeist understands Common and Elvish, but it can't speak. It invisibly causes mischief at the expense of the new owners by smashing plates, breaking beer barrels, and so forth. If the characters don't take the hint, it writes not-so-subtle warnings (such as "Closing time!" and "Last call!") on dusty floors and grimy windows. To truly claim the tavern as their own, the characters must either appease the poltergeist or destroy it. ^0fd0fc
 
 ##### Appeasing Lif
+
+^1f03a8
 
 If the characters work to repair and renovate the tavern with the goal of opening it to the public again, the poltergeist begins to accept them as the new owners and gradually becomes quite accommodating: pulling out a chair when a character wants to sit down, pouring a beer and delivering it to a character, taking coats when folks come in from the rain, and so forth. Once the business is up and running, Lif can also perform other helpful functions, such as locking doors, sweeping floors, and so forth.
 

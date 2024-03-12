@@ -7,7 +7,7 @@ tags:
 aliases: ["Circle of Wildfire"]
 ---
 # Circle of Wildfire
-*[Druid](druid.md): Druid Circle*  
+*[Druid](3-Mechanics/CLI/classes/druid.md): Druid Circle*  
 *Source: Tasha's Cauldron of Everything p. 39*  
 
 

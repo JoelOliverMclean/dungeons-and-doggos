@@ -1,0 +1,1 @@
+![[04-trollskull-alley#T6. Book Wyrm's Treasure]]
