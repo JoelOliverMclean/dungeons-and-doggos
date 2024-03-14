@@ -31,7 +31,8 @@ level: 2
 >   - [Mischievous, "Pet Rock likes to have fun and will sometimes act of it's own accord regardless of the situation"]
 > actions:
 >   - [Toss Self, "Pet Rock flies at a target from a stand still and on a successful hit deals 1d4 + prof bonus bludgeoning damage (can only be used as reaction if prepared)"]
->   - [Jump, "(Bonus Action) Can hop to a point within 10 ft. radius of itself"]
+> bonus_actions:
+>   - [Jump, "Can hop to a point within 10 ft. radius of itself"]
 > reactions:
 >   - [Have a nice trip,  "When in range, Pet Rock can use it's reaction to roll itself in the way of a passing target. Target must succeed on a DC 15 dex save or be knocked prone."]
 > ```

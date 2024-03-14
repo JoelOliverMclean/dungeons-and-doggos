@@ -9,7 +9,7 @@ Class:
 Alignment: Chaotic Good
 Character-Role: 
 Location: "[[Waterdeep]]"
-NoteIcon: npc
+NoteIcon: npc_male
 Vitality: Healthy
 aliases:
   - Volo
@@ -60,3 +60,4 @@ creatures:
  - 1: Commoner
 ```
 
+## Notes

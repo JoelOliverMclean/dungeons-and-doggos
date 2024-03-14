@@ -28,5 +28,5 @@
   "desiredLength": 800,
   "resizeByDragging": false,
   "resizeWithShiftScrollwheel": false,
-  "rightClickContextMenu": false
+  "rightClickContextMenu": true
 }

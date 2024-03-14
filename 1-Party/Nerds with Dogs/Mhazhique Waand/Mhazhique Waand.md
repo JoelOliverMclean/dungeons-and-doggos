@@ -6,7 +6,8 @@ tags:
   - player
 Player: Tom
 Role: Player
-Class: "[[Warlock]]"
+Class:
+  - "[[Warlock]]"
 Race:
   - "[[tiefling|Tiefling]]"
 level: 1
@@ -27,8 +28,13 @@ Status: Active
 | ------------------------------------------------ | ----------------- | -------------- | ------------- | ------------ | ------------- |
 | ![[Mhazhique Waand Portrait.webp\|cover hsmall]] | `=this.file.name` | `=this.player` | `=this.class` | `=this.race` | `=this.level` |
 
+
+## DND Beyond
 ```custom-frames
 frame: DnDBeyond_Mhazhique
 style: height: 1000px
 ```
 
+
+## Special Items
+- [[Pet Rock]]

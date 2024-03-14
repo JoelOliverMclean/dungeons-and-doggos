@@ -30,8 +30,14 @@ Status: Active
 | ------------------------------------------------- | ----------------- | -------------- | ------------- | ------------ | ------------- |
 | ![[Drewid_Barrymore_Portrait.webp\|cover hsmall]] | `=this.file.name` | `=this.player` | `=this.class` | `=this.race` | `=this.level` |
 
+## DND Beyond
 ```custom-frames
 frame: DndBeyond_Geoff
 style: height: 1000px
 ```
 
+## Special Items
+- [[Dagger of Flame]] 
+- [[Shocking Dagger]] 
+- [[dagger-of-venom|Dagger of Venom]]
+- [[dagger|Gold Dagger]]

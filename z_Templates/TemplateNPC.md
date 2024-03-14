@@ -2,13 +2,15 @@
 AssociatedGroup: 
 Gender: Male
 Race: 
-Age: "1"
+Age: 
 Class: 
 Alignment: 
 Character-Role: 
 Location: 
 NoteIcon: npc
-Vitality: Deceased
+Vitality: 
+tags:
+  - npc
 ---
 
 <% await tp.file.move("/3-Mechanics/NPCs/" + tp.file.title) %>
@@ -51,14 +53,15 @@ _%>
 
 > [!info] Statblock
 > ```statblock
-> name: Individual
+> name: TemplateNPC
 > monster: Commoner
 > columns: 1
 > ```
 
 ```encounter-table
-name: Individual
+name: TemplateNPC
 creatures:
  - 1: Commoner
 ```
 
+## Notes

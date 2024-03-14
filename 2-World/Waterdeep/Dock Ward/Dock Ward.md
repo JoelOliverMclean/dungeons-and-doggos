@@ -1,2 +1,6 @@
+---
+NoteIcon: Settlement
+---
+
 ## POI Map
 

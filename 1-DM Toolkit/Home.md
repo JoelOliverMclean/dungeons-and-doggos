@@ -2,19 +2,15 @@
 obsidianUIMode: preview
 ---
 
-
-> [!cards|4]
-> **[[Map-Faerun]]**
-> [![[Northern Faerun Map.jpg\|sban htiny ctr]]](Lampoteuo)
+> [!cards|3]
+> **[[Waterdeep]]**
+> ![[Map_Waterdeep_Full.webp|sban htiny ctr]]
 > 
-> **[[Link]]**
+> **Link**
 > [![[JourneyBoard.png\|sban htiny ctr]]](Journey%20Board)
 >
-> **[[Link]]**
-> [![[AdventureIcon.png\|sban htiny ctr]]](Lampoteuo)
-> 
-> **[[Link]]**
-> [![[PartyLogo.jpg\|sban htiny ctr p+t]]|](Nerds%20With%20Dogs)
+> **Link**
+> [![[PartyLogo.jpg\|sban htiny ctr p+t]]](Nerds%20With%20Dogs)
 
 
 > [!infobox]
@@ -37,7 +33,7 @@ where (Status = "Active")
 ```dataview  
 TABLE WITHOUT ID link(file.name) AS "NPC Name", Gender, Race, Age, Location, AssociatedGroup  
 FROM "3-Mechanics/NPCs"
-WHERE (NoteIcon = "npc") 
+WHERE (startswith(NoteIcon, "npc")) 
 SORT file.mtime DESC
 LIMIT 10
 ```
@@ -47,7 +43,7 @@ LIMIT 10
 ```dataview  
 TABLE WITHOUT ID link(file.name) AS "Location Name", type, Government, Community-Size, size, population  
 FROM "2-World"
-WHERE (NoteIcon = "Settlement")  
+WHERE contains(tags, "location")  
 SORT file.mtime DESC
 LIMIT 10
 ```

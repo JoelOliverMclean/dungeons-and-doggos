@@ -1,0 +1,23 @@
+img[alt*="w90"] {
+    width: 90%;
+}
+
+img[alt*="w80"] {
+    width: 80%;
+}
+
+img[alt*="w70"] {
+    width: 70%;
+}
+
+img[alt*="w60"] {
+    width: 60%;
+}
+
+img[alt*="w50"] {
+    width: 50%;
+}
+
+img[alt*="center"] {
+    align: center;
+}

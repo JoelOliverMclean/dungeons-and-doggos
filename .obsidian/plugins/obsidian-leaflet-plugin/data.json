@@ -11399,9 +11399,216 @@
       ]
     },
     {
+      "id": "Regional_Lampoteuo",
+      "locked": true,
+      "lastAccessed": 1710193888178,
+      "markers": [
+        {
+          "id": "ID_6b7a8be94beb",
+          "type": "Dungeon",
+          "loc": [
+            141.4213562373095,
+            105.35966756771818
+          ],
+          "link": "The Wound",
+          "layer": "%5B%5BMap%20-%20Regional%20map%20of%20Lampoteuo.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4b7bc9288968",
+          "type": "Dungeon",
+          "loc": [
+            82.9082700941227,
+            8.839970521215726
+          ],
+          "link": "Creepers Cave",
+          "layer": "%5B%5BMap%20-%20Regional%20map%20of%20Lampoteuo.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a6bb9ba38ba",
+          "type": "City",
+          "loc": [
+            82.02438661763952,
+            83.26289614352298
+          ],
+          "link": "Lampoteuo City",
+          "layer": "%5B%5BMap%20-%20Regional%20map%20of%20Lampoteuo.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": []
+    },
+    {
+      "id": "Map_Trollskull_Alley",
+      "locked": false,
+      "lastAccessed": 1710365545029,
+      "markers": [
+        {
+          "id": "ID_9bcb4bd94b58",
+          "type": "Home",
+          "loc": [
+            1519.8081174857891,
+            1860.1620045235593
+          ],
+          "link": "Trollskull Manor",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.09964645208364924,
+            -0.10535947313495711
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_191b2af919f9",
+          "type": "Merchant",
+          "loc": [
+            1211.5095608884544,
+            2324.9674548498106
+          ],
+          "link": "The Bent Nail",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.1245454737395704,
+            -0.08398692411534926
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_383a5889c9fa",
+          "type": "Merchant",
+          "loc": [
+            951.2942654118049,
+            2222.2010347995138
+          ],
+          "link": "The Steam and Steel",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.11904041067170448,
+            -0.06594770842907476
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e898791aca59",
+          "type": "Merchant",
+          "loc": [
+            912.874854511833,
+            1780.501217273773
+          ],
+          "link": "Corellon's Crown",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_483969cac81a",
+          "type": "Business",
+          "loc": [
+            1409.4994596206877,
+            1283.1632293837786
+          ],
+          "link": "Tiger's Eye",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.06873738036867418,
+            -0.0977124143114277
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bbb949596868",
+          "type": "Merchant",
+          "loc": [
+            1464.41814383734,
+            739.7059641205419
+          ],
+          "link": "Book Wyrm's Treasure",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5bc8e9387a98",
+          "type": "Tavern/Inn",
+          "loc": [
+            1088.9444430272833,
+            597.7402776414389
+          ],
+          "link": "Frewn's Brews",
+          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.03202016694762053,
+            -0.07549019607843137
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Alley.md"
+      ]
+    },
+    {
       "id": "Map_Waterdeep_Full",
       "locked": false,
-      "lastAccessed": 1710172472851,
+      "lastAccessed": 1710365577061,
       "markers": [
         {
           "id": "ID_0acaf97af839",
@@ -11668,7 +11875,7 @@
         },
         {
           "id": "ID_5a0989388809",
-          "type": "Merchant",
+          "type": "Business",
           "loc": [
             5489.093165655871,
             2233.3992049217723
@@ -11716,6 +11923,23 @@
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
+        },
+        {
+          "id": "ID_097ad958fa5b",
+          "type": "Tavern/Inn",
+          "loc": [
+            5467.83696714186,
+            2206.231969047418
+          ],
+          "link": "Frewn's Brews",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
         }
       ],
       "overlays": [],
@@ -11723,213 +11947,6 @@
       "files": [
         "2-World/Waterdeep/Waterdeep.md"
       ]
-    },
-    {
-      "id": "Map_Trollskull_Alley",
-      "locked": false,
-      "lastAccessed": 1710192718877,
-      "markers": [
-        {
-          "id": "ID_9bcb4bd94b58",
-          "type": "Home",
-          "loc": [
-            1519.8081174857891,
-            1860.1620045235593
-          ],
-          "link": "Trollskull Manor",
-          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": [
-            0.09964645208364924,
-            -0.10535947313495711
-          ],
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
-          "id": "ID_191b2af919f9",
-          "type": "Merchant",
-          "loc": [
-            1211.5095608884544,
-            2324.9674548498106
-          ],
-          "link": "The Bent Nail",
-          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": [
-            0.1245454737395704,
-            -0.08398692411534926
-          ],
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
-          "id": "ID_383a5889c9fa",
-          "type": "Merchant",
-          "loc": [
-            951.2942654118049,
-            2222.2010347995138
-          ],
-          "link": "The Steam and Steel",
-          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": [
-            0.11904041067170448,
-            -0.06594770842907476
-          ],
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
-          "id": "ID_e898791aca59",
-          "type": "Merchant",
-          "loc": [
-            912.874854511833,
-            1780.501217273773
-          ],
-          "link": "Corellon's Crown",
-          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
-          "id": "ID_483969cac81a",
-          "type": "Merchant",
-          "loc": [
-            1409.4994596206877,
-            1283.1632293837786
-          ],
-          "link": "Tiger's Eye",
-          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": [
-            0.06873738036867418,
-            -0.0977124143114277
-          ],
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
-          "id": "ID_bbb949596868",
-          "type": "Merchant",
-          "loc": [
-            1464.41814383734,
-            739.7059641205419
-          ],
-          "link": "Book Wyrm's Treasure",
-          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
-          "id": "ID_5bc8e9387a98",
-          "type": "Tavern/Inn",
-          "loc": [
-            1088.9444430272833,
-            597.7402776414389
-          ],
-          "link": "Frewn's Brews",
-          "layer": "%5B%5BTrollskull%20Alley-20240311105803945.webp%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": [
-            0.03202016694762053,
-            -0.07549019607843137
-          ],
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        }
-      ],
-      "overlays": [],
-      "shapes": [],
-      "files": [
-        "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Alley.md"
-      ]
-    },
-    {
-      "id": "Regional_Lampoteuo",
-      "locked": true,
-      "lastAccessed": 1710193888178,
-      "markers": [
-        {
-          "id": "ID_6b7a8be94beb",
-          "type": "Dungeon",
-          "loc": [
-            141.4213562373095,
-            105.35966756771818
-          ],
-          "link": "The Wound",
-          "layer": "%5B%5BMap%20-%20Regional%20map%20of%20Lampoteuo.png%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
-          "id": "ID_4b7bc9288968",
-          "type": "Dungeon",
-          "loc": [
-            82.9082700941227,
-            8.839970521215726
-          ],
-          "link": "Creepers Cave",
-          "layer": "%5B%5BMap%20-%20Regional%20map%20of%20Lampoteuo.png%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
-          "id": "ID_1a6bb9ba38ba",
-          "type": "City",
-          "loc": [
-            82.02438661763952,
-            83.26289614352298
-          ],
-          "link": "Lampoteuo City",
-          "layer": "%5B%5BMap%20-%20Regional%20map%20of%20Lampoteuo.png%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        }
-      ],
-      "overlays": [],
-      "shapes": [],
-      "files": []
     }
   ],
   "defaultMarker": {
@@ -12116,6 +12133,22 @@
       "type": "Merchant",
       "iconName": "shopping-basket",
       "color": "#00eeff",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Business",
+      "iconName": "briefcase",
+      "color": "#e6c700",
       "alpha": 1,
       "layer": false,
       "transform": {

@@ -1,0 +1,148 @@
+{
+  "targetAttributes": [
+    "NoteIcon"
+  ],
+  "targetTags": true,
+  "getFromInlineField": true,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": [
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "Settlement",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "c7e0-f141",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "NPC",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "bfa4-a365",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "NPC_Male",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "b2db-896b",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "NPC_Female",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "790a-37a6",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "journal",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "48ae-01c9",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "Tavern",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d7d7-697e",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "Shop",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "ae81-c2da",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "home",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "14c9-1ec8",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "player",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "ff5a-8552",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "group",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "2fe2-ad28",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "Business",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "44c3-290b",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    }
+  ]
+}

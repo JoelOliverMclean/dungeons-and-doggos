@@ -1,6 +1,6 @@
 # Upgrade Options for Trollskull Manor
 
-Waterdeep: Dragon Heist rewards players with the deed to Trollskull Manor] a run-down former mansion/tavern. With enough gold, the party can make basic renovations and set themselves up to re-open the tavern. With a little more gold, they can make the place shine.
+Waterdeep: Dragon Heist rewards players with the deed to [[Trollskull Manor]] a run-down former mansion/tavern. With enough gold, the party can make basic renovations and set themselves up to re-open the tavern. With a little more gold, they can make the place shine.
 
 This guide draws from Janek Sielicki's Dragon Heist Options for Trollskull Manor and Durnan's Guide to Tavernkeeping while simplifying and streamlining several aspects and bringing the economy more in accordance with the W:DH module.
 

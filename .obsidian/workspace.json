@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2bedaefefe6d5af7",
+        "id": "b13b8ec39b4fdba4",
         "type": "tabs",
         "children": [
           {
-            "id": "3e6bb13e49013819",
+            "id": "4add0cb7a7026bf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-Planning/Session 7 Plan.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cc6ce7d7fc4382ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-World/Waterdeep/Waterdeep.md",
+                "file": "1-Party/Nerds with Dogs/Mhazhique Waand/Pet Rock.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"contains(\"",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -77,7 +64,22 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 431.5
+  },
+  "right": {
+    "id": "4376769ea3073bd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "09384058bb1c4e72",
+        "type": "tabs",
+        "dimension": 55.31609195402298,
+        "children": [
           {
             "id": "f6ef017cc52d2e49",
             "type": "leaf",
@@ -105,28 +107,14 @@
               },
               "pinned": true
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 431.5
-  },
-  "right": {
-    "id": "4376769ea3073bd6",
-    "type": "split",
-    "children": [
-      {
-        "id": "09384058bb1c4e72",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "01866bcbc2fd8a19",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-World/Waterdeep/Waterdeep.md",
+                "file": "1-Party/Nerds with Dogs/Mhazhique Waand/Pet Rock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,9 +131,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-World/Waterdeep/Waterdeep.md",
+                "file": "1-Party/Nerds with Dogs/Mhazhique Waand/Pet Rock.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -166,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-World/Waterdeep/Waterdeep.md"
+                "file": "1-Party/Nerds with Dogs/Mhazhique Waand/Pet Rock.md"
               }
             }
           },
@@ -215,11 +203,12 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       },
       {
         "id": "4ea24be3058e8490",
         "type": "tabs",
+        "dimension": 44.68390804597701,
         "children": [
           {
             "id": "516e14e4b437148c",
@@ -233,7 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 454.5
+    "width": 560.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,56 +246,56 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "cc6ce7d7fc4382ba",
+  "active": "4add0cb7a7026bf4",
   "lastOpenFiles": [
-    "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Manor/Lif.md",
-    "4-Planning/Session 7 Plan.md",
-    "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Manor/Trollskull Manor.md",
-    "3-Mechanics/CLI/adventures/waterdeep-dragon-heist/04-trollskull-alley.md",
-    "2-World/Waterdeep/North Ward/Trollskull Alley/Frewn's Brews.md",
-    "3-Mechanics/NPCs/Emmek Frewn.md",
-    "2-World/Waterdeep/North Ward/Trollskull Alley/Book Wyrm's Treasure.md",
-    "3-Mechanics/CLI/bestiary/npc/emmek-frewn-wdh.md",
-    "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Alley.md",
-    "3-Mechanics/Guilds and Groups/Magicians.md",
+    "1-Party/Nerds with Dogs/Mhazhique Waand/Untitled.md",
     "1-Party/Nerds with Dogs/Mhazhique Waand/Pet Rock.md",
-    "z_Assets/Trollskull Alley-20240311212914483.webp",
-    "3-Mechanics/NPCs/Volothamp Geddarm.md",
-    "z_Assets/Yagra Stonefist.md",
-    "z_Assets/Trilbi the Magnificent.md",
-    "z_Assets/Renaer Neverember.md",
-    "z_Assets/Pet Rock.md",
-    "z_Assets/Floon Blagmaar.md",
-    "z_Assets/Durnan.md",
-    "3-Mechanics/Guilds and Groups/Harpers.md",
-    "3-Mechanics/Items/Broken Stick.md",
-    "3-Mechanics/Where To Get Mechanics.md",
-    "z_Example Notes/Untitled.md",
-    "z_Example Notes/z_Example Notes.md",
+    "1-Party/Nerds with Dogs/Mhazhique Waand/Mhazhique Waand.md",
+    "1-Party/Nerds with Dogs/Lord Maji Cock/Lord Maji Cock.md",
+    "1-Party/Nerds with Dogs/Gil Lioth/Gil Lioth.md",
+    "1-Party/Nerds with Dogs/Nerds with Dogs.md",
+    "0-Scratch Notes/Add Random Notes Here.md",
+    "0-Scratch Notes/Chart Test.md",
     "1-DM Toolkit/Home.md",
     "3-Mechanics/NPCs/Yagra Stonefist.md",
-    "3-Mechanics/NPCs/Trilbi the Magnificent.md",
-    "z_Assets/The_Yawning_Portal_Interior.png",
-    "z_Assets/The Yawning Portal-20240311155720770.webp",
+    "3-Mechanics/CLI/bestiary/npc/yagra-stonefist-wdh.md",
+    "2-World/Waterdeep/Dock Ward/The Yawning Portal.md",
+    "3-Mechanics/Spellbooks/Artificer Spellbook.md",
+    "z_Assets/The Yawning Portal-20240313213458175.webp",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Frewn's Brews.md",
+    "2-World/Waterdeep/Waterdeep.md",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Alley.md",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Tiger's Eye.md",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/The Steam and Steel.md",
+    "z_Assets/The Steam and Steel-20240313212814247.webp",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/The Bent Nail.md",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Corellon's Crown.md",
+    "z_Assets/The Bent Nail-20240313212735480.webp",
+    "z_Assets/Corellon's Crown-20240313212649422.webp",
+    "z_Assets/Corellon's Crown - Color.jpg.crdownload",
+    "z_Assets/Corellon's Crown - Color.pdf",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Book Wyrm's Treasure.md",
+    "z_Assets/Book Wyrm's Treasure-20240313211437139.webp",
+    "1-DM Toolkit/DnD5e-SideScreen.md",
+    "1710348706293 - Combat.md",
+    "3-Mechanics/NPCs/Renaer Neverember.md",
+    "3-Mechanics/NPCs/Floon Blagmaar.md",
+    "3-Mechanics/NPCs/Emmek Frewn.md",
+    "z_Assets/Renaer Neverember-20240313164158355.webp",
+    "z_Assets/Floon Blagmaar-20240313164024328.webp",
+    "z_Assets/Emmek Frewn-20240313163555694.webp",
+    "z_Assets/Durnan.webp",
+    "z_Assets/Durnan.webp.crdownload",
+    "z_Assets/Yagra Stonefist.webp",
+    "z_Assets/Yagra Stonefist.webp.crdownload",
+    "2-World/Waterdeep/Southern Ward/Southern Ward.canvas",
+    "3-Mechanics/Guilds and Groups/Waterdeep",
     "1-Party/Nerds with Dogs/Mhazhique Waand",
     "1-Party/Nerds with Dogs/Lord Maji Cock",
     "1-Party/Nerds with Dogs/Gil Lioth",
     "1-Party/Nerds with Dogs/Drewid 'Geoff' Barrymore",
     "1-Party/Nerds with Dogs/Flick McPlumbs",
-    "2-World/Waterdeep/Southern Ward/Southern Ward.canvas",
-    "z_Assets/Map_Waterdeep_Full.webp",
     "2-World/Waterdeep/Dock Ward/Dock Ward.canvas",
-    "z_Assets/Pasted Image 20240311110433_430.jpg",
-    "Excalidraw",
-    "z_Assets/Dock Ward detail map.jpg",
-    "z_Assets/Southern ward map.jpg",
-    "2-World/Waterdeep/Southern Ward",
-    "z_Assets/Sea Ward-20240311110126834.webp",
-    "2-World/Waterdeep/Sea Ward",
-    "z_Assets/Dock Ward-20240311110051704.webp",
-    "2-World/Waterdeep/Dock Ward",
-    "z_Assets/Castle Ward-20240311110012215.webp",
-    "2-World/Waterdeep/Castle Ward",
     "2-World/Waterdeep/North Ward/North Ward.canvas",
     "Untitled.canvas"
   ]

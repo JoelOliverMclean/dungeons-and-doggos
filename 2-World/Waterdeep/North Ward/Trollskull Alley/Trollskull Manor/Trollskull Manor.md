@@ -1,11 +1,20 @@
+---
+NoteIcon: home
+tags: [location]
+---
+
+
 ![[Trollskull_Manor_Painting.png]]
 
 ## Lif
-See [[Lif]] for chapter info
+See [[Lif]] for poltergeist info
 
 ## Renovations
 
 See [[Player's Guide to Trollskull Manor & Tavern Upgrades]] for extra upgrades
+
+## Reopening
+See [[04-trollskull-alley#Open for Business?|Open for Business?]]
 
 ## Floorplan
 

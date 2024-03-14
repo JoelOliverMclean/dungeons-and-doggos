@@ -11,7 +11,10 @@
     "dnd5e-only-admonitions",
     "dnd5e-only-statblock",
     "FantasyFonts",
-    "hide-markdown-link-url"
+    "hide-markdown-link-url",
+    "supercharged-links-gen",
+    "Tab_Icons",
+    "image_widths"
   ],
   "baseFontSize": 14,
   "baseFontSizeAction": true

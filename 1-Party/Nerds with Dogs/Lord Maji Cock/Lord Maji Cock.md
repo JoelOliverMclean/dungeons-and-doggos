@@ -28,7 +28,13 @@ Status: Active
 | ----------------------------------------------- | ----------------- | -------------- | ------------- | ------------ | ------------- |
 | ![[Lord Maji Cock Portrait.jpeg\|cover hsmall]] | `=this.file.name` | `=this.player` | `=this.class` | `=this.race` | `=this.level` |
 
+
+## DND Beyond
 ```custom-frames
 frame: DnDBeyond_Maji
 style: height: 1000px
 ```
+
+
+## Special Items
+- [[medallion-of-thoughts|Medallion of Thoughts]]
