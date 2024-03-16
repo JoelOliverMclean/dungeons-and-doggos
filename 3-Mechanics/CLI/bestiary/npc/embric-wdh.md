@@ -11,7 +11,7 @@ aliases: ["Embric"]
 # Embric
 *Source: Waterdeep: Dragon Heist p. 32*  
 
-Embric tends the forge in the Steam and Steel shop in Trollskull Alley. He is an expert weaponsmith and claims descent from the efreet of Calimshan and is prone to extreme mood swings. He is married to Avi.
+Embric tends the forge in the Steam and Steel shop in Trollskull Alley. He is an expert weaponsmith and claims descent from the efreet of Calimshan and is prone to extreme mood swings. He is married to Avi. ^1383b0
 
 
 ```ad-statblock

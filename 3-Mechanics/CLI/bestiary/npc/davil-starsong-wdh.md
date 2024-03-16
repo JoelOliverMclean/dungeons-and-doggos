@@ -12,11 +12,12 @@ aliases: ["Davil Starsong"]
 *Source: Waterdeep: Dragon Heist p. 199*  
 
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Davil%20Starsong.webp#right)  
-Within the Waterdeep division of the Black Network, Davil is accorded the title of Master of Opportunities and Negotiations because he's good at sniffing out lucrative business deals, and he makes friends easily.
 
-Like many sun elves, Davil has an affinity for magic and is gifted with the kind of patience that comes with a long life span. Unlike most, he's not the least bit pretentious or aloof. He keeps a room at the Yawning Portal and does all his business in the establishment's taproom. He negotiates deals with grace and aplomb, even while drunk, and uses an elven lute as a spellcasting focus.
+Within the Waterdeep division of the Black Network, Davil is accorded the title of Master of Opportunities and Negotiations because he's good at sniffing out lucrative business deals, and he makes friends easily. ^3a3536
 
-Davil can put the characters in contact with other leaders of the Black Network's Waterdeep division, namely Istrid Horn (if they need a loan), Skeemo Weirdbottle (if they need magic), Tashlyn Yafeera (if they need weapons or mercenaries), and Ziraj the Hunter (if they need a highly skilled assassin).
+Like many sun elves, Davil has an affinity for magic and is gifted with the kind of patience that comes with a long life span. Unlike most, he's not the least bit pretentious or aloof. He keeps a room at the Yawning Portal and does all his business in the establishment's taproom. He negotiates deals with grace and aplomb, even while drunk, and uses an elven lute as a spellcasting focus. ^b85068
+
+Davil can put the characters in contact with other leaders of the Black Network's Waterdeep division, namely Istrid Horn (if they need a loan), Skeemo Weirdbottle (if they need magic), Tashlyn Yafeera (if they need weapons or mercenaries), and Ziraj the Hunter (if they need a highly skilled assassin). ^1b0fa5
 
 ## The Doom Raiders
 

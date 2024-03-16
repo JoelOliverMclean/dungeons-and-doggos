@@ -1,17 +1,18 @@
 ---
 AssociatedGroup: 
 Gender: Male
-Race: "[[]]"
+Race:
+  - "[[genasi-water-mpmm|Genasi (Water)]]"
 Age: 
 Class: 
-Alignment: 
+Alignment: Neutral Good
 Character-Role: 
-Location: 
-NoteIcon: npc
+Location: "[[The Steam and Steel]]"
+NoteIcon: npc_male
 Vitality: 
 tags:
   - npc
-accent:
+accent: Well-Spoken
 ---
 
 
@@ -42,21 +43,10 @@ accent:
 > ### RP
 > Accent: **`=this.accent`**
 
-**<Add description here, extend it with AI Text Generator using Ctrl J>**
-
-> [!info] Statblock
-> ```statblock
-> name: TemplateNPC
-> monster: Commoner
-> columns: 1
-> ```
-
-```encounter-table
-name: TemplateNPC
-creatures:
- - 1: Commoner
-```
+![[avi-wdh#^9e3f1a]]
+![[avi-wdh#^statblock]]
 
 ## Relationships
+- [[Embric]] - Husband
 
 ## Notes

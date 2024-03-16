@@ -12,9 +12,10 @@ aliases: ["Jalester Silvermane"]
 *Source: Waterdeep: Dragon Heist p. 205*  
 
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Jalester%20Silvermane.webp#right)  
-An earnest man in his mid-twenties, Jalester hails from the distant land of Cormyr, where he earned his spurs working for a mercenary company called the Steel Shadows. A few years ago, Jalester left the Dales and traveled to Waterdeep with several other members of the company, one of whom-Faerrel Dunblade-would become his best friend and lover.
 
-The wizard Elminster befriended the two young men and brought them to the attention of Laeral Silverhand, who put them to work as deputies and spies. Jalester and Faerrel helped the Open Lord expose a plot to overthrow the government, but Faerrel was killed while helping bring the perpetrators to justice. Jalester remained in Waterdeep afterward, becoming one of Laeral's field operatives in the service of Waterdeep and the Lords' Alliance. He has been romantically unattached ever since Faerrel's death but longs again for love.
+An earnest man in his mid-twenties, Jalester hails from the distant land of Cormyr, where he earned his spurs working for a mercenary company called the Steel Shadows. A few years ago, Jalester left the Dales and traveled to Waterdeep with several other members of the company, one of whom-Faerrel Dunblade-would become his best friend and lover. ^351055
+
+The wizard Elminster befriended the two young men and brought them to the attention of Laeral Silverhand, who put them to work as deputies and spies. Jalester and Faerrel helped the Open Lord expose a plot to overthrow the government, but Faerrel was killed while helping bring the perpetrators to justice. Jalester remained in Waterdeep afterward, becoming one of Laeral's field operatives in the service of Waterdeep and the Lords' Alliance. He has been romantically unattached ever since Faerrel's death but longs again for love. ^c40949
 
 ## Treasure
 

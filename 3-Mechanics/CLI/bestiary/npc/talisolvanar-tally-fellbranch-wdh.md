@@ -11,7 +11,7 @@ aliases: ["Talisolvanar "Tally" Fellbranch"]
 # Talisolvanar "Tally" Fellbranch
 *Source: Waterdeep: Dragon Heist p. 32*  
 
-A male half-elf carpenter and woodcarver.
+A male half-elf carpenter and woodcarver. ^7cd60f
 
 
 ```ad-statblock

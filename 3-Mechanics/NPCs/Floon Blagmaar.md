@@ -13,6 +13,7 @@ Vitality:
 tags:
   - npc
 accent:
+  - Posh Twat
 ---
 
 

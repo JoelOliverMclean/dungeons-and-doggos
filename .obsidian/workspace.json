@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "07be0a71f8c19d6e",
+        "id": "1098061f6a4bce5b",
         "type": "tabs",
         "children": [
           {
-            "id": "4f22081a4b3a5943",
+            "id": "399d10d4afb32743",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-DM Toolkit/Home.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b12ce940f8957c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-Mechanics/NPCs/Avi.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ab11f9b02a482107",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-Mechanics/CLI/bestiary/npc/embric-wdh.md",
+                "file": "3-Mechanics/NPCs/Jeryth Phaulkon.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,20 +66,6 @@
             }
           },
           {
-            "id": "2e6355ae312b2c82",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "f6ef017cc52d2e49",
             "type": "leaf",
             "pinned": true,
@@ -114,6 +75,20 @@
                 "file": "1-DM Toolkit/DM Board.md",
                 "mode": "preview",
                 "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "2e6355ae312b2c82",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
+                "mode": "preview",
+                "source": false
               },
               "pinned": true
             }
@@ -139,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Mechanics/NPCs/Avi.md",
+                "file": "3-Mechanics/NPCs/Jeryth Phaulkon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Mechanics/NPCs/Avi.md",
+                "file": "3-Mechanics/NPCs/Jeryth Phaulkon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Mechanics/NPCs/Avi.md"
+                "file": "3-Mechanics/NPCs/Jeryth Phaulkon.md"
               }
             }
           },
@@ -227,7 +202,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 8
       },
       {
         "id": "4ea24be3058e8490",
@@ -256,48 +232,49 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-custom-frames:Open Obsidian Forum": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-import-json:JSON/CSV Importer": false,
+      "obsidian42-brat:BRAT": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "helpmate:HelpMate": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-5e-statblocks:Open Creature Pane": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-custom-frames:Open Obsidian Forum": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "2911de48d50d504c",
+  "active": "399d10d4afb32743",
   "lastOpenFiles": [
-    "3-Mechanics/CLI/races/yuan-ti-mpmm.md",
-    "3-Mechanics/CLI/races/triton-mpmm.md",
-    "3-Mechanics/CLI/races/tortle-mpmm.md",
-    "3-Mechanics/CLI/races/tabaxi-mpmm.md",
-    "3-Mechanics/CLI/races/shifter-mpmm.md",
-    "3-Mechanics/CLI/races/shadar-kai-mpmm.md",
-    "3-Mechanics/CLI/races/sea-elf-mpmm.md",
-    "3-Mechanics/CLI/races/satyr-mpmm.md",
-    "3-Mechanics/CLI/races/orc-mpmm.md",
-    "3-Mechanics/CLI/races/minotaur-mpmm.md",
-    "3-Mechanics/CLI/races/lizardfolk-mpmm.md",
-    "3-Mechanics/CLI/races/kobold-mpmm.md",
-    "3-Mechanics/CLI/races/kenku-mpmm.md",
-    "3-Mechanics/CLI/races/hobgoblin-mpmm.md",
-    "3-Mechanics/CLI/races/harengon-mpmm.md",
-    "3-Mechanics/CLI/races/goliath-mpmm.md",
-    "3-Mechanics/CLI/races/goblin-mpmm.md",
-    "3-Mechanics/CLI/races/githzerai-mpmm.md",
-    "3-Mechanics/CLI/races/githyanki-mpmm.md",
-    "3-Mechanics/CLI/races/genasi-water-mpmm.md",
-    "3-Mechanics/CLI/races/genasi-mpmm.md",
-    "3-Mechanics/CLI/races/genasi-fire-mpmm.md",
-    "3-Mechanics/CLI/races/genasi-earth-mpmm.md",
-    "3-Mechanics/CLI/races/genasi-air-mpmm.md",
-    "3-Mechanics/CLI/races/firbolg-mpmm.md",
-    "3-Mechanics/CLI/races/fairy-mpmm.md",
+    "3-Mechanics/NPCs/Jalester Silvermane.md",
+    "3-Mechanics/NPCs/Jeryth Phaulkon.md",
+    "3-Mechanics/NPCs/Hammond Kraddoc.md",
+    "3-Mechanics/NPCs/Floon Blagmaar.md",
+    "3-Mechanics/NPCs/Fala Lefaliir.md",
+    "3-Mechanics/NPCs/Emmek Frewn.md",
+    "3-Mechanics/NPCs/Embric.md",
+    "3-Mechanics/NPCs/Durnan.md",
+    "3-Mechanics/NPCs/Davil Starsong.md",
+    "3-Mechanics/NPCs/Broxley Fairkettle.md",
+    "3-Mechanics/NPCs/Avi.md",
+    "1-DM Toolkit/Home.md",
+    "3-Mechanics/CLI/adventures/waterdeep-dragon-heist/04-trollskull-alley.md",
+    "3-Mechanics/NPCs/Ulkoria Stonemarrow.md",
+    "1-DM Toolkit/DM Board.md",
+    "3-Mechanics/NPCs/Justyn Rassk.md",
+    "z_Assets/Hammond Kraddoc-20240316164317839.webp",
+    "z_Assets/Broxley Fairkettle-20240316164137297.webp",
+    "3-Mechanics/NPCs/Savra Belabranta.md",
+    "3-Mechanics/NPCs/Tashlyn Yafeera.md",
+    "3-Mechanics/CLI/bestiary/npc/tashlyn-yafeera-wdh.md",
+    "3-Mechanics/CLI/bestiary/npc/davil-starsong-wdh.md",
+    "3-Mechanics/CLI/bestiary/npc/jalester-silvermane-wdh.md",
+    "3-Mechanics/Guilds and Groups/Waterdeep/Emerald Enclave.md",
+    "3-Mechanics/NPCs/Vajra Safahr.md",
+    "3-Mechanics/NPCs/Lif.md",
+    "3-Mechanics/CLI/bestiary/npc/vajra-safahr-wdh.md",
+    "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Manor/Trollskull Manor.md",
     "3-Mechanics/CLI/books/mordenkainen-presents-monsters-of-the-multiverse",
     "z_Assets/The Yawning Portal-20240313213458175.webp",
     "z_Assets/The Steam and Steel-20240313212814247.webp",
@@ -309,9 +286,7 @@
     "z_Assets/Renaer Neverember-20240313164158355.webp",
     "z_Assets/Floon Blagmaar-20240313164024328.webp",
     "z_Assets/Emmek Frewn-20240313163555694.webp",
-    "z_Assets/Durnan.webp",
     "z_Assets/Durnan.webp.crdownload",
-    "z_Assets/Yagra Stonefist.webp",
     "z_Assets/Yagra Stonefist.webp.crdownload",
     "2-World/Waterdeep/Southern Ward/Southern Ward.canvas",
     "3-Mechanics/Guilds and Groups/Waterdeep",

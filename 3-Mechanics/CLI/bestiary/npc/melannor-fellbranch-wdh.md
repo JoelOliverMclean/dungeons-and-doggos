@@ -11,7 +11,7 @@ aliases: ["Melannor Fellbranch"]
 # Melannor Fellbranch
 *Source: Waterdeep: Dragon Heist p. 36*  
 
-Melannor Fellbranch, the friendly but humorless groundskeeper of Phaulkonmere, a compound located one block south of Kolat Towers, is the characters' main contact in the Emerald Enclave
+Melannor Fellbranch, the friendly but humorless groundskeeper of Phaulkonmere, a compound located one block south of Kolat Towers, is the characters' main contact in the Emerald Enclave ^88e4f3
 
 
 ```ad-statblock

@@ -11,7 +11,7 @@ aliases: ["Fala Lefaliir"]
 # Fala Lefaliir
 *Source: Waterdeep: Dragon Heist p. 32*  
 
-Fala Lefaliir is an outgoing wood elf with long, braided hair. Like the elven god Corellon Larethian, Fala is neither male nor female. If referred to as "he" or "she," Fala gently requests to be addressed by name or as "they." Fala is friends with a member of the Zhentarim named Ziraj, who saved Fala's life. He visits Fala from time to time, and Fala has set aside a room for him on the second floor. Fala runs Correllon's Crown, a herbalist shop in Trollskull Alley
+Fala Lefaliir is an outgoing wood elf with long, braided hair. Like the elven god Corellon Larethian, Fala is neither male nor female. If referred to as "he" or "she," Fala gently requests to be addressed by name or as "they." Fala is friends with a member of the Zhentarim named Ziraj, who saved Fala's life. He visits Fala from time to time, and Fala has set aside a room for him on the second floor. Fala runs Correllon's Crown, a herbalist shop in Trollskull Alley ^5ccf00
 
 
 ```ad-statblock

@@ -45,10 +45,10 @@ accent:
 > ### RP
 > Accent: **`=this.accent`**
 
-![[durnan-wdh#^7ca01a]]
-![[durnan-wdh#^6d6831]]
-![[durnan-wdh#^79a7a0]]
-![[durnan-wdh#^654037]]
+![[durnan-wdh#^f27905]]
+![[durnan-wdh#^68ddd8]]
+![[durnan-wdh#^de00f7]]
+![[durnan-wdh#^3ef41b]]
 
 ![[durnan-wdh#^statblock]]
 

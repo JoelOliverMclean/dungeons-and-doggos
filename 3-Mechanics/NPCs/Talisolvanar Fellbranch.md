@@ -43,7 +43,7 @@ accent:
 
 **The owner and chief artisan of the Bent Nail**
 
-![[talisolvanar-tally-fellbranch-wdh#^c91b12]]
+![[talisolvanar-tally-fellbranch-wdh#^7cd60f]]
 
 ![[talisolvanar-tally-fellbranch-wdh#^statblock]]
 

@@ -44,7 +44,7 @@ accent:
 > ### RP
 > Accent: **`=this.accent`**
 
-![[yagra-stonefist-wdh#^c5b0c5]]
+![[yagra-stonefist-wdh#^13ea4e]]
 
 ![[yagra-stonefist-wdh#^statblock]]
 

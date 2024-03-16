@@ -12,7 +12,7 @@ NoteIcon: npc_male
 Vitality: 
 tags:
   - npc
-accent:
+accent: Salty Northerner
 ---
 
 
@@ -46,3 +46,4 @@ accent:
 ![[emmek-frewn-wdh#^statblock]]
 
 ## Notes
+![[04-trollskull-alley#Business Rival Emmek Frewn]]

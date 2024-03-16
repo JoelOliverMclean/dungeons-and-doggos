@@ -11,7 +11,7 @@ aliases: ["Avi"]
 # Avi
 *Source: Waterdeep: Dragon Heist p. 32*  
 
-Avi runs the Steam and Steel shop in Trollskull Alley with his husband Embric. He worships Eldath, god of peace, and uses his magic to quench hot steel. He is an expert armorsmith. Avi is laid back and speaks plainly.
+Avi runs the Steam and Steel shop in Trollskull Alley with his husband Embric. He worships Eldath, god of peace, and uses his magic to quench hot steel. He is an expert armorsmith. Avi is laid back and speaks plainly. ^9e3f1a
 
 
 ```ad-statblock

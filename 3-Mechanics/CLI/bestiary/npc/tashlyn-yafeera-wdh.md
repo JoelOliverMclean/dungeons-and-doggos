@@ -12,13 +12,16 @@ aliases: ["Tashlyn Yafeera"]
 *Source: Waterdeep: Dragon Heist p. 200*  
 
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Tashlyn%20Yafeera.webp#right)  
-Tashlyn is Master of Arms and Mercenaries for the Waterdeep Zhentarim. In this role, she provides armor, weapons, and training to sellswords on the Black Network's payroll.
 
-Tashlyn has established a useful cover by serving as a bodyguard to Vorondar Levelstone, a dwarf magister stationed at the South Gate. She likes the dwarf and has earned his confidence, allowing her to reach the rank of captain in the City Guard. In that position, she watches over traffic that passes through the gate-and ensures that her associates in the Black Network can come and go freely.
+Tashlyn is Master of Arms and Mercenaries for the Waterdeep Zhentarim. In this role, she provides armor, weapons, and training to sellswords on the Black Network's payroll. ^cd8099
 
-Born to a well-off family in Calimshan, Tashlyn has an unfettered sense of superiority. Quick to anger, she hates to back down from a fight. She respects anyone who can best her in melee combat.
+Tashlyn has established a useful cover by serving as a bodyguard to Vorondar Levelstone, a dwarf magister stationed at the South Gate. She likes the dwarf and has earned his confidence, allowing her to reach the rank of captain in the City Guard. In that position, she watches over traffic that passes through the gate-and ensures that her associates in the Black Network can come and go freely. ^678fe5
+
+Born to a well-off family in Calimshan, Tashlyn has an unfettered sense of superiority. Quick to anger, she hates to back down from a fight. She respects anyone who can best her in melee combat. ^65a0a7
 
 ## The Doom Raiders
+
+^eb097c
 
 The Doom Raiders were five unscrupulous adventurers who liked to plunder lich lairs (called "dooms" by some). They gave up adventuring to join the Black Network and came to Waterdeep three years ago with plans to establish a Zhentarim foothold in the city. In that time, they have forged alliances with various nobles and guilds and run afoul of others, all the while fending off Harper spies.
 
