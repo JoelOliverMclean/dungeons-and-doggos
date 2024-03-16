@@ -3,6 +3,13 @@ NoteIcon: Settlement
 tags: [location]
 ---
 
+> [!example|right]  ## NPCs
+> ```dataview
+> LIST
+> FROM "3-Mechanics/NPCs"
+> WHERE containsword(meta(location).path, this.file.name)
+> ```
+
 > [!summary] Description
 >  _Inhale_ The aroma of freshly baked bread and roasting meats mingles with the stench of the sewers as you step into Trollskull Alley. The cobbles beneath your feet are worn smooth by countless travelers, their rhythmic clickety-clack echoing between the buildings. Above you, a kaleidoscope of banners in vibrant hues flutters in the breeze, advertising the wares of local shops. A motley crew bustles about the alley: a dwarf with a booming laugh haggles with a tiefling merchant, a group of human children chase each other around with sticks, and a cloaked figure scurries into the shadows as you approach. To your left, the grand facade of a shuttered mansion looms, its peeling paint and boarded windows hinting at a glorious past. Welcome to Trollskull Alley, a unique slice of life in the bustling city of Waterdeep.
 

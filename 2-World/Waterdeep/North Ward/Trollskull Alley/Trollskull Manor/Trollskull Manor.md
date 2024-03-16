@@ -3,6 +3,12 @@ NoteIcon: home
 tags: [location]
 ---
 
+> [!example|right]  ## NPCs
+> ```dataview
+> LIST
+> FROM "3-Mechanics/NPCs"
+> WHERE containsword(meta(location).path, this.file.name)
+> ```
 
 ![[Trollskull_Manor_Painting.png]]
 

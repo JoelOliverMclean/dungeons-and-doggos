@@ -13,6 +13,11 @@ aliases: ["Dybbuk"]
 # Dybbuk
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 113, Mordenkainen's Tome of Foes p. 132*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Dybbuk.webp#right)  
+Dybbuks are demons that terrorize mortals on the Material Plane by possessing corpses and giving them a semblance of life, after which the demons use them to engage in a range of sordid activities.
+
+In their natural form, dybbuks appear as translucent flying jellyfish, trailing long tentacles as they move through the air. They rarely travel in this fashion, however. Instead, a dybbuk possesses a suitable corpse as a vehicle, rousing the body from death. Dybbuks delight in terrorizing other creatures by making their host bodies behave in horrifying ways—throwing up gouts of blood, excreting piles of squirming maggots, and contorting their limbs in impossible ways as they scuttle across the ground.
+
 
 ```ad-statblock
 title: Dybbuk

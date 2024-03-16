@@ -14,6 +14,15 @@ aliases: ["Shadow Mastiff"]
 # Shadow Mastiff
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 215, Volo's Guide to Monsters p. 190*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Shadow%20Mastiff.webp#right)  
+Shunning sunlight, these hounds are usually met as a pack. Some faiths devoted to deities of gloom and night, such as that of Shar in the Forgotten Realms, perform unholy rites to summon shadow mastiffs to work as temple sentinels and bodyguards.
+
+## Shadow Mastiffs
+
+Shadow mastiffs—hounds of the Shadowfell—move invisibly through the shadows, always on the hunt.
+
+
+## Statblock
 
 ```ad-statblock
 title: Shadow Mastiff

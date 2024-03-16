@@ -12,6 +12,23 @@ aliases: ["Catoblepas"]
 # Catoblepas
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 70, Volo's Guide to Monsters p. 129*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Catoblepas.webp#right)  
+The catoblepas is as loathsome as the vile swamplands in which it lives, a conglomeration of bloated buffalo, dinosaur, warthog, and hippopotamus parts. Despite its ungainly physiology, a catoblepas resembles a natural animal in its behavior, ambling through its marshy home, munching choice vegetation, eating the occasional bit of carrion, and wallowing in mire. A catoblepas might be found with the one mate it chooses for life and, on occasion, with a calf. A catoblepas attacks anyone that moves too close, especially if guarding its young.
+
+A catoblepas's stink, like the stench of death mixed with swamp gas and skunk musk, gives it away as being much more ghastly than its appearance suggests. When it is on the attack, a catoblepas reveals the extent of its horrific nature. The creature's serpentine neck has trouble lifting its head, but one glare from its bloodshot eyes can rot flesh. At the end of its tail is a club that can rattle body and soul if it strikes true, leaving a victim unable to act while the catoblepas feasts on its body.
+
+## Blighted Territory
+
+A catoblepas's nature as a creature of disease and decay brings out similar characteristics in the creature's swampy habitat. Such a wetland becomes gloomy, tangled, and more fetid than it was before. Beneficial qualities of the environment, such as healing herbs and clean water, become degraded, and swamp gases take on a hint of the catoblepas's foulness. Animals in the area are more aggressive and liable to be diseased. Degenerate creatures are likely to take up residence near a catoblepas's territory, as are those seeking to avoid notice.
+
+## Catoblepas in Folklore
+
+Ordinary folk rarely see a catoblepas, but the creature has such a feared reputation that stories about it are ingrained in the popular culture. Any rumor of a catoblepas taking up residence nearby is taken to be a bad omen, even if the rumor is proven false. In some lands, the silhouette of a catoblepas, with its tail extended over its body and its head held low, is a baleful heraldic figure signifying death or doom.
+
+Sages say that gods of pestilence and rot created catoblepases as embodiments of their influence, while other stories link them to misfortune. Some such tales claim that swamp-dwelling hags tend catoblepases like cattle, drinking the monsters' milk and using them as guardians or pets. Other legends say that those of impure heart can tame a catoblepas and whisper of malevolent warlocks and wicked knights who ride them into battle.
+
+
+## Statblock
 
 ```ad-statblock
 title: Catoblepas

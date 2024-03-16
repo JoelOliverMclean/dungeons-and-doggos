@@ -481,8 +481,8 @@ This closet abuts the guest cabin (J29) and contains a half-dozen gowns and two 
 This richly appointed cabin is set aside for special guests. It contains a large bed, a wooden chest, a freestanding mirror, and a dresser with a lyre atop it. Empty wine bottles roll back and forth across the floor as the ship moves. The bed holds three giggling figures:
 
 - [Jarlaxle Baenre](/3-Mechanics/CLI/bestiary/npc/jarlaxle-baenre-wdh.md) (see appendix B), in the guise of Zardoz Zord (absent if he's marshalling the Day of Wonders parade; see "Special Events").  
-- Margo Verida, a female Amnian human [bard](/3-Mechanics/CLI/bestiary/humanoid/bard-vgm.md) (see appendix B)  
-- Khafeyta Murzan, a female Mulhorandi human [swashbuckler](/3-Mechanics/CLI/bestiary/humanoid/swashbuckler-vgm.md) (see appendix B)  
+- Margo Verida, a female Amnian human [bard](/3-Mechanics/CLI/bestiary/humanoid/bard-mpmm.md) (see appendix B)  
+- Khafeyta Murzan, a female Mulhorandi human [swashbuckler](/3-Mechanics/CLI/bestiary/humanoid/swashbuckler-mpmm.md) (see appendix B)  
 
 Margo and Khafeyta both joined the Sea Maidens Faire within the past year-Margo as a lyrist, Khafeyta as an acrobat. Jarlaxle has taken a romantic interest in both women, who are also in love with each other.
 
@@ -576,7 +576,7 @@ The magic that conceals the true appearance of drow aboard Jarlaxle's ships does
 
 ### Gnome Engineers
 
-Rock gnome [engineers](/3-Mechanics/CLI/bestiary/humanoid/engineer-wdh.md) maintain and operate the *Scarlet Marpenoth*. These gnomes are [apprentice wizards](/3-Mechanics/CLI/bestiary/humanoid/apprentice-wizard-vgm.md) (see appendix B), with these changes:
+Rock gnome [engineers](/3-Mechanics/CLI/bestiary/humanoid/engineer-wdh.md) maintain and operate the *Scarlet Marpenoth*. These gnomes are [apprentice wizards](/3-Mechanics/CLI/bestiary/humanoid/apprentice-wizard-mpmm.md) (see appendix B), with these changes:
 
 - The gnomes are neutral good.  
 - They are Small and have 7 (`2d6`) hit points each.  

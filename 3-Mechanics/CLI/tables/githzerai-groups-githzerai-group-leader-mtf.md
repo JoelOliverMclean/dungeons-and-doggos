@@ -14,7 +14,7 @@ aliases: ["Githzerai Groups; Githzerai Group Leader"]
 
 | dice: d6 | Leader |
 |----------|--------|
-| 1 | [Githzerai Anarch](/3-Mechanics/CLI/bestiary/humanoid/githzerai-anarch-mtf.md) |
-| 2-3 | [Githzerai Enlightened](/3-Mechanics/CLI/bestiary/humanoid/githzerai-enlightened-mtf.md) |
+| 1 | [Githzerai Anarch](/3-Mechanics/CLI/bestiary/humanoid/githzerai-anarch-mpmm.md) |
+| 2-3 | [Githzerai Enlightened](/3-Mechanics/CLI/bestiary/humanoid/githzerai-enlightened-mpmm.md) |
 | 4-6 | [Githzerai Zerth](/3-Mechanics/CLI/bestiary/humanoid/githzerai-zerth.md) |
 ^githzerai-group-leader

@@ -525,7 +525,7 @@ Hekella carries the key that unlocks the prisoner's shackles in area 25b.
 
 A character can free Portia from her shackles using the key in area 25a, or by picking the lock with thieves' tools and a successful DC 20 Dexterity check. A character can also free Portia by snapping her chains with a successful DC 30 Strength ([Athletics](/3-Mechanics/CLI/rules/skills.md#Athletics)) check.
 
-Portia sank into madness and despair after she was forced to watch [Umbraxakar](/3-Mechanics/CLI/bestiary/npc/umbraxakar-wdmm.md) devour the corpses of her slain companions one by one. She stays close to her rescuers, serving as a loyal follower until she is safely out of Undermountain or until Keresta asks her to betray them. While fighting on the party's side, Portia claims an equal share of all XP gained. She is a [champion](/3-Mechanics/CLI/bestiary/humanoid/champion-vgm.md) (see appendix A), with these changes:
+Portia sank into madness and despair after she was forced to watch [Umbraxakar](/3-Mechanics/CLI/bestiary/npc/umbraxakar-wdmm.md) devour the corpses of her slain companions one by one. She stays close to her rescuers, serving as a loyal follower until she is safely out of Undermountain or until Keresta asks her to betray them. While fighting on the party's side, Portia claims an equal share of all XP gained. She is a [champion](/3-Mechanics/CLI/bestiary/humanoid/champion-mpmm.md) (see appendix A), with these changes:
 
 - Portia is lawful neutral and speaks Common.  
 - She is magically [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) by Keresta and regards the vampire as a trusted friend to be heeded and protected. This effect wears off in 12 hours unless Keresta charms her again.  

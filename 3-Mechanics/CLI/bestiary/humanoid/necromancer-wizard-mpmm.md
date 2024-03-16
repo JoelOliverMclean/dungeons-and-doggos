@@ -13,6 +13,15 @@ aliases: ["Necromancer Wizard"]
 # Necromancer Wizard
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 264, Volo's Guide to Monsters p. 217*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Necromancer%20Wizard.webp#right)  
+Necromancers study the interaction of life, death, and undeath. Some necromancers dig up or purchase corpses to create Undead servitors. A few instead use their powers for good, hunting Undead.
+
+## Wizards
+
+Wizards pursue magical power through the study of arcane texts. Some travel the world searching for esoteric tomes while others train lesser wizards or collaborate with colleagues to create new spells.
+
+
+## Statblock
 
 ```ad-statblock
 title: Necromancer Wizard

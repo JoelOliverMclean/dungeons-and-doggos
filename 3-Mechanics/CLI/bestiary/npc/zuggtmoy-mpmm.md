@@ -11,6 +11,26 @@ aliases: ["Zuggtmoy"]
 # Zuggtmoy
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 281, Mordenkainen's Tome of Foes p. 157*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Zuggtmoy.webp#right)  
+The Demon Queen of Fungi, Lady of Rot and Decay, Zuggtmoy is an alien creature whose only desire is to infect the living with spores, transforming them into her mindless servants and, eventually, into decomposing hosts for the mushrooms, molds, and other fungi that she spawns.
+
+Utterly inhuman, Zuggtmoy can mold her fungoid form into an approximation of a humanoid shape, including the skeletal-thin figure depicted in grimoires and ancient art, draped and veiled in mycelia and lichen. Indeed, much of her appearance and manner, and that of her servants, is a soulless mockery of mortal life and its many facets.
+
+Zuggtmoy's cultists often follow her unwittingly. Most are fungi—infected to some degree, whether through inhaling her mind-controlling spores or being transformed to the point where flesh and fungus become one. Such cultists are fungal extensions of the Demon Queen's will.
+
+Their devotion might begin with the seemingly harmless promises offered by exotic spores and mushrooms, but quickly consumes them, body and soul.
+
+## Cultists of Zuggtmoy
+
+> [!note]
+> See the Cult of Zuggtmoy entry.
+
+## Zuggtmoy's Lair
+
+Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen mushrooms of pale yellow and rancid brown. These massive fungi are some of the largest in existence. They are surrounded by a field of acidic puffballs and poisonous vapors. The mushrooms themselves are all interconnected by bridges of shelf-fungi, and countless chambers have been hollowed out from within their rubbery, fibrous stalks.
+
+
+## Statblock
 
 ```ad-statblock
 title: Zuggtmoy
@@ -70,5 +90,26 @@ title: Zuggtmoy
 ***Attack.*** Zuggtmoy makes one Pseudopod attack.
 
 ***Exert Will.*** One creature [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) by Zuggtmoy that she can see must use its reaction, if a available, to move up to its speed as she directs or to make one weapon attack against a target that she designates.
+
+## Lair actions
+
+On Initiative count 20 (losing initiative ties), Zuggtmoy can take a lair action to cause one of the following effects; she can't use the same effect two rounds in a row:
+
+- **Rally Plants.** Up to four plant creatures that are friendly to Zuggtmoy and that Zuggtmoy can see can use their reactions to move up to their speed and make one weapon attack.  
+- **Summon Fungi.** Zuggtmoy causes four [gas spores](/3-Mechanics/CLI/bestiary/plant/gas-spore.md) or [violet fungi](/3-Mechanics/CLI/bestiary/plant/violet-fungus.md) to appear in unoccupied spaces that she chooses within the lair. They vanish after 1 hour.  
+- **Unleash Spores.** Zuggtmoy uses either her Infestation Spores or her Mind Control Spores, centered on a mushroom or other fungus within her lair, instead of on herself.  
+
+## Regional effects
+
+The region containing Zuggtmoy's lair is warped by his magic, creating one or more of the following effects:
+
+- **Corrupted Nature.** Within 6 miles of the lair, all Wisdom ([Medicine](/3-Mechanics/CLI/rules/skills.md#Medicine)) and Wisdom ([Survival](/3-Mechanics/CLI/rules/skills.md#Survival)) checks have disadvantage.  
+- **Fungal Infestation.** Molds and fungi grow on surfaces within 6 miles of the lair, even where they would normally find no purchase.  
+- **Mutating Vegetation.** Vegetation within 1 mile of the lair becomes infested with parasitic fungi, slowly mutating as it is overwhelmed.  
+- If Zuggtmoy dies, these effects fade over the course of `1d10` days.  
+
+## Is homebrew
+
+false
 ```
 ^statblock

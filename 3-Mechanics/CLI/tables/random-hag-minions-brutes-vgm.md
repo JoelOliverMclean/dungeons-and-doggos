@@ -20,10 +20,10 @@ aliases: ["Random Hag Minions; Brutes"]
 | 4 | [Gargoyles](/3-Mechanics/CLI/bestiary/elemental/gargoyle.md) |
 | 5 | [Jackalweres](/3-Mechanics/CLI/bestiary/humanoid/jackalwere.md) |
 | 6 | [Kenku](/3-Mechanics/CLI/bestiary/humanoid/kenku.md) |
-| 7 | [Meenlocks](/3-Mechanics/CLI/bestiary/fey/meenlock-vgm.md) |
+| 7 | [Meenlocks](/3-Mechanics/CLI/bestiary/fey/meenlock-mpmm.md) |
 | 8 | [Oni](/3-Mechanics/CLI/bestiary/giant/oni.md) |
-| 9 | [Quicklings](/3-Mechanics/CLI/bestiary/fey/quickling-vgm.md) |
-| 10 | [Redcaps](/3-Mechanics/CLI/bestiary/fey/redcap-vgm.md) |
+| 9 | [Quicklings](/3-Mechanics/CLI/bestiary/fey/quickling-mpmm.md) |
+| 10 | [Redcaps](/3-Mechanics/CLI/bestiary/fey/redcap-mpmm.md) |
 | 11 | [Wererats](/3-Mechanics/CLI/bestiary/humanoid/wererat.md) |
 | 12 | [Werewolves](/3-Mechanics/CLI/bestiary/humanoid/werewolf.md) |
 ^brutes

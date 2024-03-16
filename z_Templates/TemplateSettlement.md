@@ -42,6 +42,7 @@ if (!hasTitle) {
 _%>
 
 
+
 > [!infobox]
 > # `=this.file.name`
 > ![[MapPlaceholder.png|cover hsmall]]

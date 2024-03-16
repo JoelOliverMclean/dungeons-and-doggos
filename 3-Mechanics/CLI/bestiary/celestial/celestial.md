@@ -13,7 +13,6 @@ cssclasses: json5e-note
 - [Deva](deva.md)
 - [Empyrean](empyrean.md)
 - [Ki-rin](ki-rin-mpmm.md)
-- [Ki-rin](ki-rin-vgm.md)
 - [Pegasus](pegasus.md)
 - [Planetar](planetar.md)
 - [Solar](solar.md)

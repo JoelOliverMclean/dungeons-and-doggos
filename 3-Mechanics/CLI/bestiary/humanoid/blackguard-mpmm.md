@@ -13,6 +13,27 @@ aliases: ["Blackguard"]
 # Blackguard
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 63, Volo's Guide to Monsters p. 211*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Blackguard.webp#right)  
+Blackguards are paladins who broke their sacred oaths and now indulge their own villainous ambitions. They consort with Fiends and Undead, and they reject many of the goodly things from their former lives.
+
+Blackguards often adorn their armor and weapons with dread accoutrements or are marked by eerie phenomena. You may choose a blackguard's accoutrement or roll on the Blackguard Accoutrements table to determine it.
+
+**Blackguard Accoutrements**
+
+`dice: [](blackguard-mpmm.md#^blackguard-accoutrements)`
+
+| dice: d8 | Accoutrement |
+|----------|--------------|
+| 1 | Armor etched with stylized depictions of gruesome battles |
+| 2 | Helm wrought in the shape of a demonic boar |
+| 3 | Helm wrought to resemble a death mask |
+| 4 | Cloak decorated with bloody handprints |
+| 5 | Curls of inky smoke seeping from armor at the joints |
+| 6 | Dozens of flies buzzing about the blackguard |
+| 7 | Severed hand hanging from a chain around the blackguard's neck |
+| 8 | Glaive adorned with a length of cloth bearing the words "I choose violence" |
+^blackguard-accoutrements
+
 
 ```ad-statblock
 title: Blackguard

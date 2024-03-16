@@ -741,9 +741,9 @@ Shadar-kai are very interested in the magical silt at the bottom of the River St
 
 At the DM's discretion, you have access to more subraces for elf characters, in addition to the subraces in the *Player's Handbook.* When you choose the subrace of your elf, you can choose one of the following options: eladrin, sea elf, or shadar-kai.
 
-- [Elf (Eladrin)](/3-Mechanics/CLI/races/elf-eladrin-mtf.md)  
-- [Elf (Sea)](/3-Mechanics/CLI/races/elf-sea-mtf.md)  
-- [Elf (Shadar-kai)](/3-Mechanics/CLI/races/elf-shadar-kai-mtf.md)  
+- [Elf (Eladrin)](/3-Mechanics/CLI/races/eladrin-mpmm.md)  
+- [Elf (Sea)](/3-Mechanics/CLI/races/sea-elf-mpmm.md)  
+- [Elf (Shadar-kai)](/3-Mechanics/CLI/races/shadar-kai-mpmm.md)  
 
 ### Elf Random Height and Weight
 

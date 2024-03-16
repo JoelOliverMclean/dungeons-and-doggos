@@ -11,6 +11,13 @@ aliases: ["Narzugon"]
 # Narzugon
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 190, Mordenkainen's Tome of Foes p. 167*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Narzugon.webp#right)  
+Paladins who make deals with devils and carry their twisted sense of honor into the afterlife are especially valuable to the archdukes of the Nine Hells. These narzugons act as horrific perversions of knights errant, carrying out their masters' will.
+
+Narzugons wield hell-forged lances that shunt the souls of any they killed to the River Styx for rebirth as [lemures](/3-Mechanics/CLI/bestiary/fiend/lemure.md). Every lance bears the marks of both a narzugon and its master.
+
+Each narzugon claims a [nightmare](/3-Mechanics/CLI/bestiary/fiend/nightmare.md) as its mount. These steeds are bound by [infernal tack](/3-Mechanics/CLI/items/infernal-tack-mtf.md) and must respond to the summons and commands of the spurs' wearer.
+
 
 ```ad-statblock
 title: Narzugon

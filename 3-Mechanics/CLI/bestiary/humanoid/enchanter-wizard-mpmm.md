@@ -12,6 +12,14 @@ aliases: ["Enchanter Wizard"]
 # Enchanter Wizard
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 261, Volo's Guide to Monsters p. 213*  
 
+Enchanters know how to magically influence minds. Benign enchanters use this magic to defuse violence and sow peace, while malevolent enchanters are some of the most evil of all spellcasters.
+
+## Wizards
+
+Wizards pursue magical power through the study of arcane texts. Some travel the world searching for esoteric tomes while others train lesser wizards or collaborate with colleagues to create new spells.
+
+
+## Statblock
 
 ```ad-statblock
 title: Enchanter Wizard

@@ -41,3 +41,6 @@ style: height: 1000px
 - [[Shocking Dagger]] 
 - [[dagger-of-venom|Dagger of Venom]]
 - [[dagger|Gold Dagger]]
+
+## Notes
+- [[Emerald Enclave]] ?

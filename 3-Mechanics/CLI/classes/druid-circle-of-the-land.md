@@ -7,7 +7,7 @@ tags:
 aliases: ["Circle of the Land"]
 ---
 # Circle of the Land
-*[Druid](3-Mechanics/CLI/classes/druid.md): Druid Circle*  
+*[Druid](druid.md): Druid Circle*  
 *Source: Player's Handbook p. 68. Available in the SRD.*  
 
 

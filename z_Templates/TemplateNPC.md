@@ -11,6 +11,7 @@ NoteIcon: npc
 Vitality: 
 tags:
   - npc
+accent:
 ---
 
 <% await tp.file.move("/3-Mechanics/NPCs/" + tp.file.title) %>
@@ -49,6 +50,9 @@ _%>
 # `=this.file.name`
 ## Profile
 
+> ### RP
+> Accent: **`=this.accent`**
+
 **<Add description here, extend it with AI Text Generator using Ctrl J>**
 
 > [!info] Statblock
@@ -63,5 +67,7 @@ name: TemplateNPC
 creatures:
  - 1: Commoner
 ```
+
+## Relationships
 
 ## Notes

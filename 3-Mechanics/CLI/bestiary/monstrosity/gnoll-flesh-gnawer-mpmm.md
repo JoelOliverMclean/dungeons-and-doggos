@@ -15,6 +15,15 @@ aliases: ["Gnoll Flesh Gnawer"]
 # Gnoll Flesh Gnawer
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 144, Volo's Guide to Monsters p. 154*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Gnoll%20Flesh%20Gnawer.webp#right)  
+These gnolls eschew the use of ranged weapons in favor of short blades that they wield with great speed and efficiency. In the thick of a fight, they dash across the battlefield, slashing and snarling as they run down stragglers and finish off wounded foes.
+
+## Gnolls
+
+The first gnolls were hyenas transformed by magic. Many of them were then corrupted by the demon lord Yeenoghu. Whether in service to Yeenoghu or dedicated to the survival of their kin, gnoll war bands seek to soften up foes with surprise attacks and to leave no survivors alive.
+
+
+## Statblock
 
 ```ad-statblock
 title: Gnoll Flesh Gnawer

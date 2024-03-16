@@ -9,20 +9,16 @@ tags:
 aliases: ["Durnan"]
 ---
 # Durnan
-
-^425724
-
 *Source: Waterdeep: Dragon Heist p. 203*  
 
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Durnan.webp#right)  
+Durnan is the owner and proprietor of the Yawning Portal. Although he looks like a middle-aged man whose best days are behind him, Durnan has a sharp mind and can still swing a sword when he must. He doesn't like talking about his past, and he won't reveal anything about his time as an adventurer.
 
-Durnan is the owner and proprietor of the Yawning Portal. Although he looks like a middle-aged man whose best days are behind him, Durnan has a sharp mind and can still swing a sword when he must. He doesn't like talking about his past, and he won't reveal anything about his time as an adventurer. ^7ca01a
+If Durnan has any living family members, he doesn't speak of them. He rarely says two words when one will do. He has a dark sense of humor and spares no pity on those who take the risk of entering Undermountain.
 
-If Durnan has any living family members, he doesn't speak of them. He rarely says two words when one will do. He has a dark sense of humor and spares no pity on those who take the risk of entering Undermountain. ^6d6831
+He keeps Grimvault, his magic greatsword, within reach under the bar, and can chop tables in half with it if he so desires. He also can pull out a double crossbow (a heavy crossbow with reduced range that fires two bolts at the same target). Still, if he gets involved in a brawl, he prefers fighting with fists or a well-flung tankard.
 
-He keeps Grimvault, his magic greatsword, within reach under the bar, and can chop tables in half with it if he so desires. He also can pull out a double crossbow (a heavy crossbow with reduced range that fires two bolts at the same target). Still, if he gets involved in a brawl, he prefers fighting with fists or a well-flung tankard. ^79a7a0
-
-Durnan doesn't often venture far from the Yawning Portal, using his employees to run errands for him as needed. If he's feeling charitable, he might gently discourage likable "nobodies" from venturing into Undermountain, if he thinks they wouldn't survive. He can also direct adventurers toward tavern regulars who might be able to help them or offer useful information. ^654037
+Durnan doesn't often venture far from the Yawning Portal, using his employees to run errands for him as needed. If he's feeling charitable, he might gently discourage likable "nobodies" from venturing into Undermountain, if he thinks they wouldn't survive. He can also direct adventurers toward tavern regulars who might be able to help them or offer useful information.
 
 
 ```ad-statblock

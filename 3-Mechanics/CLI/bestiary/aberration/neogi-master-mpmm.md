@@ -13,6 +13,20 @@ aliases: ["Neogi Master"]
 # Neogi Master
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 192, Volo's Guide to Monsters p. 180*  
 
+Neogi masters use magic, as a result of a pact between neogi and aberrant entities they met during their journey from their home world. These entities—known by such names as Acamar, Caiphon, Gibbeth, and Hadar—resemble stars and embody the essence of evil.
+
+## Neogi
+
+> [!quote]- A quote from Mordenkainen  
+> 
+> Only the malevolent or the desperate do business with neogi. I generally advise against working with beings who view you as property or prey.
+
+A neogi looks like an outsize spider with an eel's neck and head. It can poison the body and the mind of its targets and can subjugate even beings that are physically superior.
+
+Neogi usually dwell in far-flung locations on the Material Plane, as well as in the Astral Plane and the Ethereal Plane. They left their home world long ago to conquer and devour creatures in other realms. During this era, they dominated umber hulks and used them to build sleek, spidery ships capable of traversing the multiverse.
+
+
+## Statblock
 
 ```ad-statblock
 title: Neogi Master

@@ -10,11 +10,11 @@ aliases: ["Assorted Beasts"]
 
 This appendix contains statistics for various beasts, expanding on "appendix A" of the Monster Manual.
 
-- [Aurochs](/3-Mechanics/CLI/bestiary/beast/aurochs-vgm.md)  
+- [Aurochs](/3-Mechanics/CLI/bestiary/beast/aurochs-mpmm.md)  
 - [Cow](/3-Mechanics/CLI/bestiary/beast/cow-vgm.md)  
-- [Deep Rothé](/3-Mechanics/CLI/bestiary/beast/deep-rothe-vgm.md)  
-- [Dolphin](/3-Mechanics/CLI/bestiary/beast/dolphin-vgm.md)  
-- [Ox](/3-Mechanics/CLI/bestiary/beast/ox-vgm.md)  
+- [Deep Rothé](/3-Mechanics/CLI/bestiary/beast/deep-rothe-mpmm.md)  
+- [Dolphin](/3-Mechanics/CLI/bestiary/beast/dolphin-mpmm.md)  
+- [Ox](/3-Mechanics/CLI/bestiary/beast/ox-mpmm.md)  
 - [Rothé](/3-Mechanics/CLI/bestiary/beast/rothe-vgm.md)  
-- [Stench Kow](/3-Mechanics/CLI/bestiary/beast/stench-kow-vgm.md)  
-- [Swarm of Rot Grubs](/3-Mechanics/CLI/bestiary/beast/swarm-of-rot-grubs-vgm.md)
+- [Stench Kow](/3-Mechanics/CLI/bestiary/fiend/stench-kow-mpmm.md)  
+- [Swarm of Rot Grubs](/3-Mechanics/CLI/bestiary/beast/swarm-of-rot-grubs-mpmm.md)

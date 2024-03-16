@@ -225,7 +225,7 @@ The armoire holds fine clothing and a wooden jewelry box containing a pair of ma
 
 ![Dezmyr Shadowdusk](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/WDMM/074-22-04.webp#center)
 
-Derrion enjoys killing unwelcome visitors. He is a human [champion](/3-Mechanics/CLI/bestiary/humanoid/champion-vgm.md) (see appendix A), with these changes:
+Derrion enjoys killing unwelcome visitors. He is a human [champion](/3-Mechanics/CLI/bestiary/humanoid/champion-mpmm.md) (see appendix A), with these changes:
 
 - Derrion is chaotic evil.  
 - He speaks Common and Deep Speech.  

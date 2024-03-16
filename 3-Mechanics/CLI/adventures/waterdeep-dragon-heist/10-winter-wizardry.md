@@ -317,7 +317,7 @@ Resting in small piles and neat stacks on the table are 74 cp, 52 sp, 19 gp, and
 This room is connected to the levels above and below by invisible staircases (see "Kolat Towers Features"), one descending 20 feet to K11 and the other climbing 20 feet to K16. This area contains the following features:
 
 - A 10-foot-diameter circle of runes has been drawn on the floor in blood that is now dried. Smoke billows from four iron braziers placed around the circle.  
-- Three [apprentice wizards](/3-Mechanics/CLI/bestiary/humanoid/apprentice-wizard-vgm.md) (see appendix B) stand outside the circle, chanting an incantation. A [barlgura](/3-Mechanics/CLI/bestiary/fiend/barlgura.md) is slumped motionless within the circle.  
+- Three [apprentice wizards](/3-Mechanics/CLI/bestiary/humanoid/apprentice-wizard-mpmm.md) (see appendix B) stand outside the circle, chanting an incantation. A [barlgura](/3-Mechanics/CLI/bestiary/fiend/barlgura.md) is slumped motionless within the circle.  
 
 The three wizards here are [Manshoon](/3-Mechanics/CLI/bestiary/npc/manshoon-wdh.md)'s apprentices—Ered Payno (LE male Damaran human), Havi Termock (CE female Chondathan human), and Savara Firethorn (NE female Tethyrian human). Each wears a teleporter ring (see "Teleporter Rings"). The magical incantation that the three are reciting has quelled the barlgura and rendered it [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious). If any of them stop chanting, the demon awakes and becomes enraged, though it remains bound within the circle. Whenever it takes damage, the barlgura can attempt a DC 10 Charisma check. On a successful check, it breaks out of the circle and attacks any creature it can reach.
 
@@ -590,7 +590,7 @@ This ice-carved container weighs 1,000 pounds and begins to melt if taken out of
 This room contains the following features:
 
 - Delightful warmth radiates from a brazier of green flame encircled by eight cushioned chairs.  
-- Unless they've been drawn elsewhere, two of [Manshoon](/3-Mechanics/CLI/bestiary/npc/manshoon-wdh.md)'s lieutenants are here: Vevette Blackwater (CE female Tethyrian human [swashbuckler](/3-Mechanics/CLI/bestiary/humanoid/swashbuckler-vgm.md); see appendix B) and Agorn Fuoco (NE male Turami human [bard](/3-Mechanics/CLI/bestiary/humanoid/bard-vgm.md); see appendix B). Vevette is relaxing in a chair, while Agorn strums a lyre.  
+- Unless they've been drawn elsewhere, two of [Manshoon](/3-Mechanics/CLI/bestiary/npc/manshoon-wdh.md)'s lieutenants are here: Vevette Blackwater (CE female Tethyrian human [swashbuckler](/3-Mechanics/CLI/bestiary/humanoid/swashbuckler-mpmm.md); see appendix B) and Agorn Fuoco (NE male Turami human [bard](/3-Mechanics/CLI/bestiary/humanoid/bard-mpmm.md); see appendix B). Vevette is relaxing in a chair, while Agorn strums a lyre.  
 - An alabaster staircase ascends 10 feet to E9.  
 
 ##### Zhents
@@ -619,7 +619,7 @@ High-ranking Zhents who desire an audience with [Manshoon](/3-Mechanics/CLI/best
 
 ##### Zhents
 
-Two female lightfoot halflings—[Havia Quickknife](/3-Mechanics/CLI/bestiary/humanoid/zhent-martial-arts-adept-wdh.md) and [Mookie Plush](/3-Mechanics/CLI/bestiary/humanoid/zhent-martial-arts-adept-wdh.md)—believe that [Manshoon](/3-Mechanics/CLI/bestiary/npc/manshoon-wdh.md) is the rightful leader of the Zhentarim. They serve him fearlessly, and will sacrifice themselves to ensure that his plans come to fruition. They are [martial arts adepts](/3-Mechanics/CLI/bestiary/humanoid/martial-arts-adept-vgm.md) (see appendix B), with these changes:
+Two female lightfoot halflings—[Havia Quickknife](/3-Mechanics/CLI/bestiary/humanoid/zhent-martial-arts-adept-wdh.md) and [Mookie Plush](/3-Mechanics/CLI/bestiary/humanoid/zhent-martial-arts-adept-wdh.md)—believe that [Manshoon](/3-Mechanics/CLI/bestiary/npc/manshoon-wdh.md) is the rightful leader of the Zhentarim. They serve him fearlessly, and will sacrifice themselves to ensure that his plans come to fruition. They are [martial arts adepts](/3-Mechanics/CLI/bestiary/humanoid/martial-arts-adept-mpmm.md) (see appendix B), with these changes:
 
 - Havia and Mookie are lawful evil.  
 - They have 49 (`11d6 + 11`) hit points each.  

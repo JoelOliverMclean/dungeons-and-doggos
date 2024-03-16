@@ -14,12 +14,12 @@ aliases: ["Duergar Raiding Parties; Duergar Special Allies"]
 
 | dice: d20 | Allies |
 |-----------|--------|
-| 1-3 | `1d4` [steeders, female](/3-Mechanics/CLI/bestiary/monstrosity/female-steeder-mtf.md) |
-| 4-6 | `1d3` [duergar hammerers](/3-Mechanics/CLI/bestiary/construct/duergar-hammerer-mtf.md) |
-| 7 | 1 [duergar mind master](/3-Mechanics/CLI/bestiary/humanoid/duergar-mind-master-mtf.md) |
-| 8 | `1d3` [duergar screamers](/3-Mechanics/CLI/bestiary/construct/duergar-screamer-mtf.md) |
-| 9-10 | `1d3` [duergar soulblades](/3-Mechanics/CLI/bestiary/humanoid/duergar-soulblade-mtf.md) |
-| 11 | `1d6` [duergar xarrorn](/3-Mechanics/CLI/bestiary/humanoid/duergar-xarrorn-mtf.md) |
+| 1-3 | `1d4` [steeders, female](/3-Mechanics/CLI/bestiary/monstrosity/female-steeder-mpmm.md) |
+| 4-6 | `1d3` [duergar hammerers](/3-Mechanics/CLI/bestiary/construct/duergar-hammerer-mpmm.md) |
+| 7 | 1 [duergar mind master](/3-Mechanics/CLI/bestiary/humanoid/duergar-mind-master-mpmm.md) |
+| 8 | `1d3` [duergar screamers](/3-Mechanics/CLI/bestiary/construct/duergar-screamer-mpmm.md) |
+| 9-10 | `1d3` [duergar soulblades](/3-Mechanics/CLI/bestiary/humanoid/duergar-soulblade-mpmm.md) |
+| 11 | `1d6` [duergar xarrorn](/3-Mechanics/CLI/bestiary/humanoid/duergar-xarrorn-mpmm.md) |
 | 12 | `1d6` [bearded devils](/3-Mechanics/CLI/bestiary/fiend/bearded-devil.md) bound to service |
 | 13 | `2d4` allied evil [azers](/3-Mechanics/CLI/bestiary/elemental/azer.md) |
 | 14 | `3d20` enslaved [goblins](/3-Mechanics/CLI/bestiary/humanoid/goblin.md) |

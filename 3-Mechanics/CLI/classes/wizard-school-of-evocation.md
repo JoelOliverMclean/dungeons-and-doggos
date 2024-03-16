@@ -7,7 +7,7 @@ tags:
 aliases: ["School of Evocation"]
 ---
 # School of Evocation
-*[Wizard](3-Mechanics/CLI/classes/wizard.md): Arcane Tradition*  
+*[Wizard](wizard.md): Arcane Tradition*  
 *Source: Player's Handbook p. 117. Available in the SRD and the Basic Rules.*  
 
 

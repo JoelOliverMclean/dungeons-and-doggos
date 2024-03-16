@@ -15,6 +15,13 @@ aliases: ["Wastrilith"]
 # Wastrilith
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 258, Mordenkainen's Tome of Foes p. 139*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Wastrilith.webp#right)  
+Found in the waters of the Abyss and other bodies of water contaminated by that plane's fell influence, wastriliths establish themselves as lords of the deep and rule their dominions with cruelty.
+
+A wastrilith pollutes the waters around it. Its noxious presence even affects nearby sources of water when the demon travels on land. The corrupted water, which contains a measure of the demon's essence, responds to the wastrilith's commands—perhaps hardening to prevent foes from escaping or erupting in a surge that drags victims into its reach.
+
+Creatures that ingest water corrupted by a wastrilith risk their very souls. Those who drink the poisonous liquid might wither away until they finally die, or they remain alive only to become thralls of chaos and evil. To represent this defilementchapter 2 of the Dungeon Master's Guide, you can use the [optional rule on abyssal corruption](/3-Mechanics/CLI/tables/optional-rule-abyssal-corruption-abyssal-corruption.md) in "chapter 2 of the Dungeon Master's Guide", causing the poisoned creature to be corrupted.
+
 
 ```ad-statblock
 title: Wastrilith

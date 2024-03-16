@@ -13,6 +13,13 @@ aliases: ["Maurezhi"]
 # Maurezhi
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 175, Mordenkainen's Tome of Foes p. 133*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Maurezhi.webp#right)  
+When Doresain, the King of Ghouls, corrupted a society of elves, he created a new sort of demon—the maurezhi—to lead packs of [ghouls](/3-Mechanics/CLI/bestiary/undead/ghoul.md) and [ghasts](/3-Mechanics/CLI/bestiary/undead/ghast.md) on the Material Plane.
+
+When a maurezhi consumes the corpse of a Humanoid it has slain—a process that takes about 10 minutes—it instantly assumes the creature's appearance as it was in life. The new appearance begins to rot away over the next few days, eventually revealing the demon's original form.
+
+A maurezhi is contagion incarnate. Its bite can drain a victim's sense of self. If this affliction is allowed to go far enough, the victim is infected with an unholy hunger for flesh that overpowers their personality and transforms them into a ghoul.
+
 
 ```ad-statblock
 title: Maurezhi

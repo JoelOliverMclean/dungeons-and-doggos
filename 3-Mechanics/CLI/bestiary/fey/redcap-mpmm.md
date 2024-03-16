@@ -14,6 +14,19 @@ aliases: ["Redcap"]
 # Redcap
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 208, Volo's Guide to Monsters p. 188*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Redcap.webp#right)  
+A redcap is a homicidal Fey creature born of blood lust. Redcaps, although small, have formidable strength, which they use to hunt and kill without hesitation or regret.
+
+In the Feywild, or where that plane touches the material world at a fey crossing, if a sentient creature acts on an intense desire for bloodshed, one or more redcaps might appear where the blood of a slain person soaks the ground. At first, new redcaps look like tiny bloodstained mushrooms just pushing their caps out of the soil. When moonlight shines on one of these caps, a creature that resembles a wizened and undersized gnome with a hunched back and a sinewy frame springs from the earth. The creature has a pointed leather cap, clothing of similar material, heavy iron boots, and a heavy bladed weapon. From the moment redcaps awaken, they desire only murder and carnage, and they constantly seek to satisfy these cravings.
+
+Redcaps lack subtlety. They live for direct confrontation and the mayhem of mortal combat. Even if a redcap wanted to be stealthy, the creature's iron boots force them to take ponderous, thunderous steps. When a redcap is near potential prey, though, they can close the distance quickly and get in a vicious swing of their weapon before the target can react.
+
+Redcaps' desire to slay is rooted in their will to survive. To sustain their unnatural existence, they must soak their hats in the fresh blood of their victims. When redcaps are born, their hats are coated with wet blood, and they know that if the blood isn't replenished at least once every three days, they will vanish as if they had never been.
+
+Some redcaps can sense the being whose murderous acts led to their birth. They typically use this innate connection to find their creator and make that creature their first victim, though they might instead seek out their maker to enjoy proximity to a kindred spirit. Although redcaps don't usually operate in groups, an individual responsible for the creation of multiple redcaps at the same site could attract the entire group to serve as cohorts, emulating that individual's murderous handiwork. Some hags and wicked mages know methods to call redcaps out of the Feywild and might likewise put teams of them to work as grisly servants.
+
+In any case, if a redcap works with another being, the redcap demands to be paid in victims. A patron who tries to stifle a redcap's natural and necessary urge for blood risks becoming the redcap's next target.
+
 
 ```ad-statblock
 title: Redcap

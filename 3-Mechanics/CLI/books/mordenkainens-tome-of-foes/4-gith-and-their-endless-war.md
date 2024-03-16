@@ -393,8 +393,8 @@ As their means of vengeance against the mind flayers, the githzerai send bands o
 
 At the DM's option, you can create a gith character, using the following traits.
 
-- [Gith (Githyanki)](/3-Mechanics/CLI/races/gith-githyanki-mtf.md)  
-- [Gith (Githzerai)](/3-Mechanics/CLI/races/gith-githzerai-mtf.md)  
+- [Gith (Githyanki)](/3-Mechanics/CLI/races/githyanki-mpmm.md)  
+- [Gith (Githzerai)](/3-Mechanics/CLI/races/githzerai-mpmm.md)  
 
 ### Gith Random Height and Weight
 

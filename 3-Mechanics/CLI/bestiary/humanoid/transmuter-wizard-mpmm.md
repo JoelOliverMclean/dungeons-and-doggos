@@ -12,6 +12,15 @@ aliases: ["Transmuter Wizard"]
 # Transmuter Wizard
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 265, Volo's Guide to Monsters p. 218*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Transmuter%20Wizard.webp#right)  
+Transmuters are masters at transforming physical forms. They typically view magical transmutation as a path to riches, enlightenment, or apotheosis.
+
+## Wizards
+
+Wizards pursue magical power through the study of arcane texts. Some travel the world searching for esoteric tomes while others train lesser wizards or collaborate with colleagues to create new spells.
+
+
+## Statblock
 
 ```ad-statblock
 title: Transmuter Wizard

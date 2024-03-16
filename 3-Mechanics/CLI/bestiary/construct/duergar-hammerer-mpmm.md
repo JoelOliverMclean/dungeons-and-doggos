@@ -13,6 +13,17 @@ aliases: ["Duergar Hammerer"]
 # Duergar Hammerer
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 112, Mordenkainen's Tome of Foes p. 188*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Duergar%20Hammerer.webp#right)  
+The duergar hammerer is a digging machine and siege engine, used to dig tunnels and besiege enemy fortifications.
+
+## Duergar Constructs
+
+Creative duergar engineers have built numerous war machines, including some that can be fused with a duergar. Such a duergar-machine hybrid is fueled by the duergar's psionic energy, and the duergar inside the machine can psychically channel pain into power when attacked.
+
+These machines are deployed to assist with construction projects and war. Some duergar bravely volunteer to become hybrids, while other duergar are forced into the fusion by Underdark tyrants. Unless incapacitated, the duergar inside a machine can extricate themself from it over the course of a short rest, completing the process at the rest's end.
+
+
+## Statblock
 
 ```ad-statblock
 title: Duergar Hammerer

@@ -398,7 +398,7 @@ Like [Rabbithead](/3-Mechanics/CLI/bestiary/npc/rabbithead-wdmm.md) in area 14, 
 - They are unaligned.  
 - They can't speak and know no languages.  
 
-The three humanoids wearing armor are [champions](/3-Mechanics/CLI/bestiary/humanoid/champion-vgm.md) (see appendix A) with the heads of a dingo, an iguana, and a stork. If [Arcturia](/3-Mechanics/CLI/bestiary/npc/arcturia-wdmm.md) becomes embroiled in a battle, two of them fight on her side. The one with the dingo head, who secretly despises [Arcturia](/3-Mechanics/CLI/bestiary/npc/arcturia-wdmm.md), sides with her enemies against her. Each guard carries a yellow sapphire (see "Treasure" below).
+The three humanoids wearing armor are [champions](/3-Mechanics/CLI/bestiary/humanoid/champion-mpmm.md) (see appendix A) with the heads of a dingo, an iguana, and a stork. If [Arcturia](/3-Mechanics/CLI/bestiary/npc/arcturia-wdmm.md) becomes embroiled in a battle, two of them fight on her side. The one with the dingo head, who secretly despises [Arcturia](/3-Mechanics/CLI/bestiary/npc/arcturia-wdmm.md), sides with her enemies against her. Each guard carries a yellow sapphire (see "Treasure" below).
 
 The three servants are unarmed [commoners](/3-Mechanics/CLI/bestiary/humanoid/commoner.md) with the heads of an aardvark, a moth, and a shrew. Whenever [Arcturia](/3-Mechanics/CLI/bestiary/npc/arcturia-wdmm.md) snaps her fingers and points to a spot in the room, these servants begin dusting that location and don't stop until she snaps her fingers again. They otherwise avoid combat.
 

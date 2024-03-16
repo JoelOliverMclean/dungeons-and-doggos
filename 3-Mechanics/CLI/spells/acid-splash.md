@@ -1,26 +1,24 @@
 ---
 obsidianUIMode: preview
-cssclasses:
-  - json5e-spell
+cssclasses: json5e-spell
 tags:
-  - compendium/src/5e/phb
-  - spell/class/artificer
-  - spell/class/cleric/arcana-domain
-  - spell/class/fighter/eldritch-knight
-  - spell/class/rogue/arcane-trickster
-  - spell/class/sorcerer
-  - spell/class/wizard
-  - spell/level/cantrip
-  - spell/school/conjuration
+- compendium/src/5e/phb
+- spell/class/artificer
+- spell/class/cleric/arcana-domain
+- spell/class/fighter/eldritch-knight
+- spell/class/rogue/arcane-trickster
+- spell/class/sorcerer
+- spell/class/wizard
+- spell/level/cantrip
+- spell/school/conjuration
 classes:
-  - Artificer
-  - Cleric (Arcana Domain)
-  - Fighter (Eldritch Knight)
-  - Rogue (Arcane Trickster)
-  - Sorcerer
-  - Wizard
-aliases:
-  - Acid Splash
+- Artificer
+- Cleric (Arcana Domain)
+- Fighter (Eldritch Knight)
+- Rogue (Arcane Trickster)
+- Sorcerer
+- Wizard
+aliases: ["Acid Splash"]
 ---
 # Acid Splash
 *cantrip, Conjuration*  

@@ -15,6 +15,15 @@ aliases: ["Kobold Dragonshield"]
 # Kobold Dragonshield
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 163, Volo's Guide to Monsters p. 165*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Kobold%20Dragonshield.webp#right)  
+> [!quote]- A quote from Mordenkainen  
+> 
+> Believe it or not, I like kobolds. I find their oscillation between bravery an cowardice endlessly entertaining. In fact,I'd say kobolds are proof of the universe's most fundamental lesson: there is always something bigger than you.
+
+Kobold dragonshields are champions of their people. Almost all dragonshields begin life as normal kobolds, then are chosen by a dragon and invested with power for the purpose of protecting the dragon's eggs, but once every few years a kobold hatches with an innate version of the dragonshield's abilities. In either case, a dragonshield is skilled at hand-to-hand combat and bears a shield made of dragon scales, as well as scars from desperate fights.
+
+Dragonshields know they have a place of honor among those who venerate dragons, but—being kobolds at heart—most of them feel unworthy of their status and are desperate to prove themselves deserving of it. But they also have the ability to rally in the face of certain death, inspiring others to follow them into battle.
+
 
 ```ad-statblock
 title: Kobold Dragonshield

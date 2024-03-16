@@ -12,6 +12,17 @@ aliases: ["Grung Elite Warrior"]
 # Grung Elite Warrior
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 150, Volo's Guide to Monsters p. 157*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Grungs.webp#right)  
+A grung elite warrior typically leads a group of grung and other warriors into battle and is often accompanied by a grung wildling.
+
+## Grungs
+
+Grungs are frog-like folk found in rain forests and tropical jungles. These amphibians prefer shade and live in trees, but they maintain hatcheries for their offspring in well-guarded ground-level pools. About three months after hatching, a grung tadpole takes on the shape of an adult, and after another six months, the grung reaches maturity.
+
+Born in a wide range of colors, grungs most often appear in shades of green, blue, purple, red, orange, and gold. All grungs secrete a substance that is harmless to them but poisonous to other creatures, and sometimes that substance has a special effect based on the grung's color (see "Variant: Grung Poison"). They also use this venom to poison their weapons.
+
+
+## Statblock
 
 ```ad-statblock
 title: Grung Elite Warrior

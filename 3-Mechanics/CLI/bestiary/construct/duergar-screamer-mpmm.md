@@ -13,6 +13,16 @@ aliases: ["Duergar Screamer"]
 # Duergar Screamer
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 111, Mordenkainen's Tome of Foes p. 190*  
 
+A duergar screamer uses sonic energy to grind rock into dust and to hurl invaders to the ground.
+
+## Duergar Constructs
+
+Creative duergar engineers have built numerous war machines, including some that can be fused with a duergar. Such a duergar-machine hybrid is fueled by the duergar's psionic energy, and the duergar inside the machine can psychically channel pain into power when attacked.
+
+These machines are deployed to assist with construction projects and war. Some duergar bravely volunteer to become hybrids, while other duergar are forced into the fusion by Underdark tyrants. Unless incapacitated, the duergar inside a machine can extricate themself from it over the course of a short rest, completing the process at the rest's end.
+
+
+## Statblock
 
 ```ad-statblock
 title: Duergar Screamer

@@ -12,6 +12,15 @@ aliases: ["Diviner Wizard"]
 # Diviner Wizard
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 261, Volo's Guide to Monsters p. 213*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Diviner%20Wizard.webp#right)  
+Diviners peer into the future and know that knowledge is power. They might act aloof and mysterious, hinting at omens and secrets, or they might be know-it-alls, spilling insights to advance their own status.
+
+## Wizards
+
+Wizards pursue magical power through the study of arcane texts. Some travel the world searching for esoteric tomes while others train lesser wizards or collaborate with colleagues to create new spells.
+
+
+## Statblock
 
 ```ad-statblock
 title: Diviner Wizard

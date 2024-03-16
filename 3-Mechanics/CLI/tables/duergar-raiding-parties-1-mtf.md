@@ -11,7 +11,7 @@ aliases: ["Duergar Raiding Parties; 1"]
 | Members | Number Present |
 |---------|----------------|
 | [Duergar](/3-Mechanics/CLI/bestiary/humanoid/duergar.md) | `2d6 + 5` |
-| [Duergar stone guards](/3-Mechanics/CLI/bestiary/humanoid/duergar-stone-guard-mtf.md) | `1d4 + 1` |
-| [Duergar kavalrachni](/3-Mechanics/CLI/bestiary/humanoid/duergar-kavalrachni-mtf.md) | `1d4` |
-| [Male steeders](/3-Mechanics/CLI/bestiary/monstrosity/male-steeder-mtf.md) | `1d4` |
+| [Duergar stone guards](/3-Mechanics/CLI/bestiary/humanoid/duergar-stone-guard-mpmm.md) | `1d4 + 1` |
+| [Duergar kavalrachni](/3-Mechanics/CLI/bestiary/humanoid/duergar-kavalrachni-mpmm.md) | `1d4` |
+| [Male steeders](/3-Mechanics/CLI/bestiary/monstrosity/male-steeder-mpmm.md) | `1d4` |
 ^members-number-present

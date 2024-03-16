@@ -4,7 +4,7 @@ obsidianUIMode: preview
 
 > [!cards|3]
 > **[[Waterdeep]]**
-> ![[Map_Waterdeep_Full.webp|sban htiny ctr]]
+> [![[Map_Waterdeep_Full.webp\|sban htiny ctr]]](Waterdeep%20Map)
 > 
 > **Link**
 > [![[JourneyBoard.png\|sban htiny ctr]]](Journey%20Board)
@@ -31,7 +31,7 @@ where (Status = "Active")
 # Recently Modified NPCs
 
 ```dataview  
-TABLE WITHOUT ID link(file.name) AS "NPC Name", Gender, Race, Age, Location, AssociatedGroup  
+TABLE WITHOUT ID link(file.name) AS "NPC Name", Gender, accent as Accents, Race, Age, Location, AssociatedGroup
 FROM "3-Mechanics/NPCs"
 WHERE (startswith(NoteIcon, "npc")) 
 SORT file.mtime DESC

@@ -13,6 +13,9 @@ aliases: ["Stegosaurus"]
 # Stegosaurus
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 96, Volo's Guide to Monsters p. 140*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Stegosaurus.webp#right)  
+This heavily built dinosaur has rows of plates on its back and a flexible, spiked tail held high to strike predators. It tends to travel in herds of mixed ages.
+
 
 ```ad-statblock
 title: Stegosaurus

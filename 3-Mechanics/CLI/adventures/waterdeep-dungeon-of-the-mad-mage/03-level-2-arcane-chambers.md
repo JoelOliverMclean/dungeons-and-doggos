@@ -579,7 +579,7 @@ The characters hear sounds of battle as they traverse the hall leading to this 1
 > 
 > **Equipment**. Mine carts about the room contain glittering heaps of copper ore.
 > 
-> **Battle**. A wounded warrior named Rex the Hammer (LE male Illuskan human [champion](/3-Mechanics/CLI/bestiary/humanoid/champion-vgm.md) with 22 hit points remaining; see appendix A) has been backed into the southeast corner by a vicious [mezzoloth](/3-Mechanics/CLI/bestiary/fiend/mezzoloth.md) and two [nothics](/3-Mechanics/CLI/bestiary/aberration/nothic.md). Three dead nothics (killed by Rex) lie on the floor near them.
+> **Battle**. A wounded warrior named Rex the Hammer (LE male Illuskan human [champion](/3-Mechanics/CLI/bestiary/humanoid/champion-mpmm.md) with 22 hit points remaining; see appendix A) has been backed into the southeast corner by a vicious [mezzoloth](/3-Mechanics/CLI/bestiary/fiend/mezzoloth.md) and two [nothics](/3-Mechanics/CLI/bestiary/aberration/nothic.md). Three dead nothics (killed by Rex) lie on the floor near them.
 ^13b
 
 The mezzoloth was summoned and bound to Undermountain by Halaster. Its task is to prevent intruders from looting the dungeon. It uses telepathy to command the nothics, which serve it out of fear.

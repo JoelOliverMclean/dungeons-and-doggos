@@ -13,6 +13,16 @@ aliases: ["Vegepygmy"]
 # Vegepygmy
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 252, Volo's Guide to Monsters p. 196*  
 
+Typical vegepygmies originate from the remains left behind when a Humanoid or a Giant is killed by [russet mold](/3-Mechanics/CLI/traps-hazards/russet-mold-vgm.md). One or more vegepygmies emerge from the corpse a day later.
+
+## Vegepygmies
+
+Vegepygmies are fungus creatures that live in simple bands, hunting for sustenance and spreading the spores by which they reproduce. Also called mold folk or moldies, vegepygmies inhabit dark, moist areas, so they're most commonly found underground or in forests where little sunlight penetrates. A vegepygmy feels kinship with other plant and fungus creatures, and thus vegepygmy bands coexist well with creatures such as [myconid adults](/3-Mechanics/CLI/bestiary/plant/myconid-adult.md), [shriekers](/3-Mechanics/CLI/bestiary/plant/shrieker.md), and [violet fungi](/3-Mechanics/CLI/bestiary/plant/violet-fungus.md).
+
+Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb nutrients from soil and many sorts of organic matter, so they rarely go hungry. A vegepygmy can hiss and make other noises by forcing air through its mouth, but it can't speak in a conventional sense. Among themselves, vegepygmies communicate by hissing, gestures, and tapping. Vegepygmies build and craft little; any gear they have is acquired from other creatures or built by copying simple construction they have witnessed.
+
+
+## Statblock
 
 ```ad-statblock
 title: Vegepygmy

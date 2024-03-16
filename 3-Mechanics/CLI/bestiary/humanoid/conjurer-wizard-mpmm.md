@@ -12,6 +12,15 @@ aliases: ["Conjurer Wizard"]
 # Conjurer Wizard
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 260, Volo's Guide to Monsters p. 212*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Conjurer%20Wizard.webp#right)  
+Conjurers summon creatures from other planes of existence and teleport themselves and others in the blink of an eye.
+
+## Wizards
+
+Wizards pursue magical power through the study of arcane texts. Some travel the world searching for esoteric tomes while others train lesser wizards or collaborate with colleagues to create new spells.
+
+
+## Statblock
 
 ```ad-statblock
 title: Conjurer Wizard

@@ -12,8 +12,7 @@ aliases: ["Yagra Stonefist"]
 *Source: Waterdeep: Dragon Heist p. 20*  
 
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Yagra%20Stonefist.webp#right)  
-
-Yagra is a Black Network mercenary who gets paid to protect a Zhent negotiator named Davil Starsong (see appendix B for more information on him). Yagra finds the job boring and likes to pass the time by challenging adventurers to arm wrestle. (Resolve such contests using contested Strength checks.) If the characters express their opposition to the Xanathar Guild, Yagra might urge them to speak to Davil about joining forces with the Zhentarim to destroy the beholder crime lord. ^c5b0c5
+Yagra is a Black Network mercenary who gets paid to protect a Zhent negotiator named Davil Starsong (see appendix B for more information on him). Yagra finds the job boring and likes to pass the time by challenging adventurers to arm wrestle. (Resolve such contests using contested Strength checks.) If the characters express their opposition to the Xanathar Guild, Yagra might urge them to speak to Davil about joining forces with the Zhentarim to destroy the beholder crime lord.
 
 
 ```ad-statblock

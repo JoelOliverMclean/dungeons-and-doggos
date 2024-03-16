@@ -204,7 +204,7 @@ Magic walls of force seal off all tunnels leading to this enormous cavern (see "
 
 > [!note] 
 > 
-> **Neothelid**. A 210-foot-long [neothelid](/3-Mechanics/CLI/bestiary/aberration/neothelid-vgm.md) (see appendix A) is curled up in the middle of the cavern, waiting to be fed.
+> **Neothelid**. A 210-foot-long [neothelid](/3-Mechanics/CLI/bestiary/aberration/neothelid-mpmm.md) (see appendix A) is curled up in the middle of the cavern, waiting to be fed.
 > 
 > **Ceiling**. The ceiling is uneven—ranging in height from 60 to 90 feet—and festooned with stalactites.
 > 
@@ -361,7 +361,7 @@ The stone door to this room is soundproof, airtight, and sealed with a Qualith d
 
 > [!note] 
 > 
-> **Extremiton**. In the middle of the room, the [ulitharid](/3-Mechanics/CLI/bestiary/aberration/ulitharid-vgm.md) (see appendix A) sits on a swiveling crystal throne shaped like a cocoon. The throne's base is shaped from a dark, alien metal. Dozens of thick copper wires connect it to plates of a similar metal bolted to the floor.
+> **Extremiton**. In the middle of the room, the [ulitharid](/3-Mechanics/CLI/bestiary/aberration/ulitharid-mpmm.md) (see appendix A) sits on a swiveling crystal throne shaped like a cocoon. The throne's base is shaped from a dark, alien metal. Dozens of thick copper wires connect it to plates of a similar metal bolted to the floor.
 > 
 > **Crystal Screen**. When the characters first arrive, the throne faces the room's curved back wall, which has rows of pale white crystals embedded in it. These crystals project the flickering, spectral image of the Yawning Portal's taproom, as seen through the eyes of its proprietor, Durnan.
 > 

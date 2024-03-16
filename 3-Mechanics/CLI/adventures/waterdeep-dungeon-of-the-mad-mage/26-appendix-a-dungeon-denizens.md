@@ -44,15 +44,15 @@ When Halaster is in Undermountain, the following effects can occur in any locati
 
 ## Archdruid
 
-[Archdruids](/3-Mechanics/CLI/bestiary/humanoid/archdruid-vgm.md) watch over the natural wonders of their domains. They seldom interact with civilized folk unless there is a great threat to the natural order, and their lairs are often guarded by allied beasts, plants, and fey.
+[Archdruids](/3-Mechanics/CLI/bestiary/humanoid/archdruid-mpmm.md) watch over the natural wonders of their domains. They seldom interact with civilized folk unless there is a great threat to the natural order, and their lairs are often guarded by allied beasts, plants, and fey.
 
 ## Champion
 
-[Champions](/3-Mechanics/CLI/bestiary/humanoid/champion-vgm.md) are mighty warriors who honed their fighting skills in gladiatorial pits. To soldiers and other people who fight for a living, champions are as influential as nobles, and their presence is courted as a sign of status among rulers.
+[Champions](/3-Mechanics/CLI/bestiary/humanoid/champion-mpmm.md) are mighty warriors who honed their fighting skills in gladiatorial pits. To soldiers and other people who fight for a living, champions are as influential as nobles, and their presence is courted as a sign of status among rulers.
 
 ## Githyanki Gish
 
-Their keen minds and psionic gifts allow the githyanki to master magic. [Gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) blend their magical abilities with swordplay to become dangerous foes in battle. Their specialized capabilities make them well suited for assassination, raiding, and espionage.
+Their keen minds and psionic gifts allow the githyanki to master magic. [Gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) blend their magical abilities with swordplay to become dangerous foes in battle. Their specialized capabilities make them well suited for assassination, raiding, and espionage.
 
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/WDMM/088-636609838742538624.webp#center)
 
@@ -94,7 +94,7 @@ Like an overzealous butler or maid, a [living unseen servant](/3-Mechanics/CLI/b
 
 ## Neothelid
 
-When an illithid colony's tadpoles are no longer fed by their caretakers, they turn to devouring one another out of hunger. Only one tadpole survives out of the thousands in the colony's pool, and it emerges as a [neothelid](/3-Mechanics/CLI/bestiary/aberration/neothelid-vgm.md)—a slime-covered worm of immense size.
+When an illithid colony's tadpoles are no longer fed by their caretakers, they turn to devouring one another out of hunger. Only one tadpole survives out of the thousands in the colony's pool, and it emerges as a [neothelid](/3-Mechanics/CLI/bestiary/aberration/neothelid-mpmm.md)—a slime-covered worm of immense size.
 
 A feral thing, a neothelid knows nothing beyond the predatory existence it has lived so far. It prowls subterranean passages in search of more brains to sate its constant hunger, growing ever more vicious.
 
@@ -122,7 +122,7 @@ A shadow assassin doesn't require air, food, drink, or sleep.
 
 ## Ulitharid
 
-Very rarely, an illithid tadpole transforms an individual into an [ulitharid](/3-Mechanics/CLI/bestiary/aberration/ulitharid-vgm.md) rather than an ordinary mind flayer. Ulitharids are larger than mind flayers and have six tentacles instead of four. Illithids innately recognize that an ulitharid's survival is more important than their own. In most colonies, an ulitharid becomes an elder brain's most favored servant, invested with power and authority. In others, the elder brain perceives the ulitharid as a potential rival, manipulating or quashing the ulitharid's ambitions accordingly.
+Very rarely, an illithid tadpole transforms an individual into an [ulitharid](/3-Mechanics/CLI/bestiary/aberration/ulitharid-mpmm.md) rather than an ordinary mind flayer. Ulitharids are larger than mind flayers and have six tentacles instead of four. Illithids innately recognize that an ulitharid's survival is more important than their own. In most colonies, an ulitharid becomes an elder brain's most favored servant, invested with power and authority. In others, the elder brain perceives the ulitharid as a potential rival, manipulating or quashing the ulitharid's ambitions accordingly.
 
 When an ulitharid finds sharing leadership with an elder brain to be insufferable, it breaks off from the colony, taking a group of mind flayers with it, and forms a new colony. After the death of the ulitharid's body, mind flayers place its brain in a brine pool, where it grows into an elder brain over a few days.
 

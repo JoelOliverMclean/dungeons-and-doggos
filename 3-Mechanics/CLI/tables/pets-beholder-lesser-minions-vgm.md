@@ -21,7 +21,7 @@ aliases: ["Pets; Beholder Lesser Minions"]
 | 15-22 | `10d10 + 50` [goblins](/3-Mechanics/CLI/bestiary/humanoid/goblin.md) and `3d4` [goblin bosses](/3-Mechanics/CLI/bestiary/humanoid/goblin-boss.md) |
 | 23-25 | `10d10 + 50` [grimlocks](/3-Mechanics/CLI/bestiary/humanoid/grimlock.md) |
 | 26-35 | `10d10 ` [hobgoblins](/3-Mechanics/CLI/bestiary/humanoid/hobgoblin.md) and `2d4` [hobgoblin captains](/3-Mechanics/CLI/bestiary/humanoid/hobgoblin-captain.md) |
-| 36-43 | `10d10 + 50` [kobolds](/3-Mechanics/CLI/bestiary/humanoid/kobold.md), `2d4` [kobold inventors](/3-Mechanics/CLI/bestiary/humanoid/kobold-inventor-vgm.md), and `2d6` [kobold scale sorcerers](/3-Mechanics/CLI/bestiary/humanoid/kobold-scale-sorcerer-vgm.md) |
+| 36-43 | `10d10 + 50` [kobolds](/3-Mechanics/CLI/bestiary/humanoid/kobold.md), `2d4` [kobold inventors](/3-Mechanics/CLI/bestiary/humanoid/kobold-inventor-mpmm.md), and `2d6` [kobold scale sorcerers](/3-Mechanics/CLI/bestiary/humanoid/kobold-scale-sorcerer-mpmm.md) |
 | 44-48 | `10d10 + 50` [lizardfolk](/3-Mechanics/CLI/bestiary/humanoid/lizardfolk.md) |
 | 49-56 | `10d10` [orcs](/3-Mechanics/CLI/bestiary/humanoid/orc.md) and `1d6` [orc war chiefs](/3-Mechanics/CLI/bestiary/humanoid/orc-war-chief.md) |
 | 57-59 | `6d6` [quaggoths](/3-Mechanics/CLI/bestiary/humanoid/quaggoth.md) |

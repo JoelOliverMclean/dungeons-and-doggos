@@ -13,6 +13,15 @@ aliases: ["Sword Wraith Warrior"]
 # Sword Wraith Warrior
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 239, Mordenkainen's Tome of Foes p. 241*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Sword%20Wraith%20Warrior.webp#right)  
+Sword wraith warriors are most often found on ancient battlefields where soldiers were hemmed in and slaughtered without quarter.
+
+## Sword Wraiths
+
+When glory-obsessed warriors die in battle without honor, they might haunt the site as sword wraiths.
+
+
+## Statblock
 
 ```ad-statblock
 title: Sword Wraith Warrior

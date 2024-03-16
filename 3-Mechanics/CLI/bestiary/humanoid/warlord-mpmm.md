@@ -12,6 +12,27 @@ aliases: ["Warlord"]
 # Warlord
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 257, Volo's Guide to Monsters p. 220*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Warlord.webp#right)  
+Warlords are legendary battlefield commanders, whose names are spoken with awe. After a string of decisive victories, a warlord could easily take on the role of monarch or general and attract followers willing to die for the warlord's banner.
+
+Warlords urge their troops into the fray with shouted exhortations. You can roll on the Warlord Battle Cries table to select one, or choose a battle cry that fits with your campaign.
+
+**Warlord Battle Cries**
+
+`dice: [](warlord-mpmm.md#^warlord-battle-cries)`
+
+| dice: d8 | Battle Cry |
+|----------|------------|
+| 1 | "Remember why we fight!" |
+| 2 | "Victory awaits!" |
+| 3 | "For the crown!" |
+| 4 | "Be monstrous to the enemy!" |
+| 5 | "Fight so they fear us!" |
+| 6 | "Weapons drawn! Spells at the ready!" |
+| 7 | "To the Abyss with them!" |
+| 8 | "You know what to do!" |
+^warlord-battle-cries
+
 
 ```ad-statblock
 title: Warlord

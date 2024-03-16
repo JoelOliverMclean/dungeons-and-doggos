@@ -12,6 +12,27 @@ aliases: ["Martial Arts Adept"]
 # Martial Arts Adept
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 172, Volo's Guide to Monsters p. 216*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Martial%20Arts%20Adept.webp#right)  
+Martial arts adepts are disciplined monks with extensive training in hand-to-hand combat. Some protect monasteries; others travel the world seeking enlightenment or new forms of combat to master. A few become bodyguards, trading their combat prowess and loyalty for food and lodging.
+
+Some martial artists adorn themselves with tattoos to honor inspirations or instructors, or to memorialize profound lessons, triumphs, or defeats. You may roll on the Martial Arts Adept Tattoos table to determine what sort of tattoo an adept bears.
+
+**Martial Arts Adept Tattoos**
+
+`dice: [](martial-arts-adept-mpmm.md#^martial-arts-adept-tattoos)`
+
+| dice: d8 | Tattoo |
+|----------|--------|
+| 1 | Patterning on the arms that make them look as though they were made of marble or granite |
+| 2 | Colorful dragon scales |
+| 3 | Collage of playful Elemental or Fey creatures |
+| 4 | Constellations on the palm of each hand |
+| 5 | Passage from a fighting manual |
+| 6 | Beautiful but poisonous flowers |
+| 7 | Two couatls swirling around each other, rendered in metallic ink |
+| 8 | Detailed landscape depicting natural beauty |
+^martial-arts-adept-tattoos
+
 
 ```ad-statblock
 title: Martial Arts Adept

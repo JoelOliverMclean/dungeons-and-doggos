@@ -18,7 +18,7 @@ aliases: ["Beholder Pets"]
 | 11-13 | `1d3` [beholder zombies](/3-Mechanics/CLI/bestiary/undead/beholder-zombie.md) |
 | 14-22 | `1d4` [chimeras](/3-Mechanics/CLI/bestiary/monstrosity/chimera.md) |
 | 23-26 | `1d4` [flesh golems](/3-Mechanics/CLI/bestiary/construct/flesh-golem.md) |
-| 27-29 | `3d6` [gazers](/3-Mechanics/CLI/bestiary/aberration/gazer-vgm.md) |
+| 27-29 | `3d6` [gazers](/3-Mechanics/CLI/bestiary/aberration/gazer-mpmm.md) |
 | 30-37 | `3d6` [hell hounds](/3-Mechanics/CLI/bestiary/fiend/hell-hound.md) |
 | 38-41 | `2d6` [nothics](/3-Mechanics/CLI/bestiary/aberration/nothic.md) |
 | 42-53 | `2d4` [otyughs](/3-Mechanics/CLI/bestiary/aberration/otyugh.md) |

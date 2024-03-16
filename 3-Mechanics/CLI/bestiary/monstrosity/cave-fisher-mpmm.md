@@ -12,6 +12,21 @@ aliases: ["Cave Fisher"]
 # Cave Fisher
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 73, Volo's Guide to Monsters p. 130*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Cave%20Fisher.webp#right)  
+A cave fisher is a subterranean arachnid with a long snout that houses spinnerets, enabling the creature to produce sticky filaments, much like the strands of a spider's webbing, which the creature uses to snag prey.
+
+A cave fisher usually hunts small animals and is particularly fond of bats, so it stretches a filament over an opening that such prey might travel through. It then climbs to a hiding spot and adheres itself to the surface to rest and wait. When prey blunders into the filament, the cave fisher reels in its meal. A group of cave fishers might work together to cover a large area with filaments, but as soon as one captures potential food, every cave fisher in the area competes for the prize. If a victim escapes from the initial ambush, a cave fisher can reclaim its prey by shooting a filament out to capture it again.
+
+Scarce food might draw a group of cave fishers up to the surface, into a shadowy canyon or a gloomy forest that features both native animal prey and creatures such as explorers or travelers occasionally moving through the area.
+
+## Valuable Parts
+
+Nearly every part of a cave fisher is useful after the creature has been dispatched. Cave fisher filaments can be woven into rope that is thin, tough, and nearly invisible. The creature's shell is used in the manufacture of tools, armor, and jewelry. Its blood is alcoholic and tastes like strong liquor. Several dwarven spirits include cave fisher blood, and some dwarves, especially berserkers, drink the blood straight. Cave fisher meat is edible, tasting much like crab cooked in strong wine.
+
+While some folk hunt cave fishers to kill them to harvest their filaments, shells, and blood, others capture cave fisher eggs and rear the hatchlings, which can be trained to guard passages or serve as beasts of war. Cave fishers have a natural aversion to fire, since their blood is flammable. As such, Underdark denizens often use the threat of fire when training them.
+
+
+## Statblock
 
 ```ad-statblock
 title: Cave Fisher

@@ -7,7 +7,7 @@ tags:
 aliases: ["Circle of the Shepherd"]
 ---
 # Circle of the Shepherd
-*[Druid](3-Mechanics/CLI/classes/druid.md): Druid Circle*  
+*[Druid](druid.md): Druid Circle*  
 *Source: Xanathar's Guide to Everything p. 23*  
 
 

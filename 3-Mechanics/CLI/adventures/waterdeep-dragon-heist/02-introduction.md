@@ -537,7 +537,7 @@ Harper support comes in these ways:
 
 - The Harpers make common and uncommon potions and scrolls available to the adventurers at a reduced or deferred cost depending on the circumstances.  
 - [Remallia Haventree](/3-Mechanics/CLI/bestiary/npc/remallia-haventree-wdh.md) (see appendix B) feeds useful bits of information to the adventurers and might also offer them temporary shelter.  
-- If the adventurers are accosted and overwhelmed, one or more Harpers come to their rescue. A Harper rescue team usually consists of a [bard](/3-Mechanics/CLI/bestiary/humanoid/bard-vgm.md) (see appendix B) or a [mage](/3-Mechanics/CLI/bestiary/humanoid/mage.md), plus `1d4 + 3` [spies](/3-Mechanics/CLI/bestiary/humanoid/spy.md) or [veterans](/3-Mechanics/CLI/bestiary/humanoid/veteran.md).  
+- If the adventurers are accosted and overwhelmed, one or more Harpers come to their rescue. A Harper rescue team usually consists of a [bard](/3-Mechanics/CLI/bestiary/humanoid/bard-mpmm.md) (see appendix B) or a [mage](/3-Mechanics/CLI/bestiary/humanoid/mage.md), plus `1d4 + 3` [spies](/3-Mechanics/CLI/bestiary/humanoid/spy.md) or [veterans](/3-Mechanics/CLI/bestiary/humanoid/veteran.md).  
 
 ### Lords' Alliance
 
@@ -581,7 +581,7 @@ Xanathar Guild support comes in these ways:
 
 - Any member given an assignment might receive a monstrous bodyguard or assistant (such as a [bugbear](/3-Mechanics/CLI/bestiary/humanoid/bugbear.md), a [kenku](/3-Mechanics/CLI/bestiary/humanoid/kenku.md), or a [wererat](/3-Mechanics/CLI/bestiary/humanoid/wererat.md)), who has secret instructions to kill the guild member if they fail to complete the assignment as ordered.  
 - The guild grants access to secret tunnels and safe houses (hidden cellars) underneath Waterdeep.  
-- [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md) might send a [gazer](/3-Mechanics/CLI/bestiary/aberration/gazer-vgm.md) (see appendix B) to help (and spy on) an up-and-coming guild member.  
+- [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md) might send a [gazer](/3-Mechanics/CLI/bestiary/aberration/gazer-mpmm.md) (see appendix B) to help (and spy on) an up-and-coming guild member.  
 
 ### Zhentarim
 

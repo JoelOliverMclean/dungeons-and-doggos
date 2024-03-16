@@ -12,6 +12,9 @@ NoteIcon: npc_male
 Vitality: 
 tags:
   - npc
+accent: 
+  - "Scottish"
+  - "Gruff"
 ---
 
 
@@ -38,6 +41,9 @@ tags:
 
 # `=this.file.name`
 ## Profile
+
+> ### RP
+> Accent: **`=this.accent`**
 
 ![[durnan-wdh#^7ca01a]]
 ![[durnan-wdh#^6d6831]]

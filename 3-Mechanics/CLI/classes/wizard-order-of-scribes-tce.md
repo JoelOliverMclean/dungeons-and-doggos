@@ -7,7 +7,7 @@ tags:
 aliases: ["Order of Scribes"]
 ---
 # Order of Scribes
-*[Wizard](3-Mechanics/CLI/classes/wizard.md): Arcane Tradition*  
+*[Wizard](wizard.md): Arcane Tradition*  
 *Source: Tasha's Cauldron of Everything p. 77*  
 
 

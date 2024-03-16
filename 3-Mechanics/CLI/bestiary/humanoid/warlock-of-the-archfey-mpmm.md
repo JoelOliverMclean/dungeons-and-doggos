@@ -16,6 +16,14 @@ aliases: ["Warlock of the Archfey"]
 # Warlock of the Archfey
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 255, Volo's Guide to Monsters p. 219*  
 
+Warlocks of the Archfey gain their powers through magical pacts forged with lords of the Feywild. These warlocks commonly associate with lesser Fey creatures such as [boggles](/3-Mechanics/CLI/bestiary/fey/boggle-mpmm.md), [quicklings](/3-Mechanics/CLI/bestiary/fey/quickling-mpmm.md), and [redcaps](/3-Mechanics/CLI/bestiary/fey/redcap-mpmm.md) (all appear in "this book") or even [satyrs](/3-Mechanics/CLI/bestiary/fey/satyr.md) and [sprites](/3-Mechanics/CLI/bestiary/fey/sprite.md).
+
+## Warlocks
+
+Warlocks gain arcane might through magical pacts with mysterious entities. While some use their abilities to serve the sources of their power, others use them to undermine or even destroy these entities.
+
+
+## Statblock
 
 ```ad-statblock
 title: Warlock of the Archfey

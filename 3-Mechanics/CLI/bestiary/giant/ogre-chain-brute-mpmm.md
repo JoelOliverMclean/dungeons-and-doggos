@@ -14,6 +14,14 @@ aliases: ["Ogre Chain Brute"]
 # Ogre Chain Brute
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 201, Mordenkainen's Tome of Foes p. 221*  
 
+An ogre chain brute wields a great spiked chain, swinging it with both hands in a wide circle to knock foes off their feet. Alternatively, the ogre can swing the chain in a crushing overhead smash.
+
+## Ogres of War
+
+Ogres love to rush headlong into battle, but with enough time and patience, some of them learn to carry out specialized missions. The names they are given—the battering ram, the bolt launcher, the chain brute, and the howdah—reflect their particular functions. These jobs are tailored to take advantage of an ogre's strengths.
+
+
+## Statblock
 
 ```ad-statblock
 title: Ogre Chain Brute

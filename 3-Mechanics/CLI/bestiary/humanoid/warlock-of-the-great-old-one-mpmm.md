@@ -16,6 +16,15 @@ aliases: ["Warlock of the Great Old One"]
 # Warlock of the Great Old One
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 256, Volo's Guide to Monsters p. 220*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Warlock%20of%20the%20Great%20Old%20One.webp#right)  
+Warlocks of the Great Old One gain their powers through magical pacts forged with eldritch entities from strange and distant realms of existence. Some of these warlocks associate with cultists devoted to these entities, as well as Aberrations that share their goals, yet other warlocks of the Great Old One are experts at rooting out the chaos and wickedness inspired by bizarre beings from beyond the stars.
+
+## Warlocks
+
+Warlocks gain arcane might through magical pacts with mysterious entities. While some use their abilities to serve the sources of their power, others use them to undermine or even destroy these entities.
+
+
+## Statblock
 
 ```ad-statblock
 title: Warlock of the Great Old One

@@ -67,7 +67,7 @@ Duergar value toil above all else. Showing emotions other than grim determinatio
 
 Few duergar become adventurers, fewer still on the surface world, because they are a hidebound and suspicious race. Those who leave their subterranean cities are usually exiles. Check with your Dungeon Master to see if you can play a gray dwarf character.
 
-- [Dwarf (Duergar)](/3-Mechanics/CLI/races/dwarf-duergar-mtf.md)  
+- [Dwarf (Duergar)](/3-Mechanics/CLI/races/duergar-mpmm.md)  
 
 ![Dethek, the letters and numerals of Dwarvish](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/book/SCAG/dwarvish-language.webp#center)
 
@@ -509,7 +509,7 @@ Deep gnome adventurers are just as curious and daring as those of other races. S
 
 The svirfneblin subrace has the gnome traits in the Player's Handbook, plus the subrace traits below. Unlike other gnomes, svirfneblin tend to be neutral, they weigh 80 to 120 pounds, and they reach maturity at 25 and live 200 to 250 years.
 
-- [Gnome (Deep/Svirfneblin)](/3-Mechanics/CLI/races/gnome-deep-svirfneblin-scag.md)  
+- [Gnome (Deep/Svirfneblin)](/3-Mechanics/CLI/races/deep-gnome-mpmm.md)  
 
 ### Gnomish Deities
 

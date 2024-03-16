@@ -13,6 +13,7 @@ NoteIcon: npc_female
 Vitality: 
 tags:
   - npc
+accent:
 ---
 
 
@@ -39,6 +40,9 @@ tags:
 
 # `=this.file.name`
 ## Profile
+
+> ### RP
+> Accent: **`=this.accent`**
 
 ![[yagra-stonefist-wdh#^c5b0c5]]
 

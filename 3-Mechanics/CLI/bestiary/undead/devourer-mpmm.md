@@ -12,6 +12,13 @@ aliases: ["Devourer"]
 # Devourer
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 93, Volo's Guide to Monsters p. 138*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Devourer.webp#right)  
+Of all the abominations unleashed by [Orcus](/3-Mechanics/CLI/bestiary/npc/orcus-mpmm.md), devourers are among the most feared. These tall, mummy-like Undead wander the planes, consuming souls and spreading Orcus's creed of replacing all life with everlasting death.
+
+A lesser demon that proves itself to Orcus might be granted the privilege of becoming a devourer. The Prince of Undeath transforms such a demon into an 8-foot-tall, desiccated biped with a hollowed-out ribcage, then fills the new creature with a hunger for souls. Orcus grants each new devourer the essence of a less fortunate demon to power the devourer's first foray into the planes. Most devourers remain in the Abyss or on the Astral or Ethereal Plane, pursuing Orcus's schemes and interests in those realms. When Orcus sends devourers to the Material Plane, he often sets them on a mission to create, control, and lead a plague of Undead. [Skeletons](/3-Mechanics/CLI/bestiary/undead/skeleton.md), [zombies](/3-Mechanics/CLI/bestiary/undead/zombie.md), [ghouls](/3-Mechanics/CLI/bestiary/undead/ghoul.md), [ghasts](/3-Mechanics/CLI/bestiary/undead/ghast.md), and [shadows](/3-Mechanics/CLI/bestiary/undead/shadow.md) are particularly attracted to the presence of a devourer.
+
+Devourers hunt Humanoids with the intent of consuming them body and soul. After a devourer brings a target to the brink of death, it pulls the victim's body in and traps the creature within its own ribcage. As the victim tries to stave off death (usually without success), the devourer tortures its soul with telepathic noise. When the victim expires, it undergoes a horrible transformation, springing forth from the devourer's body to begin its new existence as an Undead servitor of the monster that spawned it.
+
 
 ```ad-statblock
 title: Devourer

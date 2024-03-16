@@ -12,6 +12,15 @@ aliases: ["Evoker Wizard"]
 # Evoker Wizard
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 262, Volo's Guide to Monsters p. 214*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Evoker%20Wizard.webp#right)  
+Evokers harness arcane energy to destroy. Many armies employ evokers to rain destruction down on enemy forces.
+
+## Wizards
+
+Wizards pursue magical power through the study of arcane texts. Some travel the world searching for esoteric tomes while others train lesser wizards or collaborate with colleagues to create new spells.
+
+
+## Statblock
 
 ```ad-statblock
 title: Evoker Wizard

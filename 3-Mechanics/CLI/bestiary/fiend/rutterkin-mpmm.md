@@ -11,6 +11,17 @@ aliases: ["Rutterkin"]
 # Rutterkin
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 210, Mordenkainen's Tome of Foes p. 136*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Rutterkin.webp#right)  
+> [!quote]- A quote from Tasha  
+> 
+> Eugh, rutterkins. You've heard of stinking cloud—now get ready for its sequel, rancid crows.
+> 
+> (Mordenkainen, my dear, I know you just died inside when you read that. Kisses!)
+
+Rutterkins are warped demons that roam the Abyss in mobs, constantly searching for intruders to surround and devour. These Fiends protect the Abyss from non-demons. When they spot any interlopers, they gather in a crowd and surge forward, emitting a wave of fear in advance of their attacks that leaves their victims terrified and rooted in place.
+
+Creatures bitten by rutterkins are exposed to a terrible disease that infects them with the corrupting influence of the Abyss. Victims afflicted with the disease experience tremendous pain as their bodies become disfigured, flesh twisting around the bones, until they transform to join the mass of [manes](/3-Mechanics/CLI/bestiary/fiend/manes.md) demons that follow in the wake of the rutterkin mob that laid them low.
+
 
 ```ad-statblock
 title: Rutterkin

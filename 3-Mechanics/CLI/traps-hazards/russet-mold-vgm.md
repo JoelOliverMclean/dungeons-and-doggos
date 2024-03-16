@@ -20,4 +20,4 @@ Any creature that comes within 5 feet of russet mold must make a DC 13 Constitut
 
 Russet mold can be hard to kill, since weapons and most types of damage do it no harm. Effects that deal acid, necrotic, or radiant damage kill 1 square foot of russet mold per 1 damage dealt. A pound of salt, a gallon of alcohol, or magic that cures disease kills russet mold in a square area that is 10 feet on a side. Sunlight kills any russet mold in the light's area.
 
-*Source: Volo's Guide to Monsters p. 196*
+*Source: Volo's Guide to Monsters p. 196, Mordenkainen Presents: Monsters of the Multiverse p. 252*

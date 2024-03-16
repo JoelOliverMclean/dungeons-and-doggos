@@ -13,6 +13,27 @@ aliases: ["War Priest"]
 # War Priest
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 254, Volo's Guide to Monsters p. 218*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/War%20Priest.webp#right)  
+War priests worship deities of war, protection, and strategy. They plan tactics, lead soldiers into battle, confront enemy spellcasters, and tend to casualties. A war priest might command an army or serve as the right hand of a [warlord](/3-Mechanics/CLI/bestiary/humanoid/warlord-mpmm.md) (appears in "this book") on the battlefield.
+
+War priests typically adorn themselves with a symbol of their faith. You can roll on the War Priest Holy Symbols table below, or choose one that fits your campaign.
+
+**War Priest Holy Symbols**
+
+`dice: [](war-priest-mpmm.md#^war-priest-holy-symbols)`
+
+| dice: d8 | Holy Symbol |
+|----------|-------------|
+| 1 | Vial of iridescent liquid |
+| 2 | Hilt of a broken sword |
+| 3 | Piece of stained glass from a shrine |
+| 4 | Clay figurine of a [ki-rin](/3-Mechanics/CLI/bestiary/celestial/ki-rin-mpmm.md) or another Celestial |
+| 5 | [Torch](/3-Mechanics/CLI/items/torch.md) carved so that a hand appears to be holding the flame |
+| 6 | Circlet of woven reeds |
+| 7 | Scrimshawed bone |
+| 8 | Vessel such as a cup, a [jug](/3-Mechanics/CLI/items/jug.md), an urn, or an amphora |
+^war-priest-holy-symbols
+
 
 ```ad-statblock
 title: War Priest

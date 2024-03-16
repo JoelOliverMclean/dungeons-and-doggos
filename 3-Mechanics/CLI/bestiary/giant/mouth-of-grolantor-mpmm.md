@@ -13,6 +13,13 @@ aliases: ["Mouth of Grolantor"]
 # Mouth of Grolantor
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 187, Volo's Guide to Monsters p. 149*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Mouth%20of%20Grolantor.webp#right)  
+Hill giants consume spoiled food and diseased carcasses with as much enthusiasm as children eating dessert and rarely suffer for such eating habits. When one of their kind becomes incapable of keeping down food, that giant is seen, among hill giant worshipers of the god Grolantor, as the vessel of a message from the deity.
+
+The sickened giant's compatriots separate the giant from the rest of the community, often trapping them in a cage or tying them to a post. A priest of Grolantor visits the famished giant daily, trying to read portents in the puddles of bile the hill giant retches up. If the sickness soon passes, they allow the hill giant to rejoin society. If not, the hill giant is instead starved to the point of desperation so Grolantor's hunger can be given a mouth in the world.
+
+A mouth of Grolantor is revered as a holy embodiment of Grolantor's aching hunger. Unlike a typical sluggish hill giant, a mouth of Grolantor is thin as a whippet, alert like a bird, and constantly twitchy. Mouths are kept perpetually imprisoned or shackled; if they break free, they're sure to kill anyone nearby before they're brought down or escape on a killing spree. The only time mouths of Grolantor are set loose is during a war, during a raid against an enemy settlement, or in a last-ditch defense of Grolantor's faithful. When a mouth of Grolantor has slaughtered and eaten their fill of enemies, they pass out amid the gory remains of their victims, making them easy to recapture.
+
 
 ```ad-statblock
 title: Mouth of Grolantor

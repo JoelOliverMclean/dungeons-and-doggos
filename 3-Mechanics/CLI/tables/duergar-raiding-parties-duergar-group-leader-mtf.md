@@ -14,7 +14,7 @@ aliases: ["Duergar Raiding Parties; Duergar Group Leader"]
 
 | dice: d6 | Leader |
 |----------|--------|
-| 1 | [Duergar Stone Guard](/3-Mechanics/CLI/bestiary/humanoid/duergar-stone-guard-mtf.md) |
-| 2-4 | [Duergar Warlord](/3-Mechanics/CLI/bestiary/humanoid/duergar-warlord-mtf.md) |
-| 5-6 | [Duergar Despot](/3-Mechanics/CLI/bestiary/humanoid/duergar-despot-mtf.md) |
+| 1 | [Duergar Stone Guard](/3-Mechanics/CLI/bestiary/humanoid/duergar-stone-guard-mpmm.md) |
+| 2-4 | [Duergar Warlord](/3-Mechanics/CLI/bestiary/humanoid/duergar-warlord-mpmm.md) |
+| 5-6 | [Duergar Despot](/3-Mechanics/CLI/bestiary/humanoid/duergar-despot-mpmm.md) |
 ^duergar-group-leader

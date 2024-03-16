@@ -15,6 +15,27 @@ aliases: ["Archdruid"]
 # Archdruid
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 48, Volo's Guide to Monsters p. 210*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Archdruid.webp#right)  
+Archdruids watch over the natural wonders of their domains. They seldom interact with folk away from their druid groves and shrines, unless there is a great threat to the natural order or to a nearby community. An archdruid typically has one or more pupils who are [druids](/3-Mechanics/CLI/bestiary/humanoid/druid.md), and the archdruid's lair is usually guarded by loyal Beasts and Fey creatures.
+
+When an archdruid uses their Change Shape action, you may choose the creature they turn into, abiding by the action's restrictions. Or you may roll on the Archdruid Favored Shapes table to determine the form the archdruid adopts.
+
+**Archdruid Favored Shapes**
+
+`dice: [](archdruid-mpmm.md#^archdruid-favored-shapes)`
+
+| dice: d8 | Favored Shape |
+|----------|---------------|
+| 1 | [Air elemental](/3-Mechanics/CLI/bestiary/elemental/air-elemental.md) |
+| 2 | [Earth elemental](/3-Mechanics/CLI/bestiary/elemental/earth-elemental.md) |
+| 3 | [Fire elemental](/3-Mechanics/CLI/bestiary/elemental/fire-elemental.md) |
+| 4 | [Giant crocodile](/3-Mechanics/CLI/bestiary/beast/giant-crocodile.md) |
+| 5 | [Mammoth](/3-Mechanics/CLI/bestiary/beast/mammoth.md) |
+| 6 | [Flail snail](/3-Mechanics/CLI/bestiary/elemental/flail-snail-mpmm.md) |
+| 7 | [Triceratops](/3-Mechanics/CLI/bestiary/beast/triceratops.md) |
+| 8 | [Water elemental](/3-Mechanics/CLI/bestiary/elemental/water-elemental.md) |
+^archdruid-favored-shapes
+
 
 ```ad-statblock
 title: Archdruid

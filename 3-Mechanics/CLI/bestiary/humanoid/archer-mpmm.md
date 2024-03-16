@@ -13,6 +13,31 @@ aliases: ["Archer"]
 # Archer
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 49, Volo's Guide to Monsters p. 210*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Archer.webp#right)  
+Archers defend castles, hunt wild game on the fringes of civilization, serve as artillery in military units, and occasionally make good coin as brigands or caravan guards.
+
+Some renowned archers and groups of archers are known for the special fletching of their arrows. You may roll on the Archer Fletching table to determine the distinctive fletching used by an individual archer or a group of them.
+
+**Archer Fletching**
+
+`dice: [](archer-mpmm.md#^archer-fletching)`
+
+| dice: d12 | Fletching |
+|-----------|-----------|
+| 1 | Feathers from an owlbear's mane |
+| 2 | Cockatrice feathers |
+| 3 | Axe beak feathers |
+| 4 | Planetar feathers |
+| 5 | Couatl feathers |
+| 6 | Pegasus feathers |
+| 7 | Griffon feathers |
+| 8 | Vrock feathers |
+| 9 | Peryton feathers |
+| 10 | Dryad leaf vanes |
+| 11 | Drake scale vanes |
+| 12 | Stirge wing vanes |
+^archer-fletching
+
 
 ```ad-statblock
 title: Archer

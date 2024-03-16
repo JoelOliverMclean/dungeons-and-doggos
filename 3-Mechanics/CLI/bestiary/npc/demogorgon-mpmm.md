@@ -11,6 +11,28 @@ aliases: ["Demogorgon"]
 # Demogorgon
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 90, Mordenkainen's Tome of Foes p. 144*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Demogorgon.webp#right)  
+> [!quote]- A quote from Mordenkainen  
+> 
+> Are two heads better than one? In Demogorgon's case, the two double the horror and the chaos.
+
+Prince of Demons, the Sibilant Beast, and Master of the Spiraling Depths, Demogorgon is the embodiment of chaos, confusion, and destruction, seeking to corrupt all that is good and undermine order in the multiverse, to see everything dragged howling into the infinite depths of the Abyss.
+
+The demon lord is a meld of different forms. He has a saurian lower body and clawed, webbed feet; suckered tentacles sprout from the shoulders of his great apelike torso, which is surmounted by two hideous simian heads named Aameul and Hathradiah. Their gaze brings bewilderment and confusion to any who confront them.
+
+Similarly, the spiraling Y sign of Demogorgon's cult drives those who contemplate it for too long to delirium. As a result, all followers of the Prince of Demons break with reality sooner or later.
+
+## Cultists of Demogorgon
+
+> [!note]
+> See the Cult of Demogorgon entry.
+
+## Demogorgon's Lair
+
+Demogorgon makes his lair in a palace called Abysm, found on a layer of the Abyss known as the Gaping Maw. Demogorgon's lair is a place of confusion and duality; the portion of the palace that lies above water takes the form of two serpentine towers, each crowned by a skull-shaped minaret. There, Demogorgon's heads contemplate the mysteries of the arcane while arguing about how best to obliterate their rivals. The bulk of this palace extends deep underwater, in chill and darkened caverns.
+
+
+## Statblock
 
 ```ad-statblock
 title: Demogorgon
@@ -70,5 +92,26 @@ title: Demogorgon
 ***Tail.*** *Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 20 (`2d10 + 9`) bludgeoning damage plus 11 (`2d10`) necrotic damage.
 
 ***Cast a Spell (Costs 2 Actions).*** Demogorgon uses Spellcasting.
+
+## Lair actions
+
+On initiative count 20 (losing initiative ties), Demogorgon can take one of the following lair actions; he can't take the same lair action two rounds in a row:
+
+- **Darkness.** Demogorgon casts the [darkness](/3-Mechanics/CLI/spells/darkness.md) spell four times, targeting different areas with the spell. Demogorgon doesn't need to concentrate on the spells, which end on initiative count 20 of the next round.  
+- **Illusory Duplicate.** Demogorgon creates an illusory duplicate of himself, which appears in his space and lasts until initiative count 20 of the next round. On his turn, Demogorgon can move the illusory duplicate a distance equal to his walking speed (no action required). The first time a creature or an object interacts physically with Demogorgon (for example, by hitting him with an attack), there is a 50% chance chance that the illusory duplicate is affected, not Demogorgon, in which case the illusion disappears.  
+
+## Regional effects
+
+The region containing Demogorgon's lair is warped by his magic, creating one or more of the following effects:
+
+- **Beguiling Realm.** Within 6 miles of the lair, all Charisma ([Persuasion](/3-Mechanics/CLI/rules/skills.md#Persuasion)) and Charisma ([Performance](/3-Mechanics/CLI/rules/skills.md#Performance)) checks have disadvantage, and all Charisma ([Deception](/3-Mechanics/CLI/rules/skills.md#Deception)) and Charisma ([Intimidation](/3-Mechanics/CLI/rules/skills.md#Intimidation)) checks have advantage.  
+- **Frenzied Animals.** Beasts within 1 mile of the lair become frenzied and violent—even creatures that are normally docile. Within that area, any ability check involving Animal Handling has disadvantage.  
+- **Venomous Beasts.** The area within 6 miles of the lair becomes overpopulated with [poisonous snakes](/3-Mechanics/CLI/bestiary/beast/poisonous-snake.md) and other venomous Beasts.  
+
+If Demogorgon dies, these effects fade over the course of `1d10` days.
+
+## Is homebrew
+
+false
 ```
 ^statblock

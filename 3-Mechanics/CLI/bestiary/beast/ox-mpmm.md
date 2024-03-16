@@ -13,6 +13,14 @@ aliases: ["Ox"]
 # Ox
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 72, Volo's Guide to Monsters p. 208*  
 
+Oxen are domesticated cattle bred for milk and meat production and for hauling. Many cultures incorporate the ox into their labor and diets.
+
+## Cattle
+
+Many kinds of cattle roam the multiverse, some of them domesticated and others feral. In many cultures, cattle are almost like family to the folk who tend to them.
+
+
+## Statblock
 
 ```ad-statblock
 title: Ox

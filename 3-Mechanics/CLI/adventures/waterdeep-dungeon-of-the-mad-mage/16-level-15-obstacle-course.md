@@ -768,7 +768,7 @@ Thanks to a permanent [Nystul's magic aura](/3-Mechanics/CLI/spells/nystuls-magi
 
 The dwarf in the painting is a beard-stroking villain named [Thwad Underbrew](/3-Mechanics/CLI/bestiary/npc/thwad-underbrew-wdmm.md), a former champion of Gorm Gulthyn (the dwarven god of vigilance) who long ago set out to rid Undermountain of the evil that is [Halaster Blackcloak](/3-Mechanics/CLI/bestiary/npc/halaster-blackcloak-wdmm.md). Halaster defeated Underbrew but offered to spare the dwarf's life if he vowed to serve the Mad Mage as an enforcer, ridding the dungeon of other invaders. Unwilling to face his own mortal end, Underbrew made this vow and convinced himself over time that the executions he performed were acts of mercy, because those he killed would never be forced to turn against their beliefs as he had. In time, these acts stopped weighing on Underbrew's conscience. In fact, the dwarf began to enjoy his grisly work.
 
-[Thwad Underbrew](/3-Mechanics/CLI/bestiary/npc/thwad-underbrew-wdmm.md) is a shield dwarf [champion](/3-Mechanics/CLI/bestiary/humanoid/champion-vgm.md) (see appendix A), with these changes:
+[Thwad Underbrew](/3-Mechanics/CLI/bestiary/npc/thwad-underbrew-wdmm.md) is a shield dwarf [champion](/3-Mechanics/CLI/bestiary/humanoid/champion-mpmm.md) (see appendix A), with these changes:
 
 - Underbrew is neutral evil.  
 - Instead of a greatsword, he wields a maul (which deals bludgeoning damage instead of slashing damage).  

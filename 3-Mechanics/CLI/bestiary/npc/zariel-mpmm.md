@@ -11,6 +11,28 @@ aliases: ["Zariel"]
 # Zariel
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 280, Mordenkainen's Tome of Foes p. 180*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Zariel.webp#right)  
+> [!quote]- A quote from Mordenkainen  
+> 
+> That which falls from grace may yet rise to regain it. If Zariel were to return to her celestial self, how glorious would be the tales!
+
+Once a mighty angel charged with watching the tides of the Blood War, Zariel succumbed to the corrupting influence of the Nine Hells and fell from grace. Asmodeus admired Zariel's passion for war and offered her rulership of Avernus. She accepted his offer, and he transformed her into an archdevil.
+
+Zariel's rise in status came at the expense of Bel, her pit fiend predecessor. Zariel and Bel hate each other. To keep Bel busy and out of her sight, Zariel tasks him with forging weapons, armor, and grue some demon-slaying machines.
+
+To replenish her legions, Zariel needs the souls of mortals to create lemures, which she can then promote to higher forms of devils. She is keenly interested in collecting souls from the greatest warriors on the Material Plane. She bargains hard, and there is little hope of wriggling out of a pact. However, she expects the best from her servants, so she allows her mortal followers to live out their lives provided they continue to hone their talents to increase their value. As a result, Zariel's servants are universally effective, disciplined, and dangerous.
+
+## Cultists of Zariel
+
+> [!note]
+> See the Cult of Zariel entry.
+
+## Zariel's Lair
+
+Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly a mile away, one can hear the screams and moans coming from the burned victims chained to the stronghold's wall, the dying remains of those who failed to impress the archdevil. The stronghold, covering five square miles, is surrounded by walls reinforced with high turrets. Devils of all kinds crawl over the structure, ensuring that no intruders breach their defenses.
+
+
+## Statblock
 
 ```ad-statblock
 title: Zariel
@@ -68,5 +90,26 @@ title: Zariel
 ***Teleport.*** Zariel uses Teleport.
 
 ***Immolating Gaze (Costs 2 Actions).*** Zariel turns her magical gaze toward one creature she can see within 120 feet of her and commands it to burn. The target must succeed on a DC 26 Wisdom saving throw or take 22 (`4d10`) fire damage.
+
+## Lair actions
+
+On initiative count 20 (losing initiative ties), Zariel can take one of the following lair actions; she can't take the same lair action two rounds in a row:
+
+- **Fireball.** Zariel casts the [fireball](/3-Mechanics/CLI/spells/fireball.md) spell.  
+- **Infernal Illusions.** Zariel casts the [major image](/3-Mechanics/CLI/spells/major-image.md) spell four times, targeting different areas with it. Zariel prefers to create images of intruders' loved ones being burned alive. Zariel doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. Each creature that can see these illusions must succeed on a DC 26 Wisdom saving throw or become [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened) of the illusion for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
+
+## Regional effects
+
+The region containing Zariel's lair is warped by her magic, which creates one or more of the following effects:
+
+- **Hellscape.** The area within 9 miles of the lair is filled with screaming voices and the stench of burning meat.  
+- **Pyres.** Once every 60 feet within 1 mile of the lair, 10-foot-high gouts of flame rise from the ground. Any creature or object that touches the flame takes 7 (`2d6` fire damage, though it can take this damage no more than once per round.  
+- **Smoke.** The area within 2 miles of the lair, but no closer than 500 feet, is filled with smoke, which causes the area to be heavily obscured. The smoke can't be cleared away.  
+
+If Zariel dies, these effects fade over the course of `1d10` days.
+
+## Is homebrew
+
+false
 ```
 ^statblock

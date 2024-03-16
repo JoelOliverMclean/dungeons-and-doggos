@@ -12,6 +12,17 @@ aliases: ["Tortle"]
 # Tortle
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 244, Mordenkainen's Tome of Foes p. 242*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Tortle.webp#right)  
+The generic tortle stat block here represents a warrior, especially the sort who travels far and wide.
+
+## Tortles
+
+Tortles are omnivorous, turtle-like bipeds with shells that cover most of their bodies. Because they carry their homes on their backs, tortles feel little need to stay put for long.
+
+Most tortles like to see how other folk live. A tortle can spend decades away from their native land without feeling homesick, often viewing their current companions as their family.
+
+
+## Statblock
 
 ```ad-statblock
 title: Tortle

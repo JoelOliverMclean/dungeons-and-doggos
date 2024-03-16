@@ -18,4 +18,4 @@ Rot grubs pose a threat both singly and as a swarm. See the [stat block](/3-Mech
 
 Any creature that comes into contact with a single rot grub must succeed on a DC 10 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), as the rot grub burrows into the creature. The [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) creature takes 3 (`1d6`) poison damage at the end of each of its turns. Whenever the [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) creature takes fire damage, the creature can repeat the saving throw, ending the effect on itself on a success. If the [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) creature ends its turn with 0 hit points, it dies, as the rot grub kills it.
 
-*Source: Volo's Guide to Monsters p. 208*
+*Source: Volo's Guide to Monsters p. 208, Mordenkainen Presents: Monsters of the Multiverse p. 237*

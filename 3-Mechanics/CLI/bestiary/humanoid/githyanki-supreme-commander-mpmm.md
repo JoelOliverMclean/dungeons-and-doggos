@@ -14,6 +14,15 @@ aliases: ["Githyanki Supreme Commander"]
 # Githyanki Supreme Commander
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 141, Mordenkainen's Tome of Foes p. 206*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Githyanki%20Supreme%20Commander.webp#right)  
+Supreme commanders lead armies, each one commanding ten kith'raks, who in turn lead the rest of their forces. Most supreme commanders ride [red dragons](/3-Mechanics/CLI/bestiary/dragon/adult-red-dragon.md) into battle.
+
+## Githyanki
+
+Githyanki descend from an ancient people who were also the progenitors of githzerai (also in this book). These tall, gaunt folk have potent psionic powers and dwell, for the most part, on the Astral Plane. Among the best-known githyanki are the bellicose followers of the Lich Queen Vlaakith. They terrorize the Astral Plane, raiding into other planes to plunder the multiverse of its magic and riches.
+
+
+## Statblock
 
 ```ad-statblock
 title: Githyanki Supreme Commander

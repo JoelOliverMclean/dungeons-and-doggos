@@ -97,7 +97,7 @@ Twelve [gargoyles](/3-Mechanics/CLI/bestiary/elemental/gargoyle.md) perch on the
 
 ### 9. Tower of the Seven Woes
 
-The fortress's half-ogre commander, [Sundeth](/3-Mechanics/CLI/bestiary/npc/sundeth-wdmm.md), lives in this hollowed-out spire with his [wyvern](/3-Mechanics/CLI/bestiary/dragon/wyvern.md) mount. [Sundeth](/3-Mechanics/CLI/bestiary/npc/sundeth-wdmm.md) is a hideous, 8-foot-tall, half-ogre [champion](/3-Mechanics/CLI/bestiary/humanoid/champion-vgm.md) (see appendix A), with these changes:
+The fortress's half-ogre commander, [Sundeth](/3-Mechanics/CLI/bestiary/npc/sundeth-wdmm.md), lives in this hollowed-out spire with his [wyvern](/3-Mechanics/CLI/bestiary/dragon/wyvern.md) mount. [Sundeth](/3-Mechanics/CLI/bestiary/npc/sundeth-wdmm.md) is a hideous, 8-foot-tall, half-ogre [champion](/3-Mechanics/CLI/bestiary/humanoid/champion-mpmm.md) (see appendix A), with these changes:
 
 - [Sundeth](/3-Mechanics/CLI/bestiary/npc/sundeth-wdmm.md) is chaotic evil.  
 - He has these racial traits: He is Large and has [darkvision](/3-Mechanics/CLI/rules/senses.md#darkvision) out to a range of 60 feet. He speaks Common and Giant.  

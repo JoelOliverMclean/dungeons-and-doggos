@@ -12,6 +12,9 @@ aliases: ["Drow Arachnomancer"]
 # Drow Arachnomancer
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 99, Mordenkainen's Tome of Foes p. 182*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Drow%20Arachnomancer.webp#right)  
+Drow spellcasters who seek to devote themselves wholly to Lolth, the Spider Queen, sometimes walk the sinister path of the arachnomancer. By offering up body and soul to Lolth, they gain tremendous power and a supernatural connection to the ancient spiders of the Demonweb Pits, channeling magic from that dread place.
+
 
 ```ad-statblock
 title: Drow Arachnomancer

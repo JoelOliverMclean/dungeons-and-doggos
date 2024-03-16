@@ -12,6 +12,29 @@ aliases: ["Bard"]
 # Bard
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 59, Volo's Guide to Monsters p. 211*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Bard.webp#right)  
+Bards are gifted poets, storytellers, and entertainers who travel far and wide. They're commonly found in taverns or in the company of jolly bands of adventurers, rough-and-tumble mercenaries, and wealthy patrons.
+
+Each bard is a master of at least one type of performance. You may choose a bard's main type, or you may roll on the Bard [Performance](/3-Mechanics/CLI/rules/skills.md#Performance) Types table to determine it.
+
+**Bard Performance Types**
+
+`dice: [](bard-mpmm.md#^bard-performance-types)`
+
+| dice: d10 | Performance Type |
+|-----------|------------------|
+| 1 | Poetry |
+| 2 | Singing |
+| 3 | Bagpipe |
+| 4 | Flute |
+| 5 | Dancing |
+| 6 | Drum |
+| 7 | Lute |
+| 8 | Puppetry |
+| 9 | Mime |
+| 10 | Acting |
+^bard-performance-types
+
 
 ```ad-statblock
 title: Bard

@@ -592,7 +592,7 @@ Any gray dwarves who leave the Underdark and take up adventuring, after having b
 
 At the DM's discretion, you can play a duergar character. When you choose the subrace of your dwarf, you can choose duergar, using the following rules to create your character.
 
-- [Dwarf (Duergar)](/3-Mechanics/CLI/races/dwarf-duergar-mtf.md)  
+- [Dwarf (Duergar)](/3-Mechanics/CLI/races/duergar-mpmm.md)  
 
 ## Dwarf Tables
 

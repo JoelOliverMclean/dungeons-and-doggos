@@ -7,7 +7,7 @@ tags:
 aliases: ["Circle of Spores"]
 ---
 # Circle of Spores
-*[Druid](3-Mechanics/CLI/classes/druid.md): Druid Circle*  
+*[Druid](druid.md): Druid Circle*  
 *Source: Tasha's Cauldron of Everything p. 36*  
 
 

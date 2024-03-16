@@ -87,7 +87,7 @@ The githyanki knocked down several walls to create this chamber, and much of the
 
 > [!note] 
 > 
-> **Crystal Stalactite**. A 10-foot-long crystal stalactite hangs above a pit filled with silvery mist. Encased in the stalactite is Ilmei, a female [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) (see appendix A for statistics; see also "Crystal Stalactites").
+> **Crystal Stalactite**. A 10-foot-long crystal stalactite hangs above a pit filled with silvery mist. Encased in the stalactite is Ilmei, a female [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) (see appendix A for statistics; see also "Crystal Stalactites").
 > 
 > **Guards**. Around the pit, four [githyanki warriors](/3-Mechanics/CLI/bestiary/humanoid/githyanki-warrior.md) (two males and two females) spar with each other to pass the time.
 ^82e
@@ -114,7 +114,7 @@ The creatures in area 3b investigate any disturbance in this portion of the cave
 
 > [!note] 
 > 
-> **Crystal Stalactite**. A 10-foot-long crystal stalactite hangs above a pit filled with silvery mist. Encased in the stalactite is Arbez, a male [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) (see appendix A for statistics; see also "Crystal Stalactites").
+> **Crystal Stalactite**. A 10-foot-long crystal stalactite hangs above a pit filled with silvery mist. Encased in the stalactite is Arbez, a male [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) (see appendix A for statistics; see also "Crystal Stalactites").
 > 
 > **Straw Dummies**. Five freestanding straw dummies with the rough forms of mind flayers (marked X on map 16) stand north of the pit.
 ^833
@@ -134,7 +134,7 @@ Githyanki warriors use the straw dummies as targets in combat training exercises
 
 > [!note] 
 > 
-> **Crystal Stalactite**. A 10-foot-long crystal stalactite hangs above a pit filled with silvery mist. Encased in the stalactite is Surlock, a male [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) (see appendix A for statistics; see also the "Crystal Stalactites" sidebar).
+> **Crystal Stalactite**. A 10-foot-long crystal stalactite hangs above a pit filled with silvery mist. Encased in the stalactite is Surlock, a male [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) (see appendix A for statistics; see also the "Crystal Stalactites" sidebar).
 > 
 > **Knight and Dragon**. Near the eastern edge of the pit, a female [githyanki knight](/3-Mechanics/CLI/bestiary/humanoid/githyanki-knight.md) named Deslarr sits astride Ashranthax, a female [young red dragon](/3-Mechanics/CLI/bestiary/dragon/young-red-dragon.md).
 ^836
@@ -173,7 +173,7 @@ The githyanki knocked down several walls to create this chamber, and much of the
 
 > [!note] 
 > 
-> **Crystal Stalactite**. A 10-foot-long crystal stalactite hangs above a pit filled with silvery mist. Encased in the stalactite is Mirrk, a female [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) (see appendix A for statistics; see also "Crystal Stalactites").
+> **Crystal Stalactite**. A 10-foot-long crystal stalactite hangs above a pit filled with silvery mist. Encased in the stalactite is Mirrk, a female [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) (see appendix A for statistics; see also "Crystal Stalactites").
 > 
 > **Guards**. Unless they have been lured elsewhere, six [githyanki warriors](/3-Mechanics/CLI/bestiary/humanoid/githyanki-warrior.md) (three females and three males) stand guard around the edge of the pit in the squares marked W on map 16.
 ^83d
@@ -194,7 +194,7 @@ A permanent enchantment in this chamber grants any creature in the area advantag
 
 ### 8. Officer Quarters
 
-Four beds with pale white crystal frames are set along the walls. A male [githyanki knight](/3-Mechanics/CLI/bestiary/humanoid/githyanki-knight.md) named Eshant and a male [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) (see appendix A) named Theru stand in the middle of the room, engaged in a tense debate. Characters who get close to this area without alerting the githyanki hear the two arguing in Gith about which of them is worthier of "[Al'chaia](/3-Mechanics/CLI/bestiary/npc/alchaia-wdmm.md)'s magic books." The debate is intense but stops short of physical violence. If the characters don't interrupt, the gish eventually backs down and withdraws to area 9 to cool his heels. Eshant and Theru attack intruders on sight.
+Four beds with pale white crystal frames are set along the walls. A male [githyanki knight](/3-Mechanics/CLI/bestiary/humanoid/githyanki-knight.md) named Eshant and a male [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) (see appendix A) named Theru stand in the middle of the room, engaged in a tense debate. Characters who get close to this area without alerting the githyanki hear the two arguing in Gith about which of them is worthier of "[Al'chaia](/3-Mechanics/CLI/bestiary/npc/alchaia-wdmm.md)'s magic books." The debate is intense but stops short of physical violence. If the characters don't interrupt, the gish eventually backs down and withdraws to area 9 to cool his heels. Eshant and Theru attack intruders on sight.
 
 #### Treasure
 
@@ -215,7 +215,7 @@ Eshant's plate armor is set with six black jaspers (50 gp each) and six red spin
 
 > [!note] 
 > 
-> **Urlon**. Urlon, a male [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) (see appendix A), is using a set of mason's tools to carve the head of a half-completed [crystal golem](/3-Mechanics/CLI/bestiary/construct/crystal-golem-wdmm.md) lying atop a 10-foot-long, 5-foot-wide, 4-foot-high table in the west side of the room.
+> **Urlon**. Urlon, a male [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) (see appendix A), is using a set of mason's tools to carve the head of a half-completed [crystal golem](/3-Mechanics/CLI/bestiary/construct/crystal-golem-wdmm.md) lying atop a 10-foot-long, 5-foot-wide, 4-foot-high table in the west side of the room.
 > 
 > **Golem**. A [crystal golem](/3-Mechanics/CLI/bestiary/construct/crystal-golem-wdmm.md) (see "Crystal Golems") stands guard in the east side of the room, surrounded by shelves stacked with books, spell components, pieces of crystal, and mind flayer skulls.
 ^845
@@ -462,7 +462,7 @@ Gish live and train in this section of Crèche K'liir.
 > 
 > **Furnishings**. Six cushioned chairs form a circle around a brazier of purple fire at the center of the room.
 > 
-> **Gish**. A female [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) (see appendix A) named Vheza sits in one chair, reading a tome.
+> **Gish**. A female [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) (see appendix A) named Vheza sits in one chair, reading a tome.
 ^86a
 
 If Vheza sees intruders, she flees to area 17b with her book and makes her stand there.
@@ -477,7 +477,7 @@ The book that Vheza is reading is written in Gith and titled *The Ascension of V
 > 
 > **Beds**. Six beds framed in white metal stand in a row down the center of the rough-walled room.
 > 
-> **Gish**. Two female [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) (see appendix A) named Evir and Hraznin sit on beds and debate the finer points of magic. Each gish uses a crystal orb as an arcane focus and fights to the death.
+> **Gish**. Two female [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) (see appendix A) named Evir and Hraznin sit on beds and debate the finer points of magic. Each gish uses a crystal orb as an arcane focus and fights to the death.
 > 
 > **Window Slits**. Four 2-foot-long, 6-inch-wide window slits offer views of stars, the planet Toril, and the occasional spectacular sunrise.
 ^86d
@@ -657,7 +657,7 @@ The stoves are piping hot. Any creature that touches a stove for the first time 
 > 
 > **Furnishings**. Six 10-foot-long tables, each set with eight chairs, stand in neat rows.
 > 
-> **Githyanki**. Unless they have been drawn elsewhere, five [githyanki warriors](/3-Mechanics/CLI/bestiary/humanoid/githyanki-warrior.md) (three females and two males) and one male [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) (see appendix A) are eating together at a table, talking in low, angry tones.
+> **Githyanki**. Unless they have been drawn elsewhere, five [githyanki warriors](/3-Mechanics/CLI/bestiary/humanoid/githyanki-warrior.md) (three females and two males) and one male [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) (see appendix A) are eating together at a table, talking in low, angry tones.
 ^88b
 
 If the characters get close to this area without alerting its occupants, they hear the githyanki complaining in Gith about [Al'chaia](/3-Mechanics/CLI/bestiary/npc/alchaia-wdmm.md)'s cruelty. The githyanki attack at once in response to any threat, fighting until four or more of them fall. Survivors then flee to area 30 without going through area 29.
@@ -713,7 +713,7 @@ If the characters try to engage with Tel'zact and Yeluit, the mind flayers propo
 
 > [!note] 
 > 
-> **Gish**. Two female [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mtf.md) (see appendix A) named Aruut and Yangol stand in the middle of this unfurnished room, speaking to each other in low tones as they watch the cell doors.
+> **Gish**. Two female [githyanki gish](/3-Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md) (see appendix A) named Aruut and Yangol stand in the middle of this unfurnished room, speaking to each other in low tones as they watch the cell doors.
 > 
 > **Green Crystals**. A glowing green crystal is embedded above each cell door.
 ^895

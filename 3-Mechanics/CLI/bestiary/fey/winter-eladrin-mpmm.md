@@ -13,6 +13,29 @@ aliases: ["Winter Eladrin"]
 # Winter Eladrin
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 117, Mordenkainen's Tome of Foes p. 197*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Winter%20Eladrin.webp#right)  
+When sorrow distresses eladrin, they enter the winter season, becoming figures of melancholy. Frozen tears drop from their cheeks, and their palpable sadness emanates from them as icy cold.
+
+## Eladrin
+
+> [!quote]- A quote from Tasha  
+> 
+> If an autumn eladrin invites you over for dinner, come with an empty stomach. Their goodwill extends to heaping portions.
+> 
+> Note to self: send some of my spring eladrin friends to visit Mordenkainen. That'll teach him to lighten up.
+
+Eladrin dwell in the verdant splendor of the Feywild. They are related to the elves found on the Material Plane. But while other elves can temper their wild impulses, eladrin are ruled by emotion—and due to their magical nature, they undergo physical changes to match their changes in temperament.
+
+Eladrin have spent centuries in the Feywild, and most of them have become Fey creatures as a result—those presented here are of the Fey variety. Some are still Humanoid, however, similar in that respect to their other elven kin.
+
+The magic flowing through eladrin responds to their emotional state by transforming them into different seasonal aspects, with behaviors and abilities that change with their forms. Some eladrin might remain in a particular aspect for years, while others run through the emotional spectrum each week.
+
+### Changeable Natures
+
+Whenever one of the eladrin presented here finishes a long rest, they can associate themself with a different season, provided they aren't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated). When the eladrin makes this change, they use the stat block of the new season rather than their old stat block. Any damage the eladrin sustained in their previous form applies to the new form, as do any conditions or other ongoing effects affecting them.
+
+
+## Statblock
 
 ```ad-statblock
 title: Winter Eladrin

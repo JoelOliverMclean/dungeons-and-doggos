@@ -351,7 +351,7 @@ Getting through the maze takes time but isn't difficult, except that [Ahmaergo](
 
 Double doors swing open into a magically lit chamber containing the following:
 
-- [Thorvin Twinbeard](/3-Mechanics/CLI/bestiary/npc/thorvin-twinbeard-wdh.md) (see appendix B), [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md)'s engineer, is building a large contraption in the middle of the room. Floating nearby is an albino [gazer](/3-Mechanics/CLI/bestiary/aberration/gazer-vgm.md) (see appendix B).  
+- [Thorvin Twinbeard](/3-Mechanics/CLI/bestiary/npc/thorvin-twinbeard-wdh.md) (see appendix B), [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md)'s engineer, is building a large contraption in the middle of the room. Floating nearby is an albino [gazer](/3-Mechanics/CLI/bestiary/aberration/gazer-mpmm.md) (see appendix B).  
 - Tools cover stone tables throughout the room. (There are enough tools here to assemble two sets of mason's tools, one set of smith's tools, and two sets of tinker's tools.)  
 - Other furnishings include a cot and a stack of wooden casks filled with Wyrmwizz Ale (a Skullport brew).  
 
@@ -387,7 +387,7 @@ This room contains the following features:
 
 ##### Dwarves
 
-The five [tattooed dwarves](/3-Mechanics/CLI/bestiary/humanoid/panopticus-wizard-wdh.md) operate [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md)'s "panopticus" magical surveillance system. They fight only in self-defense. They are [apprentice wizards](/3-Mechanics/CLI/bestiary/humanoid/apprentice-wizard-vgm.md) (see appendix B), with these changes:
+The five [tattooed dwarves](/3-Mechanics/CLI/bestiary/humanoid/panopticus-wizard-wdh.md) operate [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md)'s "panopticus" magical surveillance system. They fight only in self-defense. They are [apprentice wizards](/3-Mechanics/CLI/bestiary/humanoid/apprentice-wizard-mpmm.md) (see appendix B), with these changes:
 
 - They are neutral.  
 - They have these racial traits: Their walking speed is 25 feet. They have advantage on saving throws against poison and resistance to poison damage. They have darkvision out to a range of 60 feet. They speak Common and Dwarvish.  
@@ -615,7 +615,7 @@ At the top of a staircase is a landing with a ladder leading up to a stone trapd
 A delightful aroma wafts down the hall from this kitchen, blending the scents of rare spices, savory meats, and fresh herbs. The room contains the following features:
 
 - Seven [kobolds](/3-Mechanics/CLI/bestiary/humanoid/kobold.md) wearing white toque hats dash between stout tables, frantically preparing meals for [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md) and arranging the food on silver platters.  
-- Two [gazers](/3-Mechanics/CLI/bestiary/aberration/gazer-vgm.md) (see appendix B) dreamed into reality by [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md) oversee the kobolds and use their telekinesis rays to hoist and deliver food platters.  
+- Two [gazers](/3-Mechanics/CLI/bestiary/aberration/gazer-mpmm.md) (see appendix B) dreamed into reality by [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md) oversee the kobolds and use their telekinesis rays to hoist and deliver food platters.  
 - Two iron stoves stand against the east wall, with a slender spice rack nestled between them.  
 
 When it comes to meals, [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md) prefers the finest Sword Coast cuisine, including a healthy diet of mushrooms, as opposed to uncooked meat. All the meals prepared here are for the consumption of [Xanathar](/3-Mechanics/CLI/bestiary/npc/xanathar-wdh.md) alone.

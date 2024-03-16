@@ -13,6 +13,7 @@ NoteIcon: npc_male
 Vitality: Healthy
 aliases:
   - Volo
+accent:
 ---
 
 
@@ -40,6 +41,9 @@ aliases:
 # `=this.file.name`
 
 ## Profile
+
+> ### RP
+> Accent: **`=this.accent`**
 
 **Volothamp Geddarm, affectionately called Volo, is a well-known figure in Waterdeep's bustling streets. Sporting colorful attire and a wide-brimmed hat, he exudes an air of adventure and mystery. As a renowned traveler, explorer, and chronicler of tales, Volo's presence in the City of Splendors is unmistakable.**
 

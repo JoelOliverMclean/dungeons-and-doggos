@@ -7,7 +7,7 @@ tags: [location]
 > ```dataview
 > LIST
 > FROM "3-Mechanics/NPCs"
-> WHERE containsword(meta(location).path, "The Yawning Portal")
+> WHERE containsword(meta(location).path, this.file.name)
 > ```
 
 ![[The_Yawning_Portal_Interior.png|w70 center]]

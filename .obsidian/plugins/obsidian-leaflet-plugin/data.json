@@ -11608,7 +11608,7 @@
     {
       "id": "Map_Waterdeep_Full",
       "locked": false,
-      "lastAccessed": 1710365577061,
+      "lastAccessed": 1710588802194,
       "markers": [
         {
           "id": "ID_0acaf97af839",
@@ -11937,7 +11937,41 @@
           "command": false,
           "percent": null,
           "description": null,
-          "minZoom": null,
+          "minZoom": 0.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a59aac80ad8",
+          "type": "Villa",
+          "loc": [
+            1837.7708282470703,
+            2580.4166870117188
+          ],
+          "link": "Phaulkonmere",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 0.5,
+          "maxZoom": 0,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_78bb1b687b09",
+          "type": "Villa",
+          "loc": [
+            1836.184920360095,
+            2580.08042610221
+          ],
+          "link": "Phaulkonmere",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -0.5,
           "maxZoom": null,
           "tooltip": "hover"
         }
@@ -11945,7 +11979,7 @@
       "overlays": [],
       "shapes": [],
       "files": [
-        "2-World/Waterdeep/Waterdeep.md"
+        "2-World/Waterdeep/Waterdeep Map.md"
       ]
     }
   ],
@@ -12149,6 +12183,22 @@
       "type": "Business",
       "iconName": "briefcase",
       "color": "#e6c700",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Villa",
+      "iconName": "chess-rook",
+      "color": "#0084ff",
       "alpha": 1,
       "layer": false,
       "transform": {

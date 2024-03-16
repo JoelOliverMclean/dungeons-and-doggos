@@ -12,6 +12,7 @@ NoteIcon: npc_male
 Vitality: 
 tags:
   - npc
+accent:
 ---
 
 
@@ -38,6 +39,9 @@ tags:
 
 # `=this.file.name`
 ## Profile
+
+> ### RP
+> Accent: **`=this.accent`**
 
 ![[emmek-frewn-wdh#^statblock]]
 

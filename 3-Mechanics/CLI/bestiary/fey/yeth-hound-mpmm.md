@@ -14,6 +14,11 @@ aliases: ["Yeth Hound"]
 # Yeth Hound
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 271, Volo's Guide to Monsters p. 201*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Yeth%20Hound.webp#right)  
+Granted by mighty Fey to individuals who please them, yeth hounds serve their masters like hunting dogs. They race in pursuit of their prey, running it down until it's too exhausted to fight back. Only the threat of dawn drives the pack back into hiding.
+
+A pack of yeth hounds can be created by powerful Fey such as the Queen of Air and Darkness. Each pack's master can telepathically communicate with their yeth hounds to give the pack commands from afar. If a pack's master is killed, the hounds seek out a new master, typically an evil [vampire](/3-Mechanics/CLI/bestiary/undead/vampire.md), [necromancer](/3-Mechanics/CLI/bestiary/humanoid/necromancer-wizard-mpmm.md), or [hag](/3-Mechanics/CLI/bestiary/fey/green-hag.md).
+
 
 ```ad-statblock
 title: Yeth Hound

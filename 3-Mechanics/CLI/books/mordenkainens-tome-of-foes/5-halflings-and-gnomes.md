@@ -595,7 +595,7 @@ A deep gnome, pragmatic and cautious, brings a sense of duty rather than a sense
 
 At the DM's discretion, you can play a deep gnome character. When you choose the subrace of your gnome, you can choose deep gnome, using the following rules to create your character.
 
-- [Gnome (Deep)](/3-Mechanics/CLI/races/gnome-deep-mtf.md)  
+- [Gnome (Deep)](/3-Mechanics/CLI/races/deep-gnome-mpmm.md)  
 
 ## Gnome Tables
 

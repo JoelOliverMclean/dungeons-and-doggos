@@ -28,7 +28,7 @@ Ammalia is well mannered, well read, well traveled, and exceptionally shrewd. Sh
 
 ## Apprentice Wizard
 
-[Apprentice wizards](/3-Mechanics/CLI/bestiary/humanoid/apprentice-wizard-vgm.md) are novice arcane spellcasters who  serve more experienced wizards or attend school. They  perform menial work, such as cooking and cleaning, in  exchange for education in the ways of magic.
+[Apprentice wizards](/3-Mechanics/CLI/bestiary/humanoid/apprentice-wizard-mpmm.md) are novice arcane spellcasters who  serve more experienced wizards or attend school. They  perform menial work, such as cooking and cleaning, in  exchange for education in the ways of magic.
 
 ## Aurinax
 
@@ -46,7 +46,7 @@ As it happens, no one has come to remove the treasure, and the faithful [Aurinax
 
 ## Bard
 
-[Bards](/3-Mechanics/CLI/bestiary/humanoid/bard-vgm.md) are gifted poets, storytellers, and entertainers  who travel far and wide, commonly found performing in  taverns or in the company of jolly bands of adventurers,  rough-and-tumble mercenaries, or wealthy patrons.
+[Bards](/3-Mechanics/CLI/bestiary/humanoid/bard-mpmm.md) are gifted poets, storytellers, and entertainers  who travel far and wide, commonly found performing in  taverns or in the company of jolly bands of adventurers,  rough-and-tumble mercenaries, or wealthy patrons.
 
 ## Barnibus Blastwind
 
@@ -223,7 +223,7 @@ Floon is a chaotic good Illuskan human [commoner](/3-Mechanics/CLI/bestiary/huma
 
 ## Gazer
 
-A [gazer](/3-Mechanics/CLI/bestiary/aberration/gazer-vgm.md) is a tiny manifestation of a beholder's dreams. It resembles the beholder who dreamed it into existence, but its body is only 8 inches wide, and it has only four eyestalks. The beholder can see through the gazer's eyes and uses it to spy on enemies as well as its other minions.
+A [gazer](/3-Mechanics/CLI/bestiary/aberration/gazer-mpmm.md) is a tiny manifestation of a beholder's dreams. It resembles the beholder who dreamed it into existence, but its body is only 8 inches wide, and it has only four eyestalks. The beholder can see through the gazer's eyes and uses it to spy on enemies as well as its other minions.
 
 A gazer can't speak any languages but can approximate mimicking words and sentences in a high-pitched, mocking manner. A lone gazer avoids picking fights with creatures that are Medium or larger, but a pack of them might take on larger prey.
 
@@ -309,7 +309,7 @@ Now the original [Manshoon](/3-Mechanics/CLI/bestiary/npc/manshoon-wdh.md) is de
 
 ## Martial Arts Adept
 
-[Martial arts adepts](/3-Mechanics/CLI/bestiary/humanoid/martial-arts-adept-vgm.md) are disciplined monks who have extensive training in hand-to-hand combat. Some protect monasteries; others travel the world seeking enlightenment or new forms of combat to master. A few become bodyguards, trading their combat prowess and loyalty for food and lodging.
+[Martial arts adepts](/3-Mechanics/CLI/bestiary/humanoid/martial-arts-adept-mpmm.md) are disciplined monks who have extensive training in hand-to-hand combat. Some protect monasteries; others travel the world seeking enlightenment or new forms of combat to master. A few become bodyguards, trading their combat prowess and loyalty for food and lodging.
 
 ## Meloon Wardragon
 
@@ -457,7 +457,7 @@ Some believe that Renaer's estrangement from his father is nothing but an act, a
 
 ### Game Statistics
 
-[Renaer Neverember](/3-Mechanics/CLI/bestiary/npc/renaer-neverember-wdh.md) is an Illuskan human who has the statistics of a [swashbuckler](/3-Mechanics/CLI/bestiary/humanoid/swashbuckler-vgm.md), with these changes:
+[Renaer Neverember](/3-Mechanics/CLI/bestiary/npc/renaer-neverember-wdh.md) is an Illuskan human who has the statistics of a [swashbuckler](/3-Mechanics/CLI/bestiary/humanoid/swashbuckler-mpmm.md), with these changes:
 
 - Renaer is chaotic good.  
 - He speaks Common.  
@@ -476,7 +476,7 @@ Some believe that Renaer's estrangement from his father is nothing but an act, a
 
 ## Swashbuckler
 
-[Swashbucklers](/3-Mechanics/CLI/bestiary/humanoid/swashbuckler-vgm.md) are charming ne'er-do-wells who live by their own codes of honor. They crave notoriety, often indulge in romantic trysts, and eke out livings as pirates and corsairs, rarely staying in one place for too long.
+[Swashbucklers](/3-Mechanics/CLI/bestiary/humanoid/swashbuckler-mpmm.md) are charming ne'er-do-wells who live by their own codes of honor. They crave notoriety, often indulge in romantic trysts, and eke out livings as pirates and corsairs, rarely staying in one place for too long.
 
 ## Thorvin Twinbeard
 

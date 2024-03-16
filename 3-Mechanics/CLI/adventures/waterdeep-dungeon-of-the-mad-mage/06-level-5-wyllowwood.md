@@ -40,7 +40,7 @@ Undermountain is [Wyllow](/3-Mechanics/CLI/bestiary/npc/wyllow-wdmm.md)'s home n
 
 #### Wyllow's Statistics
 
-[Wyllow](/3-Mechanics/CLI/bestiary/npc/wyllow-wdmm.md) is a moon elf [archdruid](/3-Mechanics/CLI/bestiary/humanoid/archdruid-vgm.md) (see appendix A), with these changes:
+[Wyllow](/3-Mechanics/CLI/bestiary/npc/wyllow-wdmm.md) is a moon elf [archdruid](/3-Mechanics/CLI/bestiary/humanoid/archdruid-mpmm.md) (see appendix A), with these changes:
 
 - [Wyllow](/3-Mechanics/CLI/bestiary/npc/wyllow-wdmm.md) is chaotic neutral.  
 - She has these racial traits: Her walking speed is 35 feet. She has [darkvision](/3-Mechanics/CLI/rules/senses.md#darkvision) out to a range of 60 feet. She has advantage on saving throws against being [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), and magic can't put her to sleep. She speaks Common, Druidic, and Elvish.  

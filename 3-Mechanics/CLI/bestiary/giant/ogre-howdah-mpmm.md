@@ -14,6 +14,15 @@ aliases: ["Ogre Howdah"]
 # Ogre Howdah
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 201, Mordenkainen's Tome of Foes p. 221*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Ogre%20Howdah.webp#right)  
+The most unusual of the specialized ogres, the howdah carries a palisaded wooden fort on its back. The fort serves as a fighting platform for up to four Small people. Ogre howdahs are most often seen bearing bow- and spear-wielding [goblins](/3-Mechanics/CLI/bestiary/humanoid/goblin.md) into battle, or perhaps [kobolds](/3-Mechanics/CLI/bestiary/humanoid/kobold.md) or [deep gnomes](/3-Mechanics/CLI/bestiary/humanoid/deep-gnome-svirfneblin.md), but they might also transport other Small folk.
+
+## Ogres of War
+
+Ogres love to rush headlong into battle, but with enough time and patience, some of them learn to carry out specialized missions. The names they are given—the battering ram, the bolt launcher, the chain brute, and the howdah—reflect their particular functions. These jobs are tailored to take advantage of an ogre's strengths.
+
+
+## Statblock
 
 ```ad-statblock
 title: Ogre Howdah

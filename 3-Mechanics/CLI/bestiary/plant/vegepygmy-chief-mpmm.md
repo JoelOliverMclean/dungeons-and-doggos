@@ -13,6 +13,17 @@ aliases: ["Vegepygmy Chief"]
 # Vegepygmy Chief
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 253, Volo's Guide to Monsters p. 197*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Vegepygmy%20Chief.webp#right)  
+As a [vegepygmy](/3-Mechanics/CLI/bestiary/plant/vegepygmy-mpmm.md) ages, it grows tougher and develops spore clusters on its body. Other vegepygmies defer to these so-called chiefs. A chief can expel its spores in a burst, infecting nearby creatures. If a creature dies while infected, its corpse produces vegepygmies the same way [russet mold](/3-Mechanics/CLI/traps-hazards/russet-mold-vgm.md) does.
+
+## Vegepygmies
+
+Vegepygmies are fungus creatures that live in simple bands, hunting for sustenance and spreading the spores by which they reproduce. Also called mold folk or moldies, vegepygmies inhabit dark, moist areas, so they're most commonly found underground or in forests where little sunlight penetrates. A vegepygmy feels kinship with other plant and fungus creatures, and thus vegepygmy bands coexist well with creatures such as [myconid adults](/3-Mechanics/CLI/bestiary/plant/myconid-adult.md), [shriekers](/3-Mechanics/CLI/bestiary/plant/shrieker.md), and [violet fungi](/3-Mechanics/CLI/bestiary/plant/violet-fungus.md).
+
+Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb nutrients from soil and many sorts of organic matter, so they rarely go hungry. A vegepygmy can hiss and make other noises by forcing air through its mouth, but it can't speak in a conventional sense. Among themselves, vegepygmies communicate by hissing, gestures, and tapping. Vegepygmies build and craft little; any gear they have is acquired from other creatures or built by copying simple construction they have witnessed.
+
+
+## Statblock
 
 ```ad-statblock
 title: Vegepygmy Chief

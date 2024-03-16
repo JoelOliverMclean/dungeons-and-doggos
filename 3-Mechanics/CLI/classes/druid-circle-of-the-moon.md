@@ -7,7 +7,7 @@ tags:
 aliases: ["Circle of the Moon"]
 ---
 # Circle of the Moon
-*[Druid](3-Mechanics/CLI/classes/druid.md): Druid Circle*  
+*[Druid](druid.md): Druid Circle*  
 *Source: Player's Handbook p. 69*  
 
 

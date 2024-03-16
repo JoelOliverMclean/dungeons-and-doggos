@@ -11,6 +11,22 @@ aliases: ["Geryon"]
 # Geryon
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 136, Mordenkainen's Tome of Foes p. 173*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Geryon.webp#right)  
+Geryon is locked in an endless struggle with Levistus for control of Stygia. The two have fought for centuries, each displacing the other innumerable times. Currently, Levistus claims lordship over Stygia, but he has been trapped in an enormous block of ice at the command of Asmodeus. In response, Geryon is marshaling his followers, hoping to use this opportunity to replace his hated rival.
+
+Among the archdevils, Geryon is known for his martial prowess. He is a ferocious hunter and a relentless tracker. He often joins his troops in battle; he loves to feel flesh and steel sundered beneath his claws and to taste his foes' blood. Yet Geryon's ferocity has also limited his ability to collect souls and forge an effective hierarchy. Sages who study the Nine Hells believe the battle for control of Stygia is a test staged by Asmodeus in hopes of purging the worst impulses from both Geryon and Levistus—or discovering a competent replacement for both.
+
+## Cultists of Geryon
+
+> [!note]
+> See the Cult of Geryon entry.
+
+## Geryon's Lair
+
+Geryon has recently reclaimed his ancient fortress, Coldsteel, a sprawling complex that rises from the icy center of Stygia. He roams the passages, spitting oaths of vengeance against Asmodeus and hatching schemes to reclaim his standing from Levistus. The challenge rating of Geryon is 23 (50,000 XP) when he's encountered in his lair.
+
+
+## Statblock
 
 ```ad-statblock
 title: Geryon
@@ -66,5 +82,27 @@ title: Geryon
 ***Teleport.*** Geryon uses Teleport.
 
 ***Swift Sting (Costs 2 Actions).*** Geryon makes one Stinger attack.
+
+## Lair actions
+
+On initiative count 20 (losing initiative ties), Geryon can take one of the following lair actions; he can't take the same lair action two rounds in a row:
+
+- **Banish.** Geryon casts the banishment spell.  
+- **Chill Blast.** Geryon causes a blast of cold to burst from the ground at a point he can see within 120 feet of him. The cold fills a cube, 10 feet on each side, centered on that point. Each creature in that area must succeed on a DC 21 Constitution saving throw or take 28 (`8d6`) cold damage.  
+- **Hateful Restraints.** Geryon targets one creature he can see within 60 feet of him. The target must succeed on a DC 21 Wisdom saving throw or become [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained) for 1 minute. The target can end the effect on itself if it deals any damage to one or more of its allies.  
+
+## Regional effects
+
+The region containing Geryon's lair is warped by his magic, creating one or more of the following effects:
+
+- **Chilling Wind.** Freezing strong winds howl around the area within 1 mile of the lair.  
+- **Enervating Screams.** Howls and screams fill the air within 1 mile of the lair. Any creature that finishes a short or long rest in this area must succeed on a DC 21 Wisdom saving throw or derive no benefit from the rest.  
+- **Hellish Doorways.** Sapient creatures within 1 mile of the lair frequently see shimmering portals leading to places they consider safe. Passing through a portal always deposits a traveler somewhere in Stygia.  
+
+If Geryon dies, these effects fade over the course of `1d10` days.
+
+## Is homebrew
+
+false
 ```
 ^statblock

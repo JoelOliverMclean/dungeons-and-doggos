@@ -7,7 +7,7 @@ tags:
 aliases: ["School of Enchantment"]
 ---
 # School of Enchantment
-*[Wizard](3-Mechanics/CLI/classes/wizard.md): Arcane Tradition*  
+*[Wizard](wizard.md): Arcane Tradition*  
 *Source: Player's Handbook p. 117*  
 
 

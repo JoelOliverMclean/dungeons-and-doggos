@@ -11,6 +11,11 @@ aliases: ["Fire Elemental Myrmidon"]
 # Fire Elemental Myrmidon
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 123, Mordenkainen's Tome of Foes p. 203*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Fire%20Elemental%20Myrmidon.webp#right)  
+## Elemental Myrmidons
+
+Elemental myrmidons are Elementals conjured and bound by magic into ritually created suits of plate armor. In this form, they possess no recollection of their former existence as free Elementals. They exist only to follow the commands of their creators.
+
 
 ```ad-statblock
 title: Fire Elemental Myrmidon

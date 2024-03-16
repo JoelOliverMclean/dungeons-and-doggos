@@ -11,6 +11,23 @@ aliases: ["Nupperibo"]
 # Nupperibo
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 196, Mordenkainen's Tome of Foes p. 168*  
 
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Nupperibo.webp#right)  
+> [!quote]- A quote from Mordenkainen  
+> 
+> A lemure emerges from the Styx wiped of memory, yet the patterns of evil it performed in life remain indelibly inscribed upon its soul...
+> 
+> But those who lacked ambition cannot climb the hierarchical ladder of the Hells.
+> 
+> They instead step down, becoming nupperibos.
+
+No soul is turned away from the Nine Hells, but the truly worthless—those whose evil acts in life arose from carelessness and inaction more than anything else—are suitable only to become nupperibos. These pitiful creatures shuffle across the landscape, driven to purposeful action only when the clouds of swarming vermin that surround them find them prey to destroy or when a greater fiendish power commands it.
+
+Individually, nupperibos are weak, but they're rarely alone and can be dangerous when gathered into packs. Clouds of stinging insects, [stirges](/3-Mechanics/CLI/bestiary/beast/stirge.md), and other vermin surround them in a terrifying, reeking sheath that torments any non-devil that draws near.
+
+A nupperibo knows nothing but the desire to destroy non-Fiends. Once a nupperibo's vermin cloud senses a potential meal, any nearby nupperibos pursue that prey tirelessly until it or the nupperibos are slain, or some other potential victim crosses the devils' path and distracts them.
+
+Nupperibos unthinkingly obey any command they receive telepathically from another devil. This blind loyalty makes them the easiest of infernal troops to lead into battle, but their presence in a legion does nothing to elevate its general's status.
+
 
 ```ad-statblock
 title: Nupperibo

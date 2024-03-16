@@ -38,6 +38,17 @@ id: ""
 style: primary
 actions:
   - type: templaterCreateNote
+    templateFile: "z_Templates/TemplateLocation.md"
+    fileName: NewLocation
+```
+
+```meta-bind-button
+label: New Settlement
+hidden: false
+id: ""
+style: primary
+actions:
+  - type: templaterCreateNote
     templateFile: "z_Templates/TemplateSettlement.md"
     fileName: NewLocation
 ```
