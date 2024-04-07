@@ -11,7 +11,7 @@ Class:
   - "[[3-Mechanics/CLI/classes/druid|Druid]]"
 Race:
   - "[[halfling|Halfling]]"
-level: 1
+level: 2
 hp: 10
 ac: 13
 modifier: 2
