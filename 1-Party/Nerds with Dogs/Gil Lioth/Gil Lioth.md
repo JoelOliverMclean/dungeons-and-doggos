@@ -2,6 +2,7 @@
 NoteIcon: player
 aliases:
   - Alex
+  - Gil
 tags:
   - player
 Player: Alex
@@ -28,13 +29,6 @@ Status: Active
 | ![[Gil Lioth Portrait.webp\|cover hsmall]] | `=this.file.name` | `=this.player` | `=this.class` | `=this.race` | `=this.level` |
 
 
-## DND Beyond
-```custom-frames
-frame: DnDBeyond_Gil
-style: height: 1000px
-```
-
-
-
 ## Special Items
 - [[Warwick's Hammer of Rage]]
+- [Tankard of Plenty](http://dnd5e.wikidot.com/wondrous-items:tankard-of-plenty)

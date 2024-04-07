@@ -13,7 +13,8 @@ Vitality:
 tags:
   - npc
 accent:
-  - Birmingham
+  - Scouse
+  - Bright
 ---
 
 

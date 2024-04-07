@@ -2,6 +2,7 @@
 NoteIcon: player
 aliases:
   - Tom
+  - Mhazhique
 tags:
   - player
 Player: Tom
@@ -27,13 +28,6 @@ Status: Active
 | Image                                            | Char Name         | Player Name    | Class         | Race         | Level         |
 | ------------------------------------------------ | ----------------- | -------------- | ------------- | ------------ | ------------- |
 | ![[Mhazhique Waand Portrait.webp\|cover hsmall]] | `=this.file.name` | `=this.player` | `=this.class` | `=this.race` | `=this.level` |
-
-
-## DND Beyond
-```custom-frames
-frame: DnDBeyond_Mhazhique
-style: height: 1000px
-```
 
 
 ## Special Items

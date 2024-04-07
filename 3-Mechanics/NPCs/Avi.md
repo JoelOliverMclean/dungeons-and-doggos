@@ -12,7 +12,9 @@ NoteIcon: npc_male
 Vitality: 
 tags:
   - npc
-accent: Well-Spoken
+accent:
+  - Well-Spoken
+  - Northerner
 ---
 
 

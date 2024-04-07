@@ -2,6 +2,7 @@
 NoteIcon: player
 aliases:
   - Ben
+  - Maji
 tags:
   - player
 Player: Ben

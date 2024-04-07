@@ -2,6 +2,7 @@
 NoteIcon: player
 aliases:
   - Rosie
+  - Geoff
 tags:
   - player
 Player: Rosie
@@ -29,12 +30,6 @@ Status: Active
 | Image                                             | Char Name         | Player Name    | Class         | Race         | Level         |
 | ------------------------------------------------- | ----------------- | -------------- | ------------- | ------------ | ------------- |
 | ![[Drewid_Barrymore_Portrait.webp\|cover hsmall]] | `=this.file.name` | `=this.player` | `=this.class` | `=this.race` | `=this.level` |
-
-## DND Beyond
-```custom-frames
-frame: DndBeyond_Geoff
-style: height: 1000px
-```
 
 ## Special Items
 - [[Dagger of Flame]] 

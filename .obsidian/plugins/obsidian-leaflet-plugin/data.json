@@ -11608,7 +11608,7 @@
     {
       "id": "Map_Waterdeep_Full",
       "locked": false,
-      "lastAccessed": 1710604431947,
+      "lastAccessed": 1710666266141,
       "markers": [
         {
           "id": "ID_0acaf97af839",
@@ -11966,6 +11966,23 @@
             2580.08042610221
           ],
           "link": "Phaulkonmere",
+          "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -0.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_39d8faca5aa8",
+          "type": "Point of Interest",
+          "loc": [
+            3830.937515258789,
+            2111.405926275759
+          ],
+          "link": "Courthouse on Selduth Street",
           "layer": "%5B%5BMap_Waterdeep_Full.webp%5D%5D",
           "mutable": true,
           "command": false,

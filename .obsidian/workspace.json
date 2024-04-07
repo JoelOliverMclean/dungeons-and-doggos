@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1098061f6a4bce5b",
+        "id": "43f04b8aef049553",
         "type": "tabs",
         "children": [
           {
-            "id": "399d10d4afb32743",
+            "id": "a2a2a797718baf01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-Mechanics/NPCs/Jeryth Phaulkon.md",
-                "mode": "preview",
-                "source": false
+                "file": "1-Party/Nerds with Dogs/Flick McPlumbs/Flick McPlumbs.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Mechanics/NPCs/Jeryth Phaulkon.md",
+                "file": "1-Party/Nerds with Dogs/Flick McPlumbs/Flick McPlumbs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,8 +131,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Mechanics/NPCs/Jeryth Phaulkon.md",
-                "linksCollapsed": false,
+                "file": "1-Party/Nerds with Dogs/Flick McPlumbs/Flick McPlumbs.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Mechanics/NPCs/Jeryth Phaulkon.md"
+                "file": "1-Party/Nerds with Dogs/Flick McPlumbs/Flick McPlumbs.md"
               }
             }
           },
@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       },
       {
         "id": "4ea24be3058e8490",
@@ -226,6 +226,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-5e-statblocks:Open Creature Pane": false,
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -245,36 +246,41 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "399d10d4afb32743",
+  "active": "2911de48d50d504c",
   "lastOpenFiles": [
-    "3-Mechanics/NPCs/Jalester Silvermane.md",
-    "3-Mechanics/NPCs/Jeryth Phaulkon.md",
-    "3-Mechanics/NPCs/Hammond Kraddoc.md",
-    "3-Mechanics/NPCs/Floon Blagmaar.md",
-    "3-Mechanics/NPCs/Fala Lefaliir.md",
-    "3-Mechanics/NPCs/Emmek Frewn.md",
+    "1-Party/Nerds with Dogs/Flick McPlumbs/Character Sheet.md",
+    "1-Party/Nerds with Dogs/Gil Lioth/Character Sheet.md",
+    "1-Party/Nerds with Dogs/Lord Maji Cock/Character Sheet.md",
+    "1-Party/Nerds with Dogs/Mhazhique Waand/Character Sheet.md",
+    "z_Assets/lord magi cock 2024-03-17.pdf",
+    "1-Party/Nerds with Dogs/Mhazhique Waand/Mhazhique Waand.md",
+    "1-Party/Nerds with Dogs/Lord Maji Cock/Lord Maji Cock.md",
+    "1-Party/Nerds with Dogs/Gil Lioth/Gil Lioth.md",
+    "1-Party/Nerds with Dogs/Drewid 'Geoff' Barrymore/Character Sheet.md",
+    "1-Party/Nerds with Dogs/Drewid 'Geoff' Barrymore/Drewid 'Geoff' Barrymore.md",
+    "1-Party/Nerds with Dogs/Flick McPlumbs/Flick McPlumbs.md",
+    "1-Party/Nerds with Dogs/Lord Maji Cock/Spells.md",
+    "1-Session Journals/2024-03-16.md",
     "3-Mechanics/NPCs/Embric.md",
-    "3-Mechanics/NPCs/Durnan.md",
-    "3-Mechanics/NPCs/Davil Starsong.md",
-    "3-Mechanics/NPCs/Broxley Fairkettle.md",
     "3-Mechanics/NPCs/Avi.md",
+    "z_Assets/mhazhique waand 2024-03-17.pdf",
+    "z_Assets/gil lioth 2024-03-17 1.pdf",
+    "z_Assets/gil lioth 2024-03-17.pdf",
+    "z_Assets/flick mcplumbs 2024-03-17 1.pdf",
+    "z_Assets/flick mcplumbs 2024-03-17.pdf",
+    "1-Party/Nerds with Dogs/Nerds with Dogs.md",
+    "1-Session Journals/2023-06-02.md",
     "1-DM Toolkit/Home.md",
-    "3-Mechanics/CLI/adventures/waterdeep-dragon-heist/04-trollskull-alley.md",
-    "3-Mechanics/NPCs/Ulkoria Stonemarrow.md",
-    "1-DM Toolkit/DM Board.md",
-    "3-Mechanics/NPCs/Justyn Rassk.md",
+    "2-World/Waterdeep/Waterdeep.md",
+    "3-Mechanics/Items/Dagger of Flame.md",
+    "3-Mechanics/Items/Shocking Dagger.md",
+    "3-Mechanics/Items/Warwick's Hammer of Rage.md",
+    "3-Mechanics/Items/Sword of Orc Strength.md",
+    "3-Mechanics/CLI/adventures/waterdeep-dragon-heist/11-volos-waterdeep-enchiridion.md",
+    "3-Mechanics/CLI/adventures/waterdeep-dragon-heist/waterdeep-dragon-heist.md",
+    "3-Mechanics/NPCs/Volothamp Geddarm.md",
     "z_Assets/Hammond Kraddoc-20240316164317839.webp",
     "z_Assets/Broxley Fairkettle-20240316164137297.webp",
-    "3-Mechanics/NPCs/Savra Belabranta.md",
-    "3-Mechanics/NPCs/Tashlyn Yafeera.md",
-    "3-Mechanics/CLI/bestiary/npc/tashlyn-yafeera-wdh.md",
-    "3-Mechanics/CLI/bestiary/npc/davil-starsong-wdh.md",
-    "3-Mechanics/CLI/bestiary/npc/jalester-silvermane-wdh.md",
-    "3-Mechanics/Guilds and Groups/Waterdeep/Emerald Enclave.md",
-    "3-Mechanics/NPCs/Vajra Safahr.md",
-    "3-Mechanics/NPCs/Lif.md",
-    "3-Mechanics/CLI/bestiary/npc/vajra-safahr-wdh.md",
-    "2-World/Waterdeep/North Ward/Trollskull Alley/Trollskull Manor/Trollskull Manor.md",
     "3-Mechanics/CLI/books/mordenkainen-presents-monsters-of-the-multiverse",
     "z_Assets/The Yawning Portal-20240313213458175.webp",
     "z_Assets/The Steam and Steel-20240313212814247.webp",
@@ -287,13 +293,7 @@
     "z_Assets/Floon Blagmaar-20240313164024328.webp",
     "z_Assets/Emmek Frewn-20240313163555694.webp",
     "z_Assets/Durnan.webp.crdownload",
-    "z_Assets/Yagra Stonefist.webp.crdownload",
     "2-World/Waterdeep/Southern Ward/Southern Ward.canvas",
-    "3-Mechanics/Guilds and Groups/Waterdeep",
-    "1-Party/Nerds with Dogs/Mhazhique Waand",
-    "1-Party/Nerds with Dogs/Lord Maji Cock",
-    "1-Party/Nerds with Dogs/Gil Lioth",
-    "1-Party/Nerds with Dogs/Drewid 'Geoff' Barrymore",
     "2-World/Waterdeep/Dock Ward/Dock Ward.canvas",
     "2-World/Waterdeep/North Ward/North Ward.canvas",
     "Untitled.canvas"

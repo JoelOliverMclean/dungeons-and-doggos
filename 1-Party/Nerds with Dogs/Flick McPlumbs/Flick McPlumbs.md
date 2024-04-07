@@ -2,6 +2,7 @@
 NoteIcon: player
 aliases:
   - Cameron
+  - Flick
 tags:
   - player
 Player: Cameron
@@ -26,13 +27,6 @@ Status: Active
 | Image                                  | Char Name         | Player Name    | Class         | Race         | Level         |
 | -------------------------------------- | ----------------- | -------------- | ------------- | ------------ | ------------- |
 | ![[Flick McPlumbs.webp\|cover hsmall]] | `=this.file.name` | `=this.player` | `=this.class` | `=this.race` | `=this.level` |
-
-## DND Beyond
-```custom-frames
-frame: DnDBeyond_FlickMcPlumbs
-style: height: 1000px;
-```
-
 
 
 ## Special Items
