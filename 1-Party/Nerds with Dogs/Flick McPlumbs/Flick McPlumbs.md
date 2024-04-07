@@ -11,8 +11,8 @@ Class:
   - "[[fighter|Fighter]]"
 Race:
   - "[[human|Human]]"
-level: 1
-hp: 11
+level: 2
+hp: 18
 ac: 18
 modifier: 2
 pasperc: 11

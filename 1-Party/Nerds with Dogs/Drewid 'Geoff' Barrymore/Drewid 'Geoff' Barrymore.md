@@ -12,10 +12,10 @@ Class:
 Race:
   - "[[halfling|Halfling]]"
 level: 2
-hp: 10
+hp: 20
 ac: 13
 modifier: 2
-pasperc: 12
+pasperc: 14
 PlayerKnownLanguages:
   - Common
   - Druidic

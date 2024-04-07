@@ -11,8 +11,8 @@ Class:
   - "[[3-Mechanics/CLI/classes/wizard|Wizard]]"
 Race:
   - "[[human|Human]]"
-level: 1
-hp: 7
+level: 2
+hp: 14
 ac: 16
 modifier: 2
 pasperc: 12

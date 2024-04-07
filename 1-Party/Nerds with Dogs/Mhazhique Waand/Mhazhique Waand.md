@@ -11,8 +11,8 @@ Class:
   - "[[Warlock]]"
 Race:
   - "[[tiefling|Tiefling]]"
-level: 1
-hp: 8
+level: 2
+hp: 16
 ac: 13
 modifier: 2
 pasperc: 11

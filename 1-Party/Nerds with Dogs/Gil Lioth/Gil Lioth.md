@@ -11,8 +11,8 @@ Class:
   - "[[barbarian|Barbarian]]"
 Race:
   - "[[gnome|Gnome]]"
-level: 1
-hp: 14
+level: 2
+hp: 23
 ac: 13
 modifier: 2
 pasperc: 12
