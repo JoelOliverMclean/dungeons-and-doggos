@@ -4,16 +4,64 @@
     "type": "split",
     "children": [
       {
-        "id": "76a882c152448d93",
+        "id": "edf1dde9db612e3e",
         "type": "tabs",
         "children": [
           {
-            "id": "21ebcbf8ea546ee5",
+            "id": "243fe320eda6c223",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-DM Toolkit/Home.md",
+                "file": "4-Planning/Session 8 Plan.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e08db5be143ffa16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Mechanics/Guilds and Groups/Waterdeep/Emerald Enclave.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50a08e8bd624b091",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Mechanics/Guilds and Groups/Waterdeep/Force Grey (Gray Hands).md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ea1b3f5c07d0bb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Mechanics/Guilds and Groups/Waterdeep/Zhentarim.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8dd72c43f0d23f70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Mechanics/Guilds and Groups/Waterdeep/Harpers.md",
                 "mode": "preview",
                 "source": false
               }
@@ -114,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-DM Toolkit/Home.md",
+                "file": "4-Planning/Session 8 Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-DM Toolkit/Home.md",
+                "file": "4-Planning/Session 8 Plan.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -154,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-DM Toolkit/Home.md"
+                "file": "4-Planning/Session 8 Plan.md"
               }
             }
           },
@@ -246,41 +294,41 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "21ebcbf8ea546ee5",
+  "active": "243fe320eda6c223",
   "lastOpenFiles": [
+    "3-Mechanics/Guilds and Groups/Waterdeep/Harpers.md",
+    "3-Mechanics/Guilds and Groups/Waterdeep/Zhentarim.md",
+    "3-Mechanics/Guilds and Groups/Waterdeep/Force Grey (Gray Hands).md",
+    "3-Mechanics/Guilds and Groups/Waterdeep/Emerald Enclave.md",
+    "4-Planning/Session 8 Plan.md",
+    "4-Planning/Session 7 Plan.md",
+    "1-DM Toolkit/Home.md",
+    "1-Party/Nerds with Dogs/Drewid 'Geoff' Barrymore/Character Sheet.md",
+    "1-Party/Nerds with Dogs/Lord Maji Cock/Lord Maji Cock.md",
+    "z_Templates/4_Markdown/Insert Rollable Table/Insert Rollable Table.md",
+    "z_Templates/4_Markdown/Insert Rollable Table/Insert Rollable Table - d8.md",
+    "z_Templates/4_Markdown/Insert Rollable Table/Insert Rollable Table - d10.md",
+    "z_Templates/4_Markdown/Insert Rollable Table/Insert Rollable Table - d12.md",
+    "z_Templates/4_Markdown/Insert Rollable Table/Insert Rollable Table - d20.md",
+    "z_Templates/4_Markdown/Insert Rollable Table/Insert Rollable Table - d100.md",
+    "z_Templates/4_Markdown/Insert Reference To Rollable Table.md",
+    "z_Templates/4_Markdown/Advanced Tables Formula.md",
+    "1-Party/Nerds with Dogs/Nerds with Dogs.md",
+    "2-World/Waterdeep/Waterdeep.md",
+    "3-Mechanics/CLI/classes/druid.md",
     "1-Party/Nerds with Dogs/Mhazhique Waand/Mhazhique Waand.md",
+    "1-Party/Nerds with Dogs/Drewid 'Geoff' Barrymore/Drewid 'Geoff' Barrymore.md",
+    "1-Party/Nerds with Dogs/Flick McPlumbs/Flick McPlumbs.md",
     "1-Party/Nerds with Dogs/Mhazhique Waand/Character Sheet.md",
     "1-Party/Nerds with Dogs/Lord Maji Cock/Character Sheet.md",
-    "1-Party/Nerds with Dogs/Lord Maji Cock/Lord Maji Cock.md",
     "1-Party/Nerds with Dogs/Gil Lioth/Character Sheet.md",
-    "1-Party/Nerds with Dogs/Gil Lioth/Gil Lioth.md",
-    "1-Party/Nerds with Dogs/Nerds with Dogs.md",
-    "1-Party/1-Party.md",
-    "1-Party/Nerds with Dogs/Flick McPlumbs/Character Sheet.md",
-    "1-Party/Nerds with Dogs/Flick McPlumbs/Flick McPlumbs.md",
-    "1-Party/Nerds with Dogs/Drewid 'Geoff' Barrymore/Character Sheet.md",
-    "1-Party/Nerds with Dogs/Drewid 'Geoff' Barrymore/Drewid 'Geoff' Barrymore.md",
-    "1-DM Toolkit/Home.md",
     "z_Assets/drewid 'geoff' barrymore 2024-03-17.pdf",
-    "3-Mechanics/Spellbooks/Druid Spellbook.md",
-    "3-Mechanics/CLI/classes/classes.md",
-    "3-Mechanics/CLI/classes/druid.md",
-    "3-Mechanics/CLI/classes/druid-circle-of-wildfire-tce.md",
-    "3-Mechanics/CLI/classes/druid-circle-of-the-moon.md",
-    "3-Mechanics/CLI/bestiary/monstrosity/owlbear.md",
-    "3-Mechanics/CLI/books/monster-manual/1-introduction.md",
-    "3-Mechanics/CLI/bestiary/elemental/wildfire-spirit-tce.md",
     "z_Assets/lord magi cock 2024-03-17.pdf",
-    "1-Party/Nerds with Dogs/Lord Maji Cock/Spells.md",
-    "1-Session Journals/2024-03-16.md",
-    "3-Mechanics/NPCs/Embric.md",
-    "3-Mechanics/NPCs/Avi.md",
     "z_Assets/mhazhique waand 2024-03-17.pdf",
     "z_Assets/gil lioth 2024-03-17 1.pdf",
     "z_Assets/gil lioth 2024-03-17.pdf",
     "z_Assets/flick mcplumbs 2024-03-17 1.pdf",
     "z_Assets/flick mcplumbs 2024-03-17.pdf",
-    "1-Session Journals/2023-06-02.md",
     "z_Assets/Hammond Kraddoc-20240316164317839.webp",
     "z_Assets/Broxley Fairkettle-20240316164137297.webp",
     "3-Mechanics/CLI/books/mordenkainen-presents-monsters-of-the-multiverse",
