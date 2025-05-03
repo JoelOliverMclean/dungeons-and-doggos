@@ -6,12 +6,12 @@ tags:
 - monster/cr/1-4
 - monster/size/small
 - monster/type/fiend/demon
+statblock: inline
 aliases: ["Dretch"]
 ---
-# Dretch
+# [Dretch](3-Mechanics\CLI\bestiary\fiend/dretch.md)
 *Source: Monster Manual p. 57. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Dretch.webp#right)  
 Dretches are among the weakest of demons-repulsive, self-loathing creatures doomed to spend eternity in a state of perpetual discontent. Their low intelligence makes dretches unsuitable for anything but the simplest tasks. However, what they lack in potential, they make up for in sheer malice. Dretches mill about in mobs, voicing their displeasure as an unsettling din of hoots, snarls, and grunts.
 
 ## Demons
@@ -181,40 +181,59 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > Demons are painfully difficult to summon and control. It is not a burden for the weak of heart or the weak of spirit.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Dretch
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Dretch.webp#token)
-*Small fiend (demon), Chaotic Evil*
-
-- **Armor Class** 11 (natural armor)
-- **Hit Points** 18 (`4d6 + 4`) 
-- **Speed** 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|11 (+0)|11 (+0)|12 (+1)| 5 (-3)| 8 (-1)| 3 (-4)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Damage Resistances** cold, fire, lightning
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal, telepathy 60 ft. (works only with creatures that understand Abyssal)
-- **Challenge** 1/4
-
-## Actions
-
-***Multiattack.*** The dretch makes two attacks: one with its bite and one with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3 (`1d6`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 5 (`2d4`) slashing damage.
-
-***Fetid Cloud (1/Day).*** A 10-foot radius of disgusting green gas extends out from the dretch. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a DC 11 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) until the start of its next turn. While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions.
+```statblock
+"name": "Dretch"
+"size": "Small"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Chaotic Evil"
+"ac": !!int "11"
+"ac_class": "natural armor"
+"hp": !!int "18"
+"hit_dice": "4d6 + 4"
+"stats":
+- !!int "11"
+- !!int "11"
+- !!int "12"
+- !!int "5"
+- !!int "8"
+- !!int "3"
+"speed": "20 ft."
+"damage_resistances": "cold, fire, lightning"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "Abyssal, telepathy 60 ft. (works only with creatures that understand\
+  \ Abyssal)"
+"cr": "1/4"
+"actions":
+- "desc": "The dretch makes two attacks: one with its bite and one with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6)\
+    \ piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4)\
+    \ slashing damage."
+  "name": "Claws"
+- "desc": "A 10-foot radius of disgusting green gas extends out from the dretch. The\
+    \ gas spreads around corners, and its area is lightly obscured. It lasts for 1\
+    \ minute or until a strong wind disperses it. Any creature that starts its turn\
+    \ in that area must succeed on a DC 11 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ until the start of its next turn. While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ in this way, the target can take either an action or a bonus action on its turn,\
+    \ not both, and can't take reactions."
+  "name": "Fetid Cloud (1/Day)"
+"source":
+- "MM"
+- "CoS"
+- "GoS"
+- "BGDIA"
+- "IMR"
+- "EGW"
+- "WBtW"
+- "PSI"
+- "SatO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Dretch.webp"
 ```
 ^statblock

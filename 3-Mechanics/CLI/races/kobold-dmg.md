@@ -10,7 +10,6 @@ aliases: ["Kobold (DMG)"]
 *Source: Dungeon Master's Guide p. 282*  
 
 - **Ability Scores**: Dexterity +2, Strength -4
-- **Type**: race
 - **Size**: Small
 - **Speed**: 30 ft.
 

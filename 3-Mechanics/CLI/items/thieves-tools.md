@@ -9,7 +9,7 @@ aliases:
 ---
 # Thieves' Tools
 *Tools*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Thieves'%20Tools.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Thieves%27%20Tools.webp#right)  
 
 - **Cost**: 25 gp
 - **Weight**: 1.0 lbs.

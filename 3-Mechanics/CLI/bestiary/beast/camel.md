@@ -7,35 +7,40 @@ tags:
 - monster/environment/desert
 - monster/size/large
 - monster/type/beast
+statblock: inline
 aliases: ["Camel"]
 ---
-# Camel
+# [Camel](3-Mechanics\CLI\bestiary\beast/camel.md)
 *Source: Monster Manual p. 320. Available in the SRD and the Basic Rules.*  
 
-
-```ad-statblock
-title: Camel
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Camel.webp#token)
-*Large beast, Unaligned*
-
-- **Armor Class** 9 
-- **Hit Points** 15 (`2d10 + 4`) 
-- **Speed** 50 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)| 8 (-1)|14 (+2)| 2 (-4)| 8 (-1)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 9
-- **Languages** —
-- **Challenge** 1/8
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 2 (`1d4`) bludgeoning damage.
+```statblock
+"name": "Camel"
+"size": "Large"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "9"
+"hp": !!int "15"
+"hit_dice": "2d10 + 4"
+"stats":
+- !!int "16"
+- !!int "8"
+- !!int "14"
+- !!int "2"
+- !!int "8"
+- !!int "5"
+"speed": "50 ft."
+"senses": "passive Perception 9"
+"languages": ""
+"cr": "1/8"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4)\
+    \ bludgeoning damage."
+  "name": "Bite"
+"source":
+- "MM"
+- "GoS"
+- "CM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Camel.webp"
 ```
 ^statblock
 

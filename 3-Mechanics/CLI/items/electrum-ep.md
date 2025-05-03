@@ -9,7 +9,7 @@ aliases:
 ---
 # Electrum (ep)
 *Treasure*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Electrum%20(ep).webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Electrum%20%28ep%29.webp#right)  
 
 - **Cost**: 5 sp
 - **Weight**: 0.02 lbs.

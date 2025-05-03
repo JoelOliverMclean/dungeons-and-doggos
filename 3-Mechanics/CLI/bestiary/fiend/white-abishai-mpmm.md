@@ -7,12 +7,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["White Abishai"]
 ---
-# White Abishai
+# [White Abishai](3-Mechanics\CLI\bestiary\fiend/white-abishai-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 41, Mordenkainen's Tome of Foes p. 163*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/White%20Abishai.webp#right)  
 White abishais fight with a reckless fury, making them ideally suited for bolstering the ranks of Tiamat's armies. White abishais fight without fear, becoming whirlwinds of destruction on the battlefield.
 
 ## Abishais
@@ -23,53 +23,66 @@ Tiamat deploys abishais as her agents, sending them forth to represent her inter
 
 Abishais stand outside the normal hierarchy of the Nine Hells, having their own chain of command and ultimately answering to Tiamat (and Asmodeus, when he chooses to use them). Other archdevils can command abishais to work for them, but most archdevils do so rarely, since it is never clear whether an abishai follows Tiamat's orders or Asmodeus's. There is inherent risk in countermanding an order given by Tiamat, but interfering with Asmodeus's plans invites certain destruction.
 
-
-## Statblock
-
-```ad-statblock
-title: White Abishai
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/White%20Abishai.webp#token)
-*Medium fiend (devil), Typically  Lawful Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 68 (`8d8 + 32`) 
-- **Speed** 30 ft., fly 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|11 (+0)|18 (+4)|11 (+0)|12 (+1)|13 (+1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Strength +6, Constitution +7
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 11
-- **Damage Resistances** bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Damage Immunities** cold, fire, poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Draconic, Infernal, telepathy 120 ft.
-- **Challenge** 6
-
-## Traits
-
-***Devil's Sight.*** Magical darkness doesn't impede the abishai's [darkvision](/3-Mechanics/CLI/rules/senses.md#darkvision).
-
-***Magic Resistance.*** The abishai has advantage on saving throws against spells and other magical effects.
-
-***Reckless.*** At the start of its turn, the abishai can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
-
-## Actions
-
-***Multiattack.*** The abishai makes one Bite attack, one Claw attack, and one Longsword attack.
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) piercing damage plus 3 (`1d6`) cold damage.
-
-***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (`1d10 + 3`) slashing damage.
-
-***Longsword.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) force damage, or 8 (`1d10 + 3`) force damage if used with two hands.
-
-## Reactions
-
-***Vicious Reprisal.*** In response to taking damage, the abishai makes one Bite attack against a random creature within 5 feet of it. If no creature is within reach, the abishai moves up to half its speed toward an enemy it can see, without provoking opportunity attacks.
+```statblock
+"name": "White Abishai (MPMM)"
+"size": "Medium"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Typically  Lawful Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "68"
+"hit_dice": "8d8 + 32"
+"stats":
+- !!int "16"
+- !!int "11"
+- !!int "18"
+- !!int "11"
+- !!int "12"
+- !!int "13"
+"speed": "30 ft., fly 40 ft."
+"saves":
+  "Strength": !!int "6"
+  "Constitution": !!int "7"
+"damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
+  \ aren't silvered"
+"damage_immunities": "cold, fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 11"
+"languages": "Draconic, Infernal, telepathy 120 ft."
+"cr": "6"
+"traits":
+- "desc": "Magical darkness doesn't impede the abishai's [darkvision](/3-Mechanics/CLI/rules/senses.md#darkvision)."
+  "name": "Devil's Sight"
+- "desc": "The abishai has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "At the start of its turn, the abishai can gain advantage on all melee weapon\
+    \ attack rolls during that turn, but attack rolls against it have advantage until\
+    \ the start of its next turn."
+  "name": "Reckless"
+"actions":
+- "desc": "The abishai makes one Bite attack, one Claw attack, and one Longsword attack."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+    \ + 3) piercing damage plus 3 (1d6) cold damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10\
+    \ + 3) slashing damage."
+  "name": "Claw"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8\
+    \ + 3) force damage, or 8 (1d10 + 3) force damage if used with two hands."
+  "name": "Longsword"
+"reactions":
+- "desc": "In response to taking damage, the abishai makes one Bite attack against\
+    \ a random creature within 5 feet of it. If no creature is within reach, the abishai\
+    \ moves up to half its speed toward an enemy it can see, without provoking opportunity\
+    \ attacks."
+  "name": "Vicious Reprisal"
+"source":
+- "MPMM"
+- "MTF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/White%20Abishai.webp"
 ```
 ^statblock
 

@@ -20,8 +20,8 @@ title: Mangonel
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/objects/tokens/DMG/Mangonel.webp#token)
 *Large Siege weapon*
 
-- **Armor Class** 15 
-- **Hit Points** 100 
+- **Armor Class** 15
+- **Hit Points** 100
 - **Speed** 
 
 |STR|DEX|CON|INT|WIS|CHA|
@@ -31,6 +31,6 @@ title: Mangonel
 
 ## Actions
 
-***Mangonel Stone.*** *Ranged Weapon Attack:* +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. *Hit:* 27 (`5d10`) bludgeoning damage.
+***Mangonel Stone.*** *Ranged Weapon Attack:* `+5` to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. *Hit:* 27 (`5d10`) bludgeoning damage.
 ```
 ^statblock

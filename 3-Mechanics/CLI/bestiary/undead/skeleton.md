@@ -7,12 +7,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/undead
+statblock: inline
 aliases: ["Skeleton"]
 ---
-# Skeleton
+# [Skeleton](3-Mechanics\CLI\bestiary\undead/skeleton.md)
 *Source: Monster Manual p. 272, Lost Mine of Phandelver, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Skeleton.webp#right)  
 Skeletons arise when animated by dark magic. They heed the summons of spellcasters who call them from their stony tombs and ancient battlefields, or rise of their own accord in places saturated with death and loss, awakened by stirrings of necromantic energy or the presence of corrupting evil.
 
 ## Animated Dead
@@ -39,37 +39,68 @@ When skeletons encounter living creatures, the necromantic energy that drives th
 
 A skeleton doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Skeleton
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Skeleton.webp#token)
-*Medium undead, Lawful Evil*
-
-- **Armor Class** 13 (armor scraps)
-- **Hit Points** 13 (`2d8 + 4`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|14 (+2)|15 (+2)| 6 (-2)| 8 (-1)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Damage Vulnerabilities** bludgeoning
-- **Damage Immunities** poison
-- **Condition Immunities** [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands all languages it spoke in life but can't speak
-- **Challenge** 1/4
-
-## Actions
-
-***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
-
-***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+```statblock
+"name": "Skeleton"
+"size": "Medium"
+"type": "undead"
+"alignment": "Lawful Evil"
+"ac": !!int "13"
+"ac_class": "armor scraps"
+"hp": !!int "13"
+"hit_dice": "2d8 + 4"
+"stats":
+- !!int "10"
+- !!int "14"
+- !!int "15"
+- !!int "6"
+- !!int "8"
+- !!int "5"
+"speed": "30 ft."
+"damage_vulnerabilities": "bludgeoning"
+"damage_immunities": "poison"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "understands all languages it spoke in life but can't speak"
+"cr": "1/4"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage."
+  "name": "Shortsword"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+    \ 5 (1d6 + 2) piercing damage."
+  "name": "Shortbow"
+"source":
+- "MM"
+- "CoS"
+- "LMoP"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "ToA"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "DC"
+- "DIP"
+- "SDW"
+- "BGDIA"
+- "RMBRE"
+- "IMR"
+- "TCE"
+- "WBtW"
+- "CRCotN"
+- "JttRC"
+- "DSotDQ"
+- "KftGV"
+- "HftT"
+- "PaBTSO"
+- "AATM"
+- "SatO"
+- "ToFW"
+- "BMT"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Skeleton.webp"
 ```
 ^statblock
 

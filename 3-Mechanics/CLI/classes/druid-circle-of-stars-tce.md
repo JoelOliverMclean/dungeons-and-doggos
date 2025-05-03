@@ -27,7 +27,7 @@ You've created a star chart as part of your heavenly studies. It is a Tiny objec
 
 **Star Map**
 
-`dice: [](druid.md#^star-map)`
+`dice: [](druid-circle-of-stars-tce.md#^star-map)`
 
 | dice: d6 | Map Form |
 |----------|----------|

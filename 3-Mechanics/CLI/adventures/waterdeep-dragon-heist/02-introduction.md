@@ -471,7 +471,7 @@ You decide the extent to which a faction will assist the adventurers, based on e
 
 ### Bregan D'aerthe
 
-![Bregan D'aerthe](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/WDH/Bregan%20D'aerthe.webp#center)
+![Bregan D'aerthe](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/WDH/Bregan%20D%27aerthe.webp#center)
 
 A character must be a drow, preferably a male, to join this faction.
 

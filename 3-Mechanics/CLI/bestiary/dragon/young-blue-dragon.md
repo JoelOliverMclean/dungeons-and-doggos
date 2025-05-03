@@ -8,12 +8,12 @@ tags:
 - monster/environment/desert
 - monster/size/large
 - monster/type/dragon
+statblock: inline
 aliases: ["Young Blue Dragon"]
 ---
-# Young Blue Dragon
+# [Young Blue Dragon](3-Mechanics\CLI\bestiary\dragon/young-blue-dragon.md)
 *Source: Monster Manual p. 91, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Young%20Blue%20Dragon.webp#right)  
 Vain and territorial, blue dragons soar through the skies over deserts, preying on caravans and plundering herds and settlements in the verdant lands beyond the desert's reach. These dragons can also be found in dry steppes, searing badlands, and rocky coasts. They guard their territories against all potential competitors, especially brass dragons.
 
 A blue dragon is recognized by its dramatic frilled ears and the massive ridged horn atop its blunt head. Rows of spikes extend back from its nostrils to line its brow, and cluster on its jutting lower jaw.
@@ -98,39 +98,58 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Young Blue Dragon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Blue%20Dragon.webp#token)
-*Large dragon, Lawful Evil*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 152 (`16d10 + 64`) 
-- **Speed** 40 ft., burrow 20 ft., fly 80 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|21 (+5)|10 (+0)|19 (+4)|14 (+2)|13 (+1)|17 (+3)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Dexterity +4, Constitution +8, Wisdom +5, Charisma +7
-- **Skills** Perception +9, Stealth +4
-- **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 19
-- **Damage Immunities** lightning
-- **Languages** Common, Draconic
-- **Challenge** 9
-
-## Actions
-
-***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 16 (`2d10 + 5`) piercing damage plus 5 (`1d10`) lightning damage.
-
-***Claw.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12 (`2d6 + 5`) slashing damage.
-
-***Lightning Breath (Recharge 5-6).*** The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 55 (`10d10`) lightning damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Young Blue Dragon"
+"size": "Large"
+"type": "dragon"
+"alignment": "Lawful Evil"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "152"
+"hit_dice": "16d10 + 64"
+"stats":
+- !!int "21"
+- !!int "10"
+- !!int "19"
+- !!int "14"
+- !!int "13"
+- !!int "17"
+"speed": "40 ft., burrow 20 ft., fly 80 ft."
+"saves":
+  "Charisma": !!int "7"
+  "Dexterity": !!int "4"
+  "Wisdom": !!int "5"
+  "Constitution": !!int "8"
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "9"
+"damage_immunities": "lightning"
+"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19"
+"languages": "Common, Draconic"
+"cr": "9"
+"actions":
+- "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16\
+    \ (2d10 + 5) piercing damage plus 5 (1d10) lightning damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+    \ (2d6 + 5) slashing damage."
+  "name": "Claw"
+- "desc": "The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each\
+    \ creature in that line must make a DC 16 Dexterity saving throw, taking 55 (10d10)\
+    \ lightning damage on a failed save, or half as much damage on a successful one."
+  "name": "Lightning Breath (Recharge 5-6)"
+"source":
+- "MM"
+- "CoS"
+- "RoT"
+- "WDMM"
+- "BGDIA"
+- "MOT"
+- "DSotDQ"
+- "LK"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Blue%20Dragon.webp"
 ```
 ^statblock
 

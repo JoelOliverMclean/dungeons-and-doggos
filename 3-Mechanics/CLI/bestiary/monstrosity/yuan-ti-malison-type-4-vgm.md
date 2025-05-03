@@ -10,12 +10,12 @@ tags:
 - monster/size/medium
 - monster/type/monstrosity/shapechanger
 - monster/type/monstrosity/yuan-ti
+statblock: inline
 aliases: ["Yuan-ti Malison (Type 4)"]
 ---
-# Yuan-ti Malison (Type 4)
+# [Yuan-ti Malison (Type 4)](3-Mechanics\CLI\bestiary\monstrosity/yuan-ti-malison-type-4-vgm.md)
 *Source: Volo's Guide to Monsters p. 96*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/VGM/Yuan-ti%20Malison%20Type%204%20and%205.webp#right)  
 ## Yuan-ti Malison Variants: Types 4 and 5
 
 A malison is a yuan-ti that has a blend of human and serpentine features. Three different types of malisons are described in the Monster Manual, and two rarer types are described here. Type 4 and type 5 malisons are the lowest-ranking members of the malison caste, and neither type is venomous in its yuan-ti form.
@@ -64,57 +64,64 @@ Yuan-ti life revolves around their temples, yet yuan-ti don't love the gods they
 > The yuan-ti cast off their humanity long ago, and with it, their sanity.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Yuan-ti Malison (Type 4)
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Yuan-ti%20Malison%20(Type%204).webp#token)
-*Medium monstrosity (shapechanger, yuan-ti), Neutral Evil*
-
-- **Armor Class** 12 
-- **Hit Points** 66 (`12d8 + 12`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|14 (+2)|13 (+1)|14 (+2)|12 (+1)|16 (+3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Deception +5, Stealth +4
-- **Senses** darkvision 60 ft., passive Perception 11
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal, Common, Draconic
-- **Challenge** 3
-
-## Traits
-
-***Shapechanger.*** The yuan-ti can use its action to polymorph into a Medium snake, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies.
-
-***Magic Resistance.*** The yuan-ti has advantage on saving throws against spells and other magical effects.
-
-***Malison Type.*** The yuan-ti has one of the following types:
-
-- **Type 4.** Human form with one or more serpentine tails  
-- **Type 5.** Human form covered in scales  
-
-***Innate Spellcasting (Yuan-ti Form Only).*** The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:
-
-**At will**: [animal friendship](/3-Mechanics/CLI/spells/animal-friendship.md) (snakes only)
-
-**3/day**: [suggestion](/3-Mechanics/CLI/spells/suggestion.md)
-
-## Actions
-
-***Multiattack (Yuan-ti Form Only).*** The yuan-ti makes two ranged attacks or two melee attacks.
-
-***Bite (Snake Form Only).*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 5 (`1d4 + 3`) piercing damage plus 7 (`2d6`) poison damage.
-
-***Scimitar (Yuan-ti Form Only).*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) slashing damage.
-
-***Longbow (Yuan-ti Form Only).*** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage.
+```statblock
+"name": "Yuan-ti Malison (Type 4) (VGM)"
+"size": "Medium"
+"type": "monstrosity"
+"subtype": "shapechanger, yuan-ti"
+"alignment": "Neutral Evil"
+"ac": !!int "12"
+"hp": !!int "66"
+"hit_dice": "12d8 + 12"
+"stats":
+- !!int "16"
+- !!int "14"
+- !!int "13"
+- !!int "14"
+- !!int "12"
+- !!int "16"
+"speed": "30 ft."
+"skillsaves":
+  "Deception": !!int "5"
+  "Stealth": !!int "4"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 11"
+"languages": "Abyssal, Common, Draconic"
+"cr": "3"
+"traits":
+- "desc": "The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13).\
+    \ The yuan-ti can innately cast the following spells, requiring no material components:\n\
+    \nAt will: [animal friendship](/3-Mechanics/CLI/spells/animal-friendship.md)\
+    \ (snakes only)\n\n3/day: [suggestion](/3-Mechanics/CLI/spells/suggestion.md)"
+  "name": "Innate Spellcasting (Yuan-ti Form Only)"
+- "desc": "The yuan-ti can use its action to polymorph into a Medium snake, or back\
+    \ into its true form. Its statistics are the same in each form. Any equipment\
+    \ it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+  "name": "Shapechanger"
+- "desc": "The yuan-ti has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The yuan-ti has one of the following types:\n\n- Type 4. Human form\
+    \ with one or more serpentine tails  \n- Type 5. Human form covered in scales\
+    \  "
+  "name": "Malison Type"
+"actions":
+- "desc": "The yuan-ti makes two ranged attacks or two melee attacks."
+  "name": "Multiattack (Yuan-ti Form Only)"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5\
+    \ (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+  "name": "Bite (Snake Form Only)"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) slashing damage."
+  "name": "Scimitar (Yuan-ti Form Only)"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+    \ 6 (1d8 + 2) piercing damage."
+  "name": "Longbow (Yuan-ti Form Only)"
+"source":
+- "VGM"
+- "ToA"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Yuan-ti%20Malison%20%28Type%204%29.webp"
 ```
 ^statblock
 

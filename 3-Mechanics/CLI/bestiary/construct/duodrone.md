@@ -6,12 +6,12 @@ tags:
 - monster/cr/1-4
 - monster/size/medium
 - monster/type/construct
+statblock: inline
 aliases: ["Duodrone"]
 ---
-# Duodrone
+# [Duodrone](3-Mechanics\CLI\bestiary\construct/duodrone.md)
 *Source: Monster Manual p. 225*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Duodrone.webp#right)  
 The blocky duodrones supervise units of monodrones and can perform up to two tasks at a time.
 
 ## Modrons
@@ -46,41 +46,46 @@ When the gears of Mechanus complete seventeen cycles once every 289 years, Primu
 > Every 289 years, the entire multiverse goes mad. Like clockwork.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Duodrone
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Duodrone.webp#token)
-*Medium construct, Lawful Neutral*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 11 (`2d8 + 2`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|11 (+0)|13 (+1)|12 (+1)| 6 (-2)|10 (+0)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** truesight 120 ft., passive Perception 10
-- **Languages** Modron
-- **Challenge** 1/4
-
-## Traits
-
-***Axiomatic Mind.*** The duodrone can't be compelled to act in a manner contrary to its nature or its instructions.
-
-***Disintegration.*** If the duodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.
-
-## Actions
-
-***Multiattack.*** The duodrone makes two fist attacks or two javelin attacks.
-
-***Fist.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (`1d4`) bludgeoning damage.
-
-***Javelin.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage.
+```statblock
+"name": "Duodrone"
+"size": "Medium"
+"type": "construct"
+"alignment": "Lawful Neutral"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "11"
+"hit_dice": "2d8 + 2"
+"stats":
+- !!int "11"
+- !!int "13"
+- !!int "12"
+- !!int "6"
+- !!int "10"
+- !!int "7"
+"speed": "30 ft."
+"senses": "truesight 120 ft., passive Perception 10"
+"languages": "Modron"
+"cr": "1/4"
+"traits":
+- "desc": "The duodrone can't be compelled to act in a manner contrary to its nature\
+    \ or its instructions."
+  "name": "Axiomatic Mind"
+- "desc": "If the duodrone dies, its body disintegrates into dust, leaving behind\
+    \ its weapons and anything else it was carrying."
+  "name": "Disintegration"
+"actions":
+- "desc": "The duodrone makes two fist attacks or two javelin attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4)\
+    \ bludgeoning damage."
+  "name": "Fist"
+- "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120\
+    \ ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+  "name": "Javelin"
+"source":
+- "MM"
+- "KftGV"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Duodrone.webp"
 ```
 ^statblock

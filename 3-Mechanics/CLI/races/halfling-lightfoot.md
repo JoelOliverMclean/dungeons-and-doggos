@@ -11,7 +11,6 @@ aliases: ["Halfling (Lightfoot)"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Halfling.webp#right)  
 
 - **Ability Scores**: Charisma +1
-- **Type**: subrace
 - **Size**: Small
 - **Speed**: 25 ft.
 

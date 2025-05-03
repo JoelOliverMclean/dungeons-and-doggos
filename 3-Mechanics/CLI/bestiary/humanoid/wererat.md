@@ -9,12 +9,12 @@ tags:
 - monster/size/medium
 - monster/type/humanoid/human
 - monster/type/humanoid/shapechanger
+statblock: inline
 aliases: ["Wererat"]
 ---
-# Wererat
+# [Wererat](3-Mechanics\CLI\bestiary\humanoid/wererat.md)
 *Source: Monster Manual p. 209, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Wererat.webp#right)  
 Wererats are cunning lycanthropes with sly, avaricious personalities. They are wiry and twitchy in humanoid form, with thin hair and darting eyes. In their humanoid and hybrid forms, wererats prefer light weapons and use ambush tactics rather than fighting as a pack. Although a wererat can deliver a nasty bite in its rat form, it favors that form for stealthy infiltration and escape rather than combat.
 
 A wererat clan operates much like a thieves' guild, with wererats transmitting their curse only to creatures they want to induct into the clan. Wererats that are accidentally cursed or break loose from the clan's control are quickly hunted down and killed.
@@ -54,45 +54,67 @@ Some individuals see little point in fighting the curse and accept what they are
 > **[Werewolf](/3-Mechanics/CLI/bestiary/humanoid/werewolf.md).** The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength.
 ^player-characters-as-lycanthropes
 
-
-## Statblock
-
-```ad-statblock
-title: Wererat
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Wererat.webp#token)
-*Medium humanoid (human, shapechanger), Lawful Evil*
-
-- **Armor Class** 12 
-- **Hit Points** 33 (`6d8 + 6`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|15 (+2)|12 (+1)|11 (+0)|10 (+0)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +2, Stealth +4
-- **Senses** darkvision 60 ft. (rat form only), passive Perception 12
-- **Damage Immunities** bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Languages** Common (can't speak in rat form)
-- **Challenge** 2
-
-## Traits
-
-***Shapechanger.*** The wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
-
-***Keen Smell.*** The wererat has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on smell.
-
-## Actions
-
-***Multiattack (Humanoid or Hybrid Form Only).*** The wererat makes two attacks, only one of which can be a bite.
-
-***Bite (Rat or Hybrid Form Only).*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.
-
-***Shortsword (Humanoid or Hybrid Form Only).*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
-
-***Hand Crossbow (Humanoid or Hybrid Form Only).*** *Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+```statblock
+"name": "Wererat"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "human, shapechanger"
+"alignment": "Lawful Evil"
+"ac": !!int "12"
+"hp": !!int "33"
+"hit_dice": "6d8 + 6"
+"stats":
+- !!int "10"
+- !!int "15"
+- !!int "12"
+- !!int "11"
+- !!int "10"
+- !!int "8"
+"speed": "30 ft."
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "2"
+"damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
+  \ aren't silvered"
+"senses": "darkvision 60 ft. (rat form only), passive Perception 12"
+"languages": "Common (can't speak in rat form)"
+"cr": "2"
+"traits":
+- "desc": "The wererat can use its action to polymorph into a rat-humanoid hybrid\
+    \ or into a giant rat, or back into its true form, which is humanoid. Its statistics,\
+    \ other than its size, are the same in each form. Any equipment it is wearing\
+    \ or carrying isn't transformed. It reverts to its true form if it dies."
+  "name": "Shapechanger"
+- "desc": "The wererat has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on smell."
+  "name": "Keen Smell"
+"actions":
+- "desc": "The wererat makes two attacks, only one of which can be a bite."
+  "name": "Multiattack (Humanoid or Hybrid Form Only)"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+    \ + 2) piercing damage. If the target is a humanoid, it must succeed on a DC\
+    \ 11 Constitution saving throw or be cursed with wererat lycanthropy."
+  "name": "Bite (Rat or Hybrid Form Only)"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage."
+  "name": "Shortsword (Humanoid or Hybrid Form Only)"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+    \ 5 (1d6 + 2) piercing damage."
+  "name": "Hand Crossbow (Humanoid or Hybrid Form Only)"
+"source":
+- "MM"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "DIP"
+- "BGDIA"
+- "IMR"
+- "EGW"
+- "CM"
+- "SatO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Wererat.webp"
 ```
 ^statblock
 

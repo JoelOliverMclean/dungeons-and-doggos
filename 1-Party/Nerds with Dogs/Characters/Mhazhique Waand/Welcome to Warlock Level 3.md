@@ -1,0 +1,3 @@
+Roll **1d10 + CON (minimum of 1)** for HP boost or flat **5**
+
+You may try to contact your patron in order to receive your pact boon...

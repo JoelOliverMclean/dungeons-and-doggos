@@ -6,12 +6,12 @@ tags:
 - monster/cr/2
 - monster/size/medium
 - monster/type/humanoid/any-race
+statblock: inline
 aliases: ["Griffon Cavalry Rider"]
 ---
-# Griffon Cavalry Rider
+# [Griffon Cavalry Rider](3-Mechanics\CLI\bestiary\humanoid/griffon-cavalry-rider-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 197*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Griffon%20Cavalry%20Rider.webp#right)  
 The City Guard is Waterdeep's army, charged with protecting the city's walls and gates, government buildings, harbor, and officials. The City Guard also patrols the roads to Amphail, Goldenfields, and Daggerford.
 
 ## Ranks in the City Guard
@@ -24,35 +24,46 @@ The current Warden of Waterdeep is Elminster, who answers to the Open Lord, Laer
 
 The Griffon Cavalry is a special branch of the City Guard whose members are veteran soldiers trained to fly griffon mounts.
 
-
-## Statblock
-
-```ad-statblock
-title: Griffon Cavalry Rider
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Griffon%20Cavalry%20Rider.webp#token)
-*Medium humanoid (any race), Any alignment*
-
-- **Armor Class** 17 ([half plate armor](/3-Mechanics/CLI/items/half-plate-armor.md))
-- **Hit Points** 58 (`9d8 + 18`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|14 (+2)|15 (+2)|14 (+2)|10 (+0)|12 (+1)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Animal Handling +3, Athletics +4, Perception +3
-- **Senses** passive Perception 13
-- **Languages** any one language (usually Common)
-- **Challenge** 2
-
-## Actions
-
-***Lance.*** *Melee Weapon Attack:* +4 to hit (with disadvantage against a target within 5 ft.), reach 10 ft., one target. *Hit:* 8 (`1d12 + 2`) piercing damage, or 11 (`1d12 + 5`) piercing damage while mounted.
-
-***Dagger.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage. Or Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.
-
-***Feather Fall.*** The rider wears a magic ring with which it can cast the [feather fall](/3-Mechanics/CLI/spells/feather-fall.md) spell on itself once as a reaction to falling. After the spell is cast, the ring becomes nonmagical.
+```statblock
+"name": "Griffon Cavalry Rider (WDH)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "any race"
+"alignment": "Any alignment"
+"ac": !!int "17"
+"ac_class": "[half plate armor](/3-Mechanics/CLI/items/half-plate-armor.md)"
+"hp": !!int "58"
+"hit_dice": "9d8 + 18"
+"stats":
+- !!int "14"
+- !!int "15"
+- !!int "14"
+- !!int "10"
+- !!int "12"
+- !!int "10"
+"speed": "30 ft."
+"skillsaves":
+  "Athletics": !!int "4"
+  "Animal Handling": !!int "3"
+  "Perception": !!int "3"
+"senses": "passive Perception 13"
+"languages": "any one language (usually Common)"
+"cr": "2"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit (with disadvantage against a target\
+    \ within 5 ft.), reach 10 ft., one target. Hit: 8 (1d12 + 2) piercing damage,\
+    \ or 11 (1d12 + 5) piercing damage while mounted."
+  "name": "Lance"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+    \ + 2) piercing damage. Or Ranged Weapon Attack: +4 to hit, range 20/60 ft.,\
+    \ one target. Hit: 4 (1d4 + 2) piercing damage."
+  "name": "Dagger"
+- "desc": "The rider wears a magic ring with which it can cast the [feather fall](/3-Mechanics/CLI/spells/feather-fall.md)\
+    \ spell on itself once as a reaction to falling. After the spell is cast, the\
+    \ ring becomes nonmagical."
+  "name": "Feather Fall"
+"source":
+- "WDH"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Griffon%20Cavalry%20Rider.webp"
 ```
 ^statblock

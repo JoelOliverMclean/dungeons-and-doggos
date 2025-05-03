@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/elf
+statblock: inline
 aliases: ["Drow Elite Warrior"]
 ---
-# Drow Elite Warrior
+# [Drow Elite Warrior](3-Mechanics\CLI\bestiary\humanoid/drow-elite-warrior.md)
 *Source: Monster Manual p. 128, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Drow.webp#right)  
 ## Drow
 
 Tens of thousands of years ago, the elves were divided, with those of benevolent disposition battling those that were selfish and cruel. The war among elvenkind ended when the good elves banished their malevolent kin to the subterranean depths. Here, in the lightless caverns and endless warrens of twisting passages, the dark elves-the drow-found refuge. They also found leadership in the only elven deity who had not forsaken them. At her command, the dark elves built an empire in the underworld.
@@ -67,50 +67,79 @@ Distilled from spider venom and the flora of the Underdark, poison can be found 
 > Such depravity. Such terrifying cruelty. They are the vile poison that plagues all elvenkind.
 
 
-
-```ad-statblock
-title: Drow Elite Warrior
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Drow%20Elite%20Warrior.webp#token)
-*Medium humanoid (elf), Neutral Evil*
-
-- **Armor Class** 18 ([studded leather](/3-Mechanics/CLI/items/studded-leather-armor.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 71 (`11d8 + 22`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|18 (+4)|14 (+2)|11 (+0)|13 (+1)|12 (+1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +7, Constitution +5, Wisdom +4
-- **Skills** Perception +4, Stealth +10
-- **Senses** darkvision 120 ft., passive Perception 14
-- **Languages** Elvish, Undercommon
-- **Challenge** 5
-
-## Traits
-
-***Fey Ancestry.*** The drow has advantage on saving throws against being [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), and magic can't put the drow to sleep.
-
-***Sunlight Sensitivity.*** While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-***Innate Spellcasting.*** The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:
-
-**At will**: [dancing lights](/3-Mechanics/CLI/spells/dancing-lights.md)
-
-**1/day each**: [darkness](/3-Mechanics/CLI/spells/darkness.md), [faerie fire](/3-Mechanics/CLI/spells/faerie-fire.md), [levitate](/3-Mechanics/CLI/spells/levitate.md) (self only)
-
-## Actions
-
-***Multiattack.*** The drow makes two shortsword attacks.
-
-***Shortsword.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (`1d6 + 4`) piercing damage plus 10 (`3d6`) poison damage.
-
-***Hand Crossbow.*** *Ranged Weapon Attack:* +7 to hit, range 30/120 ft., one target. *Hit:* 7 (`1d6 + 4`) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious) while [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
-
-## Reactions
-
-***Parry.*** The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon.
+```statblock
+"name": "Drow Elite Warrior"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "elf"
+"alignment": "Neutral Evil"
+"ac": !!int "18"
+"ac_class": "[studded leather](/3-Mechanics/CLI/items/studded-leather-armor.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "71"
+"hit_dice": "11d8 + 22"
+"stats":
+- !!int "13"
+- !!int "18"
+- !!int "14"
+- !!int "11"
+- !!int "13"
+- !!int "12"
+"speed": "30 ft."
+"saves":
+  "Dexterity": !!int "7"
+  "Wisdom": !!int "4"
+  "Constitution": !!int "5"
+"skillsaves":
+  "Stealth": !!int "10"
+  "Perception": !!int "4"
+"senses": "darkvision 120 ft., passive Perception 14"
+"languages": "Elvish, Undercommon"
+"cr": "5"
+"traits":
+- "desc": "The drow's spellcasting ability is Charisma (spell save DC 12). It can\
+    \ innately cast the following spells, requiring no material components:\n\nAt\
+    \ will: [dancing lights](/3-Mechanics/CLI/spells/dancing-lights.md)\n\n1/day\
+    \ each: [darkness](/3-Mechanics/CLI/spells/darkness.md), [faerie fire](/3-Mechanics/CLI/spells/faerie-fire.md),\
+    \ [levitate](/3-Mechanics/CLI/spells/levitate.md) (self only)"
+  "name": "Innate Spellcasting"
+- "desc": "The drow has advantage on saving throws against being [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+    \ and magic can't put the drow to sleep."
+  "name": "Fey Ancestry"
+- "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well as\
+    \ on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks\
+    \ that rely on sight."
+  "name": "Sunlight Sensitivity"
+"actions":
+- "desc": "The drow makes two shortsword attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6\
+    \ + 4) piercing damage plus 10 (3d6) poison damage."
+  "name": "Shortsword"
+- "desc": "Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit:\
+    \ 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution\
+    \ saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)\
+    \ while [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way.\
+    \ The target wakes up if it takes damage or if another creature takes an action\
+    \ to shake it awake."
+  "name": "Hand Crossbow"
+"reactions":
+- "desc": "The drow adds 3 to its AC against one melee attack that would hit it. To\
+    \ do so, the drow must see the attacker and be wielding a melee weapon."
+  "name": "Parry"
+"source":
+- "MM"
+- "SKT"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "DC"
+- "DIP"
+- "SLW"
+- "IDRotF"
+- "CRCotN"
+- "PaBTSO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Drow%20Elite%20Warrior.webp"
 ```
 ^statblock
 

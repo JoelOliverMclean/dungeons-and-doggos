@@ -9,12 +9,12 @@ tags:
 - monster/environment/underdark
 - monster/size/small
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Young Kruthik"]
 ---
-# Young Kruthik
+# [Young Kruthik](3-Mechanics\CLI\bestiary\monstrosity/young-kruthik-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 168, Mordenkainen's Tome of Foes p. 211*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Young%20Kruthik.webp#right)  
 Kruthiks hatch from eggs laid by female adults. Each egg is about the size of an adult human's head and hatches within a month. Tiny kruthik hatchlings are harmless and rarely stray far from the nest. They feed primarily on offal and one another. Within a month, the survivors become young kruthiks large enough to hunt and defend themselves.
 
 ## Kruthiks
@@ -37,38 +37,44 @@ Although they can feed on carrion, kruthiks prefer live prey. They kill enemies 
 
 Kruthiks abide the presence of Constructs, Elementals, Oozes, and Undead, and they use such creatures to help guard their hive. They are smart enough to barricade some tunnels and dig new ones that keep their neighbors away from their eggs.
 
-
-## Statblock
-
-```ad-statblock
-title: Young Kruthik
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Young%20Kruthik.webp#token)
-*Small monstrosity, Unaligned*
-
-- **Armor Class** 16 (natural armor)
-- **Hit Points** 9 (`2d6 + 2`) 
-- **Speed** 30 ft., burrow 10 ft., climb 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|16 (+3)|13 (+1)| 4 (-3)|10 (+0)| 6 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +4
-- **Senses** darkvision 30 ft., tremorsense 60 ft., passive Perception 14
-- **Languages** Kruthik
-- **Challenge** 1/8
-
-## Traits
-
-***Pack Tactics.*** The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
-
-***Tunneler.*** The kruthik can burrow through solid rock at half its burrowing speed and leaves a 2½-foot-diameter tunnel in its wake.
-
-## Actions
-
-***Stab.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) piercing damage.
+```statblock
+"name": "Young Kruthik (MPMM)"
+"size": "Small"
+"type": "monstrosity"
+"alignment": "Unaligned"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"hp": !!int "9"
+"hit_dice": "2d6 + 2"
+"stats":
+- !!int "13"
+- !!int "16"
+- !!int "13"
+- !!int "4"
+- !!int "10"
+- !!int "6"
+"speed": "30 ft., burrow 10 ft., climb 30 ft."
+"skillsaves":
+  "Perception": !!int "4"
+"senses": "darkvision 30 ft., tremorsense 60 ft., passive Perception 14"
+"languages": "Kruthik"
+"cr": "1/8"
+"traits":
+- "desc": "The kruthik has advantage on an attack roll against a creature if at least\
+    \ one of the kruthik's allies is within 5 feet of the creature and the ally isn't\
+    \ [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)."
+  "name": "Pack Tactics"
+- "desc": "The kruthik can burrow through solid rock at half its burrowing speed and\
+    \ leaves a 2½-foot-diameter tunnel in its wake."
+  "name": "Tunneler"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+    \ + 3) piercing damage."
+  "name": "Stab"
+"source":
+- "MPMM"
+- "MTF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Young%20Kruthik.webp"
 ```
 ^statblock
 

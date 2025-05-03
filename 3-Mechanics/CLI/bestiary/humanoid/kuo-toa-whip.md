@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/kuo-toa
+statblock: inline
 aliases: ["Kuo-toa Whip"]
 ---
-# Kuo-toa Whip
+# [Kuo-toa Whip](3-Mechanics\CLI\bestiary\humanoid/kuo-toa-whip.md)
 *Source: Monster Manual p. 200, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Kuo-toa%20Whip.webp#right)  
 Kuo-toa are degenerate fishlike humanoids that once inhabited the shores and islands of the surface world. Long ago humans and their ilk drove the kuo-toa underground, where they dwell in madness and everlasting night. Kuo-toa can no longer abide daylight.
 
 ## Mad Slaves
@@ -55,52 +55,69 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
 > They invent their own gods... the very definition of insanity.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Kuo-toa Whip
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Kuo-toa%20Whip.webp#token)
-*Medium humanoid (kuo-toa), Neutral Evil*
-
-- **Armor Class** 11 (natural armor)
-- **Hit Points** 65 (`10d8 + 20`) 
-- **Speed** 30 ft., swim 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|14 (+2)|10 (+0)|14 (+2)|12 (+1)|14 (+2)|11 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +6, Religion +5
-- **Senses** darkvision 120 ft., passive Perception 16
-- **Languages** Undercommon
-- **Challenge** 1
-
-## Traits
-
-***Amphibious.*** The kuo-toa can breathe air and water.
-
-***Otherworldly Perception.*** The kuo-toa can sense the presence of any creature within 30 feet of it that is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) or on the Ethereal Plane. It can pinpoint such a creature that is moving.
-
-***Slippery.*** The kuo-toa has advantage on ability checks and saving throws made to escape a grapple.
-
-***Sunlight Sensitivity.*** While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-***Spellcasting.*** The kuo-toa is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The kuo-toa has the following cleric spells prepared:
-
-**Cantrips (at will)**: [sacred flame](/3-Mechanics/CLI/spells/sacred-flame.md), [thaumaturgy](/3-Mechanics/CLI/spells/thaumaturgy.md)
-
-**1st level (3 slots)**: [bane](/3-Mechanics/CLI/spells/bane.md), [shield of faith](/3-Mechanics/CLI/spells/shield-of-faith.md)
-
-## Actions
-
-***Multiattack.*** The kuo-toa makes two attacks: one with its bite and one with its pincer staff.
-
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.
-
-***Pincer Staff.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage. If the target is a Medium or smaller creature, it is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 14). Until this grapple ends, the kuo-toa can't use its pincer staff on another target.
+```statblock
+"name": "Kuo-toa Whip"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "kuo-toa"
+"alignment": "Neutral Evil"
+"ac": !!int "11"
+"ac_class": "natural armor"
+"hp": !!int "65"
+"hit_dice": "10d8 + 20"
+"stats":
+- !!int "14"
+- !!int "10"
+- !!int "14"
+- !!int "12"
+- !!int "14"
+- !!int "11"
+"speed": "30 ft., swim 30 ft."
+"skillsaves":
+  "Religion": !!int "5"
+  "Perception": !!int "6"
+"senses": "darkvision 120 ft., passive Perception 16"
+"languages": "Undercommon"
+"cr": "1"
+"traits":
+- "desc": "The kuo-toa is a 2nd-level spellcaster. Its spellcasting ability is Wisdom\
+    \ (spell save DC 12, +4 to hit with spell attacks). The kuo-toa has the following\
+    \ cleric spells prepared:\n\nCantrips (at will): [sacred flame](/3-Mechanics/CLI/spells/sacred-flame.md),\
+    \ [thaumaturgy](/3-Mechanics/CLI/spells/thaumaturgy.md)\n\n1st level (3 slots):\
+    \ [bane](/3-Mechanics/CLI/spells/bane.md), [shield of faith](/3-Mechanics/CLI/spells/shield-of-faith.md)"
+  "name": "Spellcasting"
+- "desc": "The kuo-toa can breathe air and water."
+  "name": "Amphibious"
+- "desc": "The kuo-toa can sense the presence of any creature within 30 feet of it\
+    \ that is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) or on the\
+    \ Ethereal Plane. It can pinpoint such a creature that is moving."
+  "name": "Otherworldly Perception"
+- "desc": "The kuo-toa has advantage on ability checks and saving throws made to escape\
+    \ a grapple."
+  "name": "Slippery"
+- "desc": "While in sunlight, the kuo-toa has disadvantage on attack rolls, as well\
+    \ as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks\
+    \ that rely on sight."
+  "name": "Sunlight Sensitivity"
+"actions":
+- "desc": "The kuo-toa makes two attacks: one with its bite and one with its pincer\
+    \ staff."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+    \ + 2) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 5\
+    \ (1d6 + 2) piercing damage. If the target is a Medium or smaller creature,\
+    \ it is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 14).\
+    \ Until this grapple ends, the kuo-toa can't use its pincer staff on another target."
+  "name": "Pincer Staff"
+"source":
+- "MM"
+- "PotA"
+- "WDH"
+- "WDMM"
+- "GoS"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Kuo-toa%20Whip.webp"
 ```
 ^statblock
 

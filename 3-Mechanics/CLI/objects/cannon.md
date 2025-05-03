@@ -20,8 +20,8 @@ title: Cannon
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/objects/tokens/DMG/Cannon.webp#token)
 *Large Siege weapon*
 
-- **Armor Class** 19 
-- **Hit Points** 75 
+- **Armor Class** 19
+- **Hit Points** 75
 - **Speed** 
 
 |STR|DEX|CON|INT|WIS|CHA|
@@ -31,6 +31,6 @@ title: Cannon
 
 ## Actions
 
-***Cannon Ball.*** *Ranged Weapon Attack:* +6 to hit, range 600/2,400 ft., one target. *Hit:* 44 (`8d10`) bludgeoning damage.
+***Cannon Ball.*** *Ranged Weapon Attack:* `+6` to hit, range 600/2,400 ft., one target. *Hit:* 44 (`8d10`) bludgeoning damage.
 ```
 ^statblock

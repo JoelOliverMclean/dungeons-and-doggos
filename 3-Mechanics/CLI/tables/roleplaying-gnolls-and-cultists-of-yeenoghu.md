@@ -10,7 +10,7 @@ aliases: ["Roleplaying Gnolls and Cultists of Yeenoghu"]
 
 **Gnoll/Cultist Physical Features**
 
-`dice: [](roleplaying-gnolls-and-cultists-of-yeenoghu-vgm.md#^gnoll-cultist-physical-features)`
+`dice: [](roleplaying-gnolls-and-cultists-of-yeenoghu.md#^gnoll-cultist-physical-features)`
 
 | dice: d12 | Physical Feature |
 |-----------|------------------|
@@ -30,7 +30,7 @@ aliases: ["Roleplaying Gnolls and Cultists of Yeenoghu"]
 
 **Gnoll/Cultist Personality Trait**
 
-`dice: [](roleplaying-gnolls-and-cultists-of-yeenoghu-vgm.md#^gnoll-cultist-personality-trait)`
+`dice: [](roleplaying-gnolls-and-cultists-of-yeenoghu.md#^gnoll-cultist-personality-trait)`
 
 | dice: d6 | Personality Trait |
 |----------|-------------------|
@@ -44,7 +44,7 @@ aliases: ["Roleplaying Gnolls and Cultists of Yeenoghu"]
 
 **Gnoll/Cultist Ideals**
 
-`dice: [](roleplaying-gnolls-and-cultists-of-yeenoghu-vgm.md#^gnoll-cultist-ideals)`
+`dice: [](roleplaying-gnolls-and-cultists-of-yeenoghu.md#^gnoll-cultist-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -58,7 +58,7 @@ aliases: ["Roleplaying Gnolls and Cultists of Yeenoghu"]
 
 **Gnoll/Cultist Bonds**
 
-`dice: [](roleplaying-gnolls-and-cultists-of-yeenoghu-vgm.md#^gnoll-cultist-bonds)`
+`dice: [](roleplaying-gnolls-and-cultists-of-yeenoghu.md#^gnoll-cultist-bonds)`
 
 | dice: d6 | Bond |
 |----------|------|
@@ -72,7 +72,7 @@ aliases: ["Roleplaying Gnolls and Cultists of Yeenoghu"]
 
 **Gnoll/Cultist Flaws**
 
-`dice: [](roleplaying-gnolls-and-cultists-of-yeenoghu-vgm.md#^gnoll-cultist-flaws)`
+`dice: [](roleplaying-gnolls-and-cultists-of-yeenoghu.md#^gnoll-cultist-flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|

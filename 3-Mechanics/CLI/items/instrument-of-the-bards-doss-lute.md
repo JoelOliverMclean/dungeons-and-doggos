@@ -12,7 +12,7 @@ aliases:
 ---
 # Instrument of the Bards, Doss Lute
 *Instrument, major, uncommon (requires attunement by a bard)*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/DMG/Instrument%20of%20the%20Bards,%20Doss%20Lute.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/DMG/Instrument%20of%20the%20Bards%2C%20Doss%20Lute.webp#right)  
 
 - **Weight**: 2.0 lbs.
 

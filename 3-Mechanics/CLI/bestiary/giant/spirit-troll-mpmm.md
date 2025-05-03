@@ -10,12 +10,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/giant
+statblock: inline
 aliases: ["Spirit Troll"]
 ---
-# Spirit Troll
+# [Spirit Troll](3-Mechanics\CLI\bestiary\giant/spirit-troll-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 247, Mordenkainen's Tome of Foes p. 244*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Spirit%20Troll.webp#right)  
 A troll blasted with psychic energy can take a non physical form upon regenerating. The troll's psyche survives, but the body is as insubstantial as shadow. The troll might be unaware of the transition—the creature still moves and attacks with teeth and claws as ever—but now the troll strikes at victims' minds.
 
 ## Trolls
@@ -28,45 +28,61 @@ Although trolls are rarely devout and seldom ponder spiritual questions, some fe
 
 Vaprak's troll worshipers believe this god devours the souls of those who have been cooked or digested (slain by fire or acid). Otherwise, the god spits the soul back into the world to regenerate a new body.
 
-
-## Statblock
-
-```ad-statblock
-title: Spirit Troll
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Spirit%20Troll.webp#token)
-*Large giant, Typically  Chaotic Evil*
-
-- **Armor Class** 17 (natural armor)
-- **Hit Points** 130 (`20d10 + 20`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 (-5)|17 (+3)|13 (+1)| 8 (-1)| 9 (-1)|16 (+3)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** ⏤
-- **Skills** Perception +3
-- **Senses** darkvision 60 ft., passive Perception 13
-- **Damage Resistances** acid, cold, fire
-- **Damage Immunities** bludgeoning, piercing, slashing from nonmagical attacks
-- **Condition Immunities** [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [prone](/3-Mechanics/CLI/rules/conditions.md#prone), [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)
-- **Languages** Giant
-- **Challenge** 11
-
-## Traits
-
-***Incorporeal Movement.*** The troll can move through other creatures and objects as if they were difficult terrain. It takes 5 (`1d10`) force damage if it ends its turn inside an object.
-
-***Regeneration.*** The troll regains 10 hit points at the start of each of its turns. If the troll takes psychic or force damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate.
-
-## Actions
-
-***Multiattack.*** The troll makes one Bite attack and two Claw attacks.
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 19 (`3d10 + 3`) psychic damage, and the target must succeed on a DC 15 Wisdom saving throw or be [stunned](/3-Mechanics/CLI/rules/conditions.md#stunned) for 1 minute. The [stunned](/3-Mechanics/CLI/rules/conditions.md#stunned) target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-***Claws.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 19 (`3d10 + 3`) psychic damage.
+```statblock
+"name": "Spirit Troll (MPMM)"
+"size": "Large"
+"type": "giant"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "130"
+"hit_dice": "20d10 + 20"
+"stats":
+- !!int "1"
+- !!int "17"
+- !!int "13"
+- !!int "8"
+- !!int "9"
+- !!int "16"
+"speed": "30 ft."
+"skillsaves":
+  "Perception": !!int "3"
+"damage_resistances": "acid, cold, fire"
+"damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion),\
+  \ [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed),\
+  \ [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [prone](/3-Mechanics/CLI/rules/conditions.md#prone),\
+  \ [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)"
+"senses": "darkvision 60 ft., passive Perception 13"
+"languages": "Giant"
+"cr": "11"
+"traits":
+- "desc": "The troll can move through other creatures and objects as if they were\
+    \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
+    \ an object."
+  "name": "Incorporeal Movement"
+- "desc": "The troll regains 10 hit points at the start of each of its turns. If the\
+    \ troll takes psychic or force damage, this trait doesn't function at the start\
+    \ of the troll's next turn. The troll dies only if it starts its turn with 0 hit\
+    \ points and doesn't regenerate."
+  "name": "Regeneration"
+"actions":
+- "desc": "The troll makes one Bite attack and two Claw attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 19\
+    \ (3d10 + 3) psychic damage, and the target must succeed on a DC 15 Wisdom saving\
+    \ throw or be [stunned](/3-Mechanics/CLI/rules/conditions.md#stunned) for 1 minute.\
+    \ The [stunned](/3-Mechanics/CLI/rules/conditions.md#stunned) target can repeat\
+    \ the saving throw at the end of each of its turns, ending the effect on itself\
+    \ on a success."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 19\
+    \ (3d10 + 3) psychic damage."
+  "name": "Claws"
+"source":
+- "MPMM"
+- "MTF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Spirit%20Troll.webp"
 ```
 ^statblock
 

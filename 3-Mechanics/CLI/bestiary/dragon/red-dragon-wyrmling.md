@@ -6,12 +6,12 @@ tags:
 - monster/cr/4
 - monster/size/medium
 - monster/type/dragon
+statblock: inline
 aliases: ["Red Dragon Wyrmling"]
 ---
-# Red Dragon Wyrmling
+# [Red Dragon Wyrmling](3-Mechanics\CLI\bestiary\dragon/red-dragon-wyrmling.md)
 *Source: Monster Manual p. 98, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Red%20Dragon.webp#right)  
 The most covetous of the true dragons, red dragons tirelessly seek to increase their treasure hoards. They are exceptionally vain, even for dragons, and their conceit is reflected in their proud bearing and their disdain for other creatures. The odor of sulfur and pumice surrounds a red dragon, whose swept-back horns and spinal frill define its silhouette. Its beaked snout vents smoke at all times, and its eyes dance with flame when it is angry. Its wings are the longest of any chromatic dragon, and have a blue-black tint along the trailing edge that resembles metal burned blue by fire.
 
 The scales of a red dragon wyrmling are a bright glossy scarlet, turning a dull, deeper red and becoming as thick and strong as metal as the dragon ages. Its pupils also fade as it ages, and the oldest red dragons have eyes that resemble molten lava orbs.
@@ -90,34 +90,49 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Red Dragon Wyrmling
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Red%20Dragon%20Wyrmling.webp#token)
-*Medium dragon, Chaotic Evil*
-
-- **Armor Class** 17 (natural armor)
-- **Hit Points** 75 (`10d8 + 30`) 
-- **Speed** 30 ft., climb 30 ft., fly 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|10 (+0)|17 (+3)|12 (+1)|11 (+0)|15 (+2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Dexterity +2, Constitution +5, Wisdom +2, Charisma +4
-- **Skills** Perception +4, Stealth +2
-- **Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 14
-- **Damage Immunities** fire
-- **Languages** Draconic
-- **Challenge** 4
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (`1d10 + 4`) piercing damage plus 3 (`1d6`) fire damage.
-
-***Fire Breath (Recharge 5-6).*** The dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 24 (`7d6`) fire damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Red Dragon Wyrmling"
+"size": "Medium"
+"type": "dragon"
+"alignment": "Chaotic Evil"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "75"
+"hit_dice": "10d8 + 30"
+"stats":
+- !!int "19"
+- !!int "10"
+- !!int "17"
+- !!int "12"
+- !!int "11"
+- !!int "15"
+"speed": "30 ft., climb 30 ft., fly 60 ft."
+"saves":
+  "Charisma": !!int "4"
+  "Dexterity": !!int "2"
+  "Wisdom": !!int "2"
+  "Constitution": !!int "5"
+"skillsaves":
+  "Stealth": !!int "2"
+  "Perception": !!int "4"
+"damage_immunities": "fire"
+"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"languages": "Draconic"
+"cr": "4"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10\
+    \ + 4) piercing damage plus 3 (1d6) fire damage."
+  "name": "Bite"
+- "desc": "The dragon exhales fire in a 15-foot cone. Each creature in that area must\
+    \ make a DC 13 Dexterity saving throw, taking 24 (7d6) fire damage on a failed\
+    \ save, or half as much damage on a successful one."
+  "name": "Fire Breath (Recharge 5-6)"
+"source":
+- "MM"
+- "CoS"
+- "WDMM"
+- "BGDIA"
+- "DSotDQ"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Red%20Dragon%20Wyrmling.webp"
 ```
 ^statblock

@@ -13,12 +13,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/orc
+statblock: inline
 aliases: ["Orc"]
 ---
-# Orc
+# [Orc](3-Mechanics\CLI\bestiary\humanoid/orc.md)
 *Source: Monster Manual p. 246, Lost Mine of Phandelver. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Orc.webp#right)  
 Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.
 
 ## Gruumsh One-Eye
@@ -49,38 +49,58 @@ Strength and power are the greatest of orcish virtues, and orcs embrace all mann
 
 Luthic, the orc goddess of fertility and wife of Gruumsh, demands that orcs procreate often and indiscriminately so that orc hordes swell generation after generation. The orcs' drive to reproduce runs stronger than any other humanoid race, and they readily crossbreed with other races. When an orc procreates with a non-orc humanoid of similar size and stature (such as a human or a dwarf), the resulting child is either an orc or a half-orc. When an orc produces young with an ogre, the child is a half-ogre of intimidating strength and brutish features called an ogrillon.
 
-
-## Statblock
-
-```ad-statblock
-title: Orc
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Orc.webp#token)
-*Medium humanoid (orc), Chaotic Evil*
-
-- **Armor Class** 13 ([hide armor](/3-Mechanics/CLI/items/hide-armor.md))
-- **Hit Points** 15 (`2d8 + 6`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|12 (+1)|16 (+3)| 7 (-2)|11 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Intimidation +2
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Languages** Common, Orc
-- **Challenge** 1/2
-
-## Traits
-
-***Aggressive.*** As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
-
-## Actions
-
-***Greataxe.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 9 (`1d12 + 3`) slashing damage.
-
-***Javelin.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
+```statblock
+"name": "Orc"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "orc"
+"alignment": "Chaotic Evil"
+"ac": !!int "13"
+"ac_class": "[hide armor](/3-Mechanics/CLI/items/hide-armor.md)"
+"hp": !!int "15"
+"hit_dice": "2d8 + 6"
+"stats":
+- !!int "16"
+- !!int "12"
+- !!int "16"
+- !!int "7"
+- !!int "11"
+- !!int "10"
+"speed": "30 ft."
+"skillsaves":
+  "Intimidation": !!int "2"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Common, Orc"
+"cr": "1/2"
+"traits":
+- "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature\
+    \ that it can see."
+  "name": "Aggressive"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12\
+    \ + 3) slashing damage."
+  "name": "Greataxe"
+- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120\
+    \ ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+  "name": "Javelin"
+"source":
+- "MM"
+- "HotDQ"
+- "LMoP"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "ToA"
+- "GoS"
+- "DIP"
+- "ERLW"
+- "RMBRE"
+- "EGW"
+- "IDRotF"
+- "CRCotN"
+- "HftT"
+- "PaBTSO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Orc.webp"
 ```
 ^statblock
 

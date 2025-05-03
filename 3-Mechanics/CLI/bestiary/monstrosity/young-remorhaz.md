@@ -7,12 +7,12 @@ tags:
 - monster/environment/arctic
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Young Remorhaz"]
 ---
-# Young Remorhaz
+# [Young Remorhaz](3-Mechanics\CLI\bestiary\monstrosity/young-remorhaz.md)
 *Source: Monster Manual p. 258*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Remorhaz.webp#right)  
 From beneath the snow and ice bursts a remorhaz in a cloud of steam, its body pulsing with internal fire. Wing like fins flare from the back of the creature's head, and its wide mouth brims with jagged teeth.
 
 ## Arctic Predators
@@ -23,37 +23,41 @@ Remorhazes live in arctic climes, preying on elk, polar bears, and other creatur
 
 Frost giant hunters scour the icy wastes for remorhaz nests and eggs. The giants prize young remorhazes, which can be trained from hatching to obey commands and guard the giants' icy citadels. Unlike fully grown specimens, young remorhazes gnaw on their victims instead of swallowing them whole.
 
-
-## Statblock
-
-```ad-statblock
-title: Young Remorhaz
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Remorhaz.webp#token)
-*Large monstrosity, Unaligned*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 93 (`11d10 + 33`) 
-- **Speed** 30 ft., burrow 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|13 (+1)|17 (+3)| 3 (-4)|10 (+0)| 4 (-3)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., tremorsense 60 ft., passive Perception 10
-- **Damage Immunities** cold, fire
-- **Languages** —
-- **Challenge** 5
-
-## Traits
-
-***Heated Body.*** A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes 7 (`2d6`) fire damage.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 20 (`3d10 + 4`) piercing damage plus 7 (`2d6`) fire damage.
+```statblock
+"name": "Young Remorhaz"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Unaligned"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "93"
+"hit_dice": "11d10 + 33"
+"stats":
+- !!int "18"
+- !!int "13"
+- !!int "17"
+- !!int "3"
+- !!int "10"
+- !!int "4"
+"speed": "30 ft., burrow 30 ft."
+"damage_immunities": "cold, fire"
+"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"languages": ""
+"cr": "5"
+"traits":
+- "desc": "A creature that touches the remorhaz or hits it with a melee attack while\
+    \ within 5 feet of it takes 7 (2d6) fire damage."
+  "name": "Heated Body"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 20\
+    \ (3d10 + 4) piercing damage plus 7 (2d6) fire damage."
+  "name": "Bite"
+"source":
+- "MM"
+- "SKT"
+- "EGW"
+- "IDRotF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Remorhaz.webp"
 ```
 ^statblock
 

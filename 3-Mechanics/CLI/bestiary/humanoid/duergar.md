@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/dwarf
+statblock: inline
 aliases: ["Duergar"]
 ---
-# Duergar
+# [Duergar](3-Mechanics\CLI\bestiary\humanoid/duergar.md)
 *Source: Monster Manual p. 122, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Duergar.webp#right)  
 The tyrannical duergar, also known as gray dwarves, dwell in fantastic cities deep in the Underdark. Using ancient dwarven knowledge and myriad slaves, they work tirelessly to expand their subterranean kingdoms.
 
 Most duergar (including females) are bald and have ashen gray skin. They wear drab clothing designed to blend in with stone, along with simple jewelry that reflects their severe and utilitarian demeanor.
@@ -35,45 +35,69 @@ The Underdark is saturated with strange magical power, which the duergar absorbe
 
 Asmodeus, Lord of the Nine Hells, has been known to impersonate duergar gods in order to cultivate the evil brimming in the hearts of the gray dwarves. He offers them divine guidance and vengeance against their enemies while urging them on toward greater acts of tyranny, all the while concealing his true identity.
 
-
-## Statblock
-
-```ad-statblock
-title: Duergar
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Duergar.webp#token)
-*Medium humanoid (dwarf), Lawful Evil*
-
-- **Armor Class** 16 ([scale mail](/3-Mechanics/CLI/items/scale-mail.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 26 (`4d8 + 4`) 
-- **Speed** 25 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|14 (+2)|11 (+0)|14 (+2)|11 (+0)|10 (+0)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 10
-- **Damage Resistances** poison
-- **Languages** Dwarvish, Undercommon
-- **Challenge** 1
-
-## Traits
-
-***Duergar Resilience.*** The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) or [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed).
-
-***Sunlight Sensitivity.*** While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-## Actions
-
-***Enlarge (Recharges after a Short or Long Rest).*** For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.
-
-***War Pick.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage, or 11 (`2d8 + 2`) piercing damage while enlarged.
-
-***Javelin.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage, or 9 (`2d6 + 2`) piercing damage while enlarged.
-
-***Invisibility (Recharges after a Short or Long Rest).*** The duergar magically turns [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) until it attacks, casts a spell, or uses its Enlarge, or until its [concentration](/3-Mechanics/CLI/rules/conditions.md#concentration) is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) with it.
+```statblock
+"name": "Duergar"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "dwarf"
+"alignment": "Lawful Evil"
+"ac": !!int "16"
+"ac_class": "[scale mail](/3-Mechanics/CLI/items/scale-mail.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "26"
+"hit_dice": "4d8 + 4"
+"stats":
+- !!int "14"
+- !!int "11"
+- !!int "14"
+- !!int "11"
+- !!int "10"
+- !!int "9"
+"speed": "25 ft."
+"damage_resistances": "poison"
+"senses": "darkvision 120 ft., passive Perception 10"
+"languages": "Dwarvish, Undercommon"
+"cr": "1"
+"traits":
+- "desc": "The duergar has advantage on saving throws against poison, spells, and\
+    \ illusions, as well as to resist being [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed)\
+    \ or [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed)."
+  "name": "Duergar Resilience"
+- "desc": "While in sunlight, the duergar has disadvantage on attack rolls, as well\
+    \ as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks\
+    \ that rely on sight."
+  "name": "Sunlight Sensitivity"
+"actions":
+- "desc": "For 1 minute, the duergar magically increases in size, along with anything\
+    \ it is wearing or carrying. While enlarged, the duergar is Large, doubles its\
+    \ damage dice on Strength-based weapon attacks (included in the attacks), and\
+    \ makes Strength checks and Strength saving throws with advantage. If the duergar\
+    \ lacks the room to become Large, it attains the maximum size possible in the\
+    \ space available."
+  "name": "Enlarge (Recharges after a Short or Long Rest)"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
+    \ + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
+  "name": "War Pick"
+- "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
+    \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing\
+    \ damage while enlarged."
+  "name": "Javelin"
+- "desc": "The duergar magically turns [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible)\
+    \ until it attacks, casts a spell, or uses its Enlarge, or until its [concentration](/3-Mechanics/CLI/rules/conditions.md#concentration)\
+    \ is broken, up to 1 hour (as if concentrating on a spell). Any equipment the\
+    \ duergar wears or carries is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible)\
+    \ with it."
+  "name": "Invisibility (Recharges after a Short or Long Rest)"
+"source":
+- "MM"
+- "PotA"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "BGDIA"
+- "EGW"
+- "IDRotF"
+- "KftGV"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Duergar.webp"
 ```
 ^statblock
 

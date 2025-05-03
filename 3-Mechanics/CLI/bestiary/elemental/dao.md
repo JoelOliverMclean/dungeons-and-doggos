@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/elemental
+statblock: inline
 aliases: ["Dao"]
 ---
-# Dao
+# [Dao](3-Mechanics\CLI\bestiary\elemental/dao.md)
 *Source: Monster Manual p. 143, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Dao.webp#right)  
 Dao are greedy, malicious genies from the Elemental Plane of Earth. They adorn themselves with jewelry crafted from precious gems and rare metals, and when they fly, their lower bodies become columns of swirling sand. A dao isn't happy unless it is the envy of other dao.
 
 ## All That Glitters
@@ -59,53 +59,74 @@ Noble genies are the rarest of their kind. They are used to getting what they wa
 
 Genies acknowledge the gods as powerful entities but have no desire to court or worship them. They find the endless fawning and mewling of religious devotees tiresome-except as it is directed toward them by their worshipful slaves.
 
-
-## Statblock
-
-```ad-statblock
-title: Dao
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Dao.webp#token)
-*Large elemental, Neutral Evil*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 187 (`15d10 + 105`) 
-- **Speed** 30 ft., burrow 30 ft., fly 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|23 (+6)|12 (+1)|24 (+7)|12 (+1)|13 (+1)|14 (+2)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Intelligence +5, Wisdom +5, Charisma +6
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 11
-- **Condition Immunities** [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified)
-- **Languages** Terran
-- **Challenge** 11
-
-## Traits
-
-***Earth Glide.*** The dao can burrow through nonmagical, unworked earth and stone. While doing so, the dao doesn't disturb the material it moves through.
-
-***Elemental Demise.*** If the dao dies, its body disintegrates into crystalline powder, leaving behind only equipment the dao was wearing or carrying.
-
-***Sure-Footed.*** The dao has advantage on Strength and Dexterity saving throws made against effects that would knock it [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
-
-***Innate Spellcasting.*** The dao's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
-
-**At will**: [detect evil and good](/3-Mechanics/CLI/spells/detect-evil-and-good.md), [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [stone shape](/3-Mechanics/CLI/spells/stone-shape.md)
-
-**1/day each**: [conjure elemental](/3-Mechanics/CLI/spells/conjure-elemental.md) ([earth elemental](/3-Mechanics/CLI/bestiary/elemental/earth-elemental.md) only), [gaseous form](/3-Mechanics/CLI/spells/gaseous-form.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md), [phantasmal killer](/3-Mechanics/CLI/spells/phantasmal-killer.md), [plane shift](/3-Mechanics/CLI/spells/plane-shift.md), [wall of stone](/3-Mechanics/CLI/spells/wall-of-stone.md)
-
-**3/day each**: [passwall](/3-Mechanics/CLI/spells/passwall.md), [move earth](/3-Mechanics/CLI/spells/move-earth.md), [tongues](/3-Mechanics/CLI/spells/tongues.md)
-
-## Actions
-
-***Multiattack.*** The Dao makes two fist attacks or two maul attacks.
-
-***Fist.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 15 (`2d8 + 6`) bludgeoning damage.
-
-***Maul.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 20 (`4d6 + 6`) bludgeoning damage. If the target is a Huge or smaller creature, it must succeed on a DC 18 Strength check or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
+```statblock
+"name": "Dao"
+"size": "Large"
+"type": "elemental"
+"alignment": "Neutral Evil"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "187"
+"hit_dice": "15d10 + 105"
+"stats":
+- !!int "23"
+- !!int "12"
+- !!int "24"
+- !!int "12"
+- !!int "13"
+- !!int "14"
+"speed": "30 ft., burrow 30 ft., fly 30 ft."
+"saves":
+  "Charisma": !!int "6"
+  "Wisdom": !!int "5"
+  "Intelligence": !!int "5"
+"condition_immunities": "[petrified](/3-Mechanics/CLI/rules/conditions.md#petrified)"
+"senses": "darkvision 120 ft., passive Perception 11"
+"languages": "Terran"
+"cr": "11"
+"traits":
+- "desc": "The dao's innate spellcasting ability is Charisma (spell save DC 14, +6\
+    \ to hit with spell attacks). It can innately cast the following spells, requiring\
+    \ no material components:\n\nAt will: [detect evil and good](/3-Mechanics/CLI/spells/detect-evil-and-good.md),\
+    \ [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [stone shape](/3-Mechanics/CLI/spells/stone-shape.md)\n\
+    \n1/day each: [conjure elemental](/3-Mechanics/CLI/spells/conjure-elemental.md)\
+    \ ([earth elemental](/3-Mechanics/CLI/bestiary/elemental/earth-elemental.md) only),\
+    \ [gaseous form](/3-Mechanics/CLI/spells/gaseous-form.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md),\
+    \ [phantasmal killer](/3-Mechanics/CLI/spells/phantasmal-killer.md), [plane shift](/3-Mechanics/CLI/spells/plane-shift.md),\
+    \ [wall of stone](/3-Mechanics/CLI/spells/wall-of-stone.md)\n\n3/day each:\
+    \ [passwall](/3-Mechanics/CLI/spells/passwall.md), [move earth](/3-Mechanics/CLI/spells/move-earth.md),\
+    \ [tongues](/3-Mechanics/CLI/spells/tongues.md)"
+  "name": "Innate Spellcasting"
+- "desc": "The dao can burrow through nonmagical, unworked earth and stone. While\
+    \ doing so, the dao doesn't disturb the material it moves through."
+  "name": "Earth Glide"
+- "desc": "If the dao dies, its body disintegrates into crystalline powder, leaving\
+    \ behind only equipment the dao was wearing or carrying."
+  "name": "Elemental Demise"
+- "desc": "The dao has advantage on Strength and Dexterity saving throws made against\
+    \ effects that would knock it [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Sure-Footed"
+"actions":
+- "desc": "The Dao makes two fist attacks or two maul attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15\
+    \ (2d8 + 6) bludgeoning damage."
+  "name": "Fist"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 20\
+    \ (4d6 + 6) bludgeoning damage. If the target is a Huge or smaller creature,\
+    \ it must succeed on a DC 18 Strength check or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Maul"
+"source":
+- "MM"
+- "PotA"
+- "RoT"
+- "ToA"
+- "WDMM"
+- "BGDIA"
+- "TCE"
+- "CM"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Dao.webp"
 ```
 ^statblock
 

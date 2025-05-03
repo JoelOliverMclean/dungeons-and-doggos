@@ -1,0 +1,8 @@
+@media print {
+  .markdown-preview-view {
+    width: 100%;
+    height: 100%;
+    background-image: none;
+    background-color: white;
+  }
+}

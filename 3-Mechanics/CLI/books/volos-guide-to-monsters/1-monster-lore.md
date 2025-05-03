@@ -1069,7 +1069,7 @@ When gnoll leaders must share complex concepts with each other, they use a broke
 
 When you're roleplaying a cultist or gnoll of Yeenoghu, the following tables contain possible inspiration. They suggest characteristics that the NPC might possess.
 
-![Roleplaying Gnolls and Cultists of Yeenoghu](/3-Mechanics/CLI/tables/roleplaying-gnolls-and-cultists-of-yeenoghu-vgm.md)
+![Roleplaying Gnolls and Cultists of Yeenoghu](/3-Mechanics/CLI/tables/roleplaying-gnolls-and-cultists-of-yeenoghu.md)
 
 ### Gnoll Names
 

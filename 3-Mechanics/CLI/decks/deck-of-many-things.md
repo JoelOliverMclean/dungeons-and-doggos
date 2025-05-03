@@ -20,33 +20,33 @@ Two of the cards in a deck of many things can earn a character the enmity of ano
 
 In the case of the [Rogue](/3-Mechanics/CLI/decks/deck-of-many-things.md#Rogue) card, the enmity is secret and should come from someone thought to be a friend or an ally. As Dungeon Master, you should wait for a dramatically appropriate moment to reveal this enmity, leaving the adventurer guessing who is likely to become a betrayer.
 
-`dice: [](deck-of-many-things.md#^1-card)`
+`dice: [](deck-of-many-things.md#^1-playing-card-card)`
 
-| dice: 1d22 | Card |
-|------------|------|
-| 1 | [Vizier](/3-Mechanics/CLI/decks/deck-of-many-things.md#Vizier)* |
-| 2 | [Sun](/3-Mechanics/CLI/decks/deck-of-many-things.md#Sun) |
-| 3 | [Moon](/3-Mechanics/CLI/decks/deck-of-many-things.md#Moon) |
-| 4 | [Star](/3-Mechanics/CLI/decks/deck-of-many-things.md#Star) |
-| 5 | [Comet](/3-Mechanics/CLI/decks/deck-of-many-things.md#Comet)* |
-| 6 | [The Fates](/3-Mechanics/CLI/decks/deck-of-many-things.md#The%20Fates)* |
-| 7 | [Throne](/3-Mechanics/CLI/decks/deck-of-many-things.md#Throne) |
-| 8 | [Key](/3-Mechanics/CLI/decks/deck-of-many-things.md#Key) |
-| 9 | [Knight](/3-Mechanics/CLI/decks/deck-of-many-things.md#Knight) |
-| 10 | [Gem](/3-Mechanics/CLI/decks/deck-of-many-things.md#Gem)* |
-| 11 | [Talons](/3-Mechanics/CLI/decks/deck-of-many-things.md#Talons)* |
-| 12 | [The Void](/3-Mechanics/CLI/decks/deck-of-many-things.md#The%20Void) |
-| 13 | [Flames](/3-Mechanics/CLI/decks/deck-of-many-things.md#Flames) |
-| 14 | [Skull](/3-Mechanics/CLI/decks/deck-of-many-things.md#Skull) |
-| 15 | [Idiot](/3-Mechanics/CLI/decks/deck-of-many-things.md#Idiot)* |
-| 16 | [Donjon](/3-Mechanics/CLI/decks/deck-of-many-things.md#Donjon)* |
-| 17 | [Ruin](/3-Mechanics/CLI/decks/deck-of-many-things.md#Ruin) |
-| 18 | [Euryale](/3-Mechanics/CLI/decks/deck-of-many-things.md#Euryale) |
-| 19 | [Rogue](/3-Mechanics/CLI/decks/deck-of-many-things.md#Rogue) |
-| 20 | [Balance](/3-Mechanics/CLI/decks/deck-of-many-things.md#Balance)* |
-| 21 | [Fool](/3-Mechanics/CLI/decks/deck-of-many-things.md#Fool)* |
-| 22 | [Jester](/3-Mechanics/CLI/decks/deck-of-many-things.md#Jester) |
-^1-card
+| dice: 1d22 | Playing Card | Card |
+|------------|--------------|------|
+| 1 | Ace of diamonds | [Vizier](/3-Mechanics/CLI/decks/deck-of-many-things.md#Vizier)* |
+| 2 | King of diamonds | [Sun](/3-Mechanics/CLI/decks/deck-of-many-things.md#Sun) |
+| 3 | Queen of diamonds | [Moon](/3-Mechanics/CLI/decks/deck-of-many-things.md#Moon) |
+| 4 | Jack of diamonds | [Star](/3-Mechanics/CLI/decks/deck-of-many-things.md#Star) |
+| 5 | Two of diamonds | [Comet](/3-Mechanics/CLI/decks/deck-of-many-things.md#Comet)* |
+| 6 | Ace of hearts | [The Fates](/3-Mechanics/CLI/decks/deck-of-many-things.md#The%20Fates)* |
+| 7 | King of hearts | [Throne](/3-Mechanics/CLI/decks/deck-of-many-things.md#Throne) |
+| 8 | Queen of hearts | [Key](/3-Mechanics/CLI/decks/deck-of-many-things.md#Key) |
+| 9 | Jack of hearts | [Knight](/3-Mechanics/CLI/decks/deck-of-many-things.md#Knight) |
+| 10 | Two of hearts | [Gem](/3-Mechanics/CLI/decks/deck-of-many-things.md#Gem)* |
+| 11 | Ace of clubs | [Talons](/3-Mechanics/CLI/decks/deck-of-many-things.md#Talons)* |
+| 12 | King of clubs | [The Void](/3-Mechanics/CLI/decks/deck-of-many-things.md#The%20Void) |
+| 13 | Queen of clubs | [Flames](/3-Mechanics/CLI/decks/deck-of-many-things.md#Flames) |
+| 14 | Jack of clubs | [Skull](/3-Mechanics/CLI/decks/deck-of-many-things.md#Skull) |
+| 15 | Two of clubs | [Idiot](/3-Mechanics/CLI/decks/deck-of-many-things.md#Idiot)* |
+| 16 | Ace of spades | [Donjon](/3-Mechanics/CLI/decks/deck-of-many-things.md#Donjon)* |
+| 17 | King of spades | [Ruin](/3-Mechanics/CLI/decks/deck-of-many-things.md#Ruin) |
+| 18 | Queen of spades | [Euryale](/3-Mechanics/CLI/decks/deck-of-many-things.md#Euryale) |
+| 19 | Jack of spades | [Rogue](/3-Mechanics/CLI/decks/deck-of-many-things.md#Rogue) |
+| 20 | Two of spades | [Balance](/3-Mechanics/CLI/decks/deck-of-many-things.md#Balance)* |
+| 21 | Joker (with TM) | [Fool](/3-Mechanics/CLI/decks/deck-of-many-things.md#Fool)* |
+| 22 | Joker (without TM) | [Jester](/3-Mechanics/CLI/decks/deck-of-many-things.md#Jester) |
+^1-playing-card-card
 
 * Found only in a deck with twenty-two cards
 

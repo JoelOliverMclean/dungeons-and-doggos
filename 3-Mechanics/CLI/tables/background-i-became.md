@@ -10,7 +10,7 @@ aliases: ["Background; I became..."]
 
 **Acolyte**
 
-`dice: [](background-i-became-xge.md#^acolyte)`
+`dice: [](background-i-became.md#^acolyte)`
 
 | dice: d6 | I became an acolyte because... |
 |----------|--------------------------------|
@@ -24,7 +24,7 @@ aliases: ["Background; I became..."]
 
 **Charlatan**
 
-`dice: [](background-i-became-xge.md#^charlatan)`
+`dice: [](background-i-became.md#^charlatan)`
 
 | dice: d6 | I became a charlatan because... |
 |----------|---------------------------------|
@@ -38,7 +38,7 @@ aliases: ["Background; I became..."]
 
 **Criminal**
 
-`dice: [](background-i-became-xge.md#^criminal)`
+`dice: [](background-i-became.md#^criminal)`
 
 | dice: d6 | I became a criminal because... |
 |----------|--------------------------------|
@@ -52,7 +52,7 @@ aliases: ["Background; I became..."]
 
 **Entertainer**
 
-`dice: [](background-i-became-xge.md#^entertainer)`
+`dice: [](background-i-became.md#^entertainer)`
 
 | dice: d6 | I became an entertainer because... |
 |----------|------------------------------------|
@@ -66,7 +66,7 @@ aliases: ["Background; I became..."]
 
 **Folk Hero**
 
-`dice: [](background-i-became-xge.md#^folk-hero)`
+`dice: [](background-i-became.md#^folk-hero)`
 
 | dice: d6 | I became a folk hero because... |
 |----------|---------------------------------|
@@ -80,7 +80,7 @@ aliases: ["Background; I became..."]
 
 **Guild Artisan**
 
-`dice: [](background-i-became-xge.md#^guild-artisan)`
+`dice: [](background-i-became.md#^guild-artisan)`
 
 | dice: d6 | I became a guild artisan because... |
 |----------|-------------------------------------|
@@ -94,7 +94,7 @@ aliases: ["Background; I became..."]
 
 **Hermit**
 
-`dice: [](background-i-became-xge.md#^hermit)`
+`dice: [](background-i-became.md#^hermit)`
 
 | dice: d6 | I became a hermit because... |
 |----------|------------------------------|
@@ -108,7 +108,7 @@ aliases: ["Background; I became..."]
 
 **Noble**
 
-`dice: [](background-i-became-xge.md#^noble)`
+`dice: [](background-i-became.md#^noble)`
 
 | dice: d6 | I became a noble because... |
 |----------|-----------------------------|
@@ -122,7 +122,7 @@ aliases: ["Background; I became..."]
 
 **Outlander**
 
-`dice: [](background-i-became-xge.md#^outlander)`
+`dice: [](background-i-became.md#^outlander)`
 
 | dice: d6 | I became an outlander because... |
 |----------|----------------------------------|
@@ -136,7 +136,7 @@ aliases: ["Background; I became..."]
 
 **Sage**
 
-`dice: [](background-i-became-xge.md#^sage)`
+`dice: [](background-i-became.md#^sage)`
 
 | dice: d6 | I became a sage because... |
 |----------|----------------------------|
@@ -150,7 +150,7 @@ aliases: ["Background; I became..."]
 
 **Sailor**
 
-`dice: [](background-i-became-xge.md#^sailor)`
+`dice: [](background-i-became.md#^sailor)`
 
 | dice: d6 | I became a sailor because... |
 |----------|------------------------------|
@@ -164,7 +164,7 @@ aliases: ["Background; I became..."]
 
 **Soldier**
 
-`dice: [](background-i-became-xge.md#^soldier)`
+`dice: [](background-i-became.md#^soldier)`
 
 | dice: d6 | I became a soldier because... |
 |----------|-------------------------------|
@@ -178,7 +178,7 @@ aliases: ["Background; I became..."]
 
 **Urchin**
 
-`dice: [](background-i-became-xge.md#^urchin)`
+`dice: [](background-i-became.md#^urchin)`
 
 | dice: d6 | I became an urchin because... |
 |----------|-------------------------------|

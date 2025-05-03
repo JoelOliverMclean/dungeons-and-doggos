@@ -11,7 +11,6 @@ aliases: ["Tiefling (Dispater)"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Tiefling.webp#right)  
 
 - **Ability Scores**: Charisma +2, Dexterity +1
-- **Type**: subrace
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma

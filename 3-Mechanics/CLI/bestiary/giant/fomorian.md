@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/huge
 - monster/type/giant
+statblock: inline
 aliases: ["Fomorian"]
 ---
-# Fomorian
+# [Fomorian](3-Mechanics\CLI\bestiary\giant/fomorian.md)
 *Source: Monster Manual p. 136, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Fomorian.webp#right)  
 The most hideous and wicked of all giantkind are the godless fomorians, whose deformed bodies reflect their vile demeanors. Some have facial features randomly distributed around their misshapen, warty heads. Others have limbs of grossly different sizes and shapes, or emit terrible howls each time they draw breath through misshapen mouths. Their wretched appearance rarely evokes sympathy, however, for the fomorians brought their doom upon themselves with the evil that rules their hearts and minds.
 
 ## Fey Curse
@@ -33,40 +33,56 @@ The deformities visited on the fomorians prevent them from hurling rocks like th
 
 Fomorians can pass their curse onto others using a power called the evil eye-a last vestige of the giants' once-remarkable spellcasting ability. A creature cursed by a fomorian's evil eye is magically twisted and deformed, gaining a glimpse into the pain and malice that has consumed this evil race.
 
-
-## Statblock
-
-```ad-statblock
-title: Fomorian
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Fomorian.webp#token)
-*Huge giant, Chaotic Evil*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 149 (`13d12 + 65`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|23 (+6)|10 (+0)|20 (+5)| 9 (-1)|14 (+2)| 6 (-2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Perception +8, Stealth +3
-- **Senses** darkvision 120 ft., passive Perception 18
-- **Languages** Giant, Undercommon
-- **Challenge** 8
-
-## Actions
-
-***Multiattack.*** The fomorian attacks twice with its greatclub or makes one greatclub attack and uses Evil Eye once.
-
-***Greatclub.*** *Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:* 19 (`3d8 + 6`) bludgeoning damage.
-
-***Evil Eye.*** The fomorian magically forces a creature it can see within 60 feet of it to make a DC 14 Charisma saving throw. The creature takes 27 (`6d8`) psychic damage on a failed save, or half as much damage on a successful one.
-
-***Curse of the Evil Eye (Recharges after a Short or Long Rest).*** With a stare, the fomorian uses Evil Eye, but on a failed save, the creature is also cursed with magical deformities. While deformed, the creature has its speed halved and has disadvantage on ability checks, saving throws, and attacks based on Strength or Dexterity.
-
-The transformed creature can repeat the saving throw whenever it finishes a long rest, ending the effect on a success.
+```statblock
+"name": "Fomorian"
+"size": "Huge"
+"type": "giant"
+"alignment": "Chaotic Evil"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "149"
+"hit_dice": "13d12 + 65"
+"stats":
+- !!int "23"
+- !!int "10"
+- !!int "20"
+- !!int "9"
+- !!int "14"
+- !!int "6"
+"speed": "30 ft."
+"skillsaves":
+  "Stealth": !!int "3"
+  "Perception": !!int "8"
+"senses": "darkvision 120 ft., passive Perception 18"
+"languages": "Giant, Undercommon"
+"cr": "8"
+"actions":
+- "desc": "The fomorian attacks twice with its greatclub or makes one greatclub attack\
+    \ and uses Evil Eye once."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 19\
+    \ (3d8 + 6) bludgeoning damage."
+  "name": "Greatclub"
+- "desc": "The fomorian magically forces a creature it can see within 60 feet of it\
+    \ to make a DC 14 Charisma saving throw. The creature takes 27 (6d8) psychic\
+    \ damage on a failed save, or half as much damage on a successful one."
+  "name": "Evil Eye"
+- "desc": "With a stare, the fomorian uses Evil Eye, but on a failed save, the creature\
+    \ is also cursed with magical deformities. While deformed, the creature has its\
+    \ speed halved and has disadvantage on ability checks, saving throws, and attacks\
+    \ based on Strength or Dexterity.\n\nThe transformed creature can repeat the saving\
+    \ throw whenever it finishes a long rest, ending the effect on a success."
+  "name": "Curse of the Evil Eye (Recharges after a Short or Long Rest)"
+"source":
+- "MM"
+- "WDMM"
+- "CM"
+- "WBtW"
+- "JttRC"
+- "PaBTSO"
+- "SatO"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Fomorian.webp"
 ```
 ^statblock
 

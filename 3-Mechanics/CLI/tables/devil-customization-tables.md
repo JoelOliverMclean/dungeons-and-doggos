@@ -10,7 +10,7 @@ aliases: ["Devil Customization Tables"]
 
 **Devil Honorifics**
 
-`dice: [](devil-customization-tables-mtf.md#^devil-honorifics)`
+`dice: [](devil-customization-tables.md#^devil-honorifics)`
 
 | dice: d20 | Title |
 |-----------|-------|
@@ -38,7 +38,7 @@ aliases: ["Devil Customization Tables"]
 
 **Devil Personality Traits**
 
-`dice: [](devil-customization-tables-mtf.md#^devil-personality-traits)`
+`dice: [](devil-customization-tables.md#^devil-personality-traits)`
 
 | dice: d6 | Trait |
 |----------|-------|
@@ -52,7 +52,7 @@ aliases: ["Devil Customization Tables"]
 
 **Devil Ideals**
 
-`dice: [](devil-customization-tables-mtf.md#^devil-ideals)`
+`dice: [](devil-customization-tables.md#^devil-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -66,7 +66,7 @@ aliases: ["Devil Customization Tables"]
 
 **Devil Bonds**
 
-`dice: [](devil-customization-tables-mtf.md#^devil-bonds)`
+`dice: [](devil-customization-tables.md#^devil-bonds)`
 
 | dice: d6 | Bond |
 |----------|------|
@@ -80,7 +80,7 @@ aliases: ["Devil Customization Tables"]
 
 **Devil Flaws**
 
-`dice: [](devil-customization-tables-mtf.md#^devil-flaws)`
+`dice: [](devil-customization-tables.md#^devil-flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|

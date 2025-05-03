@@ -7,12 +7,12 @@ tags:
 - monster/environment/forest
 - monster/size/large
 - monster/type/dragon
+statblock: inline
 aliases: ["Young Green Dragon"]
 ---
-# Young Green Dragon
+# [Young Green Dragon](3-Mechanics\CLI\bestiary\dragon/young-green-dragon.md)
 *Source: Monster Manual p. 94, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Green%20Dragon.webp#right)  
 The most cunning and treacherous of true dragons, green dragons use misdirection and trickery to get the upper hand against their enemies. Nasty tempered and thoroughly evil, they take special pleasure in subverting and corrupting the good-hearted. In the ancient forests they roam, green dragons demonstrate an aggression that is often less about territory than it is about gaining power and wealth with as little effort as possible.
 
 A green dragon is recognized by its curved jawline and the crest that begins near its eyes and continues down its spine, reaching full height just behind the skull. A green dragon has no external ears, but bears leathery spiked plates that run down the sides of its neck.
@@ -103,44 +103,65 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Young Green Dragon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Green%20Dragon.webp#token)
-*Large dragon, Lawful Evil*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 136 (`16d10 + 48`) 
-- **Speed** 40 ft., fly 80 ft., swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|12 (+1)|17 (+3)|16 (+3)|13 (+1)|15 (+2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +4, Constitution +6, Wisdom +4, Charisma +5
-- **Skills** Deception +5, Perception +7, Stealth +4
-- **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 17
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Common, Draconic
-- **Challenge** 8
-
-## Traits
-
-***Amphibious.*** The dragon can breathe air and water.
-
-## Actions
-
-***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (`2d10 + 4`) piercing damage plus 7 (`2d6`) poison damage.
-
-***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) slashing damage.
-
-***Poison Breath (Recharge 5-6).*** The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (`12d6`) poison damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Young Green Dragon"
+"size": "Large"
+"type": "dragon"
+"alignment": "Lawful Evil"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "136"
+"hit_dice": "16d10 + 48"
+"stats":
+- !!int "19"
+- !!int "12"
+- !!int "17"
+- !!int "16"
+- !!int "13"
+- !!int "15"
+"speed": "40 ft., fly 80 ft., swim 40 ft."
+"saves":
+  "Charisma": !!int "5"
+  "Dexterity": !!int "4"
+  "Wisdom": !!int "4"
+  "Constitution": !!int "6"
+"skillsaves":
+  "Deception": !!int "5"
+  "Stealth": !!int "4"
+  "Perception": !!int "7"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17"
+"languages": "Common, Draconic"
+"cr": "8"
+"traits":
+- "desc": "The dragon can breathe air and water."
+  "name": "Amphibious"
+"actions":
+- "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15\
+    \ (2d10 + 4) piercing damage plus 7 (2d6) poison damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) slashing damage."
+  "name": "Claw"
+- "desc": "The dragon exhales poisonous gas in a 30-foot cone. Each creature in that\
+    \ area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison\
+    \ damage on a failed save, or half as much damage on a successful one."
+  "name": "Poison Breath (Recharge 5-6)"
+"source":
+- "MM"
+- "RoT"
+- "SKT"
+- "WDMM"
+- "BGDIA"
+- "RMBRE"
+- "HftT"
+- "PaBTSO"
+- "LK"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Green%20Dragon.webp"
 ```
 ^statblock
 

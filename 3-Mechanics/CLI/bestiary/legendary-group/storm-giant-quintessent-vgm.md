@@ -27,8 +27,3 @@ The region containing a storm giant quintessent's lair is warped by the giant's 
 - Flashes of lightning and peals of thunder are continual, day and night, within 5 miles of the lair.  
 
 If the giant dies, the lightning, thunder, and high wind regional effects end immediately. Rain, snow, and blowing dust abate gradually within `1d8` days.
-
-## Is homebrew
-_Source: Volo's Guide to Monsters_
-
-false

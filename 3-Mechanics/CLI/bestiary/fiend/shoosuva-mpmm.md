@@ -10,12 +10,12 @@ tags:
 - monster/environment/hill
 - monster/size/large
 - monster/type/fiend/demon
+statblock: inline
 aliases: ["Shoosuva"]
 ---
-# Shoosuva
+# [Shoosuva](3-Mechanics\CLI\bestiary\fiend/shoosuva-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 216, Volo's Guide to Monsters p. 137*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Shoosuva.webp#right)  
 > [!quote]- A quote from Mordenkainen  
 > 
 > What? Are you expecting me to comment on these creatures? Fine, how's this: a loyal pet deserves a loyal pet.
@@ -28,41 +28,58 @@ A shoosuva is a hyena-demon gifted by [Yeenoghu](/3-Mechanics/CLI/bestiary/npc/y
 
 Each shoosuva is bonded to a particular worshiper of Yeenoghu and fights alongside its master. A gnoll that has been gifted with a shoosuva is second only to a flind in status within a war band dedicated to Yeenoghu.
 
-
-```ad-statblock
-title: Shoosuva
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Shoosuva.webp#token)
-*Large fiend (demon), Typically  Chaotic Evil*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 136 (`16d10 + 48`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|13 (+1)|17 (+3)| 7 (-2)|14 (+2)| 9 (-1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +4, Constitution +6, Wisdom +5
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Damage Resistances** cold, fire, lightning
-- **Damage Immunities** poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal, Gnoll, telepathy 120 ft.
-- **Challenge** 8
-
-## Actions
-
-***Multiattack.*** The shoosuva makes one Bite attack and one Tail Stinger attack.
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 26 (`4d10 + 4`) piercing damage.
-
-***Tail Stinger.*** *Melee Weapon Attack:* +7 to hit, reach 15 ft., one creature. *Hit:* 13 (`2d8 + 4`) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or become [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned). While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way, the target is also [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed). The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-## Bonus Actions
-
-***Rampage.*** When it reduces a creature to 0 hit points with a melee attack on its turn, the shoosuva can move up to half its speed and make one Bite attack.
+```statblock
+"name": "Shoosuva (MPMM)"
+"size": "Large"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "136"
+"hit_dice": "16d10 + 48"
+"stats":
+- !!int "18"
+- !!int "13"
+- !!int "17"
+- !!int "7"
+- !!int "14"
+- !!int "9"
+"speed": "40 ft."
+"saves":
+  "Dexterity": !!int "4"
+  "Wisdom": !!int "5"
+  "Constitution": !!int "6"
+"damage_resistances": "cold, fire, lightning"
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "Abyssal, Gnoll, telepathy 120 ft."
+"cr": "8"
+"actions":
+- "desc": "The shoosuva makes one Bite attack and one Tail Stinger attack."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 26\
+    \ (4d10 + 4) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 15 ft., one creature. Hit:\
+    \ 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 14 Constitution\
+    \ saving throw or become [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned).\
+    \ While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way,\
+    \ the target is also [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed).\
+    \ The target can repeat the saving throw at the end of each of its turns, ending\
+    \ the effect on itself on a success."
+  "name": "Tail Stinger"
+"bonus_actions":
+- "desc": "When it reduces a creature to 0 hit points with a melee attack on its turn,\
+    \ the shoosuva can move up to half its speed and make one Bite attack."
+  "name": "Rampage"
+"source":
+- "MPMM"
+- "VGM"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Shoosuva.webp"
 ```
 ^statblock
 

@@ -6,38 +6,45 @@ tags:
 - monster/cr/1-2
 - monster/size/medium
 - monster/type/humanoid/human
+statblock: inline
 aliases: ["Redbrand Ruffian"]
 ---
-# Redbrand Ruffian
+# [Redbrand Ruffian](3-Mechanics\CLI\bestiary\humanoid/redbrand-ruffian-lmop.md)
 *Source: Lost Mine of Phandelver p. 61*  
 
 Redbrand ruffians are petty thugs and ruthless enforcers skilled at intimidation and violence. They work for money and have no scruples.
 
-
-```ad-statblock
-title: Redbrand Ruffian
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/LMoP/Redbrand%20Ruffian.webp#token)
-*Medium humanoid (human), Neutral Evil*
-
-- **Armor Class** 14 ([studded leather](/3-Mechanics/CLI/items/studded-leather-armor.md))
-- **Hit Points** 16 (`3d8 + 3`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|11 (+0)|14 (+2)|12 (+1)| 9 (-1)| 9 (-1)|11 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Intimidation +2
-- **Senses** passive Perception 9
-- **Languages** Common
-- **Challenge** 1/2
-
-## Actions
-
-***Multiattack.*** The ruffian makes two melee attacks.
-
-***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+```statblock
+"name": "Redbrand Ruffian (LMoP)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "human"
+"alignment": "Neutral Evil"
+"ac": !!int "14"
+"ac_class": "[studded leather](/3-Mechanics/CLI/items/studded-leather-armor.md)"
+"hp": !!int "16"
+"hit_dice": "3d8 + 3"
+"stats":
+- !!int "11"
+- !!int "14"
+- !!int "12"
+- !!int "9"
+- !!int "9"
+- !!int "11"
+"speed": "30 ft."
+"skillsaves":
+  "Intimidation": !!int "2"
+"senses": "passive Perception 9"
+"languages": "Common"
+"cr": "1/2"
+"actions":
+- "desc": "The ruffian makes two melee attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage."
+  "name": "Shortsword"
+"source":
+- "LMoP"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/LMoP/Redbrand%20Ruffian.webp"
 ```
 ^statblock

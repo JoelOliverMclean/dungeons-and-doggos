@@ -10,7 +10,6 @@ aliases: ["Kenku (DMG)"]
 *Source: Dungeon Master's Guide p. 282*  
 
 - **Ability Scores**: Dexterity +2
-- **Type**: race
 - **Size**: Medium
 - **Speed**: 30 ft.
 

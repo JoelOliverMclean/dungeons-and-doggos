@@ -27,8 +27,3 @@ The region containing a storm giant quintessent's lair is warped by the giant's 
 - **Winds.** High wind blows within 1 mile of the lair, making it impossible to light a fire unless the location where the fire is lit is protected from the wind.  
 
 If the giant dies, the lightning, thunder, and high wind regional effects end immediately. Rain, snow, and blowing dust abate gradually within `1d8` days.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

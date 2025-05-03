@@ -8,12 +8,12 @@ tags:
 - monster/environment/urban
 - monster/size/large
 - monster/type/dragon
+statblock: inline
 aliases: ["Young Silver Dragon"]
 ---
-# Young Silver Dragon
+# [Young Silver Dragon](3-Mechanics\CLI\bestiary\dragon/young-silver-dragon.md)
 *Source: Monster Manual p. 118. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Silver%20Dragon.webp#right)  
 The friendliest and most social of the metallic dragons, silver dragons cheerfully assist good creatures in need.
 
 A silver dragon shimmers as if sculpted from pure metal, its face given a noble cast by its high eyes and sweeping beard-like chin spikes. A spiny frill rises high over its head, tracing down its neck to the tip of its tail. A silver wyrmling's scales are blue-gray with silver highlights. As the dragon approaches adulthood, its color gradually brightens until its individual scales are barely visible. As a silver dragon grows older, its pupils fade until its eyes resemble orbs of mercury.
@@ -86,42 +86,60 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Young Silver Dragon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Silver%20Dragon.webp#token)
-*Large dragon, Lawful Good*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 168 (`16d10 + 80`) 
-- **Speed** 40 ft., fly 80 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|23 (+6)|10 (+0)|21 (+5)|14 (+2)|11 (+0)|19 (+4)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Dexterity +4, Constitution +9, Wisdom +4, Charisma +8
-- **Skills** Arcana +6, History +6, Perception +8, Stealth +4
-- **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 18
-- **Damage Immunities** cold
-- **Languages** Common, Draconic
-- **Challenge** 9
-
-## Actions
-
-***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 17 (`2d10 + 6`) piercing damage.
-
-***Claw.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 13 (`2d6 + 6`) slashing damage.
-
-***Breath Weapons (Recharge 5-6).*** The dragon uses one of the following breath weapons.
-
-- **Cold Breath.** The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 54 (`12d8`) cold damage on a failed save, or half as much damage on a successful one.  
-- **Paralyzing Breath.** The dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
+```statblock
+"name": "Young Silver Dragon"
+"size": "Large"
+"type": "dragon"
+"alignment": "Lawful Good"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "168"
+"hit_dice": "16d10 + 80"
+"stats":
+- !!int "23"
+- !!int "10"
+- !!int "21"
+- !!int "14"
+- !!int "11"
+- !!int "19"
+"speed": "40 ft., fly 80 ft."
+"saves":
+  "Charisma": !!int "8"
+  "Dexterity": !!int "4"
+  "Wisdom": !!int "4"
+  "Constitution": !!int "9"
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "8"
+  "History": !!int "6"
+  "Arcana": !!int "6"
+"damage_immunities": "cold"
+"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+"languages": "Common, Draconic"
+"cr": "9"
+"actions":
+- "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17\
+    \ (2d10 + 6) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d6 + 6) slashing damage."
+  "name": "Claw"
+- "desc": "The dragon uses one of the following breath weapons.\n\n- Cold Breath.\
+    \ The dragon exhales an icy blast in a 30-foot cone. Each creature in that area\
+    \ must make a DC 17 Constitution saving throw, taking 54 (12d8) cold damage\
+    \ on a failed save, or half as much damage on a successful one.  \n- Paralyzing\
+    \ Breath. The dragon exhales paralyzing gas in a 30-foot cone. Each creature\
+    \ in that area must succeed on a DC 17 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed)\
+    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success.  "
+  "name": "Breath Weapons (Recharge 5-6)"
+"source":
+- "MM"
+- "SKT"
+- "DSotDQ"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Silver%20Dragon.webp"
 ```
 ^statblock
 

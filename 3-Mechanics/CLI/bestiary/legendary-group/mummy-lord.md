@@ -27,8 +27,3 @@ A mummy lord's temple or tomb is warped in any of the following ways by the crea
 - A creature that takes treasure from the lair is cursed until the treasure is returned. The cursed target has disadvantage on all saving throws. The curse lasts until removed by a [remove curse](/3-Mechanics/CLI/spells/remove-curse.md) spell or other magic.  
 
 If the mummy lord is destroyed, these regional effects end immediately.
-
-## Is homebrew
-_Source: Monster Manual_
-
-false

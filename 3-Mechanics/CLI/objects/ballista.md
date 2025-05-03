@@ -18,8 +18,8 @@ title: Ballista
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/objects/tokens/DMG/Ballista.webp#token)
 *Large Siege weapon*
 
-- **Armor Class** 15 
-- **Hit Points** 50 
+- **Armor Class** 15
+- **Hit Points** 50
 - **Speed** 
 
 |STR|DEX|CON|INT|WIS|CHA|
@@ -29,6 +29,6 @@ title: Ballista
 
 ## Actions
 
-***Bolt.*** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+***Bolt.*** *Ranged Weapon Attack:* `+6` to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
 ```
 ^statblock

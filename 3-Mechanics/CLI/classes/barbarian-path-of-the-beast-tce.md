@@ -21,7 +21,7 @@ Such a barbarian might be inhabited by a primal spirit or be descended from shap
 
 **Origin of the Beast**
 
-`dice: [](barbarian.md#^origin-of-the-beast)`
+`dice: [](barbarian-path-of-the-beast-tce.md#^origin-of-the-beast)`
 
 | dice: d4 | Origin |
 |----------|--------|

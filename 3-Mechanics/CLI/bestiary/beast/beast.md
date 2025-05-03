@@ -149,6 +149,7 @@ cssclasses: json5e-note
 - [Swarm of Wasps](swarm-of-wasps.md)
 - [Tiger](tiger.md)
 - [Triceratops](triceratops.md)
+- [Two-Headed Plesiosaurus](two-headed-plesiosaurus-ttp.md)
 - [Tyrannosaurus Rex](tyrannosaurus-rex.md)
 - [Velociraptor](velociraptor-mpmm.md)
 - [Vulture](vulture.md)

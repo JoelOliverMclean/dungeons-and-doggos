@@ -7,12 +7,12 @@ tags:
 - monster/environment/swamp
 - monster/size/large
 - monster/type/dragon
+statblock: inline
 aliases: ["Young Black Dragon"]
 ---
-# Young Black Dragon
+# [Young Black Dragon](3-Mechanics\CLI\bestiary\dragon/young-black-dragon.md)
 *Source: Monster Manual p. 88. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Black%20Dragon.webp#right)  
 The most evil-tempered and vile of the chromatic dragons, black dragons collect the wreckage and treasures of fallen peoples. These dragons loathe seeing the weak prosper and revel in the collapse of humanoid kingdoms. They make their homes in fetid swamps and crumbling ruins where kingdoms once stood.
 
 With deep-socketed eyes and broad nasal openings, a black dragon's face resembles a skull. Its curving, segmented horns are bone-colored near the base and darken to dead black at the tips. As a black dragon ages, the flesh around its horns and cheekbones deteriorates as though eaten by acid, leaving thin layers of hide that enhance its skeletal appearance. A black dragon's head is marked by spikes and horns. Its tongue is flat with a forked tip, drooling slime whose acidic scent adds to the dragon's reek of rotting vegetation and foul water.
@@ -89,43 +89,59 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Young Black Dragon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Black%20Dragon.webp#token)
-*Large dragon, Chaotic Evil*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 127 (`15d10 + 45`) 
-- **Speed** 40 ft., fly 80 ft., swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|14 (+2)|17 (+3)|12 (+1)|11 (+0)|15 (+2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +5, Constitution +6, Wisdom +3, Charisma +5
-- **Skills** Perception +6, Stealth +5
-- **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 16
-- **Damage Immunities** acid
-- **Languages** Common, Draconic
-- **Challenge** 7
-
-## Traits
-
-***Amphibious.*** The dragon can breathe air and water.
-
-## Actions
-
-***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (`2d10 + 4`) piercing damage plus 4 (`1d8`) acid damage.
-
-***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) slashing damage.
-
-***Acid Breath (Recharge 5-6).*** The dragon exhales acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 49 (`11d8`) acid damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Young Black Dragon"
+"size": "Large"
+"type": "dragon"
+"alignment": "Chaotic Evil"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "127"
+"hit_dice": "15d10 + 45"
+"stats":
+- !!int "19"
+- !!int "14"
+- !!int "17"
+- !!int "12"
+- !!int "11"
+- !!int "15"
+"speed": "40 ft., fly 80 ft., swim 40 ft."
+"saves":
+  "Charisma": !!int "5"
+  "Dexterity": !!int "5"
+  "Wisdom": !!int "3"
+  "Constitution": !!int "6"
+"skillsaves":
+  "Stealth": !!int "5"
+  "Perception": !!int "6"
+"damage_immunities": "acid"
+"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16"
+"languages": "Common, Draconic"
+"cr": "7"
+"traits":
+- "desc": "The dragon can breathe air and water."
+  "name": "Amphibious"
+"actions":
+- "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15\
+    \ (2d10 + 4) piercing damage plus 4 (1d8) acid damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) slashing damage."
+  "name": "Claw"
+- "desc": "The dragon exhales acid in a 30-foot line that is 5 feet wide. Each creature\
+    \ in that line must make a DC 14 Dexterity saving throw, taking 49 (11d8) acid\
+    \ damage on a failed save, or half as much damage on a successful one."
+  "name": "Acid Breath (Recharge 5-6)"
+"source":
+- "MM"
+- "RoT"
+- "TftYP"
+- "GoS"
+- "BGDIA"
+- "LK"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Black%20Dragon.webp"
 ```
 ^statblock
 

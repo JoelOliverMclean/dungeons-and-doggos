@@ -550,7 +550,7 @@ At the DM's option, you can create a tiefling character who has a special link t
 
 This section provides tables useful for DMs who want to create devil NPCs.
 
-![Devil Customization Tables](/3-Mechanics/CLI/tables/devil-customization-tables-mtf.md)
+![Devil Customization Tables](/3-Mechanics/CLI/tables/devil-customization-tables.md)
 
 ## Princes of the Abyss
 

@@ -10,7 +10,6 @@ aliases: ["Half-Elf (Aquatic Elf Descent)"]
 *Source: Sword Coast Adventurer's Guide p. 116*  
 
 - **Ability Scores**: Charisma +2, Apply +1 to 2 (distinct) of Strength, Dexterity, Constitution, Intelligence, Wisdom
-- **Type**: subrace
 - **Size**: Medium
 - **Speed**: 30 ft.
 

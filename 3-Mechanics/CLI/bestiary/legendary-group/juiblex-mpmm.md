@@ -31,8 +31,3 @@ The region containing Juiblex's lair is warped by its magic, creating one or mor
 - **Slime.** Surfaces within 6 miles of the lair are frequently covered by a thin film of slime, which is slick and sticks to anything that touches it.  
 
 If Juiblex dies, these effects fade over the course of `1d10` days.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

@@ -37,7 +37,7 @@ Swarming, biting locusts fill a 20-foot-radius sphere centered on a point you ch
 
 When the area appears, each creature in it must make a Constitution saving throw. A creature takes `4d10` piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.
+**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by `1d10` for each slot level above 5th.
 
 **Classes**: [Cleric (Nature Domain)](/3-Mechanics/CLI/classes/cleric-nature-domain.md), [Cleric (Tempest Domain)](/3-Mechanics/CLI/classes/cleric-tempest-domain.md), [Cleric](/3-Mechanics/CLI/classes/cleric.md), [Druid (Circle of the Land)](/3-Mechanics/CLI/classes/druid-circle-of-the-land.md), [Druid](/3-Mechanics/CLI/classes/druid.md), [Ranger (Swarmkeeper)](/3-Mechanics/CLI/classes/ranger-swarmkeeper-tce.md), [Sorcerer (Divine Soul)](/3-Mechanics/CLI/classes/sorcerer-divine-soul-xge.md), [Sorcerer](/3-Mechanics/CLI/classes/sorcerer.md)
 

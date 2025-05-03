@@ -9,7 +9,7 @@ aliases:
 ---
 # Healer's Kit
 *Adventuring Gear*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Healer's%20Kit.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Healer%27s%20Kit.webp#right)  
 
 - **Cost**: 5 gp
 - **Weight**: 3.0 lbs.

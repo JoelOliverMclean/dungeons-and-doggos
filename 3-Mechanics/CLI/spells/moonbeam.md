@@ -32,7 +32,7 @@ A shapechanger makes its saving throw with disadvantage. If it fails, it also in
 
 On each of your turns after you cast this spell, you can use an action to move the beam up to 60 feet in any direction.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `1d10` for each slot level above 2nd.
 
 **Classes**: [Cleric (Twilight Domain)](/3-Mechanics/CLI/classes/cleric-twilight-domain-tce.md), [Druid](/3-Mechanics/CLI/classes/druid.md), [Paladin (Oath of the Ancients)](/3-Mechanics/CLI/classes/paladin-oath-of-the-ancients.md), [Paladin (Oath of the Watchers)](/3-Mechanics/CLI/classes/paladin-oath-of-the-watchers-tce.md)
 

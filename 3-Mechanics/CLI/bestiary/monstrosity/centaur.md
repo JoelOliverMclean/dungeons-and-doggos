@@ -8,12 +8,12 @@ tags:
 - monster/environment/grassland
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Centaur"]
 ---
-# Centaur
+# [Centaur](3-Mechanics\CLI\bestiary\monstrosity/centaur.md)
 *Source: Monster Manual p. 38. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Centaur.webp#right)  
 > [!quote]- A quote from Batley Summerfoot, a halfling adventurer who never read HOOVES OF FURY, by Iryil Grayborn of Sundown  
 > 
 > I hear centaurs make excellent mounts!
@@ -37,42 +37,56 @@ Despite their reclusive nature, centaurs trade with elves and with the caravans 
 > I hear centaurs make excellent mounts!
 
 
-
-## Statblock
-
-```ad-statblock
-title: Centaur
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Centaur.webp#token)
-*Large monstrosity, Neutral Good*
-
-- **Armor Class** 12 
-- **Hit Points** 45 (`6d10 + 12`) 
-- **Speed** 50 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|14 (+2)|14 (+2)| 9 (-1)|13 (+1)|11 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Athletics +6, Perception +3, Survival +3
-- **Senses** passive Perception 13
-- **Languages** Elvish, Sylvan
-- **Challenge** 2
-
-## Traits
-
-***Charge.*** If the centaur moves at least 30 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 (`3d6`) piercing damage.
-
-## Actions
-
-***Multiattack.*** The centaur makes two attacks: one with its pike and one with its hooves or two with its longbow.
-
-***Pike.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 9 (`1d10 + 4`) piercing damage.
-
-***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
-
-***Longbow.*** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage.
+```statblock
+"name": "Centaur"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Neutral Good"
+"ac": !!int "12"
+"hp": !!int "45"
+"hit_dice": "6d10 + 12"
+"stats":
+- !!int "18"
+- !!int "14"
+- !!int "14"
+- !!int "9"
+- !!int "13"
+- !!int "11"
+"speed": "50 ft."
+"skillsaves":
+  "Athletics": !!int "6"
+  "Perception": !!int "3"
+  "Survival": !!int "3"
+"senses": "passive Perception 13"
+"languages": "Elvish, Sylvan"
+"cr": "2"
+"traits":
+- "desc": "If the centaur moves at least 30 feet straight toward a target and then\
+    \ hits it with a pike attack on the same turn, the target takes an extra 10 (3d6)\
+    \ piercing damage."
+  "name": "Charge"
+"actions":
+- "desc": "The centaur makes two attacks: one with its pike and one with its hooves\
+    \ or two with its longbow."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9\
+    \ (1d10 + 4) piercing damage."
+  "name": "Pike"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) bludgeoning damage."
+  "name": "Hooves"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+    \ 6 (1d8 + 2) piercing damage."
+  "name": "Longbow"
+"source":
+- "MM"
+- "SKT"
+- "TftYP"
+- "GoS"
+- "DIP"
+- "MOT"
+- "WBtW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Centaur.webp"
 ```
 ^statblock
 

@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/elemental
+statblock: inline
 aliases: ["Salamander"]
 ---
-# Salamander
+# [Salamander](3-Mechanics\CLI\bestiary\elemental/salamander.md)
 *Source: Monster Manual p. 266. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Salamander.webp#right)  
 Salamanders slither across the Sea of Ash on the Elemental Plane of Fire, their sinuous coils and jagged spines smoldering. Intense heat washes off their bodies, while their yellow eyes glow like candles in the deep-set hollows of their hawkish faces.
 
 Salamanders adore power, and they delight in setting fire to things. Outside their home plane, they play among the burning skeletons of charred trees as forest fires rage around them, or slither down the slopes of erupting volcanoes to linger in fire pits and magma floes.
@@ -41,45 +41,63 @@ Salamanders generate intense heat, and when they fight, their weapons glow red a
 
 This inherent heat is an asset to salamanders' skill as smiths, allowing them to soften and shape iron and steel with their bare hands. Although not as meticulous as azers, salamanders number among the greatest metalsmiths in all the planes. Powerful creatures summon them as warriors, but others enlist the salamanders for their crafting skills, or bind them to forges and ovens to generate limitless heat.
 
-
-## Statblock
-
-```ad-statblock
-title: Salamander
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Salamander.webp#token)
-*Large elemental, Neutral Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 90 (`12d10 + 24`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|14 (+2)|15 (+2)|11 (+0)|10 (+0)|12 (+1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Vulnerabilities** cold
-- **Damage Resistances** bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** fire
-- **Languages** Ignan
-- **Challenge** 5
-
-## Traits
-
-***Heated Body.*** A creature that touches the salamander or hits it with a melee attack while within 5 feet of it takes 7 (`2d6`) fire damage.
-
-***Heated Weapons.*** Any metal melee weapon the salamander wields deals an extra 3 (`1d6`) fire damage on a hit (included in the attack).
-
-## Actions
-
-***Multiattack.*** The salamander makes two attacks: one with its spear and one with its tail.
-
-***Spear.*** *Melee or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 11 (`2d6 + 4`) piercing damage, or 13 (`2d8 + 4`) piercing damage if used with two hands to make a melee attack, plus 3 (`1d6`) fire damage.
-
-***Tail.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage plus 7 (`2d6`) fire damage, and the target is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 14). Until this grapple ends, the target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets.
+```statblock
+"name": "Salamander"
+"size": "Large"
+"type": "elemental"
+"alignment": "Neutral Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "90"
+"hit_dice": "12d10 + 24"
+"stats":
+- !!int "18"
+- !!int "14"
+- !!int "15"
+- !!int "11"
+- !!int "10"
+- !!int "12"
+"speed": "30 ft."
+"damage_vulnerabilities": "cold"
+"damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
+"damage_immunities": "fire"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Ignan"
+"cr": "5"
+"traits":
+- "desc": "A creature that touches the salamander or hits it with a melee attack while\
+    \ within 5 feet of it takes 7 (2d6) fire damage."
+  "name": "Heated Body"
+- "desc": "Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire\
+    \ damage on a hit (included in the attack)."
+  "name": "Heated Weapons"
+"actions":
+- "desc": "The salamander makes two attacks: one with its spear and one with its tail."
+  "name": "Multiattack"
+- "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing\
+    \ damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage."
+  "name": "Spear"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11\
+    \ (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target is\
+    \ [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 14). Until\
+    \ this grapple ends, the target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained),\
+    \ the salamander can automatically hit the target with its tail, and the salamander\
+    \ can't make tail attacks against other targets."
+  "name": "Tail"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "ToA"
+- "BGDIA"
+- "JttRC"
+- "DoSI"
+- "KftGV"
+- "GotSF"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Salamander.webp"
 ```
 ^statblock
 

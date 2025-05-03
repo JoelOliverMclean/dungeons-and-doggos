@@ -10,42 +10,59 @@ tags:
 - monster/environment/urban
 - monster/size/small
 - monster/type/beast
+statblock: inline
 aliases: ["Giant Rat"]
 ---
-# Giant Rat
+# [Giant Rat](3-Mechanics\CLI\bestiary\beast/giant-rat.md)
 *Source: Monster Manual p. 327, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Giant%20Rat.webp#center) 
-
-```ad-statblock
-title: Giant Rat
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Giant%20Rat.webp#token)
-*Small beast, Unaligned*
-
-- **Armor Class** 12 
-- **Hit Points** 7 (`2d6`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 7 (-2)|15 (+2)|11 (+0)| 2 (-4)|10 (+0)| 4 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Languages** —
-- **Challenge** 1/8
-
-## Traits
-
-***Keen Smell.*** The rat has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on smell.
-
-***Pack Tactics.*** The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.
+```statblock
+"name": "Giant Rat"
+"size": "Small"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "12"
+"hp": !!int "7"
+"hit_dice": "2d6"
+"stats":
+- !!int "7"
+- !!int "15"
+- !!int "11"
+- !!int "2"
+- !!int "10"
+- !!int "4"
+"speed": "30 ft."
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": ""
+"cr": "1/8"
+"traits":
+- "desc": "The rat has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on smell."
+  "name": "Keen Smell"
+- "desc": "The rat has advantage on an attack roll against a creature if at least\
+    \ one of the rat's allies is within 5 feet of the creature and the ally isn't\
+    \ [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)."
+  "name": "Pack Tactics"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+    \ + 2) piercing damage."
+  "name": "Bite"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "WDMM"
+- "GoS"
+- "DIP"
+- "BGDIA"
+- "EGW"
+- "IDRotF"
+- "CM"
+- "WBtW"
+- "GHLoE"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Giant%20Rat.webp"
 ```
 ^statblock
 

@@ -1,0 +1,5 @@
+- Mo money in the chest
+- [[Cloak of Glimmering Shadows]]
+- Bringing back [[Bri'eth Carnor]] the door
+- [[The Were-rat Ransack]]
+- [[Trilbi's Mission]]

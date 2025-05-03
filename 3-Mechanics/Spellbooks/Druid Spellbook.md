@@ -10,7 +10,7 @@ TABLE WITHOUT ID link(file.name, aliases[0]) AS "Spell",
 map(
 	filter(
 		classes, 
-		(x) => startswith(x, this.Class) AND !endswith(x, this.Class)
+		(x) => startswith(x, this.Class)
 	), 
 	(x) => link("/3-Mechanics/CLI/classes/" + lower(replace(replace(replace(x, " ", "-"), "(", ""), ")", "")), replace(replace(replace(x, this.Class + " ", ""), "(", ""), ")",""))
 ) as "Sub Classes"
@@ -38,7 +38,7 @@ TABLE WITHOUT ID link(file.name, aliases[0]) AS "Spell",
 map(
 	filter(
 		classes, 
-		(x) => startswith(x, this.Class) AND !endswith(x, this.Class)
+		(x) => startswith(x, this.Class)
 	), 
 	(x) => link("/3-Mechanics/CLI/classes/" + lower(replace(replace(replace(x, " ", "-"), "(", ""), ")", "")), replace(replace(replace(x, this.Class + " ", ""), "(", ""), ")",""))
 ) as "Sub Classes"
@@ -52,7 +52,7 @@ TABLE WITHOUT ID link(file.name, aliases[0]) AS "Spell",
 map(
 	filter(
 		classes, 
-		(x) => startswith(x, this.Class) AND !endswith(x, this.Class)
+		(x) => startswith(x, this.Class)
 	), 
 	(x) => link("/3-Mechanics/CLI/classes/" + lower(replace(replace(replace(x, " ", "-"), "(", ""), ")", "")), replace(replace(replace(x, this.Class + " ", ""), "(", ""), ")",""))
 ) as "Sub Classes"
@@ -66,7 +66,7 @@ TABLE WITHOUT ID link(file.name, aliases[0]) AS "Spell",
 map(
 	filter(
 		classes, 
-		(x) => startswith(x, this.Class) AND !endswith(x, this.Class)
+		(x) => startswith(x, this.Class)
 	), 
 	(x) => link("/3-Mechanics/CLI/classes/" + lower(replace(replace(replace(x, " ", "-"), "(", ""), ")", "")), replace(replace(replace(x, this.Class + " ", ""), "(", ""), ")",""))
 ) as "Sub Classes"
@@ -80,7 +80,7 @@ TABLE WITHOUT ID link(file.name, aliases[0]) AS "Spell",
 map(
 	filter(
 		classes, 
-		(x) => startswith(x, this.Class) AND !endswith(x, this.Class)
+		(x) => startswith(x, this.Class) 
 	), 
 	(x) => link("/3-Mechanics/CLI/classes/" + lower(replace(replace(replace(x, " ", "-"), "(", ""), ")", "")), replace(replace(replace(x, this.Class + " ", ""), "(", ""), ")",""))
 ) as "Sub Classes"
@@ -94,7 +94,7 @@ TABLE WITHOUT ID link(file.name, aliases[0]) AS "Spell",
 map(
 	filter(
 		classes, 
-		(x) => startswith(x, this.Class) AND !endswith(x, this.Class)
+		(x) => startswith(x, this.Class) 
 	), 
 	(x) => link("/3-Mechanics/CLI/classes/" + lower(replace(replace(replace(x, " ", "-"), "(", ""), ")", "")), replace(replace(replace(x, this.Class + " ", ""), "(", ""), ")",""))
 ) as "Sub Classes"
@@ -108,7 +108,7 @@ TABLE WITHOUT ID link(file.name, aliases[0]) AS "Spell",
 map(
 	filter(
 		classes, 
-		(x) => startswith(x, this.Class) AND !endswith(x, this.Class)
+		(x) => startswith(x, this.Class) 
 	), 
 	(x) => link("/3-Mechanics/CLI/classes/" + lower(replace(replace(replace(x, " ", "-"), "(", ""), ")", "")), replace(replace(replace(x, this.Class + " ", ""), "(", ""), ")",""))
 ) as "Sub Classes"
@@ -122,7 +122,7 @@ TABLE WITHOUT ID link(file.name, aliases[0]) AS "Spell",
 map(
 	filter(
 		classes, 
-		(x) => startswith(x, this.Class) AND !endswith(x, this.Class)
+		(x) => startswith(x, this.Class) 
 	), 
 	(x) => link("/3-Mechanics/CLI/classes/" + lower(replace(replace(replace(x, " ", "-"), "(", ""), ")", "")), replace(replace(replace(x, this.Class + " ", ""), "(", ""), ")",""))
 ) as "Sub Classes"
@@ -136,7 +136,7 @@ TABLE WITHOUT ID link(file.name, aliases[0]) AS "Spell",
 map(
 	filter(
 		classes, 
-		(x) => startswith(x, this.Class) AND !endswith(x, this.Class)
+		(x) => startswith(x, this.Class)
 	), 
 	(x) => link("/3-Mechanics/CLI/classes/" + lower(replace(replace(replace(x, " ", "-"), "(", ""), ")", "")), replace(replace(replace(x, this.Class + " ", ""), "(", ""), ")",""))
 ) as "Sub Classes"

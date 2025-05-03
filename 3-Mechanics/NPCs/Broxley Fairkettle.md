@@ -15,6 +15,8 @@ tags:
   - npc
 accent:
   - West Country
+aliases:
+  - Broxley
 ---
 
 

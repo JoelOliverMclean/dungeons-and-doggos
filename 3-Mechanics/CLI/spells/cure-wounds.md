@@ -38,7 +38,7 @@ aliases: ["Cure Wounds"]
 
 A creature you touch regains a number of hit points equal to `1d8` + your spellcasting ability modifier. This spell has no effect on undead or constructs.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the healing increases by `1d8` for each slot level above 1st.
 
 **Classes**: [Artificer](/3-Mechanics/CLI/classes/artificer-tce.md), [Bard](/3-Mechanics/CLI/classes/bard.md), [Cleric (Life Domain)](/3-Mechanics/CLI/classes/cleric-life-domain.md), [Cleric](/3-Mechanics/CLI/classes/cleric.md), [Druid (Circle of Wildfire)](/3-Mechanics/CLI/classes/druid-circle-of-wildfire-tce.md), [Druid](/3-Mechanics/CLI/classes/druid.md), [Paladin](/3-Mechanics/CLI/classes/paladin.md), [Ranger](/3-Mechanics/CLI/classes/ranger.md), [Sorcerer (Divine Soul)](/3-Mechanics/CLI/classes/sorcerer-divine-soul-xge.md), [Warlock (The Celestial)](/3-Mechanics/CLI/classes/warlock-the-celestial-xge.md)
 

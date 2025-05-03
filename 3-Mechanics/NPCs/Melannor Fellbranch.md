@@ -44,6 +44,8 @@ accent:
 > ### RP
 > Accent: **`=this.accent`**
 
+**Melannor Fellbranch is an imposing figure, characterized by his tall, sturdy build and the unmistakable grace of his elven heritage. His striking green eyes and long, silver hair give him an air of both wisdom and elegance. Often dressed in finely crafted robes and adorned with intricate jewelry, Melannor carries himself with an air of dignity and authority. As a respected member of Waterdeep’s elite, his keen intellect and deep knowledge of arcane and natural lore make him a prominent and influential figure in the city’s affairs.**
+
 ![[melannor-fellbranch-wdh#^88e4f3]]
 
 ![[melannor-fellbranch-wdh#^statblock]]

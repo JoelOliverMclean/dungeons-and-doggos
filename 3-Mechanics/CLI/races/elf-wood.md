@@ -11,7 +11,6 @@ aliases: ["Elf (Wood)"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Elf.webp#right)  
 
 - **Ability Scores**: Wisdom +1
-- **Type**: subrace
 - **Size**: Medium
 - **Speed**: 35 ft.
 

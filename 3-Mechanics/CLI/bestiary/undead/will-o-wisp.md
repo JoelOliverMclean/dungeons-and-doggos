@@ -9,12 +9,12 @@ tags:
 - monster/environment/urban
 - monster/size/tiny
 - monster/type/undead
+statblock: inline
 aliases: ["Will-o'-Wisp"]
 ---
-# Will-o'-Wisp
+# [Will-o'-Wisp](3-Mechanics\CLI\bestiary\undead/will-o-wisp.md)
 *Source: Monster Manual p. 301, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Will-o'-Wisp.webp#right)  
 Will-o'-wisps are malevolent, wispy balls of light that haunt lonely places and battlefields, bound by dark fate or dark magic to feed on fear and despair.
 
 ## Hope and Doom
@@ -35,47 +35,79 @@ Will-o'-wisps rarely speak, but when they do, their voices sound like faint or d
 
 A will-o'-wisp doesn't require air, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Will-o'-Wisp
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Will-o'-Wisp.webp#token)
-*Tiny undead, Chaotic Evil*
-
-- **Armor Class** 19 
-- **Hit Points** 22 (`9d4`) 
-- **Speed** 0 ft., fly 50 ft. (hover)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 (-5)|28 (+9)|10 (+0)|13 (+1)|14 (+2)|11 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 12
-- **Damage Resistances** acid; cold; fire; necrotic; thunder; bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** lightning, poison
-- **Condition Immunities** [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [prone](/3-Mechanics/CLI/rules/conditions.md#prone), [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)
-- **Languages** the languages it knew in life
-- **Challenge** 2
-
-## Traits
-
-***Consume Life.*** As a bonus action, the will-o'-wisp can target one creature it can see within 5 feet of it that has 0 hit points and is still alive. The target must succeed on a DC 10 Constitution saving throw against this magic or die. If the target dies, the will-o'-wisp regains 10 (`3d6`) hit points.
-
-***Ephemeral.*** The will-o'-wisp can't wear or carry anything.
-
-***Incorporeal Movement.*** The will-o'-wisp can move through other creatures and objects as if they were difficult terrain. It takes 5 (`1d10`) force damage if it ends its turn inside an object.
-
-***Variable Illumination.*** The will-o'-wisp sheds bright light in a 5 to 20-foot radius and dim light for an additional number of ft. equal to the chosen radius. The will-o'-wisp can alter the radius as a bonus action.
-
-## Actions
-
-***Shock.*** *Melee Spell Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 9 (`2d8`) lightning damage.
-
-***Invisibility.*** The will-o'-wisp and its light magically become [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) until it attacks or uses its Consume Life, or until its [concentration](/3-Mechanics/CLI/rules/conditions.md#concentration) ends (as if concentrating on a spell).
+```statblock
+"name": "Will-o'-Wisp"
+"size": "Tiny"
+"type": "undead"
+"alignment": "Chaotic Evil"
+"ac": !!int "19"
+"hp": !!int "22"
+"hit_dice": "9d4"
+"stats":
+- !!int "1"
+- !!int "28"
+- !!int "10"
+- !!int "13"
+- !!int "14"
+- !!int "11"
+"speed": "0 ft., fly 50 ft. (hover)"
+"damage_resistances": "acid; cold; fire; necrotic; thunder; bludgeoning, piercing,\
+  \ slashing from nonmagical attacks"
+"damage_immunities": "lightning, poison"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion),\
+  \ [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [prone](/3-Mechanics/CLI/rules/conditions.md#prone),\
+  \ [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)"
+"senses": "darkvision 120 ft., passive Perception 12"
+"languages": "the languages it knew in life"
+"cr": "2"
+"traits":
+- "desc": "As a bonus action, the will-o'-wisp can target one creature it can see\
+    \ within 5 feet of it that has 0 hit points and is still alive. The target must\
+    \ succeed on a DC 10 Constitution saving throw against this magic or die. If the\
+    \ target dies, the will-o'-wisp regains 10 (3d6) hit points."
+  "name": "Consume Life"
+- "desc": "The will-o'-wisp can't wear or carry anything."
+  "name": "Ephemeral"
+- "desc": "The will-o'-wisp can move through other creatures and objects as if they\
+    \ were difficult terrain. It takes 5 (1d10) force damage if it ends its turn\
+    \ inside an object."
+  "name": "Incorporeal Movement"
+- "desc": "The will-o'-wisp sheds bright light in a 5 to 20-foot radius and dim light\
+    \ for an additional number of ft. equal to the chosen radius. The will-o'-wisp\
+    \ can alter the radius as a bonus action."
+  "name": "Variable Illumination"
+"actions":
+- "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 9\
+    \ (2d8) lightning damage."
+  "name": "Shock"
+- "desc": "The will-o'-wisp and its light magically become [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible)\
+    \ until it attacks or uses its Consume Life, or until its [concentration](/3-Mechanics/CLI/rules/conditions.md#concentration)\
+    \ ends (as if concentrating on a spell)."
+  "name": "Invisibility"
+"source":
+- "MM"
+- "CoS"
+- "HotDQ"
+- "PotA"
+- "TftYP"
+- "ToA"
+- "WDMM"
+- "GoS"
+- "DIP"
+- "BGDIA"
+- "IDRotF"
+- "CM"
+- "WBtW"
+- "CRCotN"
+- "JttRC"
+- "LoX"
+- "PSI"
+- "AATM"
+- "SatO"
+- "BMT"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Will-o%27-Wisp.webp"
 ```
 ^statblock
 

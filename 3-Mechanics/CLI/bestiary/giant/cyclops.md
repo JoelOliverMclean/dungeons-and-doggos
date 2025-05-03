@@ -12,12 +12,12 @@ tags:
 - monster/environment/underdark
 - monster/size/huge
 - monster/type/giant
+statblock: inline
 aliases: ["Cyclops"]
 ---
-# Cyclops
+# [Cyclops](3-Mechanics\CLI\bestiary\giant/cyclops.md)
 *Source: Monster Manual p. 45. Available in the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Cyclops.webp#right)  
 Cyclopes are one-eyed giants that eke out a meager existence in wild lands. Isolationists by nature, they avoid contact with other races and try to drive away strangers in their territory.
 
 ## Nonreligious
@@ -34,40 +34,51 @@ A cyclops lairs within a day's journey of other cyclopes, so that they can meet 
 
 Cyclopes aren't great thinkers or strategists. Slow to learn and bound to their traditional ways, they find innovation difficult. Although they are a terrifying threat in combat due to their size and strength, they can often be tricked by clever foes. Cyclopes can be cowed and awed by obvious displays of magic. Rustics with little exposure to magic, they can be deceived into mistaking a warlock, cleric, or other caster for a powerful divine figure. However, their sense of pride causes them to react with vengeful, bloodthirsty violence once they learn that the individual they assumed was a "god" is a mere mortal.
 
-
-## Statblock
-
-```ad-statblock
-title: Cyclops
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Cyclops.webp#token)
-*Huge giant, Chaotic Neutral*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 138 (`12d12 + 60`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|22 (+6)|11 (+0)|20 (+5)| 8 (-1)| 6 (-2)|10 (+0)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 8
-- **Languages** Giant
-- **Challenge** 6
-
-## Traits
-
-***Poor Depth Perception.*** The cyclops has disadvantage on any attack roll against a target more than 30 feet away.
-
-## Actions
-
-***Multiattack.*** The cyclops makes two greatclub attacks.
-
-***Greatclub.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 19 (`3d8 + 6`) bludgeoning damage.
-
-***Rock.*** *Ranged Weapon Attack:* +9 to hit, range 30/120 ft., one target. *Hit:* 28 (`4d10 + 6`) bludgeoning damage.
+```statblock
+"name": "Cyclops"
+"size": "Huge"
+"type": "giant"
+"alignment": "Chaotic Neutral"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "138"
+"hit_dice": "12d12 + 60"
+"stats":
+- !!int "22"
+- !!int "11"
+- !!int "20"
+- !!int "8"
+- !!int "6"
+- !!int "10"
+"speed": "30 ft."
+"senses": "passive Perception 8"
+"languages": "Giant"
+"cr": "6"
+"traits":
+- "desc": "The cyclops has disadvantage on any attack roll against a target more than\
+    \ 30 feet away."
+  "name": "Poor Depth Perception"
+"actions":
+- "desc": "The cyclops makes two greatclub attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 19\
+    \ (3d8 + 6) bludgeoning damage."
+  "name": "Greatclub"
+- "desc": "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit:\
+    \ 28 (4d10 + 6) bludgeoning damage."
+  "name": "Rock"
+"source":
+- "MM"
+- "RoT"
+- "ToA"
+- "GoS"
+- "EGW"
+- "MOT"
+- "CM"
+- "WBtW"
+- "DSotDQ"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Cyclops.webp"
 ```
 ^statblock
 

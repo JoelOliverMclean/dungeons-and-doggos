@@ -10,12 +10,12 @@ tags:
 - monster/environment/mountain
 - monster/size/medium
 - monster/type/construct
+statblock: inline
 aliases: ["Clockwork Bronze Scout"]
 ---
-# Clockwork Bronze Scout
+# [Clockwork Bronze Scout](3-Mechanics\CLI\bestiary\construct/clockwork-bronze-scout-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 79, Mordenkainen's Tome of Foes p. 125*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Clockwork%20Bronze%20Scout.webp#right)  
 A bronze scout seldom emerges from underground. Its telescoping eyestalks observe foes at close range while most of its segmented body remains buried. If detected, it sends electrical shocks through the ground toward pursuers while it retreats.
 
 ## Clockworks
@@ -60,44 +60,54 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 | 8 | **Rusty Gears.** The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet. |
 ^clockwork-malfunctions
 
-
-## Statblock
-
-```ad-statblock
-title: Clockwork Bronze Scout
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Clockwork%20Bronze%20Scout.webp#token)
-*Medium construct, Unaligned*
-
-- **Armor Class** 13 
-- **Hit Points** 36 (`8d8`) 
-- **Speed** 30 ft., burrow 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|16 (+3)|11 (+0)| 3 (-4)|14 (+2)| 1 (-5)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +6, Stealth +7
-- **Senses** darkvision 60 ft., passive Perception 16
-- **Damage Immunities** poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands one language of its creator but can't speak
-- **Challenge** 1
-
-## Traits
-
-***Earth Armor.*** The clockwork doesn't provoke opportunity attacks when it burrows.
-
-***Magic Resistance.*** The clockwork has advantage on saving throws against spells and other magical effects.
-
-***Unusual Nature.*** The clockwork doesn't require air, food, drink, or sleep.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) piercing damage plus 3 (`1d6`) lightning damage.
-
-***Lightning Flare (Recharges after a Short or Long Rest).*** Each creature in contact with the ground within 15 feet of the clockwork must make a DC 13 Dexterity saving throw, taking 14 (`4d6`) lightning damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Clockwork Bronze Scout (MPMM)"
+"size": "Medium"
+"type": "construct"
+"alignment": "Unaligned"
+"ac": !!int "13"
+"hp": !!int "36"
+"hit_dice": "8d8"
+"stats":
+- !!int "10"
+- !!int "16"
+- !!int "11"
+- !!int "3"
+- !!int "14"
+- !!int "1"
+"speed": "30 ft., burrow 30 ft."
+"skillsaves":
+  "Stealth": !!int "7"
+  "Perception": !!int "6"
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened),\
+  \ [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 16"
+"languages": "understands one language of its creator but can't speak"
+"cr": "1"
+"traits":
+- "desc": "The clockwork doesn't provoke opportunity attacks when it burrows."
+  "name": "Earth Armor"
+- "desc": "The clockwork has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The clockwork doesn't require air, food, drink, or sleep."
+  "name": "Unusual Nature"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+    \ + 3) piercing damage plus 3 (1d6) lightning damage."
+  "name": "Bite"
+- "desc": "Each creature in contact with the ground within 15 feet of the clockwork\
+    \ must make a DC 13 Dexterity saving throw, taking 14 (4d6) lightning damage\
+    \ on a failed save, or half as much damage on a successful one."
+  "name": "Lightning Flare (Recharges after a Short or Long Rest)"
+"source":
+- "MPMM"
+- "MTF"
+- "RtG"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Clockwork%20Bronze%20Scout.webp"
 ```
 ^statblock
 

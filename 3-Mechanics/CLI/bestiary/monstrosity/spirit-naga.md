@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Spirit Naga"]
 ---
-# Spirit Naga
+# [Spirit Naga](3-Mechanics\CLI\bestiary\monstrosity/spirit-naga.md)
 *Source: Monster Manual p. 234, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Spirit%20Naga.webp#right)  
 Spirit nagas live in gloom and spitefulness, constantly plotting vengeance against creatures that have wronged them-or that they believe have wronged them. Lairing in dismal caverns and ruins, they devote their time to developing new spells and enslaving the mortals with which they surround themselves. A spirit naga likes to charm its foes, drawing them close so that it can sink its poisonous fangs into their flesh.
 
 > [!quote]- A quote from Explictica Defilus, spirit naga  
@@ -39,52 +39,69 @@ Nagas have a long-standing enmity with the yuan-ti, with each race seeing itself
 
 A naga doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Spirit Naga
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Spirit%20Naga.webp#token)
-*Large monstrosity, Chaotic Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 75 (`10d10 + 20`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|17 (+3)|14 (+2)|16 (+3)|15 (+2)|16 (+3)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +6, Constitution +5, Wisdom +5, Charisma +6
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Damage Immunities** poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal, Common
-- **Challenge** 8
-
-## Traits
-
-***Rejuvenation.*** If it dies, the naga returns to life in `1d6` days and regains all its hit points. Only a [wish](/3-Mechanics/CLI/spells/wish.md) spell can prevent this trait from functioning.
-
-***Spellcasting.*** The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:
-
-**Cantrips (at will)**: [mage hand](/3-Mechanics/CLI/spells/mage-hand.md), [minor illusion](/3-Mechanics/CLI/spells/minor-illusion.md), [ray of frost](/3-Mechanics/CLI/spells/ray-of-frost.md)
-
-**1st level (4 slots)**: [charm person](/3-Mechanics/CLI/spells/charm-person.md), [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [sleep](/3-Mechanics/CLI/spells/sleep.md)
-
-**2nd level (3 slots)**: [detect thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md), [hold person](/3-Mechanics/CLI/spells/hold-person.md)
-
-**3rd level (3 slots)**: [lightning bolt](/3-Mechanics/CLI/spells/lightning-bolt.md), [water breathing](/3-Mechanics/CLI/spells/water-breathing.md)
-
-**4th level (3 slots)**: [blight](/3-Mechanics/CLI/spells/blight.md), [dimension door](/3-Mechanics/CLI/spells/dimension-door.md)
-
-**5th level (2 slots)**: [dominate person](/3-Mechanics/CLI/spells/dominate-person.md)
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one creature. *Hit:* 7 (`1d6 + 4`) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (`7d8`) poison damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Spirit Naga"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Chaotic Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "75"
+"hit_dice": "10d10 + 20"
+"stats":
+- !!int "18"
+- !!int "17"
+- !!int "14"
+- !!int "16"
+- !!int "15"
+- !!int "16"
+"speed": "40 ft."
+"saves":
+  "Charisma": !!int "6"
+  "Dexterity": !!int "6"
+  "Wisdom": !!int "5"
+  "Constitution": !!int "5"
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "Abyssal, Common"
+"cr": "8"
+"traits":
+- "desc": "The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence\
+    \ (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal\
+    \ components to cast its spells. It has the following wizard spells prepared:\n\
+    \nCantrips (at will): [mage hand](/3-Mechanics/CLI/spells/mage-hand.md), [minor\
+    \ illusion](/3-Mechanics/CLI/spells/minor-illusion.md), [ray of frost](/3-Mechanics/CLI/spells/ray-of-frost.md)\n\
+    \n1st level (4 slots): [charm person](/3-Mechanics/CLI/spells/charm-person.md),\
+    \ [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [sleep](/3-Mechanics/CLI/spells/sleep.md)\n\
+    \n2nd level (3 slots): [detect thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md),\
+    \ [hold person](/3-Mechanics/CLI/spells/hold-person.md)\n\n3rd level (3 slots):\
+    \ [lightning bolt](/3-Mechanics/CLI/spells/lightning-bolt.md), [water breathing](/3-Mechanics/CLI/spells/water-breathing.md)\n\
+    \n4th level (3 slots): [blight](/3-Mechanics/CLI/spells/blight.md), [dimension\
+    \ door](/3-Mechanics/CLI/spells/dimension-door.md)\n\n5th level (2 slots):\
+    \ [dominate person](/3-Mechanics/CLI/spells/dominate-person.md)"
+  "name": "Spellcasting"
+- "desc": "If it dies, the naga returns to life in 1d6 days and regains all its\
+    \ hit points. Only a [wish](/3-Mechanics/CLI/spells/wish.md) spell can prevent\
+    \ this trait from functioning."
+  "name": "Rejuvenation"
+"actions":
+- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit:\
+    \ 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution\
+    \ saving throw, taking 31 (7d8) poison damage on a failed save, or half as much\
+    \ damage on a successful one."
+  "name": "Bite"
+"source":
+- "MM"
+- "TftYP"
+- "WDMM"
+- "GoS"
+- "EGW"
+- "MOT"
+- "JttRC"
+- "PaBTSO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Spirit%20Naga.webp"
 ```
 ^statblock
 

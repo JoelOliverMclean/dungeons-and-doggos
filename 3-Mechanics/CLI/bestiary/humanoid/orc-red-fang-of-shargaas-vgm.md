@@ -11,12 +11,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/humanoid/orc
+statblock: inline
 aliases: ["Orc Red Fang of Shargaas"]
 ---
-# Orc Red Fang of Shargaas
+# [Orc Red Fang of Shargaas](3-Mechanics\CLI\bestiary\humanoid/orc-red-fang-of-shargaas-vgm.md)
 *Source: Volo's Guide to Monsters p. 185*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/VGM/Orc%20Red%20Fang%20of%20Shargaas.webp#right)  
 To the common folk of the world, an orc is an orc. They know that any one of these savages can tear an ordinary person to pieces, so no further distinction is necessary.
 
 Orcs know better. Different groups of orcs exist within a tribe, the actions of each dictated by the deity they pay homage to. To complement the various kinds of warriors that spill forth to ravage the countryside, each tribe has members that remain deep inside the lair, seldom if ever seeing what lies outside the darkness of their den.
@@ -31,48 +31,59 @@ The elite among Shargaas's followers are the assassins and thieves that follow t
 
 Most Red Fang enclaves keep and nurture giant bats, creatures that are sacred to Shargaas. Red Fangs ride these bats into battle or on secret raids and assassination missions into enemy territory.
 
-
-## Statblock
-
-```ad-statblock
-title: Orc Red Fang of Shargaas
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Orc%20Red%20Fang%20of%20Shargaas.webp#token)
-*Medium humanoid (orc), Chaotic Evil*
-
-- **Armor Class** 15 ([studded leather](/3-Mechanics/CLI/items/studded-leather-armor.md))
-- **Hit Points** 52 (`8d8 + 16`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|11 (+0)|16 (+3)|15 (+2)| 9 (-1)|11 (+0)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Intimidation +1, Perception +2, Stealth +5
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Languages** Common, Orc
-- **Challenge** 3
-
-## Traits
-
-***Cunning Action.*** On each of its turns, the orc can use a bonus action to take the Dash, Disengage, or Hide action.
-
-***Hand of Shargaas.*** The orc deals 2 extra dice of damage when it hits a target with a weapon attack (included in its attacks).
-
-***Shargaas's Sight.*** Magical darkness doesn't impede the orc's darkvision.
-
-***Slayer.*** In the first round of a combat, the orc has advantage on attack rolls against any creature that hasn't taken a turn yet. If the orc hits a creature that round who was surprised, the hit is automatically a critical hit.
-
-## Actions
-
-***Multiattack.*** The orc makes two scimitar or dart attacks.
-
-***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 13 (`3d6 + 3`) slashing damage.
-
-***Dart.*** *Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:* 10 (`3d4 + 3`) piercing damage.
-
-***Veil of Shargaas (Recharges after a Short or Long Rest).*** The orc casts [darkness](/3-Mechanics/CLI/spells/darkness.md) without any components. Wisdom is its spellcasting ability.
+```statblock
+"name": "Orc Red Fang of Shargaas (VGM)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "orc"
+"alignment": "Chaotic Evil"
+"ac": !!int "15"
+"ac_class": "[studded leather](/3-Mechanics/CLI/items/studded-leather-armor.md)"
+"hp": !!int "52"
+"hit_dice": "8d8 + 16"
+"stats":
+- !!int "11"
+- !!int "16"
+- !!int "15"
+- !!int "9"
+- !!int "11"
+- !!int "9"
+"speed": "30 ft."
+"skillsaves":
+  "Intimidation": !!int "1"
+  "Stealth": !!int "5"
+  "Perception": !!int "2"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "Common, Orc"
+"cr": "3"
+"traits":
+- "desc": "On each of its turns, the orc can use a bonus action to take the Dash,\
+    \ Disengage, or Hide action."
+  "name": "Cunning Action"
+- "desc": "The orc deals 2 extra dice of damage when it hits a target with a weapon\
+    \ attack (included in its attacks)."
+  "name": "Hand of Shargaas"
+- "desc": "Magical darkness doesn't impede the orc's darkvision."
+  "name": "Shargaas's Sight"
+- "desc": "In the first round of a combat, the orc has advantage on attack rolls against\
+    \ any creature that hasn't taken a turn yet. If the orc hits a creature that round\
+    \ who was surprised, the hit is automatically a critical hit."
+  "name": "Slayer"
+"actions":
+- "desc": "The orc makes two scimitar or dart attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13\
+    \ (3d6 + 3) slashing damage."
+  "name": "Scimitar"
+- "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
+    \ 10 (3d4 + 3) piercing damage."
+  "name": "Dart"
+- "desc": "The orc casts [darkness](/3-Mechanics/CLI/spells/darkness.md) without any\
+    \ components. Wisdom is its spellcasting ability."
+  "name": "Veil of Shargaas (Recharges after a Short or Long Rest)"
+"source":
+- "VGM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Orc%20Red%20Fang%20of%20Shargaas.webp"
 ```
 ^statblock
 

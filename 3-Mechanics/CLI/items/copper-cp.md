@@ -9,7 +9,7 @@ aliases:
 ---
 # Copper (cp)
 *Treasure*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Copper%20(cp).webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Copper%20%28cp%29.webp#right)  
 
 - **Cost**: 1 cp
 - **Weight**: 0.02 lbs.

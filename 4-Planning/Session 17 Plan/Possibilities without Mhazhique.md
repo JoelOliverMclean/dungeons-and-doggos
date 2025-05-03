@@ -1,0 +1,5 @@
+- [[Flick & The Harpers]]
+- [[Geoff & The Emerald Enclave]]
+- [[Gil & The Zhentarim]]
+- [[Gil's Tankard]]
+- Marcel Beniven's Magical Joke Shop

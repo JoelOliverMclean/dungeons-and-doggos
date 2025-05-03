@@ -1,1 +1,0 @@
-![[mhazhique waand 2024-03-17.pdf]]

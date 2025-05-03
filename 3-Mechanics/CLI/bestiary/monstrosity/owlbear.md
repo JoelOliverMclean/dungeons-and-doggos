@@ -7,12 +7,12 @@ tags:
 - monster/environment/forest
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Owlbear"]
 ---
-# Owlbear
+# [Owlbear](3-Mechanics\CLI\bestiary\monstrosity/owlbear.md)
 *Source: Monster Manual p. 249, Lost Mine of Phandelver, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Owlbear.webp#right)  
 An owlbear's screech echoes through dark valleys and benighted forests, piercing the quiet night to announce the death of its prey. Feathers cover the thick, shaggy coat of its bearlike body, and the limpid pupils of its great round eyes stare furiously from its owlish head.
 
 ## Deadly Ferocity
@@ -42,40 +42,63 @@ Scholars have long debated the origins of the owlbear. The most common theory is
 > The only good thing about owlbears is that the wizard who created them is probably dead.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Owlbear
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Owlbear.webp#token)
-*Large monstrosity, Unaligned*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 59 (`7d10 + 21`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|20 (+5)|12 (+1)|17 (+3)| 3 (-4)|12 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +3
-- **Senses** darkvision 60 ft., passive Perception 13
-- **Languages** —
-- **Challenge** 3
-
-## Traits
-
-***Keen Sight and Smell.*** The owlbear has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight or smell.
-
-## Actions
-
-***Multiattack.*** The owlbear makes two attacks: one with its beak and one with its claws.
-
-***Beak.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 10 (`1d10 + 5`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (`2d8 + 5`) slashing damage.
+```statblock
+"name": "Owlbear"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Unaligned"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "59"
+"hit_dice": "7d10 + 21"
+"stats":
+- !!int "20"
+- !!int "12"
+- !!int "17"
+- !!int "3"
+- !!int "12"
+- !!int "7"
+"speed": "40 ft."
+"skillsaves":
+  "Perception": !!int "3"
+"senses": "darkvision 60 ft., passive Perception 13"
+"languages": ""
+"cr": "3"
+"traits":
+- "desc": "The owlbear has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on sight or smell."
+  "name": "Keen Sight and Smell"
+"actions":
+- "desc": "The owlbear makes two attacks: one with its beak and one with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 10\
+    \ (1d10 + 5) piercing damage."
+  "name": "Beak"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+    \ (2d8 + 5) slashing damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "LMoP"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "DIP"
+- "SDW"
+- "RMBRE"
+- "IMR"
+- "EGW"
+- "IDRotF"
+- "WBtW"
+- "CRCotN"
+- "DoSI"
+- "HftT"
+- "PaBTSO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Owlbear.webp"
 ```
 ^statblock
 

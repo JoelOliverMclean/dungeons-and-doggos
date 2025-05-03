@@ -7,12 +7,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/fiend
+statblock: inline
 aliases: ["Cambion"]
 ---
-# Cambion
+# [Cambion](3-Mechanics\CLI\bestiary\fiend/cambion.md)
 *Source: Monster Manual p. 36*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Cambion.webp#right)  
 A cambion is the offspring of a fiend (usually a succubus or incubus) and a humanoid (usually a human). Cambions inherit aspects of both parents, but their horns, leathery wings, and sinewy tails are hallmarks of their otherworldly parentage.
 
 ## Born to Be Bad
@@ -32,49 +32,74 @@ The demon lord Graz'zt is fond of procreating with humanoids who have made pacts
 > They crawl from their mother's wombs to spread corruption throughout the multiverse. What's not to love?
 
 
-
-## Statblock
-
-```ad-statblock
-title: Cambion
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Cambion.webp#token)
-*Medium fiend, Any Evil alignment*
-
-- **Armor Class** 19 ([scale mail](/3-Mechanics/CLI/items/scale-mail.md))
-- **Hit Points** 82 (`11d8 + 33`) 
-- **Speed** 30 ft., fly 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|18 (+4)|16 (+3)|14 (+2)|12 (+1)|16 (+3)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Strength +7, Constitution +6, Intelligence +5, Charisma +6
-- **Skills** Deception +6, Intimidation +6, Perception +4, Stealth +7
-- **Senses** darkvision 60 ft., passive Perception 14
-- **Damage Resistances** cold; fire; lightning; poison; bludgeoning, piercing, slashing from nonmagical attacks
-- **Languages** Abyssal, Common, Infernal
-- **Challenge** 5
-
-## Traits
-
-***Fiendish Blessing.*** The AC of the cambion includes its Charisma bonus.
-
-***Innate Spellcasting.*** The cambion's spellcasting ability is Charisma (spell save DC 14). The cambion can innately cast the following spells, requiring no material components:
-
-**1/day**: [plane shift](/3-Mechanics/CLI/spells/plane-shift.md) (self only)
-
-**3/day each**: [alter self](/3-Mechanics/CLI/spells/alter-self.md), [command](/3-Mechanics/CLI/spells/command.md), [detect magic](/3-Mechanics/CLI/spells/detect-magic.md)
-
-## Actions
-
-***Multiattack.*** The cambion makes two melee attacks or uses its Fire Ray twice.
-
-***Spear.*** *Melee or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (`1d6 + 4`) piercing damage, or 8 (`1d8 + 4`) piercing damage if used with two hands to make a melee attack, plus 3 (`1d6`) fire damage.
-
-***Fire Ray.*** *Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:* 10 (`3d6`) fire damage.
-
-***Fiendish Charm.*** One humanoid the cambion can see within 30 feet of it must succeed on a DC 14 Wisdom saving throw or be magically [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) for 1 day. The [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, the target can repeat the saving throw, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm for the next 24 hours.
+```statblock
+"name": "Cambion"
+"size": "Medium"
+"type": "fiend"
+"alignment": "Any Evil alignment"
+"ac": !!int "19"
+"ac_class": "[scale mail](/3-Mechanics/CLI/items/scale-mail.md)"
+"hp": !!int "82"
+"hit_dice": "11d8 + 33"
+"stats":
+- !!int "18"
+- !!int "18"
+- !!int "16"
+- !!int "14"
+- !!int "12"
+- !!int "16"
+"speed": "30 ft., fly 60 ft."
+"saves":
+  "Charisma": !!int "6"
+  "Intelligence": !!int "5"
+  "Strength": !!int "7"
+  "Constitution": !!int "6"
+"skillsaves":
+  "Intimidation": !!int "6"
+  "Deception": !!int "6"
+  "Stealth": !!int "7"
+  "Perception": !!int "4"
+"damage_resistances": "cold; fire; lightning; poison; bludgeoning, piercing, slashing\
+  \ from nonmagical attacks"
+"senses": "darkvision 60 ft., passive Perception 14"
+"languages": "Abyssal, Common, Infernal"
+"cr": "5"
+"traits":
+- "desc": "The cambion's spellcasting ability is Charisma (spell save DC 14). The\
+    \ cambion can innately cast the following spells, requiring no material components:\n\
+    \n1/day: [plane shift](/3-Mechanics/CLI/spells/plane-shift.md) (self only)\n\
+    \n3/day each: [alter self](/3-Mechanics/CLI/spells/alter-self.md), [command](/3-Mechanics/CLI/spells/command.md),\
+    \ [detect magic](/3-Mechanics/CLI/spells/detect-magic.md)"
+  "name": "Innate Spellcasting"
+- "desc": "The AC of the cambion includes its Charisma bonus."
+  "name": "Fiendish Blessing"
+"actions":
+- "desc": "The cambion makes two melee attacks or uses its Fire Ray twice."
+  "name": "Multiattack"
+- "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
+    \ damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage."
+  "name": "Spear"
+- "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 10\
+    \ (3d6) fire damage."
+  "name": "Fire Ray"
+- "desc": "One humanoid the cambion can see within 30 feet of it must succeed on a\
+    \ DC 14 Wisdom saving throw or be magically [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed)\
+    \ for 1 day. The [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) target\
+    \ obeys the cambion's spoken commands. If the target suffers any harm from the\
+    \ cambion or another creature or receives a suicidal command from the cambion,\
+    \ the target can repeat the saving throw, ending the effect on itself on a success.\
+    \ If a target's saving throw is successful, or if the effect ends for it, the\
+    \ creature is immune to the cambion's Fiendish Charm for the next 24 hours."
+  "name": "Fiendish Charm"
+"source":
+- "MM"
+- "SKT"
+- "BGDIA"
+- "CM"
+- "KftGV"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Cambion.webp"
 ```
 ^statblock
 

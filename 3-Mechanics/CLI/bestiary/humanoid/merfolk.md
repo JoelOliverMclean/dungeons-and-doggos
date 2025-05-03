@@ -8,12 +8,12 @@ tags:
 - monster/environment/underwater
 - monster/size/medium
 - monster/type/humanoid/merfolk
+statblock: inline
 aliases: ["Merfolk"]
 ---
-# Merfolk
+# [Merfolk](3-Mechanics\CLI\bestiary\humanoid/merfolk.md)
 *Source: Monster Manual p. 218, Waterdeep: Dragon Heist. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Merfolk.webp#right)  
 Aquatic humanoids with the upper body of a human and the lower body of a fish, merfolk adorn their skin and scales with shell decorations.
 
 Merfolk tribes and kingdoms span the world, and their people are as varied in color, culture, and outlook as the human races of the surface. Land folk and merfolk rarely meet except by chance, though starry-eyed mariners tell tales of romance with these creatures along the shoals of faraway islands.
@@ -26,36 +26,43 @@ Merfolk build their settlements in vast undersea caverns, mazes of coral, the ru
 
 Merfolk defend their communities with spears crafted from whatever materials they can salvage from shipwrecks, beaches, and dead undersea creatures.
 
-
-## Statblock
-
-```ad-statblock
-title: Merfolk
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Merfolk.webp#token)
-*Medium humanoid (merfolk), Neutral*
-
-- **Armor Class** 11 
-- **Hit Points** 11 (`2d8 + 2`) 
-- **Speed** 10 ft., swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|13 (+1)|12 (+1)|11 (+0)|11 (+0)|12 (+1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +2
-- **Senses** passive Perception 12
-- **Languages** Aquan, Common
-- **Challenge** 1/8
-
-## Traits
-
-***Amphibious.*** The merfolk can breathe air and water.
-
-## Actions
-
-***Spear.*** *Melee or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 3 (`1d6`) piercing damage, or 4 (`1d8`) piercing damage if used with two hands to make a melee attack.
+```statblock
+"name": "Merfolk"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "merfolk"
+"alignment": "Neutral"
+"ac": !!int "11"
+"hp": !!int "11"
+"hit_dice": "2d8 + 2"
+"stats":
+- !!int "10"
+- !!int "13"
+- !!int "12"
+- !!int "11"
+- !!int "11"
+- !!int "12"
+"speed": "10 ft., swim 40 ft."
+"skillsaves":
+  "Perception": !!int "2"
+"senses": "passive Perception 12"
+"languages": "Aquan, Common"
+"cr": "1/8"
+"traits":
+- "desc": "The merfolk can breathe air and water."
+  "name": "Amphibious"
+"actions":
+- "desc": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage\
+    \ if used with two hands to make a melee attack."
+  "name": "Spear"
+"source":
+- "MM"
+- "WDH"
+- "GoS"
+- "WBtW"
+- "JttRC"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Merfolk.webp"
 ```
 ^statblock
 

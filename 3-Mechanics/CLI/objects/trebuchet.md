@@ -22,8 +22,8 @@ title: Trebuchet
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/objects/tokens/DMG/Trebuchet.webp#token)
 *Huge Siege weapon*
 
-- **Armor Class** 15 
-- **Hit Points** 150 
+- **Armor Class** 15
+- **Hit Points** 150
 - **Speed** 
 
 |STR|DEX|CON|INT|WIS|CHA|
@@ -33,6 +33,6 @@ title: Trebuchet
 
 ## Actions
 
-***Trebuchet Stone.*** *Ranged Weapon Attack:* +5 to hit, range 300/1,200 ft. (can't hit targets within 60 feet of it), one target. *Hit:* 44 (`8d10`) bludgeoning damage.
+***Trebuchet Stone.*** *Ranged Weapon Attack:* `+5` to hit, range 300/1,200 ft. (can't hit targets within 60 feet of it), one target. *Hit:* 44 (`8d10`) bludgeoning damage.
 ```
 ^statblock

@@ -6,12 +6,12 @@ tags:
 - monster/cr/17
 - monster/size/huge
 - monster/type/fiend/demon
+statblock: inline
 aliases: ["Goristro"]
 ---
-# Goristro
+# [Goristro](3-Mechanics\CLI\bestiary\fiend/goristro.md)
 *Source: Monster Manual p. 59*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Goristro.webp#right)  
 The goristro resembles a fiendish minotaur towering more than twenty feet tall. When controlled by a demon lord, goristros make formidable living siege engines and prized pets. Goristros possess preternatural cunning when navigating labyrinthine passages and shifting corridors, pursuing foes in a terrifying hunt.
 
 A hulking goristro sometimes bears a palanquin, carrying smaller demons on its broad shoulders, much like an elephant carries riders on its back.
@@ -183,50 +183,67 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > Demons are painfully difficult to summon and control. It is not a burden for the weak of heart or the weak of spirit.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Goristro
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Goristro.webp#token)
-*Huge fiend (demon), Chaotic Evil*
-
-- **Armor Class** 19 (natural armor)
-- **Hit Points** 310 (`23d12 + 161`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|25 (+7)|11 (+0)|25 (+7)| 6 (-2)|13 (+1)|14 (+2)|
-
-- **Proficiency Bonus** +6
-- **Saving Throws** Strength +13, Dexterity +6, Constitution +13, Wisdom +7
-- **Skills** Perception +7
-- **Senses** darkvision 120 ft., passive Perception 17
-- **Damage Resistances** cold; fire; lightning; bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal
-- **Challenge** 17
-
-## Traits
-
-***Charge.*** If the goristro moves at least 15 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 38 (`7d10`) piercing damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be pushed up to 20 feet away and knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
-
-***Labyrinthine Recall.*** The goristro can perfectly recall any path it has traveled.
-
-***Magic Resistance.*** The goristro has advantage on saving throws against spells and other magical effects.
-
-***Siege Monster.*** The goristro deals double damage to objects and structures.
-
-## Actions
-
-***Multiattack.*** The goristro makes three attacks: two with its fists and one with its hoof.
-
-***Fist.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 20 (`3d8 + 7`) bludgeoning damage.
-
-***Hoof.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 23 (`3d10 + 7`) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
-
-***Gore.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 45 (`7d10 + 7`) piercing damage.
+```statblock
+"name": "Goristro"
+"size": "Huge"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Chaotic Evil"
+"ac": !!int "19"
+"ac_class": "natural armor"
+"hp": !!int "310"
+"hit_dice": "23d12 + 161"
+"stats":
+- !!int "25"
+- !!int "11"
+- !!int "25"
+- !!int "6"
+- !!int "13"
+- !!int "14"
+"speed": "40 ft."
+"saves":
+  "Dexterity": !!int "6"
+  "Wisdom": !!int "7"
+  "Strength": !!int "13"
+  "Constitution": !!int "13"
+"skillsaves":
+  "Perception": !!int "7"
+"damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
+  \ nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 17"
+"languages": "Abyssal"
+"cr": "17"
+"traits":
+- "desc": "If the goristro moves at least 15 feet straight toward a target and then\
+    \ hits it with a gore attack on the same turn, the target takes an extra 38 (7d10)\
+    \ piercing damage. If the target is a creature, it must succeed on a DC 21 Strength\
+    \ saving throw or be pushed up to 20 feet away and knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Charge"
+- "desc": "The goristro can perfectly recall any path it has traveled."
+  "name": "Labyrinthine Recall"
+- "desc": "The goristro has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The goristro deals double damage to objects and structures."
+  "name": "Siege Monster"
+"actions":
+- "desc": "The goristro makes three attacks: two with its fists and one with its hoof."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 20\
+    \ (3d8 + 7) bludgeoning damage."
+  "name": "Fist"
+- "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23\
+    \ (3d10 + 7) bludgeoning damage. If the target is a creature, it must succeed\
+    \ on a DC 21 Strength saving throw or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Hoof"
+- "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 45\
+    \ (7d10 + 7) piercing damage."
+  "name": "Gore"
+"source":
+- "MM"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Goristro.webp"
 ```
 ^statblock

@@ -6,12 +6,12 @@ tags:
 - monster/cr/3
 - monster/size/medium
 - monster/type/dragon
+statblock: inline
 aliases: ["Gold Dragon Wyrmling"]
 ---
-# Gold Dragon Wyrmling
+# [Gold Dragon Wyrmling](3-Mechanics\CLI\bestiary\dragon/gold-dragon-wyrmling.md)
 *Source: Monster Manual p. 115. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Gold%20Dragon.webp#right)  
 The most powerful and majestic of the metallic dragons, gold dragons are dedicated foes of evil.
 
 A gold dragon has a sagacious face anointed with flexible spines that resemble whiskers. Its horns sweep back from its nose and brow, echoing twin frills that adorn its long neck. A gold dragon's sail-like wings start at its shoulders and trace down to the tip of its tail, letting it fly with a distinctive rippling motion as if swimming through the air. A gold dragon wyrmling has scales of dark yellow with metallic flecks. Those flecks grow larger as the dragon matures. As a gold dragon ages, its pupils fade until its eyes resemble pools of molten gold.
@@ -80,41 +80,55 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Gold Dragon Wyrmling
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Gold%20Dragon%20Wyrmling.webp#token)
-*Medium dragon, Lawful Good*
-
-- **Armor Class** 17 (natural armor)
-- **Hit Points** 60 (`8d8 + 24`) 
-- **Speed** 30 ft., fly 60 ft., swim 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|14 (+2)|17 (+3)|14 (+2)|11 (+0)|16 (+3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Dexterity +4, Constitution +5, Wisdom +2, Charisma +5
-- **Skills** Perception +4, Stealth +4
-- **Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 14
-- **Damage Immunities** fire
-- **Languages** Draconic
-- **Challenge** 3
-
-## Traits
-
-***Amphibious.*** The dragon can breathe air and water.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (`1d10 + 4`) piercing damage.
-
-***Breath Weapons (Recharge 5-6).*** The dragon uses one of the following breath weapons.
-
-- **Fire Breath.** The dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 22 (`4d10`) fire damage on a failed save, or half as much damage on a successful one.  
-- **Weakening Breath.** The dragon exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
+```statblock
+"name": "Gold Dragon Wyrmling"
+"size": "Medium"
+"type": "dragon"
+"alignment": "Lawful Good"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "60"
+"hit_dice": "8d8 + 24"
+"stats":
+- !!int "19"
+- !!int "14"
+- !!int "17"
+- !!int "14"
+- !!int "11"
+- !!int "16"
+"speed": "30 ft., fly 60 ft., swim 30 ft."
+"saves":
+  "Charisma": !!int "5"
+  "Dexterity": !!int "4"
+  "Wisdom": !!int "2"
+  "Constitution": !!int "5"
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "4"
+"damage_immunities": "fire"
+"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"languages": "Draconic"
+"cr": "3"
+"traits":
+- "desc": "The dragon can breathe air and water."
+  "name": "Amphibious"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10\
+    \ + 4) piercing damage."
+  "name": "Bite"
+- "desc": "The dragon uses one of the following breath weapons.\n\n- Fire Breath.\
+    \ The dragon exhales fire in a 15-foot cone. Each creature in that area must make\
+    \ a DC 13 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save,\
+    \ or half as much damage on a successful one.  \n- Weakening Breath. The dragon\
+    \ exhales gas in a 15-foot cone. Each creature in that area must succeed on a\
+    \ DC 13 Strength saving throw or have disadvantage on Strength-based attack rolls,\
+    \ Strength checks, and Strength saving throws for 1 minute. A creature can repeat\
+    \ the saving throw at the end of each of its turns, ending the effect on itself\
+    \ on a success.  "
+  "name": "Breath Weapons (Recharge 5-6)"
+"source":
+- "MM"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Gold%20Dragon%20Wyrmling.webp"
 ```
 ^statblock

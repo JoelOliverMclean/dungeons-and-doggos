@@ -9,7 +9,7 @@ aliases:
 ---
 # Trinket
 *Adventuring Gear*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Trinket%20(PHB).webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Trinket%20%28PHB%29.webp#right)  
 
 
 When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creatures pockets.

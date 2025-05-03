@@ -1,0 +1,2 @@
+##  Were-rat Sabotage
+After one more night of rest at the [[The Troll's Sack]] the party wake up early to the sounds of ransacking in the tap room. Simple encounter starts with 2 were-rats (load "Wererat Sabotage" in initiative tracker)

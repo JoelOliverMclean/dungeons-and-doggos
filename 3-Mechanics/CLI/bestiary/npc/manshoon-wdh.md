@@ -6,12 +6,12 @@ tags:
 - monster/cr/13
 - monster/size/medium
 - monster/type/humanoid/human
+statblock: inline
 aliases: ["Manshoon"]
 ---
-# Manshoon
+# [Manshoon](3-Mechanics\CLI\bestiary\npc/manshoon-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 209*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Manshoon.webp#right)  
 Referred to in this adventure simply as "Manshoon," this clone of the ancient archwizard infiltrated Waterdeep years ago and has been hiding out in Kolat Towers ever since, in the city's Southern Ward.
 
 The original Manshoon was one of the founders of the Zhentarim. Evil to the core, he made enemies all across Faerûn, including other powerful spellcasters such as Khelben Arunsun and Elminster. Fearing that he might be destroyed by his foes, Manshoon magically crafted several clones-but a mishap caused all of them to be awakened at once, whereupon they tried to destroy one another in a series of conflicts that came to be known as the Manshoon Wars.
@@ -32,61 +32,82 @@ Manshoon can have only one simulacrum at any given time, and he uses it as a sub
 - It loses all spell slots of 6th level and higher.  
 - It has a challenge rating of 8 (3,900 XP).  
 
-
-## Statblock
-
-```ad-statblock
-title: Manshoon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Manshoon.webp#token)
-*Medium humanoid (human), Lawful Evil*
-
-- **Armor Class** 19 ([robe of the archmagi](/3-Mechanics/CLI/items/robe-of-the-archmagi.md), [staff of power](/3-Mechanics/CLI/items/staff-of-power.md))
-- **Hit Points** 126 (`23d8 + 23`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|14 (+2)|12 (+1)|23 (+6)|15 (+2)|16 (+3)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** Strength +2, Dexterity +4, Constitution +3, Intelligence +13, Wisdom +9, Charisma +5
-- **Skills** Arcana +11, History +11
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Languages** Common, Draconic, Goblin, Infernal, Orc, Undercommon
-- **Challenge** 13
-
-## Traits
-
-***Special Equipment.*** Manshoon wears a black [robe of the archmagi](/3-Mechanics/CLI/items/robe-of-the-archmagi.md) and wields a [staff of power](/3-Mechanics/CLI/items/staff-of-power.md) (both accounted for in his statistics). Roll `2d10` to determine how many charges the staff has remaining.
-
-***Magic Resistance.*** While wearing his robe of the archmagi, Manshoon has advantage on saving throws against spells and other magical effects.
-
-***Spellcasting.*** Manshoon is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 21, +15 to hit with spell attacks). He has the following wizard spells prepared:
-
-**Cantrips (at will)**: [fire bolt](/3-Mechanics/CLI/spells/fire-bolt.md), [light](/3-Mechanics/CLI/spells/light.md), [mage hand](/3-Mechanics/CLI/spells/mage-hand.md), [prestidigitation](/3-Mechanics/CLI/spells/prestidigitation.md), [shocking grasp](/3-Mechanics/CLI/spells/shocking-grasp.md)
-
-**1st level (4 slots)**: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [mage armor](/3-Mechanics/CLI/spells/mage-armor.md), [magic missile](/3-Mechanics/CLI/spells/magic-missile.md), [shield](/3-Mechanics/CLI/spells/shield.md)
-
-**2nd level (3 slots)**: [detect thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md), [mirror image](/3-Mechanics/CLI/spells/mirror-image.md), [misty step](/3-Mechanics/CLI/spells/misty-step.md)
-
-**3rd level (3 slots)**: [counterspell](/3-Mechanics/CLI/spells/counterspell.md), [lightning bolt](/3-Mechanics/CLI/spells/lightning-bolt.md), [sending](/3-Mechanics/CLI/spells/sending.md)
-
-**4th level (3 slots)**: [fire shield](/3-Mechanics/CLI/spells/fire-shield.md), [greater invisibility](/3-Mechanics/CLI/spells/greater-invisibility.md), [polymorph](/3-Mechanics/CLI/spells/polymorph.md)
-
-**5th level (3 slots)**: [Bigby's hand](/3-Mechanics/CLI/spells/bigbys-hand.md), [scrying](/3-Mechanics/CLI/spells/scrying.md), [wall of force](/3-Mechanics/CLI/spells/wall-of-force.md)
-
-**6th level (1 slots)**: [flesh to stone](/3-Mechanics/CLI/spells/flesh-to-stone.md), [globe of invulnerability](/3-Mechanics/CLI/spells/globe-of-invulnerability.md)
-
-**7th level (1 slots)**: [finger of death](/3-Mechanics/CLI/spells/finger-of-death.md), [simulacrum](/3-Mechanics/CLI/spells/simulacrum.md)
-
-**8th level (1 slots)**: [feeblemind](/3-Mechanics/CLI/spells/feeblemind.md), [mind blank](/3-Mechanics/CLI/spells/mind-blank.md)
-
-**9th level (1 slots)**: [imprisonment](/3-Mechanics/CLI/spells/imprisonment.md), [power word kill](/3-Mechanics/CLI/spells/power-word-kill.md)
-
-## Actions
-
-***Metal Fist.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) bludgeoning damage.
-
-***Staff of Power.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) bludgeoning damage, or 6 (`1d8 + 2`) bludgeoning damage when used with two hands. Manshoon can expend 1 of the staff's charges to deal an extra 3 (`1d6`) force damage on a hit.
+```statblock
+"name": "Manshoon (WDH)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "human"
+"alignment": "Lawful Evil"
+"ac": !!int "19"
+"ac_class": "[robe of the archmagi](/3-Mechanics/CLI/items/robe-of-the-archmagi.md),\
+  \ [staff of power](/3-Mechanics/CLI/items/staff-of-power.md)"
+"hp": !!int "126"
+"hit_dice": "23d8 + 23"
+"stats":
+- !!int "10"
+- !!int "14"
+- !!int "12"
+- !!int "23"
+- !!int "15"
+- !!int "16"
+"speed": "30 ft."
+"saves":
+  "Charisma": !!int "5"
+  "Dexterity": !!int "4"
+  "Wisdom": !!int "9"
+  "Intelligence": !!int "13"
+  "Strength": !!int "2"
+  "Constitution": !!int "3"
+"skillsaves":
+  "History": !!int "11"
+  "Arcana": !!int "11"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "Common, Draconic, Goblin, Infernal, Orc, Undercommon"
+"cr": "13"
+"traits":
+- "desc": "Manshoon is an 18th-level spellcaster. His spellcasting ability is Intelligence\
+    \ (spell save DC 21, +15 to hit with spell attacks). He has the following wizard\
+    \ spells prepared:\n\nCantrips (at will): [fire bolt](/3-Mechanics/CLI/spells/fire-bolt.md),\
+    \ [light](/3-Mechanics/CLI/spells/light.md), [mage hand](/3-Mechanics/CLI/spells/mage-hand.md),\
+    \ [prestidigitation](/3-Mechanics/CLI/spells/prestidigitation.md), [shocking grasp](/3-Mechanics/CLI/spells/shocking-grasp.md)\n\
+    \n1st level (4 slots): [detect magic](/3-Mechanics/CLI/spells/detect-magic.md),\
+    \ [mage armor](/3-Mechanics/CLI/spells/mage-armor.md), [magic missile](/3-Mechanics/CLI/spells/magic-missile.md),\
+    \ [shield](/3-Mechanics/CLI/spells/shield.md)\n\n2nd level (3 slots): [detect\
+    \ thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md), [mirror image](/3-Mechanics/CLI/spells/mirror-image.md),\
+    \ [misty step](/3-Mechanics/CLI/spells/misty-step.md)\n\n3rd level (3 slots):\
+    \ [counterspell](/3-Mechanics/CLI/spells/counterspell.md), [lightning bolt](/3-Mechanics/CLI/spells/lightning-bolt.md),\
+    \ [sending](/3-Mechanics/CLI/spells/sending.md)\n\n4th level (3 slots): [fire\
+    \ shield](/3-Mechanics/CLI/spells/fire-shield.md), [greater invisibility](/3-Mechanics/CLI/spells/greater-invisibility.md),\
+    \ [polymorph](/3-Mechanics/CLI/spells/polymorph.md)\n\n5th level (3 slots):\
+    \ [Bigby's hand](/3-Mechanics/CLI/spells/bigbys-hand.md), [scrying](/3-Mechanics/CLI/spells/scrying.md),\
+    \ [wall of force](/3-Mechanics/CLI/spells/wall-of-force.md)\n\n6th level (1\
+    \ slots): [flesh to stone](/3-Mechanics/CLI/spells/flesh-to-stone.md), [globe\
+    \ of invulnerability](/3-Mechanics/CLI/spells/globe-of-invulnerability.md)\n\n\
+    7th level (1 slots): [finger of death](/3-Mechanics/CLI/spells/finger-of-death.md),\
+    \ [simulacrum](/3-Mechanics/CLI/spells/simulacrum.md)\n\n8th level (1 slots):\
+    \ [feeblemind](/3-Mechanics/CLI/spells/feeblemind.md), [mind blank](/3-Mechanics/CLI/spells/mind-blank.md)\n\
+    \n9th level (1 slots): [imprisonment](/3-Mechanics/CLI/spells/imprisonment.md),\
+    \ [power word kill](/3-Mechanics/CLI/spells/power-word-kill.md)"
+  "name": "Spellcasting"
+- "desc": "Manshoon wears a black [robe of the archmagi](/3-Mechanics/CLI/items/robe-of-the-archmagi.md)\
+    \ and wields a [staff of power](/3-Mechanics/CLI/items/staff-of-power.md) (both\
+    \ accounted for in his statistics). Roll 2d10 to determine how many charges\
+    \ the staff has remaining."
+  "name": "Special Equipment"
+- "desc": "While wearing his robe of the archmagi, Manshoon has advantage on saving\
+    \ throws against spells and other magical effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+    \ + 2) bludgeoning damage."
+  "name": "Metal Fist"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used with\
+    \ two hands. Manshoon can expend 1 of the staff's charges to deal an extra 3 (1d6)\
+    \ force damage on a hit."
+  "name": "Staff of Power"
+"source":
+- "WDH"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Manshoon.webp"
 ```
 ^statblock

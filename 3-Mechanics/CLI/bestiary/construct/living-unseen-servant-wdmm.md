@@ -6,9 +6,10 @@ tags:
 - monster/cr/0
 - monster/size/medium
 - monster/type/construct
+statblock: inline
 aliases: ["Living Unseen Servant"]
 ---
-# Living Unseen Servant
+# [Living Unseen Servant](3-Mechanics\CLI\bestiary\construct/living-unseen-servant-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 313*  
 
 ## Living Spell
@@ -27,35 +28,41 @@ The process that creates a living spell changes the nature of its magic. A livin
 
 Like an overzealous butler or maid, a living [unseen servant](/3-Mechanics/CLI/spells/unseen-servant.md) spell busies itself with tasks in hopes of pleasing its creator. It can wield simple weapons but prefers not to. [See invisibility](/3-Mechanics/CLI/spells/see-invisibility.md), [true seeing](/3-Mechanics/CLI/spells/true-seeing.md), and similar effects reveal that the servant has a shape similar to that of a slender humanoid adult.
 
-
-```ad-statblock
-title: Living Unseen Servant
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDMM/Living%20Unseen%20Servant.webp#token)
-*Medium construct, Unaligned*
-
-- **Armor Class** 10 
-- **Hit Points** 4 (`1d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 2 (-4)|10 (+0)|11 (+0)| 1 (-5)|10 (+0)| 1 (-5)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +2, Stealth +4
-- **Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 12
-- **Damage Immunities** poison
-- **Condition Immunities** [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)
-- **Languages** understands one language (usually Common) but can't speak
-- **Challenge** 0
-
-## Traits
-
-***Invisibility.*** The unseen servant is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible).
-
-## Actions
-
-***Slam.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 1 bludgeoning damage.
+```statblock
+"name": "Living Unseen Servant (WDMM)"
+"size": "Medium"
+"type": "construct"
+"alignment": "Unaligned"
+"ac": !!int "10"
+"hp": !!int "4"
+"hit_dice": "1d8"
+"stats":
+- !!int "2"
+- !!int "10"
+- !!int "11"
+- !!int "1"
+- !!int "10"
+- !!int "1"
+"speed": "30 ft."
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "2"
+"damage_immunities": "poison"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion),\
+  \ [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)"
+"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 12"
+"languages": "understands one language (usually Common) but can't speak"
+"cr": "0"
+"traits":
+- "desc": "The unseen servant is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible)."
+  "name": "Invisibility"
+"actions":
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 bludgeoning\
+    \ damage."
+  "name": "Slam"
+"source":
+- "WDMM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDMM/Living%20Unseen%20Servant.webp"
 ```
 ^statblock

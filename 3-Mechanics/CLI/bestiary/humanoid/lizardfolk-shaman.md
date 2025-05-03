@@ -8,12 +8,12 @@ tags:
 - monster/environment/swamp
 - monster/size/medium
 - monster/type/humanoid/lizardfolk
+statblock: inline
 aliases: ["Lizardfolk Shaman"]
 ---
-# Lizardfolk Shaman
+# [Lizardfolk Shaman](3-Mechanics\CLI\bestiary\humanoid/lizardfolk-shaman.md)
 *Source: Monster Manual p. 205*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Lizardfolk.webp#right)  
 Lizardfolk are primitive reptilian humanoids that lurk in the swamps and jungles of the world. Their hut villages thrive in forbidding grottos, half-sunken ruins, and watery caverns.
 
 ## Territorial Xenophobes
@@ -51,52 +51,72 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
 > In all my dealings with the lizardfolk, I was never able to tell what they were thinking. Their reptilian eyes belied no hint of their intentions. I gave them supplies. They gave me the willies.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Lizardfolk Shaman
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Lizardfolk%20Shaman.webp#token)
-*Medium humanoid (lizardfolk), Neutral*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 27 (`5d8 + 5`) 
-- **Speed** 30 ft., swim 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|10 (+0)|13 (+1)|10 (+0)|15 (+2)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +4, Stealth +4, Survival +6
-- **Senses** passive Perception 14
-- **Languages** Draconic
-- **Challenge** 2
-
-## Traits
-
-***Hold Breath.*** The lizardfolk can hold its breath for 15 minutes.
-
-***Spellcasting (Lizardfolk Form Only).*** The lizardfolk is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The lizardfolk has the following druid spells prepared:
-
-**Cantrips (at will)**: [druidcraft](/3-Mechanics/CLI/spells/druidcraft.md), [produce flame](/3-Mechanics/CLI/spells/produce-flame.md), [thorn whip](/3-Mechanics/CLI/spells/thorn-whip.md)
-
-**1st level (4 slots)**: [entangle](/3-Mechanics/CLI/spells/entangle.md), [fog cloud](/3-Mechanics/CLI/spells/fog-cloud.md)
-
-**2nd level (3 slots)**: [heat metal](/3-Mechanics/CLI/spells/heat-metal.md), [spike growth](/3-Mechanics/CLI/spells/spike-growth.md)
-
-**3rd level (2 slots)**: [conjure animals](/3-Mechanics/CLI/spells/conjure-animals.md) (reptiles only), [plant growth](/3-Mechanics/CLI/spells/plant-growth.md)
-
-## Actions
-
-***Multiattack (Lizardfolk Form Only).*** The lizardfolk makes two attacks: one with its bite and one with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage, or 7 (`1d10 + 2`) piercing damage in [crocodile](/3-Mechanics/CLI/bestiary/beast/crocodile.md) form. If the lizardfolk is in crocodile form and the target is a Large or smaller creature, the target is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 12). Until this grapple ends, the target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), and the lizardfolk can't bite another target. If the lizardfolk reverts to its true form, the grapple ends.
-
-***Claws (Lizardfolk Form Only).*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) slashing damage.
-
-***Change Shape (Recharges after a Short or Long Rest).*** The lizardfolk magically polymorphs into a [crocodile](/3-Mechanics/CLI/bestiary/beast/crocodile.md), remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+```statblock
+"name": "Lizardfolk Shaman"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "lizardfolk"
+"alignment": "Neutral"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "27"
+"hit_dice": "5d8 + 5"
+"stats":
+- !!int "15"
+- !!int "10"
+- !!int "13"
+- !!int "10"
+- !!int "15"
+- !!int "8"
+"speed": "30 ft., swim 30 ft."
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "4"
+  "Survival": !!int "6"
+"senses": "passive Perception 14"
+"languages": "Draconic"
+"cr": "2"
+"traits":
+- "desc": "The lizardfolk is a 5th-level spellcaster. Its spellcasting ability is\
+    \ Wisdom (spell save DC 12, +4 to hit with spell attacks). The lizardfolk has\
+    \ the following druid spells prepared:\n\nCantrips (at will): [druidcraft](/3-Mechanics/CLI/spells/druidcraft.md),\
+    \ [produce flame](/3-Mechanics/CLI/spells/produce-flame.md), [thorn whip](/3-Mechanics/CLI/spells/thorn-whip.md)\n\
+    \n1st level (4 slots): [entangle](/3-Mechanics/CLI/spells/entangle.md), [fog\
+    \ cloud](/3-Mechanics/CLI/spells/fog-cloud.md)\n\n2nd level (3 slots): [heat\
+    \ metal](/3-Mechanics/CLI/spells/heat-metal.md), [spike growth](/3-Mechanics/CLI/spells/spike-growth.md)\n\
+    \n3rd level (2 slots): [conjure animals](/3-Mechanics/CLI/spells/conjure-animals.md)\
+    \ (reptiles only), [plant growth](/3-Mechanics/CLI/spells/plant-growth.md)"
+  "name": "Spellcasting (Lizardfolk Form Only)"
+- "desc": "The lizardfolk can hold its breath for 15 minutes."
+  "name": "Hold Breath"
+"actions":
+- "desc": "The lizardfolk makes two attacks: one with its bite and one with its claws."
+  "name": "Multiattack (Lizardfolk Form Only)"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage, or 7 (1d10 + 2) piercing damage in [crocodile](/3-Mechanics/CLI/bestiary/beast/crocodile.md)\
+    \ form. If the lizardfolk is in crocodile form and the target is a Large or smaller\
+    \ creature, the target is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled)\
+    \ (escape DC 12). Until this grapple ends, the target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained),\
+    \ and the lizardfolk can't bite another target. If the lizardfolk reverts to its\
+    \ true form, the grapple ends."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+    \ + 2) slashing damage."
+  "name": "Claws (Lizardfolk Form Only)"
+- "desc": "The lizardfolk magically polymorphs into a [crocodile](/3-Mechanics/CLI/bestiary/beast/crocodile.md),\
+    \ remaining in that form for up to 1 hour. It can revert to its true form as a\
+    \ bonus action. Its statistics, other than its size, are the same in each form.\
+    \ Any equipment it is wearing or carrying isn't transformed. It reverts to its\
+    \ true form if it dies."
+  "name": "Change Shape (Recharges after a Short or Long Rest)"
+"source":
+- "MM"
+- "PotA"
+- "ToA"
+- "GoS"
+- "IMR"
+- "EGW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Lizardfolk%20Shaman.webp"
 ```
 ^statblock
 

@@ -9,12 +9,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/goblinoid
+statblock: inline
 aliases: ["Bugbear"]
 ---
-# Bugbear
+# [Bugbear](3-Mechanics\CLI\bestiary\humanoid/bugbear.md)
 *Source: Monster Manual p. 33, Lost Mine of Phandelver, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Bugbear.webp#right)  
 Bugbears are born for battle and mayhem. Surviving by raiding and hunting, they bully the weak and despise being bossed around, but their love of carnage means they will fight for powerful masters if bloodshed and treasure are assured.
 
 ## Goblinoids
@@ -29,40 +29,66 @@ Bugbears worship Hruggek, a lesser god who dwells on the plane of Acheron. In th
 
 Despite their intimidating builds, bugbears move with surprising stealth. They are fond of setting ambushes and flee when outmatched. They are dependable mercenaries as long as they are supplied food, drink, and treasure, but a bugbear forgets any bond when its life is on the line. A wounded member of a bugbear band might be left behind to help the rest of the band escape. Afterward, that bugbear might help pursuers track down its former companions if doing so saves its life.
 
-
-## Statblock
-
-```ad-statblock
-title: Bugbear
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bugbear.webp#token)
-*Medium humanoid (goblinoid), Chaotic Evil*
-
-- **Armor Class** 16 ([hide armor](/3-Mechanics/CLI/items/hide-armor.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 27 (`5d8 + 5`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|14 (+2)|13 (+1)| 8 (-1)|11 (+0)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +6, Survival +2
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Languages** Common, Goblin
-- **Challenge** 1
-
-## Traits
-
-***Brute.*** A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).
-
-***Surprise Attack.*** If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (`2d6`) damage from the attack.
-
-## Actions
-
-***Morningstar.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 11 (`2d8 + 2`) piercing damage.
-
-***Javelin.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 9 (`2d6 + 2`) piercing damage in melee or 5 (`1d6 + 2`) piercing damage at range.
+```statblock
+"name": "Bugbear"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "goblinoid"
+"alignment": "Chaotic Evil"
+"ac": !!int "16"
+"ac_class": "[hide armor](/3-Mechanics/CLI/items/hide-armor.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "27"
+"hit_dice": "5d8 + 5"
+"stats":
+- !!int "15"
+- !!int "14"
+- !!int "13"
+- !!int "8"
+- !!int "11"
+- !!int "9"
+"speed": "30 ft."
+"skillsaves":
+  "Stealth": !!int "6"
+  "Survival": !!int "2"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Common, Goblin"
+"cr": "1"
+"traits":
+- "desc": "A melee weapon deals one extra die of its damage when the bugbear hits\
+    \ with it (included in the attack)."
+  "name": "Brute"
+- "desc": "If the bugbear surprises a creature and hits it with an attack during the\
+    \ first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+  "name": "Surprise Attack"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d8 + 2) piercing damage."
+  "name": "Morningstar"
+- "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
+    \ ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 +\
+    \ 2) piercing damage at range."
+  "name": "Javelin"
+"source":
+- "MM"
+- "LMoP"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "ERLW"
+- "RMBRE"
+- "EGW"
+- "IDRotF"
+- "TCE"
+- "WBtW"
+- "CRCotN"
+- "KftGV"
+- "HftT"
+- "PaBTSO"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bugbear.webp"
 ```
 ^statblock
 

@@ -7,39 +7,51 @@ tags:
 - monster/environment/forest
 - monster/size/medium
 - monster/type/beast
+statblock: inline
 aliases: ["Ape"]
 ---
-# Ape
+# [Ape](3-Mechanics\CLI\bestiary\beast/ape.md)
 *Source: Monster Manual p. 317, Waterdeep: Dragon Heist. Available in the SRD and the Basic Rules.*  
 
-
-```ad-statblock
-title: Ape
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ape.webp#token)
-*Medium beast, Unaligned*
-
-- **Armor Class** 12 
-- **Hit Points** 19 (`3d8 + 6`) 
-- **Speed** 30 ft., climb 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|14 (+2)|14 (+2)| 6 (-2)|12 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Athletics +5, Perception +3
-- **Senses** passive Perception 13
-- **Languages** —
-- **Challenge** 1/2
-
-## Actions
-
-***Multiattack.*** The ape makes two fist attacks.
-
-***Fist.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) bludgeoning damage.
-
-***Rock.*** *Ranged Weapon Attack:* +5 to hit, range 25/50 ft., one target. *Hit:* 6 (`1d6 + 3`) bludgeoning damage.
+```statblock
+"name": "Ape"
+"size": "Medium"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "12"
+"hp": !!int "19"
+"hit_dice": "3d8 + 6"
+"stats":
+- !!int "16"
+- !!int "14"
+- !!int "14"
+- !!int "6"
+- !!int "12"
+- !!int "7"
+"speed": "30 ft., climb 30 ft."
+"skillsaves":
+  "Athletics": !!int "5"
+  "Perception": !!int "3"
+"senses": "passive Perception 13"
+"languages": ""
+"cr": "1/2"
+"actions":
+- "desc": "The ape makes two fist attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) bludgeoning damage."
+  "name": "Fist"
+- "desc": "Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit:\
+    \ 6 (1d6 + 3) bludgeoning damage."
+  "name": "Rock"
+"source":
+- "MM"
+- "TftYP"
+- "ToA"
+- "WDH"
+- "GoS"
+- "CM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ape.webp"
 ```
 ^statblock
 

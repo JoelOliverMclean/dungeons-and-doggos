@@ -11,7 +11,6 @@ aliases: ["Dragonborn"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Dragonborn.webp#right)  
 
 - **Ability Scores**: Strength +2, Charisma +1
-- **Type**: subrace
 - **Size**: Medium
 - **Speed**: 30 ft.
 

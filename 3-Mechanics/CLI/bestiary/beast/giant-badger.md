@@ -7,44 +7,50 @@ tags:
 - monster/environment/forest
 - monster/size/medium
 - monster/type/beast
+statblock: inline
 aliases: ["Giant Badger"]
 ---
-# Giant Badger
+# [Giant Badger](3-Mechanics\CLI\bestiary\beast/giant-badger.md)
 *Source: Monster Manual p. 323, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Giant%20Badger.webp#center) 
-
-```ad-statblock
-title: Giant Badger
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Giant%20Badger.webp#token)
-*Medium beast, Unaligned*
-
-- **Armor Class** 10 
-- **Hit Points** 13 (`2d8 + 4`) 
-- **Speed** 30 ft., burrow 10 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|10 (+0)|15 (+2)| 2 (-4)|12 (+1)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 30 ft., passive Perception 11
-- **Languages** —
-- **Challenge** 1/4
-
-## Traits
-
-***Keen Smell.*** The badger has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on smell.
-
-## Actions
-
-***Multiattack.*** The badger makes two attacks: one with its bite and one with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6 (`2d4 + 1`) slashing damage.
+```statblock
+"name": "Giant Badger"
+"size": "Medium"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "10"
+"hp": !!int "13"
+"hit_dice": "2d8 + 4"
+"stats":
+- !!int "13"
+- !!int "10"
+- !!int "15"
+- !!int "2"
+- !!int "12"
+- !!int "5"
+"speed": "30 ft., burrow 10 ft."
+"senses": "darkvision 30 ft., passive Perception 11"
+"languages": ""
+"cr": "1/4"
+"traits":
+- "desc": "The badger has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on smell."
+  "name": "Keen Smell"
+"actions":
+- "desc": "The badger makes two attacks: one with its bite and one with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6\
+    \ + 1) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4\
+    \ + 1) slashing damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "WDMM"
+- "JttRC"
+- "PaBTSO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Giant%20Badger.webp"
 ```
 ^statblock
 

@@ -43,6 +43,8 @@ accent:
 > ### RP
 > Accent: **`=this.accent`**
 
+**Vincent Trench is a seasoned and shrewd private investigator in Waterdeep, known for his sharp intellect and unflinching resolve. With a rugged, weathered appearance and piercing eyes that miss nothing, he exudes an air of quiet determination. His practical attire—typically a well-worn trench coat and fedora—adds to his no-nonsense demeanor. Trench’s reputation for uncovering the city’s darkest secrets and navigating its treacherous underbelly makes him a respected and feared figure in Waterdeep’s investigative circles.**
+
 ![[vincent-trench-wdh#^statblock]]
 
 ## Relationships

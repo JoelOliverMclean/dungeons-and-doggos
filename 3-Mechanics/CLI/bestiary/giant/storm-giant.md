@@ -8,12 +8,12 @@ tags:
 - monster/environment/underwater
 - monster/size/huge
 - monster/type/giant
+statblock: inline
 aliases: ["Storm Giant"]
 ---
-# Storm Giant
+# [Storm Giant](3-Mechanics\CLI\bestiary\giant/storm-giant.md)
 *Source: Monster Manual p. 156. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Storm%20Giant.webp#right)  
 Storm giants are contemplative seers that live in places far removed from mortal civilization. Most have pale purple-gray skin and hair, and glittering emerald eyes.
 
 Some rare storm giants are violet-skinned, with deep violet or blue-black hair and silvery gray or purple eyes. They are benevolent and wise unless angered, in response to which the fury of a storm giant can affect the fate of thousands.
@@ -74,50 +74,71 @@ Regardless of a giant's rank among its own race, the chief of a hill giant tribe
 > And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Storm Giant
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Storm%20Giant.webp#token)
-*Huge giant, Chaotic Good*
-
-- **Armor Class** 16 ([scale mail](/3-Mechanics/CLI/items/scale-mail.md))
-- **Hit Points** 230 (`20d12 + 100`) 
-- **Speed** 50 ft., swim 50 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|29 (+9)|14 (+2)|20 (+5)|16 (+3)|18 (+4)|18 (+4)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** Strength +14, Constitution +10, Wisdom +9, Charisma +9
-- **Skills** Arcana +8, Athletics +14, History +8, Perception +9
-- **Senses** passive Perception 19
-- **Damage Resistances** cold
-- **Damage Immunities** lightning, thunder
-- **Languages** Common, Giant
-- **Challenge** 13
-
-## Traits
-
-***Amphibious.*** The giant can breathe air and water.
-
-***Innate Spellcasting.*** The giant's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:
-
-**At will**: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [feather fall](/3-Mechanics/CLI/spells/feather-fall.md), [levitate](/3-Mechanics/CLI/spells/levitate.md), [light](/3-Mechanics/CLI/spells/light.md)
-
-**3/day each**: [control weather](/3-Mechanics/CLI/spells/control-weather.md), [water breathing](/3-Mechanics/CLI/spells/water-breathing.md)
-
-## Actions
-
-***Multiattack.*** The giant makes two greatsword attacks.
-
-***Greatsword.*** *Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 30 (`6d6 + 9`) slashing damage.
-
-***Rock.*** *Ranged Weapon Attack:* +14 to hit, range 60/240 ft., one target. *Hit:* 35 (`4d12 + 9`) bludgeoning damage.
-
-***Lightning Strike (Recharge 5-6).*** The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 54 (`12d8`) lightning damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Storm Giant"
+"size": "Huge"
+"type": "giant"
+"alignment": "Chaotic Good"
+"ac": !!int "16"
+"ac_class": "[scale mail](/3-Mechanics/CLI/items/scale-mail.md)"
+"hp": !!int "230"
+"hit_dice": "20d12 + 100"
+"stats":
+- !!int "29"
+- !!int "14"
+- !!int "20"
+- !!int "16"
+- !!int "18"
+- !!int "18"
+"speed": "50 ft., swim 50 ft."
+"saves":
+  "Charisma": !!int "9"
+  "Wisdom": !!int "9"
+  "Strength": !!int "14"
+  "Constitution": !!int "10"
+"skillsaves":
+  "Athletics": !!int "14"
+  "Perception": !!int "9"
+  "History": !!int "8"
+  "Arcana": !!int "8"
+"damage_resistances": "cold"
+"damage_immunities": "lightning, thunder"
+"senses": "passive Perception 19"
+"languages": "Common, Giant"
+"cr": "13"
+"traits":
+- "desc": "The giant's innate spellcasting ability is Charisma (spell save DC 17).\
+    \ It can innately cast the following spells, requiring no material components:\n\
+    \nAt will: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [feather\
+    \ fall](/3-Mechanics/CLI/spells/feather-fall.md), [levitate](/3-Mechanics/CLI/spells/levitate.md),\
+    \ [light](/3-Mechanics/CLI/spells/light.md)\n\n3/day each: [control weather](/3-Mechanics/CLI/spells/control-weather.md),\
+    \ [water breathing](/3-Mechanics/CLI/spells/water-breathing.md)"
+  "name": "Innate Spellcasting"
+- "desc": "The giant can breathe air and water."
+  "name": "Amphibious"
+"actions":
+- "desc": "The giant makes two greatsword attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 30\
+    \ (6d6 + 9) slashing damage."
+  "name": "Greatsword"
+- "desc": "Ranged Weapon Attack: +14 to hit, range 60/240 ft., one target. Hit:\
+    \ 35 (4d12 + 9) bludgeoning damage."
+  "name": "Rock"
+- "desc": "The giant hurls a magical lightning bolt at a point it can see within 500\
+    \ feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity\
+    \ saving throw, taking 54 (12d8) lightning damage on a failed save, or half\
+    \ as much damage on a successful one."
+  "name": "Lightning Strike (Recharge 5-6)"
+"source":
+- "MM"
+- "SKT"
+- "TftYP"
+- "GoS"
+- "MOT"
+- "JttRC"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Storm%20Giant.webp"
 ```
 ^statblock
 

@@ -10,7 +10,6 @@ aliases: ["Goblin (DMG)"]
 *Source: Dungeon Master's Guide p. 282*  
 
 - **Ability Scores**: Strength -2, Dexterity +2
-- **Type**: race
 - **Size**: Small
 - **Speed**: 30 ft.
 

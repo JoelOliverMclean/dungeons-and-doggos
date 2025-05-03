@@ -8,12 +8,12 @@ tags:
 - monster/environment/urban
 - monster/size/gargantuan
 - monster/type/dragon
+statblock: inline
 aliases: ["Ancient Silver Dragon"]
 ---
-# Ancient Silver Dragon
+# [Ancient Silver Dragon](3-Mechanics\CLI\bestiary\dragon/ancient-silver-dragon.md)
 *Source: Monster Manual p. 116. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Silver%20Dragon.webp#right)  
 The friendliest and most social of the metallic dragons, silver dragons cheerfully assist good creatures in need.
 
 A silver dragon shimmers as if sculpted from pure metal, its face given a noble cast by its high eyes and sweeping beard-like chin spikes. A spiny frill rises high over its head, tracing down its neck to the tip of its tail. A silver wyrmling's scales are blue-gray with silver highlights. As the dragon approaches adulthood, its color gradually brightens until its individual scales are barely visible. As a silver dragon grows older, its pupils fade until its eyes resemble orbs of mercury.
@@ -86,87 +86,132 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Ancient Silver Dragon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ancient%20Silver%20Dragon.webp#token)
-*Gargantuan dragon, Lawful Good*
-
-- **Armor Class** 22 (natural armor)
-- **Hit Points** 487 (`25d20 + 225`) 
-- **Speed** 40 ft., fly 80 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|30 (+10)|10 (+0)|29 (+9)|18 (+4)|15 (+2)|23 (+6)|
-
-- **Proficiency Bonus** +7
-- **Saving Throws** Dexterity +7, Constitution +16, Wisdom +9, Charisma +13
-- **Skills** Arcana +11, History +11, Perception +16, Stealth +7
-- **Senses** blindsight 60 ft., darkvision 120 ft., passive Perception 26
-- **Damage Immunities** cold
-- **Languages** Common, Draconic
-- **Challenge** 23
-
-## Traits
-
-***Legendary Resistance (3/Day).*** If the dragon fails a saving throw, it can choose to succeed instead.
-
-## Actions
-
-***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 21 (`2d10 + 10`) piercing damage.
-
-***Claw.*** *Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:* 17 (`2d6 + 10`) slashing damage.
-
-***Tail.*** *Melee Weapon Attack:* +17 to hit, reach 20 ft., one target. *Hit:* 19 (`2d8 + 10`) bludgeoning damage.
-
-***Frightful Presence.*** Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
-
-***Breath Weapons (Recharge 5-6).*** The dragon uses one of the following breath weapons.
-
-- **Cold Breath.** The dragon exhales an icy blast in a 90-foot cone. Each creature in that area must make a DC 24 Constitution saving throw, taking 67 (`15d8`) cold damage on a failed save, or half as much damage on a successful one.  
-- **Paralyzing Breath.** The dragon exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a DC 24 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
-
-***Change Shape.*** The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).
-
-In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.
-
-## Legendary Actions
-
-***Detect.*** The dragon makes a Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) check.
-
-***Tail Attack.*** The dragon makes a tail attack.
-
-***Wing Attack (Costs 2 Actions).*** The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (`2d6 + 10`) bludgeoning damage and be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone). The dragon can then fly up to half its flying speed.
-
-## Lair actions
-
-On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:
-
-- The dragon creates fog as if it had cast the [fog cloud](/3-Mechanics/CLI/spells/fog-cloud.md) spell. The fog lasts until initiative count 20 on the next round.  
-- A blisteringly cold wind blows through the lair near the dragon. Each creature within 120 feet of the dragon must succeed on a DC 15 Constitution saving throw or take 5 (`1d10`) cold damage. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a 50% chance chance of being extinguished.  
-
-**Additional Lair Action.** At your discretion, a legendary ([adult](/3-Mechanics/CLI/bestiary/dragon/adult-silver-dragon.md) or [ancient](/3-Mechanics/CLI/bestiary/dragon/ancient-silver-dragon.md)) silver dragon can use the following additional lair action while in its lair:
-
-- **Icy Grip.** A sudden, supernatural chill fills the lair near the dragon. Each creature of the dragon's choice that it can see within 120 feet of it must succeed on a DC 15 Constitution saving throw or be [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained) until initiative count 20 on the next round. Creatures that have resistance to cold damage have advantage on the saving throw; creatures that have immunity to cold damage succeed automatically.  
-
-## Regional effects
-
-The region containing a legendary silver dragon's lair is warped by the dragon's magic, which creates one or more of the following effects.
-
-- Once per day, the dragon can alter the weather in a 6-mile radius centered on its lair. The dragon doesn't need to be outdoors; otherwise the effect is identical to the [control weather](/3-Mechanics/CLI/spells/control-weather.md) spell.  
-- Within 1 mile of the lair, winds buoy non-evil creatures that fall due to no act of the dragon's or its allies. Such creatures descend at a rate of 60 feet per round and take no falling damage.  
-- Given days or longer to work, the dragon can make clouds and fog within its lair as solid as stone, forming structures and other objects as it wishes.  
-
-If the dragon dies, changed weather reverts to normal, as described in the spell, and the other effects fade in `1d10` days.
-
-## Is homebrew
-
-false
+```statblock
+"name": "Ancient Silver Dragon"
+"size": "Gargantuan"
+"type": "dragon"
+"alignment": "Lawful Good"
+"ac": !!int "22"
+"ac_class": "natural armor"
+"hp": !!int "487"
+"hit_dice": "25d20 + 225"
+"stats":
+- !!int "30"
+- !!int "10"
+- !!int "29"
+- !!int "18"
+- !!int "15"
+- !!int "23"
+"speed": "40 ft., fly 80 ft."
+"saves":
+  "Charisma": !!int "13"
+  "Dexterity": !!int "7"
+  "Wisdom": !!int "9"
+  "Constitution": !!int "16"
+"skillsaves":
+  "Stealth": !!int "7"
+  "Perception": !!int "16"
+  "History": !!int "11"
+  "Arcana": !!int "11"
+"damage_immunities": "cold"
+"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26"
+"languages": "Common, Draconic"
+"cr": "23"
+"traits":
+- "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+  "name": "Legendary Resistance (3/Day)"
+"actions":
+- "desc": "The dragon can use its Frightful Presence. It then makes three attacks:\
+    \ one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21\
+    \ (2d10 + 10) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 17\
+    \ (2d6 + 10) slashing damage."
+  "name": "Claw"
+- "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19\
+    \ (2d8 + 10) bludgeoning damage."
+  "name": "Tail"
+- "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon\
+    \ and aware of it must succeed on a DC 21 Wisdom saving throw or become [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened)\
+    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success. If a creature's saving throw\
+    \ is successful or the effect ends for it, the creature is immune to the dragon's\
+    \ Frightful Presence for the next 24 hours."
+  "name": "Frightful Presence"
+- "desc": "The dragon uses one of the following breath weapons.\n\n- Cold Breath.\
+    \ The dragon exhales an icy blast in a 90-foot cone. Each creature in that area\
+    \ must make a DC 24 Constitution saving throw, taking 67 (15d8) cold damage\
+    \ on a failed save, or half as much damage on a successful one.  \n- Paralyzing\
+    \ Breath. The dragon exhales paralyzing gas in a 90-foot cone. Each creature\
+    \ in that area must succeed on a DC 24 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed)\
+    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success.  "
+  "name": "Breath Weapons (Recharge 5-6)"
+- "desc": "The dragon magically polymorphs into a humanoid or beast that has a challenge\
+    \ rating no higher than its own, or back into its true form. It reverts to its\
+    \ true form if it dies. Any equipment it is wearing or carrying is absorbed or\
+    \ borne by the new form (the dragon's choice).\n\nIn a new form, the dragon retains\
+    \ its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary\
+    \ Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as\
+    \ well as this action. Its statistics and capabilities are otherwise replaced\
+    \ by those of the new form, except any class features or legendary actions of\
+    \ that form."
+  "name": "Change Shape"
+"legendary_actions":
+- "desc": "The dragon makes a Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ check."
+  "name": "Detect"
+- "desc": "The dragon makes a tail attack."
+  "name": "Tail Attack"
+- "desc": "The dragon beats its wings. Each creature within 15 feet of the dragon\
+    \ must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning\
+    \ damage and be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone). The\
+    \ dragon can then fly up to half its flying speed."
+  "name": "Wing Attack (Costs 2 Actions)"
+"lair_actions":
+- "desc": "On initiative count 20 (losing initiative ties), the dragon takes a lair\
+    \ action to cause one of the following effects:"
+  "name": ""
+- "desc": "- The dragon creates fog as if it had cast the [fog cloud](/3-Mechanics/CLI/spells/fog-cloud.md)\
+    \ spell. The fog lasts until initiative count 20 on the next round.  \n- A blisteringly\
+    \ cold wind blows through the lair near the dragon. Each creature within 120 feet\
+    \ of the dragon must succeed on a DC 15 Constitution saving throw or take 5 (1d10)\
+    \ cold damage. Gases and vapors are dispersed by the wind, and unprotected flames\
+    \ are extinguished. Protected flames, such as lanterns, have a 50% chance chance\
+    \ of being extinguished.  "
+  "name": ""
+- "desc": "At your discretion, a legendary ([adult](/3-Mechanics/CLI/bestiary/dragon/adult-silver-dragon.md)\
+    \ or [ancient](/3-Mechanics/CLI/bestiary/dragon/ancient-silver-dragon.md)) silver\
+    \ dragon can use the following additional lair action while in its lair:\n\n-\
+    \ Icy Grip. A sudden, supernatural chill fills the lair near the dragon. Each\
+    \ creature of the dragon's choice that it can see within 120 feet of it must succeed\
+    \ on a DC 15 Constitution saving throw or be [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained)\
+    \ until initiative count 20 on the next round. Creatures that have resistance\
+    \ to cold damage have advantage on the saving throw; creatures that have immunity\
+    \ to cold damage succeed automatically.  "
+  "name": "Additional Lair Action"
+"regional_effects":
+- "desc": "The region containing a legendary silver dragon's lair is warped by the\
+    \ dragon's magic, which creates one or more of the following effects."
+  "name": ""
+- "desc": "- Once per day, the dragon can alter the weather in a 6-mile radius centered\
+    \ on its lair. The dragon doesn't need to be outdoors; otherwise the effect is\
+    \ identical to the [control weather](/3-Mechanics/CLI/spells/control-weather.md)\
+    \ spell.  \n- Within 1 mile of the lair, winds buoy non-evil creatures that fall\
+    \ due to no act of the dragon's or its allies. Such creatures descend at a rate\
+    \ of 60 feet per round and take no falling damage.  \n- Given days or longer to\
+    \ work, the dragon can make clouds and fog within its lair as solid as stone,\
+    \ forming structures and other objects as it wishes.  "
+  "name": ""
+- "desc": "If the dragon dies, changed weather reverts to normal, as described in\
+    \ the spell, and the other effects fade in 1d10 days."
+  "name": ""
+"source":
+- "MM"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ancient%20Silver%20Dragon.webp"
 ```
 ^statblock
 

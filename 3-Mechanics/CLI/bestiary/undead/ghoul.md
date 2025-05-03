@@ -9,12 +9,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/undead
+statblock: inline
 aliases: ["Ghoul"]
 ---
-# Ghoul
+# [Ghoul](3-Mechanics\CLI\bestiary\undead/ghoul.md)
 *Source: Monster Manual p. 148, Lost Mine of Phandelver, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Ghoul.webp#right)  
 Ghouls roam the night in packs, driven by an insatiable hunger for humanoid flesh.
 
 ## Devourers of Flesh
@@ -29,36 +29,68 @@ Ghouls trace their origins to the Abyss. Doresain, the first of their kind, was 
 
 Orcus sometimes infuses a ghoul with a stronger dose of abyssal energy, making a ghast. Whereas ghouls are little more than savage beasts, a ghast is cunning and can inspire a pack of ghouls to follow its commands.
 
-
-## Statblock
-
-```ad-statblock
-title: Ghoul
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ghoul.webp#token)
-*Medium undead, Chaotic Evil*
-
-- **Armor Class** 12 
-- **Hit Points** 22 (`5d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|15 (+2)|10 (+0)| 7 (-2)|10 (+0)| 6 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Immunities** poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Common
-- **Challenge** 1
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one creature. *Hit:* 9 (`2d6 + 2`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (`2d4 + 2`) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+```statblock
+"name": "Ghoul"
+"size": "Medium"
+"type": "undead"
+"alignment": "Chaotic Evil"
+"ac": !!int "12"
+"hp": !!int "22"
+"hit_dice": "5d8"
+"stats":
+- !!int "13"
+- !!int "15"
+- !!int "10"
+- !!int "7"
+- !!int "10"
+- !!int "6"
+"speed": "30 ft."
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Common"
+"cr": "1"
+"actions":
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9\
+    \ (2d6 + 2) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4\
+    \ + 2) slashing damage. If the target is a creature other than an elf or undead,\
+    \ it must succeed on a DC 10 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed)\
+    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success."
+  "name": "Claws"
+"source":
+- "MM"
+- "CoS"
+- "LMoP"
+- "PotA"
+- "TftYP"
+- "ToA"
+- "WDMM"
+- "GoS"
+- "DC"
+- "SLW"
+- "SDW"
+- "BGDIA"
+- "RMBRE"
+- "IDRotF"
+- "TCE"
+- "CM"
+- "WBtW"
+- "JttRC"
+- "DoSI"
+- "KftGV"
+- "PSI"
+- "HftT"
+- "PaBTSO"
+- "DIP"
+- "AATM"
+- "SatO"
+- "BMT"
+- "GHLoE"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ghoul.webp"
 ```
 ^statblock
 

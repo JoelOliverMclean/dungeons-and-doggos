@@ -7,9 +7,10 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/plant
+statblock: inline
 aliases: ["Quaggoth Spore Servant"]
 ---
-# Quaggoth Spore Servant
+# [Quaggoth Spore Servant](3-Mechanics\CLI\bestiary\plant/quaggoth-spore-servant.md)
 *Source: Monster Manual p. 230, Waterdeep: Dungeon of the Mad Mage*  
 
 A spore servant is any Large or smaller creature brought back to life by the animating spores of a myconid sovereign. A creature that was never flesh and blood to begin with (such as a construct, elemental, ooze, plant, or undead) can't be turned into a spore servant.
@@ -54,36 +55,41 @@ The servant loses all known languages, but it responds to orders given to it by 
 
 If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to `1d4` + the servant's Strength modifier, or, if the servant is Large, `2d4` + its Strength modifier.
 
-
-## Statblock
-
-```ad-statblock
-title: Quaggoth Spore Servant
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Quaggoth%20Spore%20Servant.webp#token)
-*Medium plant, Unaligned*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 45 (`6d8 + 18`) 
-- **Speed** 20 ft., climb 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|12 (+1)|16 (+3)| 2 (-4)| 6 (-2)| 1 (-5)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** blindsight 30 ft. (blind beyond this radius), passive Perception 8
-- **Damage Immunities** poison
-- **Condition Immunities** [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded), [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** —
-- **Challenge** 1
-
-## Actions
-
-***Multiattack.*** The spore servant makes two claw attacks.
-
-***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) slashing damage.
+```statblock
+"name": "Quaggoth Spore Servant"
+"size": "Medium"
+"type": "plant"
+"alignment": "Unaligned"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "45"
+"hit_dice": "6d8 + 18"
+"stats":
+- !!int "17"
+- !!int "12"
+- !!int "16"
+- !!int "2"
+- !!int "6"
+- !!int "1"
+"speed": "20 ft., climb 20 ft."
+"damage_immunities": "poison"
+"condition_immunities": "[blinded](/3-Mechanics/CLI/rules/conditions.md#blinded),\
+  \ [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened),\
+  \ [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 8"
+"languages": ""
+"cr": "1"
+"actions":
+- "desc": "The spore servant makes two claw attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) slashing damage."
+  "name": "Claw"
+"source":
+- "MM"
+- "WDMM"
+- "IDRotF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Quaggoth%20Spore%20Servant.webp"
 ```
 ^statblock
 

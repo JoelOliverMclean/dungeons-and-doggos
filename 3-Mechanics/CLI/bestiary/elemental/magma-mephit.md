@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/small
 - monster/type/elemental
+statblock: inline
 aliases: ["Magma Mephit"]
 ---
-# Magma Mephit
+# [Magma Mephit](3-Mechanics\CLI\bestiary\elemental/magma-mephit.md)
 *Source: Monster Manual p. 216, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Magma%20Mephit.webp#right)  
 ## Mephits
 
 Mephits are capricious, imp-like creatures native to the elemental planes. They come in six varieties, each one representing the mixture of two elements.
@@ -27,47 +27,61 @@ A mephit doesn't require food, drink, or sleep.
 
 Composed of earth and fire, magma mephits glow a dull red color as they perspire beads of molten lava. They are slow to comprehend the meaning of others' words and actions.
 
-
-## Statblock
-
-```ad-statblock
-title: Magma Mephit
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Magma%20Mephit.webp#token)
-*Small elemental, Neutral Evil*
-
-- **Armor Class** 11 
-- **Hit Points** 22 (`5d6 + 5`) 
-- **Speed** 30 ft., fly 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (-1)|12 (+1)|12 (+1)| 7 (-2)|10 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +3
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Vulnerabilities** cold
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Ignan, Terran
-- **Challenge** 1/2
-
-## Traits
-
-***Death Burst.*** When the mephit dies, it explodes in a burst of lava. Each creature within 5 feet of it must make a DC 11 Dexterity saving throw, taking 7 (`2d6`) fire damage on a failed save, or half as much damage on a successful one.
-
-***False Appearance.*** While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma.
-
-***Innate Spellcasting (1/Day).*** The mephit can innately cast [heat metal](/3-Mechanics/CLI/spells/heat-metal.md) (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma.
-
-**At will**: [heat metal](/3-Mechanics/CLI/spells/heat-metal.md)
-
-## Actions
-
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (`1d4 + 1`) slashing damage plus 2 (`1d4`) fire damage.
-
-***Fire Breath (Recharge 6).*** The mephit exhales a 15-foot cone of fire. Each creature in that area must make a DC 11 Dexterity saving throw, taking 7 (`2d6`) fire damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Magma Mephit"
+"size": "Small"
+"type": "elemental"
+"alignment": "Neutral Evil"
+"ac": !!int "11"
+"hp": !!int "22"
+"hit_dice": "5d6 + 5"
+"stats":
+- !!int "8"
+- !!int "12"
+- !!int "12"
+- !!int "7"
+- !!int "10"
+- !!int "10"
+"speed": "30 ft., fly 30 ft."
+"skillsaves":
+  "Stealth": !!int "3"
+"damage_vulnerabilities": "cold"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Ignan, Terran"
+"cr": "1/2"
+"traits":
+- "desc": "The mephit can innately cast [heat metal](/3-Mechanics/CLI/spells/heat-metal.md)\
+    \ (spell save DC 10), requiring no material components. Its innate spellcasting\
+    \ ability is Charisma.\n\nAt will: [heat metal](/3-Mechanics/CLI/spells/heat-metal.md)"
+  "name": "Innate Spellcasting (1/Day)"
+- "desc": "When the mephit dies, it explodes in a burst of lava. Each creature within\
+    \ 5 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire\
+    \ damage on a failed save, or half as much damage on a successful one."
+  "name": "Death Burst"
+- "desc": "While the mephit remains motionless, it is indistinguishable from an ordinary\
+    \ mound of magma."
+  "name": "False Appearance"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3\
+    \ (1d4 + 1) slashing damage plus 2 (1d4) fire damage."
+  "name": "Claws"
+- "desc": "The mephit exhales a 15-foot cone of fire. Each creature in that area must\
+    \ make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed\
+    \ save, or half as much damage on a successful one."
+  "name": "Fire Breath (Recharge 6)"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "ToA"
+- "WDMM"
+- "GoS"
+- "EGW"
+- "SjA"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Magma%20Mephit.webp"
 ```
 ^statblock
 

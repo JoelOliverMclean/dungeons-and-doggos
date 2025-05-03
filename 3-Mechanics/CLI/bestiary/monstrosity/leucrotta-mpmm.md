@@ -8,12 +8,12 @@ tags:
 - monster/environment/grassland
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Leucrotta"]
 ---
-# Leucrotta
+# [Leucrotta](3-Mechanics\CLI\bestiary\monstrosity/leucrotta-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 170, Volo's Guide to Monsters p. 169*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Leucrotta.webp#right)  
 A leucrotta is what you would get if you took the head of a giant badger, the legs of a deer, and the body of a large hyena, then put them together and reanimated them with demon ichor without bothering to cover up the stink of death.
 
 The first leucrottas came into be ing alongside some gnolls during the rampages of Yeenoghu on the Material Plane. While many of the hyenas that ate Yeenoghu's kills transformed into gnolls, others underwent more bizarre changes; leucrottas were the most numerous of these.
@@ -24,44 +24,58 @@ A leucrotta is so loathsome that few outside of its own kind can stand to be aro
 
 A leucrotta's stench would normally warn away prey long before the creature could attack. It has two natural capabilities, however, that give it an advantage. First, a leucrotta's tracks are nearly impossible to distinguish from those of common deer. Second, it can duplicate the call or the vocal expressions of just about any creature it has heard. The monster uses its mimicry to lure in potential victims, then attacks while they are confused or unaware of the actual threat.
 
-
-```ad-statblock
-title: Leucrotta
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Leucrotta.webp#token)
-*Large monstrosity, Typically  Chaotic Evil*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 67 (`9d10 + 18`) 
-- **Speed** 50 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|14 (+2)|15 (+2)| 9 (-1)|12 (+1)| 6 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Deception +2, Perception +5
-- **Senses** darkvision 60 ft., passive Perception 15
-- **Languages** Abyssal, Gnoll
-- **Challenge** 3
-
-## Traits
-
-***Mimicry.*** The leucrotta can mimic Beast sounds and Humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful DC 14 Wisdom ([Insight](/3-Mechanics/CLI/rules/skills.md#Insight)) check.
-
-***Stench.*** Any creature other than a leucrotta or gnoll that starts its turn within 5 feet of the leucrotta must succeed on a DC 12 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) until the start of the creature's next turn. On a successful saving throw, the creature is immune to the Stench of all leucrottas for 1 hour.
-
-## Actions
-
-***Multiattack.*** The leucrotta makes one Bite attack and one Hooves attack.
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) piercing damage. If the leucrotta scores a critical hit, it rolls the damage dice three times, instead of twice.
-
-***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
-
-## Bonus Actions
-
-***Kicking Retreat.*** Immediately after the leucrotta makes a Hooves attack, it takes the [Disengage](/3-Mechanics/CLI/rules/actions.md#Disengage) action.
+```statblock
+"name": "Leucrotta (MPMM)"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Typically  Chaotic Evil"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "67"
+"hit_dice": "9d10 + 18"
+"stats":
+- !!int "18"
+- !!int "14"
+- !!int "15"
+- !!int "9"
+- !!int "12"
+- !!int "6"
+"speed": "50 ft."
+"skillsaves":
+  "Deception": !!int "2"
+  "Perception": !!int "5"
+"senses": "darkvision 60 ft., passive Perception 15"
+"languages": "Abyssal, Gnoll"
+"cr": "3"
+"traits":
+- "desc": "The leucrotta can mimic Beast sounds and Humanoid voices. A creature that\
+    \ hears the sounds can tell they are imitations only with a successful DC 14 Wisdom\
+    \ ([Insight](/3-Mechanics/CLI/rules/skills.md#Insight)) check."
+  "name": "Mimicry"
+- "desc": "Any creature other than a leucrotta or gnoll that starts its turn within\
+    \ 5 feet of the leucrotta must succeed on a DC 12 Constitution saving throw or\
+    \ be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) until the start\
+    \ of the creature's next turn. On a successful saving throw, the creature is immune\
+    \ to the Stench of all leucrottas for 1 hour."
+  "name": "Stench"
+"actions":
+- "desc": "The leucrotta makes one Bite attack and one Hooves attack."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
+    \ + 4) piercing damage. If the leucrotta scores a critical hit, it rolls the\
+    \ damage dice three times, instead of twice."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) bludgeoning damage."
+  "name": "Hooves"
+"bonus_actions":
+- "desc": "Immediately after the leucrotta makes a Hooves attack, it takes the [Disengage](/3-Mechanics/CLI/rules/actions.md#Disengage)\
+    \ action."
+  "name": "Kicking Retreat"
+"source":
+- "MPMM"
+- "VGM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Leucrotta.webp"
 ```
 ^statblock
 

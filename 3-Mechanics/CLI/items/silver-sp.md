@@ -9,7 +9,7 @@ aliases:
 ---
 # Silver (sp)
 *Treasure*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Silver%20(sp).webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Silver%20%28sp%29.webp#right)  
 
 - **Cost**: 1 sp
 - **Weight**: 0.02 lbs.

@@ -8,12 +8,12 @@ tags:
 - monster/environment/underwater
 - monster/size/gargantuan
 - monster/type/dragon
+statblock: inline
 aliases: ["Dragon Turtle"]
 ---
-# Dragon Turtle
+# [Dragon Turtle](3-Mechanics\CLI\bestiary\dragon/dragon-turtle.md)
 *Source: Monster Manual p. 119. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Dragon%20Turtle.webp#right)  
 Dragon turtles are among the most fearsome creatures of the oceans. As large and voracious as the oldest of its land-based dragon kin, a dragon turtle strikes with its deadly jaws, steaming breath, and crushing tail.
 
 A dragon turtle's rough shell is the same dark green color as the deep water where this monster dwells. Silver highlights lining the shell resemble light dancing on open water, and a surfacing dragon turtle is sometimes mistaken for the reflection of the sun or moon on the waves.
@@ -32,45 +32,64 @@ A dragon turtle is smart enough to be bribed, and pirates sailing seas patrolled
 
 Dragon turtles sometimes find their way through sunken planar rifts to the Elemental Plane of Water. Those monstrous specimens can often be found in the service of marids, which strap magnificent coral thrones to the backs of dragon turtles and ride them as mounts.
 
-
-## Statblock
-
-```ad-statblock
-title: Dragon Turtle
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Dragon%20Turtle.webp#token)
-*Gargantuan dragon, Neutral*
-
-- **Armor Class** 20 (natural armor)
-- **Hit Points** 341 (`22d20 + 110`) 
-- **Speed** 20 ft., swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|25 (+7)|10 (+0)|20 (+5)|10 (+0)|12 (+1)|12 (+1)|
-
-- **Proficiency Bonus** +6
-- **Saving Throws** Dexterity +6, Constitution +11, Wisdom +7
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 11
-- **Damage Resistances** fire
-- **Languages** Aquan, Draconic
-- **Challenge** 17
-
-## Traits
-
-***Amphibious.*** The dragon turtle can breathe air and water.
-
-## Actions
-
-***Multiattack.*** The dragon turtle makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks.
-
-***Bite.*** *Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 26 (`3d12 + 7`) piercing damage.
-
-***Claw.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 16 (`2d8 + 7`) slashing damage.
-
-***Tail.*** *Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 26 (`3d12 + 7`) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
-
-***Steam Breath (Recharge 5-6).*** The dragon turtle exhales scalding steam in a 60-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 52 (`15d6`) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.
+```statblock
+"name": "Dragon Turtle"
+"size": "Gargantuan"
+"type": "dragon"
+"alignment": "Neutral"
+"ac": !!int "20"
+"ac_class": "natural armor"
+"hp": !!int "341"
+"hit_dice": "22d20 + 110"
+"stats":
+- !!int "25"
+- !!int "10"
+- !!int "20"
+- !!int "10"
+- !!int "12"
+- !!int "12"
+"speed": "20 ft., swim 40 ft."
+"saves":
+  "Dexterity": !!int "6"
+  "Wisdom": !!int "7"
+  "Constitution": !!int "11"
+"damage_resistances": "fire"
+"senses": "darkvision 120 ft., passive Perception 11"
+"languages": "Aquan, Draconic"
+"cr": "17"
+"traits":
+- "desc": "The dragon turtle can breathe air and water."
+  "name": "Amphibious"
+"actions":
+- "desc": "The dragon turtle makes three attacks: one with its bite and two with its\
+    \ claws. It can make one tail attack in place of its two claw attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26\
+    \ (3d12 + 7) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 16\
+    \ (2d8 + 7) slashing damage."
+  "name": "Claw"
+- "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26\
+    \ (3d12 + 7) bludgeoning damage. If the target is a creature, it must succeed\
+    \ on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon\
+    \ turtle and knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Tail"
+- "desc": "The dragon turtle exhales scalding steam in a 60-foot cone. Each creature\
+    \ in that area must make a DC 18 Constitution saving throw, taking 52 (15d6)\
+    \ fire damage on a failed save, or half as much damage on a successful one. Being\
+    \ underwater doesn't grant resistance against this damage."
+  "name": "Steam Breath (Recharge 5-6)"
+"source":
+- "MM"
+- "PotA"
+- "ToA"
+- "GoS"
+- "EGW"
+- "MOT"
+- "CM"
+- "JttRC"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Dragon%20Turtle.webp"
 ```
 ^statblock
 

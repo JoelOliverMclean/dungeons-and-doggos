@@ -45,6 +45,8 @@ accent:
 > ### RP
 > Accent: **`=this.accent`**
 
+**Davil Starsong is a charismatic and suave figure in Waterdeep, known for his sharp wit and influential connections. With a striking appearance marked by dark hair and a well-groomed beard, he exudes an air of sophistication and confidence. Often seen in stylish, well-tailored attire, Davil moves effortlessly through the city's elite circles. As a prominent member of the Zhentarim, he wields considerable influence and charm, making him a key player in Waterdeep’s intricate web of politics and intrigue.**
+
 ![[davil-starsong-wdh#^3a3536]]
 ![[davil-starsong-wdh#^b85068]]
 ![[davil-starsong-wdh#^1b0fa5]]

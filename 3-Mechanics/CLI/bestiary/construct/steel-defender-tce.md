@@ -6,47 +6,56 @@ tags:
 - monster/cr/
 - monster/size/medium
 - monster/type/construct
+statblock: inline
 aliases: ["Steel Defender"]
 ---
-# Steel Defender
+# [Steel Defender](3-Mechanics\CLI\bestiary\construct/steel-defender-tce.md)
 *Source: Tasha's Cauldron of Everything p. 19*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/TCE/Steel%20Defender.webp#center) 
-
-```ad-statblock
-title: Steel Defender
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/TCE/Steel%20Defender.webp#token)
-*Medium construct, Unaligned*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** null  (2 + your Intelligence modifier + five times your artificer level (the defender has a number of Hit Dice [d8s] equal to your artificer level))
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|14 (+2)|12 (+1)|14 (+2)| 4 (-3)|10 (+0)| 6 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Dexterity +1 plus PB, Constitution +2 plus PB
-- **Skills** Athletics +2 plus PB, Perception +0 plus PB × 2
-- **Senses** darkvision 60 ft., passive Perception 0
-- **Damage Immunities** poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands the languages you speak
-- **Challenge** 
-
-## Traits
-
-***Vigilant.*** The defender can't be surprised.
-
-## Actions
-
-***Force-Empowered Rend.*** *Melee Weapon Attack:* the summoner's spell attack modifier to hit, reach 5 ft., one target you can see. *Hit:* `1d8 + PB` force damage.
-
-***Repair (3/Day).*** The magical mechanisms inside the defender restore `2d8 + PB` hit points to itself or to one construct or object within 5 feet of it.
-
-## Reactions
-
-***Deflect Attack.*** The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender.
+```statblock
+"name": "Steel Defender (TCE)"
+"size": "Medium"
+"type": "construct"
+"alignment": "Unaligned"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"stats":
+- !!int "14"
+- !!int "12"
+- !!int "14"
+- !!int "4"
+- !!int "10"
+- !!int "6"
+"speed": "40 ft."
+"saves":
+  "Dexterity": !!int "0"
+  "Constitution": !!int "0"
+"skillsaves":
+  "Athletics": !!int "0"
+  "Perception": !!int "0"
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 0"
+"languages": "understands the languages you speak"
+"traits":
+- "desc": "The defender can't be surprised."
+  "name": "Vigilant"
+"actions":
+- "desc": "Melee Weapon Attack: the summoner's spell attack modifier to hit, reach\
+    \ 5 ft., one target you can see. Hit: 1d8 + PB force damage."
+  "name": "Force-Empowered Rend"
+- "desc": "The magical mechanisms inside the defender restore 2d8 + PB hit points\
+    \ to itself or to one construct or object within 5 feet of it."
+  "name": "Repair (3/Day)"
+"reactions":
+- "desc": "The defender imposes disadvantage on the attack roll of one creature it\
+    \ can see that is within 5 feet of it, provided the attack roll is against a creature\
+    \ other than the defender."
+  "name": "Deflect Attack"
+"source":
+- "TCE"
+- "ERLW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/TCE/Steel%20Defender.webp"
 ```
 ^statblock

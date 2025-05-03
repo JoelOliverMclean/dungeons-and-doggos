@@ -11,7 +11,6 @@ aliases: ["Dwarf"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Dwarf.webp#right)  
 
 - **Ability Scores**: Constitution +2
-- **Type**: race
 - **Size**: Medium
 - **Speed**: 25 ft.
 

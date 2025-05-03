@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/elemental
+statblock: inline
 aliases: ["Earth Elemental"]
 ---
-# Earth Elemental
+# [Earth Elemental](3-Mechanics\CLI\bestiary\elemental/earth-elemental.md)
 *Source: Monster Manual p. 124, Waterdeep: Dragon Heist, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Earth%20Elemental.webp#right)  
 An earth elemental plods forward like a walking hill, club-like arms of jagged stone swinging at its sides. Its head and body consist of dirt and stone, occasionally set with chunks of metal, gems, and bright minerals.
 
 Earth elementals glide through rock and earth as though they were liquid. Earthbound creatures have much to fear from an earth elemental, since the elemental can pinpoint the precise location of any foe that stands on solid ground in its vicinity.
@@ -37,44 +37,57 @@ Powerful magic can bind an elemental spirit into a material template that define
 
 An elemental doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Earth Elemental
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Earth%20Elemental.webp#token)
-*Large elemental, Neutral*
-
-- **Armor Class** 17 (natural armor)
-- **Hit Points** 126 (`12d10 + 60`) 
-- **Speed** 30 ft., burrow 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|20 (+5)| 8 (-1)|20 (+5)| 5 (-3)|10 (+0)| 5 (-3)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., tremorsense 60 ft., passive Perception 10
-- **Damage Vulnerabilities** thunder
-- **Damage Resistances** bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** poison
-- **Condition Immunities** [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)
-- **Languages** Terran
-- **Challenge** 5
-
-## Traits
-
-***Earth Glide.*** The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.
-
-***Siege Monster.*** The elemental deals double damage to objects and structures.
-
-## Actions
-
-***Multiattack.*** The elemental makes two slam attacks.
-
-***Slam.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 14 (`2d8 + 5`) bludgeoning damage.
+```statblock
+"name": "Earth Elemental"
+"size": "Large"
+"type": "elemental"
+"alignment": "Neutral"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "126"
+"hit_dice": "12d10 + 60"
+"stats":
+- !!int "20"
+- !!int "8"
+- !!int "20"
+- !!int "5"
+- !!int "10"
+- !!int "5"
+"speed": "30 ft., burrow 30 ft."
+"damage_vulnerabilities": "thunder"
+"damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion),\
+  \ [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)"
+"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"languages": "Terran"
+"cr": "5"
+"traits":
+- "desc": "The elemental can burrow through nonmagical, unworked earth and stone.\
+    \ While doing so, the elemental doesn't disturb the material it moves through."
+  "name": "Earth Glide"
+- "desc": "The elemental deals double damage to objects and structures."
+  "name": "Siege Monster"
+"actions":
+- "desc": "The elemental makes two slam attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14\
+    \ (2d8 + 5) bludgeoning damage."
+  "name": "Slam"
+"source":
+- "MM"
+- "PotA"
+- "RoT"
+- "SKT"
+- "ToA"
+- "WDH"
+- "MOT"
+- "TCE"
+- "CRCotN"
+- "PaBTSO"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Earth%20Elemental.webp"
 ```
 ^statblock
 

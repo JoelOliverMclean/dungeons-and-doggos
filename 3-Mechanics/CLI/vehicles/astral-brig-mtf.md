@@ -27,6 +27,6 @@ title: Astral Brig
 
 ## Weapon: Ballistas (2)
 
-*Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+*Ranged Weapon Attack:* `+6` to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
 ```
 ^statblock

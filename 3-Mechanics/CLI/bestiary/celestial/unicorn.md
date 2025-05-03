@@ -7,12 +7,12 @@ tags:
 - monster/environment/forest
 - monster/size/large
 - monster/type/celestial
+statblock: inline
 aliases: ["Unicorn"]
 ---
-# Unicorn
+# [Unicorn](3-Mechanics\CLI\bestiary\celestial/unicorn.md)
 *Source: Monster Manual p. 294, Tasha's Cauldron of Everything. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Unicorn.webp#right)  
 Unicorns dwell in enchanted forests. Unrelated to the horses it resembles, a unicorn is a celestial creature that wanders sylvan realms, its white form glimmering like starlight.
 
 A unicorn's brow sports a single spiraling horn of ivory whose magical touch can heal the sick and the injured. Its ears catch the words and whispers of the creatures that share its domain, and it knows the tongues of elves and sylvan folk. Unicorns allow good-hearted creatures to enter their woods to hunt or gather food, but they hold evil ever at bay. Foul-hearted creatures seldom leave a unicorn's domain alive.
@@ -51,79 +51,98 @@ As long as the troubled times of darkness persist, the unicorn stays by the cham
 
 A unicorn's lair might be an ancient ruin overgrown with vines, a misty clearing surrounded by mighty oaks, a flower-covered hilltop alive with butterflies, or some other serene woodland location.
 
-
-## Statblock
-
-```ad-statblock
-title: Unicorn
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Unicorn.webp#token)
-*Large celestial, Lawful Good*
-
-- **Armor Class** 12 
-- **Hit Points** 67 (`9d10 + 18`) 
-- **Speed** 50 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|14 (+2)|15 (+2)|11 (+0)|17 (+3)|16 (+3)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 13
-- **Damage Immunities** poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Celestial, Elvish, Sylvan, telepathy 60 ft.
-- **Challenge** 5
-
-## Traits
-
-***Charge.*** If the unicorn moves at least 20 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 (`2d8`) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
-
-***Magic Resistance.*** The unicorn has advantage on saving throws against spells and other magical effects.
-
-***Magic Weapons.*** The unicorn's weapon attacks are magical.
-
-***Innate Spellcasting.*** The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components:
-
-**At will**: [detect evil and good](/3-Mechanics/CLI/spells/detect-evil-and-good.md), [druidcraft](/3-Mechanics/CLI/spells/druidcraft.md), [pass without trace](/3-Mechanics/CLI/spells/pass-without-trace.md)
-
-**1/day each**: [calm emotions](/3-Mechanics/CLI/spells/calm-emotions.md), [dispel evil and good](/3-Mechanics/CLI/spells/dispel-evil-and-good.md), [entangle](/3-Mechanics/CLI/spells/entangle.md)
-
-## Actions
-
-***Multiattack.*** The unicorn makes two attacks: one with its hooves and one with its horn.
-
-***Hooves.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
-
-***Horn.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) piercing damage.
-
-***Healing Touch (3/Day).*** The unicorn touches another creature with its horn. The target magically regains 11 (`2d8 + 2`) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target.
-
-***Teleport (1/Day).*** The unicorn magically teleports itself and up to three willing creatures it can see within 5 feet of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away.
-
-## Legendary Actions
-
-***Hooves.*** The unicorn makes one attack with its hooves.
-
-***Shimmering Shield (Costs 2 Actions).*** The unicorn creates a shimmering, magical field around itself or another creature it can see within 60 feet of it. The target gains a +2 bonus to AC until the end of the unicorn's next turn.
-
-***Heal Self (Costs 3 Actions).*** The unicorn magically regains 11 (`2d8 + 2`) hit points.
-
-## Regional effects
-
-Transformed by the creature's celestial presence, the domain of a unicorn might include any of the following magical effects:
-
-- Open flames of a non magical nature are extinguished within the unicorn's domain. Torches and campfires refuse to burn, but closed lanterns are unaffected.  
-- Creatures native to the unicorn's domain have an easier time hiding; they have advantage on all Dexterity ([Stealth](/3-Mechanics/CLI/rules/skills.md#Stealth)) checks made to hide.  
-- When a good-aligned creature casts a spell or uses a magical effect that causes another good-aligned creature to regain hit points, the target regains the maximum number of hit points possible for the spell or effect.  
-- Curses affecting any good-aligned creature are suppressed.  
-
-If the unicorn dies, these effects end immediately.
-
-## Is homebrew
-
-false
+```statblock
+"name": "Unicorn"
+"size": "Large"
+"type": "celestial"
+"alignment": "Lawful Good"
+"ac": !!int "12"
+"hp": !!int "67"
+"hit_dice": "9d10 + 18"
+"stats":
+- !!int "18"
+- !!int "14"
+- !!int "15"
+- !!int "11"
+- !!int "17"
+- !!int "16"
+"speed": "50 ft."
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 13"
+"languages": "Celestial, Elvish, Sylvan, telepathy 60 ft."
+"cr": "5"
+"traits":
+- "desc": "The unicorn's innate spellcasting ability is Charisma (spell save DC 14).\
+    \ The unicorn can innately cast the following spells, requiring no components:\n\
+    \nAt will: [detect evil and good](/3-Mechanics/CLI/spells/detect-evil-and-good.md),\
+    \ [druidcraft](/3-Mechanics/CLI/spells/druidcraft.md), [pass without trace](/3-Mechanics/CLI/spells/pass-without-trace.md)\n\
+    \n1/day each: [calm emotions](/3-Mechanics/CLI/spells/calm-emotions.md), [dispel\
+    \ evil and good](/3-Mechanics/CLI/spells/dispel-evil-and-good.md), [entangle](/3-Mechanics/CLI/spells/entangle.md)"
+  "name": "Innate Spellcasting"
+- "desc": "If the unicorn moves at least 20 feet straight toward a target and then\
+    \ hits it with a horn attack on the same turn, the target takes an extra 9 (2d8)\
+    \ piercing damage. If the target is a creature, it must succeed on a DC 15 Strength\
+    \ saving throw or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Charge"
+- "desc": "The unicorn has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The unicorn's weapon attacks are magical."
+  "name": "Magic Weapons"
+"actions":
+- "desc": "The unicorn makes two attacks: one with its hooves and one with its horn."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) bludgeoning damage."
+  "name": "Hooves"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8\
+    \ + 4) piercing damage."
+  "name": "Horn"
+- "desc": "The unicorn touches another creature with its horn. The target magically\
+    \ regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases\
+    \ and neutralizes all poisons afflicting the target."
+  "name": "Healing Touch (3/Day)"
+- "desc": "The unicorn magically teleports itself and up to three willing creatures\
+    \ it can see within 5 feet of it, along with any equipment they are wearing or\
+    \ carrying, to a location the unicorn is familiar with, up to 1 mile away."
+  "name": "Teleport (1/Day)"
+"legendary_actions":
+- "desc": "The unicorn makes one attack with its hooves."
+  "name": "Hooves"
+- "desc": "The unicorn creates a shimmering, magical field around itself or another\
+    \ creature it can see within 60 feet of it. The target gains a +2 bonus to AC\
+    \ until the end of the unicorn's next turn."
+  "name": "Shimmering Shield (Costs 2 Actions)"
+- "desc": "The unicorn magically regains 11 (2d8 + 2) hit points."
+  "name": "Heal Self (Costs 3 Actions)"
+"regional_effects":
+- "desc": "Transformed by the creature's celestial presence, the domain of a unicorn\
+    \ might include any of the following magical effects:"
+  "name": ""
+- "desc": "- Open flames of a non magical nature are extinguished within the unicorn's\
+    \ domain. Torches and campfires refuse to burn, but closed lanterns are unaffected.\
+    \  \n- Creatures native to the unicorn's domain have an easier time hiding; they\
+    \ have advantage on all Dexterity ([Stealth](/3-Mechanics/CLI/rules/skills.md#Stealth))\
+    \ checks made to hide.  \n- When a good-aligned creature casts a spell or uses\
+    \ a magical effect that causes another good-aligned creature to regain hit points,\
+    \ the target regains the maximum number of hit points possible for the spell or\
+    \ effect.  \n- Curses affecting any good-aligned creature are suppressed.  "
+  "name": ""
+- "desc": "If the unicorn dies, these effects end immediately."
+  "name": ""
+"source":
+- "MM"
+- "GoS"
+- "BGDIA"
+- "IMR"
+- "MOT"
+- "TCE"
+- "WBtW"
+- "KftGV"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Unicorn.webp"
 ```
 ^statblock
 

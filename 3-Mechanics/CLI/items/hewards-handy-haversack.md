@@ -11,7 +11,7 @@ aliases:
 ---
 # Heward's Handy Haversack
 *Wondrous Item, minor, rare*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/DMG/Heward's%20Handy%20Haversack.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/DMG/Heward%27s%20Handy%20Haversack.webp#right)  
 
 - **Weight**: 5.0 lbs.
 

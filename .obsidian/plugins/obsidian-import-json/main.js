@@ -1782,11 +1782,11 @@ var require_ast = __commonJS({
         helperExpression: function helperExpression(node) {
           return node.type === "SubExpression" || (node.type === "MustacheStatement" || node.type === "BlockStatement") && !!(node.params && node.params.length || node.hash);
         },
-        scopedId: function scopedId(path2) {
-          return /^\.|this\b/.test(path2.original);
+        scopedId: function scopedId(path) {
+          return /^\.|this\b/.test(path.original);
         },
-        simpleId: function simpleId(path2) {
-          return path2.parts.length === 1 && !AST.helpers.scopedId(path2) && !path2.depth;
+        simpleId: function simpleId(path) {
+          return path.parts.length === 1 && !AST.helpers.scopedId(path) && !path.depth;
         }
       }
     };
@@ -2863,12 +2863,12 @@ var require_helpers2 = __commonJS({
         loc
       };
     }
-    function prepareMustache(path2, params, hash, open, strip, locInfo) {
+    function prepareMustache(path, params, hash, open, strip, locInfo) {
       var escapeFlag = open.charAt(3) || open.charAt(2), escaped = escapeFlag !== "{" && escapeFlag !== "&";
       var decorator = /\*/.test(open);
       return {
         type: decorator ? "Decorator" : "MustacheStatement",
-        path: path2,
+        path,
         params,
         hash,
         escaped,
@@ -3139,9 +3139,9 @@ var require_compiler = __commonJS({
       },
       DecoratorBlock: function DecoratorBlock(decorator) {
         var program = decorator.program && this.compileProgram(decorator.program);
-        var params = this.setupFullMustacheParams(decorator, program, void 0), path2 = decorator.path;
+        var params = this.setupFullMustacheParams(decorator, program, void 0), path = decorator.path;
         this.useDecorators = true;
-        this.opcode("registerDecorator", params.length, path2.original);
+        this.opcode("registerDecorator", params.length, path.original);
       },
       PartialStatement: function PartialStatement(partial) {
         this.usePartial = true;
@@ -3205,46 +3205,46 @@ var require_compiler = __commonJS({
         }
       },
       ambiguousSexpr: function ambiguousSexpr(sexpr, program, inverse) {
-        var path2 = sexpr.path, name = path2.parts[0], isBlock = program != null || inverse != null;
-        this.opcode("getContext", path2.depth);
+        var path = sexpr.path, name = path.parts[0], isBlock = program != null || inverse != null;
+        this.opcode("getContext", path.depth);
         this.opcode("pushProgram", program);
         this.opcode("pushProgram", inverse);
-        path2.strict = true;
-        this.accept(path2);
+        path.strict = true;
+        this.accept(path);
         this.opcode("invokeAmbiguous", name, isBlock);
       },
       simpleSexpr: function simpleSexpr(sexpr) {
-        var path2 = sexpr.path;
-        path2.strict = true;
-        this.accept(path2);
+        var path = sexpr.path;
+        path.strict = true;
+        this.accept(path);
         this.opcode("resolvePossibleLambda");
       },
       helperSexpr: function helperSexpr(sexpr, program, inverse) {
-        var params = this.setupFullMustacheParams(sexpr, program, inverse), path2 = sexpr.path, name = path2.parts[0];
+        var params = this.setupFullMustacheParams(sexpr, program, inverse), path = sexpr.path, name = path.parts[0];
         if (this.options.knownHelpers[name]) {
           this.opcode("invokeKnownHelper", params.length, name);
         } else if (this.options.knownHelpersOnly) {
           throw new _exception2["default"]("You specified knownHelpersOnly, but used the unknown helper " + name, sexpr);
         } else {
-          path2.strict = true;
-          path2.falsy = true;
-          this.accept(path2);
-          this.opcode("invokeHelper", params.length, path2.original, _ast2["default"].helpers.simpleId(path2));
+          path.strict = true;
+          path.falsy = true;
+          this.accept(path);
+          this.opcode("invokeHelper", params.length, path.original, _ast2["default"].helpers.simpleId(path));
         }
       },
-      PathExpression: function PathExpression(path2) {
-        this.addDepth(path2.depth);
-        this.opcode("getContext", path2.depth);
-        var name = path2.parts[0], scoped = _ast2["default"].helpers.scopedId(path2), blockParamId = !path2.depth && !scoped && this.blockParamIndex(name);
+      PathExpression: function PathExpression(path) {
+        this.addDepth(path.depth);
+        this.opcode("getContext", path.depth);
+        var name = path.parts[0], scoped = _ast2["default"].helpers.scopedId(path), blockParamId = !path.depth && !scoped && this.blockParamIndex(name);
         if (blockParamId) {
-          this.opcode("lookupBlockParam", blockParamId, path2.parts);
+          this.opcode("lookupBlockParam", blockParamId, path.parts);
         } else if (!name) {
           this.opcode("pushContext");
-        } else if (path2.data) {
+        } else if (path.data) {
           this.options.data = true;
-          this.opcode("lookupData", path2.depth, path2.parts, path2.strict);
+          this.opcode("lookupData", path.depth, path.parts, path.strict);
         } else {
-          this.opcode("lookupOnContext", path2.parts, path2.falsy, path2.strict, scoped);
+          this.opcode("lookupOnContext", path.parts, path.falsy, path.strict, scoped);
         }
       },
       StringLiteral: function StringLiteral(string) {
@@ -3594,16 +3594,16 @@ var require_util = __commonJS({
     }
     exports.urlGenerate = urlGenerate;
     function normalize(aPath) {
-      var path2 = aPath;
+      var path = aPath;
       var url = urlParse(aPath);
       if (url) {
         if (!url.path) {
           return aPath;
         }
-        path2 = url.path;
+        path = url.path;
       }
-      var isAbsolute = exports.isAbsolute(path2);
-      var parts = path2.split(/\/+/);
+      var isAbsolute = exports.isAbsolute(path);
+      var parts = path.split(/\/+/);
       for (var part, up = 0, i = parts.length - 1; i >= 0; i--) {
         part = parts[i];
         if (part === ".") {
@@ -3620,15 +3620,15 @@ var require_util = __commonJS({
           }
         }
       }
-      path2 = parts.join("/");
-      if (path2 === "") {
-        path2 = isAbsolute ? "/" : ".";
+      path = parts.join("/");
+      if (path === "") {
+        path = isAbsolute ? "/" : ".";
       }
       if (url) {
-        url.path = path2;
+        url.path = path;
         return urlGenerate(url);
       }
-      return path2;
+      return path;
     }
     exports.normalize = normalize;
     function join(aRoot, aPath) {
@@ -6609,27 +6609,27 @@ var require_isobject = __commonJS({
 var require_get_value = __commonJS({
   "node_modules/get-value/index.js"(exports, module2) {
     var isObject = require_isobject();
-    module2.exports = function(target, path2, options) {
+    module2.exports = function(target, path, options) {
       if (!isObject(options)) {
         options = { default: options };
       }
       if (!isValidObject(target)) {
         return typeof options.default !== "undefined" ? options.default : target;
       }
-      if (typeof path2 === "number") {
-        path2 = String(path2);
+      if (typeof path === "number") {
+        path = String(path);
       }
-      const isArray = Array.isArray(path2);
-      const isString = typeof path2 === "string";
+      const isArray = Array.isArray(path);
+      const isString = typeof path === "string";
       const splitChar = options.separator || ".";
       const joinChar = options.joinChar || (typeof splitChar === "string" ? splitChar : ".");
       if (!isString && !isArray) {
         return target;
       }
-      if (isString && path2 in target) {
-        return isValid(path2, target, options) ? target[path2] : options.default;
+      if (isString && path in target) {
+        return isValid(path, target, options) ? target[path] : options.default;
       }
-      let segs = isArray ? path2 : split(path2, splitChar, options);
+      let segs = isArray ? path : split(path, splitChar, options);
       let len = segs.length;
       let idx = 0;
       do {
@@ -6675,11 +6675,11 @@ var require_get_value = __commonJS({
       }
       return segs[0] + joinChar + segs[1];
     }
-    function split(path2, splitChar, options) {
+    function split(path, splitChar, options) {
       if (typeof options.split === "function") {
-        return options.split(path2);
+        return options.split(path);
       }
-      return path2.split(splitChar);
+      return path.split(splitChar);
     }
     function isValid(key, target, options) {
       if (typeof options.isValid === "function") {
@@ -6931,8 +6931,7 @@ var require_array = __commonJS({
         return "";
       array = util.result(array);
       if (Array.isArray(array)) {
-        array.reverse();
-        return array;
+        return [...array].reverse();
       }
       if (array && typeof array === "string") {
         return array.split("").reverse().join("");
@@ -6958,9 +6957,9 @@ var require_array = __commonJS({
       array = util.result(array);
       if (Array.isArray(array)) {
         if (getValue(options, "hash.reverse")) {
-          return array.sort().reverse();
+          return [...array].sort().reverse();
         }
-        return array.sort();
+        return [...array].sort();
       }
       return "";
     };
@@ -6972,12 +6971,12 @@ var require_array = __commonJS({
         var args = [].slice.call(arguments);
         args.pop();
         if (!util.isString(prop) && typeof prop !== "function") {
-          return array.sort();
+          return [...array].sort();
         }
         if (typeof prop === "function") {
-          return array.sort(prop);
+          return [...array].sort(prop);
         }
-        return array.sort((a, b) => a[prop] > b[prop] ? 1 : -1);
+        return [...array].sort((a, b) => a[prop] > b[prop] ? 1 : -1);
       }
       return "";
     };
@@ -7078,7 +7077,7 @@ var require_array = __commonJS({
         var result = "";
         if (util.isUndefined(prop)) {
           options = prop;
-          array = array.sort();
+          array = [...array].sort();
           if (getValue(options, "hash.reverse")) {
             array = array.reverse();
           }
@@ -7087,7 +7086,7 @@ var require_array = __commonJS({
           }
           return result;
         }
-        array.sort(function(a, b) {
+        array = [...array].sort(function(a, b) {
           a = getValue(a, prop);
           b = getValue(b, prop);
           return a > b ? 1 : a < b ? -1 : 0;
@@ -7230,12 +7229,12 @@ var require_code = __commonJS({
   "node_modules/@budibase/handlebars-helpers/lib/code.js"(exports, module2) {
     "use strict";
     var fs = require("fs");
-    var path2 = require("path");
+    var path = require("path");
     var codeBlock = require_to_gfm_code_block();
     var htmlTag = require_html_tag();
     var helpers = module2.exports;
     helpers.embed = function embed(filepath, ext) {
-      ext = typeof ext !== "string" ? path2.extname(filepath).slice(1) : ext;
+      ext = typeof ext !== "string" ? path.extname(filepath).slice(1) : ext;
       var code = fs.readFileSync(filepath, "utf8");
       if (ext === "markdown" || ext === "md") {
         ext = "markdown";
@@ -7608,9 +7607,9 @@ var require_has_value = __commonJS({
     "use strict";
     var get = require_get_value();
     var has = require_has_values();
-    module2.exports = function(obj, path2, options) {
-      if (isObject(obj) && (typeof path2 === "string" || Array.isArray(path2))) {
-        return has(get(obj, path2, options));
+    module2.exports = function(obj, path, options) {
+      if (isObject(obj) && (typeof path === "string" || Array.isArray(path))) {
+        return has(get(obj, path, options));
       }
       return false;
     };
@@ -8161,7 +8160,7 @@ var require_html = __commonJS({
 var require_html2 = __commonJS({
   "node_modules/@budibase/handlebars-helpers/lib/html.js"(exports, module2) {
     "use strict";
-    var path2 = require("path");
+    var path = require("path");
     var util = require_handlebars_utils();
     var html = require_html();
     var parseAttr = html.parseAttributes;
@@ -8185,10 +8184,10 @@ var require_html2 = __commonJS({
         styles = util.arrayify(options.hash.href);
       }
       return styles.map(function(item) {
-        var ext = path2.extname(item);
+        var ext = path.extname(item);
         var fp = item;
         if (!/(^\/\/)|(:\/\/)/.test(item)) {
-          fp = path2.posix.join(assets, item);
+          fp = path.posix.join(assets, item);
         }
         if (ext === ".less") {
           return `<link type="text/css" rel="stylesheet/less" href="${fp}">`;
@@ -8206,7 +8205,7 @@ var require_html2 = __commonJS({
       }
       context = util.arrayify(context);
       return context.map(function(fp) {
-        return path2.extname(fp) === ".coffee" ? htmlTag("script", { type: "text/coffeescript", src: fp }) : htmlTag("script", { src: fp });
+        return path.extname(fp) === ".coffee" ? htmlTag("script", { type: "text/coffeescript", src: fp }) : htmlTag("script", { src: fp });
       }).join("\n");
     };
     helpers.sanitize = function(str) {
@@ -8359,7 +8358,7 @@ var require_utils3 = __commonJS({
       return (Number(max) - Number(min)) / Number(step) >= limit;
     };
     exports.escapeNode = (block, n = 0, type) => {
-      let node = block.nodes[n];
+      const node = block.nodes[n];
       if (!node)
         return;
       if (type && node.type === type || node.type === "open" || node.type === "close") {
@@ -8410,8 +8409,14 @@ var require_utils3 = __commonJS({
       const result = [];
       const flat = (arr) => {
         for (let i = 0; i < arr.length; i++) {
-          let ele = arr[i];
-          Array.isArray(ele) ? flat(ele, result) : ele !== void 0 && result.push(ele);
+          const ele = arr[i];
+          if (Array.isArray(ele)) {
+            flat(ele);
+            continue;
+          }
+          if (ele !== void 0) {
+            result.push(ele);
+          }
         }
         return result;
       };
@@ -8427,9 +8432,9 @@ var require_stringify = __commonJS({
     "use strict";
     var utils = require_utils3();
     module2.exports = (ast, options = {}) => {
-      let stringify = (node, parent = {}) => {
-        let invalidBlock = options.escapeInvalid && utils.isInvalidBrace(parent);
-        let invalidNode = node.invalid === true && options.escapeInvalid === true;
+      const stringify = (node, parent = {}) => {
+        const invalidBlock = options.escapeInvalid && utils.isInvalidBrace(parent);
+        const invalidNode = node.invalid === true && options.escapeInvalid === true;
         let output = "";
         if (node.value) {
           if ((invalidBlock || invalidNode) && utils.isOpenOrClose(node)) {
@@ -8441,7 +8446,7 @@ var require_stringify = __commonJS({
           return node.value;
         }
         if (node.nodes) {
-          for (let child of node.nodes) {
+          for (const child of node.nodes) {
             output += stringify(child);
           }
         }
@@ -8733,7 +8738,7 @@ var require_fill_range = __commonJS({
         input = "0" + input;
       return negative ? "-" + input : input;
     };
-    var toSequence = (parts, options) => {
+    var toSequence = (parts, options, maxLen) => {
       parts.negatives.sort((a, b) => a < b ? -1 : a > b ? 1 : 0);
       parts.positives.sort((a, b) => a < b ? -1 : a > b ? 1 : 0);
       let prefix = options.capture ? "" : "?:";
@@ -8741,10 +8746,10 @@ var require_fill_range = __commonJS({
       let negatives = "";
       let result;
       if (parts.positives.length) {
-        positives = parts.positives.join("|");
+        positives = parts.positives.map((v) => toMaxLen(String(v), maxLen)).join("|");
       }
       if (parts.negatives.length) {
-        negatives = `-(${prefix}${parts.negatives.join("|")})`;
+        negatives = `-(${prefix}${parts.negatives.map((v) => toMaxLen(String(v), maxLen)).join("|")})`;
       }
       if (positives && negatives) {
         result = `${positives}|${negatives}`;
@@ -8826,7 +8831,7 @@ var require_fill_range = __commonJS({
         index++;
       }
       if (options.toRegex === true) {
-        return step > 1 ? toSequence(parts, options) : toRegex(range, null, __spreadValues({ wrap: false }, options));
+        return step > 1 ? toSequence(parts, options, maxLen) : toRegex(range, null, __spreadValues({ wrap: false }, options));
       }
       return range;
     };
@@ -8893,16 +8898,17 @@ var require_compile = __commonJS({
     var fill = require_fill_range();
     var utils = require_utils3();
     var compile = (ast, options = {}) => {
-      let walk = (node, parent = {}) => {
-        let invalidBlock = utils.isInvalidBrace(parent);
-        let invalidNode = node.invalid === true && options.escapeInvalid === true;
-        let invalid = invalidBlock === true || invalidNode === true;
-        let prefix = options.escapeInvalid === true ? "\\" : "";
+      const walk = (node, parent = {}) => {
+        const invalidBlock = utils.isInvalidBrace(parent);
+        const invalidNode = node.invalid === true && options.escapeInvalid === true;
+        const invalid = invalidBlock === true || invalidNode === true;
+        const prefix = options.escapeInvalid === true ? "\\" : "";
         let output = "";
         if (node.isOpen === true) {
           return prefix + node.value;
         }
         if (node.isClose === true) {
+          console.log("node.isClose", prefix, node.value);
           return prefix + node.value;
         }
         if (node.type === "open") {
@@ -8918,14 +8924,14 @@ var require_compile = __commonJS({
           return node.value;
         }
         if (node.nodes && node.ranges > 0) {
-          let args = utils.reduce(node.nodes);
-          let range = fill(...args, __spreadProps(__spreadValues({}, options), { wrap: false, toRegex: true }));
+          const args = utils.reduce(node.nodes);
+          const range = fill(...args, __spreadProps(__spreadValues({}, options), { wrap: false, toRegex: true, strictZeros: true }));
           if (range.length !== 0) {
             return args.length > 1 && range.length > 1 ? `(${range})` : range;
           }
         }
         if (node.nodes) {
-          for (let child of node.nodes) {
+          for (const child of node.nodes) {
             output += walk(child, node);
           }
         }
@@ -8945,7 +8951,7 @@ var require_expand = __commonJS({
     var stringify = require_stringify();
     var utils = require_utils3();
     var append = (queue = "", stash = "", enclose = false) => {
-      let result = [];
+      const result = [];
       queue = [].concat(queue);
       stash = [].concat(stash);
       if (!stash.length)
@@ -8953,9 +8959,9 @@ var require_expand = __commonJS({
       if (!queue.length) {
         return enclose ? utils.flatten(stash).map((ele) => `{${ele}}`) : stash;
       }
-      for (let item of queue) {
+      for (const item of queue) {
         if (Array.isArray(item)) {
-          for (let value2 of item) {
+          for (const value2 of item) {
             result.push(append(value2, stash, enclose));
           }
         } else {
@@ -8969,8 +8975,8 @@ var require_expand = __commonJS({
       return utils.flatten(result);
     };
     var expand = (ast, options = {}) => {
-      let rangeLimit = options.rangeLimit === void 0 ? 1e3 : options.rangeLimit;
-      let walk = (node, parent = {}) => {
+      const rangeLimit = options.rangeLimit === void 0 ? 1e3 : options.rangeLimit;
+      const walk = (node, parent = {}) => {
         node.queue = [];
         let p = parent;
         let q = parent.queue;
@@ -8987,7 +8993,7 @@ var require_expand = __commonJS({
           return;
         }
         if (node.nodes && node.ranges > 0) {
-          let args = utils.reduce(node.nodes);
+          const args = utils.reduce(node.nodes);
           if (utils.exceedsLimit(...args, options.step, rangeLimit)) {
             throw new RangeError("expanded array length exceeds range limit. Use options.rangeLimit to increase or disable the limit.");
           }
@@ -8999,7 +9005,7 @@ var require_expand = __commonJS({
           node.nodes = [];
           return;
         }
-        let enclose = utils.encloseBrace(node);
+        const enclose = utils.encloseBrace(node);
         let queue = node.queue;
         let block = node;
         while (block.type !== "brace" && block.type !== "root" && block.parent) {
@@ -9007,7 +9013,7 @@ var require_expand = __commonJS({
           queue = block.queue;
         }
         for (let i = 0; i < node.nodes.length; i++) {
-          let child = node.nodes[i];
+          const child = node.nodes[i];
           if (child.type === "comma" && node.type === "brace") {
             if (i === 1)
               queue.push("");
@@ -9039,7 +9045,7 @@ var require_constants = __commonJS({
   "node_modules/braces/lib/constants.js"(exports, module2) {
     "use strict";
     module2.exports = {
-      MAX_LENGTH: 1024 * 64,
+      MAX_LENGTH: 1e4,
       CHAR_0: "0",
       CHAR_9: "9",
       CHAR_UPPERCASE_A: "A",
@@ -9114,21 +9120,20 @@ var require_parse = __commonJS({
       if (typeof input !== "string") {
         throw new TypeError("Expected a string");
       }
-      let opts = options || {};
-      let max = typeof opts.maxLength === "number" ? Math.min(MAX_LENGTH, opts.maxLength) : MAX_LENGTH;
+      const opts = options || {};
+      const max = typeof opts.maxLength === "number" ? Math.min(MAX_LENGTH, opts.maxLength) : MAX_LENGTH;
       if (input.length > max) {
         throw new SyntaxError(`Input length (${input.length}), exceeds max characters (${max})`);
       }
-      let ast = { type: "root", input, nodes: [] };
-      let stack = [ast];
+      const ast = { type: "root", input, nodes: [] };
+      const stack = [ast];
       let block = ast;
       let prev = ast;
       let brackets = 0;
-      let length = input.length;
+      const length = input.length;
       let index = 0;
       let depth = 0;
       let value2;
-      let memo = {};
       const advance = () => input[index++];
       const push = (node) => {
         if (node.type === "text" && prev.type === "dot") {
@@ -9161,7 +9166,6 @@ var require_parse = __commonJS({
         }
         if (value2 === CHAR_LEFT_SQUARE_BRACKET) {
           brackets++;
-          let closed = true;
           let next;
           while (index < length && (next = advance())) {
             value2 += next;
@@ -9200,7 +9204,7 @@ var require_parse = __commonJS({
           continue;
         }
         if (value2 === CHAR_DOUBLE_QUOTE || value2 === CHAR_SINGLE_QUOTE || value2 === CHAR_BACKTICK) {
-          let open = value2;
+          const open = value2;
           let next;
           if (options.keepQuotes !== true) {
             value2 = "";
@@ -9222,8 +9226,8 @@ var require_parse = __commonJS({
         }
         if (value2 === CHAR_LEFT_CURLY_BRACE) {
           depth++;
-          let dollar = prev.value && prev.value.slice(-1) === "$" || block.dollar === true;
-          let brace = {
+          const dollar = prev.value && prev.value.slice(-1) === "$" || block.dollar === true;
+          const brace = {
             type: "brace",
             open: true,
             close: false,
@@ -9243,7 +9247,7 @@ var require_parse = __commonJS({
             push({ type: "text", value: value2 });
             continue;
           }
-          let type = "close";
+          const type = "close";
           block = stack.pop();
           block.close = true;
           push({ type, value: value2 });
@@ -9254,7 +9258,7 @@ var require_parse = __commonJS({
         if (value2 === CHAR_COMMA && depth > 0) {
           if (block.ranges > 0) {
             block.ranges = 0;
-            let open = block.nodes.shift();
+            const open = block.nodes.shift();
             block.nodes = [open, { type: "text", value: stringify(block) }];
           }
           push({ type: "comma", value: value2 });
@@ -9262,7 +9266,7 @@ var require_parse = __commonJS({
           continue;
         }
         if (value2 === CHAR_DOT && depth > 0 && block.commas === 0) {
-          let siblings = block.nodes;
+          const siblings = block.nodes;
           if (depth === 0 || siblings.length === 0) {
             push({ type: "text", value: value2 });
             continue;
@@ -9283,7 +9287,7 @@ var require_parse = __commonJS({
           }
           if (prev.type === "range") {
             siblings.pop();
-            let before = siblings[siblings.length - 1];
+            const before = siblings[siblings.length - 1];
             before.value += prev.value + value2;
             prev = before;
             block.ranges--;
@@ -9308,8 +9312,8 @@ var require_parse = __commonJS({
               node.invalid = true;
             }
           });
-          let parent = stack[stack.length - 1];
-          let index2 = parent.nodes.indexOf(block);
+          const parent = stack[stack.length - 1];
+          const index2 = parent.nodes.indexOf(block);
           parent.nodes.splice(index2, 1, ...block.nodes);
         }
       } while (stack.length > 0);
@@ -9331,8 +9335,8 @@ var require_braces = __commonJS({
     var braces = (input, options = {}) => {
       let output = [];
       if (Array.isArray(input)) {
-        for (let pattern of input) {
-          let result = braces.create(pattern, options);
+        for (const pattern of input) {
+          const result = braces.create(pattern, options);
           if (Array.isArray(result)) {
             output.push(...result);
           } else {
@@ -9387,7 +9391,7 @@ var require_braces = __commonJS({
 var require_constants2 = __commonJS({
   "node_modules/picomatch/lib/constants.js"(exports, module2) {
     "use strict";
-    var path2 = require("path");
+    var path = require("path");
     var WIN_SLASH = "\\\\/";
     var WIN_NO_SLASH = `[^${WIN_SLASH}]`;
     var DOT_LITERAL = "\\.";
@@ -9508,7 +9512,7 @@ var require_constants2 = __commonJS({
       CHAR_UNDERSCORE: 95,
       CHAR_VERTICAL_LINE: 124,
       CHAR_ZERO_WIDTH_NOBREAK_SPACE: 65279,
-      SEP: path2.sep,
+      SEP: path.sep,
       extglobChars(chars) {
         return {
           "!": { type: "negate", open: "(?:(?!(?:", close: `))${chars.STAR})` },
@@ -9529,7 +9533,7 @@ var require_constants2 = __commonJS({
 var require_utils4 = __commonJS({
   "node_modules/picomatch/lib/utils.js"(exports) {
     "use strict";
-    var path2 = require("path");
+    var path = require("path");
     var win32 = process.platform === "win32";
     var {
       REGEX_BACKSLASH,
@@ -9558,7 +9562,7 @@ var require_utils4 = __commonJS({
       if (options && typeof options.windows === "boolean") {
         return options.windows;
       }
-      return win32 === true || path2.sep === "\\";
+      return win32 === true || path.sep === "\\";
     };
     exports.escapeLast = (input, char, lastIdx) => {
       const idx = input.lastIndexOf(char, lastIdx);
@@ -10691,7 +10695,7 @@ var require_parse2 = __commonJS({
 var require_picomatch = __commonJS({
   "node_modules/picomatch/lib/picomatch.js"(exports, module2) {
     "use strict";
-    var path2 = require("path");
+    var path = require("path");
     var scan = require_scan();
     var parse = require_parse2();
     var utils = require_utils4();
@@ -10777,7 +10781,7 @@ var require_picomatch = __commonJS({
     };
     picomatch.matchBase = (input, glob, options, posix = utils.isWindows(options)) => {
       const regex = glob instanceof RegExp ? glob : picomatch.makeRe(glob, options);
-      return regex.test(path2.basename(input));
+      return regex.test(path.basename(input));
     };
     picomatch.isMatch = (str, patterns, options) => picomatch(patterns, options)(str);
     picomatch.parse = (pattern, options) => {
@@ -10847,7 +10851,11 @@ var require_micromatch = __commonJS({
     var braces = require_braces();
     var picomatch = require_picomatch2();
     var utils = require_utils4();
-    var isEmptyString = (val) => val === "" || val === "./";
+    var isEmptyString = (v) => v === "" || v === "./";
+    var hasBraces = (v) => {
+      const index = v.indexOf("{");
+      return index > -1 && v.indexOf("}", index) > -1;
+    };
     var micromatch = (list, patterns, options) => {
       patterns = [].concat(patterns);
       list = [].concat(list);
@@ -10987,7 +10995,7 @@ var require_micromatch = __commonJS({
     micromatch.braces = (pattern, options) => {
       if (typeof pattern !== "string")
         throw new TypeError("Expected a string");
-      if (options && options.nobrace === true || !/\{.*\}/.test(pattern)) {
+      if (options && options.nobrace === true || !hasBraces(pattern)) {
         return [pattern];
       }
       return braces(pattern, options);
@@ -10997,6 +11005,7 @@ var require_micromatch = __commonJS({
         throw new TypeError("Expected a string");
       return micromatch.braces(pattern, __spreadProps(__spreadValues({}, options), { expand: true }));
     };
+    micromatch.hasBraces = hasBraces;
     module2.exports = micromatch;
   }
 });
@@ -11313,7 +11322,7 @@ var require_relative = __commonJS({
   "node_modules/relative/index.js"(exports, module2) {
     "use strict";
     var isObject = require_isobject2();
-    var path2 = require("path");
+    var path = require("path");
     var fs = require("fs");
     module2.exports = relative;
     function relative(a, b, stat) {
@@ -11347,9 +11356,9 @@ var require_relative = __commonJS({
         a = a + "/";
       }
       if (isFile(a, stat)) {
-        a = path2.dirname(a);
+        a = path.dirname(a);
       }
-      var res = path2.relative(a, b);
+      var res = path.relative(a, b);
       if (res === "") {
         return ".";
       }
@@ -11415,7 +11424,7 @@ var require_path = __commonJS({
   "node_modules/@budibase/handlebars-helpers/lib/path.js"(exports, module2) {
     "use strict";
     var util = require_handlebars_utils();
-    var path2 = require("path");
+    var path = require("path");
     var relative = require_relative();
     var helpers = module2.exports;
     helpers.absolute = function(filepath, options) {
@@ -11423,13 +11432,13 @@ var require_path = __commonJS({
       var context = util.options(this, options);
       var ctx = Object.assign({}, options.data.root, context);
       var cwd = ctx.cwd || process.cwd();
-      return path2.resolve(cwd, filepath);
+      return path.resolve(cwd, filepath);
     };
     helpers.dirname = function(filepath, options) {
       if (typeof filepath !== "string") {
         throw new TypeError(util.expectedType("filepath", "string", filepath));
       }
-      return path2.dirname(filepath);
+      return path.dirname(filepath);
     };
     helpers.relative = function(a, b) {
       if (typeof a !== "string") {
@@ -11444,26 +11453,26 @@ var require_path = __commonJS({
       if (typeof filepath !== "string") {
         throw new TypeError(util.expectedType("filepath", "string", filepath));
       }
-      return path2.basename(filepath);
+      return path.basename(filepath);
     };
     helpers.stem = function(filepath) {
       if (typeof filepath !== "string") {
         throw new TypeError(util.expectedType("filepath", "string", filepath));
       }
-      return path2.basename(filepath, path2.extname(filepath));
+      return path.basename(filepath, path.extname(filepath));
     };
     helpers.extname = function(filepath) {
       if (typeof filepath !== "string") {
         throw new TypeError(util.expectedType("filepath", "string", filepath));
       }
-      return path2.extname(filepath);
+      return path.extname(filepath);
     };
     helpers.resolve = function(filepath) {
       var args = [].slice.call(arguments);
       var opts = util.options(this, args.pop());
-      var cwd = path2.resolve(opts.cwd || process.cwd());
+      var cwd = path.resolve(opts.cwd || process.cwd());
       args.unshift(cwd);
-      return path2.resolve.apply(path2, args);
+      return path.resolve.apply(path, args);
     };
     helpers.segments = function(filepath, a, b) {
       if (typeof filepath !== "string") {
@@ -11498,6 +11507,14 @@ var require_regex = __commonJS({
   }
 });
 
+// node_modules/@budibase/handlebars-helpers/lib/lorem.js
+var require_lorem = __commonJS({
+  "node_modules/@budibase/handlebars-helpers/lib/lorem.js"(exports, module2) {
+    var lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. \n\n Crase tempor malesuada magna a vehicula. Nam sollicitudin vel turpis id fermentum. Ut sit amet nisl ac nulla vulputate ultrices vitae vitae urna. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio. \n\n Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. Praesent id justo in neque elementum ultrices. Sed malesuada augue eu sapien sodales congue. Nam ut dui. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Vestibulum imperdiet nibh vel magna lacinia ultrices. Sed id ligula quis est convallis tempor. \n\n Aliquam erat volutpat. Integer aliquam ultrices nunc. Ut lectus dui, tincidunt ac, scelerisque ac, ultrices vitae, risus. Donec vehicula augue eu neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut leo. Cras viverra metus rhoncus sem. Nulla et lectus vestibulum urna fringilla ultrices. Phasellus eu tellus sit amet tortor gravida placerat. Integer sapien est, iaculis in, pretium quis, viverra ac, nunc. Praesent eget sem vel leo ultrices bibendum. Aenean faucibus. Morbi dolor nulla, malesuada eu, pulvinar at, mollis ac, nulla. Curabitur vehicula nisi a magna. Sed nec libero. Phasellus nonummy magna. Sed et libero nec ligula blandit fringilla. Ut pretium tempus gravida. Proin lacinia justo vel ipsum varius eget auctor est iaculis. \n\n Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. \n\n Nam dui erat, auctor a, dignissim quis. Aenean dignissim pellentesque felis. Sed gravida ante at nunc dictum placerat. Donec placerat nisl magna, et faucibus arcu condimentum sed. Curabitur et eros ac orci vehicula vestibulum sit amet at nunc. Maecenas non diam cursus, tincidunt nisi vitae, hendrerit enim. Donec vulputate felis id felis dapibus fermentum. \n\n Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. Praesent id justo in neque elementum ultrices. Sed malesuada augue eu sapien sodales congue. Nam ut dui. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. \n\n Pellentesque sit amet mauris eget lectus commodo viverra. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. \n\n Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. \n\n Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. \n\n Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. \n\n Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.";
+    module2.exports = lorem;
+  }
+});
+
 // node_modules/@budibase/handlebars-helpers/lib/string.js
 var require_string = __commonJS({
   "node_modules/@budibase/handlebars-helpers/lib/string.js"(exports, module2) {
@@ -11505,6 +11522,7 @@ var require_string = __commonJS({
     var util = require_handlebars_utils();
     var utils = require_utils2();
     var helpers = module2.exports;
+    var lorem = require_lorem();
     helpers.append = function(str, suffix) {
       if (typeof str === "string" && typeof suffix === "string") {
         return str + suffix;
@@ -11768,6 +11786,12 @@ var require_string = __commonJS({
       if (typeof str !== "string")
         return "";
       return str.toUpperCase();
+    };
+    helpers.lorem = function(num) {
+      if (isNaN(num) || num < 1 || !num) {
+        num = 11;
+      }
+      return lorem.substring(0, num);
     };
   }
 });
@@ -12605,7 +12629,6 @@ var Papa = require_papaparse_min();
 var handlebars = require_handlebars();
 var hb_helpers = require_handlebars_helpers()({ handlebars });
 var hb_utils = require_handlebars_utils();
-var path = require("path");
 var ExistingNotes;
 (function(ExistingNotes2) {
   ExistingNotes2[ExistingNotes2["KEEP_EXISTING"] = 0] = "KEEP_EXISTING";
@@ -12623,8 +12646,11 @@ var DEFAULT_SETTINGS = {
   handleExistingNote: 0,
   forceArray: true,
   multipleJSON: false,
-  uniqueNames: false
+  uniqueNames: false,
+  batchFile: null,
+  batchStep: null
 };
+var DIR_SEP = "/";
 function convertCsv(source) {
   var _a;
   let csv = Papa.parse(source, { header: true, skipEmptyLines: true });
@@ -12772,7 +12798,7 @@ var JsonImport = class extends import_obsidian.Plugin {
   }
   checkPath(filename) {
     return __async(this, null, function* () {
-      let pos = filename.lastIndexOf(path.sep);
+      let pos = filename.lastIndexOf(DIR_SEP);
       if (pos < 0)
         return true;
       let filepath = filename.slice(0, pos);
@@ -12788,8 +12814,8 @@ var JsonImport = class extends import_obsidian.Plugin {
   }
   generateNotes(objdata, sourcefile, templatefile, helperfile, settings) {
     return __async(this, null, function* () {
+      var _a;
       console.log(`generateNotes`, { templatefile, helperfile, settings });
-      let sourcefilename = sourcefile.name;
       this.knownpaths = new Set();
       this.namepath = settings.jsonNamePath;
       if (settings.uniqueNames)
@@ -12832,21 +12858,27 @@ var JsonImport = class extends import_obsidian.Plugin {
         importSourceFile: sourcefile,
         importDataRoot: objdata,
         importHelperFile: helperfile,
-        importSettings: settings
+        importSettings: settings,
+        importBatchStep: (_a = settings.batchStep) != null ? _a : ""
       };
       console.debug(`hboptions`, hboptions);
+      let notefunc;
+      let notefunc2;
+      if (settings.jsonName.startsWith("@{") && settings.jsonName.endsWith("}"))
+        notefunc2 = new Function("dataRoot", settings.jsonName.slice(2, -1));
+      else if (settings.jsonName.contains("${"))
+        notefunc = new Function("row", `return \`${settings.jsonName.replaceAll("${", "${row.")}\``);
       for (const [index, row] of entries) {
         if (!(row instanceof Object)) {
           console.info(`Ignoring element ${index} which is not an object: ${JSON.stringify(row)}`);
           continue;
         }
-        hboptions.data.sourceIndex = index;
+        hboptions.data.importSourceIndex = index;
         row.SourceIndex = index;
         row.dataRoot = objdata;
-        if (sourcefilename)
-          row.SourceFilename = sourcefilename;
-        let notefile = settings.jsonName;
-        notefile = notefile.contains("${") ? new Function("row", `return \`${notefile.replaceAll("${", "${row.")}\``)(row) : objfield(row, notefile);
+        if (sourcefile)
+          row.SourceFilename = sourcefile.name;
+        let notefile = notefunc ? notefunc(row) : notefunc2 ? notefunc2.call(row, objdata) : objfield(row, settings.jsonName);
         if (typeof notefile === "number")
           notefile = notefile.toString();
         if (!notefile || notefile.length == 0)
@@ -12865,7 +12897,7 @@ FOR ROW:
           console.log(`[object Object] appears in '${notefile}'`);
           new import_obsidian.Notice(`Incomplete conversion for '${notefile}'. Look for '[object Object]' (also reported in console)`);
         }
-        let filename = settings.folderName + path.sep + this.validFilename(notefile);
+        let filename = settings.folderName + DIR_SEP + this.validFilename(notefile);
         if (settings.uniqueNames) {
           let basename = filename;
           let counter = 0;
@@ -12875,18 +12907,18 @@ FOR ROW:
           this.nameMap.add(filename);
         }
         filename += ".md";
-        filename = filename.replaceAll(/(\/|\\)+/g, path.sep);
+        filename = filename.replaceAll(/(\/|\\)+/g, DIR_SEP);
         yield this.checkPath(filename);
         let file = this.app.vault.getAbstractFileByPath(filename);
-        if (!file)
-          yield this.app.vault.create(filename, body).catch((err) => console.log(`app.vault.create(${filename}): ${err}`));
+        if (file === null)
+          yield this.app.vault.create(filename, body).catch((err) => console.log(`app.vault.create("${filename}"): ${err}`));
         else
           switch (settings.handleExistingNote) {
             case 1:
-              yield this.app.vault.modify(file, body).catch((err) => console.log(`app.vault.modify(${file.path}): ${err}`));
+              yield this.app.vault.modify(file, body).catch((err) => console.log(`app.vault.modify("${file.path}"): ${err}`));
               break;
             case 2:
-              yield this.app.vault.append(file, body).catch((err) => console.log(`app.vault.append(${file.path}): ${err}`));
+              yield this.app.vault.append(file, body).catch((err) => console.log(`app.vault.append("${file.path}"): ${err}`));
               break;
             default:
               new import_obsidian.Notice(`Note already exists for '${filename}' - ignoring entry in data file`);
@@ -12951,7 +12983,14 @@ var FileSelectionModal = class extends import_obsidian.Modal {
         accept: ".js"
       }
     });
-    const setting3b = new import_obsidian.Setting(this.contentEl).setName("Field containing the data").setDesc("The field containing the array of data (leave blank to use entire file)");
+    const setting2b = new import_obsidian.Setting(this.contentEl).setName("Choose BATCH File").setDesc("Optionally select a file which controls multiple parses of the data");
+    const inputBatchFile = setting2b.controlEl.createEl("input", {
+      attr: {
+        type: "file",
+        accept: ".json"
+      }
+    });
+    const setting3b = new import_obsidian.Setting(this.contentEl).setName("Field containing the data").setDesc("The field containing the array of data (leave blank to use entire file) [in batch file 'fieldName']");
     const inputTopField = setting3b.controlEl.createEl("input", {
       attr: {
         type: "string"
@@ -12965,7 +13004,7 @@ var FileSelectionModal = class extends import_obsidian.Modal {
       }
     });
     inputForceArray.checked = !this.default_settings.forceArray;
-    const setting3 = new import_obsidian.Setting(this.contentEl).setName("Field to use as Note name").setDesc("Field in each row of the JSON/CSV data to be used for the note name");
+    const setting3 = new import_obsidian.Setting(this.contentEl).setName("Field to use as Note name").setDesc("Field in each row of the JSON/CSV data to be used for the note name [in batch file 'noteName']");
     const inputJsonName = setting3.controlEl.createEl("input", {
       attr: {
         type: "string",
@@ -12980,7 +13019,7 @@ var FileSelectionModal = class extends import_obsidian.Modal {
       }
     });
     inputUniqueNames.checked = this.default_settings.uniqueNames;
-    const settingPrefix = new import_obsidian.Setting(this.contentEl).setName("Note name prefix/suffix").setDesc("Optional prefix/suffix to be added either side of the value from the above Note name field");
+    const settingPrefix = new import_obsidian.Setting(this.contentEl).setName("Note name prefix/suffix").setDesc("Optional prefix/suffix to be added either side of the value from the above Note name field [in batch file 'namePrefix', 'nameSuffix']");
     const inputNotePrefix = settingPrefix.controlEl.createEl("input", {
       attr: {
         type: "string",
@@ -13010,7 +13049,7 @@ var FileSelectionModal = class extends import_obsidian.Modal {
     inputHandleExisting.add(new Option("REPLACE", 1 .toString()));
     inputHandleExisting.add(new Option("APPEND", 2 .toString()));
     inputHandleExisting.selectedIndex = this.default_settings.handleExistingNote;
-    const setting4 = new import_obsidian.Setting(this.contentEl).setName("Name of Destination Folder in Vault").setDesc("The name of the folder in your Obsidian Vault, which will be created if required");
+    const setting4 = new import_obsidian.Setting(this.contentEl).setName("Name of Destination Folder in Vault").setDesc("The name of the folder in your Obsidian Vault, which will be created if required [in batch file, 'folderName']");
     const inputFolderName = setting4.controlEl.createEl("input", {
       attr: {
         type: "string"
@@ -13021,7 +13060,7 @@ var FileSelectionModal = class extends import_obsidian.Modal {
     const input5 = setting5.controlEl.createEl("button");
     input5.textContent = "IMPORT";
     input5.onclick = () => __async(this, null, function* () {
-      var _a;
+      var _a, _b;
       const { files: templatefiles } = inputTemplateFile;
       if (!templatefiles.length) {
         new import_obsidian.Notice("No Template file selected");
@@ -13039,18 +13078,45 @@ var FileSelectionModal = class extends import_obsidian.Modal {
         handleExistingNote: parseInt(inputHandleExisting.value),
         forceArray: !inputForceArray.checked,
         multipleJSON: inputMultipleJSON.checked,
-        uniqueNames: inputUniqueNames.checked
+        uniqueNames: inputUniqueNames.checked,
+        batchFile: (_a = inputBatchFile.files) == null ? void 0 : _a[0]
       };
       function parsejson(text) {
         return settings.multipleJSON ? text.split(/(?<=})\s*(?={)/).map((obj) => JSON.parse(obj)) : [JSON.parse(text)];
+      }
+      function callHandler(objdata, sourcefile) {
+        return __async(this, null, function* () {
+          var _a2;
+          if (!settings.batchFile) {
+            yield this.handler.call(this.caller, objdata, sourcefile, templatefiles[0], helperfile == null ? void 0 : helperfile[0], settings);
+          } else {
+            let batch = JSON.parse(yield settings.batchFile.text());
+            console.log(batch);
+            for (let iter of batch) {
+              if (iter.fieldName)
+                settings.topField = iter.fieldName;
+              if (iter.noteName)
+                settings.jsonName = iter.noteName;
+              if (iter.folderName)
+                settings.folderName = iter.folderName;
+              if (iter.namePrefix)
+                settings.notePrefix = iter.notePrefix;
+              if (iter.nameSuffix)
+                settings.noteSuffix = iter.noteSuffix;
+              settings.batchStep = (_a2 = iter.batchStep) != null ? _a2 : "";
+              console.log(`BATCH processing '${settings.topField}', '${settings.jsonName}', '${settings.folderName}'`);
+              yield this.handler.call(this.caller, objdata, sourcefile, templatefiles[0], helperfile == null ? void 0 : helperfile[0], settings);
+            }
+          }
+        });
       }
       let srctext = inputJsonText.value;
       if (srctext.length > 0) {
         const is_json = srctext.startsWith("{") && srctext.endsWith("}");
         const objdataarray = is_json ? parsejson(srctext) : [convertCsv(srctext)];
         for (const objdata of objdataarray)
-          yield this.handler.call(this.caller, objdata, null, templatefiles[0], helperfile == null ? void 0 : helperfile[0], settings);
-      } else if (((_a = inputJsonUrl.value) == null ? void 0 : _a.length) > 0) {
+          yield callHandler.call(this, objdata, null);
+      } else if (((_b = inputJsonUrl.value) == null ? void 0 : _b.length) > 0) {
         const fromurl = yield fileFromUrl(inputJsonUrl.value).catch((e) => {
           new import_obsidian.Notice("Failed to GET data from URL");
           return null;
@@ -13059,7 +13125,7 @@ var FileSelectionModal = class extends import_obsidian.Modal {
           const objdataarray = parsejson(fromurl);
           console.debug(`JSON data from '${inputJsonUrl.value}' =`, objdataarray);
           for (const objdata of objdataarray)
-            yield this.handler.call(this.caller, objdata, null, templatefiles[0], helperfile == null ? void 0 : helperfile[0], settings);
+            yield callHandler.call(this, objdata, null);
         }
       } else {
         const { files: datafiles } = inputDataFile;
@@ -13073,7 +13139,7 @@ var FileSelectionModal = class extends import_obsidian.Modal {
           let is_json = datafiles[i].name.endsWith(".json");
           let objdataarray = is_json ? parsejson(srctext) : [convertCsv(srctext)];
           for (const objdata of objdataarray)
-            yield this.handler.call(this.caller, objdata, datafiles[i], templatefiles[0], helperfile == null ? void 0 : helperfile[0], settings);
+            yield callHandler.call(this, objdata, datafiles[i]);
         }
       }
       new import_obsidian.Notice("Import Finished");
@@ -13174,3 +13240,5 @@ License: MIT
  * Copyright (c) 2015-present, Jon Schlinkert.
  * Released under the MIT License.
  */
+
+/* nosourcemap */

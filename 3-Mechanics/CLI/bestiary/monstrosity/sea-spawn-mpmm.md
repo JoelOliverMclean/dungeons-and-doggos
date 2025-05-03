@@ -8,12 +8,12 @@ tags:
 - monster/environment/underwater
 - monster/size/medium
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Sea Spawn"]
 ---
-# Sea Spawn
+# [Sea Spawn](3-Mechanics\CLI\bestiary\monstrosity/sea-spawn-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 211, Volo's Guide to Monsters p. 189*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Sea%20Spawn.webp#right)  
 Many of the stories sung as sea chanteys and recounted in dockside taverns tell of people lost to the sea—but not merely drowned and gone. Some unfortunates taken by the ocean live on as sea spawn, haunting the waves like tortured reflections of their former selves. Coral encrusts them. Barnacles cling to their cold skin. Lungs that once filled with air can now breathe in water as well.
 
 Tales provide myriad reasons for these strange transformations. Folklore warns against falling in love with a sea elf or merfolk, braving storms in hopes of a bounteous catch, and promising your heart to a sea god. Such cautionary tales disguise the deeper truth: things lurking beneath the waves strive to claim the hearts and minds of land dwellers.
@@ -28,44 +28,53 @@ Visitors to a string of islands called the Purple Rocks (in the Forgotten Realms
 
 Kraken priests (in this book) tend to the kraken's flock. Most of the priests are island natives, but some are other sorts of creatures that live in the water around the Purple Rocks, such as [merfolk](/3-Mechanics/CLI/bestiary/humanoid/merfolk.md) or [merrow](/3-Mechanics/CLI/bestiary/monstrosity/merrow.md), or even sea elves.
 
-
-## Statblock
-
-```ad-statblock
-title: Sea Spawn
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Sea%20Spawn.webp#token)
-*Medium monstrosity, Typically  Neutral Evil*
-
-- **Armor Class** 11 (natural armor)
-- **Hit Points** 32 (`5d8 + 10`) 
-- **Speed** 20 ft., swim 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)| 8 (-1)|15 (+2)| 6 (-2)|10 (+0)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 10
-- **Languages** understands Aquan and Common but can't speak
-- **Challenge** 1
-
-## Traits
-
-***Limited Amphibiousness.*** The sea spawn can breathe air and water, but it needs to be submerged in the sea at least once a day for 1 minute to avoid suffocating.
-
-## Actions
-
-***Multiattack.*** The sea spawn makes two Unarmed Strike attacks and one Piscine Anatomy attack.
-
-***Unarmed Strike.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) bludgeoning damage.
-
-***Piscine Anatomy.*** The sea spawn uses one of the following options (choose one or roll a `d6`):
-
-- **1–2 Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.  
-- **3–4 Poison Quills.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 3 (`1d6`) poison damage, and the target must succeed on a DC 12 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
-- **5–6 Tentacle.** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 5 (`1d6 + 2`) bludgeoning damage, and the target is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 12) if it is a Medium or smaller creature. Until this grapple ends, the sea spawn can't use this tentacle on another target.  
+```statblock
+"name": "Sea Spawn (MPMM)"
+"size": "Medium"
+"type": "monstrosity"
+"alignment": "Typically  Neutral Evil"
+"ac": !!int "11"
+"ac_class": "natural armor"
+"hp": !!int "32"
+"hit_dice": "5d8 + 10"
+"stats":
+- !!int "15"
+- !!int "8"
+- !!int "15"
+- !!int "6"
+- !!int "10"
+- !!int "8"
+"speed": "20 ft., swim 30 ft."
+"senses": "darkvision 120 ft., passive Perception 10"
+"languages": "understands Aquan and Common but can't speak"
+"cr": "1"
+"traits":
+- "desc": "The sea spawn can breathe air and water, but it needs to be submerged in\
+    \ the sea at least once a day for 1 minute to avoid suffocating."
+  "name": "Limited Amphibiousness"
+"actions":
+- "desc": "The sea spawn makes two Unarmed Strike attacks and one Piscine Anatomy\
+    \ attack."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+    \ + 2) bludgeoning damage."
+  "name": "Unarmed Strike"
+- "desc": "The sea spawn uses one of the following options (choose one or roll a d6):\n\
+    \n- 1–2 Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target.\
+    \ Hit: 4 (1d4 + 2) piercing damage.  \n- 3–4 Poison Quills. Melee Weapon\
+    \ Attack: +4 to hit, reach 5 ft., one creature. Hit: 3 (1d6) poison damage,\
+    \ and the target must succeed on a DC 12 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success.  \n- 5–6 Tentacle. Melee\
+    \ Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 5 (1d6 + 2)\
+    \ bludgeoning damage, and the target is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled)\
+    \ (escape DC 12) if it is a Medium or smaller creature. Until this grapple ends,\
+    \ the sea spawn can't use this tentacle on another target.  "
+  "name": "Piscine Anatomy"
+"source":
+- "MPMM"
+- "VGM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Sea%20Spawn.webp"
 ```
 ^statblock
 

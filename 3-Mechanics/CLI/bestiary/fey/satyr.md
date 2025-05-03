@@ -7,12 +7,12 @@ tags:
 - monster/environment/forest
 - monster/size/medium
 - monster/type/fey
+statblock: inline
 aliases: ["Satyr"]
 ---
-# Satyr
+# [Satyr](3-Mechanics\CLI\bestiary\fey/satyr.md)
 *Source: Monster Manual p. 267. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Satyr.webp#right)  
 Satyrs are raucous fey that frolic in wild forests, driven by curiosity and hedonism in equal measure.
 
 Satyrs resemble stout male humans with the furry lower bodies and cloven hooves of goats. Horns sprout from their heads, ranging in shape from a pair of small nubs to large, curling rams' horns. They typically sport facial hair.
@@ -54,40 +54,55 @@ Inebriated on drink and pleasure, satyrs give no thought to the consequences of 
 > I while away the hours as I please.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Satyr
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Satyr.webp#token)
-*Medium fey, Chaotic Neutral*
-
-- **Armor Class** 14 ([leather armor](/3-Mechanics/CLI/items/leather-armor.md))
-- **Hit Points** 31 (`7d8`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|16 (+3)|11 (+0)|12 (+1)|10 (+0)|14 (+2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +2, Performance +6, Stealth +5
-- **Senses** passive Perception 12
-- **Languages** Common, Elvish, Sylvan
-- **Challenge** 1/2
-
-## Traits
-
-***Magic Resistance.*** The satyr has advantage on saving throws against spells and other magical effects.
-
-## Actions
-
-***Ram.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6 (`2d4 + 1`) bludgeoning damage.
-
-***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
-
-***Shortbow.*** *Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
+```statblock
+"name": "Satyr"
+"size": "Medium"
+"type": "fey"
+"alignment": "Chaotic Neutral"
+"ac": !!int "14"
+"ac_class": "[leather armor](/3-Mechanics/CLI/items/leather-armor.md)"
+"hp": !!int "31"
+"hit_dice": "7d8"
+"stats":
+- !!int "12"
+- !!int "16"
+- !!int "11"
+- !!int "12"
+- !!int "10"
+- !!int "14"
+"speed": "40 ft."
+"skillsaves":
+  "Stealth": !!int "5"
+  "Perception": !!int "2"
+  "Performance": !!int "6"
+"senses": "passive Perception 12"
+"languages": "Common, Elvish, Sylvan"
+"cr": "1/2"
+"traits":
+- "desc": "The satyr has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4\
+    \ + 1) bludgeoning damage."
+  "name": "Ram"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) piercing damage."
+  "name": "Shortsword"
+- "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+    \ 6 (1d6 + 3) piercing damage."
+  "name": "Shortbow"
+"source":
+- "MM"
+- "SKT"
+- "IMR"
+- "CM"
+- "WBtW"
+- "KftGV"
+- "SatO"
+- "ToFW"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Satyr.webp"
 ```
 ^statblock
 

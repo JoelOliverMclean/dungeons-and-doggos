@@ -6,45 +6,52 @@ tags:
 - monster/cr/
 - monster/size/small
 - monster/type/fey
+statblock: inline
 aliases: ["Fey Spirit (5th-level Spell)"]
 ---
-# Fey Spirit (5th-level Spell)
+# [Fey Spirit (5th-level Spell)](3-Mechanics\CLI\bestiary\fey/fey-spirit-5th-level-spell-tce.md)
 *Source: Tasha's Cauldron of Everything p. 112*  
 
-
-```ad-statblock
-title: Fey Spirit (5th-level Spell)
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/TCE/Fey%20Spirit.webp#token)
-*Small fey, Unaligned*
-
-- **Armor Class** 17 (natural armor)
-- **Hit Points** 50  (30 + 10 for each spell level above 3rd)
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|16 (+3)|14 (+2)|14 (+2)|11 (+0)|16 (+3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed)
-- **Languages** Sylvan, understands the languages you speak
-- **Challenge** 
-
-## Actions
-
-***Multiattack.*** The fey makes a number of attacks equal to half this spell's level (rounded down).
-
-***Shortsword.*** *Melee Weapon Attack:* the summoner's spell attack modifier to hit, reach 5 ft., one target. *Hit:* `1d6 + 3 + summonSpellLevel` piercing damage `+ 1d6` force damage.
-
-## Bonus Actions
-
-***Fey Step.*** The fey magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the fey's chosen mood:
-
-- **Fuming.** The fey has advantage on the next attack roll it makes before the end of this turn.  
-- **Mirthful.** The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) by you and the fey for 1 minute or until the target takes any damage.  
-- **Tricksy.** The fey can fill a 5-foot cube within 5 feet of it with magical darkness, which lasts until the end of its next turn.  
+```statblock
+"name": "Fey Spirit (5th-level Spell) (TCE)"
+"size": "Small"
+"type": "fey"
+"alignment": "Unaligned"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "50"
+"stats":
+- !!int "13"
+- !!int "16"
+- !!int "14"
+- !!int "14"
+- !!int "11"
+- !!int "16"
+"speed": "40 ft."
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed)"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Sylvan, understands the languages you speak"
+"actions":
+- "desc": "The fey makes a number of attacks equal to half this spell's level (rounded\
+    \ down)."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: the summoner's spell attack modifier to hit, reach\
+    \ 5 ft., one target. Hit: 1d6 + 3 + summonSpellLevel piercing damage + 1d6\
+    \ force damage."
+  "name": "Shortsword"
+"bonus_actions":
+- "desc": "The fey magically teleports up to 30 feet to an unoccupied space it can\
+    \ see. Then one of the following effects occurs, based on the fey's chosen mood:\n\
+    \n- Fuming. The fey has advantage on the next attack roll it makes before\
+    \ the end of this turn.  \n- Mirthful. The fey can force one creature it can\
+    \ see within 10 feet of it to make a Wisdom saving throw against your spell save\
+    \ DC. Unless the save succeeds, the target is [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed)\
+    \ by you and the fey for 1 minute or until the target takes any damage.  \n- Tricksy.\
+    \ The fey can fill a 5-foot cube within 5 feet of it with magical darkness, which\
+    \ lasts until the end of its next turn.  "
+  "name": "Fey Step"
+"source":
+- "TCE"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/TCE/Fey%20Spirit.webp"
 ```
 ^statblock

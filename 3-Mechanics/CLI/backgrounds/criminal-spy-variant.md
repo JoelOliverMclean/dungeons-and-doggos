@@ -23,7 +23,7 @@ You have a reliable and trustworthy contact who acts as your liaison to a networ
 
 There are many kinds of criminals, and within a thieves' guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others. Choose the role you played in your criminal life, or roll on the table below.
 
-`dice: [](variant-criminal-spy.md#^specialty)`
+`dice: [](criminal-spy-variant.md#^specialty)`
 
 | dice: d8 | Specialty |
 |----------|-----------|
@@ -41,7 +41,7 @@ There are many kinds of criminals, and within a thieves' guild or similar crimin
 
 Criminals might seem like villains on the surface, and many of them are villainous to the core. But some have an abundance of endearing, if not redeeming, characteristics. There might be honor among thieves, but criminals rarely show any respect for law or authority.
 
-`dice: [](variant-criminal-spy.md#^personality-trait)`
+`dice: [](criminal-spy-variant.md#^personality-trait)`
 
 | dice: d8 | Personality Trait |
 |----------|-------------------|
@@ -55,7 +55,7 @@ Criminals might seem like villains on the surface, and many of them are villaino
 | 8 | I blow up at the slightest insult. |
 ^personality-trait
 
-`dice: [](variant-criminal-spy.md#^ideal)`
+`dice: [](criminal-spy-variant.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -67,7 +67,7 @@ Criminals might seem like villains on the surface, and many of them are villaino
 | 6 | Redemption. There's a spark of good in everyone. (Good) |
 ^ideal
 
-`dice: [](variant-criminal-spy.md#^bond)`
+`dice: [](criminal-spy-variant.md#^bond)`
 
 | dice: d6 | Bond |
 |----------|------|
@@ -79,7 +79,7 @@ Criminals might seem like villains on the surface, and many of them are villaino
 | 6 | Someone I loved died because of a mistake I made. That will never happen again. |
 ^bond
 
-`dice: [](variant-criminal-spy.md#^flaw)`
+`dice: [](criminal-spy-variant.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

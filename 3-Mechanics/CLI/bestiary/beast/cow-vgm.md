@@ -7,41 +7,46 @@ tags:
 - monster/environment/grassland
 - monster/size/large
 - monster/type/beast
+statblock: inline
 aliases: ["Cow"]
 ---
-# Cow
+# [Cow](3-Mechanics\CLI\bestiary\beast/cow-vgm.md)
 *Source: Volo's Guide to Monsters p. 207*  
 
 There are many kinds of cattle, from common oxen to more unusual, magical variants.
 
-
-```ad-statblock
-title: Cow
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Cow.webp#token)
-*Large beast, Unaligned*
-
-- **Armor Class** 10 
-- **Hit Points** 15 (`2d10 + 4`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|10 (+0)|14 (+2)| 2 (-4)|10 (+0)| 4 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 10
-- **Languages** —
-- **Challenge** 1/4
-
-## Traits
-
-***Charge.*** If the cow moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (`2d6`) piercing damage.
-
-## Actions
-
-***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (`1d6 + 4`) piercing damage.
+```statblock
+"name": "Cow (VGM)"
+"size": "Large"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "10"
+"hp": !!int "15"
+"hit_dice": "2d10 + 4"
+"stats":
+- !!int "18"
+- !!int "10"
+- !!int "14"
+- !!int "2"
+- !!int "10"
+- !!int "4"
+"speed": "30 ft."
+"senses": "passive Perception 10"
+"languages": ""
+"cr": "1/4"
+"traits":
+- "desc": "If the cow moves at least 20 feet straight toward a target and then hits\
+    \ it with a gore attack on the same turn, the target takes an extra 7 (2d6)\
+    \ piercing damage."
+  "name": "Charge"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6\
+    \ + 4) piercing damage."
+  "name": "Gore"
+"source":
+- "VGM"
+- "DIP"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Cow.webp"
 ```
 ^statblock
 

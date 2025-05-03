@@ -18,7 +18,7 @@ aliases: ["Eldritch Cannon, Flamethrower"]
 title: Eldritch Cannon, Flamethrower
 *Unknown Unknown*
 
-- **Armor Class** 18 
+- **Armor Class** 18
 - **Speed** 
 
 |STR|DEX|CON|INT|WIS|CHA|

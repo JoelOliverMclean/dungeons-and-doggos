@@ -42,7 +42,7 @@ When the wall appears, each creature within its area must make a Dexterity savin
 
 One side of the wall, selected by you when you cast this spell, deals `5d8` fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by `1d8` for each slot level above 4th.
 
 **Classes**: [Artificer (Artillerist)](/3-Mechanics/CLI/classes/artificer-artillerist-tce.md), [Cleric (Forge Domain)](/3-Mechanics/CLI/classes/cleric-forge-domain-xge.md), [Cleric (Light Domain)](/3-Mechanics/CLI/classes/cleric-light-domain.md), [Druid](/3-Mechanics/CLI/classes/druid.md), [Fighter (Eldritch Knight)](/3-Mechanics/CLI/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](/3-Mechanics/CLI/classes/rogue-arcane-trickster.md), [Sorcerer](/3-Mechanics/CLI/classes/sorcerer.md), [Warlock (The Celestial)](/3-Mechanics/CLI/classes/warlock-the-celestial-xge.md), [Warlock (The Fiend)](/3-Mechanics/CLI/classes/warlock-the-fiend.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

@@ -10,12 +10,12 @@ tags:
 - monster/environment/hill
 - monster/size/medium
 - monster/type/fiend/gnoll
+statblock: inline
 aliases: ["Gnoll Fang of Yeenoghu"]
 ---
-# Gnoll Fang of Yeenoghu
+# [Gnoll Fang of Yeenoghu](3-Mechanics\CLI\bestiary\fiend/gnoll-fang-of-yeenoghu.md)
 *Source: Monster Manual p. 163*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Gnoll%20Fang%20of%20Yeenoghu.webp#right)  
 Gnolls celebrate their victories by performing demonic rituals and making blood offerings to Yeenoghu.
 
 Sometimes the demon lord rewards his worshipers by allowing one of them to be possessed by a demonic spirit. Marked as Yeenoghu's favorite, the lucky recipient becomes a fang of Yeenoghu, the chosen of the Gnoll Lord. In much the same way Yeenoghu created the first gnolls, a hyena that feasts on a fang's slain foe undergoes a horrible transformation, becoming a full-grown adult gnoll. Depending on the number of hyenas in a region, a fang of Yeenoghu can lead to a startling increase in the gnoll population. Finding and killing the fang is the only way to keep that population in check.
@@ -38,40 +38,54 @@ Gnolls are dangerous because they strike at random. They emerge from the wildern
 
 No goodness or compassion resides in the heart of a gnoll. Like a demon, it lacks anything resembling a conscience, and can't be taught or coerced to put aside its destructive tendencies. The gnolls' frenzied bloodlust makes them an enemy to all, and when they lack a common foe, they fight among themselves. Even the most savage orcs avoid allying with gnolls.
 
-
-## Statblock
-
-```ad-statblock
-title: Gnoll Fang of Yeenoghu
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Gnoll%20Fang%20of%20Yeenoghu.webp#token)
-*Medium fiend (gnoll), Chaotic Evil*
-
-- **Armor Class** 14 ([hide armor](/3-Mechanics/CLI/items/hide-armor.md))
-- **Hit Points** 65 (`10d8 + 20`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|15 (+2)|15 (+2)|10 (+0)|11 (+0)|13 (+1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Constitution +4, Wisdom +2, Charisma +3
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Languages** Abyssal, Gnoll
-- **Challenge** 4
-
-## Traits
-
-***Rampage.*** When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
-
-## Actions
-
-***Multiattack.*** The gnoll makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 6 (`1d6 + 3`) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 7 (`2d6`) poison damage.
-
-***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) slashing damage.
+```statblock
+"name": "Gnoll Fang of Yeenoghu"
+"size": "Medium"
+"type": "fiend"
+"subtype": "gnoll"
+"alignment": "Chaotic Evil"
+"ac": !!int "14"
+"ac_class": "[hide armor](/3-Mechanics/CLI/items/hide-armor.md)"
+"hp": !!int "65"
+"hit_dice": "10d8 + 20"
+"stats":
+- !!int "17"
+- !!int "15"
+- !!int "15"
+- !!int "10"
+- !!int "11"
+- !!int "13"
+"speed": "30 ft."
+"saves":
+  "Charisma": !!int "3"
+  "Wisdom": !!int "2"
+  "Constitution": !!int "4"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Abyssal, Gnoll"
+"cr": "4"
+"traits":
+- "desc": "When the gnoll reduces a creature to 0 hit points with a melee attack on\
+    \ its turn, the gnoll can take a bonus action to move up to half its speed and\
+    \ make a bite attack."
+  "name": "Rampage"
+"actions":
+- "desc": "The gnoll makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6\
+    \ (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution\
+    \ saving throw or take 7 (2d6) poison damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8\
+    \ + 3) slashing damage."
+  "name": "Claw"
+"source":
+- "MM"
+- "BGDIA"
+- "IDRotF"
+- "SatO"
+- "ToFW"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Gnoll%20Fang%20of%20Yeenoghu.webp"
 ```
 ^statblock
 

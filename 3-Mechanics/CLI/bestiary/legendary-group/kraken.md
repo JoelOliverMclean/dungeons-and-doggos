@@ -27,8 +27,3 @@ The region containing a kraken's lair is warped by the creature's blasphemous pr
 - Aquatic creatures within 6 miles of the lair that have an Intelligence score of 2 or lower are [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) by the kraken and aggressive toward intruders in the area.  
 
 When the kraken dies, all of these regional effects fade immediately.
-
-## Is homebrew
-_Source: Monster Manual_
-
-false

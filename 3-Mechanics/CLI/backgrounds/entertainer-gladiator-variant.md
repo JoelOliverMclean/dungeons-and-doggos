@@ -23,7 +23,7 @@ You can always find a place to perform in any place that features combat for ent
 
 A good entertainer is versatile, spicing up every performance with a variety of different routines. Choose one to three routines or roll on the table below to define your expertise as an entertainer.
 
-`dice: [](variant-entertainer-gladiator.md#^routines)`
+`dice: [](entertainer-gladiator-variant.md#^routines)`
 
 | dice: d10 | Routines |
 |-----------|----------|
@@ -43,7 +43,7 @@ A good entertainer is versatile, spicing up every performance with a variety of 
 
 Successful entertainers have to be able to capture and hold an audience's attention, so they tend to have flamboyant or forceful personalities. They're inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty.
 
-`dice: [](variant-entertainer-gladiator.md#^personality-trait)`
+`dice: [](entertainer-gladiator-variant.md#^personality-trait)`
 
 | dice: d8 | Personality Trait |
 |----------|-------------------|
@@ -57,7 +57,7 @@ Successful entertainers have to be able to capture and hold an audience's attent
 | 8 | I change my mood or my mind as quickly as I change key in a song. |
 ^personality-trait
 
-`dice: [](variant-entertainer-gladiator.md#^ideal)`
+`dice: [](entertainer-gladiator-variant.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -69,7 +69,7 @@ Successful entertainers have to be able to capture and hold an audience's attent
 | 6 | Honesty. Art should reflect the soul; it should come from within and reveal who we really are. (Any) |
 ^ideal
 
-`dice: [](variant-entertainer-gladiator.md#^bond)`
+`dice: [](entertainer-gladiator-variant.md#^bond)`
 
 | dice: d6 | Bond |
 |----------|------|
@@ -81,7 +81,7 @@ Successful entertainers have to be able to capture and hold an audience's attent
 | 6 | I would do anything for the other members of my old troupe. |
 ^bond
 
-`dice: [](variant-entertainer-gladiator.md#^flaw)`
+`dice: [](entertainer-gladiator-variant.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

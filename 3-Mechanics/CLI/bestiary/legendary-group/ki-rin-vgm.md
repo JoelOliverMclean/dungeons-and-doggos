@@ -25,8 +25,3 @@ The ki-rin's celestial nature transforms the region around its lair. Any of the 
 - Within 3 miles of the lair, winds buoy non-evil creatures that fall due to no act of the ki-rin or its allies. Such creatures descend at a rate of 60 feet per round and take no falling damage.  
 
 When the ki-rin dies, all these effects disappear immediately, although the invigorating effect on flora and fauna remains for 3 years.
-
-## Is homebrew
-_Source: Volo's Guide to Monsters_
-
-false

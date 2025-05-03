@@ -10,7 +10,7 @@ aliases: ["Class Training; I became..."]
 
 **Barbarian**
 
-`dice: [](class-training-i-became-xge.md#^barbarian)`
+`dice: [](class-training-i-became.md#^barbarian)`
 
 | dice: d6 | I became a barbarian because... |
 |----------|---------------------------------|
@@ -24,7 +24,7 @@ aliases: ["Class Training; I became..."]
 
 **Bard**
 
-`dice: [](class-training-i-became-xge.md#^bard)`
+`dice: [](class-training-i-became.md#^bard)`
 
 | dice: d6 | I became a bard because... |
 |----------|----------------------------|
@@ -38,7 +38,7 @@ aliases: ["Class Training; I became..."]
 
 **Cleric**
 
-`dice: [](class-training-i-became-xge.md#^cleric)`
+`dice: [](class-training-i-became.md#^cleric)`
 
 | dice: d6 | I became a cleric because... |
 |----------|------------------------------|
@@ -52,7 +52,7 @@ aliases: ["Class Training; I became..."]
 
 **Druid**
 
-`dice: [](class-training-i-became-xge.md#^druid)`
+`dice: [](class-training-i-became.md#^druid)`
 
 | dice: d6 | I became a druid because... |
 |----------|-----------------------------|
@@ -66,7 +66,7 @@ aliases: ["Class Training; I became..."]
 
 **Fighter**
 
-`dice: [](class-training-i-became-xge.md#^fighter)`
+`dice: [](class-training-i-became.md#^fighter)`
 
 | dice: d6 | I became a fighter because... |
 |----------|-------------------------------|
@@ -80,7 +80,7 @@ aliases: ["Class Training; I became..."]
 
 **Monk**
 
-`dice: [](class-training-i-became-xge.md#^monk)`
+`dice: [](class-training-i-became.md#^monk)`
 
 | dice: d6 | I became a monk because... |
 |----------|----------------------------|
@@ -94,7 +94,7 @@ aliases: ["Class Training; I became..."]
 
 **Paladin**
 
-`dice: [](class-training-i-became-xge.md#^paladin)`
+`dice: [](class-training-i-became.md#^paladin)`
 
 | dice: d6 | I became a paladin because... |
 |----------|-------------------------------|
@@ -108,7 +108,7 @@ aliases: ["Class Training; I became..."]
 
 **Ranger**
 
-`dice: [](class-training-i-became-xge.md#^ranger)`
+`dice: [](class-training-i-became.md#^ranger)`
 
 | dice: d6 | I became a ranger because... |
 |----------|------------------------------|
@@ -122,7 +122,7 @@ aliases: ["Class Training; I became..."]
 
 **Rogue**
 
-`dice: [](class-training-i-became-xge.md#^rogue)`
+`dice: [](class-training-i-became.md#^rogue)`
 
 | dice: d6 | I became a rogue because... |
 |----------|-----------------------------|
@@ -136,7 +136,7 @@ aliases: ["Class Training; I became..."]
 
 **Sorcerer**
 
-`dice: [](class-training-i-became-xge.md#^sorcerer)`
+`dice: [](class-training-i-became.md#^sorcerer)`
 
 | dice: d6 | I became a sorcerer because... |
 |----------|--------------------------------|
@@ -150,7 +150,7 @@ aliases: ["Class Training; I became..."]
 
 **Warlock**
 
-`dice: [](class-training-i-became-xge.md#^warlock)`
+`dice: [](class-training-i-became.md#^warlock)`
 
 | dice: d6 | I became a warlock because... |
 |----------|-------------------------------|
@@ -164,7 +164,7 @@ aliases: ["Class Training; I became..."]
 
 **Wizard**
 
-`dice: [](class-training-i-became-xge.md#^wizard)`
+`dice: [](class-training-i-became.md#^wizard)`
 
 | dice: d6 | I became a wizard because... |
 |----------|------------------------------|

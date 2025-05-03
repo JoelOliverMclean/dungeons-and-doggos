@@ -37,7 +37,7 @@ A bright streak flashes from your pointing finger to a point you choose within r
 
 The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
+**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `1d6` for each slot level above 3rd.
 
 **Classes**: [Artificer (Artillerist)](/3-Mechanics/CLI/classes/artificer-artillerist-tce.md), [Cleric (Light Domain)](/3-Mechanics/CLI/classes/cleric-light-domain.md), [Fighter (Eldritch Knight)](/3-Mechanics/CLI/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](/3-Mechanics/CLI/classes/rogue-arcane-trickster.md), [Sorcerer](/3-Mechanics/CLI/classes/sorcerer.md), [Warlock (The Fiend)](/3-Mechanics/CLI/classes/warlock-the-fiend.md), [Warlock (The Genie)](/3-Mechanics/CLI/classes/warlock-the-genie-tce.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

@@ -25,7 +25,7 @@ A swarm of intangible nature spirits has bonded itself to you and can assist you
 
 **Swarm Appearance**
 
-`dice: [](ranger.md#^swarm-appearance)`
+`dice: [](ranger-swarmkeeper-tce.md#^swarm-appearance)`
 
 | dice: d4 | Appearance |
 |----------|------------|

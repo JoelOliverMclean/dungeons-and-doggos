@@ -6,12 +6,12 @@ tags:
 - monster/cr/2
 - monster/size/medium
 - monster/type/humanoid/gith
+statblock: inline
 aliases: ["Githzerai Monk"]
 ---
-# Githzerai Monk
+# [Githzerai Monk](3-Mechanics\CLI\bestiary\humanoid/githzerai-monk.md)
 *Source: Monster Manual p. 161*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Githzerai.webp#right)  
 Focused philosophers and austere ascetics, the githzerai pursue lives of rigid order. Lean and muscular, they wear unadorned clothing free of ornamentation, keeping their own counsel and trusting few creatures outside of their own kind. Having turned their backs on their warlike githyanki kin, the githzerai maintain a strict monastic lifestyle, dwelling on islands of order in the vast sea of chaos that is the plane of Limbo.
 
 ## Psionic Adepts
@@ -59,43 +59,54 @@ Whether these tall, gaunt creatures were peaceful or savage, cultured or primiti
 > The githyanki and the githzerai were so profoundly scarred by their enslavement to the mind flayers that they forget they were one race, united. Having won their freedom, they wage war against each other with a hatred none can fully comprehend.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Githzerai Monk
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Githzerai%20Monk.webp#token)
-*Medium humanoid (gith), Lawful Neutral*
-
-- **Armor Class** 14 
-- **Hit Points** 38 (`7d8 + 7`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|15 (+2)|12 (+1)|13 (+1)|14 (+2)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Strength +3, Dexterity +4, Intelligence +3, Wisdom +4
-- **Skills** Insight +4, Perception +4
-- **Senses** passive Perception 14
-- **Languages** Gith
-- **Challenge** 2
-
-## Traits
-
-***Psychic Defense.*** While the githzerai is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
-
-***Innate Spellcasting (Psionics).*** The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:
-
-**At will**: [mage hand](/3-Mechanics/CLI/spells/mage-hand.md) (the hand is invisible)
-
-**3/day each**: [feather fall](/3-Mechanics/CLI/spells/feather-fall.md), [jump](/3-Mechanics/CLI/spells/jump.md), [see invisibility](/3-Mechanics/CLI/spells/see-invisibility.md), [shield](/3-Mechanics/CLI/spells/shield.md)
-
-## Actions
-
-***Multiattack.*** The githzerai makes two unarmed strikes.
-
-***Unarmed Strike.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (`1d8 + 2`) bludgeoning damage plus 9 (`2d8`) psychic damage. This is a magic weapon attack.
+```statblock
+"name": "Githzerai Monk"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "gith"
+"alignment": "Lawful Neutral"
+"ac": !!int "14"
+"hp": !!int "38"
+"hit_dice": "7d8 + 7"
+"stats":
+- !!int "12"
+- !!int "15"
+- !!int "12"
+- !!int "13"
+- !!int "14"
+- !!int "10"
+"speed": "30 ft."
+"saves":
+  "Dexterity": !!int "4"
+  "Wisdom": !!int "4"
+  "Intelligence": !!int "3"
+  "Strength": !!int "3"
+"skillsaves":
+  "Insight": !!int "4"
+  "Perception": !!int "4"
+"senses": "passive Perception 14"
+"languages": "Gith"
+"cr": "2"
+"traits":
+- "desc": "The githzerai's innate spellcasting ability is Wisdom. It can innately\
+    \ cast the following spells, requiring no components:\n\nAt will: [mage hand](/3-Mechanics/CLI/spells/mage-hand.md)\
+    \ (the hand is invisible)\n\n3/day each: [feather fall](/3-Mechanics/CLI/spells/feather-fall.md),\
+    \ [jump](/3-Mechanics/CLI/spells/jump.md), [see invisibility](/3-Mechanics/CLI/spells/see-invisibility.md),\
+    \ [shield](/3-Mechanics/CLI/spells/shield.md)"
+  "name": "Innate Spellcasting (Psionics)"
+- "desc": "While the githzerai is wearing no armor and wielding no shield, its AC\
+    \ includes its Wisdom modifier."
+  "name": "Psychic Defense"
+"actions":
+- "desc": "The githzerai makes two unarmed strikes."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
+    \ + 2) bludgeoning damage plus 9 (2d8) psychic damage. This is a magic weapon\
+    \ attack."
+  "name": "Unarmed Strike"
+"source":
+- "MM"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Githzerai%20Monk.webp"
 ```
 ^statblock

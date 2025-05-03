@@ -28,7 +28,7 @@ Until the spell ends, any attack you make deals `1d8` extra damage when you hit 
 
 In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 3rd.
+**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `1d8` for every two slot levels above 3rd.
 
 **Classes**: [Fighter (Eldritch Knight)](/3-Mechanics/CLI/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](/3-Mechanics/CLI/classes/rogue-arcane-trickster.md), [Sorcerer (Divine Soul)](/3-Mechanics/CLI/classes/sorcerer-divine-soul-xge.md)
 

@@ -8,12 +8,12 @@ tags:
 - monster/environment/mountain
 - monster/size/large
 - monster/type/dragon
+statblock: inline
 aliases: ["Young Red Dragon"]
 ---
-# Young Red Dragon
+# [Young Red Dragon](3-Mechanics\CLI\bestiary\dragon/young-red-dragon.md)
 *Source: Monster Manual p. 98, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Red%20Dragon.webp#right)  
 The most covetous of the true dragons, red dragons tirelessly seek to increase their treasure hoards. They are exceptionally vain, even for dragons, and their conceit is reflected in their proud bearing and their disdain for other creatures. The odor of sulfur and pumice surrounds a red dragon, whose swept-back horns and spinal frill define its silhouette. Its beaked snout vents smoke at all times, and its eyes dance with flame when it is angry. Its wings are the longest of any chromatic dragon, and have a blue-black tint along the trailing edge that resembles metal burned blue by fire.
 
 The scales of a red dragon wyrmling are a bright glossy scarlet, turning a dull, deeper red and becoming as thick and strong as metal as the dragon ages. Its pupils also fade as it ages, and the oldest red dragons have eyes that resemble molten lava orbs.
@@ -92,39 +92,62 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Young Red Dragon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Red%20Dragon.webp#token)
-*Large dragon, Chaotic Evil*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 178 (`17d10 + 85`) 
-- **Speed** 40 ft., climb 40 ft., fly 80 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|23 (+6)|10 (+0)|21 (+5)|14 (+2)|11 (+0)|19 (+4)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Dexterity +4, Constitution +9, Wisdom +4, Charisma +8
-- **Skills** Perception +8, Stealth +4
-- **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 18
-- **Damage Immunities** fire
-- **Languages** Common, Draconic
-- **Challenge** 10
-
-## Actions
-
-***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 17 (`2d10 + 6`) piercing damage plus 3 (`1d6`) fire damage.
-
-***Claw.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 13 (`2d6 + 6`) slashing damage.
-
-***Fire Breath (Recharge 5-6).*** The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 56 (`16d6`) fire damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Young Red Dragon"
+"size": "Large"
+"type": "dragon"
+"alignment": "Chaotic Evil"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "178"
+"hit_dice": "17d10 + 85"
+"stats":
+- !!int "23"
+- !!int "10"
+- !!int "21"
+- !!int "14"
+- !!int "11"
+- !!int "19"
+"speed": "40 ft., climb 40 ft., fly 80 ft."
+"saves":
+  "Charisma": !!int "8"
+  "Dexterity": !!int "4"
+  "Wisdom": !!int "4"
+  "Constitution": !!int "9"
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "8"
+"damage_immunities": "fire"
+"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+"languages": "Common, Draconic"
+"cr": "10"
+"actions":
+- "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17\
+    \ (2d10 + 6) piercing damage plus 3 (1d6) fire damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d6 + 6) slashing damage."
+  "name": "Claw"
+- "desc": "The dragon exhales fire in a 30-foot cone. Each creature in that area must\
+    \ make a DC 17 Dexterity saving throw, taking 56 (16d6) fire damage on a failed\
+    \ save, or half as much damage on a successful one."
+  "name": "Fire Breath (Recharge 5-6)"
+"source":
+- "MM"
+- "PotA"
+- "RoT"
+- "ToA"
+- "WDMM"
+- "JttRC"
+- "LoX"
+- "DSotDQ"
+- "KftGV"
+- "LK"
+- "SatO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Red%20Dragon.webp"
 ```
 ^statblock
 

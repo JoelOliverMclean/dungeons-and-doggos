@@ -21,7 +21,7 @@ You choose your patron's kind or determine it randomly, using the Genie Kind tab
 
 **Genie Kind**
 
-`dice: [](warlock.md#^genie-kind)`
+`dice: [](warlock-the-genie-tce.md#^genie-kind)`
 
 | dice: d4 | Kind | Element |
 |----------|------|---------|
@@ -58,7 +58,7 @@ Your patron gifts you a magical vessel that grants you a measure of the genie's 
 
 **Genie's Vessel**
 
-`dice: [](warlock.md#^genies-vessel)`
+`dice: [](warlock-the-genie-tce.md#^genies-vessel)`
 
 | dice: d6 | Vessel |
 |----------|--------|

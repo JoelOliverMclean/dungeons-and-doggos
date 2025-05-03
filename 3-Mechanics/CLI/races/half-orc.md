@@ -11,7 +11,6 @@ aliases: ["Half-Orc"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Half-Orc.webp#right)  
 
 - **Ability Scores**: Strength +2, Constitution +1
-- **Type**: subrace
 - **Size**: Medium
 - **Speed**: 30 ft.
 

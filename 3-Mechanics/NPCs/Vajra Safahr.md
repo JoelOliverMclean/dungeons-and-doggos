@@ -44,6 +44,8 @@ accent:
 > ### RP
 > Accent: **`=this.accent`**
 
+**Vajra Safahr, known as the Blackstaff, is a commanding and enigmatic figure in Waterdeep. With long black hair and piercing eyes, she exudes both authority and mystique. Clad in elegant, dark robes and wielding the legendary Blackstaff—a dark, rune-etched artifact—she is the city’s High Wizard and protector. Vajra is revered for her immense magical power and wisdom, serving as a vigilant guardian of Waterdeep’s arcane and civic interests.**
+
 ![[vajra-safahr-wdh#^026926]]
 ![[vajra-safahr-wdh#^b0a0ce]]
 ![[vajra-safahr-wdh#^8ae7a3]]

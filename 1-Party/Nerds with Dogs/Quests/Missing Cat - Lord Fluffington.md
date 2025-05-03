@@ -1,0 +1,1 @@
+He's actually a poly-morphed wizard ([[Endras Tithytenderham]]) who has been thus far unable to return to his usual form.

@@ -13,12 +13,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/orc
+statblock: inline
 aliases: ["Orc Eye of Gruumsh"]
 ---
-# Orc Eye of Gruumsh
+# [Orc Eye of Gruumsh](3-Mechanics\CLI\bestiary\humanoid/orc-eye-of-gruumsh.md)
 *Source: Monster Manual p. 247*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Orc.webp#right)  
 Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.
 
 ## Gruumsh One-Eye
@@ -55,46 +55,58 @@ When an orc slays an elf in Gruumsh's name and offers the corpse of its foe as a
 
 If the orc plucks out one of its eyes, Gruumsh might grant the orc spellcasting ability and special favor, along with the right to call itself an Eye of Gruumsh. When not using their auguries to advise their war chiefs, these savage devotees of the god of slaughter hurl themselves into battle, their weapons stained with blood.
 
-
-## Statblock
-
-```ad-statblock
-title: Orc Eye of Gruumsh
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Orc%20Eye%20of%20Gruumsh.webp#token)
-*Medium humanoid (orc), Chaotic Evil*
-
-- **Armor Class** 16 ([ring mail](/3-Mechanics/CLI/items/ring-mail.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 45 (`6d8 + 18`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|12 (+1)|17 (+3)| 9 (-1)|13 (+1)|12 (+1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Intimidation +3, Religion +1
-- **Senses** darkvision 60 ft., passive Perception 11
-- **Languages** Common, Orc
-- **Challenge** 2
-
-## Traits
-
-***Aggressive.*** As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
-
-***Gruumsh's Fury.*** The orc deals an extra 4 (`1d8`) damage when it hits with a weapon attack (included in the attacks).
-
-***Spellcasting.*** The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The orc has the following cleric spells prepared:
-
-**Cantrips (at will)**: [guidance](/3-Mechanics/CLI/spells/guidance.md), [resistance](/3-Mechanics/CLI/spells/resistance.md), [thaumaturgy](/3-Mechanics/CLI/spells/thaumaturgy.md)
-
-**1st level (4 slots)**: [bless](/3-Mechanics/CLI/spells/bless.md), [command](/3-Mechanics/CLI/spells/command.md)
-
-**2nd level (2 slots)**: [augury](/3-Mechanics/CLI/spells/augury.md), [spiritual weapon](/3-Mechanics/CLI/spells/spiritual-weapon.md) (spear)
-
-## Actions
-
-***Spear.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 11 (`1d6 + 3` plus `1d8`) piercing damage, or 12 (`2d8 + 3`) piercing damage if used with two hands to make a melee attack.
+```statblock
+"name": "Orc Eye of Gruumsh"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "orc"
+"alignment": "Chaotic Evil"
+"ac": !!int "16"
+"ac_class": "[ring mail](/3-Mechanics/CLI/items/ring-mail.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "45"
+"hit_dice": "6d8 + 18"
+"stats":
+- !!int "16"
+- !!int "12"
+- !!int "17"
+- !!int "9"
+- !!int "13"
+- !!int "12"
+"speed": "30 ft."
+"skillsaves":
+  "Intimidation": !!int "3"
+  "Religion": !!int "1"
+"senses": "darkvision 60 ft., passive Perception 11"
+"languages": "Common, Orc"
+"cr": "2"
+"traits":
+- "desc": "The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom\
+    \ (spell save DC 11, +3 to hit with spell attacks). The orc has the following\
+    \ cleric spells prepared:\n\nCantrips (at will): [guidance](/3-Mechanics/CLI/spells/guidance.md),\
+    \ [resistance](/3-Mechanics/CLI/spells/resistance.md), [thaumaturgy](/3-Mechanics/CLI/spells/thaumaturgy.md)\n\
+    \n1st level (4 slots): [bless](/3-Mechanics/CLI/spells/bless.md), [command](/3-Mechanics/CLI/spells/command.md)\n\
+    \n2nd level (2 slots): [augury](/3-Mechanics/CLI/spells/augury.md), [spiritual\
+    \ weapon](/3-Mechanics/CLI/spells/spiritual-weapon.md) (spear)"
+  "name": "Spellcasting"
+- "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature\
+    \ that it can see."
+  "name": "Aggressive"
+- "desc": "The orc deals an extra 4 (1d8) damage when it hits with a weapon attack\
+    \ (included in the attacks)."
+  "name": "Gruumsh's Fury"
+"actions":
+- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 11 (1d6 + 3 plus 1d8) piercing damage, or 12 (2d8\
+    \ + 3) piercing damage if used with two hands to make a melee attack."
+  "name": "Spear"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "EGW"
+- "IDRotF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Orc%20Eye%20of%20Gruumsh.webp"
 ```
 ^statblock
 

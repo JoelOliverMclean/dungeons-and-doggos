@@ -6,12 +6,12 @@ tags:
 - monster/cr/3
 - monster/size/medium
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["Bearded Devil"]
 ---
-# Bearded Devil
+# [Bearded Devil](3-Mechanics\CLI\bestiary\fiend/bearded-devil.md)
 *Source: Monster Manual p. 70, Waterdeep: Dragon Heist. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Bearded%20Devil.webp#right)  
 Bearded devils serve archdevils as shock troops, fighting shoulder-to-shoulder and reveling in the glory of battle. They respond with violence to any slight, real or imagined, gorging themselves on violence as their infernal saw-toothed glaives carve a path through their foes.
 
 A bearded devil is humanoid in form, with pointed ears, scaly skin, a long tail, and claws that clearly show its fiendish nature. These devils take their names from the snakelike growths that adorn their chins, which they use to lash and poison enemies, weakening them with their virulent venom.
@@ -136,46 +136,73 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
 
-
-## Statblock
-
-```ad-statblock
-title: Bearded Devil
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bearded%20Devil.webp#token)
-*Medium fiend (devil), Lawful Evil*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 52 (`8d8 + 16`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|15 (+2)|15 (+2)| 9 (-1)|11 (+0)|11 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Strength +5, Constitution +4, Wisdom +2
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 10
-- **Damage Resistances** cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Infernal, telepathy 120 ft.
-- **Challenge** 3
-
-## Traits
-
-***Devil's Sight.*** Magical darkness doesn't impede the devil's darkvision.
-
-***Magic Resistance.*** The devil has advantage on saving throws against spells and other magical effects.
-
-***Steadfast.*** The devil can't be [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened) while it can see an allied creature within 30 feet of it.
-
-## Actions
-
-***Multiattack.*** The devil makes two attacks: one with its beard and one with its glaive.
-
-***Beard.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 6 (`1d8 + 2`) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) for 1 minute. While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way, the target can't regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-***Glaive.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 8 (`1d10 + 3`) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (`1d10`) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (`1d10`). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
+```statblock
+"name": "Bearded Devil"
+"size": "Medium"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Lawful Evil"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "52"
+"hit_dice": "8d8 + 16"
+"stats":
+- !!int "16"
+- !!int "15"
+- !!int "15"
+- !!int "9"
+- !!int "11"
+- !!int "11"
+"speed": "30 ft."
+"saves":
+  "Wisdom": !!int "2"
+  "Strength": !!int "5"
+  "Constitution": !!int "4"
+"damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
+  \ that aren't silvered"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 10"
+"languages": "Infernal, telepathy 120 ft."
+"cr": "3"
+"traits":
+- "desc": "Magical darkness doesn't impede the devil's darkvision."
+  "name": "Devil's Sight"
+- "desc": "The devil has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The devil can't be [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened)\
+    \ while it can see an allied creature within 30 feet of it."
+  "name": "Steadfast"
+"actions":
+- "desc": "The devil makes two attacks: one with its beard and one with its glaive."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6\
+    \ (1d8 + 2) piercing damage, and the target must succeed on a DC 12 Constitution\
+    \ saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ for 1 minute. While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ in this way, the target can't regain hit points. The target can repeat the saving\
+    \ throw at the end of each of its turns, ending the effect on itself on a success."
+  "name": "Beard"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8\
+    \ (1d10 + 3) slashing damage. If the target is a creature other than an undead\
+    \ or a construct, it must succeed on a DC 12 Constitution saving throw or lose\
+    \ 5 (1d10) hit points at the start of each of its turns due to an infernal wound.\
+    \ Each time the devil hits the wounded target with this attack, the damage dealt\
+    \ by the wound increases by 5 (1d10). Any creature can take an action to stanch\
+    \ the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes\
+    \ if the target receives magical healing."
+  "name": "Glaive"
+"source":
+- "MM"
+- "RoT"
+- "ToA"
+- "WDH"
+- "BGDIA"
+- "EGW"
+- "IDRotF"
+- "BMT"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bearded%20Devil.webp"
 ```
 ^statblock

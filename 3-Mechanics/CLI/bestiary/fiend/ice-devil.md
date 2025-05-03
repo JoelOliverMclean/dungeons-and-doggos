@@ -6,12 +6,12 @@ tags:
 - monster/cr/14
 - monster/size/large
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["Ice Devil"]
 ---
-# Ice Devil
+# [Ice Devil](3-Mechanics\CLI\bestiary\fiend/ice-devil.md)
 *Source: Monster Manual p. 75, Tasha's Cauldron of Everything. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Ice%20Devil.webp#right)  
 Found most commonly on the cold layers of Stygia and Cania, ice devils serve as commanders of the infernal armies of the Nine Hells, tormenting lesser devils as an outlet for their anger and resentment. Coveting the power of their pit fiend superiors, ice devils work ceaselessly toward promotion, slaughtering the enemies of the Nine Hells and claiming as many souls as they can for their archdevil masters.
 
 Resembling a giant bipedal insect, an ice devil has clawed hands and feet, powerful mandibles, and a long tail covered in razor-sharp spikes. Some carry barbed spears whose icy touch can render a foe all but helpless in combat.
@@ -22,7 +22,7 @@ Resembling a giant bipedal insect, an ice devil has clawed hands and feet, power
 > 
 > **Multiattack.** The devil makes two attacks: one with its spear and one with its tail.
 > 
-> **Ice Spear.** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 14 (`2d8 + 5`) piercing damage + 10 (`3d6`) cold damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw, or for 1 minute, its speed is reduced by 10 feet; it can take either an action or a bonus action on each of its turns, not both; and it can't take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+> **Ice Spear.** *Melee Weapon Attack:* `+10` to hit, reach 10 ft., one target. *Hit:* 14 (`2d8 + 5`) piercing damage + 10 (`3d6`) cold damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw, or for 1 minute, its speed is reduced by 10 feet; it can take either an action or a bonus action on each of its turns, not both; and it can't take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 ^variant-ice-devil-spear
 
 ## Devils
@@ -145,52 +145,78 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
 
-
-## Statblock
-
-```ad-statblock
-title: Ice Devil
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ice%20Devil.webp#token)
-*Large fiend (devil), Lawful Evil*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 180 (`19d10 + 76`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|21 (+5)|14 (+2)|18 (+4)|18 (+4)|15 (+2)|18 (+4)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** Dexterity +7, Constitution +9, Wisdom +7, Charisma +9
-- **Skills** ⏤
-- **Senses** blindsight 60 ft., darkvision 120 ft., passive Perception 12
-- **Damage Resistances** bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Damage Immunities** fire, poison, cold
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Infernal, telepathy 120 ft.
-- **Challenge** 14
-
-## Traits
-
-***Devil's Sight.*** Magical darkness doesn't impede the devil's darkvision.
-
-***Magic Resistance.*** The devil has advantage on saving throws against spells and other magical effects.
-
-## Actions
-
-***Multiattack.*** The devil makes three attacks: one with its bite, one with its claws, and one with its tail.
-
-***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 12 (`2d6 + 5`) piercing damage plus 10 (`3d6`) cold damage.
-
-***Claws.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 10 (`2d4 + 5`) slashing damage plus 10 (`3d6`) cold damage.
-
-***Tail.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 12 (`2d6 + 5`) bludgeoning damage plus 10 (`3d6`) cold damage.
-
-***Wall of Ice (Recharge 6).*** The devil magically forms an opaque wall of ice on a solid surface it can see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and 10 feet high, or it's a hemispherical dome up to 20 feet in diameter.
-
-When the wall appears, each creature in its space is pushed out of it by the shortest route. The creature chooses which side of the wall to end up on, unless the creature is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated). The creature then makes a DC 17 Dexterity saving throw, taking 35 (`10d6`) cold damage on a failed save, or half as much damage on a successful one.
-
-The wall lasts for 1 minute or until the devil is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated) or dies. The wall can be damaged and breached; each 10-foot section has AC 5, 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. If a section is destroyed, it leaves behind a sheet of frigid air in the space the wall occupied. Whenever a creature finishes moving through the frigid air on a turn, willingly or otherwise, the creature must make a DC 17 Constitution saving throw, taking 17 (`5d6`) cold damage on a failed save, or half as much damage on a successful one. The frigid air dissipates when the rest of the wall vanishes.
+```statblock
+"name": "Ice Devil"
+"size": "Large"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Lawful Evil"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "180"
+"hit_dice": "19d10 + 76"
+"stats":
+- !!int "21"
+- !!int "14"
+- !!int "18"
+- !!int "18"
+- !!int "15"
+- !!int "18"
+"speed": "40 ft."
+"saves":
+  "Charisma": !!int "9"
+  "Dexterity": !!int "7"
+  "Wisdom": !!int "7"
+  "Constitution": !!int "9"
+"damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
+  \ aren't silvered"
+"damage_immunities": "fire, poison, cold"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 12"
+"languages": "Infernal, telepathy 120 ft."
+"cr": "14"
+"traits":
+- "desc": "Magical darkness doesn't impede the devil's darkvision."
+  "name": "Devil's Sight"
+- "desc": "The devil has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "The devil makes three attacks: one with its bite, one with its claws, and\
+    \ one with its tail."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12\
+    \ (2d6 + 5) piercing damage plus 10 (3d6) cold damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10\
+    \ (2d4 + 5) slashing damage plus 10 (3d6) cold damage."
+  "name": "Claws"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 12\
+    \ (2d6 + 5) bludgeoning damage plus 10 (3d6) cold damage."
+  "name": "Tail"
+- "desc": "The devil magically forms an opaque wall of ice on a solid surface it can\
+    \ see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and\
+    \ 10 feet high, or it's a hemispherical dome up to 20 feet in diameter.\n\nWhen\
+    \ the wall appears, each creature in its space is pushed out of it by the shortest\
+    \ route. The creature chooses which side of the wall to end up on, unless the\
+    \ creature is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).\
+    \ The creature then makes a DC 17 Dexterity saving throw, taking 35 (10d6) cold\
+    \ damage on a failed save, or half as much damage on a successful one.\n\nThe\
+    \ wall lasts for 1 minute or until the devil is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)\
+    \ or dies. The wall can be damaged and breached; each 10-foot section has AC 5,\
+    \ 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic,\
+    \ poison, and psychic damage. If a section is destroyed, it leaves behind a sheet\
+    \ of frigid air in the space the wall occupied. Whenever a creature finishes moving\
+    \ through the frigid air on a turn, willingly or otherwise, the creature must\
+    \ make a DC 17 Constitution saving throw, taking 17 (5d6) cold damage on a failed\
+    \ save, or half as much damage on a successful one. The frigid air dissipates\
+    \ when the rest of the wall vanishes."
+  "name": "Wall of Ice (Recharge 6)"
+"source":
+- "MM"
+- "BGDIA"
+- "TCE"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ice%20Devil.webp"
 ```
 ^statblock

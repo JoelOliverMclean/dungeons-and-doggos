@@ -6,12 +6,12 @@ tags:
 - monster/cr/5
 - monster/size/medium
 - monster/type/construct
+statblock: inline
 aliases: ["Flesh Golem"]
 ---
-# Flesh Golem
+# [Flesh Golem](3-Mechanics\CLI\bestiary\construct/flesh-golem.md)
 *Source: Monster Manual p. 169, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Flesh%20Golem.webp#right)  
 A flesh golem is a grisly assortment of humanoid body parts stitched and bolted together into a muscled brute imbued with formidable strength. Its brain is capable of simple reason, though its thoughts are no more sophisticated than those of a young child. The golem's muscle tissue responds to the power of lightning, invigorating the creature with vitality and strength. Powerful enchantments protect the golem's skin, deflecting spells and all but the most potent weapons.
 
 A flesh golem lurches with a stiff-jointed gait, as if not in complete control of its body. Its dead flesh isn't an ideal container for an elemental spirit, which sometimes howls incoherently to vent its outrage. If the spirit breaks free of its creator's will, the golem goes berserk until calmed, or until its shell of flesh is destroyed or completely healed.
@@ -48,51 +48,79 @@ When its creator or possessor is on hand to command it, a golem performs flawles
 
 A golem doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Flesh Golem
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Flesh%20Golem.webp#token)
-*Medium construct, Neutral*
-
-- **Armor Class** 9 
-- **Hit Points** 93 (`11d8 + 44`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)| 9 (-1)|18 (+4)| 6 (-2)|10 (+0)| 5 (-3)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Immunities** lightning; poison; bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands the languages of its creator but can't speak
-- **Challenge** 5
-
-## Traits
-
-***Berserk.*** Whenever the golem starts its turn with 40 hit points or fewer, roll a `d6`. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.
-
-The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a DC 15 Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again.
-
-***Aversion of Fire.*** If the golem takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.
-
-***Immutable Form.*** The golem is immune to any spell or effect that would alter its form.
-
-***Lightning Absorption.*** Whenever the golem is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt.
-
-***Magic Resistance.*** The golem has advantage on saving throws against spells and other magical effects.
-
-***Magic Weapons.*** The golem's weapon attacks are magical.
-
-## Actions
-
-***Multiattack.*** The golem makes two slam attacks.
-
-***Slam.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) bludgeoning damage.
+```statblock
+"name": "Flesh Golem"
+"size": "Medium"
+"type": "construct"
+"alignment": "Neutral"
+"ac": !!int "9"
+"hp": !!int "93"
+"hit_dice": "11d8 + 44"
+"stats":
+- !!int "19"
+- !!int "9"
+- !!int "18"
+- !!int "6"
+- !!int "10"
+- !!int "5"
+"speed": "30 ft."
+"damage_immunities": "lightning; poison; bludgeoning, piercing, slashing from nonmagical\
+  \ attacks that aren't adamantine"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened),\
+  \ [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "understands the languages of its creator but can't speak"
+"cr": "5"
+"traits":
+- "desc": "Whenever the golem starts its turn with 40 hit points or fewer, roll a\
+    \ d6. On a 6, the golem goes berserk. On each of its turns while berserk, the\
+    \ golem attacks the nearest creature it can see. If no creature is near enough\
+    \ to move to and attack, the golem attacks an object, with preference for an object\
+    \ smaller than itself. Once the golem goes berserk, it continues to do so until\
+    \ it is destroyed or regains all its hit points.\n\nThe golem's creator, if within\
+    \ 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively.\
+    \ The golem must be able to hear its creator, who must take an action to make\
+    \ a DC 15 Charisma (Persuasion) check. If the check succeeds, the golem ceases\
+    \ being berserk. If it takes damage while still at 40 hit points or fewer, the\
+    \ golem might go berserk again."
+  "name": "Berserk"
+- "desc": "If the golem takes fire damage, it has disadvantage on attack rolls and\
+    \ ability checks until the end of its next turn."
+  "name": "Aversion of Fire"
+- "desc": "The golem is immune to any spell or effect that would alter its form."
+  "name": "Immutable Form"
+- "desc": "Whenever the golem is subjected to lightning damage, it takes no damage\
+    \ and instead regains a number of hit points equal to the lightning damage dealt."
+  "name": "Lightning Absorption"
+- "desc": "The golem has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The golem's weapon attacks are magical."
+  "name": "Magic Weapons"
+"actions":
+- "desc": "The golem makes two slam attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d8 + 4) bludgeoning damage."
+  "name": "Slam"
+"source":
+- "MM"
+- "CoS"
+- "RoT"
+- "TftYP"
+- "ToA"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "DIP"
+- "SDW"
+- "EGW"
+- "MOT"
+- "IDRotF"
+- "CM"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Flesh%20Golem.webp"
 ```
 ^statblock

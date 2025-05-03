@@ -7,12 +7,12 @@ tags:
 - monster/environment/desert
 - monster/size/medium
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Medusa"]
 ---
-# Medusa
+# [Medusa](3-Mechanics\CLI\bestiary\monstrosity/medusa.md)
 *Source: Monster Manual p. 214, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Medusa.webp#right)  
 As deadly as they are ravishing, the serpent-haired medusas suffer an immortal curse brought on by their vanity. They lurk in quiet exile among the tumbled ruins of their former lives, surrounded by the petrified remains of past admirers and would-be heroes.
 
 ## Immortal Splendor
@@ -25,46 +25,72 @@ Medusas live forever in seclusion, alienated from the world around them by their
 
 A medusa is subject to its own curse. By looking vainly on its reflection, it turns to stone as surely as any living mortal. As a result, a medusa destroys or removes any mirrors or reflective surfaces in its lair.
 
-
-## Statblock
-
-```ad-statblock
-title: Medusa
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Medusa.webp#token)
-*Medium monstrosity, Lawful Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 127 (`17d8 + 51`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|15 (+2)|16 (+3)|12 (+1)|13 (+1)|15 (+2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Deception +5, Insight +4, Perception +4, Stealth +5
-- **Senses** darkvision 60 ft., passive Perception 14
-- **Languages** Common
-- **Challenge** 6
-
-## Traits
-
-***Petrifying Gaze.*** When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a DC 14 Constitution saving throw if the medusa isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated) and can see the creature. If the saving throw fails by 5 or more, the creature is instantly [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified). Otherwise, a creature that fails the save begins to turn to stone and is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained). The [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained) creature must repeat the saving throw at the end of its next turn, becoming [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified) on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the  [greater restoration](/3-Mechanics/CLI/spells/greater-restoration.md) spell or other magic.
-
-Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.
-
-If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze.
-
-## Actions
-
-***Multiattack.*** The medusa makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow.
-
-***Snake Hair.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 4 (`1d4 + 2`) piercing damage plus 14 (`4d6`) poison damage.
-
-***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
-
-***Longbow.*** *Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage plus 7 (`2d6`) poison damage.
+```statblock
+"name": "Medusa"
+"size": "Medium"
+"type": "monstrosity"
+"alignment": "Lawful Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "127"
+"hit_dice": "17d8 + 51"
+"stats":
+- !!int "10"
+- !!int "15"
+- !!int "16"
+- !!int "12"
+- !!int "13"
+- !!int "15"
+"speed": "30 ft."
+"skillsaves":
+  "Deception": !!int "5"
+  "Stealth": !!int "5"
+  "Insight": !!int "4"
+  "Perception": !!int "4"
+"senses": "darkvision 60 ft., passive Perception 14"
+"languages": "Common"
+"cr": "6"
+"traits":
+- "desc": "When a creature that can see the medusa's eyes starts its turn within 30\
+    \ feet of the medusa, the medusa can force it to make a DC 14 Constitution saving\
+    \ throw if the medusa isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)\
+    \ and can see the creature. If the saving throw fails by 5 or more, the creature\
+    \ is instantly [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified). Otherwise,\
+    \ a creature that fails the save begins to turn to stone and is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained).\
+    \ The [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained) creature must\
+    \ repeat the saving throw at the end of its next turn, becoming [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified)\
+    \ on a failure or ending the effect on a success. The petrification lasts until\
+    \ the creature is freed by the  [greater restoration](/3-Mechanics/CLI/spells/greater-restoration.md)\
+    \ spell or other magic.\n\nUnless surprised, a creature can avert its eyes to\
+    \ avoid the saving throw at the start of its turn. If the creature does so, it\
+    \ can't see the medusa until the start of its next turn, when it can avert its\
+    \ eyes again. If the creature looks at the medusa in the meantime, it must immediately\
+    \ make the save.\n\nIf the medusa sees itself reflected on a polished surface\
+    \ within 30 feet of it and in an area of bright light, the medusa is, due to its\
+    \ curse, affected by its own gaze."
+  "name": "Petrifying Gaze"
+"actions":
+- "desc": "The medusa makes either three melee attacks—one with its snake hair and\
+    \ two with its shortsword—or two ranged attacks with its longbow."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4\
+    \ (1d4 + 2) piercing damage plus 14 (4d6) poison damage."
+  "name": "Snake Hair"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage."
+  "name": "Shortsword"
+- "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+    \ 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage."
+  "name": "Longbow"
+"source":
+- "MM"
+- "WDMM"
+- "GoS"
+- "BGDIA"
+- "ERLW"
+- "IMR"
+- "CM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Medusa.webp"
 ```
 ^statblock
 

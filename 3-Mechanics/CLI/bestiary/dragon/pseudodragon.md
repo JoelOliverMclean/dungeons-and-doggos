@@ -12,12 +12,12 @@ tags:
 - monster/environment/urban
 - monster/size/tiny
 - monster/type/dragon
+statblock: inline
 aliases: ["Pseudodragon"]
 ---
-# Pseudodragon
+# [Pseudodragon](3-Mechanics\CLI\bestiary\dragon/pseudodragon.md)
 *Source: Monster Manual p. 254, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Pseudodragon.webp#right)  
 The elusive pseudodragon dwells in the quiet places of the world, making its home in the hollows of trees and small caves. With its red-brown scales, horns, and a maw filled with sharp teeth, a pseudodragon resembles a tiny red dragon but its disposition is playful.
 
 ## Quiet and Defensive
@@ -45,42 +45,62 @@ A pseudodragon often vocalizes animal noises. A rasping purr indicates pleasure,
 
 The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond.
 
-
-## Statblock
-
-```ad-statblock
-title: Pseudodragon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Pseudodragon.webp#token)
-*Tiny dragon, Neutral Good*
-
-- **Armor Class** 13 
-- **Hit Points** 7 (`2d4 + 2`) 
-- **Speed** 15 ft., fly 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 6 (-2)|15 (+2)|13 (+1)|10 (+0)|12 (+1)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +3, Stealth +4
-- **Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 13
-- **Languages** understands Common and Draconic but can't speak
-- **Challenge** 1/4
-
-## Traits
-
-***Keen Senses.*** The pseudodragon has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight, hearing, or smell.
-
-***Magic Resistance.*** The pseudodragon has advantage on saving throws against spells and other magical effects.
-
-***Limited Telepathy.*** The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.
-
-***Sting.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 4 (`1d4 + 2`) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) for 1 hour. If the saving throw fails by 5 or more, the target falls [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious) for the same duration, or until it takes damage or another creature uses an action to shake it awake.
+```statblock
+"name": "Pseudodragon"
+"size": "Tiny"
+"type": "dragon"
+"alignment": "Neutral Good"
+"ac": !!int "13"
+"hp": !!int "7"
+"hit_dice": "2d4 + 2"
+"stats":
+- !!int "6"
+- !!int "15"
+- !!int "13"
+- !!int "10"
+- !!int "12"
+- !!int "10"
+"speed": "15 ft., fly 60 ft."
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "3"
+"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 13"
+"languages": "understands Common and Draconic but can't speak"
+"cr": "1/4"
+"traits":
+- "desc": "The pseudodragon has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on sight, hearing, or smell."
+  "name": "Keen Senses"
+- "desc": "The pseudodragon has advantage on saving throws against spells and other\
+    \ magical effects."
+  "name": "Magic Resistance"
+- "desc": "The pseudodragon can magically communicate simple ideas, emotions, and\
+    \ images telepathically with any creature within 100 feet of it that can understand\
+    \ a language."
+  "name": "Limited Telepathy"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+    \ + 2) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4\
+    \ (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution\
+    \ saving throw or become [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ for 1 hour. If the saving throw fails by 5 or more, the target falls [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)\
+    \ for the same duration, or until it takes damage or another creature uses an\
+    \ action to shake it awake."
+  "name": "Sting"
+"source":
+- "MM"
+- "RoT"
+- "ToA"
+- "WDMM"
+- "GoS"
+- "ERLW"
+- "IMR"
+- "EGW"
+- "IDRotF"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Pseudodragon.webp"
 ```
 ^statblock
 

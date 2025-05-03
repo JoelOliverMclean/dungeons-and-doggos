@@ -11,9 +11,10 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/orc
+statblock: inline
 aliases: ["Orc Hand of Yurtrus"]
 ---
-# Orc Hand of Yurtrus
+# [Orc Hand of Yurtrus](3-Mechanics\CLI\bestiary\humanoid/orc-hand-of-yurtrus-vgm.md)
 *Source: Volo's Guide to Monsters p. 184*  
 
 To the common folk of the world, an orc is an orc. They know that any one of these savages can tear an ordinary person to pieces, so no further distinction is necessary.
@@ -32,44 +33,54 @@ Every orc knows that the hands of Yurtrus are the tribe's gateway to the ancesto
 
 As befits followers of a god who doesn't speak, hands of Yurtrus remove their tongues to emulate their deity, for a reason similar to why an eye of Gruumsh puts out one of its eyes.
 
-
-## Statblock
-
-```ad-statblock
-title: Orc Hand of Yurtrus
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Orc%20Hand%20of%20Yurtrus.webp#token)
-*Medium humanoid (orc), Chaotic Evil*
-
-- **Armor Class** 12 ([hide armor](/3-Mechanics/CLI/items/hide-armor.md))
-- **Hit Points** 30 (`4d8 + 12`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|11 (+0)|16 (+3)|11 (+0)|14 (+2)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Arcana +2, Intimidation +1, Medicine +4, Religion +2
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Languages** understands Common and Orc but can't speak
-- **Challenge** 2
-
-## Traits
-
-***Aggressive.*** As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
-
-***Spellcasting.*** The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:
-
-**Cantrips (at will)**: [guidance](/3-Mechanics/CLI/spells/guidance.md), [mending](/3-Mechanics/CLI/spells/mending.md), [resistance](/3-Mechanics/CLI/spells/resistance.md), [thaumaturgy](/3-Mechanics/CLI/spells/thaumaturgy.md)
-
-**1st level (4 slots)**: [bane](/3-Mechanics/CLI/spells/bane.md), [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [inflict wounds](/3-Mechanics/CLI/spells/inflict-wounds.md), [protection from evil and good](/3-Mechanics/CLI/spells/protection-from-evil-and-good.md)
-
-**2nd level (3 slots)**: [blindness/deafness](/3-Mechanics/CLI/spells/blindness-deafness.md), [silence](/3-Mechanics/CLI/spells/silence.md)
-
-## Actions
-
-***Touch of the White Hand.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 9 (`2d8`) necrotic damage.
+```statblock
+"name": "Orc Hand of Yurtrus (VGM)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "orc"
+"alignment": "Chaotic Evil"
+"ac": !!int "12"
+"ac_class": "[hide armor](/3-Mechanics/CLI/items/hide-armor.md)"
+"hp": !!int "30"
+"hit_dice": "4d8 + 12"
+"stats":
+- !!int "12"
+- !!int "11"
+- !!int "16"
+- !!int "11"
+- !!int "14"
+- !!int "9"
+"speed": "30 ft."
+"skillsaves":
+  "Medicine": !!int "4"
+  "Intimidation": !!int "1"
+  "Religion": !!int "2"
+  "Arcana": !!int "2"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "understands Common and Orc but can't speak"
+"cr": "2"
+"traits":
+- "desc": "The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom\
+    \ (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components\
+    \ to cast its spells. The orc has the following cleric spells prepared:\n\nCantrips\
+    \ (at will): [guidance](/3-Mechanics/CLI/spells/guidance.md), [mending](/3-Mechanics/CLI/spells/mending.md),\
+    \ [resistance](/3-Mechanics/CLI/spells/resistance.md), [thaumaturgy](/3-Mechanics/CLI/spells/thaumaturgy.md)\n\
+    \n1st level (4 slots): [bane](/3-Mechanics/CLI/spells/bane.md), [detect magic](/3-Mechanics/CLI/spells/detect-magic.md),\
+    \ [inflict wounds](/3-Mechanics/CLI/spells/inflict-wounds.md), [protection from\
+    \ evil and good](/3-Mechanics/CLI/spells/protection-from-evil-and-good.md)\n\n\
+    2nd level (3 slots): [blindness/deafness](/3-Mechanics/CLI/spells/blindness-deafness.md),\
+    \ [silence](/3-Mechanics/CLI/spells/silence.md)"
+  "name": "Spellcasting"
+- "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature\
+    \ that it can see."
+  "name": "Aggressive"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 9 (2d8)\
+    \ necrotic damage."
+  "name": "Touch of the White Hand"
+"source":
+- "VGM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Orc%20Hand%20of%20Yurtrus.webp"
 ```
 ^statblock
 

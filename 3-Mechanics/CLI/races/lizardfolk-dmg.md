@@ -10,7 +10,6 @@ aliases: ["Lizardfolk (DMG)"]
 *Source: Dungeon Master's Guide p. 282*  
 
 - **Ability Scores**: Strength +2, Intelligence -2
-- **Type**: race
 - **Size**: Medium
 - **Speed**: walk: 30 ft.; swim: 30 ft.
 

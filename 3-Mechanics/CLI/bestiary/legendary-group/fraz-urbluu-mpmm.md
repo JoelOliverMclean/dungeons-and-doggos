@@ -27,8 +27,3 @@ The region containing Fraz-Urb'luu's lair is warped by his magic, creating one o
 - **Twisted Paths.** Roads and paths within 6 miles of the lair twist and turn back on themselves, making navigation in the area exceedingly difficult.  
 
 If Fraz-Urb'luu dies, these effects fade over the course of `1d10` days.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

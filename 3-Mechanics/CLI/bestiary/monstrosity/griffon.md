@@ -11,12 +11,12 @@ tags:
 - monster/environment/mountain
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Griffon"]
 ---
-# Griffon
+# [Griffon](3-Mechanics\CLI\bestiary\monstrosity/griffon.md)
 *Source: Monster Manual p. 174, Waterdeep: Dragon Heist. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Griffon.webp#right)  
 Griffons are ferocious avian carnivores with the muscular bodies of lions and the head, forelegs, and wings of eagles. When they attack, griffons are as swift and deadly as eagles, even as they strike with a lion's savage might and grace.
 
 ## Horse Eaters
@@ -37,40 +37,54 @@ A griffon raised from an egg can be trained to serve as a mount. However, such t
 
 Once trained, a griffon is a fierce and loyal steed. It bonds with one master for life, fighting to the death to protect that rider. A griffon mount retains its ravenous appetite for horseflesh, and a wise master ensures that a griffon remains satiated with other prey when passing through civilized lands.
 
-
-## Statblock
-
-```ad-statblock
-title: Griffon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Griffon.webp#token)
-*Large monstrosity, Unaligned*
-
-- **Armor Class** 12 
-- **Hit Points** 59 (`7d10 + 21`) 
-- **Speed** 30 ft., fly 80 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|15 (+2)|16 (+3)| 2 (-4)|13 (+1)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +5
-- **Senses** darkvision 60 ft., passive Perception 15
-- **Languages** —
-- **Challenge** 2
-
-## Traits
-
-***Keen Sight.*** The griffon has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-## Actions
-
-***Multiattack.*** The griffon makes two attacks: one with its beak and one with its claws.
-
-***Beak.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) slashing damage.
+```statblock
+"name": "Griffon"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Unaligned"
+"ac": !!int "12"
+"hp": !!int "59"
+"hit_dice": "7d10 + 21"
+"stats":
+- !!int "18"
+- !!int "15"
+- !!int "16"
+- !!int "2"
+- !!int "13"
+- !!int "8"
+"speed": "30 ft., fly 80 ft."
+"skillsaves":
+  "Perception": !!int "5"
+"senses": "darkvision 60 ft., passive Perception 15"
+"languages": ""
+"cr": "2"
+"traits":
+- "desc": "The griffon has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on sight."
+  "name": "Keen Sight"
+"actions":
+- "desc": "The griffon makes two attacks: one with its beak and one with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
+    \ + 4) piercing damage."
+  "name": "Beak"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) slashing damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "HotDQ"
+- "PotA"
+- "SKT"
+- "WDH"
+- "BGDIA"
+- "ERLW"
+- "EGW"
+- "MOT"
+- "IDRotF"
+- "JttRC"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Griffon.webp"
 ```
 ^statblock
 

@@ -27,8 +27,3 @@ The territory within 5 miles of an elder brain is altered by the creature's psio
 - **Telepathic Eavesdropping.** The elder brain can overhear any telepathic conversation within 5 miles of it. The creature that initiated the telepathic conversation makes a DC 18 Wisdom saving throw when telepathic contact is first established. If the save is successful, the creature is aware that something is eavesdropping. The nature of the eavesdropper isn't revealed.  
 
 If the elder brain dies, these effects immediately end.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

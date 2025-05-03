@@ -1,22 +1,23 @@
 {
   "settings": {
-    "migrated": 4,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
-    "fontSize": 18,
-    "emojiStyle": "none",
+    "fontSize": 16,
+    "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiMap",
       "RiCalculatorFill",
       "RiLockPasswordFill",
       "RiWalkLine",
       "RiHome2Fill",
       "RaCog"
     ],
-    "recentlyUsedIconsSize": 5,
+    "recentlyUsedIconsSize": 10,
     "rules": [
       {
         "rule": "Map",
-        "icon": "FarMap",
+        "icon": "LiMap",
         "for": "everything",
         "order": 0
       }
@@ -29,14 +30,20 @@
     },
     "iconInTabsEnabled": true,
     "iconInTitleEnabled": false,
-    "iconsBackgroundCheckEnabled": false,
+    "iconsBackgroundCheckEnabled": true,
     "iconInFrontmatterEnabled": true,
     "iconsInNotesEnabled": true,
-    "iconIdentifier": ":"
+    "iconIdentifier": ":",
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "debugMode": false,
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
   },
   "1-DM Toolkit/DnD5e-SideScreen.md": "RaScrollUnfurled",
   "1-DM Toolkit/DnD5e-DM Screen.md": "RaScrollUnfurled",
   "1-DM Toolkit/Journey Board.md": "RiWalkLine",
-  "3-Mechanics/CLI": "RiLockPasswordFill",
-  "1-DM Toolkit/Travel Calculator.md": "RiCalculatorFill"
+  "3-Mechanics/CLI": "RiLockPasswordFill"
 }

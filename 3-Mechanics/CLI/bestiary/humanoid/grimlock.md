@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/grimlock
+statblock: inline
 aliases: ["Grimlock"]
 ---
-# Grimlock
+# [Grimlock](3-Mechanics\CLI\bestiary\humanoid/grimlock.md)
 *Source: Monster Manual p. 175, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Grimlock.webp#right)  
 The degenerate subterranean grimlocks were once human, but their worship of the mind flayers over generations of prowling the Underdark transformed them into blind, monstrous cannibals long ago.
 
 ## Debased Cultists
@@ -33,41 +33,52 @@ For most creatures, blindness is an enormous hindrance. For a grimlock with its 
 
 Grimlocks still venerate the mind flayers, serving them whenever possible. Grimlocks also recall the war in which they were driven underground. To them, it has never ended. They continue to return to the surface world to abduct captives for their illithid masters.
 
-
-## Statblock
-
-```ad-statblock
-title: Grimlock
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Grimlock.webp#token)
-*Medium humanoid (grimlock), Neutral Evil*
-
-- **Armor Class** 11 
-- **Hit Points** 11 (`2d8 + 2`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|12 (+1)|12 (+1)| 9 (-1)| 8 (-1)| 6 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Athletics +5, Perception +3, Stealth +3
-- **Senses** blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius), passive Perception 13
-- **Condition Immunities** [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded)
-- **Languages** Undercommon
-- **Challenge** 1/4
-
-## Traits
-
-***Blind Senses.*** The grimlock can't use its blindsight while [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened) and unable to smell.
-
-***Keen Hearing and Smell.*** The grimlock has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on hearing or smell.
-
-***Stone Camouflage.*** The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
-
-## Actions
-
-***Spiked Bone Club.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) bludgeoning damage plus 2 (`1d4`) piercing damage.
+```statblock
+"name": "Grimlock"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "grimlock"
+"alignment": "Neutral Evil"
+"ac": !!int "11"
+"hp": !!int "11"
+"hit_dice": "2d8 + 2"
+"stats":
+- !!int "16"
+- !!int "12"
+- !!int "12"
+- !!int "9"
+- !!int "8"
+- !!int "6"
+"speed": "30 ft."
+"skillsaves":
+  "Athletics": !!int "5"
+  "Stealth": !!int "3"
+  "Perception": !!int "3"
+"condition_immunities": "[blinded](/3-Mechanics/CLI/rules/conditions.md#blinded)"
+"senses": "blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius),\
+  \ passive Perception 13"
+"languages": "Undercommon"
+"cr": "1/4"
+"traits":
+- "desc": "The grimlock can't use its blindsight while [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened)\
+    \ and unable to smell."
+  "name": "Blind Senses"
+- "desc": "The grimlock has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on hearing or smell."
+  "name": "Keen Hearing and Smell"
+- "desc": "The grimlock has advantage on Dexterity (Stealth) checks made to hide in\
+    \ rocky terrain."
+  "name": "Stone Camouflage"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+    \ + 3) bludgeoning damage plus 2 (1d4) piercing damage."
+  "name": "Spiked Bone Club"
+"source":
+- "MM"
+- "WDMM"
+- "PaBTSO"
+- "GHLoE"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Grimlock.webp"
 ```
 ^statblock
 

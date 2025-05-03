@@ -12,12 +12,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/orc
+statblock: inline
 aliases: ["Orog"]
 ---
-# Orog
+# [Orog](3-Mechanics\CLI\bestiary\humanoid/orog.md)
 *Source: Monster Manual p. 247, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Orog.webp#right)  
 Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.
 
 ## Gruumsh One-Eye
@@ -68,40 +68,53 @@ Wanting nothing more than to hack their enemies to pieces, orogs are a terrifyin
 
 Mistrusted by orcs, some orogs form independent mercenary war bands that sell themselves to the highest bidder. As long as they are rewarded, orog mercenaries gladly serve as elite warriors and shock troops for evil wizards, depraved giants, and other villains.
 
-
-## Statblock
-
-```ad-statblock
-title: Orog
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Orog.webp#token)
-*Medium humanoid (orc), Chaotic Evil*
-
-- **Armor Class** 18 ([plate armor](/3-Mechanics/CLI/items/plate-armor.md))
-- **Hit Points** 42 (`5d8 + 20`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|12 (+1)|18 (+4)|12 (+1)|11 (+0)|12 (+1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Intimidation +5, Survival +2
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Languages** Common, Orc
-- **Challenge** 2
-
-## Traits
-
-***Aggressive.*** As a bonus action, the orog can move up to its speed toward a hostile creature that it can see.
-
-## Actions
-
-***Multiattack.*** The orog makes two greataxe attacks.
-
-***Greataxe.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (`1d12 + 4`) slashing damage.
-
-***Javelin.*** *Melee or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 7 (`1d6 + 4`) piercing damage.
+```statblock
+"name": "Orog"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "orc"
+"alignment": "Chaotic Evil"
+"ac": !!int "18"
+"ac_class": "[plate armor](/3-Mechanics/CLI/items/plate-armor.md)"
+"hp": !!int "42"
+"hit_dice": "5d8 + 20"
+"stats":
+- !!int "18"
+- !!int "12"
+- !!int "18"
+- !!int "12"
+- !!int "11"
+- !!int "12"
+"speed": "30 ft."
+"skillsaves":
+  "Intimidation": !!int "5"
+  "Survival": !!int "2"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Common, Orc"
+"cr": "2"
+"traits":
+- "desc": "As a bonus action, the orog can move up to its speed toward a hostile creature\
+    \ that it can see."
+  "name": "Aggressive"
+"actions":
+- "desc": "The orog makes two greataxe attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+    \ (1d12 + 4) slashing damage."
+  "name": "Greataxe"
+- "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
+    \ ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+  "name": "Javelin"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "EGW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Orog.webp"
 ```
 ^statblock
 

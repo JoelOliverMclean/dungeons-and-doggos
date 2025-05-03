@@ -50,8 +50,10 @@ _%>
 
 %% Keep track of who didn't turn up. %%
 
-# Session Overview
+# Session Recap
 
-%% I like to keep a quick summary of sessions here. %%
+Quick recap for next session
 
-This is what happened! 
+# Detailed Session Overview
+
+This is what happened in detail! 

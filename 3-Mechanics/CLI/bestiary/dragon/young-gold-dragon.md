@@ -8,12 +8,12 @@ tags:
 - monster/environment/grassland
 - monster/size/large
 - monster/type/dragon
+statblock: inline
 aliases: ["Young Gold Dragon"]
 ---
-# Young Gold Dragon
+# [Young Gold Dragon](3-Mechanics\CLI\bestiary\dragon/young-gold-dragon.md)
 *Source: Monster Manual p. 115. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Gold%20Dragon.webp#right)  
 The most powerful and majestic of the metallic dragons, gold dragons are dedicated foes of evil.
 
 A gold dragon has a sagacious face anointed with flexible spines that resemble whiskers. Its horns sweep back from its nose and brow, echoing twin frills that adorn its long neck. A gold dragon's sail-like wings start at its shoulders and trace down to the tip of its tail, letting it fly with a distinctive rippling motion as if swimming through the air. A gold dragon wyrmling has scales of dark yellow with metallic flecks. Those flecks grow larger as the dragon matures. As a gold dragon ages, its pupils fade until its eyes resemble pools of molten gold.
@@ -82,46 +82,62 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Young Gold Dragon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Gold%20Dragon.webp#token)
-*Large dragon, Lawful Good*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 178 (`17d10 + 85`) 
-- **Speed** 40 ft., fly 80 ft., swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|23 (+6)|14 (+2)|21 (+5)|16 (+3)|13 (+1)|20 (+5)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Dexterity +6, Constitution +9, Wisdom +5, Charisma +9
-- **Skills** Insight +5, Perception +9, Persuasion +9, Stealth +6
-- **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 19
-- **Damage Immunities** fire
-- **Languages** Common, Draconic
-- **Challenge** 10
-
-## Traits
-
-***Amphibious.*** The dragon can breathe air and water.
-
-## Actions
-
-***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 17 (`2d10 + 6`) piercing damage.
-
-***Claw.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 13 (`2d6 + 6`) slashing damage.
-
-***Breath Weapons (Recharge 5-6).*** The dragon uses one of the following breath weapons.
-
-- **Fire Breath.** The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 55 (`10d10`) fire damage on a failed save, or half as much damage on a successful one.  
-- **Weakening Breath.** The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
+```statblock
+"name": "Young Gold Dragon"
+"size": "Large"
+"type": "dragon"
+"alignment": "Lawful Good"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "178"
+"hit_dice": "17d10 + 85"
+"stats":
+- !!int "23"
+- !!int "14"
+- !!int "21"
+- !!int "16"
+- !!int "13"
+- !!int "20"
+"speed": "40 ft., fly 80 ft., swim 40 ft."
+"saves":
+  "Charisma": !!int "9"
+  "Dexterity": !!int "6"
+  "Wisdom": !!int "5"
+  "Constitution": !!int "9"
+"skillsaves":
+  "Stealth": !!int "6"
+  "Insight": !!int "5"
+  "Perception": !!int "9"
+  "Persuasion": !!int "9"
+"damage_immunities": "fire"
+"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19"
+"languages": "Common, Draconic"
+"cr": "10"
+"traits":
+- "desc": "The dragon can breathe air and water."
+  "name": "Amphibious"
+"actions":
+- "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17\
+    \ (2d10 + 6) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d6 + 6) slashing damage."
+  "name": "Claw"
+- "desc": "The dragon uses one of the following breath weapons.\n\n- Fire Breath.\
+    \ The dragon exhales fire in a 30-foot cone. Each creature in that area must make\
+    \ a DC 17 Dexterity saving throw, taking 55 (10d10) fire damage on a failed\
+    \ save, or half as much damage on a successful one.  \n- Weakening Breath.\
+    \ The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed\
+    \ on a DC 17 Strength saving throw or have disadvantage on Strength-based attack\
+    \ rolls, Strength checks, and Strength saving throws for 1 minute. A creature\
+    \ can repeat the saving throw at the end of each of its turns, ending the effect\
+    \ on itself on a success.  "
+  "name": "Breath Weapons (Recharge 5-6)"
+"source":
+- "MM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Gold%20Dragon.webp"
 ```
 ^statblock
 

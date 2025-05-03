@@ -8,12 +8,12 @@ tags:
 - monster/environment/underwater
 - monster/size/medium
 - monster/type/humanoid/sahuagin
+statblock: inline
 aliases: ["Sahuagin Priestess"]
 ---
-# Sahuagin Priestess
+# [Sahuagin Priestess](3-Mechanics\CLI\bestiary\humanoid/sahuagin-priestess.md)
 *Source: Monster Manual p. 264*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Sahuagin.webp#right)  
 Across fog-shrouded coasts or endless ocean swells, an ominous drone sounded on a conch shell chills the blood of all who hear it. This is the sound of the sahuagin hunting horn-a call to raid and battle. Coastal settlers refer to sahuagin as "sea devils," for sahuagin have no compassion in them, slaughtering the crews of ships and decimating coastal villages.
 
 ## Devils of the Deep
@@ -41,54 +41,67 @@ The sahuagin put the malenti to good use as spies and assassins in aquatic elf c
 > TThe village was empty, the seagulls were strangely quiet, and all we could hear was the surge of the sea.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Sahuagin Priestess
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Sahuagin%20Priestess.webp#token)
-*Medium humanoid (sahuagin), Lawful Evil*
-
-- **Armor Class** 12 (natural armor)
-- **Hit Points** 33 (`6d8 + 6`) 
-- **Speed** 30 ft., swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|11 (+0)|12 (+1)|12 (+1)|14 (+2)|13 (+1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +6, Religion +3
-- **Senses** darkvision 120 ft., passive Perception 16
-- **Languages** Sahuagin
-- **Challenge** 2
-
-## Traits
-
-***Blood Frenzy.*** The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points.
-
-***Limited Amphibiousness.*** The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.
-
-***Shark Telepathy.*** The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy.
-
-***Spellcasting.*** The sahuagin is a 6th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following cleric spells prepared:
-
-**Cantrips (at will)**: [guidance](/3-Mechanics/CLI/spells/guidance.md), [thaumaturgy](/3-Mechanics/CLI/spells/thaumaturgy.md)
-
-**1st level (4 slots)**: [bless](/3-Mechanics/CLI/spells/bless.md), [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [guiding bolt](/3-Mechanics/CLI/spells/guiding-bolt.md)
-
-**2nd level (3 slots)**: [hold person](/3-Mechanics/CLI/spells/hold-person.md), [spiritual weapon](/3-Mechanics/CLI/spells/spiritual-weapon.md) (trident)
-
-**3rd level (3 slots)**: [mass healing word](/3-Mechanics/CLI/spells/mass-healing-word.md), [tongues](/3-Mechanics/CLI/spells/tongues.md)
-
-## Actions
-
-***Multiattack.*** The sahuagin makes two melee attacks: one with her bite and one with her claws.
-
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) slashing damage.
+```statblock
+"name": "Sahuagin Priestess"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "sahuagin"
+"alignment": "Lawful Evil"
+"ac": !!int "12"
+"ac_class": "natural armor"
+"hp": !!int "33"
+"hit_dice": "6d8 + 6"
+"stats":
+- !!int "13"
+- !!int "11"
+- !!int "12"
+- !!int "12"
+- !!int "14"
+- !!int "13"
+"speed": "30 ft., swim 40 ft."
+"skillsaves":
+  "Religion": !!int "3"
+  "Perception": !!int "6"
+"senses": "darkvision 120 ft., passive Perception 16"
+"languages": "Sahuagin"
+"cr": "2"
+"traits":
+- "desc": "The sahuagin is a 6th-level spellcaster. Her spellcasting ability is Wisdom\
+    \ (spell save DC 12, +4 to hit with spell attacks). She has the following cleric\
+    \ spells prepared:\n\nCantrips (at will): [guidance](/3-Mechanics/CLI/spells/guidance.md),\
+    \ [thaumaturgy](/3-Mechanics/CLI/spells/thaumaturgy.md)\n\n1st level (4 slots):\
+    \ [bless](/3-Mechanics/CLI/spells/bless.md), [detect magic](/3-Mechanics/CLI/spells/detect-magic.md),\
+    \ [guiding bolt](/3-Mechanics/CLI/spells/guiding-bolt.md)\n\n2nd level (3 slots):\
+    \ [hold person](/3-Mechanics/CLI/spells/hold-person.md), [spiritual weapon](/3-Mechanics/CLI/spells/spiritual-weapon.md)\
+    \ (trident)\n\n3rd level (3 slots): [mass healing word](/3-Mechanics/CLI/spells/mass-healing-word.md),\
+    \ [tongues](/3-Mechanics/CLI/spells/tongues.md)"
+  "name": "Spellcasting"
+- "desc": "The sahuagin has advantage on melee attack rolls against any creature that\
+    \ doesn't have all its hit points."
+  "name": "Blood Frenzy"
+- "desc": "The sahuagin can breathe air and water, but it needs to be submerged at\
+    \ least once every 4 hours to avoid suffocating."
+  "name": "Limited Amphibiousness"
+- "desc": "The sahuagin can magically command any shark within 120 feet of it, using\
+    \ a limited telepathy."
+  "name": "Shark Telepathy"
+"actions":
+- "desc": "The sahuagin makes two melee attacks: one with her bite and one with her\
+    \ claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) slashing damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "TftYP"
+- "GoS"
+- "SDW"
+- "BGDIA"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Sahuagin%20Priestess.webp"
 ```
 ^statblock
 

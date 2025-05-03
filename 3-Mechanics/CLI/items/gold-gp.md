@@ -9,7 +9,7 @@ aliases:
 ---
 # Gold (gp)
 *Treasure*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Gold%20(gp).webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Gold%20%28gp%29.webp#right)  
 
 - **Cost**: 1 gp
 - **Weight**: 0.02 lbs.

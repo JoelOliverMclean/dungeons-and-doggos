@@ -13,37 +13,78 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/humanoid/any-race
+statblock: inline
 aliases: ["Commoner"]
 ---
-# Commoner
+# [Commoner](3-Mechanics\CLI\bestiary\humanoid/commoner.md)
 *Source: Monster Manual p. 345, Lost Mine of Phandelver, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.
 
-
-```ad-statblock
-title: Commoner
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Commoner.webp#token)
-*Medium humanoid (any race), Any alignment*
-
-- **Armor Class** 10 
-- **Hit Points** 4 (`1d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 10
-- **Languages** any one language (usually Common)
-- **Challenge** 0
-
-## Actions
-
-***Club.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (`1d4`) bludgeoning damage.
+```statblock
+"name": "Commoner"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "any race"
+"alignment": "Any alignment"
+"ac": !!int "10"
+"hp": !!int "4"
+"hit_dice": "1d8"
+"stats":
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+"speed": "30 ft."
+"senses": "passive Perception 10"
+"languages": "any one language (usually Common)"
+"cr": "0"
+"actions":
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4)\
+    \ bludgeoning damage."
+  "name": "Club"
+"source":
+- "MM"
+- "CoS"
+- "HotDQ"
+- "LMoP"
+- "PotA"
+- "RoT"
+- "SKT"
+- "TftYP"
+- "ToA"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "DC"
+- "DIP"
+- "SLW"
+- "BGDIA"
+- "ERLW"
+- "RMBRE"
+- "EGW"
+- "MOT"
+- "IDRotF"
+- "TCE"
+- "CM"
+- "WBtW"
+- "CRCotN"
+- "JttRC"
+- "LoX"
+- "DSotDQ"
+- "KftGV"
+- "GotSF"
+- "PaBTSO"
+- "AATM"
+- "SatO"
+- "ToFW"
+- "BMT"
+- "HFStCM"
+- "GHLoE"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Commoner.webp"
 ```
 ^statblock
 

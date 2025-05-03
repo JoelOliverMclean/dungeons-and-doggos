@@ -12,7 +12,7 @@ aliases:
 ---
 # Instrument of the Bards, Fochlucan Bandore
 *Instrument, major, uncommon (requires attunement by a bard)*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/DMG/Instrument%20of%20the%20Bards,%20Fochlucan%20Bandore.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/DMG/Instrument%20of%20the%20Bards%2C%20Fochlucan%20Bandore.webp#right)  
 
 - **Weight**: 2.0 lbs.
 

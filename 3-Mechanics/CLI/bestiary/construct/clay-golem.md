@@ -6,12 +6,12 @@ tags:
 - monster/cr/9
 - monster/size/large
 - monster/type/construct
+statblock: inline
 aliases: ["Clay Golem"]
 ---
-# Clay Golem
+# [Clay Golem](3-Mechanics\CLI\bestiary\construct/clay-golem.md)
 *Source: Monster Manual p. 168, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Clay%20Golem.webp#right)  
 Sculpted from clay, this bulky golem stands head and shoulders taller than most human-sized creatures. It is human shaped, but its proportions are off.
 
 Clay golems are often divinely endowed with purpose by priests of great faith. However, clay is a weak vessel for life force. If the golem is damaged, the elemental spirit bound into it can break free. Such a golem runs amok, smashing everything around it until it is destroyed or completely repaired.
@@ -48,49 +48,76 @@ When its creator or possessor is on hand to command it, a golem performs flawles
 
 A golem doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Clay Golem
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Clay%20Golem.webp#token)
-*Large construct, Unaligned*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 133 (`14d10 + 56`) 
-- **Speed** 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|20 (+5)| 9 (-1)|18 (+4)| 3 (-4)| 8 (-1)| 1 (-5)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Damage Immunities** acid; poison; psychic; bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands the languages of its creator but can't speak
-- **Challenge** 9
-
-## Traits
-
-***Acid Absorption.*** Whenever the golem is subjected to acid damage, it takes no damage and instead regains a number of hit points equal to the acid damage dealt.
-
-***Berserk.*** Whenever the golem starts its turn with 60 hit points or fewer, roll a `d6`. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.
-
-***Immutable Form.*** The golem is immune to any spell or effect that would alter its form.
-
-***Magic Resistance.*** The golem has advantage on saving throws against spells and other magical effects.
-
-***Magic Weapons.*** The golem's weapon attacks are magical.
-
-## Actions
-
-***Multiattack.*** The golem makes two slam attacks.
-
-***Slam.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 16 (`2d10 + 5`) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the  [greater restoration](/3-Mechanics/CLI/spells/greater-restoration.md) spell or other magic.
-
-***Haste (Recharge 5-6).*** Until the end of its next turn, the golem magically gains a +2 bonus to its AC, has advantage on Dexterity saving throws, and can use its slam attack as a bonus action.
+```statblock
+"name": "Clay Golem"
+"size": "Large"
+"type": "construct"
+"alignment": "Unaligned"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "133"
+"hit_dice": "14d10 + 56"
+"stats":
+- !!int "20"
+- !!int "9"
+- !!int "18"
+- !!int "3"
+- !!int "8"
+- !!int "1"
+"speed": "20 ft."
+"damage_immunities": "acid; poison; psychic; bludgeoning, piercing, slashing from\
+  \ nonmagical attacks that aren't adamantine"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened),\
+  \ [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "understands the languages of its creator but can't speak"
+"cr": "9"
+"traits":
+- "desc": "Whenever the golem is subjected to acid damage, it takes no damage and\
+    \ instead regains a number of hit points equal to the acid damage dealt."
+  "name": "Acid Absorption"
+- "desc": "Whenever the golem starts its turn with 60 hit points or fewer, roll a\
+    \ d6. On a 6, the golem goes berserk. On each of its turns while berserk, the\
+    \ golem attacks the nearest creature it can see. If no creature is near enough\
+    \ to move to and attack, the golem attacks an object, with preference for an object\
+    \ smaller than itself. Once the golem goes berserk, it continues to do so until\
+    \ it is destroyed or regains all its hit points."
+  "name": "Berserk"
+- "desc": "The golem is immune to any spell or effect that would alter its form."
+  "name": "Immutable Form"
+- "desc": "The golem has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The golem's weapon attacks are magical."
+  "name": "Magic Weapons"
+"actions":
+- "desc": "The golem makes two slam attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16\
+    \ (2d10 + 5) bludgeoning damage. If the target is a creature, it must succeed\
+    \ on a DC 15 Constitution saving throw or have its hit point maximum reduced by\
+    \ an amount equal to the damage taken. The target dies if this attack reduces\
+    \ its hit point maximum to 0. The reduction lasts until removed by the  [greater\
+    \ restoration](/3-Mechanics/CLI/spells/greater-restoration.md) spell or other\
+    \ magic."
+  "name": "Slam"
+- "desc": "Until the end of its next turn, the golem magically gains a +2 bonus to\
+    \ its AC, has advantage on Dexterity saving throws, and can use its slam attack\
+    \ as a bonus action."
+  "name": "Haste (Recharge 5-6)"
+"source":
+- "MM"
+- "CoS"
+- "RoT"
+- "TftYP"
+- "ToA"
+- "WDMM"
+- "DSotDQ"
+- "KftGV"
+- "PaBTSO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Clay%20Golem.webp"
 ```
 ^statblock

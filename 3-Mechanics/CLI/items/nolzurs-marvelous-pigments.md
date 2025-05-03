@@ -11,7 +11,7 @@ aliases:
 ---
 # Nolzur's Marvelous Pigments
 *Wondrous Item, minor, very rare*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/DMG/Nolzur's%20Marvelous%20Pigments.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/DMG/Nolzur%27s%20Marvelous%20Pigments.webp#right)  
 
 - **Weight**: 1.0 lbs.
 

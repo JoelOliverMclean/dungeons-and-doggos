@@ -29,8 +29,3 @@ A ki-rin's Celestial nature transforms the region around its lair. Any of the fo
 - **Safe Descents.** Within 3 miles of the lair, winds buoy creatures that fall due to no act of the ki-rin or its allies. Such creatures descend at a rate of 60 feet per round and take no falling damage. Aberrations, Fiends, and Undead don't gain this benefit, falling as normal.  
 
 When the ki-rin dies, all these effects disappear immediately, although the invigorating effect on flora and fauna remains for 3 years.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

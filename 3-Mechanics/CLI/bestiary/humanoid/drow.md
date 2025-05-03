@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/elf
+statblock: inline
 aliases: ["Drow"]
 ---
-# Drow
+# [Drow](3-Mechanics\CLI\bestiary\humanoid/drow.md)
 *Source: Monster Manual p. 128, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Drow.webp#right)  
 ## Drow
 
 Tens of thousands of years ago, the elves were divided, with those of benevolent disposition battling those that were selfish and cruel. The war among elvenkind ended when the good elves banished their malevolent kin to the subterranean depths. Here, in the lightless caverns and endless warrens of twisting passages, the dark elves-the drow-found refuge. They also found leadership in the only elven deity who had not forsaken them. At her command, the dark elves built an empire in the underworld.
@@ -67,44 +67,69 @@ Distilled from spider venom and the flora of the Underdark, poison can be found 
 > Such depravity. Such terrifying cruelty. They are the vile poison that plagues all elvenkind.
 
 
-
-```ad-statblock
-title: Drow
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Drow.webp#token)
-*Medium humanoid (elf), Neutral Evil*
-
-- **Armor Class** 15 ([chain shirt](/3-Mechanics/CLI/items/chain-shirt.md))
-- **Hit Points** 13 (`3d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|14 (+2)|10 (+0)|11 (+0)|11 (+0)|12 (+1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +2, Stealth +4
-- **Senses** darkvision 120 ft., passive Perception 12
-- **Languages** Elvish, Undercommon
-- **Challenge** 1/4
-
-## Traits
-
-***Fey Ancestry.*** The drow has advantage on saving throws against being [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), and magic can't put the drow to sleep.
-
-***Sunlight Sensitivity.*** While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-***Innate Spellcasting.*** The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:
-
-**At will**: [dancing lights](/3-Mechanics/CLI/spells/dancing-lights.md)
-
-**1/day each**: [darkness](/3-Mechanics/CLI/spells/darkness.md), [faerie fire](/3-Mechanics/CLI/spells/faerie-fire.md)
-
-## Actions
-
-***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
-
-***Hand Crossbow.*** *Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious) while [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
+```statblock
+"name": "Drow"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "elf"
+"alignment": "Neutral Evil"
+"ac": !!int "15"
+"ac_class": "[chain shirt](/3-Mechanics/CLI/items/chain-shirt.md)"
+"hp": !!int "13"
+"hit_dice": "3d8"
+"stats":
+- !!int "10"
+- !!int "14"
+- !!int "10"
+- !!int "11"
+- !!int "11"
+- !!int "12"
+"speed": "30 ft."
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "2"
+"senses": "darkvision 120 ft., passive Perception 12"
+"languages": "Elvish, Undercommon"
+"cr": "1/4"
+"traits":
+- "desc": "The drow's spellcasting ability is Charisma (spell save DC 11). It can\
+    \ innately cast the following spells, requiring no material components:\n\nAt\
+    \ will: [dancing lights](/3-Mechanics/CLI/spells/dancing-lights.md)\n\n1/day\
+    \ each: [darkness](/3-Mechanics/CLI/spells/darkness.md), [faerie fire](/3-Mechanics/CLI/spells/faerie-fire.md)"
+  "name": "Innate Spellcasting"
+- "desc": "The drow has advantage on saving throws against being [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+    \ and magic can't put the drow to sleep."
+  "name": "Fey Ancestry"
+- "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well as\
+    \ on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks\
+    \ that rely on sight."
+  "name": "Sunlight Sensitivity"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage."
+  "name": "Shortsword"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+    \ 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution\
+    \ saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)\
+    \ while [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way.\
+    \ The target wakes up if it takes damage or if another creature takes an action\
+    \ to shake it awake."
+  "name": "Hand Crossbow"
+"source":
+- "MM"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "DC"
+- "DIP"
+- "BGDIA"
+- "EGW"
+- "CM"
+- "CRCotN"
+- "PaBTSO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Drow.webp"
 ```
 ^statblock
 

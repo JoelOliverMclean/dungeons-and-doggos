@@ -11,7 +11,6 @@ aliases: ["Dwarf (Mountain)"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Dwarf.webp#right)  
 
 - **Ability Scores**: Strength +2
-- **Type**: subrace
 - **Size**: Medium
 - **Speed**: 25 ft.
 

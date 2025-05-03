@@ -6,12 +6,12 @@ tags:
 - monster/cr/6
 - monster/size/medium
 - monster/type/humanoid/gith
+statblock: inline
 aliases: ["Githzerai Zerth"]
 ---
-# Githzerai Zerth
+# [Githzerai Zerth](3-Mechanics\CLI\bestiary\humanoid/githzerai-zerth.md)
 *Source: Monster Manual p. 161, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Githzerai.webp#right)  
 Focused philosophers and austere ascetics, the githzerai pursue lives of rigid order. Lean and muscular, they wear unadorned clothing free of ornamentation, keeping their own counsel and trusting few creatures outside of their own kind. Having turned their backs on their warlike githyanki kin, the githzerai maintain a strict monastic lifestyle, dwelling on islands of order in the vast sea of chaos that is the plane of Limbo.
 
 ## Psionic Adepts
@@ -59,45 +59,58 @@ Whether these tall, gaunt creatures were peaceful or savage, cultured or primiti
 > The githyanki and the githzerai were so profoundly scarred by their enslavement to the mind flayers that they forget they were one race, united. Having won their freedom, they wage war against each other with a hatred none can fully comprehend.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Githzerai Zerth
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Githzerai%20Zerth.webp#token)
-*Medium humanoid (gith), Lawful Neutral*
-
-- **Armor Class** 17 
-- **Hit Points** 84 (`13d8 + 26`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|18 (+4)|15 (+2)|16 (+3)|17 (+3)|12 (+1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Strength +4, Dexterity +7, Intelligence +6, Wisdom +6
-- **Skills** Arcana +6, Insight +6, Perception +6
-- **Senses** passive Perception 16
-- **Languages** Gith
-- **Challenge** 6
-
-## Traits
-
-***Psychic Defense.*** While the githzerai is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
-
-***Innate Spellcasting (Psionics).*** The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:
-
-**At will**: [mage hand](/3-Mechanics/CLI/spells/mage-hand.md) (the hand is invisible)
-
-**1/day each**: [phantasmal killer](/3-Mechanics/CLI/spells/phantasmal-killer.md), [plane shift](/3-Mechanics/CLI/spells/plane-shift.md)
-
-**3/day each**: [feather fall](/3-Mechanics/CLI/spells/feather-fall.md), [jump](/3-Mechanics/CLI/spells/jump.md), [see invisibility](/3-Mechanics/CLI/spells/see-invisibility.md), [shield](/3-Mechanics/CLI/spells/shield.md)
-
-## Actions
-
-***Multiattack.*** The githzerai makes two unarmed strikes.
-
-***Unarmed Strike.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage plus 13 (`3d8`) psychic damage. This is a magic weapon attack.
+```statblock
+"name": "Githzerai Zerth"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "gith"
+"alignment": "Lawful Neutral"
+"ac": !!int "17"
+"hp": !!int "84"
+"hit_dice": "13d8 + 26"
+"stats":
+- !!int "13"
+- !!int "18"
+- !!int "15"
+- !!int "16"
+- !!int "17"
+- !!int "12"
+"speed": "30 ft."
+"saves":
+  "Dexterity": !!int "7"
+  "Wisdom": !!int "6"
+  "Intelligence": !!int "6"
+  "Strength": !!int "4"
+"skillsaves":
+  "Insight": !!int "6"
+  "Perception": !!int "6"
+  "Arcana": !!int "6"
+"senses": "passive Perception 16"
+"languages": "Gith"
+"cr": "6"
+"traits":
+- "desc": "The githzerai's innate spellcasting ability is Wisdom. It can innately\
+    \ cast the following spells, requiring no components:\n\nAt will: [mage hand](/3-Mechanics/CLI/spells/mage-hand.md)\
+    \ (the hand is invisible)\n\n1/day each: [phantasmal killer](/3-Mechanics/CLI/spells/phantasmal-killer.md),\
+    \ [plane shift](/3-Mechanics/CLI/spells/plane-shift.md)\n\n3/day each: [feather\
+    \ fall](/3-Mechanics/CLI/spells/feather-fall.md), [jump](/3-Mechanics/CLI/spells/jump.md),\
+    \ [see invisibility](/3-Mechanics/CLI/spells/see-invisibility.md), [shield](/3-Mechanics/CLI/spells/shield.md)"
+  "name": "Innate Spellcasting (Psionics)"
+- "desc": "While the githzerai is wearing no armor and wielding no shield, its AC\
+    \ includes its Wisdom modifier."
+  "name": "Psychic Defense"
+"actions":
+- "desc": "The githzerai makes two unarmed strikes."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) bludgeoning damage plus 13 (3d8) psychic damage. This is a magic\
+    \ weapon attack."
+  "name": "Unarmed Strike"
+"source":
+- "MM"
+- "WDMM"
+- "SatO"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Githzerai%20Zerth.webp"
 ```
 ^statblock

@@ -35,7 +35,7 @@ The following items appear in various locations in the adventure:
 
 ![Badge of the Watch](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/WDH/Badge.webp#center)
 
-![Lord's Ensemble](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/WDH/Lord's-Ensemble.webp#center)
+![Lord's Ensemble](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/WDH/Lord%27s-Ensemble.webp#center)
 
 ![Paper Bird](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/WDH/Paper-Bird.webp#center)
 

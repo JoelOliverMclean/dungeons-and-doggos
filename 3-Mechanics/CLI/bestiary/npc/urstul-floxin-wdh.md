@@ -6,52 +6,75 @@ tags:
 - monster/cr/8
 - monster/size/medium
 - monster/type/humanoid/illuskan-human
+statblock: inline
 aliases: ["Urstul Floxin"]
 ---
-# Urstul Floxin
+# [Urstul Floxin](3-Mechanics\CLI\bestiary\npc/urstul-floxin-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 216*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Urstul%20Floxin.webp#right)  
 Urstul Floxin works for Manshoon, and he is the highest-ranking member of the Zhentarim squad stationed at House Gralhund. Urstul is a glorified thug with all the charm and breeding of a snake, but the Gralhunds tolerate him because he feeds them useful information culled from his spies throughout the city. Urstul takes his orders from Manshoon's current simulacrum, which comes and goes from House Gralhund by way of a teleportation circle (connected to the circle in Kolat Towers).
 
 Urstul is a large, heavyset man in his forties. He storms about House Gralhund like he owns the place. He has a collection of black flying snakes that he uses as couriers to deliver messages to underlings throughout the city.
 
-
-```ad-statblock
-title: Urstul Floxin
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Urstul%20Floxin.webp#token)
-*Medium humanoid (Illuskan human), Lawful Evil*
-
-- **Armor Class** 15 ([studded leather](/3-Mechanics/CLI/items/studded-leather-armor.md))
-- **Hit Points** 78 (`12d8 + 24`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|11 (+0)|16 (+3)|14 (+2)|13 (+1)|11 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +6, Intelligence +4
-- **Skills** Acrobatics +6, Deception +3, Perception +3, Stealth +9
-- **Senses** passive Perception 13
-- **Damage Resistances** poison
-- **Languages** Common, Orc, Thieves' cant
-- **Challenge** 8
-
-## Traits
-
-***Assassinate.*** During its first turn, Urstul has advantage on attack rolls against any creature that hasn't taken a turn. Any hit Urstul scores against a surprised creature is a critical hit.
-
-***Evasion.*** If Urstul is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Urstul instead takes no damage if he succeeds on the saving throw, and only half damage if it fails.
-
-***Sneak Attack (1/Turn).*** Urstul deals an extra 14 (`4d6`) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Urstul that isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated) and Urstul doesn't have disadvantage on the attack roll.
-
-## Actions
-
-***Multiattack.*** Urstul makes two shortsword attacks.
-
-***Shortsword.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (`7d6`) poison damage on a failed save, or half as much damage on a successful one.
-
-***Light Crossbow.*** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:* 7 (`1d8 + 3`) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (`7d6`) poison damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Urstul Floxin (WDH)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "Illuskan human"
+"alignment": "Lawful Evil"
+"ac": !!int "15"
+"ac_class": "[studded leather](/3-Mechanics/CLI/items/studded-leather-armor.md)"
+"hp": !!int "78"
+"hit_dice": "12d8 + 24"
+"stats":
+- !!int "11"
+- !!int "16"
+- !!int "14"
+- !!int "13"
+- !!int "11"
+- !!int "10"
+"speed": "30 ft."
+"saves":
+  "Dexterity": !!int "6"
+  "Intelligence": !!int "4"
+"skillsaves":
+  "Deception": !!int "3"
+  "Stealth": !!int "9"
+  "Perception": !!int "3"
+  "Acrobatics": !!int "6"
+"damage_resistances": "poison"
+"senses": "passive Perception 13"
+"languages": "Common, Orc, Thieves' cant"
+"cr": "8"
+"traits":
+- "desc": "During its first turn, Urstul has advantage on attack rolls against any\
+    \ creature that hasn't taken a turn. Any hit Urstul scores against a surprised\
+    \ creature is a critical hit."
+  "name": "Assassinate"
+- "desc": "If Urstul is subjected to an effect that allows him to make a Dexterity\
+    \ saving throw to take only half damage, Urstul instead takes no damage if he\
+    \ succeeds on the saving throw, and only half damage if it fails."
+  "name": "Evasion"
+- "desc": "Urstul deals an extra 14 (4d6) damage when he hits a target with a weapon\
+    \ attack and has advantage on the attack roll, or when the target is within 5\
+    \ feet of an ally of Urstul that isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)\
+    \ and Urstul doesn't have disadvantage on the attack roll."
+  "name": "Sneak Attack (1/Turn)"
+"actions":
+- "desc": "Urstul makes two shortsword attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) piercing damage, and the target must make a DC 15 Constitution saving\
+    \ throw, taking 24 (7d6) poison damage on a failed save, or half as much damage\
+    \ on a successful one."
+  "name": "Shortsword"
+- "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+    \ 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution\
+    \ saving throw, taking 24 (7d6) poison damage on a failed save, or half as much\
+    \ damage on a successful one."
+  "name": "Light Crossbow"
+"source":
+- "WDH"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Urstul%20Floxin.webp"
 ```
 ^statblock

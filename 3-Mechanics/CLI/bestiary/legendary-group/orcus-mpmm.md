@@ -26,8 +26,3 @@ The region containing Orcus's lair is warped by his magic, creating one or more 
 - **Undead Beasts.** Dead Beasts periodically animate as Undead mockeries of their former selves. Skeletal and zombie versions of local wildlife are commonly seen in the area.  
 
 If Orcus dies, these effects fade over the course of `1d10` days.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

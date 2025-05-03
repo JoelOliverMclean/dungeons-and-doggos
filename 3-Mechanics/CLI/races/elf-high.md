@@ -11,7 +11,6 @@ aliases: ["Elf (High)"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Elf.webp#right)  
 
 - **Ability Scores**: Intelligence +1
-- **Type**: subrace
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Intelligence

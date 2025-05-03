@@ -10,12 +10,12 @@ tags:
 - monster/size/medium
 - monster/type/humanoid/human
 - monster/type/humanoid/shapechanger
+statblock: inline
 aliases: ["Werebear"]
 ---
-# Werebear
+# [Werebear](3-Mechanics\CLI\bestiary\humanoid/werebear.md)
 *Source: Monster Manual p. 208. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Werebear.webp#right)  
 Werebears are powerful lycanthropes with the ability to temper their monstrous natures and reject their violent impulses. In humanoid form, they are large, muscular, and covered in hair matching the color of their ursine form's fur. A werebear is a loner by nature, fearing what might happen to innocent creatures around it when its bestial nature takes over.
 
 When a werebear transforms, it grows to enormous size, lashing out with weapons or claws. It fights with the ferocity of a bear, though even in its bestial forms, it avoids biting so as to not pass on its curse. Typically, a werebear passes on its lycanthropy only to chosen companions or apprentices, spending the time that follows helping the new lycanthrope accept the curse in order to control it.
@@ -55,45 +55,61 @@ Some individuals see little point in fighting the curse and accept what they are
 > **[Werewolf](/3-Mechanics/CLI/bestiary/humanoid/werewolf.md).** The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength.
 ^player-characters-as-lycanthropes
 
-
-## Statblock
-
-```ad-statblock
-title: Werebear
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Werebear.webp#token)
-*Medium humanoid (human, shapechanger), Neutral Good*
-
-- **Armor Class** 10 (11 from natural armor in bear or hybrid form)
-- **Hit Points** 135 (`18d8 + 54`) 
-- **Speed** 30 ft. (40 ft., climb 30 ft. in bear or hybrid form)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|10 (+0)|17 (+3)|11 (+0)|12 (+1)|12 (+1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Perception +7
-- **Senses** passive Perception 17
-- **Damage Immunities** bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Languages** Common (can't speak in bear form)
-- **Challenge** 5
-
-## Traits
-
-***Shapechanger.*** The werebear can use its action to polymorph into a Large bear-humanoid hybrid or into a Large bear, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
-
-***Keen Smell.*** The werebear has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on smell.
-
-## Actions
-
-***Multiattack.*** In bear form, the werebear makes two claw attacks. In humanoid form, it makes two greataxe attacks. In hybrid form, it can attack like a bear or a humanoid.
-
-***Bite (Bear or Hybrid Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15 (`2d10 + 4`) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werebear lycanthropy.
-
-***Claw (Bear or Hybrid Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) slashing damage.
-
-***Greataxe (Humanoid or Hybrid Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (`1d12 + 4`) slashing damage.
+```statblock
+"name": "Werebear"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "human, shapechanger"
+"alignment": "Neutral Good"
+"ac": !!int "10"
+"ac_class": "11 from natural armor in bear or hybrid form"
+"hp": !!int "135"
+"hit_dice": "18d8 + 54"
+"stats":
+- !!int "19"
+- !!int "10"
+- !!int "17"
+- !!int "11"
+- !!int "12"
+- !!int "12"
+"speed": "30 ft. (40 ft., climb 30 ft. in bear or hybrid form)"
+"skillsaves":
+  "Perception": !!int "7"
+"damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
+  \ aren't silvered"
+"senses": "passive Perception 17"
+"languages": "Common (can't speak in bear form)"
+"cr": "5"
+"traits":
+- "desc": "The werebear can use its action to polymorph into a Large bear-humanoid\
+    \ hybrid or into a Large bear, or back into its true form, which is humanoid.\
+    \ Its statistics, other than its size and AC, are the same in each form. Any equipment\
+    \ it is wearing or carrying isn't transformed. It reverts to its true form if\
+    \ it dies."
+  "name": "Shapechanger"
+- "desc": "The werebear has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on smell."
+  "name": "Keen Smell"
+"actions":
+- "desc": "In bear form, the werebear makes two claw attacks. In humanoid form, it\
+    \ makes two greataxe attacks. In hybrid form, it can attack like a bear or a humanoid."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+    \ (2d10 + 4) piercing damage. If the target is a humanoid, it must succeed on\
+    \ a DC 14 Constitution saving throw or be cursed with werebear lycanthropy."
+  "name": "Bite (Bear or Hybrid Form Only)"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d8 + 4) slashing damage."
+  "name": "Claw (Bear or Hybrid Form Only)"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
+    \ (1d12 + 4) slashing damage."
+  "name": "Greataxe (Humanoid or Hybrid Form Only)"
+"source":
+- "MM"
+- "GoS"
+- "EGW"
+- "KftGV"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Werebear.webp"
 ```
 ^statblock
 

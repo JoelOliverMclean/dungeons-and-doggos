@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Minotaur"]
 ---
-# Minotaur
+# [Minotaur](3-Mechanics\CLI\bestiary\monstrosity/minotaur.md)
 *Source: Monster Manual p. 223, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Minotaur.webp#right)  
 A minotaur's roar is a savage battle cry that most civilized creatures fear. Born into the mortal realm by demonic rites, minotaurs are savage conquerors and carnivores that live for the hunt. Their brown or black fur is stained with the blood of fallen foes, and they carry the stench of death.
 
 ## The Beast Within
@@ -33,42 +33,61 @@ Unknown to all but their highest-ranking leaders, these mystery cults are creati
 
 Although they begin as creations of the Horned King, minotaurs can breed true with one another, giving rise to an independent race of Baphomet's savage children in the world.
 
-
-## Statblock
-
-```ad-statblock
-title: Minotaur
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Minotaur.webp#token)
-*Large monstrosity, Chaotic Evil*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 76 (`9d10 + 27`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|11 (+0)|16 (+3)| 6 (-2)|16 (+3)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +7
-- **Senses** darkvision 60 ft., passive Perception 17
-- **Languages** Abyssal
-- **Challenge** 3
-
-## Traits
-
-***Charge.*** If the minotaur moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (`2d8`) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
-
-***Labyrinthine Recall.*** The minotaur can perfectly recall any path it has traveled.
-
-***Reckless.*** At the start of its turn, the minotaur can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.
-
-## Actions
-
-***Greataxe.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17 (`2d12 + 4`) slashing damage.
-
-***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) piercing damage.
+```statblock
+"name": "Minotaur"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Chaotic Evil"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "76"
+"hit_dice": "9d10 + 27"
+"stats":
+- !!int "18"
+- !!int "11"
+- !!int "16"
+- !!int "6"
+- !!int "16"
+- !!int "9"
+"speed": "40 ft."
+"skillsaves":
+  "Perception": !!int "7"
+"senses": "darkvision 60 ft., passive Perception 17"
+"languages": "Abyssal"
+"cr": "3"
+"traits":
+- "desc": "If the minotaur moves at least 10 feet straight toward a target and then\
+    \ hits it with a gore attack on the same turn, the target takes an extra 9 (2d8)\
+    \ piercing damage. If the target is a creature, it must succeed on a DC 14 Strength\
+    \ saving throw or be pushed up to 10 feet away and knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Charge"
+- "desc": "The minotaur can perfectly recall any path it has traveled."
+  "name": "Labyrinthine Recall"
+- "desc": "At the start of its turn, the minotaur can gain advantage on all melee\
+    \ weapon attack rolls it makes during that turn, but attack rolls against it have\
+    \ advantage until the start of its next turn."
+  "name": "Reckless"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
+    \ (2d12 + 4) slashing damage."
+  "name": "Greataxe"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d8 + 4) piercing damage."
+  "name": "Gore"
+"source":
+- "MM"
+- "PotA"
+- "ToA"
+- "WDH"
+- "WDMM"
+- "BGDIA"
+- "ERLW"
+- "EGW"
+- "MOT"
+- "CRCotN"
+- "PSZ"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Minotaur.webp"
 ```
 ^statblock
 

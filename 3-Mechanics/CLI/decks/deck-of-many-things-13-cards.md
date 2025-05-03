@@ -20,24 +20,24 @@ Two of the cards in a deck of many things can earn a character the enmity of ano
 
 In the case of the [Rogue](/3-Mechanics/CLI/decks/deck-of-many-things.md#Rogue) card, the enmity is secret and should come from someone thought to be a friend or an ally. As Dungeon Master, you should wait for a dramatically appropriate moment to reveal this enmity, leaving the adventurer guessing who is likely to become a betrayer.
 
-`dice: [](deck-of-many-things-13-cards.md#^1-card)`
+`dice: [](deck-of-many-things-13-cards.md#^1-playing-card-card)`
 
-| dice: 1d13 | Card |
-|------------|------|
-| 1 | [Sun](/3-Mechanics/CLI/decks/deck-of-many-things.md#Sun) |
-| 2 | [Moon](/3-Mechanics/CLI/decks/deck-of-many-things.md#Moon) |
-| 3 | [Star](/3-Mechanics/CLI/decks/deck-of-many-things.md#Star) |
-| 4 | [Throne](/3-Mechanics/CLI/decks/deck-of-many-things.md#Throne) |
-| 5 | [Key](/3-Mechanics/CLI/decks/deck-of-many-things.md#Key) |
-| 6 | [Knight](/3-Mechanics/CLI/decks/deck-of-many-things.md#Knight) |
-| 7 | [The Void](/3-Mechanics/CLI/decks/deck-of-many-things.md#The%20Void) |
-| 8 | [Flames](/3-Mechanics/CLI/decks/deck-of-many-things.md#Flames) |
-| 9 | [Skull](/3-Mechanics/CLI/decks/deck-of-many-things.md#Skull) |
-| 10 | [Ruin](/3-Mechanics/CLI/decks/deck-of-many-things.md#Ruin) |
-| 11 | [Euryale](/3-Mechanics/CLI/decks/deck-of-many-things.md#Euryale) |
-| 12 | [Rogue](/3-Mechanics/CLI/decks/deck-of-many-things.md#Rogue) |
-| 13 | [Jester](/3-Mechanics/CLI/decks/deck-of-many-things.md#Jester) |
-^1-card
+| dice: 1d13 | Playing Card | Card |
+|------------|--------------|------|
+| 1 | King of diamonds | [Sun](/3-Mechanics/CLI/decks/deck-of-many-things.md#Sun) |
+| 2 | Queen of diamonds | [Moon](/3-Mechanics/CLI/decks/deck-of-many-things.md#Moon) |
+| 3 | Jack of diamonds | [Star](/3-Mechanics/CLI/decks/deck-of-many-things.md#Star) |
+| 4 | King of hearts | [Throne](/3-Mechanics/CLI/decks/deck-of-many-things.md#Throne) |
+| 5 | Queen of hearts | [Key](/3-Mechanics/CLI/decks/deck-of-many-things.md#Key) |
+| 6 | Jack of hearts | [Knight](/3-Mechanics/CLI/decks/deck-of-many-things.md#Knight) |
+| 7 | King of clubs | [The Void](/3-Mechanics/CLI/decks/deck-of-many-things.md#The%20Void) |
+| 8 | Queen of clubs | [Flames](/3-Mechanics/CLI/decks/deck-of-many-things.md#Flames) |
+| 9 | Jack of clubs | [Skull](/3-Mechanics/CLI/decks/deck-of-many-things.md#Skull) |
+| 10 | King of spades | [Ruin](/3-Mechanics/CLI/decks/deck-of-many-things.md#Ruin) |
+| 11 | Queen of spades | [Euryale](/3-Mechanics/CLI/decks/deck-of-many-things.md#Euryale) |
+| 12 | Jack of spades | [Rogue](/3-Mechanics/CLI/decks/deck-of-many-things.md#Rogue) |
+| 13 | Joker (without TM) | [Jester](/3-Mechanics/CLI/decks/deck-of-many-things.md#Jester) |
+^1-playing-card-card
 
 ## Cards
 

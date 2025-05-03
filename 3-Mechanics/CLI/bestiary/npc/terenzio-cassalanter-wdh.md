@@ -6,30 +6,33 @@ tags:
 - monster/cr/unknown
 - monster/size/small
 - monster/type/humanoid/human
+statblock: inline
 aliases: ["Terenzio Cassalanter"]
 ---
-# Terenzio Cassalanter
+# [Terenzio Cassalanter](3-Mechanics\CLI\bestiary\npc/terenzio-cassalanter-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 115*  
 
-
-```ad-statblock
-title: Terenzio Cassalanter
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Terenzio%20Cassalanter.webp#token)
-*Small humanoid (human), Neutral*
-
-- **Armor Class** 10 
-- **Hit Points** 1  
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +25002
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 10
-- **Languages** Common
-- **Challenge** Unknown
+```statblock
+"name": "Terenzio Cassalanter (WDH)"
+"size": "Small"
+"type": "humanoid"
+"subtype": "human"
+"alignment": "Neutral"
+"ac": !!int "10"
+"hp": !!int "1"
+"stats":
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+"speed": "30 ft."
+"senses": "passive Perception 10"
+"languages": "Common"
+"cr": "Unknown"
+"source":
+- "WDH"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Terenzio%20Cassalanter.webp"
 ```
 ^statblock

@@ -167,6 +167,18 @@
       "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "Venue",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "36f5-a082",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
     }
   ]
 }

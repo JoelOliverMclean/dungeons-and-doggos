@@ -11,7 +11,7 @@ aliases:
 ---
 # Lord's Ensemble
 *Wondrous Item, very rare (requires attunement by a creature with a humanoid build)*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/WDH/Lord's%20Ensemble.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/WDH/Lord%27s%20Ensemble.webp#right)  
 
 
 The Masked Lords of Waterdeep don this ensemble when meeting with one another. This raiment renders each lord indistinguishable from the others. The ensemble consists of three pieces—a helm, an amulet, and a robe—that function as a single magic item when worn together, but only within the city of Waterdeep and its sewers. You become attuned to the ensemble as a single item.

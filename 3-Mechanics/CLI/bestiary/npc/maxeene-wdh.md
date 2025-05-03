@@ -6,36 +6,39 @@ tags:
 - monster/cr/1-4
 - monster/size/large
 - monster/type/beast
+statblock: inline
 aliases: ["Maxeene"]
 ---
-# Maxeene
+# [Maxeene](3-Mechanics\CLI\bestiary\npc/maxeene-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 37*  
 
 Maxeene is a talking horse.
 
-
-```ad-statblock
-title: Maxeene
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Maxeene.webp#token)
-*Large beast, Unaligned*
-
-- **Armor Class** 10 
-- **Hit Points** 19 (`3d10 + 3`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|10 (+0)|12 (+1)|10 (+0)|11 (+0)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 10
-- **Languages** Common
-- **Challenge** 1/4
-
-## Actions
-
-***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (`2d4 + 4`) bludgeoning damage.
+```statblock
+"name": "Maxeene (WDH)"
+"size": "Large"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "10"
+"hp": !!int "19"
+"hit_dice": "3d10 + 3"
+"stats":
+- !!int "18"
+- !!int "10"
+- !!int "12"
+- !!int "10"
+- !!int "11"
+- !!int "7"
+"speed": "40 ft."
+"senses": "passive Perception 10"
+"languages": "Common"
+"cr": "1/4"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4\
+    \ + 4) bludgeoning damage."
+  "name": "Hooves"
+"source":
+- "WDH"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Maxeene.webp"
 ```
 ^statblock

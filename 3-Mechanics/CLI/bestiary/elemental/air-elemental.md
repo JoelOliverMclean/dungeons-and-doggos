@@ -8,12 +8,12 @@ tags:
 - monster/environment/mountain
 - monster/size/large
 - monster/type/elemental
+statblock: inline
 aliases: ["Air Elemental"]
 ---
-# Air Elemental
+# [Air Elemental](3-Mechanics\CLI\bestiary\elemental/air-elemental.md)
 *Source: Monster Manual p. 124, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Air%20Elemental.webp#right)  
 An air elemental is a funneling cloud of whirling air with a vague semblance of a face. Although it likes to race across the ground, picking up dust and debris as it goes, it can also fly and attack from above.
 
 An air elemental can turn itself into a screaming cyclone, creating a whirlwind that batters creatures even as it flings them away.
@@ -38,45 +38,78 @@ Powerful magic can bind an elemental spirit into a material template that define
 
 An elemental doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Air Elemental
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Air%20Elemental.webp#token)
-*Large elemental, Neutral*
-
-- **Armor Class** 15 
-- **Hit Points** 90 (`12d10 + 24`) 
-- **Speed** fly 90 ft. (hover)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|14 (+2)|20 (+5)|14 (+2)| 6 (-2)|10 (+0)| 6 (-2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Resistances** lightning; thunder; bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** poison
-- **Condition Immunities** [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [prone](/3-Mechanics/CLI/rules/conditions.md#prone), [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)
-- **Languages** Auran
-- **Challenge** 5
-
-## Traits
-
-***Air Form.*** The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.
-
-## Actions
-
-***Multiattack.*** The elemental makes two slam attacks.
-
-***Slam.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14 (`2d8 + 5`) bludgeoning damage.
-
-***Whirlwind (Recharge 4-6).*** Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (`3d8 + 2`) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone). If a thrown target strikes an object, such as a wall or floor, the target takes 3 (`1d6`) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
-
-If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
+```statblock
+"name": "Air Elemental"
+"size": "Large"
+"type": "elemental"
+"alignment": "Neutral"
+"ac": !!int "15"
+"hp": !!int "90"
+"hit_dice": "12d10 + 24"
+"stats":
+- !!int "14"
+- !!int "20"
+- !!int "14"
+- !!int "6"
+- !!int "10"
+- !!int "6"
+"speed": "fly 90 ft. (hover)"
+"damage_resistances": "lightning; thunder; bludgeoning, piercing, slashing from nonmagical\
+  \ attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion),\
+  \ [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed),\
+  \ [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned),\
+  \ [prone](/3-Mechanics/CLI/rules/conditions.md#prone), [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained),\
+  \ [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Auran"
+"cr": "5"
+"traits":
+- "desc": "The elemental can enter a hostile creature's space and stop there. It can\
+    \ move through a space as narrow as 1 inch wide without squeezing."
+  "name": "Air Form"
+"actions":
+- "desc": "The elemental makes two slam attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+    \ (2d8 + 5) bludgeoning damage."
+  "name": "Slam"
+- "desc": "Each creature in the elemental's space must make a DC 13 Strength saving\
+    \ throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is\
+    \ flung up 20 feet away from the elemental in a random direction and knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).\
+    \ If a thrown target strikes an object, such as a wall or floor, the target takes\
+    \ 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target\
+    \ is thrown at another creature, that creature must succeed on a DC 13 Dexterity\
+    \ saving throw or take the same damage and be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).\n\
+    \nIf the saving throw is successful, the target takes half the bludgeoning damage\
+    \ and isn't flung away or knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Whirlwind (Recharge 4-6)"
+"source":
+- "MM"
+- "HotDQ"
+- "PotA"
+- "RoT"
+- "SKT"
+- "TftYP"
+- "ToA"
+- "WDMM"
+- "GoS"
+- "DIP"
+- "SLW"
+- "ERLW"
+- "IMR"
+- "MOT"
+- "TCE"
+- "CM"
+- "WBtW"
+- "JttRC"
+- "DSotDQ"
+- "KftGV"
+- "GotSF"
+- "BMT"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Air%20Elemental.webp"
 ```
 ^statblock
 

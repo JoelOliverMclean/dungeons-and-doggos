@@ -7,12 +7,12 @@ tags:
 - monster/environment/hill
 - monster/size/huge
 - monster/type/giant
+statblock: inline
 aliases: ["Hill Giant"]
 ---
-# Hill Giant
+# [Hill Giant](3-Mechanics\CLI\bestiary\giant/hill-giant.md)
 *Source: Monster Manual p. 155. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Hill%20Giant.webp#right)  
 Hill giants are selfish, dimwitted brutes that hunt, forage, and raid in constant search of food. They blunder through hills and forests devouring what they can, bullying smaller creatures into feeding them. Their laziness and dullness would long ago have spelled their end if not for their formidable size and strength.
 
 ## Primitive
@@ -83,36 +83,48 @@ Regardless of a giant's rank among its own race, the chief of a hill giant tribe
 > And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Hill Giant
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Hill%20Giant.webp#token)
-*Huge giant, Chaotic Evil*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 105 (`10d12 + 40`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|21 (+5)| 8 (-1)|19 (+4)| 5 (-3)| 9 (-1)| 6 (-2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Perception +2
-- **Senses** passive Perception 12
-- **Languages** Giant
-- **Challenge** 5
-
-## Actions
-
-***Multiattack.*** The giant makes two greatclub attacks.
-
-***Greatclub.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 18 (`3d8 + 5`) bludgeoning damage.
-
-***Rock.*** *Ranged Weapon Attack:* +8 to hit, range 60/240 ft., one target. *Hit:* 21 (`3d10 + 5`) bludgeoning damage.
+```statblock
+"name": "Hill Giant"
+"size": "Huge"
+"type": "giant"
+"alignment": "Chaotic Evil"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "105"
+"hit_dice": "10d12 + 40"
+"stats":
+- !!int "21"
+- !!int "8"
+- !!int "19"
+- !!int "5"
+- !!int "9"
+- !!int "6"
+"speed": "40 ft."
+"skillsaves":
+  "Perception": !!int "2"
+"senses": "passive Perception 12"
+"languages": "Giant"
+"cr": "5"
+"actions":
+- "desc": "The giant makes two greatclub attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18\
+    \ (3d8 + 5) bludgeoning damage."
+  "name": "Greatclub"
+- "desc": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit:\
+    \ 21 (3d10 + 5) bludgeoning damage."
+  "name": "Rock"
+"source":
+- "MM"
+- "PotA"
+- "RoT"
+- "SKT"
+- "TftYP"
+- "GoS"
+- "ERLW"
+- "EGW"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Hill%20Giant.webp"
 ```
 ^statblock
 

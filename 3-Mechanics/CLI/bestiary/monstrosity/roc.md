@@ -11,12 +11,12 @@ tags:
 - monster/environment/mountain
 - monster/size/gargantuan
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Roc"]
 ---
-# Roc
+# [Roc](3-Mechanics\CLI\bestiary\monstrosity/roc.md)
 *Source: Monster Manual p. 260. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Roc.webp#right)  
 At first sight, a roc's silhouette looks much like any other bird of prey. As it descends, however, its unearthly size becomes terrifyingly clear. In flight, a roc's wingspan spreads two hundred feet or more. At rest, perched upon the mountain peaks that are its home, this monstrous bird rivals the oldest dragons in size.
 
 ## Sky Titans
@@ -33,40 +33,62 @@ Rocs are solitary creatures that can live for centuries. They lair in nests made
 
 Sometimes a roc's nest contains treasures from the caravans or ships they raid, but these creatures are heedless of such baubles. More rarely, a nest holds eggs that are taller than a human, produced by the rocs' infrequent mating.
 
-
-## Statblock
-
-```ad-statblock
-title: Roc
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Roc.webp#token)
-*Gargantuan monstrosity, Unaligned*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 248 (`16d20 + 80`) 
-- **Speed** 20 ft., fly 120 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|28 (+9)|10 (+0)|20 (+5)| 3 (-4)|10 (+0)| 9 (-1)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Dexterity +4, Constitution +9, Wisdom +4, Charisma +3
-- **Skills** Perception +4
-- **Senses** passive Perception 14
-- **Languages** —
-- **Challenge** 11
-
-## Traits
-
-***Keen Sight.*** The roc has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-## Actions
-
-***Multiattack.*** The roc makes two attacks: one with its beak and one with its talons.
-
-***Beak.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 27 (`4d8 + 9`) piercing damage.
-
-***Talons.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 23 (`4d6 + 9`) slashing damage, and the target is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 19). Until this grapple ends, the target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), and the roc can't use its talons on another target.
+```statblock
+"name": "Roc"
+"size": "Gargantuan"
+"type": "monstrosity"
+"alignment": "Unaligned"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "248"
+"hit_dice": "16d20 + 80"
+"stats":
+- !!int "28"
+- !!int "10"
+- !!int "20"
+- !!int "3"
+- !!int "10"
+- !!int "9"
+"speed": "20 ft., fly 120 ft."
+"saves":
+  "Charisma": !!int "3"
+  "Dexterity": !!int "4"
+  "Wisdom": !!int "4"
+  "Constitution": !!int "9"
+"skillsaves":
+  "Perception": !!int "4"
+"senses": "passive Perception 14"
+"languages": ""
+"cr": "11"
+"traits":
+- "desc": "The roc has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on sight."
+  "name": "Keen Sight"
+"actions":
+- "desc": "The roc makes two attacks: one with its beak and one with its talons."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 27\
+    \ (4d8 + 9) piercing damage."
+  "name": "Beak"
+- "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23\
+    \ (4d6 + 9) slashing damage, and the target is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled)\
+    \ (escape DC 19). Until this grapple ends, the target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained),\
+    \ and the roc can't use its talons on another target."
+  "name": "Talons"
+"source":
+- "MM"
+- "CoS"
+- "SKT"
+- "GoS"
+- "DC"
+- "DIP"
+- "EGW"
+- "MOT"
+- "IDRotF"
+- "CM"
+- "WBtW"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Roc.webp"
 ```
 ^statblock
 

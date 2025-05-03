@@ -28,7 +28,7 @@ A dazzling array of flashing, colored light springs from your hand. Roll `6d10`;
 
 Starting with the creature that has the lowest current hit points, each creature affected by this spell is [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded) until the end of your next turn. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, roll an additional `2d10` for each slot level above 1st.
 
 **Classes**: [Fighter (Eldritch Knight)](/3-Mechanics/CLI/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](/3-Mechanics/CLI/classes/rogue-arcane-trickster.md), [Sorcerer](/3-Mechanics/CLI/classes/sorcerer.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

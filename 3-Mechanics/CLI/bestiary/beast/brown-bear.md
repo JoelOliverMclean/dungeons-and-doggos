@@ -9,43 +9,59 @@ tags:
 - monster/environment/hill
 - monster/size/large
 - monster/type/beast
+statblock: inline
 aliases: ["Brown Bear"]
 ---
-# Brown Bear
+# [Brown Bear](3-Mechanics\CLI\bestiary\beast/brown-bear.md)
 *Source: Monster Manual p. 319. Available in the SRD and the Basic Rules.*  
 
-
-```ad-statblock
-title: Brown Bear
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Brown%20Bear.webp#token)
-*Large beast, Unaligned*
-
-- **Armor Class** 11 (natural armor)
-- **Hit Points** 34 (`4d10 + 12`) 
-- **Speed** 40 ft., climb 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|10 (+0)|16 (+3)| 2 (-4)|13 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +3
-- **Senses** passive Perception 13
-- **Languages** —
-- **Challenge** 1
-
-## Traits
-
-***Keen Smell.*** The bear has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on smell.
-
-## Actions
-
-***Multiattack.*** The bear makes two attacks: one with its bite and one with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) slashing damage.
+```statblock
+"name": "Brown Bear"
+"size": "Large"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "11"
+"ac_class": "natural armor"
+"hp": !!int "34"
+"hit_dice": "4d10 + 12"
+"stats":
+- !!int "19"
+- !!int "10"
+- !!int "16"
+- !!int "2"
+- !!int "13"
+- !!int "7"
+"speed": "40 ft., climb 30 ft."
+"skillsaves":
+  "Perception": !!int "3"
+"senses": "passive Perception 13"
+"languages": ""
+"cr": "1"
+"traits":
+- "desc": "The bear has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on smell."
+  "name": "Keen Smell"
+"actions":
+- "desc": "The bear makes two attacks: one with its bite and one with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
+    \ + 4) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) slashing damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "GoS"
+- "IMR"
+- "MOT"
+- "IDRotF"
+- "WBtW"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Brown%20Bear.webp"
 ```
 ^statblock
 

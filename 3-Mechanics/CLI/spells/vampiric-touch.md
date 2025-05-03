@@ -30,7 +30,7 @@ aliases: ["Vampiric Touch"]
 
 The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes `3d6` necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
+**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `1d6` for each slot level above 3rd.
 
 **Classes**: [Cleric (Death Domain)](/3-Mechanics/CLI/classes/cleric-death-domain.md), [Cleric (Grave Domain)](/3-Mechanics/CLI/classes/cleric-grave-domain-xge.md), [Fighter (Eldritch Knight)](/3-Mechanics/CLI/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](/3-Mechanics/CLI/classes/rogue-arcane-trickster.md), [Warlock](/3-Mechanics/CLI/classes/warlock.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

@@ -34,7 +34,7 @@ A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out fr
 
 The lightning ignites flammable objects in the area that aren't being worn or carried.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
+**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `1d6` for each slot level above 3rd.
 
 **Classes**: [Artificer (Armorer)](/3-Mechanics/CLI/classes/artificer-armorer-tce.md), [Druid (Circle of the Land)](/3-Mechanics/CLI/classes/druid-circle-of-the-land.md), [Fighter (Eldritch Knight)](/3-Mechanics/CLI/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](/3-Mechanics/CLI/classes/rogue-arcane-trickster.md), [Sorcerer](/3-Mechanics/CLI/classes/sorcerer.md), [Warlock (The Fathomless)](/3-Mechanics/CLI/classes/warlock-the-fathomless-tce.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

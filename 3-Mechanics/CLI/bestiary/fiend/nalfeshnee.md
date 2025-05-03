@@ -6,12 +6,12 @@ tags:
 - monster/cr/13
 - monster/size/large
 - monster/type/fiend/demon
+statblock: inline
 aliases: ["Nalfeshnee"]
 ---
-# Nalfeshnee
+# [Nalfeshnee](3-Mechanics\CLI\bestiary\fiend/nalfeshnee.md)
 *Source: Monster Manual p. 62, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Nalfeshnee.webp#right)  
 The nalfeshnee is one of the most grotesque demons-a corpulent mockery of ape and boar standing twice the height of a human, with feathered wings that seem too small for its bloated body. These brutish features conceal a remarkable intelligence and cunning.
 
 Nalfeshnees are devastating in combat, using their wings to soar above the front ranks and reach vulnerable adversaries that can be dispatched with little effort. From the thick of battle, they telepathically bellow commands to lesser demons, even as they inspire a sense of dread that forces their foes to scatter and run. Nalfeshnees feed on hatred and despair, but they crave humanoid flesh above all else. They keep their larders filled with humanoids abducted from the Material Plane, then eat those creatures alive during elaborate feasts. Thinking of themselves as refined and cultured, nalfeshnees employ stained and rusted cutlery when they dine.
@@ -183,46 +183,70 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > Demons are painfully difficult to summon and control. It is not a burden for the weak of heart or the weak of spirit.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Nalfeshnee
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Nalfeshnee.webp#token)
-*Large fiend (demon), Chaotic Evil*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 184 (`16d10 + 96`) 
-- **Speed** 20 ft., fly 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|21 (+5)|10 (+0)|22 (+6)|19 (+4)|12 (+1)|15 (+2)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** Constitution +11, Intelligence +9, Wisdom +6, Charisma +7
-- **Skills** ⏤
-- **Senses** truesight 120 ft., passive Perception 11
-- **Damage Resistances** cold; fire; lightning; bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal, telepathy 120 ft.
-- **Challenge** 13
-
-## Traits
-
-***Magic Resistance.*** The nalfeshnee has advantage on saving throws against spells and other magical effects.
-
-## Actions
-
-***Multiattack.*** The nalfeshnee uses Horror Nimbus if it can. It then makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 32 (`5d10 + 5`) piercing damage.
-
-***Claw.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 15 (`3d6 + 5`) slashing damage.
-
-***Horror Nimbus (Recharge 5-6).*** The nalfeshnee magically emits scintillating, multicolored light. Each creature within 15 feet of the nalfeshnee that can see the light must succeed on a DC 15 Wisdom saving throw or be [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee's Horror Nimbus for the next 24 hours.
-
-***Teleport.*** The nalfeshnee magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.
+```statblock
+"name": "Nalfeshnee"
+"size": "Large"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Chaotic Evil"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "184"
+"hit_dice": "16d10 + 96"
+"stats":
+- !!int "21"
+- !!int "10"
+- !!int "22"
+- !!int "19"
+- !!int "12"
+- !!int "15"
+"speed": "20 ft., fly 30 ft."
+"saves":
+  "Charisma": !!int "7"
+  "Wisdom": !!int "6"
+  "Intelligence": !!int "9"
+  "Constitution": !!int "11"
+"damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
+  \ nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "truesight 120 ft., passive Perception 11"
+"languages": "Abyssal, telepathy 120 ft."
+"cr": "13"
+"traits":
+- "desc": "The nalfeshnee has advantage on saving throws against spells and other\
+    \ magical effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "The nalfeshnee uses Horror Nimbus if it can. It then makes three attacks:\
+    \ one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 32\
+    \ (5d10 + 5) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15\
+    \ (3d6 + 5) slashing damage."
+  "name": "Claw"
+- "desc": "The nalfeshnee magically emits scintillating, multicolored light. Each\
+    \ creature within 15 feet of the nalfeshnee that can see the light must succeed\
+    \ on a DC 15 Wisdom saving throw or be [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened)\
+    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success. If a creature's saving throw\
+    \ is successful or the effect ends for it, the creature is immune to the nalfeshnee's\
+    \ Horror Nimbus for the next 24 hours."
+  "name": "Horror Nimbus (Recharge 5-6)"
+- "desc": "The nalfeshnee magically teleports, along with any equipment it is wearing\
+    \ or carrying, up to 120 feet to an unoccupied space it can see."
+  "name": "Teleport"
+"source":
+- "MM"
+- "TftYP"
+- "ToA"
+- "WDMM"
+- "BGDIA"
+- "CM"
+- "BMT"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Nalfeshnee.webp"
 ```
 ^statblock

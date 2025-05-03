@@ -11,7 +11,7 @@ aliases:
 ---
 # Nature's Mantle
 *Wondrous Item, uncommon (requires attunement by a druid or ranger)*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/TCE/Nature's%20Mantle.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/TCE/Nature%27s%20Mantle.webp#right)  
 
 - **Weight**: 2.0 lbs.
 

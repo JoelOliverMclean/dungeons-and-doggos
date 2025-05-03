@@ -6,12 +6,12 @@ tags:
 - monster/cr/2
 - monster/size/small
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["Spined Devil"]
 ---
-# Spined Devil
+# [Spined Devil](3-Mechanics\CLI\bestiary\fiend/spined-devil.md)
 *Source: Monster Manual p. 78, Waterdeep: Dragon Heist*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Spined%20Devil.webp#right)  
 Smaller than most other devils, spinagons act as messengers and spies for greater devils and archdevils. They are the eyes and ears of the Nine Hells, and even fiends that despise a spined devil's weakness treat it with a modicum of respect. A spined devil's body and tail bristle with spines, and it can fling its tail spines as ranged weapons. The spines burst into flame on impact.
 
 When not delivering messages or gathering intelligence, spined devils serve in the infernal legions as flying artillery, making up for their relative weakness by mobbing together to overwhelm their foes. Though they crave promotion and power, spined devils are craven by nature, and they will quickly scatter if a fight goes against them.
@@ -140,50 +140,63 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
 
-
-## Statblock
-
-```ad-statblock
-title: Spined Devil
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Spined%20Devil.webp#token)
-*Small fiend (devil), Lawful Evil*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 22 (`5d6 + 5`) 
-- **Speed** 20 ft., fly 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|15 (+2)|12 (+1)|11 (+0)|14 (+2)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 12
-- **Damage Resistances** cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Infernal, telepathy 120 ft.
-- **Challenge** 2
-
-## Traits
-
-***Devil's Sight.*** Magical darkness doesn't impede the devil's darkvision.
-
-***Flyby.*** The devil doesn't provoke an opportunity attack when it flies out of an enemy's reach.
-
-***Limited Spines.*** The devil has twelve tail spines. Used spines regrow by the time the devil finishes a long rest.
-
-***Magic Resistance.*** The devil has advantage on saving throws against spells and other magical effects.
-
-## Actions
-
-***Multiattack.*** The devil makes two attacks: one with its bite and one with its fork or two with its tail spines.
-
-***Bite.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 5 (`2d4`) slashing damage.
-
-***Fork.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3 (`1d6`) piercing damage.
-
-***Tail Spine.*** *Ranged Weapon Attack:* +4 to hit, range 20/80 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage plus 3 (`1d6`) fire damage.
+```statblock
+"name": "Spined Devil"
+"size": "Small"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Lawful Evil"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "22"
+"hit_dice": "5d6 + 5"
+"stats":
+- !!int "10"
+- !!int "15"
+- !!int "12"
+- !!int "11"
+- !!int "14"
+- !!int "8"
+"speed": "20 ft., fly 40 ft."
+"damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
+  \ that aren't silvered"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 12"
+"languages": "Infernal, telepathy 120 ft."
+"cr": "2"
+"traits":
+- "desc": "Magical darkness doesn't impede the devil's darkvision."
+  "name": "Devil's Sight"
+- "desc": "The devil doesn't provoke an opportunity attack when it flies out of an\
+    \ enemy's reach."
+  "name": "Flyby"
+- "desc": "The devil has twelve tail spines. Used spines regrow by the time the devil\
+    \ finishes a long rest."
+  "name": "Limited Spines"
+- "desc": "The devil has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "The devil makes two attacks: one with its bite and one with its fork or\
+    \ two with its tail spines."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4)\
+    \ slashing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6)\
+    \ piercing damage."
+  "name": "Fork"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 20/80 ft., one target. Hit:\
+    \ 4 (1d4 + 2) piercing damage plus 3 (1d6) fire damage."
+  "name": "Tail Spine"
+"source":
+- "MM"
+- "ToA"
+- "WDH"
+- "BGDIA"
+- "KftGV"
+- "PSI"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Spined%20Devil.webp"
 ```
 ^statblock

@@ -9,12 +9,12 @@ tags:
 - monster/environment/urban
 - monster/size/tiny
 - monster/type/ooze
+statblock: inline
 aliases: ["Oblex Spawn"]
 ---
-# Oblex Spawn
+# [Oblex Spawn](3-Mechanics\CLI\bestiary\ooze/oblex-spawn-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 197, Mordenkainen's Tome of Foes p. 217*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Oblex%20Spawn.webp#right)  
 An oblex devours memories not only to sustain its existence, but also to spawn new oblexes. Each time it fully drains the memories of a victim, it gains the creature's personality—now twisted by the oblex's foul nature. The more memories an oblex steals, the larger it becomes, until it must shed a personality it has absorbed or else go uncontrolled and erratic. This act spawns a new oblex.
 
 Newly formed oblexes lack the capabilities of their older kin. They seek only to feed on memories and grow until they can impersonate their victims.
@@ -33,41 +33,47 @@ By experimenting on the slimes, jellies, and puddings that infest the depths of 
 
 When oblexes feed on thoughts, they can form weird copies of their prey to use as lures, which helps them harvest even more victims for their mind flayer masters.
 
-
-## Statblock
-
-```ad-statblock
-title: Oblex Spawn
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Oblex%20Spawn.webp#token)
-*Tiny ooze, Typically  Lawful Evil*
-
-- **Armor Class** 13 
-- **Hit Points** 18 (`4d4 + 8`) 
-- **Speed** 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (-1)|16 (+3)|15 (+2)|14 (+2)|11 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Intelligence +4, Charisma +2
-- **Skills** ⏤
-- **Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 12
-- **Condition Immunities** [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded), [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [prone](/3-Mechanics/CLI/rules/conditions.md#prone)
-- **Languages** —
-- **Challenge** 1/4
-
-## Traits
-
-***Amorphous.*** The oblex can move through a space as narrow as 1 inch wide without squeezing.
-
-***Aversion to Fire.*** If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.
-
-***Unusual Nature.*** The oblex doesn't require sleep.
-
-## Actions
-
-***Pseudopod.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) bludgeoning damage plus 2 (`1d4`) psychic damage.
+```statblock
+"name": "Oblex Spawn (MPMM)"
+"size": "Tiny"
+"type": "ooze"
+"alignment": "Typically  Lawful Evil"
+"ac": !!int "13"
+"hp": !!int "18"
+"hit_dice": "4d4 + 8"
+"stats":
+- !!int "8"
+- !!int "16"
+- !!int "15"
+- !!int "14"
+- !!int "11"
+- !!int "10"
+"speed": "20 ft."
+"saves":
+  "Charisma": !!int "2"
+  "Intelligence": !!int "4"
+"condition_immunities": "[blinded](/3-Mechanics/CLI/rules/conditions.md#blinded),\
+  \ [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [prone](/3-Mechanics/CLI/rules/conditions.md#prone)"
+"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 12"
+"languages": ""
+"cr": "1/4"
+"traits":
+- "desc": "The oblex can move through a space as narrow as 1 inch wide without squeezing."
+  "name": "Amorphous"
+- "desc": "If the oblex takes fire damage, it has disadvantage on attack rolls and\
+    \ ability checks until the end of its next turn."
+  "name": "Aversion to Fire"
+- "desc": "The oblex doesn't require sleep."
+  "name": "Unusual Nature"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+    \ + 3) bludgeoning damage plus 2 (1d4) psychic damage."
+  "name": "Pseudopod"
+"source":
+- "MPMM"
+- "MTF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Oblex%20Spawn.webp"
 ```
 ^statblock
 

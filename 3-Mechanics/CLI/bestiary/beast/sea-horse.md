@@ -6,34 +6,36 @@ tags:
 - monster/cr/0
 - monster/size/tiny
 - monster/type/beast
+statblock: inline
 aliases: ["Sea Horse"]
 ---
-# Sea Horse
+# [Sea Horse](3-Mechanics\CLI\bestiary\beast/sea-horse.md)
 *Source: Monster Manual p. 337. Available in the SRD and the Basic Rules.*  
 
-
-```ad-statblock
-title: Sea Horse
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Sea%20Horse.webp#token)
-*Tiny beast, Unaligned*
-
-- **Armor Class** 11 
-- **Hit Points** 1 (`1d4 - 1`) 
-- **Speed** swim 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 (-5)|12 (+1)| 8 (-1)| 1 (-5)|10 (+0)| 2 (-4)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 10
-- **Languages** —
-- **Challenge** 0
-
-## Traits
-
-***Water Breathing.*** The sea horse can breathe only underwater.
+```statblock
+"name": "Sea Horse"
+"size": "Tiny"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "11"
+"hp": !!int "1"
+"hit_dice": "1d4 - 1"
+"stats":
+- !!int "1"
+- !!int "12"
+- !!int "8"
+- !!int "1"
+- !!int "10"
+- !!int "2"
+"speed": "swim 20 ft."
+"senses": "passive Perception 10"
+"languages": ""
+"cr": "0"
+"traits":
+- "desc": "The sea horse can breathe only underwater."
+  "name": "Water Breathing"
+"source":
+- "MM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Sea%20Horse.webp"
 ```
 ^statblock

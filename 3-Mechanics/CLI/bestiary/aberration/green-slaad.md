@@ -6,12 +6,12 @@ tags:
 - monster/cr/8
 - monster/size/large
 - monster/type/aberration/shapechanger
+statblock: inline
 aliases: ["Green Slaad"]
 ---
-# Green Slaad
+# [Green Slaad](3-Mechanics\CLI\bestiary\aberration/green-slaad.md)
 *Source: Monster Manual p. 277, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Green%20Slaad.webp#right)  
 Green slaadi are surprisingly intelligent and possess innate spellcasting ability. A green slaad can change its shape to appear as a humanoid. If it was born of a humanoid host, the slaad usually adopts its host's form.
 
 At some unpredictable point in its existence, a green slaad unlocks the means to magically, instantly, and permanently transform itself into a gray slaad. Unlocking this knowledge can take years, even decades.
@@ -54,56 +54,76 @@ Some slaadi can transform into the humanoid creatures from which they were origi
 > Embedded in a slaad's brain is a magic gem. Acquire it, and the slaad is yours to command.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Green Slaad
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Green%20Slaad.webp#token)
-*Large aberration (shapechanger), Chaotic Neutral*
-
-- **Armor Class** 16 (natural armor)
-- **Hit Points** 127 (`15d10 + 45`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|15 (+2)|16 (+3)|11 (+0)| 8 (-1)|12 (+1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Arcana +3, Perception +2
-- **Senses** blindsight 30 ft., darkvision 60 ft., passive Perception 12
-- **Damage Resistances** acid, cold, fire, lightning, thunder
-- **Languages** Slaad, telepathy 60 ft.
-- **Challenge** 8
-
-## Traits
-
-***Shapechanger.*** The slaad can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
-
-***Magic Resistance.*** The slaad has advantage on saving throws against spells and other magical effects.
-
-***Regeneration.*** The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point.
-
-***Innate Spellcasting.*** The slaad's innate spellcasting ability is Charisma (spell save DC 12). The slaad can innately cast the following spells, requiring no material components:
-
-**At will**: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [detect thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md), [mage hand](/3-Mechanics/CLI/spells/mage-hand.md)
-
-**1/day**: [fireball](/3-Mechanics/CLI/spells/fireball.md)
-
-**2/day each**: [fear](/3-Mechanics/CLI/spells/fear.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md) (self only)
-
-## Actions
-
-***Multiattack.*** The slaad makes three attacks: one with its bite and two with its claws or staff. Alternatively, it uses its Hurl Flame twice.
-
-***Bite (Slaad Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) piercing damage.
-
-***Claw (Slaad Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (`1d6 + 4`) slashing damage.
-
-***Staff.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
-
-***Hurl Flame.*** *Ranged Spell Attack:* +4 to hit, range 60 ft., one target. *Hit:* 10 (`3d6`) fire damage. The fire ignites flammable objects that aren't being worn or carried.
+```statblock
+"name": "Green Slaad"
+"size": "Large"
+"type": "aberration"
+"subtype": "shapechanger"
+"alignment": "Chaotic Neutral"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"hp": !!int "127"
+"hit_dice": "15d10 + 45"
+"stats":
+- !!int "18"
+- !!int "15"
+- !!int "16"
+- !!int "11"
+- !!int "8"
+- !!int "12"
+"speed": "30 ft."
+"skillsaves":
+  "Perception": !!int "2"
+  "Arcana": !!int "3"
+"damage_resistances": "acid, cold, fire, lightning, thunder"
+"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 12"
+"languages": "Slaad, telepathy 60 ft."
+"cr": "8"
+"traits":
+- "desc": "The slaad's innate spellcasting ability is Charisma (spell save DC 12).\
+    \ The slaad can innately cast the following spells, requiring no material components:\n\
+    \nAt will: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [detect\
+    \ thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md), [mage hand](/3-Mechanics/CLI/spells/mage-hand.md)\n\
+    \n1/day: [fireball](/3-Mechanics/CLI/spells/fireball.md)\n\n2/day each:\
+    \ [fear](/3-Mechanics/CLI/spells/fear.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md)\
+    \ (self only)"
+  "name": "Innate Spellcasting"
+- "desc": "The slaad can use its action to polymorph into a Small or Medium humanoid,\
+    \ or back into its true form. Its statistics, other than its size, are the same\
+    \ in each form. Any equipment it is wearing or carrying isn't transformed. It\
+    \ reverts to its true form if it dies."
+  "name": "Shapechanger"
+- "desc": "The slaad has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The slaad regains 10 hit points at the start of its turn if it has at least\
+    \ 1 hit point."
+  "name": "Regeneration"
+"actions":
+- "desc": "The slaad makes three attacks: one with its bite and two with its claws\
+    \ or staff. Alternatively, it uses its Hurl Flame twice."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) piercing damage."
+  "name": "Bite (Slaad Form Only)"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6\
+    \ + 4) slashing damage."
+  "name": "Claw (Slaad Form Only)"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) bludgeoning damage."
+  "name": "Staff"
+- "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit: 10\
+    \ (3d6) fire damage. The fire ignites flammable objects that aren't being worn\
+    \ or carried."
+  "name": "Hurl Flame"
+"source":
+- "MM"
+- "WDMM"
+- "IDRotF"
+- "DSotDQ"
+- "SatO"
+- "ToFW"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Green%20Slaad.webp"
 ```
 ^statblock

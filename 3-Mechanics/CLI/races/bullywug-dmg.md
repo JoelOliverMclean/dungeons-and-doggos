@@ -10,7 +10,6 @@ aliases: ["Bullywug (DMG)"]
 *Source: Dungeon Master's Guide p. 282*  
 
 - **Ability Scores**: Intelligence -2, Charisma -2
-- **Type**: race
 - **Size**: Medium
 - **Speed**: walk: 20 ft.; swim: 40 ft.
 

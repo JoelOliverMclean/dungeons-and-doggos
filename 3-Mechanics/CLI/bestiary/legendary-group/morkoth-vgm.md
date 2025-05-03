@@ -27,8 +27,3 @@ The island surrounding a morkoth's lair is warped by the creature's presence, cr
 - With a thought (no action required), the morkoth can initiate a change in the water within its lair that takes effect 1 minute later. The water can be as breathable and clear as air, or it can be normal water (ranging in clarity from murky to clear).  
 
 If the morkoth dies, these regional effects end immediately.
-
-## Is homebrew
-_Source: Volo's Guide to Monsters_
-
-false

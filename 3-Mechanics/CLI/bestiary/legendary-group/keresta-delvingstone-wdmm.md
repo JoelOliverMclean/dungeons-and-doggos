@@ -17,8 +17,3 @@ Vanrakdoom is Keresta's lair, and the following regional effects are noticeable 
 - Rats and bats are plentiful. In areas where they are not specifically mentioned, droppings and guano betray their presence, and they can be heard constantly scuttling and shrieking in the distant darkness.  
 
 If Keresta is destroyed, the fog disperses, and the rats and bats gradually die off until only a scattered few remain.
-
-## Is homebrew
-_Source: Waterdeep: Dungeon of the Mad Mage_
-
-false

@@ -1,21 +1,15 @@
 {
-  "readableLineLength": false,
-  "livePreview": true,
-  "promptDelete": false,
-  "attachmentFolderPath": "z_Assets",
-  "showUnsupportedFiles": true,
-  "showFrontmatter": false,
-  "newFileLocation": "current",
-  "alwaysUpdateLinks": true,
   "defaultViewMode": "preview",
-  "foldHeading": true,
-  "foldIndent": true,
-  "showInlineTitle": true,
+  "livePreview": false,
+  "readableLineLength": false,
+  "showLineNumber": false,
   "pdfExportSettings": {
-    "includeName": false,
+    "includeName": true,
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 100
-  }
+    "downscalePercent": 80
+  },
+  "showInlineTitle": true,
+  "alwaysUpdateLinks": true
 }

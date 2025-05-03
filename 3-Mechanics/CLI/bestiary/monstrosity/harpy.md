@@ -10,12 +10,12 @@ tags:
 - monster/environment/mountain
 - monster/size/medium
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Harpy"]
 ---
-# Harpy
+# [Harpy](3-Mechanics\CLI\bestiary\monstrosity/harpy.md)
 *Source: Monster Manual p. 181. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Harpy.webp#right)  
 Taking glee in suffering and death, the sadistic harpy is always on the hunt for prey. Its sweet song has lured countless adventurers to their deaths, drawing them in close for the harpy to kill and then consume.
 
 A harpy combines the body, legs, and wings of a vulture with the torso, arms, and head of a human. Its wicked talons and bone club make it a formidable threat in combat, and its eyes reflect the absolute evil of its soul.
@@ -42,42 +42,65 @@ When they attack, harpies play with their food, delighting in the "music" their 
 
 Harpies take shiny baubles, valuable objects, and other trophies from their victims, sometimes fighting with each other for the right to claim the choicest prizes. When no valuable objects can be found, a harpy takes hair, bones, or body parts to line its nest. A harpy's lair is usually hidden in remote ruins, where adventurers can discover valuable treasure and magic hidden beneath foul piles of offal.
 
-
-## Statblock
-
-```ad-statblock
-title: Harpy
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Harpy.webp#token)
-*Medium monstrosity, Chaotic Evil*
-
-- **Armor Class** 11 
-- **Hit Points** 38 (`7d8 + 7`) 
-- **Speed** 20 ft., fly 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|13 (+1)|12 (+1)| 7 (-2)|10 (+0)|13 (+1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 10
-- **Languages** Common
-- **Challenge** 1
-
-## Actions
-
-***Multiattack.*** The harpy makes two attacks: one with its claws and one with its club.
-
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6 (`2d4 + 1`) slashing damage.
-
-***Club.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) bludgeoning damage.
-
-***Luring Song.*** The harpy sings a magical melody. Every humanoid and giant within 300 feet of the harpy that can hear the song must succeed on a DC 11 Wisdom saving throw or be [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
-
-While [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) by the harpy, a target is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated) and ignores the songs of other harpies. If the [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) target is more than 5 feet away from the harpy, the target must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.
-
-A target that successfully saves is immune to this harpy's song for the next 24 hours.
+```statblock
+"name": "Harpy"
+"size": "Medium"
+"type": "monstrosity"
+"alignment": "Chaotic Evil"
+"ac": !!int "11"
+"hp": !!int "38"
+"hit_dice": "7d8 + 7"
+"stats":
+- !!int "12"
+- !!int "13"
+- !!int "12"
+- !!int "7"
+- !!int "10"
+- !!int "13"
+"speed": "20 ft., fly 40 ft."
+"senses": "passive Perception 10"
+"languages": "Common"
+"cr": "1"
+"actions":
+- "desc": "The harpy makes two attacks: one with its claws and one with its club."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4\
+    \ + 1) slashing damage."
+  "name": "Claws"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) bludgeoning damage."
+  "name": "Club"
+- "desc": "The harpy sings a magical melody. Every humanoid and giant within 300 feet\
+    \ of the harpy that can hear the song must succeed on a DC 11 Wisdom saving throw\
+    \ or be [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) until the song\
+    \ ends. The harpy must take a bonus action on its subsequent turns to continue\
+    \ singing. It can stop singing at any time. The song ends if the harpy is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).\n\
+    \nWhile [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) by the harpy,\
+    \ a target is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)\
+    \ and ignores the songs of other harpies. If the [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed)\
+    \ target is more than 5 feet away from the harpy, the target must move on its\
+    \ turn toward the harpy by the most direct route. It doesn't avoid opportunity\
+    \ attacks, but before moving into damaging terrain, such as lava or a pit, and\
+    \ whenever it takes damage from a source other than the harpy, a target can repeat\
+    \ the saving throw. A creature can also repeat the saving throw at the end of\
+    \ each of its turns. If a creature's saving throw is successful, the effect ends\
+    \ on it.\n\nA target that successfully saves is immune to this harpy's song for\
+    \ the next 24 hours."
+  "name": "Luring Song"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "GoS"
+- "DIP"
+- "ERLW"
+- "EGW"
+- "MOT"
+- "IDRotF"
+- "DoSI"
+- "BMT"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Harpy.webp"
 ```
 ^statblock
 

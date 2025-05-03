@@ -7,46 +7,56 @@ tags:
 - monster/environment/underwater
 - monster/size/tiny
 - monster/type/beast
+statblock: inline
 aliases: ["Quipper"]
 ---
-# Quipper
+# [Quipper](3-Mechanics\CLI\bestiary\beast/quipper.md)
 *Source: Monster Manual p. 335. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Quipper.webp#right)  
 A quipper is a carnivorous fish with sharp teeth.
 
 Quippers can adapt to any aquatic environment, including cold subterranean lakes. They frequently gather in swarms; the statistics for a swarm of quippers appear later in this appendix.
 
-
-```ad-statblock
-title: Quipper
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Quipper.webp#token)
-*Tiny beast, Unaligned*
-
-- **Armor Class** 13 
-- **Hit Points** 1 (`1d4 - 1`) 
-- **Speed** swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 2 (-4)|16 (+3)| 9 (-1)| 1 (-5)| 7 (-2)| 2 (-4)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 8
-- **Languages** —
-- **Challenge** 0
-
-## Traits
-
-***Blood Frenzy.*** The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points.
-
-***Water Breathing.*** The quipper can breathe only underwater.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage.
+```statblock
+"name": "Quipper"
+"size": "Tiny"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "13"
+"hp": !!int "1"
+"hit_dice": "1d4 - 1"
+"stats":
+- !!int "2"
+- !!int "16"
+- !!int "9"
+- !!int "1"
+- !!int "7"
+- !!int "2"
+"speed": "swim 40 ft."
+"senses": "darkvision 60 ft., passive Perception 8"
+"languages": ""
+"cr": "0"
+"traits":
+- "desc": "The quipper has advantage on melee attack rolls against any creature that\
+    \ doesn't have all its hit points."
+  "name": "Blood Frenzy"
+- "desc": "The quipper can breathe only underwater."
+  "name": "Water Breathing"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing\
+    \ damage."
+  "name": "Bite"
+"source":
+- "MM"
+- "PotA"
+- "ToA"
+- "GoS"
+- "MOT"
+- "IDRotF"
+- "CRCotN"
+- "PSA"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Quipper.webp"
 ```
 ^statblock
 

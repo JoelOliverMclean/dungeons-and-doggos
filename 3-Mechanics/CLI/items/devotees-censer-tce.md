@@ -12,7 +12,7 @@ aliases:
 ---
 # Devotee's Censer
 *Melee Weapon, rare (requires attunement by a cleric or paladin)*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/TCE/Devotee's%20Censer.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/TCE/Devotee%27s%20Censer.webp#right)  
 
 - **Damage**: 1d8 B
 - **Properties**: Martial

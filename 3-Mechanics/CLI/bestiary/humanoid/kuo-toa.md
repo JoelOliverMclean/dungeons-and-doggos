@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/kuo-toa
+statblock: inline
 aliases: ["Kuo-toa"]
 ---
-# Kuo-toa
+# [Kuo-toa](3-Mechanics\CLI\bestiary\humanoid/kuo-toa.md)
 *Source: Monster Manual p. 199, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Kuo-toa.webp#right)  
 Kuo-toa are degenerate fishlike humanoids that once inhabited the shores and islands of the surface world. Long ago humans and their ilk drove the kuo-toa underground, where they dwell in madness and everlasting night. Kuo-toa can no longer abide daylight.
 
 ## Mad Slaves
@@ -55,50 +55,78 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
 > They invent their own gods... the very definition of insanity.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Kuo-toa
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Kuo-toa.webp#token)
-*Medium humanoid (kuo-toa), Neutral Evil*
-
-- **Armor Class** 13 (natural armor, [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 18 (`4d8`) 
-- **Speed** 30 ft., swim 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|10 (+0)|11 (+0)|11 (+0)|10 (+0)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +4
-- **Senses** darkvision 120 ft., passive Perception 14
-- **Languages** Undercommon
-- **Challenge** 1/4
-
-## Traits
-
-***Amphibious.*** The kuo-toa can breathe air and water.
-
-***Otherworldly Perception.*** The kuo-toa can sense the presence of any creature within 30 feet of it that is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) or on the Ethereal Plane. It can pinpoint such a creature that is moving.
-
-***Slippery.*** The kuo-toa has advantage on ability checks and saving throws made to escape a grapple.
-
-***Sunlight Sensitivity.*** While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) piercing damage.
-
-***Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage, or 5 (`1d8 + 1`) piercing damage if used with two hands to make a melee attack.
-
-***Net.*** *Ranged Weapon Attack:* +3 to hit, range 5/15 ft., one Large or smaller creature. *Hit:* The target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained). A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net.
-
-## Reactions
-
-***Sticky Shield.*** When a creature misses the kuo-toa with a melee weapon attack, the kuo-toa uses its sticky shield to catch the weapon. The attacker must succeed on a DC 11 Strength saving throw, or the weapon becomes stuck to the kuo-toa's shield. If the weapon's wielder can't or won't let go of the weapon, the wielder is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) while the weapon is stuck. While stuck, the weapon can't be used. A creature can pull the weapon free by taking an action to make a DC 11 Strength check and succeeding.
+```statblock
+"name": "Kuo-toa"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "kuo-toa"
+"alignment": "Neutral Evil"
+"ac": !!int "13"
+"ac_class": "natural armor, [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "18"
+"hit_dice": "4d8"
+"stats":
+- !!int "13"
+- !!int "10"
+- !!int "11"
+- !!int "11"
+- !!int "10"
+- !!int "8"
+"speed": "30 ft., swim 30 ft."
+"skillsaves":
+  "Perception": !!int "4"
+"senses": "darkvision 120 ft., passive Perception 14"
+"languages": "Undercommon"
+"cr": "1/4"
+"traits":
+- "desc": "The kuo-toa can breathe air and water."
+  "name": "Amphibious"
+- "desc": "The kuo-toa can sense the presence of any creature within 30 feet of it\
+    \ that is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) or on the\
+    \ Ethereal Plane. It can pinpoint such a creature that is moving."
+  "name": "Otherworldly Perception"
+- "desc": "The kuo-toa has advantage on ability checks and saving throws made to escape\
+    \ a grapple."
+  "name": "Slippery"
+- "desc": "While in sunlight, the kuo-toa has disadvantage on attack rolls, as well\
+    \ as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks\
+    \ that rely on sight."
+  "name": "Sunlight Sensitivity"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) piercing damage."
+  "name": "Bite"
+- "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+    \ damage if used with two hands to make a melee attack."
+  "name": "Spear"
+- "desc": "Ranged Weapon Attack: +3 to hit, range 5/15 ft., one Large or smaller\
+    \ creature. Hit: The target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained).\
+    \ A creature can use its action to make a DC 10 Strength check to free itself\
+    \ or another creature in a net, ending the effect on a success. Dealing 5 slashing\
+    \ damage to the net (AC 10) frees the target without harming it and destroys the\
+    \ net."
+  "name": "Net"
+"reactions":
+- "desc": "When a creature misses the kuo-toa with a melee weapon attack, the kuo-toa\
+    \ uses its sticky shield to catch the weapon. The attacker must succeed on a DC\
+    \ 11 Strength saving throw, or the weapon becomes stuck to the kuo-toa's shield.\
+    \ If the weapon's wielder can't or won't let go of the weapon, the wielder is\
+    \ [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) while the weapon is\
+    \ stuck. While stuck, the weapon can't be used. A creature can pull the weapon\
+    \ free by taking an action to make a DC 11 Strength check and succeeding."
+  "name": "Sticky Shield"
+"source":
+- "MM"
+- "PotA"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "EGW"
+- "PSI"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Kuo-toa.webp"
 ```
 ^statblock
 

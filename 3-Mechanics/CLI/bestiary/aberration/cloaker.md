@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/aberration
+statblock: inline
 aliases: ["Cloaker"]
 ---
-# Cloaker
+# [Cloaker](3-Mechanics\CLI\bestiary\aberration/cloaker.md)
 *Source: Monster Manual p. 41, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Cloaker.webp#right)  
 Cloakers earned their names for the resemblance they bear to dark leathery cloaks. Lurking in remote dungeons and caves, these stealthy predators wait to slay lone or injured prey stumbling through the darkness.
 
 ## Camouflaged Lurkers
@@ -35,52 +35,84 @@ Cloakers' thoughts are alien to other life-forms, and they communicate with one 
 
 Cloakers prefer isolation, but they sometimes convene with other cloakers for defense or to exchange information about new dangers, suitable hunting grounds, or developments that might affect their habitats. When this convergence is complete, the cloakers separate again.
 
-
-## Statblock
-
-```ad-statblock
-title: Cloaker
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Cloaker.webp#token)
-*Large aberration, Chaotic Neutral*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 78 (`12d10 + 12`) 
-- **Speed** 10 ft., fly 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|15 (+2)|12 (+1)|13 (+1)|12 (+1)|14 (+2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Stealth +5
-- **Senses** darkvision 60 ft., passive Perception 11
-- **Languages** Deep Speech, Undercommon
-- **Challenge** 8
-
-## Traits
-
-***Damage Transfer.*** While attached to a creature, the cloaker takes only half the damage dealt to it (rounded down). and that creature takes the other half.
-
-***False Appearance.*** While the cloaker remains motionless without its underside exposed, it is indistinguishable from a dark leather cloak.
-
-***Light Sensitivity.*** While in bright light, the cloaker has disadvantage on attack rolls and Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-## Actions
-
-***Multiattack.*** The cloaker makes two attacks: one with its bite and one with its tail.
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 10 (`2d6 + 3`) piercing damage, and if the target is Large or smaller, the cloaker attaches to it. If the cloaker has advantage against the target, the cloaker attaches to the target's head, and the target is [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded) and unable to breathe while the cloaker is attached. While attached, the cloaker can make this attack only against the target and has advantage on the attack roll. The cloaker can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach the cloaker by succeeding on a DC 16 Strength check.
-
-***Tail.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one creature. *Hit:* 7 (`1d8 + 3`) slashing damage.
-
-***Moan.*** Each creature within 60 feet of the cloaker that can hear its moan and that isn't an aberration must succeed on a DC 13 Wisdom saving throw or become [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened) until the end of the cloaker's next turn. If a creature's saving throw is successful, the creature is immune to the cloaker's moan for the next 24 hours.
-
-***Phantasms (Recharges after a Short or Long Rest).*** The cloaker magically creates three illusory duplicates of itself if it isn't in bright light. The duplicates move with it and mimic its actions, shifting position so as to make it impossible to track which cloaker is the real one. If the cloaker is ever in an area of bright light, the duplicates disappear.
-
-Whenever any creature targets the cloaker with an attack or a harmful spell while a duplicate remains, that creature rolls randomly to determine whether it targets the cloaker or one of the duplicates. A creature is unaffected by this magical effect if it can't see or if it relies on senses other than sight.
-
-A duplicate has the cloaker's AC and uses its saving throws. If an attack hits a duplicate, or if a duplicate fails a saving throw against an effect that deals damage, the duplicate disappears.
+```statblock
+"name": "Cloaker"
+"size": "Large"
+"type": "aberration"
+"alignment": "Chaotic Neutral"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "78"
+"hit_dice": "12d10 + 12"
+"stats":
+- !!int "17"
+- !!int "15"
+- !!int "12"
+- !!int "13"
+- !!int "12"
+- !!int "14"
+"speed": "10 ft., fly 40 ft."
+"skillsaves":
+  "Stealth": !!int "5"
+"senses": "darkvision 60 ft., passive Perception 11"
+"languages": "Deep Speech, Undercommon"
+"cr": "8"
+"traits":
+- "desc": "While attached to a creature, the cloaker takes only half the damage dealt\
+    \ to it (rounded down). and that creature takes the other half."
+  "name": "Damage Transfer"
+- "desc": "While the cloaker remains motionless without its underside exposed, it\
+    \ is indistinguishable from a dark leather cloak."
+  "name": "False Appearance"
+- "desc": "While in bright light, the cloaker has disadvantage on attack rolls and\
+    \ Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that\
+    \ rely on sight."
+  "name": "Light Sensitivity"
+"actions":
+- "desc": "The cloaker makes two attacks: one with its bite and one with its tail."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10\
+    \ (2d6 + 3) piercing damage, and if the target is Large or smaller, the cloaker\
+    \ attaches to it. If the cloaker has advantage against the target, the cloaker\
+    \ attaches to the target's head, and the target is [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded)\
+    \ and unable to breathe while the cloaker is attached. While attached, the cloaker\
+    \ can make this attack only against the target and has advantage on the attack\
+    \ roll. The cloaker can detach itself by spending 5 feet of its movement. A creature,\
+    \ including the target, can take its action to detach the cloaker by succeeding\
+    \ on a DC 16 Strength check."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit:\
+    \ 7 (1d8 + 3) slashing damage."
+  "name": "Tail"
+- "desc": "Each creature within 60 feet of the cloaker that can hear its moan and\
+    \ that isn't an aberration must succeed on a DC 13 Wisdom saving throw or become\
+    \ [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened) until the end\
+    \ of the cloaker's next turn. If a creature's saving throw is successful, the\
+    \ creature is immune to the cloaker's moan for the next 24 hours."
+  "name": "Moan"
+- "desc": "The cloaker magically creates three illusory duplicates of itself if it\
+    \ isn't in bright light. The duplicates move with it and mimic its actions, shifting\
+    \ position so as to make it impossible to track which cloaker is the real one.\
+    \ If the cloaker is ever in an area of bright light, the duplicates disappear.\n\
+    \nWhenever any creature targets the cloaker with an attack or a harmful spell\
+    \ while a duplicate remains, that creature rolls randomly to determine whether\
+    \ it targets the cloaker or one of the duplicates. A creature is unaffected by\
+    \ this magical effect if it can't see or if it relies on senses other than sight.\n\
+    \nA duplicate has the cloaker's AC and uses its saving throws. If an attack hits\
+    \ a duplicate, or if a duplicate fails a saving throw against an effect that deals\
+    \ damage, the duplicate disappears."
+  "name": "Phantasms (Recharges after a Short or Long Rest)"
+"source":
+- "MM"
+- "PotA"
+- "WDMM"
+- "EGW"
+- "CRCotN"
+- "JttRC"
+- "KftGV"
+- "PaBTSO"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Cloaker.webp"
 ```
 ^statblock
 

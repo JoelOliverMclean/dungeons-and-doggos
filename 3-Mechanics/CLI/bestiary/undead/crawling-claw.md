@@ -6,12 +6,12 @@ tags:
 - monster/cr/0
 - monster/size/tiny
 - monster/type/undead
+statblock: inline
 aliases: ["Crawling Claw"]
 ---
-# Crawling Claw
+# [Crawling Claw](3-Mechanics\CLI\bestiary\undead/crawling-claw.md)
 *Source: Monster Manual p. 44, Waterdeep: Dragon Heist*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Crawling%20Claw.webp#right)  
 Crawling claws are the severed hands of murderers animated by dark magic so that they can go on killing. Wizards and warlocks of a dark bent use crawling claws as extra hands in their labors.
 
 ## Magical Origins
@@ -45,37 +45,48 @@ A crawling claw doesn't require air, food, drink, or sleep.
 > Makes you wonder what can be done with all those other murderer parts, doesn't it?
 
 
-
-## Statblock
-
-```ad-statblock
-title: Crawling Claw
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Crawling%20Claw.webp#token)
-*Tiny undead, Neutral Evil*
-
-- **Armor Class** 12 
-- **Hit Points** 2 (`1d4`) 
-- **Speed** 20 ft., climb 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|14 (+2)|11 (+0)| 5 (-3)|10 (+0)| 4 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** blindsight 30 ft. (blind beyond this radius), passive Perception 10
-- **Damage Immunities** poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands Common but can't speak
-- **Challenge** 0
-
-## Traits
-
-***Turn Immunity.*** The claw is immune to effects that turn undead.
-
-## Actions
-
-***Claw.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) bludgeoning or slashing damage (claw's choice).
+```statblock
+"name": "Crawling Claw"
+"size": "Tiny"
+"type": "undead"
+"alignment": "Neutral Evil"
+"ac": !!int "12"
+"hp": !!int "2"
+"hit_dice": "1d4"
+"stats":
+- !!int "13"
+- !!int "14"
+- !!int "11"
+- !!int "5"
+- !!int "10"
+- !!int "4"
+"speed": "20 ft., climb 20 ft."
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 10"
+"languages": "understands Common but can't speak"
+"cr": "0"
+"traits":
+- "desc": "The claw is immune to effects that turn undead."
+  "name": "Turn Immunity"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) bludgeoning or slashing damage (claw's choice)."
+  "name": "Claw"
+"source":
+- "MM"
+- "CoS"
+- "PotA"
+- "ToA"
+- "WDH"
+- "BGDIA"
+- "IDRotF"
+- "CM"
+- "JttRC"
+- "LoX"
+- "KftGV"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Crawling%20Claw.webp"
 ```
 ^statblock

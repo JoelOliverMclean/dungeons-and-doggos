@@ -7,12 +7,12 @@ tags:
 - monster/environment/swamp
 - monster/size/medium
 - monster/type/humanoid/bullywug
+statblock: inline
 aliases: ["Bullywug"]
 ---
-# Bullywug
+# [Bullywug](3-Mechanics\CLI\bestiary\humanoid/bullywug.md)
 *Source: Monster Manual p. 35, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Bullywug.webp#right)  
 Life as a bullywug is nasty, brutish, and wet. These frog-headed amphibious humanoids must stay constantly moist, dwelling in rainy forests, marshes, and damp caves. Always hungry and thoroughly evil, bullywugs overwhelm opponents with superior numbers when they can, but they flee from serious threats to search for easier prey.
 
 Bullywugs have green, gray, or mottled yellow skin that shifts through shades of gray, green, and brown, allowing them to blend in with their surroundings. They wear crude armor and wield simple weapons, and can deliver a powerful bite to foes that press too close.
@@ -35,46 +35,60 @@ Bullywugs speak a language that allows them to communicate over large areas by c
 
 Simple concepts in the language are understandable to frogs and toads. Bullywugs use this capability to form strong bonds with giant frogs, which they train as guardians and hunters. Larger specimens are sometimes used as mounts as well. The frogs' ability to swallow creatures whole provides a bullywug hunting band an easy means of carrying prey back to their villages.
 
-
-## Statblock
-
-```ad-statblock
-title: Bullywug
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bullywug.webp#token)
-*Medium humanoid (bullywug), Neutral Evil*
-
-- **Armor Class** 15 ([hide armor](/3-Mechanics/CLI/items/hide-armor.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 11 (`2d8 + 2`) 
-- **Speed** 20 ft., swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|12 (+1)|13 (+1)| 7 (-2)|10 (+0)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +3
-- **Senses** passive Perception 10
-- **Languages** Bullywug
-- **Challenge** 1/4
-
-## Traits
-
-***Amphibious.*** The bullywug can breathe air and water.
-
-***Speak with Frogs and Toads.*** The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug.
-
-***Swamp Camouflage.*** The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.
-
-***Standing Leap.*** The bullywug's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.
-
-## Actions
-
-***Multiattack.*** The bullywug makes two melee attacks: one with its bite and one with its spear.
-
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) bludgeoning damage.
-
-***Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage, or 5 (`1d8 + 1`) piercing damage if used with two hands to make a melee attack.
+```statblock
+"name": "Bullywug"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "bullywug"
+"alignment": "Neutral Evil"
+"ac": !!int "15"
+"ac_class": "[hide armor](/3-Mechanics/CLI/items/hide-armor.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "11"
+"hit_dice": "2d8 + 2"
+"stats":
+- !!int "12"
+- !!int "12"
+- !!int "13"
+- !!int "7"
+- !!int "10"
+- !!int "7"
+"speed": "20 ft., swim 40 ft."
+"skillsaves":
+  "Stealth": !!int "3"
+"senses": "passive Perception 10"
+"languages": "Bullywug"
+"cr": "1/4"
+"traits":
+- "desc": "The bullywug can breathe air and water."
+  "name": "Amphibious"
+- "desc": "The bullywug can communicate simple concepts to frogs and toads when it\
+    \ speaks in Bullywug."
+  "name": "Speak with Frogs and Toads"
+- "desc": "The bullywug has advantage on Dexterity (Stealth) checks made to hide in\
+    \ swampy terrain."
+  "name": "Swamp Camouflage"
+- "desc": "The bullywug's long jump is up to 20 feet and its high jump is up to 10\
+    \ feet, with or without a running start."
+  "name": "Standing Leap"
+"actions":
+- "desc": "The bullywug makes two melee attacks: one with its bite and one with its\
+    \ spear."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) bludgeoning damage."
+  "name": "Bite"
+- "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+    \ damage if used with two hands to make a melee attack."
+  "name": "Spear"
+"source":
+- "MM"
+- "HotDQ"
+- "WDMM"
+- "GoS"
+- "EGW"
+- "WBtW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bullywug.webp"
 ```
 ^statblock
 

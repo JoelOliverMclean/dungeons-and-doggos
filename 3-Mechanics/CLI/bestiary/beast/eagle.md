@@ -10,40 +10,46 @@ tags:
 - monster/environment/mountain
 - monster/size/small
 - monster/type/beast
+statblock: inline
 aliases: ["Eagle"]
 ---
-# Eagle
+# [Eagle](3-Mechanics\CLI\bestiary\beast/eagle.md)
 *Source: Monster Manual p. 322. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Eagle.webp#center) 
-
-```ad-statblock
-title: Eagle
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Eagle.webp#token)
-*Small beast, Unaligned*
-
-- **Armor Class** 12 
-- **Hit Points** 3 (`1d6`) 
-- **Speed** 10 ft., fly 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 6 (-2)|15 (+2)|10 (+0)| 2 (-4)|14 (+2)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +4
-- **Senses** passive Perception 14
-- **Languages** —
-- **Challenge** 0
-
-## Traits
-
-***Keen Sight.*** The eagle has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-## Actions
-
-***Talons.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) slashing damage.
+```statblock
+"name": "Eagle"
+"size": "Small"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "12"
+"hp": !!int "3"
+"hit_dice": "1d6"
+"stats":
+- !!int "6"
+- !!int "15"
+- !!int "10"
+- !!int "2"
+- !!int "14"
+- !!int "7"
+"speed": "10 ft., fly 60 ft."
+"skillsaves":
+  "Perception": !!int "4"
+"senses": "passive Perception 14"
+"languages": ""
+"cr": "0"
+"traits":
+- "desc": "The eagle has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on sight."
+  "name": "Keen Sight"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+    \ + 2) slashing damage."
+  "name": "Talons"
+"source":
+- "MM"
+- "CM"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Eagle.webp"
 ```
 ^statblock
 

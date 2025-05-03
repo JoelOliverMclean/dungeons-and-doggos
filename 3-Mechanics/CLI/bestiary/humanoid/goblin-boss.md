@@ -10,12 +10,12 @@ tags:
 - monster/environment/underdark
 - monster/size/small
 - monster/type/humanoid/goblinoid
+statblock: inline
 aliases: ["Goblin Boss"]
 ---
-# Goblin Boss
+# [Goblin Boss](3-Mechanics\CLI\bestiary\humanoid/goblin-boss.md)
 *Source: Monster Manual p. 166, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Goblin.webp#right)  
 Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large-sometimes overwhelming-numbers. They crave power and regularly abuse whatever authority they obtain.
 
 ## Goblinoids
@@ -47,44 +47,60 @@ Maglubiyet the Mighty One, the Lord of Depths and Darkness, is the greater god o
 > **Bree-Yark!**
 
 
-
-## Statblock
-
-```ad-statblock
-title: Goblin Boss
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Goblin%20Boss.webp#token)
-*Small humanoid (goblinoid), Neutral Evil*
-
-- **Armor Class** 17 ([chain shirt](/3-Mechanics/CLI/items/chain-shirt.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 21 (`6d6`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|14 (+2)|10 (+0)|10 (+0)| 8 (-1)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +6
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Languages** Common, Goblin
-- **Challenge** 1
-
-## Traits
-
-***Nimble Escape.*** The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
-
-## Actions
-
-***Multiattack.*** The goblin makes two attacks with its scimitar. The second attack has disadvantage.
-
-***Scimitar.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) slashing damage.
-
-***Javelin.*** *Melee or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 3 (`1d6`) piercing damage.
-
-## Reactions
-
-***Redirect Attack.*** When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead.
+```statblock
+"name": "Goblin Boss"
+"size": "Small"
+"type": "humanoid"
+"subtype": "goblinoid"
+"alignment": "Neutral Evil"
+"ac": !!int "17"
+"ac_class": "[chain shirt](/3-Mechanics/CLI/items/chain-shirt.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "21"
+"hit_dice": "6d6"
+"stats":
+- !!int "10"
+- !!int "14"
+- !!int "10"
+- !!int "10"
+- !!int "8"
+- !!int "10"
+"speed": "30 ft."
+"skillsaves":
+  "Stealth": !!int "6"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "Common, Goblin"
+"cr": "1"
+"traits":
+- "desc": "The goblin can take the Disengage or Hide action as a bonus action on each\
+    \ of its turns."
+  "name": "Nimble Escape"
+"actions":
+- "desc": "The goblin makes two attacks with its scimitar. The second attack has disadvantage."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) slashing damage."
+  "name": "Scimitar"
+- "desc": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120\
+    \ ft., one target. Hit: 3 (1d6) piercing damage."
+  "name": "Javelin"
+"reactions":
+- "desc": "When a creature the goblin can see targets it with an attack, the goblin\
+    \ chooses another goblin within 5 feet of it. The two goblins swap places, and\
+    \ the chosen goblin becomes the target instead."
+  "name": "Redirect Attack"
+"source":
+- "MM"
+- "SKT"
+- "ToA"
+- "WDMM"
+- "GoS"
+- "BGDIA"
+- "IDRotF"
+- "TCE"
+- "WBtW"
+- "KftGV"
+- "PaBTSO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Goblin%20Boss.webp"
 ```
 ^statblock
 

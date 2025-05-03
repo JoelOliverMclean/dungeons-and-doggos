@@ -8,41 +8,54 @@ tags:
 - monster/environment/forest
 - monster/size/tiny
 - monster/type/beast
+statblock: inline
 aliases: ["Owl"]
 ---
-# Owl
+# [Owl](3-Mechanics\CLI\bestiary\beast/owl.md)
 *Source: Monster Manual p. 333. Available in the SRD and the Basic Rules.*  
 
-
-```ad-statblock
-title: Owl
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Owl.webp#token)
-*Tiny beast, Unaligned*
-
-- **Armor Class** 11 
-- **Hit Points** 1 (`1d4 - 1`) 
-- **Speed** 5 ft., fly 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 3 (-4)|13 (+1)| 8 (-1)| 2 (-4)|12 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +3, Stealth +3
-- **Senses** darkvision 120 ft., passive Perception 13
-- **Languages** —
-- **Challenge** 0
-
-## Traits
-
-***Flyby.*** The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.
-
-***Keen Hearing and Sight.*** The owl has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on hearing or sight.
-
-## Actions
-
-***Talons.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 1 slashing damage.
+```statblock
+"name": "Owl"
+"size": "Tiny"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "11"
+"hp": !!int "1"
+"hit_dice": "1d4 - 1"
+"stats":
+- !!int "3"
+- !!int "13"
+- !!int "8"
+- !!int "2"
+- !!int "12"
+- !!int "7"
+"speed": "5 ft., fly 60 ft."
+"skillsaves":
+  "Stealth": !!int "3"
+  "Perception": !!int "3"
+"senses": "darkvision 120 ft., passive Perception 13"
+"languages": ""
+"cr": "0"
+"traits":
+- "desc": "The owl doesn't provoke opportunity attacks when it flies out of an enemy's\
+    \ reach."
+  "name": "Flyby"
+- "desc": "The owl has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on hearing or sight."
+  "name": "Keen Hearing and Sight"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing\
+    \ damage."
+  "name": "Talons"
+"source":
+- "MM"
+- "RoT"
+- "IMR"
+- "IDRotF"
+- "CM"
+- "ToFW"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Owl.webp"
 ```
 ^statblock
 

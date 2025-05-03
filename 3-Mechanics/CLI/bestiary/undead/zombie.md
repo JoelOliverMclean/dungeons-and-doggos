@@ -7,12 +7,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/undead
+statblock: inline
 aliases: ["Zombie"]
 ---
-# Zombie
+# [Zombie](3-Mechanics\CLI\bestiary\undead/zombie.md)
 *Source: Monster Manual p. 316, Lost Mine of Phandelver, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Zombie.webp#right)  
 From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.
 
 ## Dark Servants
@@ -42,38 +42,72 @@ A zombie doesn't require air, food, drink, or sleep.
 > After Beek died, we cast an [animate dead](/3-Mechanics/CLI/spells/animate-dead.md) spell on his corpse. It was fun for a while, but the zombie started to smell real bad, so we doused it in oil and set it on fire. Beek would've found that hilarious.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Zombie
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Zombie.webp#token)
-*Medium undead, Neutral Evil*
-
-- **Armor Class** 8 
-- **Hit Points** 22 (`3d8 + 9`) 
-- **Speed** 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)| 6 (-2)|16 (+3)| 3 (-4)| 6 (-2)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Wisdom +0
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 8
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands all languages it spoke in life but can't speak
-- **Challenge** 1/4
-
-## Traits
-
-***Undead Fortitude.*** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
-
-## Actions
-
-***Slam.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d6 + 1`) bludgeoning damage.
+```statblock
+"name": "Zombie"
+"size": "Medium"
+"type": "undead"
+"alignment": "Neutral Evil"
+"ac": !!int "8"
+"hp": !!int "22"
+"hit_dice": "3d8 + 9"
+"stats":
+- !!int "13"
+- !!int "6"
+- !!int "16"
+- !!int "3"
+- !!int "6"
+- !!int "5"
+"speed": "20 ft."
+"saves":
+  "Wisdom": !!int "0"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 8"
+"languages": "understands all languages it spoke in life but can't speak"
+"cr": "1/4"
+"traits":
+- "desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution\
+    \ saving throw with a DC of 5 + the damage taken, unless the damage is radiant\
+    \ or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+  "name": "Undead Fortitude"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6\
+    \ + 1) bludgeoning damage."
+  "name": "Slam"
+"source":
+- "MM"
+- "CoS"
+- "LMoP"
+- "PotA"
+- "RoT"
+- "TftYP"
+- "ToA"
+- "WDMM"
+- "GoS"
+- "DC"
+- "DIP"
+- "SLW"
+- "SDW"
+- "BGDIA"
+- "ERLW"
+- "RMBRE"
+- "EGW"
+- "TCE"
+- "WBtW"
+- "JttRC"
+- "DoSI"
+- "DSotDQ"
+- "KftGV"
+- "PSI"
+- "HftT"
+- "PaBTSO"
+- "AATM"
+- "SatO"
+- "ToFW"
+- "BMT"
+- "GHLoE"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Zombie.webp"
 ```
 ^statblock
 

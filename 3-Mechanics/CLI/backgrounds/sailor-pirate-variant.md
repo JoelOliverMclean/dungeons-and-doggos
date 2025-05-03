@@ -25,7 +25,7 @@ No matter where you go, people are afraid of you due to your reputation. When yo
 
 Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.
 
-`dice: [](variant-sailor-pirate.md#^personality-trait)`
+`dice: [](sailor-pirate-variant.md#^personality-trait)`
 
 | dice: d8 | Personality Trait |
 |----------|-------------------|
@@ -39,7 +39,7 @@ Sailors can be a rough lot, but the responsibilities of life on a ship make them
 | 8 | I like a job well done, especially if I can convince someone else to do it. |
 ^personality-trait
 
-`dice: [](variant-sailor-pirate.md#^ideal)`
+`dice: [](sailor-pirate-variant.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -51,7 +51,7 @@ Sailors can be a rough lot, but the responsibilities of life on a ship make them
 | 6 | Aspiration. Someday, I'll own my own ship and chart my own destiny. (Any) |
 ^ideal
 
-`dice: [](variant-sailor-pirate.md#^bond)`
+`dice: [](sailor-pirate-variant.md#^bond)`
 
 | dice: d6 | Bond |
 |----------|------|
@@ -63,7 +63,7 @@ Sailors can be a rough lot, but the responsibilities of life on a ship make them
 | 6 | Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine. |
 ^bond
 
-`dice: [](variant-sailor-pirate.md#^flaw)`
+`dice: [](sailor-pirate-variant.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

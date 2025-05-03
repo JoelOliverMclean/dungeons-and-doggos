@@ -8,12 +8,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/undead
+statblock: inline
 aliases: ["Vampire Spawn"]
 ---
-# Vampire Spawn
+# [Vampire Spawn](3-Mechanics\CLI\bestiary\undead/vampire-spawn.md)
 *Source: Monster Manual p. 298, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Vampire%20Spawn.webp#right)  
 Awakened to an endless night, vampires hunger for the life they have lost and sate that hunger by drinking the blood of the living. Vampires abhor sunlight, for its touch burns them. They never cast shadows or reflections, and any vampire wishing to move unnoticed among the living keeps to the darkness and far from reflective surfaces.
 
 ## Dark Desires
@@ -59,53 +59,84 @@ A vampire chooses a grand yet defensible location for its lair, such as a castle
 > I am The Ancient, I am The Land. My beginnings are lost in the darkness of the past. I was the warrior, I was good and just. I thundered across the land like the wrath of a just god, but the war years and the killing years wore down my soul as the wind wears down stone into sand.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Vampire Spawn
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Vampire%20Spawn.webp#token)
-*Medium undead, Neutral Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 82 (`11d8 + 33`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|16 (+3)|16 (+3)|11 (+0)|10 (+0)|12 (+1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +6, Wisdom +3
-- **Skills** Perception +3, Stealth +6
-- **Senses** darkvision 60 ft., passive Perception 13
-- **Damage Resistances** necrotic; bludgeoning, piercing, slashing from nonmagical attacks
-- **Languages** the languages it knew in life
-- **Challenge** 5
-
-## Traits
-
-***Regeneration.*** The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.
-
-***Spider Climb.*** The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-***Vampire Weaknesses.*** The vampire has the following flaws:
-
-*Forbiddance.* The vampire can't enter a residence without an invitation from one of the occupants.
-
-*Harmed by Running Water.* The vampire takes 20 acid damage when it ends its turn in running water.
-
-*Stake to the Heart.* The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated) in its resting place.
-
-*Sunlight Hypersensitivity.* The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
-
-## Actions
-
-***Multiattack.*** The vampire makes two attacks, only one of which can be a bite attack.
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one willing creature, or a creature that is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) by the vampire, [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated), or [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained). *Hit:* 6 (`1d6 + 3`) piercing damage plus 7 (`2d6`) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
-
-***Claws.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 8 (`2d4 + 3`) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape DC 13).
+```statblock
+"name": "Vampire Spawn"
+"size": "Medium"
+"type": "undead"
+"alignment": "Neutral Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "82"
+"hit_dice": "11d8 + 33"
+"stats":
+- !!int "16"
+- !!int "16"
+- !!int "16"
+- !!int "11"
+- !!int "10"
+- !!int "12"
+"speed": "30 ft."
+"saves":
+  "Dexterity": !!int "6"
+  "Wisdom": !!int "3"
+"skillsaves":
+  "Stealth": !!int "6"
+  "Perception": !!int "3"
+"damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks"
+"senses": "darkvision 60 ft., passive Perception 13"
+"languages": "the languages it knew in life"
+"cr": "5"
+"traits":
+- "desc": "The vampire regains 10 hit points at the start of its turn if it has at\
+    \ least 1 hit point and isn't in sunlight or running water. If the vampire takes\
+    \ radiant damage or damage from holy water, this trait doesn't function at the\
+    \ start of the vampire's next turn."
+  "name": "Regeneration"
+- "desc": "The vampire can climb difficult surfaces, including upside down on ceilings,\
+    \ without needing to make an ability check."
+  "name": "Spider Climb"
+- "desc": "The vampire has the following flaws:\n\nForbiddance. The vampire can't\
+    \ enter a residence without an invitation from one of the occupants.\n\nHarmed\
+    \ by Running Water. The vampire takes 20 acid damage when it ends its turn in\
+    \ running water.\n\nStake to the Heart. The vampire is destroyed if a piercing\
+    \ weapon made of wood is driven into its heart while it is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)\
+    \ in its resting place.\n\nSunlight Hypersensitivity. The vampire takes 20 radiant\
+    \ damage when it starts its turn in sunlight. While in sunlight, it has disadvantage\
+    \ on attack rolls and ability checks."
+  "name": "Vampire Weaknesses"
+"actions":
+- "desc": "The vampire makes two attacks, only one of which can be a bite attack."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature,\
+    \ or a creature that is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled)\
+    \ by the vampire, [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated),\
+    \ or [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained). Hit: 6 (1d6\
+    \ + 3) piercing damage plus 7 (2d6) necrotic damage. The target's hit point\
+    \ maximum is reduced by an amount equal to the necrotic damage taken, and the\
+    \ vampire regains hit points equal to that amount. The reduction lasts until the\
+    \ target finishes a long rest. The target dies if this effect reduces its hit\
+    \ point maximum to 0."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8\
+    \ (2d4 + 3) slashing damage. Instead of dealing damage, the vampire can grapple\
+    \ the target (escape DC 13)."
+  "name": "Claws"
+"source":
+- "MM"
+- "CoS"
+- "HotDQ"
+- "PotA"
+- "RoT"
+- "TftYP"
+- "WDMM"
+- "GoS"
+- "DIP"
+- "SLW"
+- "EGW"
+- "TCE"
+- "AATM"
+- "GHLoE"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Vampire%20Spawn.webp"
 ```
 ^statblock
 

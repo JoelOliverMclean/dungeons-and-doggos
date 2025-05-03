@@ -10,12 +10,12 @@ tags:
 - monster/size/large
 - monster/type/monstrosity/shapechanger
 - monster/type/monstrosity/yuan-ti
+statblock: inline
 aliases: ["Yuan-ti Abomination"]
 ---
-# Yuan-ti Abomination
+# [Yuan-ti Abomination](3-Mechanics\CLI\bestiary\monstrosity/yuan-ti-abomination.md)
 *Source: Monster Manual p. 308, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Yuan-ti%20Abomination.webp#right)  
 Monstrous serpents with burly humanoid torsos and arms, abominations form the highest caste of yuan-ti society, and they most closely resemble the race as the serpent gods intended it. They mastermind elaborate schemes and perform dark rites in the hope of one day ruling the world.
 
 ## Yuan-ti
@@ -60,56 +60,73 @@ Yuan-ti life revolves around their temples, yet yuan-ti don't love the gods they
 > The yuan-ti cast off their humanity long ago, and with it, their sanity.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Yuan-ti Abomination
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Yuan-ti%20Abomination.webp#token)
-*Large monstrosity (shapechanger, yuan-ti), Neutral Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 127 (`15d10 + 45`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|16 (+3)|17 (+3)|17 (+3)|15 (+2)|18 (+4)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Perception +5, Stealth +6
-- **Senses** darkvision 60 ft., passive Perception 15
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal, Common, Draconic
-- **Challenge** 7
-
-## Traits
-
-***Shapechanger.*** The yuan-ti can use its action to polymorph into a Large snake, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies.
-
-***Magic Resistance.*** The yuan-ti has advantage on saving throws against spells and other magical effects.
-
-***Innate Spellcasting (Abomination Form Only).*** The yuan-ti's innate spellcasting ability is Charisma (spell save DC 15). The yuan-ti can innately cast the following spells, requiring no material components:
-
-**At will**: [animal friendship](/3-Mechanics/CLI/spells/animal-friendship.md) (snakes only)
-
-**1/day**: [fear](/3-Mechanics/CLI/spells/fear.md)
-
-**3/day**: [suggestion](/3-Mechanics/CLI/spells/suggestion.md)
-
-## Actions
-
-***Multiattack (Abomination Form Only).*** The yuan-ti makes two ranged attacks or three melee attacks, but can use its bite and constrict attacks only once each.
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 7 (`1d6 + 4`) piercing damage plus 10 (`3d6`) poison damage.
-
-***Constrict.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage, and the target is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 14). Until this grapple ends, the target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), and the yuan-ti can't constrict another target.
-
-***Scimitar (Abomination Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) slashing damage.
-
-***Longbow (Abomination Form Only).*** *Ranged Weapon Attack:* +6 to hit, range 150/600 ft., one target. *Hit:* 12 (`2d8 + 3`) piercing damage plus 10 (`3d6`) poison damage.
+```statblock
+"name": "Yuan-ti Abomination"
+"size": "Large"
+"type": "monstrosity"
+"subtype": "shapechanger, yuan-ti"
+"alignment": "Neutral Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "127"
+"hit_dice": "15d10 + 45"
+"stats":
+- !!int "19"
+- !!int "16"
+- !!int "17"
+- !!int "17"
+- !!int "15"
+- !!int "18"
+"speed": "40 ft."
+"skillsaves":
+  "Stealth": !!int "6"
+  "Perception": !!int "5"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 15"
+"languages": "Abyssal, Common, Draconic"
+"cr": "7"
+"traits":
+- "desc": "The yuan-ti's innate spellcasting ability is Charisma (spell save DC 15).\
+    \ The yuan-ti can innately cast the following spells, requiring no material components:\n\
+    \nAt will: [animal friendship](/3-Mechanics/CLI/spells/animal-friendship.md)\
+    \ (snakes only)\n\n1/day: [fear](/3-Mechanics/CLI/spells/fear.md)\n\n3/day:\
+    \ [suggestion](/3-Mechanics/CLI/spells/suggestion.md)"
+  "name": "Innate Spellcasting (Abomination Form Only)"
+- "desc": "The yuan-ti can use its action to polymorph into a Large snake, or back\
+    \ into its true form. Its statistics are the same in each form. Any equipment\
+    \ it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+  "name": "Shapechanger"
+- "desc": "The yuan-ti has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "The yuan-ti makes two ranged attacks or three melee attacks, but can use\
+    \ its bite and constrict attacks only once each."
+  "name": "Multiattack (Abomination Form Only)"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7\
+    \ (1d6 + 4) piercing damage plus 10 (3d6) poison damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11\
+    \ (2d6 + 4) bludgeoning damage, and the target is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled)\
+    \ (escape DC 14). Until this grapple ends, the target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained),\
+    \ and the yuan-ti can't constrict another target."
+  "name": "Constrict"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) slashing damage."
+  "name": "Scimitar (Abomination Form Only)"
+- "desc": "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit:\
+    \ 12 (2d8 + 3) piercing damage plus 10 (3d6) poison damage."
+  "name": "Longbow (Abomination Form Only)"
+"source":
+- "MM"
+- "RoT"
+- "ToA"
+- "WDMM"
+- "DIP"
+- "SLW"
+- "CM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Yuan-ti%20Abomination.webp"
 ```
 ^statblock
 

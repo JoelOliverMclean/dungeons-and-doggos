@@ -16,7 +16,7 @@ aliases: ["Mordenkainen's Sword"]
 ---
 # Mordenkainen's Sword
 *7th-level, Evocation*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/spells/PHB/Mordenkainen's%20Sword.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/spells/PHB/Mordenkainen%27s%20Sword.webp#right)  
 
 - **Casting time:** 1 action
 - **Range:** 60 feet

@@ -6,7 +6,7 @@ Age:
 Class: 
 Alignment: Chaotic Neutral
 Character-Role: 
-Location: "[[Trollskull Manor]]"
+Location: "[[The Troll's Sack]]"
 NoteIcon: npc_male
 Vitality: 
 tags:

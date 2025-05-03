@@ -7,35 +7,43 @@ tags:
 - monster/environment/desert
 - monster/size/tiny
 - monster/type/beast
+statblock: inline
 aliases: ["Scorpion"]
 ---
-# Scorpion
+# [Scorpion](3-Mechanics\CLI\bestiary\beast/scorpion.md)
 *Source: Monster Manual p. 337, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-
-```ad-statblock
-title: Scorpion
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Scorpion.webp#token)
-*Tiny beast, Unaligned*
-
-- **Armor Class** 11 (natural armor)
-- **Hit Points** 1 (`1d4 - 1`) 
-- **Speed** 10 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 2 (-4)|11 (+0)| 8 (-1)| 1 (-5)| 8 (-1)| 2 (-4)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** blindsight 10 ft., passive Perception 9
-- **Languages** —
-- **Challenge** 0
-
-## Actions
-
-***Sting.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one creature. *Hit:* 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (`1d8`) poison damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Scorpion"
+"size": "Tiny"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "11"
+"ac_class": "natural armor"
+"hp": !!int "1"
+"hit_dice": "1d4 - 1"
+"stats":
+- !!int "2"
+- !!int "11"
+- !!int "8"
+- !!int "1"
+- !!int "8"
+- !!int "2"
+"speed": "10 ft."
+"senses": "blindsight 10 ft., passive Perception 9"
+"languages": ""
+"cr": "0"
+"actions":
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1\
+    \ piercing damage, and the target must make a DC 9 Constitution saving throw,\
+    \ taking 4 (1d8) poison damage on a failed save, or half as much damage on a\
+    \ successful one."
+  "name": "Sting"
+"source":
+- "MM"
+- "WDMM"
+- "PSX"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Scorpion.webp"
 ```
 ^statblock
 

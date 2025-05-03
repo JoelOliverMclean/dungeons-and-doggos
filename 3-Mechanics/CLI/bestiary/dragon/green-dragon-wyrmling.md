@@ -6,12 +6,12 @@ tags:
 - monster/cr/2
 - monster/size/medium
 - monster/type/dragon
+statblock: inline
 aliases: ["Green Dragon Wyrmling"]
 ---
-# Green Dragon Wyrmling
+# [Green Dragon Wyrmling](3-Mechanics\CLI\bestiary\dragon/green-dragon-wyrmling.md)
 *Source: Monster Manual p. 95. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Green%20Dragon.webp#right)  
 The most cunning and treacherous of true dragons, green dragons use misdirection and trickery to get the upper hand against their enemies. Nasty tempered and thoroughly evil, they take special pleasure in subverting and corrupting the good-hearted. In the ancient forests they roam, green dragons demonstrate an aggression that is often less about territory than it is about gaining power and wealth with as little effort as possible.
 
 A green dragon is recognized by its curved jawline and the crest that begins near its eyes and continues down its spine, reaching full height just behind the skull. A green dragon has no external ears, but bears leathery spiked plates that run down the sides of its neck.
@@ -102,39 +102,50 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Green Dragon Wyrmling
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Green%20Dragon%20Wyrmling.webp#token)
-*Medium dragon, Lawful Evil*
-
-- **Armor Class** 17 (natural armor)
-- **Hit Points** 38 (`7d8 + 7`) 
-- **Speed** 30 ft., fly 60 ft., swim 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|12 (+1)|13 (+1)|14 (+2)|11 (+0)|13 (+1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Dexterity +3, Constitution +3, Wisdom +2, Charisma +3
-- **Skills** Perception +4, Stealth +3
-- **Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 14
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Draconic
-- **Challenge** 2
-
-## Traits
-
-***Amphibious.*** The dragon can breathe air and water.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (`1d10 + 2`) piercing damage plus 3 (`1d6`) poison damage.
-
-***Poison Breath (Recharge 5-6).*** The dragon exhales poisonous gas in a 15-foot cone. Each creature in that area must make a DC 11 Constitution saving throw, taking 21 (`6d6`) poison damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Green Dragon Wyrmling"
+"size": "Medium"
+"type": "dragon"
+"alignment": "Lawful Evil"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "38"
+"hit_dice": "7d8 + 7"
+"stats":
+- !!int "15"
+- !!int "12"
+- !!int "13"
+- !!int "14"
+- !!int "11"
+- !!int "13"
+"speed": "30 ft., fly 60 ft., swim 30 ft."
+"saves":
+  "Charisma": !!int "3"
+  "Dexterity": !!int "3"
+  "Wisdom": !!int "2"
+  "Constitution": !!int "3"
+"skillsaves":
+  "Stealth": !!int "3"
+  "Perception": !!int "4"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"languages": "Draconic"
+"cr": "2"
+"traits":
+- "desc": "The dragon can breathe air and water."
+  "name": "Amphibious"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10\
+    \ + 2) piercing damage plus 3 (1d6) poison damage."
+  "name": "Bite"
+- "desc": "The dragon exhales poisonous gas in a 15-foot cone. Each creature in that\
+    \ area must make a DC 11 Constitution saving throw, taking 21 (6d6) poison damage\
+    \ on a failed save, or half as much damage on a successful one."
+  "name": "Poison Breath (Recharge 5-6)"
+"source":
+- "MM"
+- "WBtW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Green%20Dragon%20Wyrmling.webp"
 ```
 ^statblock

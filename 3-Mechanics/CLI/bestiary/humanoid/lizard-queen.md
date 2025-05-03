@@ -8,12 +8,12 @@ tags:
 - monster/environment/swamp
 - monster/size/medium
 - monster/type/humanoid/lizardfolk
+statblock: inline
 aliases: ["Lizard Queen"]
 ---
-# Lizard Queen
+# [Lizard Queen](3-Mechanics\CLI\bestiary\humanoid/lizard-queen.md)
 *Source: Monster Manual p. 205*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Lizardfolk.webp#right)  
 Lizardfolk are primitive reptilian humanoids that lurk in the swamps and jungles of the world. Their hut villages thrive in forbidding grottos, half-sunken ruins, and watery caverns.
 
 ## Territorial Xenophobes
@@ -51,45 +51,59 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
 > In all my dealings with the lizardfolk, I was never able to tell what they were thinking. Their reptilian eyes belied no hint of their intentions. I gave them supplies. They gave me the willies.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Lizard Queen
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Lizard%20Queen.webp#token)
-*Medium humanoid (lizardfolk), Chaotic Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 78 (`12d8 + 24`) 
-- **Speed** 30 ft., swim 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|12 (+1)|15 (+2)|11 (+0)|11 (+0)|15 (+2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Constitution +4, Wisdom +2
-- **Skills** Perception +4, Stealth +5, Survival +4
-- **Senses** darkvision 60 ft., passive Perception 14
-- **Condition Immunities** [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened)
-- **Languages** Abyssal, Draconic
-- **Challenge** 4
-
-## Traits
-
-***Hold Breath.*** The lizardfolk can hold its breath for 15 minutes.
-
-***Skewer.*** Once per turn, when the lizardfolk makes a melee attack with its trident and hits, the target takes an extra 10 (`3d6`) damage, and the lizardfolk gains temporary hit points equal to the extra damage dealt.
-
-## Actions
-
-***Multiattack.*** The lizardfolk makes two attacks: one with its bite and one with its claws or trident or two melee attacks with its trident.
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) slashing damage.
-
-***Trident.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage, or 7 (`1d8 + 3`) piercing damage if used with two hands to make a melee attack.
+```statblock
+"name": "Lizard Queen"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "lizardfolk"
+"alignment": "Chaotic Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "78"
+"hit_dice": "12d8 + 24"
+"stats":
+- !!int "17"
+- !!int "12"
+- !!int "15"
+- !!int "11"
+- !!int "11"
+- !!int "15"
+"speed": "30 ft., swim 30 ft."
+"saves":
+  "Wisdom": !!int "2"
+  "Constitution": !!int "4"
+"skillsaves":
+  "Stealth": !!int "5"
+  "Perception": !!int "4"
+  "Survival": !!int "4"
+"condition_immunities": "[frightened](/3-Mechanics/CLI/rules/conditions.md#frightened)"
+"senses": "darkvision 60 ft., passive Perception 14"
+"languages": "Abyssal, Draconic"
+"cr": "4"
+"traits":
+- "desc": "The lizardfolk can hold its breath for 15 minutes."
+  "name": "Hold Breath"
+- "desc": "Once per turn, when the lizardfolk makes a melee attack with its trident\
+    \ and hits, the target takes an extra 10 (3d6) damage, and the lizardfolk gains\
+    \ temporary hit points equal to the extra damage dealt."
+  "name": "Skewer"
+"actions":
+- "desc": "The lizardfolk makes two attacks: one with its bite and one with its claws\
+    \ or trident or two melee attacks with its trident."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+    \ + 3) slashing damage."
+  "name": "Claws"
+- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing\
+    \ damage if used with two hands to make a melee attack."
+  "name": "Trident"
+"source":
+- "MM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Lizard%20Queen.webp"
 ```
 ^statblock
 

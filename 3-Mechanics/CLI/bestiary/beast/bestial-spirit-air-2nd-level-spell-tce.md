@@ -6,44 +6,50 @@ tags:
 - monster/cr/
 - monster/size/small
 - monster/type/beast
+statblock: inline
 aliases: ["Bestial Spirit (Air, 2nd-Level Spell)"]
 ---
-# Bestial Spirit (Air, 2nd-Level Spell)
+# [Bestial Spirit (Air, 2nd-Level Spell)](3-Mechanics\CLI\bestiary\beast/bestial-spirit-air-2nd-level-spell-tce.md)
 *Source: Tasha's Cauldron of Everything p. 109*  
 
-
-```ad-statblock
-title: Bestial Spirit (Air, 2nd-Level Spell)
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/TCE/Bestial%20Spirit.webp#token)
-*Small beast, Unaligned*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 20  (20 + 5 for each spell level above 2nd)
-- **Speed** 30 ft., climb 30 ft. (land only), fly 60 ft. (air only), swim 30 ft. (water only)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|11 (+0)|16 (+3)| 4 (-3)|14 (+2)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Languages** understands the languages you speak
-- **Challenge** 
-
-## Traits
-
-***Water Breathing (Water Only).*** The beast can breathe only underwater.
-
-***Flyby (Air Only).*** The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.
-
-***Pack Tactics (Land and Water Only).*** The beast has advantage on an attack roll against a creature if at least one of the beast's allies is within 5 feet of the creature and the ally isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
-
-## Actions
-
-***Multiattack.*** The beast makes a number of attacks equal to half this spell's level (rounded down).
-
-***Maul.*** *Melee Weapon Attack:* the summoner's spell attack modifier to hit, reach 5 ft., one target. *Hit:* `1d8 + 4 + summonSpellLevel` piercing damage.
+```statblock
+"name": "Bestial Spirit (Air, 2nd-Level Spell) (TCE)"
+"size": "Small"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "20"
+"stats":
+- !!int "18"
+- !!int "11"
+- !!int "16"
+- !!int "4"
+- !!int "14"
+- !!int "5"
+"speed": "30 ft., climb 30 ft. (land only), fly 60 ft. (air only), swim 30 ft. (water\
+  \ only)"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "understands the languages you speak"
+"traits":
+- "desc": "The beast can breathe only underwater."
+  "name": "Water Breathing (Water Only)"
+- "desc": "The beast doesn't provoke opportunity attacks when it flies out of an enemy's\
+    \ reach."
+  "name": "Flyby (Air Only)"
+- "desc": "The beast has advantage on an attack roll against a creature if at least\
+    \ one of the beast's allies is within 5 feet of the creature and the ally isn't\
+    \ [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)."
+  "name": "Pack Tactics (Land and Water Only)"
+"actions":
+- "desc": "The beast makes a number of attacks equal to half this spell's level (rounded\
+    \ down)."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: the summoner's spell attack modifier to hit, reach\
+    \ 5 ft., one target. Hit: 1d8 + 4 + summonSpellLevel piercing damage."
+  "name": "Maul"
+"source":
+- "TCE"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/TCE/Bestial%20Spirit.webp"
 ```
 ^statblock

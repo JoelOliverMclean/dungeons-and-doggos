@@ -6,12 +6,12 @@ tags:
 - monster/cr/3
 - monster/size/medium
 - monster/type/humanoid/gith
+statblock: inline
 aliases: ["Githyanki Warrior"]
 ---
-# Githyanki Warrior
+# [Githyanki Warrior](3-Mechanics\CLI\bestiary\humanoid/githyanki-warrior.md)
 *Source: Monster Manual p. 160, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Githyanki.webp#right)  
 The githyanki plunder countless worlds from the decks of their astral vessels and the backs of red dragons. Feathers, beads, gems, and precious metals decorate their armor and weapons-the legendary silver swords with which they cut through their foes. Since winning their freedom from the mind flayers, the githyanki have become ruthless conquerors under the rulership of their dread lich-queen, Vlaakith.
 
 ## Astral Raiders
@@ -55,39 +55,53 @@ Whether these tall, gaunt creatures were peaceful or savage, cultured or primiti
 > The githyanki and the githzerai were so profoundly scarred by their enslavement to the mind flayers that they forget they were one race, united. Having won their freedom, they wage war against each other with a hatred none can fully comprehend.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Githyanki Warrior
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Githyanki%20Warrior.webp#token)
-*Medium humanoid (gith), Lawful Evil*
-
-- **Armor Class** 17 ([half plate armor](/3-Mechanics/CLI/items/half-plate-armor.md))
-- **Hit Points** 49 (`9d8 + 9`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|14 (+2)|12 (+1)|13 (+1)|13 (+1)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Constitution +3, Intelligence +3, Wisdom +3
-- **Skills** ⏤
-- **Senses** passive Perception 11
-- **Languages** Gith
-- **Challenge** 3
-
-***Innate Spellcasting (Psionics).*** The githyanki's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no components:
-
-**At will**: [mage hand](/3-Mechanics/CLI/spells/mage-hand.md) (the hand is invisible)
-
-**3/day each**: [jump](/3-Mechanics/CLI/spells/jump.md), [misty step](/3-Mechanics/CLI/spells/misty-step.md), [nondetection](/3-Mechanics/CLI/spells/nondetection.md) (self only)
-
-## Actions
-
-***Multiattack.*** The githyanki makes two greatsword attacks.
-
-***Greatsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (`2d6 + 2`) slashing damage plus 7 (`2d6`) psychic damage.
+```statblock
+"name": "Githyanki Warrior"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "gith"
+"alignment": "Lawful Evil"
+"ac": !!int "17"
+"ac_class": "[half plate armor](/3-Mechanics/CLI/items/half-plate-armor.md)"
+"hp": !!int "49"
+"hit_dice": "9d8 + 9"
+"stats":
+- !!int "15"
+- !!int "14"
+- !!int "12"
+- !!int "13"
+- !!int "13"
+- !!int "10"
+"speed": "30 ft."
+"saves":
+  "Wisdom": !!int "3"
+  "Intelligence": !!int "3"
+  "Constitution": !!int "3"
+"senses": "passive Perception 11"
+"languages": "Gith"
+"cr": "3"
+"traits":
+- "desc": "The githyanki's innate spellcasting ability is Intelligence. It can innately\
+    \ cast the following spells, requiring no components:\n\nAt will: [mage hand](/3-Mechanics/CLI/spells/mage-hand.md)\
+    \ (the hand is invisible)\n\n3/day each: [jump](/3-Mechanics/CLI/spells/jump.md),\
+    \ [misty step](/3-Mechanics/CLI/spells/misty-step.md), [nondetection](/3-Mechanics/CLI/spells/nondetection.md)\
+    \ (self only)"
+  "name": "Innate Spellcasting (Psionics)"
+"actions":
+- "desc": "The githyanki makes two greatsword attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6\
+    \ + 2) slashing damage plus 7 (2d6) psychic damage."
+  "name": "Greatsword"
+"source":
+- "MM"
+- "WDMM"
+- "SjA"
+- "LoX"
+- "PaBTSO"
+- "AATM"
+- "SatO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Githyanki%20Warrior.webp"
 ```
 ^statblock

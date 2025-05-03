@@ -7,40 +7,43 @@ tags:
 - monster/environment/forest
 - monster/size/tiny
 - monster/type/beast
+statblock: inline
 aliases: ["Badger"]
 ---
-# Badger
+# [Badger](3-Mechanics\CLI\bestiary\beast/badger.md)
 *Source: Monster Manual p. 318. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Badger.webp#center) 
-
-```ad-statblock
-title: Badger
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Badger.webp#token)
-*Tiny beast, Unaligned*
-
-- **Armor Class** 10 
-- **Hit Points** 3 (`1d4 + 1`) 
-- **Speed** 20 ft., burrow 5 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 (-3)|11 (+0)|12 (+1)| 2 (-4)|12 (+1)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 30 ft., passive Perception 11
-- **Languages** —
-- **Challenge** 0
-
-## Traits
-
-***Keen Smell.*** The badger has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on smell.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage.
+```statblock
+"name": "Badger"
+"size": "Tiny"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "10"
+"hp": !!int "3"
+"hit_dice": "1d4 + 1"
+"stats":
+- !!int "4"
+- !!int "11"
+- !!int "12"
+- !!int "2"
+- !!int "12"
+- !!int "5"
+"speed": "20 ft., burrow 5 ft."
+"senses": "darkvision 30 ft., passive Perception 11"
+"languages": ""
+"cr": "0"
+"traits":
+- "desc": "The badger has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on smell."
+  "name": "Keen Smell"
+"actions":
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing\
+    \ damage."
+  "name": "Bite"
+"source":
+- "MM"
+- "WBtW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Badger.webp"
 ```
 ^statblock
 

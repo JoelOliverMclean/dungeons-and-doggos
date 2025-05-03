@@ -6,12 +6,12 @@ tags:
 - monster/cr/20
 - monster/size/large
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["Pit Fiend"]
 ---
-# Pit Fiend
+# [Pit Fiend](3-Mechanics\CLI\bestiary\fiend/pit-fiend.md)
 *Source: Monster Manual p. 77, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Pit%20Fiend.webp#right)  
 The undisputed lords of most other devils, pit fiends attend the archdukes and archduchesses of the Nine Hells and carry out their wishes. These mighty devils are the generals of the Nine Hells, leading its infernal legions into battle.
 
 With an inflated sense of superiority and entitlement, pit fiends form a grotesque aristocracy in the infernal realm. These domineering and manipulative tyrants conspire to eliminate anything that stands between them and their desires, even as they negotiate the convoluted and dangerous politics of the Nine Hells.
@@ -142,56 +142,84 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
 
-
-## Statblock
-
-```ad-statblock
-title: Pit Fiend
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Pit%20Fiend.webp#token)
-*Large fiend (devil), Lawful Evil*
-
-- **Armor Class** 19 (natural armor)
-- **Hit Points** 300 (`24d10 + 168`) 
-- **Speed** 30 ft., fly 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|26 (+8)|14 (+2)|24 (+7)|22 (+6)|18 (+4)|24 (+7)|
-
-- **Proficiency Bonus** +6
-- **Saving Throws** Dexterity +8, Constitution +13, Wisdom +10
-- **Skills** ⏤
-- **Senses** truesight 120 ft., passive Perception 14
-- **Damage Resistances** cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Infernal, telepathy 120 ft.
-- **Challenge** 20
-
-## Traits
-
-***Fear Aura.*** Any creature hostile to the pit fiend that starts its turn within 20 feet of the pit fiend must make a DC 21 Wisdom saving throw, unless the pit fiend is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated). On a failed save, the creature is [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened) until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the pit fiend's Fear Aura for the next 24 hours.
-
-***Magic Resistance.*** The pit fiend has advantage on saving throws against spells and other magical effects.
-
-***Magic Weapons.*** The pit fiend's weapon attacks are magical.
-
-***Innate Spellcasting.*** The pit fiend's spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components:
-
-**At will**: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [fireball](/3-Mechanics/CLI/spells/fireball.md)
-
-**3/day each**: [hold monster](/3-Mechanics/CLI/spells/hold-monster.md), [wall of fire](/3-Mechanics/CLI/spells/wall-of-fire.md)
-
-## Actions
-
-***Multiattack.*** The pit fiend makes four attacks: one with its bite, one with its claw, one with its mace, and one with its tail.
-
-***Bite.*** *Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:* 22 (`4d6 + 8`) piercing damage. The target must succeed on a DC 21 Constitution saving throw or become [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned). While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way, the target can't regain hit points, and it takes 21 (`6d6`) poison damage at the start of each of its turns. The [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-***Claw.*** *Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 17 (`2d8 + 8`) slashing damage.
-
-***Mace.*** *Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 15 (`2d6 + 8`) bludgeoning damage plus 21 (`6d6`) fire damage.
-
-***Tail.*** *Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 24 (`3d10 + 8`) bludgeoning damage.
+```statblock
+"name": "Pit Fiend"
+"size": "Large"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Lawful Evil"
+"ac": !!int "19"
+"ac_class": "natural armor"
+"hp": !!int "300"
+"hit_dice": "24d10 + 168"
+"stats":
+- !!int "26"
+- !!int "14"
+- !!int "24"
+- !!int "22"
+- !!int "18"
+- !!int "24"
+"speed": "30 ft., fly 60 ft."
+"saves":
+  "Dexterity": !!int "8"
+  "Wisdom": !!int "10"
+  "Constitution": !!int "13"
+"damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
+  \ that aren't silvered"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "truesight 120 ft., passive Perception 14"
+"languages": "Infernal, telepathy 120 ft."
+"cr": "20"
+"traits":
+- "desc": "The pit fiend's spellcasting ability is Charisma (spell save DC 21). The\
+    \ pit fiend can innately cast the following spells, requiring no material components:\n\
+    \nAt will: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [fireball](/3-Mechanics/CLI/spells/fireball.md)\n\
+    \n3/day each: [hold monster](/3-Mechanics/CLI/spells/hold-monster.md), [wall\
+    \ of fire](/3-Mechanics/CLI/spells/wall-of-fire.md)"
+  "name": "Innate Spellcasting"
+- "desc": "Any creature hostile to the pit fiend that starts its turn within 20 feet\
+    \ of the pit fiend must make a DC 21 Wisdom saving throw, unless the pit fiend\
+    \ is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated). On a\
+    \ failed save, the creature is [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened)\
+    \ until the start of its next turn. If a creature's saving throw is successful,\
+    \ the creature is immune to the pit fiend's Fear Aura for the next 24 hours."
+  "name": "Fear Aura"
+- "desc": "The pit fiend has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The pit fiend's weapon attacks are magical."
+  "name": "Magic Weapons"
+"actions":
+- "desc": "The pit fiend makes four attacks: one with its bite, one with its claw,\
+    \ one with its mace, and one with its tail."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22\
+    \ (4d6 + 8) piercing damage. The target must succeed on a DC 21 Constitution\
+    \ saving throw or become [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned).\
+    \ While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way,\
+    \ the target can't regain hit points, and it takes 21 (6d6) poison damage at\
+    \ the start of each of its turns. The [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ target can repeat the saving throw at the end of each of its turns, ending the\
+    \ effect on itself on a success."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 17\
+    \ (2d8 + 8) slashing damage."
+  "name": "Claw"
+- "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15\
+    \ (2d6 + 8) bludgeoning damage plus 21 (6d6) fire damage."
+  "name": "Mace"
+- "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 24\
+    \ (3d10 + 8) bludgeoning damage."
+  "name": "Tail"
+"source":
+- "MM"
+- "WDMM"
+- "BGDIA"
+- "EGW"
+- "TCE"
+- "SatO"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Pit%20Fiend.webp"
 ```
 ^statblock

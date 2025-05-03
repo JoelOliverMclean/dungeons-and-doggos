@@ -14,4 +14,4 @@ aliases: ["Maps"]
 
 > [!gallery]
 > ![Yuan-ti Temple](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/book/MPMM/Yuan-ti%20Temple.webp#gallery)
-> ![Player Version](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/book/MPMM/Yuan-ti%20Temple%20(Player%20Version).webp#gallery)
+> ![Player Version](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/book/MPMM/Yuan-ti%20Temple%20%28Player%20Version%29.webp#gallery)

@@ -26,8 +26,3 @@ The region containing Demogorgon's lair is warped by his magic, creating one or 
 - **Venomous Beasts.** The area within 6 miles of the lair becomes overpopulated with [poisonous snakes](/3-Mechanics/CLI/bestiary/beast/poisonous-snake.md) and other venomous Beasts.  
 
 If Demogorgon dies, these effects fade over the course of `1d10` days.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

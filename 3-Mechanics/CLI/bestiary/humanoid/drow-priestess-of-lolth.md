@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/elf
+statblock: inline
 aliases: ["Drow Priestess of Lolth"]
 ---
-# Drow Priestess of Lolth
+# [Drow Priestess of Lolth](3-Mechanics\CLI\bestiary\humanoid/drow-priestess-of-lolth.md)
 *Source: Monster Manual p. 129, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Drow.webp#right)  
 Female drow with blood ties to a noble house are molded and trained from birth to become priestesses of Lolth. The Spider Queen doesn't allow male drow to hold such positions.
 
 Such priestesses execute the will of the Spider Queen, and as a result, they wield tremendous power and influence in drow society. The matron mothers who rule the drow houses are the most powerful of Lolth's priestesses, but they must constantly balance their devotion to the Spider Queen with their devotion to their families.
@@ -71,62 +71,86 @@ Distilled from spider venom and the flora of the Underdark, poison can be found 
 > Such depravity. Such terrifying cruelty. They are the vile poison that plagues all elvenkind.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Drow Priestess of Lolth
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Drow%20Priestess%20of%20Lolth.webp#token)
-*Medium humanoid (elf), Neutral Evil*
-
-- **Armor Class** 16 ([scale mail](/3-Mechanics/CLI/items/scale-mail.md))
-- **Hit Points** 71 (`13d8 + 13`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|14 (+2)|12 (+1)|13 (+1)|17 (+3)|18 (+4)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Constitution +4, Wisdom +6, Charisma +7
-- **Skills** Insight +6, Perception +6, Religion +4, Stealth +5
-- **Senses** darkvision 120 ft., passive Perception 16
-- **Languages** Elvish, Undercommon
-- **Challenge** 8
-
-## Traits
-
-***Fey Ancestry.*** The drow has advantage on saving throws against being [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), and magic can't put the drow to sleep.
-
-***Sunlight Sensitivity.*** While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-***Innate Spellcasting.*** The drow's spellcasting ability is Charisma (spell save DC 15). She can innately cast the following spells, requiring no material components:
-
-**At will**: [dancing lights](/3-Mechanics/CLI/spells/dancing-lights.md)
-
-**1/day each**: [darkness](/3-Mechanics/CLI/spells/darkness.md), [faerie fire](/3-Mechanics/CLI/spells/faerie-fire.md), [levitate](/3-Mechanics/CLI/spells/levitate.md) (self only)
-
-***Spellcasting.*** The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). The drow has the following cleric spells prepared:
-
-**Cantrips (at will)**: [guidance](/3-Mechanics/CLI/spells/guidance.md), [poison spray](/3-Mechanics/CLI/spells/poison-spray.md), [resistance](/3-Mechanics/CLI/spells/resistance.md), [spare the dying](/3-Mechanics/CLI/spells/spare-the-dying.md), [thaumaturgy](/3-Mechanics/CLI/spells/thaumaturgy.md)
-
-**1st level (4 slots)**: [animal friendship](/3-Mechanics/CLI/spells/animal-friendship.md), [cure wounds](/3-Mechanics/CLI/spells/cure-wounds.md), [detect poison and disease](/3-Mechanics/CLI/spells/detect-poison-and-disease.md), [ray of sickness](/3-Mechanics/CLI/spells/ray-of-sickness.md)
-
-**2nd level (3 slots)**: [lesser restoration](/3-Mechanics/CLI/spells/lesser-restoration.md), [protection from poison](/3-Mechanics/CLI/spells/protection-from-poison.md), [web](/3-Mechanics/CLI/spells/web.md)
-
-**3rd level (3 slots)**: [conjure animals](/3-Mechanics/CLI/spells/conjure-animals.md) (2 [giant spiders](/3-Mechanics/CLI/bestiary/beast/giant-spider.md)), [dispel magic](/3-Mechanics/CLI/spells/dispel-magic.md)
-
-**4th level (3 slots)**: [divination](/3-Mechanics/CLI/spells/divination.md), [freedom of movement](/3-Mechanics/CLI/spells/freedom-of-movement.md)
-
-**5th level (2 slots)**: [insect plague](/3-Mechanics/CLI/spells/insect-plague.md), [mass cure wounds](/3-Mechanics/CLI/spells/mass-cure-wounds.md)
-
-## Actions
-
-***Multiattack.*** The drow makes two scourge attacks.
-
-***Scourge.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage plus 17 (`5d6`) poison damage.
-
-***Summon Demon (1/Day).*** The drow attempts to magically summon a [yochlol](/3-Mechanics/CLI/bestiary/fiend/yochlol.md) with a 30% chance chance of success. If the attempt fails, the drow takes 5 (`1d10`) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.
+```statblock
+"name": "Drow Priestess of Lolth"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "elf"
+"alignment": "Neutral Evil"
+"ac": !!int "16"
+"ac_class": "[scale mail](/3-Mechanics/CLI/items/scale-mail.md)"
+"hp": !!int "71"
+"hit_dice": "13d8 + 13"
+"stats":
+- !!int "10"
+- !!int "14"
+- !!int "12"
+- !!int "13"
+- !!int "17"
+- !!int "18"
+"speed": "30 ft."
+"saves":
+  "Charisma": !!int "7"
+  "Wisdom": !!int "6"
+  "Constitution": !!int "4"
+"skillsaves":
+  "Stealth": !!int "5"
+  "Religion": !!int "4"
+  "Insight": !!int "6"
+  "Perception": !!int "6"
+"senses": "darkvision 120 ft., passive Perception 16"
+"languages": "Elvish, Undercommon"
+"cr": "8"
+"traits":
+- "desc": "The drow's spellcasting ability is Charisma (spell save DC 15). She can\
+    \ innately cast the following spells, requiring no material components:\n\nAt\
+    \ will: [dancing lights](/3-Mechanics/CLI/spells/dancing-lights.md)\n\n1/day\
+    \ each: [darkness](/3-Mechanics/CLI/spells/darkness.md), [faerie fire](/3-Mechanics/CLI/spells/faerie-fire.md),\
+    \ [levitate](/3-Mechanics/CLI/spells/levitate.md) (self only)"
+  "name": "Innate Spellcasting"
+- "desc": "The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom\
+    \ (save DC 14, +6 to hit with spell attacks). The drow has the following cleric\
+    \ spells prepared:\n\nCantrips (at will): [guidance](/3-Mechanics/CLI/spells/guidance.md),\
+    \ [poison spray](/3-Mechanics/CLI/spells/poison-spray.md), [resistance](/3-Mechanics/CLI/spells/resistance.md),\
+    \ [spare the dying](/3-Mechanics/CLI/spells/spare-the-dying.md), [thaumaturgy](/3-Mechanics/CLI/spells/thaumaturgy.md)\n\
+    \n1st level (4 slots): [animal friendship](/3-Mechanics/CLI/spells/animal-friendship.md),\
+    \ [cure wounds](/3-Mechanics/CLI/spells/cure-wounds.md), [detect poison and disease](/3-Mechanics/CLI/spells/detect-poison-and-disease.md),\
+    \ [ray of sickness](/3-Mechanics/CLI/spells/ray-of-sickness.md)\n\n2nd level\
+    \ (3 slots): [lesser restoration](/3-Mechanics/CLI/spells/lesser-restoration.md),\
+    \ [protection from poison](/3-Mechanics/CLI/spells/protection-from-poison.md),\
+    \ [web](/3-Mechanics/CLI/spells/web.md)\n\n3rd level (3 slots): [conjure animals](/3-Mechanics/CLI/spells/conjure-animals.md)\
+    \ (2 [giant spiders](/3-Mechanics/CLI/bestiary/beast/giant-spider.md)), [dispel\
+    \ magic](/3-Mechanics/CLI/spells/dispel-magic.md)\n\n4th level (3 slots):\
+    \ [divination](/3-Mechanics/CLI/spells/divination.md), [freedom of movement](/3-Mechanics/CLI/spells/freedom-of-movement.md)\n\
+    \n5th level (2 slots): [insect plague](/3-Mechanics/CLI/spells/insect-plague.md),\
+    \ [mass cure wounds](/3-Mechanics/CLI/spells/mass-cure-wounds.md)"
+  "name": "Spellcasting"
+- "desc": "The drow has advantage on saving throws against being [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+    \ and magic can't put the drow to sleep."
+  "name": "Fey Ancestry"
+- "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well as\
+    \ on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks\
+    \ that rely on sight."
+  "name": "Sunlight Sensitivity"
+"actions":
+- "desc": "The drow makes two scourge attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage plus 17 (5d6) poison damage."
+  "name": "Scourge"
+- "desc": "The drow attempts to magically summon a [yochlol](/3-Mechanics/CLI/bestiary/fiend/yochlol.md)\
+    \ with a 30% chance chance of success. If the attempt fails, the drow takes 5\
+    \ (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied\
+    \ space within 60 feet of its summoner, acts as an ally of its summoner, and can't\
+    \ summon other demons. It remains for 10 minutes, until it or its summoner dies,\
+    \ or until its summoner dismisses it as an action."
+  "name": "Summon Demon (1/Day)"
+"source":
+- "MM"
+- "TftYP"
+- "WDMM"
+- "GoS"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Drow%20Priestess%20of%20Lolth.webp"
 ```
 ^statblock
 

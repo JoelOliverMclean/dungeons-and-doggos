@@ -6,12 +6,12 @@ tags:
 - monster/cr/0
 - monster/size/medium
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["Lemure"]
 ---
-# Lemure
+# [Lemure](3-Mechanics\CLI\bestiary\fiend/lemure.md)
 *Source: Monster Manual p. 76, Waterdeep: Dragon Heist. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Lemure.webp#right)  
 A lemure arises when a mortal soul is twisted by evil and banished to the Nine Hells for eternity. The lowest type of devil, lemures are repugnant, shapeless creatures doomed to suffer torment until they are promoted to a higher form of devil, most commonly an imp.
 
 A lemure resembles a molten mass of flesh with a vaguely humanoid head and torso. A permanent expression of anguish twists across its face, its feeble mouth babbling even though it can't speak.
@@ -136,40 +136,47 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
 
-
-## Statblock
-
-```ad-statblock
-title: Lemure
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Lemure.webp#token)
-*Medium fiend (devil), Lawful Evil*
-
-- **Armor Class** 7 
-- **Hit Points** 13 (`3d8`) 
-- **Speed** 15 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)| 5 (-3)|11 (+0)| 1 (-5)|11 (+0)| 3 (-4)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 10
-- **Damage Resistances** cold
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands Infernal but can't speak
-- **Challenge** 0
-
-## Traits
-
-***Devil's Sight.*** Magical darkness doesn't impede the lemure's darkvision.
-
-***Hellish Rejuvenation.*** A lemure that dies in the Nine Hells comes back to life with all its hit points in `1d10` days unless it is killed by a good-aligned creature with a [bless](/3-Mechanics/CLI/spells/bless.md) spell cast on that creature or its remains are sprinkled with holy water.
-
-## Actions
-
-***Fist.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 2 (`1d4`) bludgeoning damage
+```statblock
+"name": "Lemure"
+"size": "Medium"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Lawful Evil"
+"ac": !!int "7"
+"hp": !!int "13"
+"hit_dice": "3d8"
+"stats":
+- !!int "10"
+- !!int "5"
+- !!int "11"
+- !!int "1"
+- !!int "11"
+- !!int "3"
+"speed": "15 ft."
+"damage_resistances": "cold"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 10"
+"languages": "understands Infernal but can't speak"
+"cr": "0"
+"traits":
+- "desc": "Magical darkness doesn't impede the lemure's darkvision."
+  "name": "Devil's Sight"
+- "desc": "A lemure that dies in the Nine Hells comes back to life with all its hit\
+    \ points in 1d10 days unless it is killed by a good-aligned creature with a\
+    \ [bless](/3-Mechanics/CLI/spells/bless.md) spell cast on that creature or its\
+    \ remains are sprinkled with holy water."
+  "name": "Hellish Rejuvenation"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4)\
+    \ bludgeoning damage"
+  "name": "Fist"
+"source":
+- "MM"
+- "WDH"
+- "BGDIA"
+- "PSI"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Lemure.webp"
 ```
 ^statblock

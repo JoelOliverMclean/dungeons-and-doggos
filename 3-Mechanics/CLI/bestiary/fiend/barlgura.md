@@ -6,12 +6,12 @@ tags:
 - monster/cr/5
 - monster/size/large
 - monster/type/fiend/demon
+statblock: inline
 aliases: ["Barlgura"]
 ---
-# Barlgura
+# [Barlgura](3-Mechanics\CLI\bestiary\fiend/barlgura.md)
 *Source: Monster Manual p. 56, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Barlgura.webp#right)  
 The barlgura represents the savagery and brutality of the Abyss. Barlguras gather in packs to take down tougher foes, keep gruesome trophies from their victories, and decorate their territory with such objects.
 
 A barlgura looks like a hulking orangutan with a gruesome, drooping visage and tusks jutting from its jaw. Standing just under 8 feet tall, it has broad shoulders and weighs 650 pounds. It moves apishly along the ground, but it climbs with great speed and agility.
@@ -183,50 +183,71 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > Demons are painfully difficult to summon and control. It is not a burden for the weak of heart or the weak of spirit.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Barlgura
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Barlgura.webp#token)
-*Large fiend (demon), Chaotic Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 68 (`8d10 + 24`) 
-- **Speed** 40 ft., climb 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|15 (+2)|16 (+3)| 7 (-2)|14 (+2)| 9 (-1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +5, Constitution +6
-- **Skills** Perception +5, Stealth +5
-- **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 15
-- **Damage Resistances** cold, fire, lightning
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal, telepathy 120 ft.
-- **Challenge** 5
-
-## Traits
-
-***Reckless.*** At the start of its turn, the barlgura can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.
-
-***Running Leap.*** The barlgura's long jump is up to 40 feet and its high jump is up to 20 feet when it has a running start.
-
-***Innate Spellcasting.*** The barlgura's spellcasting ability is Wisdom (spell save DC 13). The barlgura can innately cast the following spells, requiring no material components:
-
-**1/day each**: [entangle](/3-Mechanics/CLI/spells/entangle.md), [phantasmal force](/3-Mechanics/CLI/spells/phantasmal-force.md)
-
-**2/day each**: [disguise self](/3-Mechanics/CLI/spells/disguise-self.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md) (self only)
-
-## Actions
-
-***Multiattack.*** The barlgura makes three attacks: one with its bite and two with its fists.
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) piercing damage.
-
-***Fist.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9 (`1d10 + 4`) bludgeoning damage.
+```statblock
+"name": "Barlgura"
+"size": "Large"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Chaotic Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "68"
+"hit_dice": "8d10 + 24"
+"stats":
+- !!int "18"
+- !!int "15"
+- !!int "16"
+- !!int "7"
+- !!int "14"
+- !!int "9"
+"speed": "40 ft., climb 40 ft."
+"saves":
+  "Dexterity": !!int "5"
+  "Constitution": !!int "6"
+"skillsaves":
+  "Stealth": !!int "5"
+  "Perception": !!int "5"
+"damage_resistances": "cold, fire, lightning"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 15"
+"languages": "Abyssal, telepathy 120 ft."
+"cr": "5"
+"traits":
+- "desc": "The barlgura's spellcasting ability is Wisdom (spell save DC 13). The barlgura\
+    \ can innately cast the following spells, requiring no material components:\n\n\
+    1/day each: [entangle](/3-Mechanics/CLI/spells/entangle.md), [phantasmal force](/3-Mechanics/CLI/spells/phantasmal-force.md)\n\
+    \n2/day each: [disguise self](/3-Mechanics/CLI/spells/disguise-self.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md)\
+    \ (self only)"
+  "name": "Innate Spellcasting"
+- "desc": "At the start of its turn, the barlgura can gain advantage on all melee\
+    \ weapon attack rolls it makes during that turn, but attack rolls against it have\
+    \ advantage until the start of its next turn."
+  "name": "Reckless"
+- "desc": "The barlgura's long jump is up to 40 feet and its high jump is up to 20\
+    \ feet when it has a running start."
+  "name": "Running Leap"
+"actions":
+- "desc": "The barlgura makes three attacks: one with its bite and two with its fists."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10\
+    \ + 4) bludgeoning damage."
+  "name": "Fist"
+"source":
+- "MM"
+- "PotA"
+- "WDH"
+- "WDMM"
+- "BGDIA"
+- "IMR"
+- "CRCotN"
+- "KftGV"
+- "PaBTSO"
+- "SatO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Barlgura.webp"
 ```
 ^statblock

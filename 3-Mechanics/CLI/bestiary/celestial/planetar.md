@@ -6,12 +6,12 @@ tags:
 - monster/cr/16
 - monster/size/large
 - monster/type/celestial
+statblock: inline
 aliases: ["Planetar"]
 ---
-# Planetar
+# [Planetar](3-Mechanics\CLI\bestiary\celestial/planetar.md)
 *Source: Monster Manual p. 17. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Planetar.webp#right)  
 An angel is a celestial agent sent forth into the planes to further its god's agenda for weal or woe. Its sublime beauty and presence can drive awestruck onlookers to their knees. Yet angels are destroyers too, and their appearance portends doom as often as it signals hope.
 
 ## Shards of the Divine
@@ -36,53 +36,73 @@ Planetars act as the weapons of the gods they serve, presenting a tangible repre
 
 Planetars are muscular and hairless and have opalescent green skin and white-feathered wings. They tower over most humanoids, brandishing immense swords with grace. Sometimes sent to aid powerful mortals on important tasks for good, planetars are especially fond of missions that involve battling fiends.
 
-
-## Statblock
-
-```ad-statblock
-title: Planetar
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Planetar.webp#token)
-*Large celestial, Lawful Good*
-
-- **Armor Class** 19 (natural armor)
-- **Hit Points** 200 (`16d10 + 112`) 
-- **Speed** 40 ft., fly 120 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|24 (+7)|20 (+5)|24 (+7)|19 (+4)|22 (+6)|25 (+7)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** Constitution +12, Wisdom +11, Charisma +12
-- **Skills** Perception +11
-- **Senses** truesight 120 ft., passive Perception 21
-- **Damage Resistances** radiant; bludgeoning, piercing, slashing from nonmagical attacks
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened)
-- **Languages** all, telepathy 120 ft.
-- **Challenge** 16
-
-## Traits
-
-***Angelic Weapons.*** The planetar's weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra `5d8` radiant damage (included in the attack).
-
-***Divine Awareness.*** The planetar knows if it hears a lie.
-
-***Magic Resistance.*** The planetar has advantage on saving throws against spells and other magical effects.
-
-***Innate Spellcasting.*** The planetar's spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components:
-
-**At will**: [detect evil and good](/3-Mechanics/CLI/spells/detect-evil-and-good.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md) (self only)
-
-**1/day each**: [commune](/3-Mechanics/CLI/spells/commune.md), [control weather](/3-Mechanics/CLI/spells/control-weather.md), [insect plague](/3-Mechanics/CLI/spells/insect-plague.md)
-
-**3/day each**: [blade barrier](/3-Mechanics/CLI/spells/blade-barrier.md), [dispel evil and good](/3-Mechanics/CLI/spells/dispel-evil-and-good.md), [flame strike](/3-Mechanics/CLI/spells/flame-strike.md), [raise dead](/3-Mechanics/CLI/spells/raise-dead.md)
-
-## Actions
-
-***Multiattack.*** The planetar makes two melee attacks.
-
-***Greatsword.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 21 (`4d6 + 7`) slashing damage plus 22 (`5d8`) radiant damage.
-
-***Healing Touch (4/Day).*** The planetar touches another creature. The target magically regains 30 (`6d8 + 3`) hit points and is freed from any curse, disease, poison, blindness, or deafness.
+```statblock
+"name": "Planetar"
+"size": "Large"
+"type": "celestial"
+"alignment": "Lawful Good"
+"ac": !!int "19"
+"ac_class": "natural armor"
+"hp": !!int "200"
+"hit_dice": "16d10 + 112"
+"stats":
+- !!int "24"
+- !!int "20"
+- !!int "24"
+- !!int "19"
+- !!int "22"
+- !!int "25"
+"speed": "40 ft., fly 120 ft."
+"saves":
+  "Charisma": !!int "12"
+  "Wisdom": !!int "11"
+  "Constitution": !!int "12"
+"skillsaves":
+  "Perception": !!int "11"
+"damage_resistances": "radiant; bludgeoning, piercing, slashing from nonmagical attacks"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened)"
+"senses": "truesight 120 ft., passive Perception 21"
+"languages": "all, telepathy 120 ft."
+"cr": "16"
+"traits":
+- "desc": "The planetar's spellcasting ability is Charisma (spell save DC 20). The\
+    \ planetar can innately cast the following spells, requiring no material components:\n\
+    \nAt will: [detect evil and good](/3-Mechanics/CLI/spells/detect-evil-and-good.md),\
+    \ [invisibility](/3-Mechanics/CLI/spells/invisibility.md) (self only)\n\n1/day\
+    \ each: [commune](/3-Mechanics/CLI/spells/commune.md), [control weather](/3-Mechanics/CLI/spells/control-weather.md),\
+    \ [insect plague](/3-Mechanics/CLI/spells/insect-plague.md)\n\n3/day each:\
+    \ [blade barrier](/3-Mechanics/CLI/spells/blade-barrier.md), [dispel evil and\
+    \ good](/3-Mechanics/CLI/spells/dispel-evil-and-good.md), [flame strike](/3-Mechanics/CLI/spells/flame-strike.md),\
+    \ [raise dead](/3-Mechanics/CLI/spells/raise-dead.md)"
+  "name": "Innate Spellcasting"
+- "desc": "The planetar's weapon attacks are magical. When the planetar hits with\
+    \ any weapon, the weapon deals an extra 5d8 radiant damage (included in the\
+    \ attack)."
+  "name": "Angelic Weapons"
+- "desc": "The planetar knows if it hears a lie."
+  "name": "Divine Awareness"
+- "desc": "The planetar has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "The planetar makes two melee attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21\
+    \ (4d6 + 7) slashing damage plus 22 (5d8) radiant damage."
+  "name": "Greatsword"
+- "desc": "The planetar touches another creature. The target magically regains 30\
+    \ (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness,\
+    \ or deafness."
+  "name": "Healing Touch (4/Day)"
+"source":
+- "MM"
+- "BGDIA"
+- "CRCotN"
+- "JttRC"
+- "AATM"
+- "SatO"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Planetar.webp"
 ```
 ^statblock

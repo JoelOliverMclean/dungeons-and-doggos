@@ -10,7 +10,6 @@ aliases: ["Troglodyte (DMG)"]
 *Source: Dungeon Master's Guide p. 282*  
 
 - **Ability Scores**: Strength +2, Constitution +2, Intelligence -4, Charisma -4
-- **Type**: race
 - **Size**: Medium
 - **Speed**: 30 ft.
 

@@ -6,12 +6,12 @@ tags:
 - monster/cr/1-2
 - monster/size/medium
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["Nupperibo"]
 ---
-# Nupperibo
+# [Nupperibo](3-Mechanics\CLI\bestiary\fiend/nupperibo-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 196, Mordenkainen's Tome of Foes p. 168*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Nupperibo.webp#right)  
 > [!quote]- A quote from Mordenkainen  
 > 
 > A lemure emerges from the Styx wiped of memory, yet the patterns of evil it performed in life remain indelibly inscribed upon its soul...
@@ -28,38 +28,51 @@ A nupperibo knows nothing but the desire to destroy non-Fiends. Once a nupperibo
 
 Nupperibos unthinkingly obey any command they receive telepathically from another devil. This blind loyalty makes them the easiest of infernal troops to lead into battle, but their presence in a legion does nothing to elevate its general's status.
 
-
-```ad-statblock
-title: Nupperibo
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Nupperibo.webp#token)
-*Medium fiend (devil), Typically  Lawful Evil*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 11 (`2d8 + 2`) 
-- **Speed** 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|11 (+0)|13 (+1)| 3 (-4)| 8 (-1)| 1 (-5)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +1
-- **Senses** blindsight 20 ft. (blind beyond this radius), passive Perception 11
-- **Damage Resistances** acid, cold
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded), [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands Infernal but can't speak
-- **Challenge** 1/2
-
-## Traits
-
-***Cloud of Vermin.*** Any creature, other than a devil, that starts its turn within 20 feet of one or more nupperibos must succeed on a DC 11 Constitution saving throw or take 5 (`2d4`) acid damage. A creature within the areas of two or more nupperibos makes the saving throw with disadvantage.
-
-***Driven Tracker.*** In the Nine Hells, the nupperibo can flawlessly track any creature that has taken damage from any nupperibo's Cloud of Vermin within the previous 24 hours.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
+```statblock
+"name": "Nupperibo (MPMM)"
+"size": "Medium"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Typically  Lawful Evil"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "11"
+"hit_dice": "2d8 + 2"
+"stats":
+- !!int "16"
+- !!int "11"
+- !!int "13"
+- !!int "3"
+- !!int "8"
+- !!int "1"
+"speed": "20 ft."
+"skillsaves":
+  "Perception": !!int "1"
+"damage_resistances": "acid, cold"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[blinded](/3-Mechanics/CLI/rules/conditions.md#blinded),\
+  \ [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "blindsight 20 ft. (blind beyond this radius), passive Perception 11"
+"languages": "understands Infernal but can't speak"
+"cr": "1/2"
+"traits":
+- "desc": "Any creature, other than a devil, that starts its turn within 20 feet of\
+    \ one or more nupperibos must succeed on a DC 11 Constitution saving throw or\
+    \ take 5 (2d4) acid damage. A creature within the areas of two or more nupperibos\
+    \ makes the saving throw with disadvantage."
+  "name": "Cloud of Vermin"
+- "desc": "In the Nine Hells, the nupperibo can flawlessly track any creature that\
+    \ has taken damage from any nupperibo's Cloud of Vermin within the previous 24\
+    \ hours."
+  "name": "Driven Tracker"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) piercing damage."
+  "name": "Bite"
+"source":
+- "MPMM"
+- "MTF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Nupperibo.webp"
 ```
 ^statblock

@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/small
 - monster/type/aberration
+statblock: inline
 aliases: ["Flumph"]
 ---
-# Flumph
+# [Flumph](3-Mechanics\CLI\bestiary\aberration/flumph.md)
 *Source: Monster Manual p. 135, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Flumph.webp#right)  
 The mysterious flumphs drift through the Underdark, propelled through the air by the jets whose sound gives them their name. A flumph glows faintly, reflecting its moods in its color. Soft pink means it is amused, deep blue is sadness, green expresses curiosity, and crimson is anger.
 
 ## Intelligent and Wise
@@ -31,43 +31,67 @@ Consuming psionic energy reveals the thoughts and emotions of the creatures on w
 
 Flumphs live in complex and organized groups called cloisters, within which each flumph has a place and purpose. These harmonious groupings have no need for leaders, since all flumphs contribute in their own way
 
-
-## Statblock
-
-```ad-statblock
-title: Flumph
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Flumph.webp#token)
-*Small aberration, Lawful Good*
-
-- **Armor Class** 12 
-- **Hit Points** 7 (`2d6`) 
-- **Speed** 5 ft., fly 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 6 (-2)|15 (+2)|10 (+0)|14 (+2)|14 (+2)|11 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Arcana +4, History +4, Religion +4
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Damage Vulnerabilities** psychic
-- **Languages** understands Undercommon but can't speak, telepathy 60 ft.
-- **Challenge** 1/8
-
-## Traits
-
-***Advanced Telepathy.*** The flumph can perceive the content of any telepathic communication used within 60 feet of it, and it can't be surprised by creatures with any form of telepathy.
-
-***Prone Deficiency.*** If the flumph is knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone), roll a die. On an odd result, the flumph lands upside-down and is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated). At the end of each of its turns, the flumph can make a DC 10 Dexterity saving throw, righting itself and ending the [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated) condition if it succeeds.
-
-***Telepathic Shroud.*** The flumph is immune to any effect that would sense its emotions or read its thoughts, as well as all divination spells.
-
-## Actions
-
-***Tendrils.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 4 (`1d4 + 2`) piercing damage plus 2 (`1d4`) acid damage. At the end of each of its turns, the target must make a DC 10 Constitution saving throw, taking 2 (`1d4`) acid damage on a failure or ending the recurring acid damage on a success. A [lesser restoration](/3-Mechanics/CLI/spells/lesser-restoration.md) spell cast on the target also ends the recurring acid damage.
-
-***Stench Spray (1/Day).*** Each creature in a 15-foot cone originating from the flumph must succeed on a DC 10 Dexterity saving throw or be coated in a foul-smelling liquid. A coated creature exudes a horrible stench for `1d4` hours. The coated creature is [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) as long as the stench lasts, and other creatures are [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) while with in 5 feet of the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar.
+```statblock
+"name": "Flumph"
+"size": "Small"
+"type": "aberration"
+"alignment": "Lawful Good"
+"ac": !!int "12"
+"hp": !!int "7"
+"hit_dice": "2d6"
+"stats":
+- !!int "6"
+- !!int "15"
+- !!int "10"
+- !!int "14"
+- !!int "14"
+- !!int "11"
+"speed": "5 ft., fly 30 ft."
+"skillsaves":
+  "Religion": !!int "4"
+  "History": !!int "4"
+  "Arcana": !!int "4"
+"damage_vulnerabilities": "psychic"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "understands Undercommon but can't speak, telepathy 60 ft."
+"cr": "1/8"
+"traits":
+- "desc": "The flumph can perceive the content of any telepathic communication used\
+    \ within 60 feet of it, and it can't be surprised by creatures with any form of\
+    \ telepathy."
+  "name": "Advanced Telepathy"
+- "desc": "If the flumph is knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone),\
+    \ roll a die. On an odd result, the flumph lands upside-down and is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).\
+    \ At the end of each of its turns, the flumph can make a DC 10 Dexterity saving\
+    \ throw, righting itself and ending the [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)\
+    \ condition if it succeeds."
+  "name": "Prone Deficiency"
+- "desc": "The flumph is immune to any effect that would sense its emotions or read\
+    \ its thoughts, as well as all divination spells."
+  "name": "Telepathic Shroud"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4\
+    \ (1d4 + 2) piercing damage plus 2 (1d4) acid damage. At the end of each of\
+    \ its turns, the target must make a DC 10 Constitution saving throw, taking 2\
+    \ (1d4) acid damage on a failure or ending the recurring acid damage on a success.\
+    \ A [lesser restoration](/3-Mechanics/CLI/spells/lesser-restoration.md) spell\
+    \ cast on the target also ends the recurring acid damage."
+  "name": "Tendrils"
+- "desc": "Each creature in a 15-foot cone originating from the flumph must succeed\
+    \ on a DC 10 Dexterity saving throw or be coated in a foul-smelling liquid. A\
+    \ coated creature exudes a horrible stench for 1d4 hours. The coated creature\
+    \ is [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) as long as the\
+    \ stench lasts, and other creatures are [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ while with in 5 feet of the coated creature. A creature can remove the stench\
+    \ on itself by using a short rest to bathe in water, alcohol, or vinegar."
+  "name": "Stench Spray (1/Day)"
+"source":
+- "MM"
+- "WDMM"
+- "LoX"
+- "PaBTSO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Flumph.webp"
 ```
 ^statblock
 

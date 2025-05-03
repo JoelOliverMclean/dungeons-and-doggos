@@ -27,10 +27,10 @@ title: Planar Raider
 
 ## Weapon: Ballistas (2)
 
-*Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+*Ranged Weapon Attack:* `+6` to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
 
 ## Weapon: Catapult
 
-*Ranged Weapon Attack:* +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. *Hit:* 27 (`5d10`) bludgeoning damage.
+*Ranged Weapon Attack:* `+5` to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. *Hit:* 27 (`5d10`) bludgeoning damage.
 ```
 ^statblock

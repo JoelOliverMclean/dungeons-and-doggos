@@ -40,7 +40,7 @@ In addition, consult the Manifestations of Order table and choose or randomly de
 
 **Manifestations of Order**
 
-`dice: [](sorcerer.md#^manifestations-of-order)`
+`dice: [](sorcerer-clockwork-soul-tce.md#^manifestations-of-order)`
 
 | dice: d6 | Manifestation |
 |----------|---------------|

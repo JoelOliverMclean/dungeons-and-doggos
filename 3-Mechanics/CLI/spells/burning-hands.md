@@ -39,7 +39,7 @@ As you hold your hands with thumbs touching and fingers spread, a thin sheet of 
 
 The fire ignites any flammable objects in the area that aren't being worn or carried.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by `1d6` for each slot level above 1st.
 
 **Classes**: [Cleric (Light Domain)](/3-Mechanics/CLI/classes/cleric-light-domain.md), [Druid (Circle of Wildfire)](/3-Mechanics/CLI/classes/druid-circle-of-wildfire-tce.md), [Fighter (Eldritch Knight)](/3-Mechanics/CLI/classes/fighter-eldritch-knight.md), [Monk (Way of the Sun Soul)](/3-Mechanics/CLI/classes/monk-way-of-the-sun-soul-xge.md), [Rogue (Arcane Trickster)](/3-Mechanics/CLI/classes/rogue-arcane-trickster.md), [Sorcerer](/3-Mechanics/CLI/classes/sorcerer.md), [Warlock (The Fiend)](/3-Mechanics/CLI/classes/warlock-the-fiend.md), [Warlock (The Genie)](/3-Mechanics/CLI/classes/warlock-the-genie-tce.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

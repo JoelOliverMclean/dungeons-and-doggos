@@ -8,12 +8,12 @@ tags:
 - monster/environment/underdark
 - monster/size/small
 - monster/type/humanoid/xvart
+statblock: inline
 aliases: ["Xvart Speaker"]
 ---
-# Xvart Speaker
+# [Xvart Speaker](3-Mechanics\CLI\bestiary\humanoid/xvart-speaker-vgm.md)
 *Source: Volo's Guide to Monsters p. 200*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/VGM/Xvart.webp#right)  
 Xvarts are cruel, cowardly humanoids spawned by a cowardly, renegade demigod. They have blue skin, vivid orange eyes, and receding hairlines, mirroring their creator's appearance. They stand about 3 feet tall.
 
 Xvarts live in remote hills, forests, and caves. Each tribe is led by a speaker, who is usually the brightest one among them. The speaker serves as the tribe's ambassador, and often dons short wooden stilts and heavy robes to look taller and more imperious. The rest of the tribe hunts for food, plundering crops and livestock from nearby farms if the hunt goes poorly. Xvarts aren't much of a threat to civilized locations because they are somewhat fearful of humans, dwarves, and elves.
@@ -54,42 +54,50 @@ A xvart can forge a pact with Raxivort by stealing an item of such great value t
 
 Raxivort's warlocks are respected and feared in xvart society, but they have little interest in political power. They scour the wilderness, old ruins, and dungeons for treasures, often with a handful of xvart sycophants and giant rat bodyguards in tow.
 
-
-## Statblock
-
-```ad-statblock
-title: Xvart Speaker
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Xvart%20Speaker.webp#token)
-*Small humanoid (xvart), Chaotic Evil*
-
-- **Armor Class** 13 ([leather armor](/3-Mechanics/CLI/items/leather-armor.md))
-- **Hit Points** 7 (`2d6`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (-1)|14 (+2)|10 (+0)|13 (+1)| 7 (-2)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +4
-- **Senses** darkvision 30 ft., passive Perception 8
-- **Languages** Abyssal and one additional language (usually Common or Goblin)
-- **Challenge** 1/8
-
-## Traits
-
-***Low Cunning.*** The xvart can take the Disengage action as a bonus action on each of its turns.
-
-***Overbearing Pack.*** The xvart has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart's allies is within 5 feet of the target and the ally isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
-
-***Raxivort's Tongue.*** The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats.
-
-## Actions
-
-***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
-
-***Sling.*** *Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 4 (`1d4 + 2`) bludgeoning damage.
+```statblock
+"name": "Xvart Speaker (VGM)"
+"size": "Small"
+"type": "humanoid"
+"subtype": "xvart"
+"alignment": "Chaotic Evil"
+"ac": !!int "13"
+"ac_class": "[leather armor](/3-Mechanics/CLI/items/leather-armor.md)"
+"hp": !!int "7"
+"hit_dice": "2d6"
+"stats":
+- !!int "8"
+- !!int "14"
+- !!int "10"
+- !!int "13"
+- !!int "7"
+- !!int "7"
+"speed": "30 ft."
+"skillsaves":
+  "Stealth": !!int "4"
+"senses": "darkvision 30 ft., passive Perception 8"
+"languages": "Abyssal and one additional language (usually Common or Goblin)"
+"cr": "1/8"
+"traits":
+- "desc": "The xvart can take the Disengage action as a bonus action on each of its\
+    \ turns."
+  "name": "Low Cunning"
+- "desc": "The xvart has advantage on Strength (Athletics) checks to shove a creature\
+    \ if at least one of the xvart's allies is within 5 feet of the target and the\
+    \ ally isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)."
+  "name": "Overbearing Pack"
+- "desc": "The xvart can communicate with ordinary bats and rats, as well as giant\
+    \ bats and giant rats."
+  "name": "Raxivort's Tongue"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage."
+  "name": "Shortsword"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+    \ 4 (1d4 + 2) bludgeoning damage."
+  "name": "Sling"
+"source":
+- "VGM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Xvart%20Speaker.webp"
 ```
 ^statblock
 

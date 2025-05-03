@@ -8,12 +8,12 @@ tags:
 - monster/environment/mountain
 - monster/size/large
 - monster/type/dragon
+statblock: inline
 aliases: ["Wyvern"]
 ---
-# Wyvern
+# [Wyvern](3-Mechanics\CLI\bestiary\dragon/wyvern.md)
 *Source: Monster Manual p. 303, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Wyvern.webp#right)  
 Travelers in the wild sometimes look to the skies to see the dark-winged shape of a wyvern carrying its prey. These cousins to the great dragons hunt the same tangled forests and caverns as their kin. Their appearance sends ripples of alarm through the borderlands of civilization.
 
 A wyvern has two scaly legs, leathery wings, and a sinewy tail topped with its most potent weapon: a poison stinger. The poison in a wyvern's stinger can kill a creature in seconds. Extremely potent, wyvern poison burns through its victim's bloodstream, disintegrating veins and arteries on its way to the heart. As deadly as wyverns can be, however, hunters and adventurers often track them to claim the venom, which is used in alchemical compounds and to coat weapons.
@@ -32,38 +32,57 @@ Although they possess more cunning than ordinary beasts, wyverns lack the intell
 
 A wyvern can be tamed for use as a mount, but doing so presents a difficult and deadly challenge. Raising one as a hatchling offers the best results. However, a wyvern's violent temperament has cost the life of many a would-be master.
 
-
-## Statblock
-
-```ad-statblock
-title: Wyvern
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Wyvern.webp#token)
-*Large dragon, Unaligned*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 110 (`13d10 + 39`) 
-- **Speed** 20 ft., fly 80 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|10 (+0)|16 (+3)| 5 (-3)|12 (+1)| 6 (-2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Perception +4
-- **Senses** darkvision 60 ft., passive Perception 14
-- **Languages** —
-- **Challenge** 6
-
-## Actions
-
-***Multiattack.*** The wyvern makes two attacks: one with its bite and one with its stinger. While flying, it can use its claws in place of one other attack.
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one creature. *Hit:* 11 (`2d6 + 4`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) slashing damage.
-
-***Stinger.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one creature. *Hit:* 11 (`2d6 + 4`) piercing damage. The target must make a DC 15 Constitution saving throw, taking 24 (`7d6`) poison damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Wyvern"
+"size": "Large"
+"type": "dragon"
+"alignment": "Unaligned"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "110"
+"hit_dice": "13d10 + 39"
+"stats":
+- !!int "19"
+- !!int "10"
+- !!int "16"
+- !!int "5"
+- !!int "12"
+- !!int "6"
+"speed": "20 ft., fly 80 ft."
+"skillsaves":
+  "Perception": !!int "4"
+"senses": "darkvision 60 ft., passive Perception 14"
+"languages": ""
+"cr": "6"
+"actions":
+- "desc": "The wyvern makes two attacks: one with its bite and one with its stinger.\
+    \ While flying, it can use its claws in place of one other attack."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit:\
+    \ 11 (2d6 + 4) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d8 + 4) slashing damage."
+  "name": "Claws"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit:\
+    \ 11 (2d6 + 4) piercing damage. The target must make a DC 15 Constitution saving\
+    \ throw, taking 24 (7d6) poison damage on a failed save, or half as much damage\
+    \ on a successful one."
+  "name": "Stinger"
+"source":
+- "MM"
+- "HotDQ"
+- "PotA"
+- "SKT"
+- "WDMM"
+- "DIP"
+- "SLW"
+- "BGDIA"
+- "CM"
+- "JttRC"
+- "ToFW"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Wyvern.webp"
 ```
 ^statblock
 

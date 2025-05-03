@@ -7,12 +7,12 @@ tags:
 - monster/environment/forest
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Displacer Beast"]
 ---
-# Displacer Beast
+# [Displacer Beast](3-Mechanics\CLI\bestiary\monstrosity/displacer-beast.md)
 *Source: Monster Manual p. 81, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Displacer%20Beast.webp#right)  
 This monstrous predator takes its name from its ability to displace light so that it appears to be several feet away from its actual location. A displacer beast resembles a sleek great cat covered in blue-black fur.
 
 However, its otherworldly origins are clear in its six legs and the two tentacles sprouting from its shoulders, both ending in pads tipped with spiky protrusions. A displacer beast's eyes glow with an awful malevolence that persists even in death.
@@ -29,40 +29,56 @@ Displacer beasts kill not just for food but also for sport. They target prey eve
 
 Displacer beasts hunt alone or in small prides that demonstrate skill at setting ambushes. A single beast will strike and withdraw, luring prey into a densely wooded area where its pack mates wait. Packs of displacer beasts hunting near trade roads recall the frequency and schedule of regular caravans, laying down ambushes to pick off those caravans.
 
-
-## Statblock
-
-```ad-statblock
-title: Displacer Beast
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Displacer%20Beast.webp#token)
-*Large monstrosity, Lawful Evil*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 85 (`10d10 + 30`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|15 (+2)|16 (+3)| 6 (-2)|12 (+1)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 11
-- **Languages** —
-- **Challenge** 3
-
-## Traits
-
-***Avoidance.*** If the displacer beast is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
-
-***Displacement.*** The displacer beast projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer beast is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated) or has a speed of 0.
-
-## Actions
-
-***Multiattack.*** The displacer beast makes two attacks with its tentacles.
-
-***Tentacle.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 7 (`1d6 + 4`) bludgeoning damage plus 3 (`1d6`) piercing damage.
+```statblock
+"name": "Displacer Beast"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Lawful Evil"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "85"
+"hit_dice": "10d10 + 30"
+"stats":
+- !!int "18"
+- !!int "15"
+- !!int "16"
+- !!int "6"
+- !!int "12"
+- !!int "8"
+"speed": "40 ft."
+"senses": "darkvision 60 ft., passive Perception 11"
+"languages": ""
+"cr": "3"
+"traits":
+- "desc": "If the displacer beast is subjected to an effect that allows it to make\
+    \ a saving throw to take only half damage, it instead takes no damage if it succeeds\
+    \ on the saving throw, and only half damage if it fails."
+  "name": "Avoidance"
+- "desc": "The displacer beast projects a magical illusion that makes it appear to\
+    \ be standing near its actual location, causing attack rolls against it to have\
+    \ disadvantage. If it is hit by an attack, this trait is disrupted until the end\
+    \ of its next turn. This trait is also disrupted while the displacer beast is\
+    \ [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated) or has a\
+    \ speed of 0."
+  "name": "Displacement"
+"actions":
+- "desc": "The displacer beast makes two attacks with its tentacles."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7\
+    \ (1d6 + 4) bludgeoning damage plus 3 (1d6) piercing damage."
+  "name": "Tentacle"
+"source":
+- "MM"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "ERLW"
+- "WBtW"
+- "JttRC"
+- "KftGV"
+- "SatO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Displacer%20Beast.webp"
 ```
 ^statblock
 

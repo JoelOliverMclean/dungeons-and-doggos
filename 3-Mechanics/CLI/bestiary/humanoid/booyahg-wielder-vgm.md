@@ -6,9 +6,10 @@ tags:
 - monster/cr/1-4
 - monster/size/small
 - monster/type/humanoid/goblinoid
+statblock: inline
 aliases: ["Booyahg Wielder"]
 ---
-# Booyahg Wielder
+# [Booyahg Wielder](3-Mechanics\CLI\bestiary\humanoid/booyahg-wielder-vgm.md)
 *Source: Volo's Guide to Monsters p. 42*  
 
 This goblin found a magic item (a [necklace of fireballs](/3-Mechanics/CLI/items/necklace-of-fireballs.md), a [circlet of blasting](/3-Mechanics/CLI/items/circlet-of-blasting.md), or the like) and learned how to use it.
@@ -21,39 +22,46 @@ Even when a goblin is born with the ability to become a spellcaster, the knowled
 
 A goblin with access to booyahg becomes a member of the lashers and can often rise to the role of boss.
 
-
-## Statblock
-
-```ad-statblock
-title: Booyahg Wielder
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Booyahg%20Wielder.webp#token)
-*Small humanoid (goblinoid), Neutral Evil*
-
-- **Armor Class** 15 ([leather armor](/3-Mechanics/CLI/items/leather-armor.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 7 (`2d6`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (-1)|14 (+2)|10 (+0)|10 (+0)| 8 (-1)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +6
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Languages** Common, Goblin
-- **Challenge** 1/4
-
-## Traits
-
-***Nimble Escape.*** The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
-
-***Special Equipment.*** The goblin found a magic item (a [necklace of fireballs](/3-Mechanics/CLI/items/necklace-of-fireballs.md), a [circlet of blasting](/3-Mechanics/CLI/items/circlet-of-blasting.md), or the like) and learned how to use it.
-
-## Actions
-
-***Scimitar.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) slashing damage.
-
-***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+```statblock
+"name": "Booyahg Wielder (VGM)"
+"size": "Small"
+"type": "humanoid"
+"subtype": "goblinoid"
+"alignment": "Neutral Evil"
+"ac": !!int "15"
+"ac_class": "[leather armor](/3-Mechanics/CLI/items/leather-armor.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "7"
+"hit_dice": "2d6"
+"stats":
+- !!int "8"
+- !!int "14"
+- !!int "10"
+- !!int "10"
+- !!int "8"
+- !!int "8"
+"speed": "30 ft."
+"skillsaves":
+  "Stealth": !!int "6"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "Common, Goblin"
+"cr": "1/4"
+"traits":
+- "desc": "The goblin can take the Disengage or Hide action as a bonus action on each\
+    \ of its turns."
+  "name": "Nimble Escape"
+- "desc": "The goblin found a magic item (a [necklace of fireballs](/3-Mechanics/CLI/items/necklace-of-fireballs.md),\
+    \ a [circlet of blasting](/3-Mechanics/CLI/items/circlet-of-blasting.md), or the\
+    \ like) and learned how to use it."
+  "name": "Special Equipment"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) slashing damage."
+  "name": "Scimitar"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+    \ 5 (1d6 + 2) piercing damage."
+  "name": "Shortbow"
+"source":
+- "VGM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/VGM/Booyahg%20Wielder.webp"
 ```
 ^statblock

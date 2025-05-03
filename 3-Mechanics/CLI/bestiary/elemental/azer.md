@@ -6,12 +6,12 @@ tags:
 - monster/cr/2
 - monster/size/medium
 - monster/type/elemental
+statblock: inline
 aliases: ["Azer"]
 ---
-# Azer
+# [Azer](3-Mechanics\CLI\bestiary\elemental/azer.md)
 *Source: Monster Manual p. 22, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Azer.webp#right)  
 Natives of the Elemental Plane of Fire, azers are master crafters, expert miners, and sworn foes of the efreet. In appearance and manner, an azer resembles a male dwarf, but this is a facade. Beneath its metallic looking skin, an azer is a being of fire, which outwardly manifests in its fiery hair and beard.
 
 ## Made, Not Born
@@ -41,41 +41,51 @@ An azer doesn't require food, drink, or sleep.
 > Give me a hundred azer slaves, and I can forge an empire that would make the gods tremble.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Azer
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Azer.webp#token)
-*Medium elemental, Lawful Neutral*
-
-- **Armor Class** 17 (natural armor, [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 39 (`6d8 + 12`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|12 (+1)|15 (+2)|12 (+1)|13 (+1)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Constitution +4
-- **Skills** ⏤
-- **Senses** passive Perception 11
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Ignan
-- **Challenge** 2
-
-## Traits
-
-***Heated Body.*** A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes 5 (`1d10`) fire damage.
-
-***Heated Weapons.*** When the azer hits with a metal melee weapon, it deals an extra 3 (`1d6`) fire damage (included in the attack).
-
-***Illumination.*** The azer sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-
-## Actions
-
-***Warhammer.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) bludgeoning damage, or 8 (`1d10 + 3`) bludgeoning damage if used with two hands to make a melee attack, plus 3 (`1d6`) fire damage.
+```statblock
+"name": "Azer"
+"size": "Medium"
+"type": "elemental"
+"alignment": "Lawful Neutral"
+"ac": !!int "17"
+"ac_class": "natural armor, [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "39"
+"hit_dice": "6d8 + 12"
+"stats":
+- !!int "17"
+- !!int "12"
+- !!int "15"
+- !!int "12"
+- !!int "13"
+- !!int "10"
+"speed": "30 ft."
+"saves":
+  "Constitution": !!int "4"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "passive Perception 11"
+"languages": "Ignan"
+"cr": "2"
+"traits":
+- "desc": "A creature that touches the azer or hits it with a melee attack while within\
+    \ 5 feet of it takes 5 (1d10) fire damage."
+  "name": "Heated Body"
+- "desc": "When the azer hits with a metal melee weapon, it deals an extra 3 (1d6)\
+    \ fire damage (included in the attack)."
+  "name": "Heated Weapons"
+- "desc": "The azer sheds bright light in a 10-foot radius and dim light for an additional\
+    \ 10 feet."
+  "name": "Illumination"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8\
+    \ + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with\
+    \ two hands to make a melee attack, plus 3 (1d6) fire damage."
+  "name": "Warhammer"
+"source":
+- "MM"
+- "PotA"
+- "WDMM"
+- "KftGV"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Azer.webp"
 ```
 ^statblock

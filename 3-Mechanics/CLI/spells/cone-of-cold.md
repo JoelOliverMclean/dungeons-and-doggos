@@ -34,7 +34,7 @@ A blast of cold air erupts from your hands. Each creature in a 60-foot cone must
 
 A creature killed by this spell becomes a frozen statue until it thaws.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.
+**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by `1d8` for each slot level above 5th.
 
 **Classes**: [Artificer (Artillerist)](/3-Mechanics/CLI/classes/artificer-artillerist-tce.md), [Druid (Circle of the Land)](/3-Mechanics/CLI/classes/druid-circle-of-the-land.md), [Sorcerer](/3-Mechanics/CLI/classes/sorcerer.md), [Warlock (The Fathomless)](/3-Mechanics/CLI/classes/warlock-the-fathomless-tce.md), [Warlock (The Genie)](/3-Mechanics/CLI/classes/warlock-the-genie-tce.md), [Warlock (The Hexblade)](/3-Mechanics/CLI/classes/warlock-the-hexblade-xge.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

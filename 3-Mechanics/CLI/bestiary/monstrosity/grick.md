@@ -8,12 +8,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Grick"]
 ---
-# Grick
+# [Grick](3-Mechanics\CLI\bestiary\monstrosity/grick.md)
 *Source: Monster Manual p. 173, Lost Mine of Phandelver, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Grick.webp#right)  
 The wormlike grick waits unseen, blending in with the rock of the caves and caverns it haunts. Only when prey comes near does it rear up, its four barbed tentacles unfurling to reveal its hungry, snapping beak.
 
 ## Passive Predators
@@ -28,41 +28,53 @@ Gricks remain in an area until the food supply dwindles, often because sentient 
 
 Over time, grick lairs accumulate the cast-off possessions of intelligent prey, and expert guides know to look out for these tell-tale signs. Underdark explorers sometimes seal off the routes leading to and from a grick lair to starve them, then claim the wealth of the foul creatures' victims.
 
-
-## Statblock
-
-```ad-statblock
-title: Grick
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Grick.webp#token)
-*Medium monstrosity, Neutral*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 27 (`6d8`) 
-- **Speed** 30 ft., climb 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|14 (+2)|14 (+2)|11 (+0)| 3 (-4)|14 (+2)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Damage Resistances** bludgeoning, piercing, slashing from nonmagical attacks
-- **Languages** —
-- **Challenge** 2
-
-## Traits
-
-***Stone Camouflage.*** The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
-
-## Actions
-
-***Multiattack.*** The grick makes one attack with its tentacles. If that attack hits, the grick can make one beak attack against the same target.
-
-***Tentacles.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (`2d6 + 2`) slashing damage.
-
-***Beak.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+```statblock
+"name": "Grick"
+"size": "Medium"
+"type": "monstrosity"
+"alignment": "Neutral"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "27"
+"hit_dice": "6d8"
+"stats":
+- !!int "14"
+- !!int "14"
+- !!int "11"
+- !!int "3"
+- !!int "14"
+- !!int "5"
+"speed": "30 ft., climb 30 ft."
+"damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": ""
+"cr": "2"
+"traits":
+- "desc": "The grick has advantage on Dexterity (Stealth) checks made to hide in rocky\
+    \ terrain."
+  "name": "Stone Camouflage"
+"actions":
+- "desc": "The grick makes one attack with its tentacles. If that attack hits, the\
+    \ grick can make one beak attack against the same target."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6\
+    \ + 2) slashing damage."
+  "name": "Tentacles"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage."
+  "name": "Beak"
+"source":
+- "MM"
+- "CoS"
+- "LMoP"
+- "PotA"
+- "TftYP"
+- "WDMM"
+- "CM"
+- "DSotDQ"
+- "KftGV"
+- "PaBTSO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Grick.webp"
 ```
 ^statblock
 

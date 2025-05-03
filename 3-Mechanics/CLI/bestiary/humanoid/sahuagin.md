@@ -8,12 +8,12 @@ tags:
 - monster/environment/underwater
 - monster/size/medium
 - monster/type/humanoid/sahuagin
+statblock: inline
 aliases: ["Sahuagin"]
 ---
-# Sahuagin
+# [Sahuagin](3-Mechanics\CLI\bestiary\humanoid/sahuagin.md)
 *Source: Monster Manual p. 263. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Sahuagin.webp#right)  
 Across fog-shrouded coasts or endless ocean swells, an ominous drone sounded on a conch shell chills the blood of all who hear it. This is the sound of the sahuagin hunting horn-a call to raid and battle. Coastal settlers refer to sahuagin as "sea devils," for sahuagin have no compassion in them, slaughtering the crews of ships and decimating coastal villages.
 
 ## Devils of the Deep
@@ -41,46 +41,63 @@ The sahuagin put the malenti to good use as spies and assassins in aquatic elf c
 > TThe village was empty, the seagulls were strangely quiet, and all we could hear was the surge of the sea.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Sahuagin
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Sahuagin.webp#token)
-*Medium humanoid (sahuagin), Lawful Evil*
-
-- **Armor Class** 12 (natural armor)
-- **Hit Points** 22 (`4d8 + 4`) 
-- **Speed** 30 ft., swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|11 (+0)|12 (+1)|12 (+1)|13 (+1)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +5
-- **Senses** darkvision 120 ft., passive Perception 15
-- **Languages** Sahuagin
-- **Challenge** 1/2
-
-## Traits
-
-***Blood Frenzy.*** The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points.
-
-***Limited Amphibiousness.*** The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.
-
-***Shark Telepathy.*** The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy.
-
-## Actions
-
-***Multiattack.*** The sahuagin makes two melee attacks: one with its bite and one with its claws or spear.
-
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) slashing damage.
-
-***Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage, or 5 (`1d8 + 1`) piercing damage if used with two hands to make a melee attack.
+```statblock
+"name": "Sahuagin"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "sahuagin"
+"alignment": "Lawful Evil"
+"ac": !!int "12"
+"ac_class": "natural armor"
+"hp": !!int "22"
+"hit_dice": "4d8 + 4"
+"stats":
+- !!int "13"
+- !!int "11"
+- !!int "12"
+- !!int "12"
+- !!int "13"
+- !!int "9"
+"speed": "30 ft., swim 40 ft."
+"skillsaves":
+  "Perception": !!int "5"
+"senses": "darkvision 120 ft., passive Perception 15"
+"languages": "Sahuagin"
+"cr": "1/2"
+"traits":
+- "desc": "The sahuagin has advantage on melee attack rolls against any creature that\
+    \ doesn't have all its hit points."
+  "name": "Blood Frenzy"
+- "desc": "The sahuagin can breathe air and water, but it needs to be submerged at\
+    \ least once every 4 hours to avoid suffocating."
+  "name": "Limited Amphibiousness"
+- "desc": "The sahuagin can magically command any shark within 120 feet of it, using\
+    \ a limited telepathy."
+  "name": "Shark Telepathy"
+"actions":
+- "desc": "The sahuagin makes two melee attacks: one with its bite and one with its\
+    \ claws or spear."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) slashing damage."
+  "name": "Claws"
+- "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+    \ damage if used with two hands to make a melee attack."
+  "name": "Spear"
+"source":
+- "MM"
+- "TftYP"
+- "GoS"
+- "DIP"
+- "SDW"
+- "BGDIA"
+- "EGW"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Sahuagin.webp"
 ```
 ^statblock
 

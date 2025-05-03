@@ -6,48 +6,64 @@ tags:
 - monster/cr/1
 - monster/size/small
 - monster/type/humanoid/stout-halfling
+statblock: inline
 aliases: ["Samara Strongbones"]
 ---
-# Samara Strongbones
+# [Samara Strongbones](3-Mechanics\CLI\bestiary\npc/samara-strongbones-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 104*  
 
-
-```ad-statblock
-title: Samara Strongbones
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Samara%20Strongbones.webp#token)
-*Small humanoid (Stout halfling), Any alignment*
-
-- **Armor Class** 12 
-- **Hit Points** 27 (`6d8`) 
-- **Speed** 25 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|15 (+2)|10 (+0)|12 (+1)|14 (+2)|16 (+3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight of Hand +4, Stealth +4
-- **Senses** passive Perception 16
-- **Languages** any two languages, Halfling
-- **Challenge** 1
-
-## Traits
-
-***Cunning Action.*** On each of its turns, Samara can use a bonus action to take the Dash, Disengage, or Hide action.
-
-***Sneak Attack (1/Turn).*** Samara deals an extra 7 (`2d6`) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Samara that isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated) and Samara doesn't have disadvantage on the attack roll.
-
-***Halfling Nimbleness.*** Samara
-
-***Brave.*** Samara
-
-## Actions
-
-***Multiattack.*** Samara makes two melee attacks.
-
-***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
-
-***Hand Crossbow.*** *Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+```statblock
+"name": "Samara Strongbones (WDH)"
+"size": "Small"
+"type": "humanoid"
+"subtype": "Stout halfling"
+"alignment": "Any alignment"
+"ac": !!int "12"
+"hp": !!int "27"
+"hit_dice": "6d8"
+"stats":
+- !!int "10"
+- !!int "15"
+- !!int "10"
+- !!int "12"
+- !!int "14"
+- !!int "16"
+"speed": "25 ft."
+"skillsaves":
+  "Sleight of Hand": !!int "4"
+  "Deception": !!int "5"
+  "Stealth": !!int "4"
+  "Investigation": !!int "5"
+  "Insight": !!int "4"
+  "Perception": !!int "6"
+  "Persuasion": !!int "5"
+"senses": "passive Perception 16"
+"languages": "any two languages, Halfling"
+"cr": "1"
+"traits":
+- "desc": "On each of its turns, Samara can use a bonus action to take the Dash, Disengage,\
+    \ or Hide action."
+  "name": "Cunning Action"
+- "desc": "Samara deals an extra 7 (2d6) damage when it hits a target with a weapon\
+    \ attack and has advantage on the attack roll, or when the target is within 5\
+    \ feet of an ally of Samara that isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)\
+    \ and Samara doesn't have disadvantage on the attack roll."
+  "name": "Sneak Attack (1/Turn)"
+- "desc": "Samara"
+  "name": "Halfling Nimbleness"
+- "desc": "Samara"
+  "name": "Brave"
+"actions":
+- "desc": "Samara makes two melee attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage."
+  "name": "Shortsword"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+    \ 5 (1d6 + 2) piercing damage."
+  "name": "Hand Crossbow"
+"source":
+- "WDH"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Samara%20Strongbones.webp"
 ```
 ^statblock

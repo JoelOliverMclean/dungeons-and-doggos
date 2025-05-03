@@ -6,12 +6,12 @@ tags:
 - monster/cr/1-8
 - monster/size/medium
 - monster/type/humanoid/tethyrian-human
+statblock: inline
 aliases: ["Orond Gralhund"]
 ---
-# Orond Gralhund
+# [Orond Gralhund](3-Mechanics\CLI\bestiary\npc/orond-gralhund-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 213*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/The%20Gralhunds.webp#right)  
 The Gralhunds are nobles who trade in arms and mercenaries, and whose family motto is "We see both sides." Orond is the patriarch, but he's not a quick-thinking or cultured sort-and deep down, he knows it. He leaves most of the plotting and socializing to his wife, Yalah, to whom he is devoted.
 
 When several of the Masked Lords were assassinated in quick succession some years ago, Lord Gralhund had expected his wife to fill one of the vacancies. That never happened, though, despite many promises and bribes. After she was passed over, Orond became insanely angry, and he has remained that way ever since.
@@ -24,33 +24,41 @@ Orond is a short, stocky man who dresses well and is easy on the eyes. When he o
 
 Orond relies on Yalah to manage the Zhentarim. He spends his days watching mercenaries train, paying bills, and ranting about the cost of doing business in the city. Although he is human, Orond was born with a tiefling's tail. The tail was amputated when he was a young boy, but the scar on his backside remains.
 
-
-```ad-statblock
-title: Orond Gralhund
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Orond%20Gralhund.webp#token)
-*Medium humanoid (Tethyrian human), Lawful Evil*
-
-- **Armor Class** 15 ([breastplate](/3-Mechanics/CLI/items/breastplate.md))
-- **Hit Points** 9 (`2d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|11 (+0)|12 (+1)|11 (+0)| 9 (-1)|14 (+2)|16 (+3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Deception +5, Insight +4, Persuasion +5
-- **Senses** passive Perception 12
-- **Languages** Common
-- **Challenge** 1/8
-
-## Actions
-
-***Rapier.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (`1d8 + 1`) piercing damage.
-
-## Reactions
-
-***Parry.*** Orond adds 2 to its AC against one melee attack that would hit it. To do so, Orond must see the attacker and be wielding a melee weapon.
+```statblock
+"name": "Orond Gralhund (WDH)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "Tethyrian human"
+"alignment": "Lawful Evil"
+"ac": !!int "15"
+"ac_class": "[breastplate](/3-Mechanics/CLI/items/breastplate.md)"
+"hp": !!int "9"
+"hit_dice": "2d8"
+"stats":
+- !!int "11"
+- !!int "12"
+- !!int "11"
+- !!int "9"
+- !!int "14"
+- !!int "16"
+"speed": "30 ft."
+"skillsaves":
+  "Deception": !!int "5"
+  "Insight": !!int "4"
+  "Persuasion": !!int "5"
+"senses": "passive Perception 12"
+"languages": "Common"
+"cr": "1/8"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8\
+    \ + 1) piercing damage."
+  "name": "Rapier"
+"reactions":
+- "desc": "Orond adds 2 to its AC against one melee attack that would hit it. To do\
+    \ so, Orond must see the attacker and be wielding a melee weapon."
+  "name": "Parry"
+"source":
+- "WDH"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Orond%20Gralhund.webp"
 ```
 ^statblock

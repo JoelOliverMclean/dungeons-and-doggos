@@ -6,12 +6,12 @@ tags:
 - monster/cr/4
 - monster/size/medium
 - monster/type/fiend/demon
+statblock: inline
 aliases: ["Shadow Demon"]
 ---
-# Shadow Demon
+# [Shadow Demon](3-Mechanics\CLI\bestiary\fiend/shadow-demon.md)
 *Source: Monster Manual p. 64, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Shadow%20Demon.webp#right)  
 When a demon's body is destroyed but the fiend is prevented from reforming in the Abyss, its essence sometimes takes on a vague physical form. These shadow demons exist outside the normal abyssal hierarchy, since their creation results most often from mortal magic, not from transformation or promotion.
 
 Shadow demons all but disappear in the darkness, and they can creep about without making a sound. A shadow demon uses its insubstantial claws to feast on its victim's fears, to taste its memories, and drink in its doubts. Bright light harries this fiend and shows its distinct shape, resolving it from a blur of darkness to a winged humanoid creature whose lower body trails off into nothing, and whose claws rend a victim's mind.
@@ -187,43 +187,74 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > Demons are painfully difficult to summon and control. It is not a burden for the weak of heart or the weak of spirit.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Shadow Demon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Shadow%20Demon.webp#token)
-*Medium fiend (demon), Chaotic Evil*
-
-- **Armor Class** 13 
-- **Hit Points** 66 (`12d8 + 12`) 
-- **Speed** 30 ft., fly 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 (-5)|17 (+3)|12 (+1)|14 (+2)|13 (+1)|14 (+2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Dexterity +5, Charisma +4
-- **Skills** Stealth +7
-- **Senses** darkvision 120 ft., passive Perception 11
-- **Damage Vulnerabilities** radiant
-- **Damage Resistances** acid; fire; necrotic; thunder; bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** cold, lightning, poison
-- **Condition Immunities** [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [prone](/3-Mechanics/CLI/rules/conditions.md#prone), [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained)
-- **Languages** Abyssal, telepathy 120 ft.
-- **Challenge** 4
-
-## Traits
-
-***Incorporeal Movement.*** The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (`1d10`) force damage if it ends its turn inside an object.
-
-***Light Sensitivity.*** While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-***Shadow Stealth.*** While in dim light or darkness, the demon can take the Hide action as a bonus action.
-
-## Actions
-
-***Claws.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 10 (`2d6 + 3`) psychic damage or, if the demon had advantage on the attack roll, 17 (`4d6 + 3`) psychic damage.
+```statblock
+"name": "Shadow Demon"
+"size": "Medium"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Chaotic Evil"
+"ac": !!int "13"
+"hp": !!int "66"
+"hit_dice": "12d8 + 12"
+"stats":
+- !!int "1"
+- !!int "17"
+- !!int "12"
+- !!int "14"
+- !!int "13"
+- !!int "14"
+"speed": "30 ft., fly 30 ft."
+"saves":
+  "Charisma": !!int "4"
+  "Dexterity": !!int "5"
+"skillsaves":
+  "Stealth": !!int "7"
+"damage_vulnerabilities": "radiant"
+"damage_resistances": "acid; fire; necrotic; thunder; bludgeoning, piercing, slashing\
+  \ from nonmagical attacks"
+"damage_immunities": "cold, lightning, poison"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion),\
+  \ [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed),\
+  \ [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned),\
+  \ [prone](/3-Mechanics/CLI/rules/conditions.md#prone), [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained)"
+"senses": "darkvision 120 ft., passive Perception 11"
+"languages": "Abyssal, telepathy 120 ft."
+"cr": "4"
+"traits":
+- "desc": "The demon can move through other creatures and objects as if they were\
+    \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
+    \ an object."
+  "name": "Incorporeal Movement"
+- "desc": "While in bright light, the demon has disadvantage on attack rolls, as well\
+    \ as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks\
+    \ that rely on sight."
+  "name": "Light Sensitivity"
+- "desc": "While in dim light or darkness, the demon can take the Hide action as a\
+    \ bonus action."
+  "name": "Shadow Stealth"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10\
+    \ (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll,\
+    \ 17 (4d6 + 3) psychic damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "CoS"
+- "PotA"
+- "SKT"
+- "ToA"
+- "WDH"
+- "WDMM"
+- "BGDIA"
+- "IMR"
+- "MOT"
+- "IDRotF"
+- "CRCotN"
+- "JttRC"
+- "KftGV"
+- "AATM"
+- "SatO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Shadow%20Demon.webp"
 ```
 ^statblock

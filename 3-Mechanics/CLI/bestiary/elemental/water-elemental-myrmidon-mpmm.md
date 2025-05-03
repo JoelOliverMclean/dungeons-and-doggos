@@ -6,46 +6,55 @@ tags:
 - monster/cr/7
 - monster/size/medium
 - monster/type/elemental
+statblock: inline
 aliases: ["Water Elemental Myrmidon"]
 ---
-# Water Elemental Myrmidon
+# [Water Elemental Myrmidon](3-Mechanics\CLI\bestiary\elemental/water-elemental-myrmidon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 123, Mordenkainen's Tome of Foes p. 203*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Water%20Elemental%20Myrmidon.webp#right)  
 ## Elemental Myrmidons
 
 Elemental myrmidons are Elementals conjured and bound by magic into ritually created suits of plate armor. In this form, they possess no recollection of their former existence as free Elementals. They exist only to follow the commands of their creators.
 
-
-```ad-statblock
-title: Water Elemental Myrmidon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Water%20Elemental%20Myrmidon.webp#token)
-*Medium elemental, Typically  Neutral*
-
-- **Armor Class** 18 ([plate](/3-Mechanics/CLI/items/plate-armor.md))
-- **Hit Points** 127 (`17d8 + 51`) 
-- **Speed** 40 ft., swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|14 (+2)|15 (+2)| 8 (-1)|10 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Resistances** acid; bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** poison
-- **Condition Immunities** [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [prone](/3-Mechanics/CLI/rules/conditions.md#prone)
-- **Languages** Aquan, one language of its creator's choice
-- **Challenge** 7
-
-## Actions
-
-***Multiattack.*** The myrmidon makes three Trident attacks.
-
-***Trident.*** *Melee or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (`1d6 + 4`) force damage, or 8 (`1d8 + 4`) force damage if used with two hands to make a melee attack.
-
-***Freezing Strikes (Recharge 6).*** The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (`1d10`) cold damage. A target that is hit by one or more of these attacks has its speed reduced by 10 feet until the end of the myrmidon's next turn.
+```statblock
+"name": "Water Elemental Myrmidon (MPMM)"
+"size": "Medium"
+"type": "elemental"
+"alignment": "Typically  Neutral"
+"ac": !!int "18"
+"ac_class": "[plate](/3-Mechanics/CLI/items/plate-armor.md)"
+"hp": !!int "127"
+"hit_dice": "17d8 + 51"
+"stats":
+- !!int "18"
+- !!int "14"
+- !!int "15"
+- !!int "8"
+- !!int "10"
+- !!int "10"
+"speed": "40 ft., swim 40 ft."
+"damage_resistances": "acid; bludgeoning, piercing, slashing from nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed),\
+  \ [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned),\
+  \ [prone](/3-Mechanics/CLI/rules/conditions.md#prone)"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Aquan, one language of its creator's choice"
+"cr": "7"
+"actions":
+- "desc": "The myrmidon makes three Trident attacks."
+  "name": "Multiattack"
+- "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 7 (1d6 + 4) force damage, or 8 (1d8 + 4) force damage\
+    \ if used with two hands to make a melee attack."
+  "name": "Trident"
+- "desc": "The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10)\
+    \ cold damage. A target that is hit by one or more of these attacks has its speed\
+    \ reduced by 10 feet until the end of the myrmidon's next turn."
+  "name": "Freezing Strikes (Recharge 6)"
+"source":
+- "MPMM"
+- "MTF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Water%20Elemental%20Myrmidon.webp"
 ```
 ^statblock

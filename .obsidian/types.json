@@ -4,7 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "Class": "multitext",
-    "Race": "multitext",
+    "Race": "text",
     "sessionstatus": "multitext",
     "fc-category": "multitext",
     "type": "text",
@@ -26,8 +26,11 @@
     "excalidraw-font-color": "text",
     "excalidraw-border-color": "text",
     "excalidraw-css": "text",
-    "excalidraw-autoexport": "checkbox",
+    "excalidraw-autoexport": "text",
     "excalidraw-iframe-theme": "text",
-    "accent": "multitext"
+    "accent": "text",
+    "excalidraw-export-embed-scene": "checkbox",
+    "excalidraw-embeddable-theme": "text",
+    "excalidraw-open-md": "checkbox"
   }
 }

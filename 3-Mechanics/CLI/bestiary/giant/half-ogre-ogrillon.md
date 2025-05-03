@@ -13,12 +13,12 @@ tags:
 - monster/environment/urban
 - monster/size/large
 - monster/type/giant
+statblock: inline
 aliases: ["Half-Ogre (Ogrillon)"]
 ---
-# Half-Ogre (Ogrillon)
+# [Half-Ogre (Ogrillon)](3-Mechanics\CLI\bestiary\giant/half-ogre-ogrillon.md)
 *Source: Monster Manual p. 238, Waterdeep: Dragon Heist*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Half-Ogre%20(Ogrillon).webp#right)  
 Ogres are as lazy of mind as they are strong of body. They live by raiding, scavenging, and killing for food and pleasure. The average adult specimen stands between 9 and 10 feet tall and weighs close to a thousand pounds.
 
 ## Furious Tempers
@@ -59,34 +59,44 @@ When an ogre mates with a human, hobgoblin, bugbear, or orc, the result is alway
 
 The half-ogre offspring of an ogre and an orc is also called an ogrillon. An adult half-ogre or ogrillon stands 8 feet tall and weighs 450 pounds on average.
 
-
-## Statblock
-
-```ad-statblock
-title: Half-Ogre (Ogrillon)
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Half-Ogre%20(Ogrillon).webp#token)
-*Large giant, Any Chaotic alignment*
-
-- **Armor Class** 12 ([hide armor](/3-Mechanics/CLI/items/hide-armor.md))
-- **Hit Points** 30 (`4d10 + 8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|10 (+0)|14 (+2)| 7 (-2)| 9 (-1)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Languages** Common, Giant
-- **Challenge** 1
-
-## Actions
-
-***Battleaxe.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12 (`2d8 + 3`) slashing damage, or 14 (`2d10 + 3`) slashing damage if used with two hands.
-
-***Javelin.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 10 (`2d6 + 3`) piercing damage.
+```statblock
+"name": "Half-Ogre (Ogrillon)"
+"size": "Large"
+"type": "giant"
+"alignment": "Any Chaotic alignment"
+"ac": !!int "12"
+"ac_class": "[hide armor](/3-Mechanics/CLI/items/hide-armor.md)"
+"hp": !!int "30"
+"hit_dice": "4d10 + 8"
+"stats":
+- !!int "17"
+- !!int "10"
+- !!int "14"
+- !!int "7"
+- !!int "9"
+- !!int "10"
+"speed": "30 ft."
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "Common, Giant"
+"cr": "1"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12\
+    \ (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with\
+    \ two hands."
+  "name": "Battleaxe"
+- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120\
+    \ ft., one target. Hit: 10 (2d6 + 3) piercing damage."
+  "name": "Javelin"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "WDH"
+- "BGDIA"
+- "ERLW"
+- "IDRotF"
+- "DSotDQ"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Half-Ogre%20%28Ogrillon%29.webp"
 ```
 ^statblock
 

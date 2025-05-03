@@ -10,12 +10,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/humanoid/yuan-ti
+statblock: inline
 aliases: ["Yuan-ti Pureblood"]
 ---
-# Yuan-ti Pureblood
+# [Yuan-ti Pureblood](3-Mechanics\CLI\bestiary\humanoid/yuan-ti-pureblood.md)
 *Source: Monster Manual p. 310, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Yuan-ti%20Pureblood.webp#right)  
 Purebloods form the lowest caste of yuan-ti society. They closely resemble humans, yet a pureblood can't pass for human under close scrutiny because there's always some hint of its true nature, such as scaly patches of skin, serpentine eyes, pointed teeth, or a forked tongue. Wearing cloaks and cowls, they masquerade as humans and infiltrate civilized lands to gather information, kidnap prisoners for interrogation and sacrifice, and trade with anyone who has something that can further their myriad plots.
 
 ## Yuan-ti
@@ -60,48 +60,61 @@ Yuan-ti life revolves around their temples, yet yuan-ti don't love the gods they
 > The yuan-ti cast off their humanity long ago, and with it, their sanity.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Yuan-ti Pureblood
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Yuan-ti%20Pureblood.webp#token)
-*Medium humanoid (yuan-ti), Neutral Evil*
-
-- **Armor Class** 11 
-- **Hit Points** 40 (`9d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|11 (+0)|12 (+1)|11 (+0)|13 (+1)|12 (+1)|14 (+2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Deception +6, Perception +3, Stealth +3
-- **Senses** darkvision 60 ft., passive Perception 13
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal, Common, Draconic
-- **Challenge** 1
-
-## Traits
-
-***Magic Resistance.*** The yuan-ti has advantage on saving throws against spells and other magical effects.
-
-***Innate Spellcasting.*** The yuan-ti's spellcasting ability is Charisma (spell save DC 12). The yuan-ti can innately cast the following spells, requiring no material components:
-
-**At will**: [animal friendship](/3-Mechanics/CLI/spells/animal-friendship.md) (snakes only)
-
-**3/day each**: [poison spray](/3-Mechanics/CLI/spells/poison-spray.md), [suggestion](/3-Mechanics/CLI/spells/suggestion.md)
-
-## Actions
-
-***Multiattack.*** The yuan-ti makes two melee attacks.
-
-***Scimitar.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d6 + 1`) slashing damage.
-
-***Shortbow.*** *Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage plus 7 (`2d6`) poison damage.
+```statblock
+"name": "Yuan-ti Pureblood"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "yuan-ti"
+"alignment": "Neutral Evil"
+"ac": !!int "11"
+"hp": !!int "40"
+"hit_dice": "9d8"
+"stats":
+- !!int "11"
+- !!int "12"
+- !!int "11"
+- !!int "13"
+- !!int "12"
+- !!int "14"
+"speed": "30 ft."
+"skillsaves":
+  "Deception": !!int "6"
+  "Stealth": !!int "3"
+  "Perception": !!int "3"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 13"
+"languages": "Abyssal, Common, Draconic"
+"cr": "1"
+"traits":
+- "desc": "The yuan-ti's spellcasting ability is Charisma (spell save DC 12). The\
+    \ yuan-ti can innately cast the following spells, requiring no material components:\n\
+    \nAt will: [animal friendship](/3-Mechanics/CLI/spells/animal-friendship.md)\
+    \ (snakes only)\n\n3/day each: [poison spray](/3-Mechanics/CLI/spells/poison-spray.md),\
+    \ [suggestion](/3-Mechanics/CLI/spells/suggestion.md)"
+  "name": "Innate Spellcasting"
+- "desc": "The yuan-ti has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "The yuan-ti makes two melee attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6\
+    \ + 1) slashing damage."
+  "name": "Scimitar"
+- "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit:\
+    \ 4 (1d6 + 1) piercing damage plus 7 (2d6) poison damage."
+  "name": "Shortbow"
+"source":
+- "MM"
+- "HotDQ"
+- "RoT"
+- "SKT"
+- "ToA"
+- "WDMM"
+- "CM"
+- "PSI"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Yuan-ti%20Pureblood.webp"
 ```
 ^statblock
 

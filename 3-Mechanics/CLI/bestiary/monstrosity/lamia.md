@@ -7,12 +7,12 @@ tags:
 - monster/environment/desert
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Lamia"]
 ---
-# Lamia
+# [Lamia](3-Mechanics\CLI\bestiary\monstrosity/lamia.md)
 *Source: Monster Manual p. 201. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Lamia.webp#right)  
 Ruined desert cities and the tombs of forgotten monarchs make perfect lairs for the wicked lamias. These decadent monsters take what has been forgotten and make it the seat of their hedonistic rule, surrounding themselves with sycophants. Lamias rely on [jackalweres](/3-Mechanics/CLI/bestiary/humanoid/jackalwere.md) to perform various tasks, sending them across the wastes to capture slaves or steal treasures from caravans, encampments, or villages, concealed by the lamia's magic as they attack.
 
 A lamia has a beautiful humanoid upper body that merges into a powerful four-legged leonine form. Its vicious black claws speak to its predatory nature, as does its hunger for torture and humanoid flesh.
@@ -35,46 +35,60 @@ As long as they have slaves to face their enemies, lamias fight from the fringes
 
 The demon lord Graz'zt creates lamias from his mortal servants, granting them immortality in return for monstrous power and an oath of fealty. Graz'zt sometimes tasks lamias with guarding locations important to him, but lamias in his service remain free to spread their evil as they see fit.
 
-
-## Statblock
-
-```ad-statblock
-title: Lamia
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Lamia.webp#token)
-*Large monstrosity, Chaotic Evil*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 97 (`13d10 + 26`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|13 (+1)|15 (+2)|14 (+2)|15 (+2)|16 (+3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Deception +7, Insight +4, Stealth +3
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Languages** Abyssal, Common
-- **Challenge** 4
-
-***Innate Spellcasting.*** The lamia's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components.
-
-**At will**: [disguise self](/3-Mechanics/CLI/spells/disguise-self.md) (any humanoid form), [major image](/3-Mechanics/CLI/spells/major-image.md)
-
-**1/day**: [geas](/3-Mechanics/CLI/spells/geas.md)
-
-**3/day each**: [charm person](/3-Mechanics/CLI/spells/charm-person.md), [mirror image](/3-Mechanics/CLI/spells/mirror-image.md), [scrying](/3-Mechanics/CLI/spells/scrying.md), [suggestion](/3-Mechanics/CLI/spells/suggestion.md)
-
-## Actions
-
-***Multiattack.*** The lamia makes two attacks: one with its claws and one with its dagger or Intoxicating Touch.
-
-***Claws.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 14 (`2d10 + 3`) slashing damage.
-
-***Dagger.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) piercing damage.
-
-***Intoxicating Touch.*** *Melee Spell Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks.
+```statblock
+"name": "Lamia"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Chaotic Evil"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "97"
+"hit_dice": "13d10 + 26"
+"stats":
+- !!int "16"
+- !!int "13"
+- !!int "15"
+- !!int "14"
+- !!int "15"
+- !!int "16"
+"speed": "30 ft."
+"skillsaves":
+  "Deception": !!int "7"
+  "Stealth": !!int "3"
+  "Insight": !!int "4"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "Abyssal, Common"
+"cr": "4"
+"traits":
+- "desc": "The lamia's innate spellcasting ability is Charisma (spell save DC 13).\
+    \ It can innately cast the following spells, requiring no material components.\n\
+    \nAt will: [disguise self](/3-Mechanics/CLI/spells/disguise-self.md) (any\
+    \ humanoid form), [major image](/3-Mechanics/CLI/spells/major-image.md)\n\n1/day:\
+    \ [geas](/3-Mechanics/CLI/spells/geas.md)\n\n3/day each: [charm person](/3-Mechanics/CLI/spells/charm-person.md),\
+    \ [mirror image](/3-Mechanics/CLI/spells/mirror-image.md), [scrying](/3-Mechanics/CLI/spells/scrying.md),\
+    \ [suggestion](/3-Mechanics/CLI/spells/suggestion.md)"
+  "name": "Innate Spellcasting"
+"actions":
+- "desc": "The lamia makes two attacks: one with its claws and one with its dagger\
+    \ or Intoxicating Touch."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14\
+    \ (2d10 + 3) slashing damage."
+  "name": "Claws"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+    \ + 3) piercing damage."
+  "name": "Dagger"
+- "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: The\
+    \ target is magically cursed for 1 hour. Until the curse ends, the target has\
+    \ disadvantage on Wisdom saving throws and all ability checks."
+  "name": "Intoxicating Touch"
+"source":
+- "MM"
+- "GoS"
+- "MOT"
+- "CM"
+- "WBtW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Lamia.webp"
 ```
 ^statblock
 

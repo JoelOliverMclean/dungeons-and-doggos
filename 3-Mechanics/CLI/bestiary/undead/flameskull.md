@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/tiny
 - monster/type/undead
+statblock: inline
 aliases: ["Flameskull"]
 ---
-# Flameskull
+# [Flameskull](3-Mechanics\CLI\bestiary\undead/flameskull.md)
 *Source: Monster Manual p. 134, Lost Mine of Phandelver, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Flameskull.webp#right)  
 Blazing green flames and mad, echoing laughter follow a disembodied skull as it patrols its demesne. When the undead flameskull discovers trespassers, it blasts the intruders with fiery rays from its eyes and dreadful spells called up from the dark recesses of its memory.
 
 Dark spellcasters fashion flameskulls from the remains of dead wizards. When the ritual is complete, green flames erupt from the skull to complete its ghastly transformation.
@@ -37,55 +37,83 @@ A flameskull's shattered fragments reform unless they are splashed with holy wat
 
 A flameskull doesn't require air, food, drink, or sleep
 
-
-## Statblock
-
-```ad-statblock
-title: Flameskull
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Flameskull.webp#token)
-*Tiny undead, Neutral Evil*
-
-- **Armor Class** 13 
-- **Hit Points** 40 (`9d4 + 18`) 
-- **Speed** 0 ft., fly 40 ft. (hover)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 (-5)|17 (+3)|14 (+2)|16 (+3)|10 (+0)|11 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Arcana +5, Perception +2
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Damage Resistances** lightning, necrotic, piercing
-- **Damage Immunities** cold, fire, poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [prone](/3-Mechanics/CLI/rules/conditions.md#prone)
-- **Languages** Common
-- **Challenge** 4
-
-## Traits
-
-***Illumination.*** The flameskull sheds either dim light in a 15-foot radius, or bright light in a 15-foot radius and dim light for an additional 15 feet. It can switch between the options as an action.
-
-***Magic Resistance.*** The flameskull has advantage on saving throws against spells and other magical effects.
-
-***Rejuvenation.*** If the flameskull is destroyed, it regains all its hit points in 1 hour unless holy water is sprinkled on its remains or a [dispel magic](/3-Mechanics/CLI/spells/dispel-magic.md) or [remove curse](/3-Mechanics/CLI/spells/remove-curse.md) spell is cast on them.
-
-***Spellcasting.*** The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared:
-
-**Cantrips (at will)**: [mage hand](/3-Mechanics/CLI/spells/mage-hand.md)
-
-**1st level (3 slots)**: [magic missile](/3-Mechanics/CLI/spells/magic-missile.md), [shield](/3-Mechanics/CLI/spells/shield.md)
-
-**2nd level (2 slots)**: [blur](/3-Mechanics/CLI/spells/blur.md), [flaming sphere](/3-Mechanics/CLI/spells/flaming-sphere.md)
-
-**3rd level (1 slots)**: [fireball](/3-Mechanics/CLI/spells/fireball.md)
-
-## Actions
-
-***Multiattack.*** The flameskull uses Fire Ray twice.
-
-***Fire Ray.*** *Ranged Spell Attack:* +5 to hit, range 30 ft., one target. *Hit:* 10 (`3d6`) fire damage.
+```statblock
+"name": "Flameskull"
+"size": "Tiny"
+"type": "undead"
+"alignment": "Neutral Evil"
+"ac": !!int "13"
+"hp": !!int "40"
+"hit_dice": "9d4 + 18"
+"stats":
+- !!int "1"
+- !!int "17"
+- !!int "14"
+- !!int "16"
+- !!int "10"
+- !!int "11"
+"speed": "0 ft., fly 40 ft. (hover)"
+"skillsaves":
+  "Perception": !!int "2"
+  "Arcana": !!int "5"
+"damage_resistances": "lightning, necrotic, piercing"
+"damage_immunities": "cold, fire, poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [prone](/3-Mechanics/CLI/rules/conditions.md#prone)"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "Common"
+"cr": "4"
+"traits":
+- "desc": "The flameskull is a 5th-level spellcaster. Its spellcasting ability is\
+    \ Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires\
+    \ no somatic or material components to cast its spells. The flameskull has the\
+    \ following wizard spells prepared:\n\nCantrips (at will): [mage hand](/3-Mechanics/CLI/spells/mage-hand.md)\n\
+    \n1st level (3 slots): [magic missile](/3-Mechanics/CLI/spells/magic-missile.md),\
+    \ [shield](/3-Mechanics/CLI/spells/shield.md)\n\n2nd level (2 slots): [blur](/3-Mechanics/CLI/spells/blur.md),\
+    \ [flaming sphere](/3-Mechanics/CLI/spells/flaming-sphere.md)\n\n3rd level (1\
+    \ slots): [fireball](/3-Mechanics/CLI/spells/fireball.md)"
+  "name": "Spellcasting"
+- "desc": "The flameskull sheds either dim light in a 15-foot radius, or bright light\
+    \ in a 15-foot radius and dim light for an additional 15 feet. It can switch between\
+    \ the options as an action."
+  "name": "Illumination"
+- "desc": "The flameskull has advantage on saving throws against spells and other\
+    \ magical effects."
+  "name": "Magic Resistance"
+- "desc": "If the flameskull is destroyed, it regains all its hit points in 1 hour\
+    \ unless holy water is sprinkled on its remains or a [dispel magic](/3-Mechanics/CLI/spells/dispel-magic.md)\
+    \ or [remove curse](/3-Mechanics/CLI/spells/remove-curse.md) spell is cast on\
+    \ them."
+  "name": "Rejuvenation"
+"actions":
+- "desc": "The flameskull uses Fire Ray twice."
+  "name": "Multiattack"
+- "desc": "Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit: 10\
+    \ (3d6) fire damage."
+  "name": "Fire Ray"
+"source":
+- "MM"
+- "CoS"
+- "LMoP"
+- "PotA"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "SDW"
+- "BGDIA"
+- "RMBRE"
+- "IDRotF"
+- "TCE"
+- "CM"
+- "WBtW"
+- "CRCotN"
+- "JttRC"
+- "DSotDQ"
+- "HftT"
+- "PaBTSO"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Flameskull.webp"
 ```
 ^statblock
 

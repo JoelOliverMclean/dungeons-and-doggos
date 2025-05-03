@@ -11,7 +11,6 @@ aliases: ["Gnome"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Gnome.webp#right)  
 
 - **Ability Scores**: Intelligence +2
-- **Type**: race
 - **Size**: Small
 - **Speed**: 25 ft.
 

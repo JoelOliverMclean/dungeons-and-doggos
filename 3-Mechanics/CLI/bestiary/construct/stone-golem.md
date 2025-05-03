@@ -6,12 +6,12 @@ tags:
 - monster/cr/10
 - monster/size/large
 - monster/type/construct
+statblock: inline
 aliases: ["Stone Golem"]
 ---
-# Stone Golem
+# [Stone Golem](3-Mechanics\CLI\bestiary\construct/stone-golem.md)
 *Source: Monster Manual p. 170, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Stone%20Golem.webp#right)  
 Stone golems display great variety in shape and form, cut and chiseled from stone to appear as tall, impressive statues. Though most bear humanoid features, stone golems can be carved in any form the sculptor can imagine. Ancient stone golems found in sealed tombs or flanking the gates of lost cities sometimes take the forms of giant beasts.
 
 Like other golems, stone golems are nearly impervious to spells and ordinary weapons. Creatures that fight a stone golem can feel the ebb and flow of time slow down around them, almost as though they were made of stone themselves.
@@ -44,45 +44,77 @@ When its creator or possessor is on hand to command it, a golem performs flawles
 
 A golem doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Stone Golem
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Stone%20Golem.webp#token)
-*Large construct, Unaligned*
-
-- **Armor Class** 17 (natural armor)
-- **Hit Points** 178 (`17d10 + 85`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|22 (+6)| 9 (-1)|20 (+5)| 3 (-4)|11 (+0)| 1 (-5)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 10
-- **Damage Immunities** poison; psychic; bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands the languages of its creator but can't speak
-- **Challenge** 10
-
-## Traits
-
-***Immutable Form.*** The golem is immune to any spell or effect that would alter its form.
-
-***Magic Resistance.*** The golem has advantage on saving throws against spells and other magical effects.
-
-***Magic Weapons.*** The golem's weapon attacks are magical.
-
-## Actions
-
-***Multiattack.*** The golem makes two slam attacks.
-
-***Slam.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 19 (`3d8 + 6`) bludgeoning damage.
-
-***Slow (Recharge 5-6).*** The golem targets one or more creatures it can see within 10 feet of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+```statblock
+"name": "Stone Golem"
+"size": "Large"
+"type": "construct"
+"alignment": "Unaligned"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "178"
+"hit_dice": "17d10 + 85"
+"stats":
+- !!int "22"
+- !!int "9"
+- !!int "20"
+- !!int "3"
+- !!int "11"
+- !!int "1"
+"speed": "30 ft."
+"damage_immunities": "poison; psychic; bludgeoning, piercing, slashing from nonmagical\
+  \ attacks that aren't adamantine"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened),\
+  \ [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 10"
+"languages": "understands the languages of its creator but can't speak"
+"cr": "10"
+"traits":
+- "desc": "The golem is immune to any spell or effect that would alter its form."
+  "name": "Immutable Form"
+- "desc": "The golem has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The golem's weapon attacks are magical."
+  "name": "Magic Weapons"
+"actions":
+- "desc": "The golem makes two slam attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19\
+    \ (3d8 + 6) bludgeoning damage."
+  "name": "Slam"
+- "desc": "The golem targets one or more creatures it can see within 10 feet of it.\
+    \ Each target must make a DC 17 Wisdom saving throw against this magic. On a failed\
+    \ save, a target can't use reactions, its speed is halved, and it can't make more\
+    \ than one attack on its turn. In addition, the target can take either an action\
+    \ or a bonus action on its turn, not both. These effects last for 1 minute. A\
+    \ target can repeat the saving throw at the end of each of its turns, ending the\
+    \ effect on itself on a success."
+  "name": "Slow (Recharge 5-6)"
+"source":
+- "MM"
+- "HotDQ"
+- "PotA"
+- "RoT"
+- "SKT"
+- "ToA"
+- "WDMM"
+- "GoS"
+- "DIP"
+- "SLW"
+- "BGDIA"
+- "IMR"
+- "CM"
+- "CoS"
+- "CRCotN"
+- "JttRC"
+- "DSotDQ"
+- "KftGV"
+- "AATM"
+- "SatO"
+- "BMT"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Stone%20Golem.webp"
 ```
 ^statblock

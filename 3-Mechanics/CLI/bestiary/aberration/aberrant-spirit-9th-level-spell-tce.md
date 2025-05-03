@@ -6,47 +6,56 @@ tags:
 - monster/cr/
 - monster/size/medium
 - monster/type/aberration
+statblock: inline
 aliases: ["Aberrant Spirit (9th-level Spell)"]
 ---
-# Aberrant Spirit (9th-level Spell)
+# [Aberrant Spirit (9th-level Spell)](3-Mechanics\CLI\bestiary\aberration/aberrant-spirit-9th-level-spell-tce.md)
 *Source: Tasha's Cauldron of Everything p. 109*  
 
-
-```ad-statblock
-title: Aberrant Spirit (9th-level Spell)
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/TCE/Aberrant%20Spirit.webp#token)
-*Medium aberration, Unaligned*
-
-- **Armor Class** 20 (natural armor)
-- **Hit Points** 90  (40 + 10 for each spell level above 4th)
-- **Speed** 30 ft., fly 30 ft. (beholderkin only; hover)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|10 (+0)|15 (+2)|16 (+3)|10 (+0)| 6 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Immunities** psychic
-- **Languages** Deep Speech, understands the languages you speak
-- **Challenge** 
-
-## Traits
-
-***Regeneration (Slaad Only).*** The aberration regains 5 hit points at the start of its turn if it has at least 1 hit point.
-
-***Whispering Aura (Star Spawn Only).*** At the start of each of the aberration's turns, each creature within 5 feet of the aberration must succeed on a Wisdom saving throw against your spell save DC or take `2d6` psychic damage, provided that the aberration isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
-
-## Actions
-
-***Multiattack.*** The aberration makes a number of attacks equal to half this spell's level (rounded down).
-
-***Eye Ray (Beholderkin Only).*** *Ranged Spell Attack:* the summoner's spell attack modifier to hit, range 150 ft., one creature. *Hit:* `1d8 + 3 + summonSpellLevel` psychic damage.
-
-***Claws (Slaad Only).*** *Melee Weapon Attack:* the summoner's spell attack modifier to hit, reach 5 ft., one target. *Hit:* `1d10 + 3 + summonSpellLevel` slashing damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn.
-
-***Psychic Slam (Star Spawn Only).*** *Melee Spell Attack:* the summoner's spell attack modifier to hit, reach 5 ft., one creature. *Hit:* `1d8 + 3 + summonSpellLevel` psychic damage.
+```statblock
+"name": "Aberrant Spirit (9th-level Spell) (TCE)"
+"size": "Medium"
+"type": "aberration"
+"alignment": "Unaligned"
+"ac": !!int "20"
+"ac_class": "natural armor"
+"hp": !!int "90"
+"stats":
+- !!int "16"
+- !!int "10"
+- !!int "15"
+- !!int "16"
+- !!int "10"
+- !!int "6"
+"speed": "30 ft., fly 30 ft. (beholderkin only; hover)"
+"damage_immunities": "psychic"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Deep Speech, understands the languages you speak"
+"traits":
+- "desc": "The aberration regains 5 hit points at the start of its turn if it has\
+    \ at least 1 hit point."
+  "name": "Regeneration (Slaad Only)"
+- "desc": "At the start of each of the aberration's turns, each creature within 5\
+    \ feet of the aberration must succeed on a Wisdom saving throw against your spell\
+    \ save DC or take 2d6 psychic damage, provided that the aberration isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)."
+  "name": "Whispering Aura (Star Spawn Only)"
+"actions":
+- "desc": "The aberration makes a number of attacks equal to half this spell's level\
+    \ (rounded down)."
+  "name": "Multiattack"
+- "desc": "Ranged Spell Attack: the summoner's spell attack modifier to hit, range\
+    \ 150 ft., one creature. Hit: 1d8 + 3 + summonSpellLevel psychic damage."
+  "name": "Eye Ray (Beholderkin Only)"
+- "desc": "Melee Weapon Attack: the summoner's spell attack modifier to hit, reach\
+    \ 5 ft., one target. Hit: 1d10 + 3 + summonSpellLevel slashing damage. If\
+    \ the target is a creature, it can't regain hit points until the start of the\
+    \ aberration's next turn."
+  "name": "Claws (Slaad Only)"
+- "desc": "Melee Spell Attack: the summoner's spell attack modifier to hit, reach\
+    \ 5 ft., one creature. Hit: 1d8 + 3 + summonSpellLevel psychic damage."
+  "name": "Psychic Slam (Star Spawn Only)"
+"source":
+- "TCE"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/TCE/Aberrant%20Spirit.webp"
 ```
 ^statblock

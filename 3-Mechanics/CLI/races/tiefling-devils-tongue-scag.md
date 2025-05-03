@@ -11,7 +11,6 @@ aliases: ["Tiefling (Devil's Tongue)"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/SCAG/Feral%20Tiefling.webp#right)  
 
 - **Ability Scores**: Intelligence +1, Apply +2 to one of Dexterity, Charisma
-- **Type**: subrace
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma

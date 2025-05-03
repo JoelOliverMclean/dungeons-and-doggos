@@ -8,12 +8,12 @@ tags:
 - monster/environment/mountain
 - monster/size/huge
 - monster/type/giant
+statblock: inline
 aliases: ["Frost Giant"]
 ---
-# Frost Giant
+# [Frost Giant](3-Mechanics\CLI\bestiary\giant/frost-giant.md)
 *Source: Monster Manual p. 155. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Frost%20Giant.webp#right)  
 Gigantic reavers from the freezing lands beyond civilization, frost giants are fierce, hardy warriors that survive on the spoils of their raids and pillaging. They respect only brute strength and skill in battle, demonstrating both with their scars and the grisly trophies they take from their enemies.
 
 ## Hearts of Ice
@@ -76,37 +76,53 @@ Regardless of a giant's rank among its own race, the chief of a hill giant tribe
 > And here is where Angerroth the barbarian fell against the giant horde. His bones are under that boulder over there.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Frost Giant
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Frost%20Giant.webp#token)
-*Huge giant, Neutral Evil*
-
-- **Armor Class** 15 (patchwork armor)
-- **Hit Points** 138 (`12d12 + 60`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|23 (+6)| 9 (-1)|21 (+5)| 9 (-1)|10 (+0)|12 (+1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Constitution +8, Wisdom +3, Charisma +4
-- **Skills** Athletics +9, Perception +3
-- **Senses** passive Perception 13
-- **Damage Immunities** cold
-- **Languages** Giant
-- **Challenge** 8
-
-## Actions
-
-***Multiattack.*** The giant makes two greataxe attacks.
-
-***Greataxe.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 25 (`3d12 + 6`) slashing damage.
-
-***Rock.*** *Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:* 28 (`4d10 + 6`) bludgeoning damage.
+```statblock
+"name": "Frost Giant"
+"size": "Huge"
+"type": "giant"
+"alignment": "Neutral Evil"
+"ac": !!int "15"
+"ac_class": "patchwork armor"
+"hp": !!int "138"
+"hit_dice": "12d12 + 60"
+"stats":
+- !!int "23"
+- !!int "9"
+- !!int "21"
+- !!int "9"
+- !!int "10"
+- !!int "12"
+"speed": "40 ft."
+"saves":
+  "Charisma": !!int "4"
+  "Wisdom": !!int "3"
+  "Constitution": !!int "8"
+"skillsaves":
+  "Athletics": !!int "9"
+  "Perception": !!int "3"
+"damage_immunities": "cold"
+"senses": "passive Perception 13"
+"languages": "Giant"
+"cr": "8"
+"actions":
+- "desc": "The giant makes two greataxe attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25\
+    \ (3d12 + 6) slashing damage."
+  "name": "Greataxe"
+- "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+    \ 28 (4d10 + 6) bludgeoning damage."
+  "name": "Rock"
+"source":
+- "MM"
+- "RoT"
+- "SKT"
+- "TftYP"
+- "ToA"
+- "EGW"
+- "IDRotF"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Frost%20Giant.webp"
 ```
 ^statblock
 

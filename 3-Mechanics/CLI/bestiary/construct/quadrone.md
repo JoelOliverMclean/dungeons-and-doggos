@@ -6,12 +6,12 @@ tags:
 - monster/cr/1
 - monster/size/medium
 - monster/type/construct
+statblock: inline
 aliases: ["Quadrone"]
 ---
-# Quadrone
+# [Quadrone](3-Mechanics\CLI\bestiary\construct/quadrone.md)
 *Source: Monster Manual p. 226, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Quadrone.webp#right)  
 Astute combatants, quadrones serve as artillery and field officers in the regiments of modron armies.
 
 ## Modrons
@@ -46,41 +46,51 @@ When the gears of Mechanus complete seventeen cycles once every 289 years, Primu
 > Every 289 years, the entire multiverse goes mad. Like clockwork.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Quadrone
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Quadrone.webp#token)
-*Medium construct, Lawful Neutral*
-
-- **Armor Class** 16 (natural armor)
-- **Hit Points** 22 (`4d8 + 4`) 
-- **Speed** 30 ft., fly 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|14 (+2)|12 (+1)|10 (+0)|10 (+0)|11 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +2
-- **Senses** truesight 120 ft., passive Perception 12
-- **Languages** Modron
-- **Challenge** 1
-
-## Traits
-
-***Axiomatic Mind.*** The quadrone can't be compelled to act in a manner contrary to its nature or its instructions.
-
-***Disintegration.*** If the quadrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.
-
-## Actions
-
-***Multiattack.*** The quadrone makes two fist attacks or four shortbow attacks.
-
-***Fist.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) bludgeoning damage.
-
-***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+```statblock
+"name": "Quadrone"
+"size": "Medium"
+"type": "construct"
+"alignment": "Lawful Neutral"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"hp": !!int "22"
+"hit_dice": "4d8 + 4"
+"stats":
+- !!int "12"
+- !!int "14"
+- !!int "12"
+- !!int "10"
+- !!int "10"
+- !!int "11"
+"speed": "30 ft., fly 30 ft."
+"skillsaves":
+  "Perception": !!int "2"
+"senses": "truesight 120 ft., passive Perception 12"
+"languages": "Modron"
+"cr": "1"
+"traits":
+- "desc": "The quadrone can't be compelled to act in a manner contrary to its nature\
+    \ or its instructions."
+  "name": "Axiomatic Mind"
+- "desc": "If the quadrone dies, its body disintegrates into dust, leaving behind\
+    \ its weapons and anything else it was carrying."
+  "name": "Disintegration"
+"actions":
+- "desc": "The quadrone makes two fist attacks or four shortbow attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) bludgeoning damage."
+  "name": "Fist"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+    \ 5 (1d6 + 2) piercing damage."
+  "name": "Shortbow"
+"source":
+- "MM"
+- "ToA"
+- "WDMM"
+- "KftGV"
+- "SatO"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Quadrone.webp"
 ```
 ^statblock

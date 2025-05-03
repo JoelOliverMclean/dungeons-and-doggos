@@ -76,7 +76,7 @@ After the Spellplague came the Sundering. Elf scholars insist on calling it the 
 
 Apparently, all of this was foreseen by Waterdeep's legendary wizard Khelben Arunsun, and it was only through his wisdom and the efforts of Elminster, [Laeral Silverhand](/3-Mechanics/CLI/bestiary/npc/laeral-silverhand-wdh.md)-now the Open Lord of Waterdeep-and a handful of others that the world was saved. According to Elminster, Ao remade the Tablets of Fate as a result, restoring the divine order and separating Abeir from Toril. But take that as you may. According to that roguish longbeard, he saves the world without anyone noticing every other month or so.
 
-![The Sea Maiden's Faire Parade](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/WDH/Sea-Maiden's-Faire.webp#center)
+![The Sea Maiden's Faire Parade](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/WDH/Sea-Maiden%27s-Faire.webp#center)
 
 ## Surviving in the City
 

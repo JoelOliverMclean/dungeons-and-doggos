@@ -6,30 +6,34 @@ tags:
 - monster/cr/0
 - monster/size/medium
 - monster/type/humanoid/human
+statblock: inline
 aliases: ["Rabbithead"]
 ---
-# Rabbithead
+# [Rabbithead](3-Mechanics\CLI\bestiary\npc/rabbithead-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 295*  
 
-
-```ad-statblock
-title: Rabbithead
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDMM/Rabbithead.webp#token)
-*Medium humanoid (human), Unaligned*
-
-- **Armor Class** 10 
-- **Hit Points** 4 (`1d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 10
-- **Languages** —
-- **Challenge** 0
+```statblock
+"name": "Rabbithead (WDMM)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "human"
+"alignment": "Unaligned"
+"ac": !!int "10"
+"hp": !!int "4"
+"hit_dice": "1d8"
+"stats":
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+"speed": "30 ft."
+"senses": "passive Perception 10"
+"languages": ""
+"cr": "0"
+"source":
+- "WDMM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDMM/Rabbithead.webp"
 ```
 ^statblock

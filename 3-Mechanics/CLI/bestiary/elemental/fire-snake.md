@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/elemental
+statblock: inline
 aliases: ["Fire Snake"]
 ---
-# Fire Snake
+# [Fire Snake](3-Mechanics\CLI\bestiary\elemental/fire-snake.md)
 *Source: Monster Manual p. 265*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Fire%20Snake.webp#right)  
 Salamanders slither across the Sea of Ash on the Elemental Plane of Fire, their sinuous coils and jagged spines smoldering. Intense heat washes off their bodies, while their yellow eyes glow like candles in the deep-set hollows of their hawkish faces.
 
 Salamanders adore power, and they delight in setting fire to things. Outside their home plane, they play among the burning skeletons of charred trees as forest fires rage around them, or slither down the slopes of erupting volcanoes to linger in fire pits and magma floes.
@@ -41,43 +41,50 @@ Salamanders generate intense heat, and when they fight, their weapons glow red a
 
 This inherent heat is an asset to salamanders' skill as smiths, allowing them to soften and shape iron and steel with their bare hands. Although not as meticulous as azers, salamanders number among the greatest metalsmiths in all the planes. Powerful creatures summon them as warriors, but others enlist the salamanders for their crafting skills, or bind them to forges and ovens to generate limitless heat.
 
-
-## Statblock
-
-```ad-statblock
-title: Fire Snake
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Fire%20Snake.webp#token)
-*Medium elemental, Neutral Evil*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 22 (`5d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|14 (+2)|11 (+0)| 7 (-2)|10 (+0)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Vulnerabilities** cold
-- **Damage Resistances** bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** fire
-- **Languages** understands Ignan but can't speak
-- **Challenge** 1
-
-## Traits
-
-***Heated Body.*** A creature that touches the snake or hits it with a melee attack while within 5 feet of it takes 3 (`1d6`) fire damage.
-
-## Actions
-
-***Multiattack.*** The snake makes two attacks: one with its bite and one with its tail.
-
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) piercing damage plus 3 (`1d6`) fire damage.
-
-***Tail.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) bludgeoning damage plus 3 (`1d6`) fire damage.
+```statblock
+"name": "Fire Snake"
+"size": "Medium"
+"type": "elemental"
+"alignment": "Neutral Evil"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "22"
+"hit_dice": "5d8"
+"stats":
+- !!int "12"
+- !!int "14"
+- !!int "11"
+- !!int "7"
+- !!int "10"
+- !!int "8"
+"speed": "30 ft."
+"damage_vulnerabilities": "cold"
+"damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
+"damage_immunities": "fire"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "understands Ignan but can't speak"
+"cr": "1"
+"traits":
+- "desc": "A creature that touches the snake or hits it with a melee attack while\
+    \ within 5 feet of it takes 3 (1d6) fire damage."
+  "name": "Heated Body"
+"actions":
+- "desc": "The snake makes two attacks: one with its bite and one with its tail."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) piercing damage plus 3 (1d6) fire damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) bludgeoning damage plus 3 (1d6) fire damage."
+  "name": "Tail"
+"source":
+- "MM"
+- "PotA"
+- "TftYP"
+- "ToA"
+- "JttRC"
+- "DoSI"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Fire%20Snake.webp"
 ```
 ^statblock
 

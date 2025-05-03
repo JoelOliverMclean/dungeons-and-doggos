@@ -10,7 +10,6 @@ aliases: ["Kuo-Toa (DMG)"]
 *Source: Dungeon Master's Guide p. 282*  
 
 - **Ability Scores**: None
-- **Type**: race
 - **Size**: Medium
 - **Speed**: walk: 30 ft.; swim: 30 ft.
 

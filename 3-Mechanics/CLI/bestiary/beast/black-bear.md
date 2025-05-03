@@ -7,43 +7,57 @@ tags:
 - monster/environment/forest
 - monster/size/medium
 - monster/type/beast
+statblock: inline
 aliases: ["Black Bear"]
 ---
-# Black Bear
+# [Black Bear](3-Mechanics\CLI\bestiary\beast/black-bear.md)
 *Source: Monster Manual p. 318, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-
-```ad-statblock
-title: Black Bear
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Black%20Bear.webp#token)
-*Medium beast, Unaligned*
-
-- **Armor Class** 11 (natural armor)
-- **Hit Points** 19 (`3d8 + 6`) 
-- **Speed** 40 ft., climb 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|10 (+0)|14 (+2)| 2 (-4)|12 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +3
-- **Senses** passive Perception 13
-- **Languages** —
-- **Challenge** 1/2
-
-## Traits
-
-***Keen Smell.*** The bear has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on smell.
-
-## Actions
-
-***Multiattack.*** The bear makes two attacks: one with its bite and one with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (`2d4 + 2`) slashing damage.
+```statblock
+"name": "Black Bear"
+"size": "Medium"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "11"
+"ac_class": "natural armor"
+"hp": !!int "19"
+"hit_dice": "3d8 + 6"
+"stats":
+- !!int "15"
+- !!int "10"
+- !!int "14"
+- !!int "2"
+- !!int "12"
+- !!int "7"
+"speed": "40 ft., climb 30 ft."
+"skillsaves":
+  "Perception": !!int "3"
+"senses": "passive Perception 13"
+"languages": ""
+"cr": "1/2"
+"traits":
+- "desc": "The bear has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on smell."
+  "name": "Keen Smell"
+"actions":
+- "desc": "The bear makes two attacks: one with its bite and one with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4\
+    \ + 2) slashing damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "WDMM"
+- "GoS"
+- "IMR"
+- "SatO"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Black%20Bear.webp"
 ```
 ^statblock
 

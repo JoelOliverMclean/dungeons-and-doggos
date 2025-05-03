@@ -11,12 +11,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/goblinoid
+statblock: inline
 aliases: ["Hobgoblin Warlord"]
 ---
-# Hobgoblin Warlord
+# [Hobgoblin Warlord](3-Mechanics\CLI\bestiary\humanoid/hobgoblin-warlord.md)
 *Source: Monster Manual p. 187, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Hobgoblin.webp#right)  
 War horns sound, stones fly from catapults, and the thunder of a thousand booted feet echoes across the land as hobgoblins march to battle. Across the borderlands of civilization, settlements and settlers must contend with these aggressive humanoids, whose thirst for conquest is never satisfied.
 
 Hobgoblins have dark orange or red-orange skin, and hair ranging from dark red-brown to dark gray. Yellow or dark brown eyes peer out beneath their beetling brows, and their wide mouths sport sharp and yellowed teeth. A male hobgoblin might have a large blue or red nose, which symbolizes virility and power among goblinkin. Hobgoblins can live as long as humans, though their love of warfare and battle means that few do.
@@ -74,48 +74,68 @@ Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As 
 > Victory is ours!
 
 
-
-## Statblock
-
-```ad-statblock
-title: Hobgoblin Warlord
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Hobgoblin%20Warlord.webp#token)
-*Medium humanoid (goblinoid), Lawful Evil*
-
-- **Armor Class** 20 ([plate armor](/3-Mechanics/CLI/items/plate-armor.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 97 (`13d8 + 39`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|14 (+2)|16 (+3)|14 (+2)|11 (+0)|15 (+2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Intelligence +5, Wisdom +3, Charisma +5
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Languages** Common, Goblin
-- **Challenge** 6
-
-## Traits
-
-***Martial Advantage.*** Once per turn, the hobgoblin can deal an extra 14 (`4d6`) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
-
-## Actions
-
-***Multiattack.*** The hobgoblin makes three melee attacks. Alternatively, it can make two ranged attacks with its javelins.
-
-***Longsword.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) slashing damage, or 8 (`1d10 + 3`) slashing damage if used with two hands.
-
-***Shield Bash.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:* 5 (`1d4 + 3`) bludgeoning damage. If the target is Large or smaller, it must succeed on a DC 14 Strength saving throw or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
-
-***Javelin.*** *Melee or Ranged Weapon Attack:* +9 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
-
-***Leadership (Recharges after a Short or Long Rest).*** For 1 minute, the hobgoblin can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a `d4` to its roll provided it can hear and understand the hobgoblin. A creature can benefit from only one Leadership die at a time. This effect ends if the hobgoblin is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
-
-## Reactions
-
-***Parry.*** The hobgoblin adds 3 to its AC against one melee attack that would hit it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon.
+```statblock
+"name": "Hobgoblin Warlord"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "goblinoid"
+"alignment": "Lawful Evil"
+"ac": !!int "20"
+"ac_class": "[plate armor](/3-Mechanics/CLI/items/plate-armor.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "97"
+"hit_dice": "13d8 + 39"
+"stats":
+- !!int "16"
+- !!int "14"
+- !!int "16"
+- !!int "14"
+- !!int "11"
+- !!int "15"
+"speed": "30 ft."
+"saves":
+  "Charisma": !!int "5"
+  "Wisdom": !!int "3"
+  "Intelligence": !!int "5"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Common, Goblin"
+"cr": "6"
+"traits":
+- "desc": "Once per turn, the hobgoblin can deal an extra 14 (4d6) damage to a creature\
+    \ it hits with a weapon attack if that creature is within 5 feet of an ally of\
+    \ the hobgoblin that isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)."
+  "name": "Martial Advantage"
+"actions":
+- "desc": "The hobgoblin makes three melee attacks. Alternatively, it can make two\
+    \ ranged attacks with its javelins."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (1d8\
+    \ + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+  "name": "Longsword"
+- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 5\
+    \ (1d4 + 3) bludgeoning damage. If the target is Large or smaller, it must succeed\
+    \ on a DC 14 Strength saving throw or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Shield Bash"
+- "desc": "Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/120\
+    \ ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+  "name": "Javelin"
+- "desc": "For 1 minute, the hobgoblin can utter a special command or warning whenever\
+    \ a nonhostile creature that it can see within 30 feet of it makes an attack roll\
+    \ or a saving throw. The creature can add a d4 to its roll provided it can hear\
+    \ and understand the hobgoblin. A creature can benefit from only one Leadership\
+    \ die at a time. This effect ends if the hobgoblin is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)."
+  "name": "Leadership (Recharges after a Short or Long Rest)"
+"reactions":
+- "desc": "The hobgoblin adds 3 to its AC against one melee attack that would hit\
+    \ it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon."
+  "name": "Parry"
+"source":
+- "MM"
+- "SKT"
+- "WDMM"
+- "BGDIA"
+- "DSotDQ"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Hobgoblin%20Warlord.webp"
 ```
 ^statblock
 

@@ -6,12 +6,12 @@ tags:
 - monster/cr/9
 - monster/size/medium
 - monster/type/humanoid/human
+statblock: inline
 aliases: ["Meloon Wardragon"]
 ---
-# Meloon Wardragon
+# [Meloon Wardragon](3-Mechanics\CLI\bestiary\npc/meloon-wardragon-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 210*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Meloon%20Wardragon.webp#right)  
 Meloon is a handsome, formidable warrior in his prime, who serves the goddess Tymora and loves a good fight. His friends-among them Renaer Neverember and Vajra Safahr-describe him as honest, optimistic, and extraordinarily lucky. Until recently, he was a member of Force Grey and reported directly to the Blackstaff. In recent months, Meloon has spent much of his time at the Yawning Portal.
 
 Three months ago, out of boredom, Meloon accompanied a fledgling band of adventurers on an expedition to Undermountain. There, his luck ran out. While resting in the dungeon, the adventuring party was attacked by monsters unleashed by Xanathar-including a number of intellect devourers. One of the creatures succeeded in magically devouring and replacing Meloon's brain, turning the champion of Tymora into a puppet. After finishing off his unsuspecting companions, Meloon returned to Waterdeep as a Xanathar Guild spy.
@@ -26,41 +26,49 @@ If Meloon is killed and raised from the dead, his true self is restored and his 
 - He loses his telepathy, and his ability to speak and understand Deep Speech.  
 - He can attune to Azuredge (see appendix A).  
 
-
-## Statblock
-
-```ad-statblock
-title: Meloon Wardragon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Meloon%20Wardragon.webp#token)
-*Medium humanoid (human), Lawful Evil*
-
-- **Armor Class** 18 ([plate armor](/3-Mechanics/CLI/items/plate-armor.md))
-- **Hit Points** 143 (`22d8 + 44`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|20 (+5)|15 (+2)|14 (+2)|10 (+0)|14 (+2)|15 (+2)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Strength +9, Constitution +6
-- **Skills** Athletics +9, Survival +6
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Languages** Common, Deep Speech, telepathy 60 ft.
-- **Challenge** 9
-
-## Traits
-
-***Special Equipment.*** Meloon wields [Azuredge](/3-Mechanics/CLI/items/azuredge-wdh.md) but can't attune to it, and thus gains none of its benefits.
-
-***Indomitable (2/Day).*** Meloon can reroll a saving throw that he fails. He must use the new roll.
-
-***Second Wind (Recharges after a Short or Long Rest).*** As a bonus action, Meloon can regain 20 hit points.
-
-## Actions
-
-***Multiattack.*** Meloon makes four attacks with Azuredge.
-
-***Azuredge.*** *Melee Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 11 (`1d12 + 5`) slashing damage.
+```statblock
+"name": "Meloon Wardragon (WDH)"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "human"
+"alignment": "Lawful Evil"
+"ac": !!int "18"
+"ac_class": "[plate armor](/3-Mechanics/CLI/items/plate-armor.md)"
+"hp": !!int "143"
+"hit_dice": "22d8 + 44"
+"stats":
+- !!int "20"
+- !!int "15"
+- !!int "14"
+- !!int "10"
+- !!int "14"
+- !!int "15"
+"speed": "30 ft."
+"saves":
+  "Strength": !!int "9"
+  "Constitution": !!int "6"
+"skillsaves":
+  "Athletics": !!int "9"
+  "Survival": !!int "6"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "Common, Deep Speech, telepathy 60 ft."
+"cr": "9"
+"traits":
+- "desc": "Meloon wields [Azuredge](/3-Mechanics/CLI/items/azuredge-wdh.md) but can't\
+    \ attune to it, and thus gains none of its benefits."
+  "name": "Special Equipment"
+- "desc": "Meloon can reroll a saving throw that he fails. He must use the new roll."
+  "name": "Indomitable (2/Day)"
+- "desc": "As a bonus action, Meloon can regain 20 hit points."
+  "name": "Second Wind (Recharges after a Short or Long Rest)"
+"actions":
+- "desc": "Meloon makes four attacks with Azuredge."
+  "name": "Multiattack"
+- "desc": "Melee Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d12\
+    \ + 5) slashing damage."
+  "name": "Azuredge"
+"source":
+- "WDH"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Meloon%20Wardragon.webp"
 ```
 ^statblock

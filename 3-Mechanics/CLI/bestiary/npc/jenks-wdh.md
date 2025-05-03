@@ -6,31 +6,33 @@ tags:
 - monster/cr/unknown
 - monster/size/small
 - monster/type/humanoid/human
+statblock: inline
 aliases: ["Jenks"]
 ---
-# Jenks
+# [Jenks](3-Mechanics\CLI\bestiary\npc/jenks-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 63*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Summer-Scene.webp#center) 
-
-```ad-statblock
-title: Jenks
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Jenks.webp#token)
-*Small humanoid (human), Neutral*
-
-- **Armor Class** 10 
-- **Hit Points** 1  
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +25002
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 10
-- **Languages** —
-- **Challenge** Unknown
+```statblock
+"name": "Jenks (WDH)"
+"size": "Small"
+"type": "humanoid"
+"subtype": "human"
+"alignment": "Neutral"
+"ac": !!int "10"
+"hp": !!int "1"
+"stats":
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+"speed": "30 ft."
+"senses": "passive Perception 10"
+"languages": ""
+"cr": "Unknown"
+"source":
+- "WDH"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Jenks.webp"
 ```
 ^statblock

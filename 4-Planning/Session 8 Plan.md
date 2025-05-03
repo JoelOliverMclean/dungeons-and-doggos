@@ -3,7 +3,7 @@
 - Remaining shops in [[Trollskull Alley]]
 - [[Emmek Frewn]]'s revenge
 - Faction pairings
-- [[Trollskull Manor]] progress
+- [[The Troll's Sack]] progress
 
 ## Lif Encounter
 | 1d12 | Event             |

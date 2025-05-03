@@ -27,9 +27,4 @@ The region within 1 mile of a grandmother hag's lair is warped by the creature's
 
 - Birds, rodents, snakes, spiders, or toads (or some other creatures appropriate to the hag) are found in great profusion.  
 - Beasts that have an Intelligence score of 2 or lower are [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed) by the hag and directed to be aggressive toward intruders in the area.  
-- Strange carved figurines, twig fetishes, or rag dolls magically appear in trees.  
-
-## Is homebrew
-_Source: Volo's Guide to Monsters_
-
-false
+- Strange carved figurines, twig fetishes, or rag dolls magically appear in trees.

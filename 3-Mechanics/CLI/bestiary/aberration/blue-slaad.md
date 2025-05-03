@@ -6,12 +6,12 @@ tags:
 - monster/cr/7
 - monster/size/large
 - monster/type/aberration
+statblock: inline
 aliases: ["Blue Slaad"]
 ---
-# Blue Slaad
+# [Blue Slaad](3-Mechanics\CLI\bestiary\aberration/blue-slaad.md)
 *Source: Monster Manual p. 276, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Blue%20Slaad.webp#right)  
 The bone hooks that protrude from the back of a blue slaad's hands inflict a terrible transformative disease on humanoids wounded by them. This infection, called chaos phage, transforms its victim into a fully grown red slaad—or green slaad if the host was a spellcaster able to cast 3rd level spells or higher.
 
 ## Slaadi
@@ -52,42 +52,58 @@ Some slaadi can transform into the humanoid creatures from which they were origi
 > Embedded in a slaad's brain is a magic gem. Acquire it, and the slaad is yours to command.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Blue Slaad
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Blue%20Slaad.webp#token)
-*Large aberration, Chaotic Neutral*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 123 (`13d10 + 52`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|20 (+5)|15 (+2)|18 (+4)| 7 (-2)| 7 (-2)| 9 (-1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Perception +1
-- **Senses** darkvision 60 ft., passive Perception 11
-- **Damage Resistances** acid, cold, fire, lightning, thunder
-- **Languages** Slaad, telepathy 60 ft.
-- **Challenge** 7
-
-## Traits
-
-***Magic Resistance.*** The slaad has advantage on saving throws against spells and other magical effects.
-
-***Regeneration.*** The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point.
-
-## Actions
-
-***Multiattack.*** The slaad makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12 (`2d6 + 5`) piercing damage.
-
-***Claw.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12 (`2d6 + 5`) slashing damage. If the target is a humanoid, it must succeed on a DC 15 Constitution saving throw or be infected with a disease called chaos phage. While infected, the target can't regain hit points, and its hit point maximum is reduced by 10 (`3d6`) every 24 hours. If the disease reduces the target's hit point maximum to 0, the target instantly transforms into a [red slaad](/3-Mechanics/CLI/bestiary/aberration/red-slaad.md) or, if it has the ability to cast spells of 3rd level or higher, a [green slaad](/3-Mechanics/CLI/bestiary/aberration/green-slaad.md). Only a [wish](/3-Mechanics/CLI/spells/wish.md) spell can reverse the transformation.
+```statblock
+"name": "Blue Slaad"
+"size": "Large"
+"type": "aberration"
+"alignment": "Chaotic Neutral"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "123"
+"hit_dice": "13d10 + 52"
+"stats":
+- !!int "20"
+- !!int "15"
+- !!int "18"
+- !!int "7"
+- !!int "7"
+- !!int "9"
+"speed": "30 ft."
+"skillsaves":
+  "Perception": !!int "1"
+"damage_resistances": "acid, cold, fire, lightning, thunder"
+"senses": "darkvision 60 ft., passive Perception 11"
+"languages": "Slaad, telepathy 60 ft."
+"cr": "7"
+"traits":
+- "desc": "The slaad has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The slaad regains 10 hit points at the start of its turn if it has at least\
+    \ 1 hit point."
+  "name": "Regeneration"
+"actions":
+- "desc": "The slaad makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+    \ (2d6 + 5) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+    \ (2d6 + 5) slashing damage. If the target is a humanoid, it must succeed on\
+    \ a DC 15 Constitution saving throw or be infected with a disease called chaos\
+    \ phage. While infected, the target can't regain hit points, and its hit point\
+    \ maximum is reduced by 10 (3d6) every 24 hours. If the disease reduces the\
+    \ target's hit point maximum to 0, the target instantly transforms into a [red\
+    \ slaad](/3-Mechanics/CLI/bestiary/aberration/red-slaad.md) or, if it has the\
+    \ ability to cast spells of 3rd level or higher, a [green slaad](/3-Mechanics/CLI/bestiary/aberration/green-slaad.md).\
+    \ Only a [wish](/3-Mechanics/CLI/spells/wish.md) spell can reverse the transformation."
+  "name": "Claw"
+"source":
+- "MM"
+- "WDMM"
+- "IDRotF"
+- "PaBTSO"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Blue%20Slaad.webp"
 ```
 ^statblock

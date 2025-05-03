@@ -7,12 +7,12 @@ tags:
 - monster/environment/forest
 - monster/size/medium
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Ettercap"]
 ---
-# Ettercap
+# [Ettercap](3-Mechanics\CLI\bestiary\monstrosity/ettercap.md)
 *Source: Monster Manual p. 131, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Ettercap.webp#right)  
 Ettercaps are humanoid spiders that tend, feed, and watch over spiders the way a shepherd oversees a flock of sheep. They lair deep in remote forests.
 
 Fine strands of silk stream from glands in an ettercap's abdomen, letting it shoot sticky strands of webbing to bind, entrap, or strangle its victims. It can also use its webbing to fashion elaborate snares and nets, which often festoon its lair.
@@ -29,46 +29,73 @@ Though they dwell in the wilds, ettercaps have no desire to live in harmony with
 
 Ettercaps are natural enemies of fey creatures. The foul creatures set web snares to catch sprites and pixies, which they hungrily devour, and will encase a dryad's tree in webbing in a vain attempt to trap the dryad. Otherwise timid fey will sometimes approach outsiders for help in dealing with an ettercap infestation, being ill-equipped to deal with the malevolent creatures themselves.
 
-
-## Statblock
-
-```ad-statblock
-title: Ettercap
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ettercap.webp#token)
-*Medium monstrosity, Neutral Evil*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 44 (`8d8 + 8`) 
-- **Speed** 30 ft., climb 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|14 (+2)|15 (+2)|13 (+1)| 7 (-2)|12 (+1)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +3, Stealth +4, Survival +3
-- **Senses** darkvision 60 ft., passive Perception 13
-- **Languages** —
-- **Challenge** 2
-
-## Traits
-
-***Spider Climb.*** The ettercap can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-***Web Sense.*** While in contact with a web, the ettercap knows the exact location of any other creature in contact with the same web.
-
-***Web Walker.*** The ettercap ignores movement restrictions caused by webbing.
-
-## Actions
-
-***Multiattack.*** The ettercap makes two attacks: one with its bite and one with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 6 (`1d8 + 2`) piercing damage plus 4 (`1d8`) poison damage. The target must succeed on a DC 11 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-***Claws.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (`2d4 + 2`) slashing damage.
-
-***Web (Recharge 5-6).*** *Ranged Weapon Attack:* +4 to hit, range 30/60 ft., one Large or smaller creature. *Hit:* The creature is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained) by webbing. As an action, the [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained) creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to fire damage and immune to bludgeoning, poison and psychic damage.
+```statblock
+"name": "Ettercap"
+"size": "Medium"
+"type": "monstrosity"
+"alignment": "Neutral Evil"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "44"
+"hit_dice": "8d8 + 8"
+"stats":
+- !!int "14"
+- !!int "15"
+- !!int "13"
+- !!int "7"
+- !!int "12"
+- !!int "8"
+"speed": "30 ft., climb 30 ft."
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "3"
+  "Survival": !!int "3"
+"senses": "darkvision 60 ft., passive Perception 13"
+"languages": ""
+"cr": "2"
+"traits":
+- "desc": "The ettercap can climb difficult surfaces, including upside down on ceilings,\
+    \ without needing to make an ability check."
+  "name": "Spider Climb"
+- "desc": "While in contact with a web, the ettercap knows the exact location of any\
+    \ other creature in contact with the same web."
+  "name": "Web Sense"
+- "desc": "The ettercap ignores movement restrictions caused by webbing."
+  "name": "Web Walker"
+"actions":
+- "desc": "The ettercap makes two attacks: one with its bite and one with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6\
+    \ (1d8 + 2) piercing damage plus 4 (1d8) poison damage. The target must succeed\
+    \ on a DC 11 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ for 1 minute. The creature can repeat the saving throw at the end of each of\
+    \ its turns, ending the effect on itself on a success."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4\
+    \ + 2) slashing damage."
+  "name": "Claws"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 30/60 ft., one Large or smaller\
+    \ creature. Hit: The creature is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained)\
+    \ by webbing. As an action, the [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained)\
+    \ creature can make a DC 11 Strength check, escaping from the webbing on a success.\
+    \ The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points,\
+    \ is vulnerable to fire damage and immune to bludgeoning, poison and psychic damage."
+  "name": "Web (Recharge 5-6)"
+"source":
+- "MM"
+- "HotDQ"
+- "RoT"
+- "SKT"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "BGDIA"
+- "EGW"
+- "CM"
+- "WBtW"
+- "SatO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ettercap.webp"
 ```
 ^statblock
 

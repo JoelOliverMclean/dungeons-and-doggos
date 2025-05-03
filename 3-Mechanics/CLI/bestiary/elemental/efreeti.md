@@ -7,12 +7,12 @@ tags:
 - monster/environment/desert
 - monster/size/large
 - monster/type/elemental
+statblock: inline
 aliases: ["Efreeti"]
 ---
-# Efreeti
+# [Efreeti](3-Mechanics\CLI\bestiary\elemental/efreeti.md)
 *Source: Monster Manual p. 145, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Efreeti.webp#right)  
 Hulking genies of the Elemental Plane of Fire, the efreet are masters of flame, immune to fire and able to create it on a whim. Fine silk caftans and damask robes drape their magma-red or coal-black skin, and they bedeck themselves in brass and gold torcs, chains, and rings, all glittering with jewels. When an efreeti flies, its lower body transforms into a column of smoke and embers.
 
 ## Haughty and Cruel
@@ -65,49 +65,67 @@ Noble genies are the rarest of their kind. They are used to getting what they wa
 
 Genies acknowledge the gods as powerful entities but have no desire to court or worship them. They find the endless fawning and mewling of religious devotees tiresome-except as it is directed toward them by their worshipful slaves.
 
-
-## Statblock
-
-```ad-statblock
-title: Efreeti
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Efreeti.webp#token)
-*Large elemental, Lawful Evil*
-
-- **Armor Class** 17 (natural armor)
-- **Hit Points** 200 (`16d10 + 112`) 
-- **Speed** 40 ft., fly 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|22 (+6)|12 (+1)|24 (+7)|16 (+3)|15 (+2)|16 (+3)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Intelligence +7, Wisdom +6, Charisma +7
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 12
-- **Damage Immunities** fire
-- **Languages** Ignan
-- **Challenge** 11
-
-## Traits
-
-***Elemental Demise.*** If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the efreeti was wearing or carrying.
-
-***Innate Spellcasting.*** The efreeti's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
-
-**At will**: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md)
-
-**1/day each**: [conjure elemental](/3-Mechanics/CLI/spells/conjure-elemental.md) ([fire elemental](/3-Mechanics/CLI/bestiary/elemental/fire-elemental.md) only), [gaseous form](/3-Mechanics/CLI/spells/gaseous-form.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md), [major image](/3-Mechanics/CLI/spells/major-image.md), [plane shift](/3-Mechanics/CLI/spells/plane-shift.md), [wall of fire](/3-Mechanics/CLI/spells/wall-of-fire.md)
-
-**3/day each**: [enlarge/reduce](/3-Mechanics/CLI/spells/enlarge-reduce.md), [tongues](/3-Mechanics/CLI/spells/tongues.md)
-
-## Actions
-
-***Multiattack.*** The efreeti makes two scimitar attacks or uses its Hurl Flame twice.
-
-***Scimitar.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 13 (`2d6 + 6`) slashing damage plus 7 (`2d6`) fire damage.
-
-***Hurl Flame.*** *Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:* 17 (`5d6`) fire damage.
+```statblock
+"name": "Efreeti"
+"size": "Large"
+"type": "elemental"
+"alignment": "Lawful Evil"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "200"
+"hit_dice": "16d10 + 112"
+"stats":
+- !!int "22"
+- !!int "12"
+- !!int "24"
+- !!int "16"
+- !!int "15"
+- !!int "16"
+"speed": "40 ft., fly 60 ft."
+"saves":
+  "Charisma": !!int "7"
+  "Wisdom": !!int "6"
+  "Intelligence": !!int "7"
+"damage_immunities": "fire"
+"senses": "darkvision 120 ft., passive Perception 12"
+"languages": "Ignan"
+"cr": "11"
+"traits":
+- "desc": "The efreeti's innate spellcasting ability is Charisma (spell save DC 15,\
+    \ +7 to hit with spell attacks). It can innately cast the following spells,\
+    \ requiring no material components:\n\nAt will: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md)\n\
+    \n1/day each: [conjure elemental](/3-Mechanics/CLI/spells/conjure-elemental.md)\
+    \ ([fire elemental](/3-Mechanics/CLI/bestiary/elemental/fire-elemental.md) only),\
+    \ [gaseous form](/3-Mechanics/CLI/spells/gaseous-form.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md),\
+    \ [major image](/3-Mechanics/CLI/spells/major-image.md), [plane shift](/3-Mechanics/CLI/spells/plane-shift.md),\
+    \ [wall of fire](/3-Mechanics/CLI/spells/wall-of-fire.md)\n\n3/day each: [enlarge/reduce](/3-Mechanics/CLI/spells/enlarge-reduce.md),\
+    \ [tongues](/3-Mechanics/CLI/spells/tongues.md)"
+  "name": "Innate Spellcasting"
+- "desc": "If the efreeti dies, its body disintegrates in a flash of fire and puff\
+    \ of smoke, leaving behind only equipment the efreeti was wearing or carrying."
+  "name": "Elemental Demise"
+"actions":
+- "desc": "The efreeti makes two scimitar attacks or uses its Hurl Flame twice."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d6 + 6) slashing damage plus 7 (2d6) fire damage."
+  "name": "Scimitar"
+- "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 17\
+    \ (5d6) fire damage."
+  "name": "Hurl Flame"
+"source":
+- "MM"
+- "PotA"
+- "RoT"
+- "TftYP"
+- "WDMM"
+- "EGW"
+- "TCE"
+- "JttRC"
+- "KftGV"
+- "SatO"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Efreeti.webp"
 ```
 ^statblock
 

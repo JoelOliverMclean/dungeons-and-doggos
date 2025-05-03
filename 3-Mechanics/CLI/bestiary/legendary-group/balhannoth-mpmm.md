@@ -26,8 +26,3 @@ A region containing a balhannoth's lair becomes warped by the creature's unnatur
 - **Supernatural Lure.** Creatures within 1 mile of the balhannoth's lair experience the sensation of being close to whatever they desire most. The sensation grows stronger the closer the creatures come to the balhannoth's lair.  
 
 If the balhannoth dies, these effects end immediately.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

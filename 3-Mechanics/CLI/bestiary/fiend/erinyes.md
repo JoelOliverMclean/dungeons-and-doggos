@@ -6,12 +6,12 @@ tags:
 - monster/cr/12
 - monster/size/medium
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["Erinyes"]
 ---
-# Erinyes
+# [Erinyes](3-Mechanics\CLI\bestiary\fiend/erinyes.md)
 *Source: Monster Manual p. 73. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Erinyes.webp#right)  
 The most beautiful and striking of all lesser and greater devils, the erinyes are fierce and disciplined warriors. Sweeping down from the skies, they bring swift death to creatures that have wronged their masters or defied the edicts of Asmodeus. The erinyes appear as male or female humanoids with statuesque builds and large feathery wings. Most wear stylized armor and horned helms, and carry exquisite swords and bows. A few also use ropes of entanglement to ensnare powerful foes.
 
 Legends tell that the first erinyes were angels that fell from the Upper Planes because of temptation or misdeed. Erinyes are always willing to take advantage of being mistaken for celestials in their missions of conquest and corruption.
@@ -145,48 +145,68 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
 
-
-## Statblock
-
-```ad-statblock
-title: Erinyes
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Erinyes.webp#token)
-*Medium fiend (devil), Lawful Evil*
-
-- **Armor Class** 18 ([plate armor](/3-Mechanics/CLI/items/plate-armor.md))
-- **Hit Points** 153 (`18d8 + 72`) 
-- **Speed** 30 ft., fly 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|16 (+3)|18 (+4)|14 (+2)|14 (+2)|18 (+4)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Dexterity +7, Constitution +8, Wisdom +6, Charisma +8
-- **Skills** ⏤
-- **Senses** truesight 120 ft., passive Perception 12
-- **Damage Resistances** cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Infernal, telepathy 120 ft.
-- **Challenge** 12
-
-## Traits
-
-***Hellish Weapons.*** The erinyes's weapon attacks are magical and deal an extra 13 (`3d8`) poison damage on a hit (included in the attacks).
-
-***Magic Resistance.*** The erinyes has advantage on saving throws against spells and other magical effects.
-
-## Actions
-
-***Multiattack.*** The erinyes makes three attacks.
-
-***Longsword.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) slashing damage, or 9 (`1d10 + 4`) slashing damage if used with two hands, plus 13 (`3d8`) poison damage.
-
-***Longbow.*** *Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:* 7 (`1d8 + 3`) piercing damage plus 13 (`3d8`) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned). The poison lasts until it is removed by the [lesser restoration](/3-Mechanics/CLI/spells/lesser-restoration.md) spell or similar magic.
-
-## Reactions
-
-***Parry.*** The erinyes adds 4 to its AC against one melee attack that would hit it. To do so, the erinyes must see the attacker and be wielding a melee weapon.
+```statblock
+"name": "Erinyes"
+"size": "Medium"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Lawful Evil"
+"ac": !!int "18"
+"ac_class": "[plate armor](/3-Mechanics/CLI/items/plate-armor.md)"
+"hp": !!int "153"
+"hit_dice": "18d8 + 72"
+"stats":
+- !!int "18"
+- !!int "16"
+- !!int "18"
+- !!int "14"
+- !!int "14"
+- !!int "18"
+"speed": "30 ft., fly 60 ft."
+"saves":
+  "Charisma": !!int "8"
+  "Dexterity": !!int "7"
+  "Wisdom": !!int "6"
+  "Constitution": !!int "8"
+"damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
+  \ that aren't silvered"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "truesight 120 ft., passive Perception 12"
+"languages": "Infernal, telepathy 120 ft."
+"cr": "12"
+"traits":
+- "desc": "The erinyes's weapon attacks are magical and deal an extra 13 (3d8) poison\
+    \ damage on a hit (included in the attacks)."
+  "name": "Hellish Weapons"
+- "desc": "The erinyes has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "The erinyes makes three attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8\
+    \ + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands,\
+    \ plus 13 (3d8) poison damage."
+  "name": "Longsword"
+- "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+    \ 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target\
+    \ must succeed on a DC 14 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned).\
+    \ The poison lasts until it is removed by the [lesser restoration](/3-Mechanics/CLI/spells/lesser-restoration.md)\
+    \ spell or similar magic."
+  "name": "Longbow"
+"reactions":
+- "desc": "The erinyes adds 4 to its AC against one melee attack that would hit it.\
+    \ To do so, the erinyes must see the attacker and be wielding a melee weapon."
+  "name": "Parry"
+"source":
+- "MM"
+- "ToA"
+- "BGDIA"
+- "EGW"
+- "KftGV"
+- "SatO"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Erinyes.webp"
 ```
 ^statblock

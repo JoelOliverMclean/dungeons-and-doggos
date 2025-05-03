@@ -6,12 +6,12 @@ tags:
 - monster/cr/5
 - monster/size/large
 - monster/type/aberration
+statblock: inline
 aliases: ["Red Slaad"]
 ---
-# Red Slaad
+# [Red Slaad](3-Mechanics\CLI\bestiary\aberration/red-slaad.md)
 *Source: Monster Manual p. 276, Waterdeep: Dragon Heist*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Red%20Slaad.webp#right)  
 When a red slaad claws a humanoid creature, it can inject an egg from a gland under one of its claws. The egg works its way into its host and gestates, eventually forming a slaad tadpole. Such a tadpole then eats its way out of the host's body, feeds on the host's remains, and then seeks any other fresh meat it can find. The tadpole transforms into a fully grown blue slaad-or green slaad if the host had the ability to cast 3rd level spells or higher-within `2d12` hours.
 
 ## Slaadi
@@ -52,46 +52,63 @@ Some slaadi can transform into the humanoid creatures from which they were origi
 > Embedded in a slaad's brain is a magic gem. Acquire it, and the slaad is yours to command.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Red Slaad
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Red%20Slaad.webp#token)
-*Large aberration, Chaotic Neutral*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 93 (`11d10 + 33`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|12 (+1)|16 (+3)| 6 (-2)| 6 (-2)| 7 (-2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Perception +1
-- **Senses** darkvision 60 ft., passive Perception 11
-- **Damage Resistances** acid, cold, fire, lightning, thunder
-- **Languages** Slaad, telepathy 60 ft.
-- **Challenge** 5
-
-## Traits
-
-***Magic Resistance.*** The slaad has advantage on saving throws against spells and other magical effects.
-
-***Regeneration.*** The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point.
-
-## Actions
-
-***Multiattack.*** The slaad makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (`2d4 + 3`) piercing damage.
-
-***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be infected with a disease—a minuscule slaad egg.
-
-A humanoid host can carry only one slaad egg to term at a time. Over three months, the egg moves to the chest cavity, gestates, and forms a [slaad tadpole](/3-Mechanics/CLI/bestiary/aberration/slaad-tadpole.md). In the 24-hour period before giving birth, the host starts to feel unwell, its speed is halved, and it has disadvantage on attack rolls, ability checks, and saving throws. At birth, the tadpole chews its way through vital organs and out of the host's chest in 1 round, killing the host in the process.
-
-If the disease is cured before the tadpole's emergence, the unborn slaad is disintegrated.
+```statblock
+"name": "Red Slaad"
+"size": "Large"
+"type": "aberration"
+"alignment": "Chaotic Neutral"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "93"
+"hit_dice": "11d10 + 33"
+"stats":
+- !!int "16"
+- !!int "12"
+- !!int "16"
+- !!int "6"
+- !!int "6"
+- !!int "7"
+"speed": "30 ft."
+"skillsaves":
+  "Perception": !!int "1"
+"damage_resistances": "acid, cold, fire, lightning, thunder"
+"senses": "darkvision 60 ft., passive Perception 11"
+"languages": "Slaad, telepathy 60 ft."
+"cr": "5"
+"traits":
+- "desc": "The slaad has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The slaad regains 10 hit points at the start of its turn if it has at least\
+    \ 1 hit point."
+  "name": "Regeneration"
+"actions":
+- "desc": "The slaad makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d4\
+    \ + 3) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8\
+    \ + 3) piercing damage. If the target is a humanoid, it must succeed on a DC\
+    \ 14 Constitution saving throw or be infected with a disease—a minuscule slaad\
+    \ egg.\n\nA humanoid host can carry only one slaad egg to term at a time. Over\
+    \ three months, the egg moves to the chest cavity, gestates, and forms a [slaad\
+    \ tadpole](/3-Mechanics/CLI/bestiary/aberration/slaad-tadpole.md). In the 24-hour\
+    \ period before giving birth, the host starts to feel unwell, its speed is halved,\
+    \ and it has disadvantage on attack rolls, ability checks, and saving throws.\
+    \ At birth, the tadpole chews its way through vital organs and out of the host's\
+    \ chest in 1 round, killing the host in the process.\n\nIf the disease is cured\
+    \ before the tadpole's emergence, the unborn slaad is disintegrated."
+  "name": "Claw"
+"source":
+- "MM"
+- "WDH"
+- "GoS"
+- "IDRotF"
+- "DSotDQ"
+- "PaBTSO"
+- "ToFW"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Red%20Slaad.webp"
 ```
 ^statblock

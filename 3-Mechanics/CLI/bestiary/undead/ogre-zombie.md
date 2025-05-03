@@ -6,12 +6,12 @@ tags:
 - monster/cr/2
 - monster/size/large
 - monster/type/undead
+statblock: inline
 aliases: ["Ogre Zombie"]
 ---
-# Ogre Zombie
+# [Ogre Zombie](3-Mechanics\CLI\bestiary\undead/ogre-zombie.md)
 *Source: Monster Manual p. 316, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Ogre%20Zombie.webp#right)  
 From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.
 
 ## Dark Servants
@@ -41,37 +41,50 @@ A zombie doesn't require air, food, drink, or sleep.
 > After Beek died, we cast an [animate dead](/3-Mechanics/CLI/spells/animate-dead.md) spell on his corpse. It was fun for a while, but the zombie started to smell real bad, so we doused it in oil and set it on fire. Beek would've found that hilarious.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Ogre Zombie
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ogre%20Zombie.webp#token)
-*Large undead, Neutral Evil*
-
-- **Armor Class** 8 
-- **Hit Points** 85 (`9d10 + 36`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)| 6 (-2)|18 (+4)| 3 (-4)| 6 (-2)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Wisdom +0
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 8
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands Common and Giant but can't speak
-- **Challenge** 2
-
-## Traits
-
-***Undead Fortitude.*** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
-
-## Actions
-
-***Morningstar.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) bludgeoning damage.
+```statblock
+"name": "Ogre Zombie"
+"size": "Large"
+"type": "undead"
+"alignment": "Neutral Evil"
+"ac": !!int "8"
+"hp": !!int "85"
+"hit_dice": "9d10 + 36"
+"stats":
+- !!int "19"
+- !!int "6"
+- !!int "18"
+- !!int "3"
+- !!int "6"
+- !!int "5"
+"speed": "30 ft."
+"saves":
+  "Wisdom": !!int "0"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 8"
+"languages": "understands Common and Giant but can't speak"
+"cr": "2"
+"traits":
+- "desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution\
+    \ saving throw with a DC of 5 + the damage taken, unless the damage is radiant\
+    \ or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+  "name": "Undead Fortitude"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d8 + 4) bludgeoning damage."
+  "name": "Morningstar"
+"source":
+- "MM"
+- "TftYP"
+- "ToA"
+- "WDMM"
+- "GoS"
+- "DIP"
+- "SDW"
+- "IDRotF"
+- "LoX"
+- "PaBTSO"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ogre%20Zombie.webp"
 ```
 ^statblock

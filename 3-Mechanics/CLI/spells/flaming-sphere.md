@@ -38,7 +38,7 @@ As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere 
 
 When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `1d6` for each slot level above 2nd.
 
 **Classes**: [Artificer (Alchemist)](/3-Mechanics/CLI/classes/artificer-alchemist-tce.md), [Cleric (Light Domain)](/3-Mechanics/CLI/classes/cleric-light-domain.md), [Druid (Circle of Wildfire)](/3-Mechanics/CLI/classes/druid-circle-of-wildfire-tce.md), [Druid](/3-Mechanics/CLI/classes/druid.md), [Fighter (Eldritch Knight)](/3-Mechanics/CLI/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](/3-Mechanics/CLI/classes/rogue-arcane-trickster.md), [Warlock (The Celestial)](/3-Mechanics/CLI/classes/warlock-the-celestial-xge.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

@@ -11,12 +11,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Skulk"]
 ---
-# Skulk
+# [Skulk](3-Mechanics\CLI\bestiary\monstrosity/skulk-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 219, Mordenkainen's Tome of Foes p. 227*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Skulk.webp#right)  
 > [!quote]- A quote from Mordenkainen  
 > 
 > Some children have imaginary friends that their parents can't see. Sometimes those invisible friends aren't imaginary.
@@ -27,41 +27,50 @@ A skulk can be summoned from the Shadowfell by performing a ritual, and it is bo
 
 Cruel and chaotic, skulks carry out their orders in the most violent manner possible. A summoned skulk can't return to the Shadowfell until it dies, so many throw themselves into creating bloodshed and mayhem with no regard for their own lives. After killing a person on the Material Plane, some skulks take up a silent imitation of that person's life. In extreme cases, skulks have invaded villages, killed all the occupants, and turned the places into seeming ghost towns where flavorless food is prepared daily, colorless clothes are hung up to dry, and livestock is shifted from pen to pen until it starves.
 
-
-```ad-statblock
-title: Skulk
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Skulk.webp#token)
-*Medium monstrosity, Typically  Chaotic Neutral*
-
-- **Armor Class** 14 
-- **Hit Points** 18 (`4d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 6 (-2)|19 (+4)|10 (+0)|10 (+0)| 7 (-2)| 1 (-5)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Constitution +2
-- **Skills** Stealth +8
-- **Senses** darkvision 120 ft., passive Perception 8
-- **Condition Immunities** [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded)
-- **Languages** understands Common but can't speak
-- **Challenge** 1/2
-
-## Traits
-
-***Fallible Invisibility.*** The skulk is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible). This invisibility can be circumvented by three things:
-
-- **Charnel Candles.** The skulk appears as a dim, translucent form in the light of a candle made of fat rendered from a corpse whose identity is unknown.  
-- **Children.** Humanoid children, aged 10 and under, can see through this invisibility.  
-- **Reflective Surfaces.** The skulk appears as a drab, smoothskinned biped if its reflection can be seen in a mirror or on another surface.  
-
-***Trackless.*** The skulk leaves no tracks to indicate where it has been or where it's headed.
-
-## Actions
-
-***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (`1d4 + 4`) slashing damage plus 3 (`1d6`) necrotic damage.
+```statblock
+"name": "Skulk (MPMM)"
+"size": "Medium"
+"type": "monstrosity"
+"alignment": "Typically  Chaotic Neutral"
+"ac": !!int "14"
+"hp": !!int "18"
+"hit_dice": "4d8"
+"stats":
+- !!int "6"
+- !!int "19"
+- !!int "10"
+- !!int "10"
+- !!int "7"
+- !!int "1"
+"speed": "30 ft."
+"saves":
+  "Constitution": !!int "2"
+"skillsaves":
+  "Stealth": !!int "8"
+"condition_immunities": "[blinded](/3-Mechanics/CLI/rules/conditions.md#blinded)"
+"senses": "darkvision 120 ft., passive Perception 8"
+"languages": "understands Common but can't speak"
+"cr": "1/2"
+"traits":
+- "desc": "The skulk is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible).\
+    \ This invisibility can be circumvented by three things:\n\n- Charnel Candles.\
+    \ The skulk appears as a dim, translucent form in the light of a candle made of\
+    \ fat rendered from a corpse whose identity is unknown.  \n- Children. Humanoid\
+    \ children, aged 10 and under, can see through this invisibility.  \n- Reflective\
+    \ Surfaces. The skulk appears as a drab, smoothskinned biped if its reflection\
+    \ can be seen in a mirror or on another surface.  "
+  "name": "Fallible Invisibility"
+- "desc": "The skulk leaves no tracks to indicate where it has been or where it's\
+    \ headed."
+  "name": "Trackless"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4\
+    \ + 4) slashing damage plus 3 (1d6) necrotic damage."
+  "name": "Claw"
+"source":
+- "MPMM"
+- "MTF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Skulk.webp"
 ```
 ^statblock
 

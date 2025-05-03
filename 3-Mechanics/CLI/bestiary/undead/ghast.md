@@ -9,12 +9,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/undead
+statblock: inline
 aliases: ["Ghast"]
 ---
-# Ghast
+# [Ghast](3-Mechanics\CLI\bestiary\undead/ghast.md)
 *Source: Monster Manual p. 148, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Ghast.webp#right)  
 Ghouls roam the night in packs, driven by an insatiable hunger for humanoid flesh.
 
 ## Devourers of Flesh
@@ -29,43 +29,63 @@ Ghouls trace their origins to the Abyss. Doresain, the first of their kind, was 
 
 Orcus sometimes infuses a ghoul with a stronger dose of abyssal energy, making a ghast. Whereas ghouls are little more than savage beasts, a ghast is cunning and can inspire a pack of ghouls to follow its commands.
 
-
-## Statblock
-
-```ad-statblock
-title: Ghast
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ghast.webp#token)
-*Medium undead, Chaotic Evil*
-
-- **Armor Class** 13 
-- **Hit Points** 36 (`8d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|17 (+3)|10 (+0)|11 (+0)|10 (+0)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Resistances** necrotic
-- **Damage Immunities** poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Common
-- **Challenge** 2
-
-## Traits
-
-***Stench.*** Any creature that starts its turn within 5 feet of the ghast must succeed on a DC 10 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) until the start of its next turn. On a successful saving throw, the creature is immune to the ghast's Stench for 24 hours.
-
-***Turn Defiance.*** The ghast and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 12 (`2d8 + 3`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (`2d6 + 3`) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+```statblock
+"name": "Ghast"
+"size": "Medium"
+"type": "undead"
+"alignment": "Chaotic Evil"
+"ac": !!int "13"
+"hp": !!int "36"
+"hit_dice": "8d8"
+"stats":
+- !!int "16"
+- !!int "17"
+- !!int "10"
+- !!int "11"
+- !!int "10"
+- !!int "8"
+"speed": "30 ft."
+"damage_resistances": "necrotic"
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Common"
+"cr": "2"
+"traits":
+- "desc": "Any creature that starts its turn within 5 feet of the ghast must succeed\
+    \ on a DC 10 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ until the start of its next turn. On a successful saving throw, the creature\
+    \ is immune to the ghast's Stench for 24 hours."
+  "name": "Stench"
+- "desc": "The ghast and any ghouls within 30 feet of it have advantage on saving\
+    \ throws against effects that turn undead."
+  "name": "Turn Defiance"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 12\
+    \ (2d8 + 3) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+    \ (2d6 + 3) slashing damage. If the target is a creature other than an undead,\
+    \ it must succeed on a DC 10 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed)\
+    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success."
+  "name": "Claws"
+"source":
+- "MM"
+- "CoS"
+- "PotA"
+- "ToA"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "DC"
+- "DIP"
+- "SDW"
+- "BGDIA"
+- "DSotDQ"
+- "PSI"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ghast.webp"
 ```
 ^statblock
 

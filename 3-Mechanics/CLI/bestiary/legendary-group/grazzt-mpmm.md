@@ -26,8 +26,3 @@ The region containing Graz'zt's lair is warped by his magic, creating one or mor
 - **Mirrors Everywhere.** Flat surfaces within 1 mile of the lair that are made of stone or metal become highly reflective, as though polished to a shine. These surfaces become supernaturally mirrorlike.  
 
 If Graz'zt dies, these effects fade over the course of `1d10` days.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

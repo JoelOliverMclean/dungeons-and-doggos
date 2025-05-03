@@ -6,12 +6,12 @@ tags:
 - monster/cr/5
 - monster/size/medium
 - monster/type/humanoid/human
+statblock: inline
 aliases: ["Half-Red Dragon Veteran"]
 ---
-# Half-Red Dragon Veteran
+# [Half-Red Dragon Veteran](3-Mechanics\CLI\bestiary\humanoid/half-red-dragon-veteran.md)
 *Source: Monster Manual p. 180. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Half-Red%20Dragon%20Veteran.webp#right)  
 When a dragon in polymorphed form mates with another creature, the union sometimes produces half dragon offspring. A creature might also transform into a half-dragon as a result of a mad wizard's spell or a ritual bath in dragon's blood. In all these cases, the result is a creature that combines the essence of a dragon with the form of its original race. Regardless of their origins, all half-dragons have similar features and appearance, gaining special senses, resistance to destructive energy, and a breath weapon.
 
 ## Draconic Nature
@@ -52,40 +52,54 @@ The half-dragon has the breath weapon of its dragon half. The half-dragon's size
 
 Here the half-dragon template has been applied to a human [veteran](/3-Mechanics/CLI/bestiary/humanoid/veteran.md) to create a half-red dragon veteran. [Splint armor](/3-Mechanics/CLI/items/splint-armor.md) has been replaced with [plate](/3-Mechanics/CLI/items/plate-armor.md).
 
-
-## Statblock
-
-```ad-statblock
-title: Half-Red Dragon Veteran
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Half-Red%20Dragon%20Veteran.webp#token)
-*Medium humanoid (human), Any alignment*
-
-- **Armor Class** 18 ([plate armor](/3-Mechanics/CLI/items/plate-armor.md))
-- **Hit Points** 65 (`10d8 + 20`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|13 (+1)|14 (+2)|10 (+0)|11 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Athletics +6, Perception +3
-- **Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 12
-- **Damage Resistances** fire
-- **Languages** Common, Draconic
-- **Challenge** 5
-
-## Actions
-
-***Multiattack.*** The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack.
-
-***Longsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) slashing damage, or 8 (`1d10 + 3`) slashing damage if used with two hands.
-
-***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
-
-***Heavy Crossbow.*** *Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:* 6 (`1d10 + 1`) piercing damage.
-
-***Fire Breath (Recharge 5-6).*** The veteran exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 (`7d6`) fire damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Half-Red Dragon Veteran"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "human"
+"alignment": "Any alignment"
+"ac": !!int "18"
+"ac_class": "[plate armor](/3-Mechanics/CLI/items/plate-armor.md)"
+"hp": !!int "65"
+"hit_dice": "10d8 + 20"
+"stats":
+- !!int "16"
+- !!int "13"
+- !!int "14"
+- !!int "10"
+- !!int "11"
+- !!int "10"
+"speed": "30 ft."
+"skillsaves":
+  "Athletics": !!int "6"
+  "Perception": !!int "3"
+"damage_resistances": "fire"
+"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 12"
+"languages": "Common, Draconic"
+"cr": "5"
+"actions":
+- "desc": "The veteran makes two longsword attacks. If it has a shortsword drawn,\
+    \ it can also make a shortsword attack."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8\
+    \ + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+  "name": "Longsword"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) piercing damage."
+  "name": "Shortsword"
+- "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit:\
+    \ 6 (1d10 + 1) piercing damage."
+  "name": "Heavy Crossbow"
+- "desc": "The veteran exhales fire in a 15-foot cone. Each creature in that area\
+    \ must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a\
+    \ failed save, or half as much damage on a successful one."
+  "name": "Fire Breath (Recharge 5-6)"
+"source":
+- "MM"
+- "RoT"
+- "GoS"
+- "SLW"
+- "IMR"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Half-Red%20Dragon%20Veteran.webp"
 ```
 ^statblock

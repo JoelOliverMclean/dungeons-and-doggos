@@ -6,34 +6,40 @@ tags:
 - monster/cr/0
 - monster/size/tiny
 - monster/type/beast
+statblock: inline
 aliases: ["Lizard"]
 ---
-# Lizard
+# [Lizard](3-Mechanics\CLI\bestiary\beast/lizard.md)
 *Source: Monster Manual p. 332. Available in the SRD and the Basic Rules.*  
 
-
-```ad-statblock
-title: Lizard
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Lizard.webp#token)
-*Tiny beast, Unaligned*
-
-- **Armor Class** 10 
-- **Hit Points** 2 (`1d4`) 
-- **Speed** 20 ft., climb 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 2 (-4)|11 (+0)|10 (+0)| 1 (-5)| 8 (-1)| 3 (-4)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 30 ft., passive Perception 9
-- **Languages** —
-- **Challenge** 0
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage.
+```statblock
+"name": "Lizard"
+"size": "Tiny"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "10"
+"hp": !!int "2"
+"hit_dice": "1d4"
+"stats":
+- !!int "2"
+- !!int "11"
+- !!int "10"
+- !!int "1"
+- !!int "8"
+- !!int "3"
+"speed": "20 ft., climb 20 ft."
+"senses": "darkvision 30 ft., passive Perception 9"
+"languages": ""
+"cr": "0"
+"actions":
+- "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing\
+    \ damage."
+  "name": "Bite"
+"source":
+- "MM"
+- "ToA"
+- "JttRC"
+- "KftGV"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Lizard.webp"
 ```
 ^statblock

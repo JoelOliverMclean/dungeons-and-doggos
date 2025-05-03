@@ -26,8 +26,3 @@ A merrenoloth imbues its vessel with magic that creates one or more of the follo
 - **Unsinkable.** The vessel doesn't sink even if its hull is breached.  
 
 If the merrenoloth dies, these effects fade over the course of `1d6` hours.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

@@ -11,7 +11,7 @@ aliases: ["Centaur"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/MPMM/Centaur.webp#right)  
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
-- **Type**: race
+- **Type**: fey
 - **Size**: Medium
 - **Speed**: 40 ft.
 

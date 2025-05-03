@@ -6,12 +6,12 @@ tags:
 - monster/cr/1
 - monster/size/tiny
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["Imp"]
 ---
-# Imp
+# [Imp](3-Mechanics\CLI\bestiary\fiend/imp.md)
 *Source: Monster Manual p. 76, Waterdeep: Dragon Heist, Tasha's Cauldron of Everything. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Imp.webp#right)  
 Imps are found throughout the Lower Planes, either running errands for their infernal masters, spying on rivals, or misleading and waylaying mortals. An imp will proudly serve an evil master of any kind, but it can't be relied on to carry out tasks with any speed or efficiency.
 
 An imp can assume animal form at will, but in its natural state it resembles a diminutive red-skinned humanoid with a barbed tail, small horns, and leathery wings. It strikes while [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible), attacking with its poison stinger.
@@ -143,44 +143,75 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
 
-
-## Statblock
-
-```ad-statblock
-title: Imp
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Imp.webp#token)
-*Tiny fiend (devil), Lawful Evil*
-
-- **Armor Class** 13 
-- **Hit Points** 10 (`3d4 + 3`) 
-- **Speed** 20 ft., fly 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 6 (-2)|17 (+3)|13 (+1)|11 (+0)|12 (+1)|14 (+2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Deception +4, Insight +3, Persuasion +4, Stealth +5
-- **Senses** darkvision 120 ft., passive Perception 11
-- **Damage Resistances** cold; bludgeoning, piercing, slashing from nonmagical attacks not made with silvered weapons
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Infernal, Common
-- **Challenge** 1
-
-## Traits
-
-***Shapechanger.*** The imp can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
-
-***Devil's Sight.*** Magical darkness doesn't impede the imp's darkvision.
-
-***Magic Resistance.*** The imp has advantage on saving throws against spells and other magical effects.
-
-## Actions
-
-***Sting (Bite in Beast Form).*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one.
-
-***Invisibility.*** The imp magically turns [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) until it attacks, or until its [concentration](/3-Mechanics/CLI/rules/conditions.md#concentration) ends (as if concentrating on a spell). Any equipment the imp wears or carries is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) with it.
+```statblock
+"name": "Imp"
+"size": "Tiny"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Lawful Evil"
+"ac": !!int "13"
+"hp": !!int "10"
+"hit_dice": "3d4 + 3"
+"stats":
+- !!int "6"
+- !!int "17"
+- !!int "13"
+- !!int "11"
+- !!int "12"
+- !!int "14"
+"speed": "20 ft., fly 40 ft."
+"skillsaves":
+  "Deception": !!int "4"
+  "Stealth": !!int "5"
+  "Insight": !!int "3"
+  "Persuasion": !!int "4"
+"damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
+  \ not made with silvered weapons"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 11"
+"languages": "Infernal, Common"
+"cr": "1"
+"traits":
+- "desc": "The imp can use its action to polymorph into a beast form that resembles\
+    \ a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb\
+    \ 20 ft.), or back into its true form. Its statistics are the same in each form,\
+    \ except for the speed changes noted. Any equipment it is wearing or carrying\
+    \ isn't transformed. It reverts to its true form if it dies."
+  "name": "Shapechanger"
+- "desc": "Magical darkness doesn't impede the imp's darkvision."
+  "name": "Devil's Sight"
+- "desc": "The imp has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+    \ + 3) piercing damage, and the target must make a DC 11 Constitution saving\
+    \ throw, taking 10 (3d6) poison damage on a failed save, or half as much damage\
+    \ on a successful one."
+  "name": "Sting (Bite in Beast Form)"
+- "desc": "The imp magically turns [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible)\
+    \ until it attacks, or until its [concentration](/3-Mechanics/CLI/rules/conditions.md#concentration)\
+    \ ends (as if concentrating on a spell). Any equipment the imp wears or carries\
+    \ is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) with it."
+  "name": "Invisibility"
+"source":
+- "MM"
+- "CoS"
+- "SKT"
+- "ToA"
+- "WDH"
+- "GoS"
+- "BGDIA"
+- "EGW"
+- "TCE"
+- "CM"
+- "KftGV"
+- "PSI"
+- "SatO"
+- "ToFW"
+- "BMT"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Imp.webp"
 ```
 ^statblock

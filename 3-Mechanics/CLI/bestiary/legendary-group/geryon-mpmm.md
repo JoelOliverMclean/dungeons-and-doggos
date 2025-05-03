@@ -27,8 +27,3 @@ The region containing Geryon's lair is warped by his magic, creating one or more
 - **Hellish Doorways.** Sapient creatures within 1 mile of the lair frequently see shimmering portals leading to places they consider safe. Passing through a portal always deposits a traveler somewhere in Stygia.  
 
 If Geryon dies, these effects fade over the course of `1d10` days.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

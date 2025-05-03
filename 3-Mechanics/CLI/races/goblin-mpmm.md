@@ -11,7 +11,7 @@ aliases: ["Goblin"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/MPMM/Goblin.webp#right)  
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
-- **Type**: race
+- **Type**: humanoid
 - **Size**: Small
 - **Speed**: 30 ft.
 

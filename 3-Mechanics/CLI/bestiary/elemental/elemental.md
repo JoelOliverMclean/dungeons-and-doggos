@@ -30,6 +30,7 @@ cssclasses: json5e-note
 - [Frost Salamander](frost-salamander-mpmm.md)
 - [Galeb Duhr](galeb-duhr.md)
 - [Gargoyle](gargoyle.md)
+- [Geonid](geonid-ttp.md)
 - [Giant Strider](giant-strider-mpmm.md)
 - [Ice Mephit](ice-mephit.md)
 - [Invisible Stalker](invisible-stalker.md)

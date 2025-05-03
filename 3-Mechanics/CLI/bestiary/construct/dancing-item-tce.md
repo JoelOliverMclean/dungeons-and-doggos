@@ -6,42 +6,46 @@ tags:
 - monster/cr/
 - monster/size/large
 - monster/type/construct
+statblock: inline
 aliases: ["Dancing Item"]
 ---
-# Dancing Item
+# [Dancing Item](3-Mechanics\CLI\bestiary\construct/dancing-item-tce.md)
 *Source: Tasha's Cauldron of Everything p. 29*  
 
-
-```ad-statblock
-title: Dancing Item
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/TCE/Dancing%20Item.webp#token)
-*Large construct, Unaligned*
-
-- **Armor Class** 16 (natural armor)
-- **Hit Points** null  (10 + five times your bard level)
-- **Speed** 30 ft., fly 30 ft. (hover)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|14 (+2)|16 (+3)| 4 (-3)|10 (+0)| 6 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Immunities** poison, psychic
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened)
-- **Languages** understands the languages you speak
-- **Challenge** 
-
-## Traits
-
-***Immutable Form.*** The item is immune to any spell or effect that would alter its form.
-
-***Irrepressible Dance.*** When any creature starts its turn within 10 feet of the item, the item can increase or decrease (your choice) the walking speed of that creature by 10 feet until the end of the turn, provided the item isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
-
-## Actions
-
-***Force-Empowered Slam.*** *Melee Weapon Attack:* the summoner's spell attack modifier to hit, reach 5 ft., one target you can see. *Hit:* `1d10 + PB` force damage.
+```statblock
+"name": "Dancing Item (TCE)"
+"size": "Large"
+"type": "construct"
+"alignment": "Unaligned"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"stats":
+- !!int "18"
+- !!int "14"
+- !!int "16"
+- !!int "4"
+- !!int "10"
+- !!int "6"
+"speed": "30 ft., fly 30 ft. (hover)"
+"damage_immunities": "poison, psychic"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned),\
+  \ [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened)"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "understands the languages you speak"
+"traits":
+- "desc": "The item is immune to any spell or effect that would alter its form."
+  "name": "Immutable Form"
+- "desc": "When any creature starts its turn within 10 feet of the item, the item\
+    \ can increase or decrease (your choice) the walking speed of that creature by\
+    \ 10 feet until the end of the turn, provided the item isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)."
+  "name": "Irrepressible Dance"
+"actions":
+- "desc": "Melee Weapon Attack: the summoner's spell attack modifier to hit, reach\
+    \ 5 ft., one target you can see. Hit: 1d10 + PB force damage."
+  "name": "Force-Empowered Slam"
+"source":
+- "TCE"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/TCE/Dancing%20Item.webp"
 ```
 ^statblock

@@ -10,12 +10,12 @@ tags:
 - monster/environment/hill
 - monster/size/medium
 - monster/type/humanoid/gnoll
+statblock: inline
 aliases: ["Gnoll Pack Lord"]
 ---
-# Gnoll Pack Lord
+# [Gnoll Pack Lord](3-Mechanics\CLI\bestiary\humanoid/gnoll-pack-lord.md)
 *Source: Monster Manual p. 163*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Gnoll.webp#right)  
 The alpha of a gnoll pack is the pack lord, ruling by might and cunning. A pack lord earns the best of a gnoll pack's spoils, food, valuable trinkets, and magic items. It ornaments its body with brutal piercings and grotesque trophies, dyeing its fur with demonic sigils, hoping Yeenoghu will make it invulnerable.
 
 ## Gnolls
@@ -36,44 +36,56 @@ Gnolls are dangerous because they strike at random. They emerge from the wildern
 
 No goodness or compassion resides in the heart of a gnoll. Like a demon, it lacks anything resembling a conscience, and can't be taught or coerced to put aside its destructive tendencies. The gnolls' frenzied bloodlust makes them an enemy to all, and when they lack a common foe, they fight among themselves. Even the most savage orcs avoid allying with gnolls.
 
-
-## Statblock
-
-```ad-statblock
-title: Gnoll Pack Lord
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Gnoll%20Pack%20Lord.webp#token)
-*Medium humanoid (gnoll), Chaotic Evil*
-
-- **Armor Class** 15 ([chain shirt](/3-Mechanics/CLI/items/chain-shirt.md))
-- **Hit Points** 49 (`9d8 + 9`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|14 (+2)|13 (+1)| 8 (-1)|11 (+0)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Languages** Gnoll
-- **Challenge** 2
-
-## Traits
-
-***Rampage.*** When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
-
-## Actions
-
-***Multiattack.*** The gnoll makes two attacks, either with its glaive or its longbow, and uses its Incite Rampage if it can.
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 5 (`1d4 + 3`) piercing damage.
-
-***Glaive.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 8 (`1d10 + 3`) slashing damage.
-
-***Longbow.*** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage.
-
-***Incite Rampage (Recharge 5-6).*** One creature the gnoll can see within 30 feet of it can use its reaction to make a melee attack if it can hear the gnoll and has the Rampage trait.
+```statblock
+"name": "Gnoll Pack Lord"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "gnoll"
+"alignment": "Chaotic Evil"
+"ac": !!int "15"
+"ac_class": "[chain shirt](/3-Mechanics/CLI/items/chain-shirt.md)"
+"hp": !!int "49"
+"hit_dice": "9d8 + 9"
+"stats":
+- !!int "16"
+- !!int "14"
+- !!int "13"
+- !!int "8"
+- !!int "11"
+- !!int "9"
+"speed": "30 ft."
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Gnoll"
+"cr": "2"
+"traits":
+- "desc": "When the gnoll reduces a creature to 0 hit points with a melee attack on\
+    \ its turn, the gnoll can take a bonus action to move up to half its speed and\
+    \ make a bite attack."
+  "name": "Rampage"
+"actions":
+- "desc": "The gnoll makes two attacks, either with its glaive or its longbow, and\
+    \ uses its Incite Rampage if it can."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5\
+    \ (1d4 + 3) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8\
+    \ (1d10 + 3) slashing damage."
+  "name": "Glaive"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+    \ 6 (1d8 + 2) piercing damage."
+  "name": "Longbow"
+- "desc": "One creature the gnoll can see within 30 feet of it can use its reaction\
+    \ to make a melee attack if it can hear the gnoll and has the Rampage trait."
+  "name": "Incite Rampage (Recharge 5-6)"
+"source":
+- "MM"
+- "PotA"
+- "GoS"
+- "BGDIA"
+- "ToFW"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Gnoll%20Pack%20Lord.webp"
 ```
 ^statblock
 

@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/undead
+statblock: inline
 aliases: ["Bone Naga (Spirit)"]
 ---
-# Bone Naga (Spirit)
+# [Bone Naga (Spirit)](3-Mechanics\CLI\bestiary\undead/bone-naga-spirit.md)
 *Source: Monster Manual p. 233*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Bone%20Naga.webp#right)  
 In response to the long history of conflict between the yuan-ti and the nagas, yuan-ti created a necromantic ritual that could halt a naga's resurrection by transforming the living naga into a skeletal undead servitor. A bone naga retains only a few of the spells it knew in life.
 
 ## Nagas
@@ -35,44 +35,50 @@ Nagas have a long-standing enmity with the yuan-ti, with each race seeing itself
 
 A naga doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Bone Naga (Spirit)
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bone%20Naga%20(Spirit).webp#token)
-*Large undead, Lawful Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 58 (`9d10 + 9`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|16 (+3)|12 (+1)|15 (+2)|15 (+2)|16 (+3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 12
-- **Damage Immunities** poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Common plus one other language
-- **Challenge** 4
-
-***Spellcasting.*** The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Intelligence, and it has the following wizard spells prepared:
-
-**Cantrips (at will)**: [mage hand](/3-Mechanics/CLI/spells/mage-hand.md), [minor illusion](/3-Mechanics/CLI/spells/minor-illusion.md), [ray of frost](/3-Mechanics/CLI/spells/ray-of-frost.md)
-
-**1st level (4 slots)**: [charm person](/3-Mechanics/CLI/spells/charm-person.md), [sleep](/3-Mechanics/CLI/spells/sleep.md)
-
-**2nd level (3 slots)**: [detect thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md), [hold person](/3-Mechanics/CLI/spells/hold-person.md)
-
-**3rd level (2 slots)**: [lightning bolt](/3-Mechanics/CLI/spells/lightning-bolt.md)
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one creature. *Hit:* 10 (`2d6 + 3`) piercing damage plus 10 (`3d6`) poison damage.
+```statblock
+"name": "Bone Naga (Spirit)"
+"size": "Large"
+"type": "undead"
+"alignment": "Lawful Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "58"
+"hit_dice": "9d10 + 9"
+"stats":
+- !!int "15"
+- !!int "16"
+- !!int "12"
+- !!int "15"
+- !!int "15"
+- !!int "16"
+"speed": "30 ft."
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 12"
+"languages": "Common plus one other language"
+"cr": "4"
+"traits":
+- "desc": "The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with\
+    \ spell attacks) that needs only verbal components to cast its spells. Its spellcasting\
+    \ ability is Intelligence, and it has the following wizard spells prepared:\n\n\
+    Cantrips (at will): [mage hand](/3-Mechanics/CLI/spells/mage-hand.md), [minor\
+    \ illusion](/3-Mechanics/CLI/spells/minor-illusion.md), [ray of frost](/3-Mechanics/CLI/spells/ray-of-frost.md)\n\
+    \n1st level (4 slots): [charm person](/3-Mechanics/CLI/spells/charm-person.md),\
+    \ [sleep](/3-Mechanics/CLI/spells/sleep.md)\n\n2nd level (3 slots): [detect\
+    \ thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md), [hold person](/3-Mechanics/CLI/spells/hold-person.md)\n\
+    \n3rd level (2 slots): [lightning bolt](/3-Mechanics/CLI/spells/lightning-bolt.md)"
+  "name": "Spellcasting"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit:\
+    \ 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage."
+  "name": "Bite"
+"source":
+- "MM"
+- "DSotDQ"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bone%20Naga%20%28Spirit%29.webp"
 ```
 ^statblock
 

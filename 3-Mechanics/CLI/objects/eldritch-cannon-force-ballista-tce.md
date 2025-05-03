@@ -18,7 +18,7 @@ aliases: ["Eldritch Cannon, Force Ballista"]
 title: Eldritch Cannon, Force Ballista
 *Unknown Unknown*
 
-- **Armor Class** 18 
+- **Armor Class** 18
 - **Speed** 
 
 |STR|DEX|CON|INT|WIS|CHA|

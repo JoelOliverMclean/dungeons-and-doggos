@@ -14,7 +14,7 @@ aliases: ["Tasha's Mind Whip"]
 ---
 # Tasha's Mind Whip
 *2nd-level, Enchantment*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/spells/TCE/Tasha's%20Mind%20Whip.webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/spells/TCE/Tasha%27s%20Mind%20Whip.webp#right)  
 
 - **Casting time:** 1 action
 - **Range:** 90 feet

@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/plant
+statblock: inline
 aliases: ["Myconid Adult"]
 ---
-# Myconid Adult
+# [Myconid Adult](3-Mechanics\CLI\bestiary\plant/myconid-adult.md)
 *Source: Monster Manual p. 232, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Myconids.webp#right)  
 Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.
 
 ## Circles and Melds
@@ -25,42 +25,57 @@ A meld is a form of communal meditation that allows myconids to transcend their 
 
 Like other fungi, myconids reproduce by mundane sporing. They carefully control their spores' release to avoid overpopulation.
 
-
-## Statblock
-
-```ad-statblock
-title: Myconid Adult
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Myconid%20Adult.webp#token)
-*Medium plant, Lawful Neutral*
-
-- **Armor Class** 12 (natural armor)
-- **Hit Points** 22 (`4d8 + 4`) 
-- **Speed** 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|10 (+0)|12 (+1)|10 (+0)|13 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 11
-- **Languages** —
-- **Challenge** 1/2
-
-## Traits
-
-***Distress Spores.*** When the myconid takes damage, all other myconids within 240 feet of it can sense its pain.
-
-***Sun Sickness.*** While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws. The myconid dies if it spends more than 1 hour in direct sunlight.
-
-## Actions
-
-***Fist.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 5 (`2d4`) bludgeoning damage plus 5 (`2d4`) poison damage.
-
-***Pacifying Spores (3/Day).*** The myconid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a DC 11 Constitution saving throw or be [stunned](/3-Mechanics/CLI/rules/conditions.md#stunned) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-***Rapport Spores.*** A 20-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.
+```statblock
+"name": "Myconid Adult"
+"size": "Medium"
+"type": "plant"
+"alignment": "Lawful Neutral"
+"ac": !!int "12"
+"ac_class": "natural armor"
+"hp": !!int "22"
+"hit_dice": "4d8 + 4"
+"stats":
+- !!int "10"
+- !!int "10"
+- !!int "12"
+- !!int "10"
+- !!int "13"
+- !!int "7"
+"speed": "20 ft."
+"senses": "darkvision 120 ft., passive Perception 11"
+"languages": ""
+"cr": "1/2"
+"traits":
+- "desc": "When the myconid takes damage, all other myconids within 240 feet of it\
+    \ can sense its pain."
+  "name": "Distress Spores"
+- "desc": "While in sunlight, the myconid has disadvantage on ability checks, attack\
+    \ rolls, and saving throws. The myconid dies if it spends more than 1 hour in\
+    \ direct sunlight."
+  "name": "Sun Sickness"
+"actions":
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4)\
+    \ bludgeoning damage plus 5 (2d4) poison damage."
+  "name": "Fist"
+- "desc": "The myconid ejects spores at one creature it can see within 5 feet of it.\
+    \ The target must succeed on a DC 11 Constitution saving throw or be [stunned](/3-Mechanics/CLI/rules/conditions.md#stunned)\
+    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success."
+  "name": "Pacifying Spores (3/Day)"
+- "desc": "A 20-foot radius of spores extends from the myconid. These spores can go\
+    \ around corners and affect only creatures with an Intelligence of 2 or higher\
+    \ that aren't undead, constructs, or elementals. Affected creatures can communicate\
+    \ telepathically with one another while they are within 30 feet of each other.\
+    \ The effect lasts for 1 hour."
+  "name": "Rapport Spores"
+"source":
+- "MM"
+- "WDMM"
+- "GoS"
+- "DoSI"
+- "KftGV"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Myconid%20Adult.webp"
 ```
 ^statblock
 

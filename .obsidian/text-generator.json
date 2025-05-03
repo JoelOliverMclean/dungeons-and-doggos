@@ -69,7 +69,7 @@
     "smartConnections": {
       "packageId": "smartConnections",
       "name": "Smart Connections Package",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "minTextGeneratorVersion": "0.6.0",
       "description": "Contains Smart Connection Templates and support for Smart Connections for other templates (Script)",
       "author": "Noureddine",
@@ -102,8 +102,7 @@
       "repo": "text-gen/gpt-3-prompt-templates",
       "folderName": "testExtension",
       "price": 20,
-      "installed": false,
-      "downloads": 0
+      "installed": false
     },
     "excalidraw": {
       "packageId": "excalidraw",

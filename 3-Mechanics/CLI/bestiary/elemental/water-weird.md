@@ -8,12 +8,12 @@ tags:
 - monster/environment/urban
 - monster/size/large
 - monster/type/elemental
+statblock: inline
 aliases: ["Water Weird"]
 ---
-# Water Weird
+# [Water Weird](3-Mechanics\CLI\bestiary\elemental/water-weird.md)
 *Source: Monster Manual p. 299*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Water%20Weird.webp#right)  
 A water weird is an elemental guardian bound to a specific water-filled location, such as a pool or fountain.
 
 Invisible while immersed in water, its serpentine shape becomes clear only when it emerges to attack, using its coils to crush any creature other than its summoner and those its summoner declares as off limits. When slain, a water weird becomes an inanimate pool of water.
@@ -33,41 +33,60 @@ A water weird doesn't require air, food, drink, or sleep.
 > Before you drink from a fountain or pool, toss a copper coin into it. It's a small price to pay for your life.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Water Weird
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Water%20Weird.webp#token)
-*Large elemental, Neutral*
-
-- **Armor Class** 13 
-- **Hit Points** 58 (`9d10 + 9`) 
-- **Speed** 0 ft., swim 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|16 (+3)|13 (+1)|11 (+0)|10 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** blindsight 30 ft., passive Perception 10
-- **Damage Resistances** fire; bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** poison
-- **Condition Immunities** [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), [prone](/3-Mechanics/CLI/rules/conditions.md#prone), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)
-- **Languages** understands Aquan but doesn't speak
-- **Challenge** 3
-
-## Traits
-
-***Invisible in Water.*** The water weird is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible) while fully immersed in water.
-
-***Water Bound.*** The water weird dies if it leaves the water to which it is bound or if that water is destroyed.
-
-## Actions
-
-***Constrict.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one creature. *Hit:* 13 (`3d6 + 3`) bludgeoning damage. If the target is Medium or smaller, it is [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 13) and pulled 5 feet toward the water weird. Until this grapple ends, the target is [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), the water weird tries to drown it, and the water weird can't constrict another target.
+```statblock
+"name": "Water Weird"
+"size": "Large"
+"type": "elemental"
+"alignment": "Neutral"
+"ac": !!int "13"
+"hp": !!int "58"
+"hit_dice": "9d10 + 9"
+"stats":
+- !!int "17"
+- !!int "16"
+- !!int "13"
+- !!int "11"
+- !!int "10"
+- !!int "10"
+"speed": "0 ft., swim 60 ft."
+"damage_resistances": "fire; bludgeoning, piercing, slashing from nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion),\
+  \ [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained),\
+  \ [prone](/3-Mechanics/CLI/rules/conditions.md#prone), [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)"
+"senses": "blindsight 30 ft., passive Perception 10"
+"languages": "understands Aquan but doesn't speak"
+"cr": "3"
+"traits":
+- "desc": "The water weird is [invisible](/3-Mechanics/CLI/rules/conditions.md#invisible)\
+    \ while fully immersed in water."
+  "name": "Invisible in Water"
+- "desc": "The water weird dies if it leaves the water to which it is bound or if\
+    \ that water is destroyed."
+  "name": "Water Bound"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit:\
+    \ 13 (3d6 + 3) bludgeoning damage. If the target is Medium or smaller, it is\
+    \ [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 13) and\
+    \ pulled 5 feet toward the water weird. Until this grapple ends, the target is\
+    \ [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained), the water weird\
+    \ tries to drown it, and the water weird can't constrict another target."
+  "name": "Constrict"
+"source":
+- "MM"
+- "PotA"
+- "TftYP"
+- "DIP"
+- "SLW"
+- "MOT"
+- "IDRotF"
+- "CM"
+- "JttRC"
+- "DSotDQ"
+- "PaBTSO"
+- "LK"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Water%20Weird.webp"
 ```
 ^statblock
 

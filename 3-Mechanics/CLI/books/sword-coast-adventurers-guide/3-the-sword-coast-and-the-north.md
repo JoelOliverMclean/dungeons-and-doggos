@@ -69,7 +69,7 @@ Baldur's Gate is ruled by the Council of Four, dukes who vote among themselves o
 
 Defense of the Upper City is handled by the Watch, the official constabulary of the city's elite. Their duty is to defend the patriars and enforce their laws, and little else. For the rest of Baldur's Gate, security is enforced and order maintained by the Flaming Fist mercenary company, a supposedly neutral force which is free to fight in external conflicts, so long as it doesn't side against Baldur's Gate. By tradition, the highest officer of the Flaming Fist is one of the city's dukes, and Grand Duke Ulder Ravengard fulfills that tradition proudly. Membership in the Flaming Fist is fairly easy to achieve, and adventurers with much experience swiftly advance in rank (and, consequently, political influence) once they become permanent members. Many ranking officers are former adventurers who have "retired" to military life.
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/book/SCAG/Sword%20Coast%20Map%20-%20Baldur's%20Gate.jpg#center)
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/book/SCAG/Sword%20Coast%20Map%20-%20Baldur%27s%20Gate.jpg#center)
 
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/book/SCAG/Baldurs%20Gate%20Map.jpg#center)
 

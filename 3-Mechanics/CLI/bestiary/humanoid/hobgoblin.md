@@ -11,12 +11,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/goblinoid
+statblock: inline
 aliases: ["Hobgoblin"]
 ---
-# Hobgoblin
+# [Hobgoblin](3-Mechanics\CLI\bestiary\humanoid/hobgoblin.md)
 *Source: Monster Manual p. 186, Lost Mine of Phandelver, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Hobgoblin.webp#right)  
 War horns sound, stones fly from catapults, and the thunder of a thousand booted feet echoes across the land as hobgoblins march to battle. Across the borderlands of civilization, settlements and settlers must contend with these aggressive humanoids, whose thirst for conquest is never satisfied.
 
 Hobgoblins have dark orange or red-orange skin, and hair ranging from dark red-brown to dark gray. Yellow or dark brown eyes peer out beneath their beetling brows, and their wide mouths sport sharp and yellowed teeth. A male hobgoblin might have a large blue or red nose, which symbolizes virility and power among goblinkin. Hobgoblins can live as long as humans, though their love of warfare and battle means that few do.
@@ -74,38 +74,56 @@ Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As 
 > Victory is ours!
 
 
-
-## Statblock
-
-```ad-statblock
-title: Hobgoblin
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Hobgoblin.webp#token)
-*Medium humanoid (goblinoid), Lawful Evil*
-
-- **Armor Class** 18 ([chain mail](/3-Mechanics/CLI/items/chain-mail.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 11 (`2d8 + 2`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|13 (+1)|12 (+1)|12 (+1)|10 (+0)|10 (+0)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Languages** Common, Goblin
-- **Challenge** 1/2
-
-## Traits
-
-***Martial Advantage.*** Once per turn, the hobgoblin can deal an extra 7 (`2d6`) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
-
-## Actions
-
-***Longsword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (`1d8 + 1`) slashing damage, or 6 (`1d10 + 1`) slashing damage if used with two hands.
-
-***Longbow.*** *Ranged Weapon Attack:* +3 to hit, range 150/600 ft., one target. *Hit:* 5 (`1d8 + 1`) piercing damage.
+```statblock
+"name": "Hobgoblin"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "goblinoid"
+"alignment": "Lawful Evil"
+"ac": !!int "18"
+"ac_class": "[chain mail](/3-Mechanics/CLI/items/chain-mail.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "11"
+"hit_dice": "2d8 + 2"
+"stats":
+- !!int "13"
+- !!int "12"
+- !!int "12"
+- !!int "10"
+- !!int "10"
+- !!int "9"
+"speed": "30 ft."
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Common, Goblin"
+"cr": "1/2"
+"traits":
+- "desc": "Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature\
+    \ it hits with a weapon attack if that creature is within 5 feet of an ally of\
+    \ the hobgoblin that isn't [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)."
+  "name": "Martial Advantage"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8\
+    \ + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands."
+  "name": "Longsword"
+- "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit:\
+    \ 5 (1d8 + 1) piercing damage."
+  "name": "Longbow"
+"source":
+- "MM"
+- "HotDQ"
+- "LMoP"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "WDMM"
+- "GoS"
+- "BGDIA"
+- "ERLW"
+- "RMBRE"
+- "EGW"
+- "WBtW"
+- "DSotDQ"
+- "PaBTSO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Hobgoblin.webp"
 ```
 ^statblock
 

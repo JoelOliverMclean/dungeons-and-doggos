@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Hook Horror"]
 ---
-# Hook Horror
+# [Hook Horror](3-Mechanics\CLI\bestiary\monstrosity/hook-horror.md)
 *Source: Monster Manual p. 189, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Hook%20Horror.webp#right)  
 A fierce predator of the Underdark, the hook horror aggressively defends its hunting grounds. The subterranean caverns where these creatures dwell echo with the constant clacking and scraping of their hooks as they wend their way up cliffs and along cavern walls. The monstrous hook horror has a head resembling a vulture's and the torso of an enormous beetle, with an exoskeleton studded by sharp, bony protuberances. It gains its name from its long, powerfully built arms and legs, which end in wickedly curved hooked claws.
 
 ## Echoes in the Dark
@@ -27,40 +27,49 @@ The omnivorous hook horrors eat lichens, fungi, plants, and any creature they ca
 
 Hook horrors live in extended family groups or clans. Each clan is ruled by the eldest female, who typically places her mate in charge of the clan's hunters. Hook horrors lay eggs, which are clustered in a central, well-defended area of a clan's home caverns.
 
-
-## Statblock
-
-```ad-statblock
-title: Hook Horror
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Hook%20Horror.webp#token)
-*Large monstrosity, Neutral*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 75 (`10d10 + 20`) 
-- **Speed** 30 ft., climb 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|10 (+0)|15 (+2)| 6 (-2)|12 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +3
-- **Senses** blindsight 60 ft., darkvision 120 ft., passive Perception 13
-- **Languages** Hook Horror
-- **Challenge** 3
-
-## Traits
-
-***Echolocation.*** The hook horror can't use its blindsight while [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened).
-
-***Keen Hearing.*** The hook horror has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on hearing.
-
-## Actions
-
-***Multiattack.*** The hook horror makes two hook attacks.
-
-***Hook.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 11 (`2d6 + 4`) piercing damage.
+```statblock
+"name": "Hook Horror"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Neutral"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "75"
+"hit_dice": "10d10 + 20"
+"stats":
+- !!int "18"
+- !!int "10"
+- !!int "15"
+- !!int "6"
+- !!int "12"
+- !!int "7"
+"speed": "30 ft., climb 30 ft."
+"skillsaves":
+  "Perception": !!int "3"
+"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 13"
+"languages": "Hook Horror"
+"cr": "3"
+"traits":
+- "desc": "The hook horror can't use its blindsight while [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened)."
+  "name": "Echolocation"
+- "desc": "The hook horror has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on hearing."
+  "name": "Keen Hearing"
+"actions":
+- "desc": "The hook horror makes two hook attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11\
+    \ (2d6 + 4) piercing damage."
+  "name": "Hook"
+"source":
+- "MM"
+- "PotA"
+- "TftYP"
+- "WDMM"
+- "LoX"
+- "KftGV"
+- "PaBTSO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Hook%20Horror.webp"
 ```
 ^statblock
 

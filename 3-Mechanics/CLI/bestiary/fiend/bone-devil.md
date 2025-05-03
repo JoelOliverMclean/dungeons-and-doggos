@@ -6,12 +6,12 @@ tags:
 - monster/cr/9
 - monster/size/large
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["Bone Devil"]
 ---
-# Bone Devil
+# [Bone Devil](3-Mechanics\CLI\bestiary\fiend/bone-devil.md)
 *Source: Monster Manual p. 71, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Bone%20Devil.webp#right)  
 Driven by hate, lust, and envy, bone devils act as the cruel taskmasters of the Nine Hells. They set weaker devils to work, taking special delight in seeing fiends that defy them demoted. At the same time, they long for promotion and are bitterly envious of their superiors, attempting to curry favor though it irks them to do so.
 
 A bone devil appears as a humanoid husk, with dried skin stretched tight across its skeletal frame. It bears a fearsome skull-like head and the tail of a scorpion, and a foul odor of decay hangs in the air around it. Though they are devastating in combat with their claws, bone devils also wield hooked polearms made of bone, which they use to subdue enemies before striking with their venomous tails.
@@ -136,44 +136,68 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
 
-
-## Statblock
-
-```ad-statblock
-title: Bone Devil
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bone%20Devil.webp#token)
-*Large fiend (devil), Lawful Evil*
-
-- **Armor Class** 19 (natural armor)
-- **Hit Points** 142 (`15d10 + 60`) 
-- **Speed** 40 ft., fly 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|16 (+3)|18 (+4)|13 (+1)|14 (+2)|16 (+3)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Intelligence +5, Wisdom +6, Charisma +7
-- **Skills** Deception +7, Insight +6
-- **Senses** darkvision 120 ft., passive Perception 12
-- **Damage Resistances** cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Infernal, telepathy 120 ft.
-- **Challenge** 9
-
-## Traits
-
-***Devil's Sight.*** Magical darkness doesn't impede the devil's darkvision.
-
-***Magic Resistance.*** The devil has advantage on saving throws against spells and other magical effects.
-
-## Actions
-
-***Multiattack.*** The devil makes three attacks: two with its claws and one with its sting.
-
-***Claw.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 8 (`1d8 + 4`) slashing damage.
-
-***Sting.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 13 (`2d8 + 4`) piercing damage plus 17 (`5d6`) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+```statblock
+"name": "Bone Devil"
+"size": "Large"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Lawful Evil"
+"ac": !!int "19"
+"ac_class": "natural armor"
+"hp": !!int "142"
+"hit_dice": "15d10 + 60"
+"stats":
+- !!int "18"
+- !!int "16"
+- !!int "18"
+- !!int "13"
+- !!int "14"
+- !!int "16"
+"speed": "40 ft., fly 40 ft."
+"saves":
+  "Charisma": !!int "7"
+  "Wisdom": !!int "6"
+  "Intelligence": !!int "5"
+"skillsaves":
+  "Deception": !!int "7"
+  "Insight": !!int "6"
+"damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
+  \ that aren't silvered"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 12"
+"languages": "Infernal, telepathy 120 ft."
+"cr": "9"
+"traits":
+- "desc": "Magical darkness doesn't impede the devil's darkvision."
+  "name": "Devil's Sight"
+- "desc": "The devil has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "The devil makes three attacks: two with its claws and one with its sting."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8\
+    \ (1d8 + 4) slashing damage."
+  "name": "Claw"
+- "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13\
+    \ (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must\
+    \ succeed on a DC 14 Constitution saving throw or become [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success."
+  "name": "Sting"
+"source":
+- "MM"
+- "RoT"
+- "ToA"
+- "WDMM"
+- "DC"
+- "DIP"
+- "BGDIA"
+- "EGW"
+- "DSotDQ"
+- "SatO"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bone%20Devil.webp"
 ```
 ^statblock

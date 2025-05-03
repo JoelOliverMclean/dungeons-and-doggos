@@ -8,12 +8,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/humanoid/kenku
+statblock: inline
 aliases: ["Kenku"]
 ---
-# Kenku
+# [Kenku](3-Mechanics\CLI\bestiary\humanoid/kenku.md)
 *Source: Monster Manual p. 194, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Kenku.webp#right)  
 Kenku are feathered humanoids that wander the world as vagabonds, driven by greed. They can perfectly imitate any sound they hear.
 
 ## Fallen Flocks
@@ -37,40 +37,57 @@ All kenku pine for the ability to fly, and thus the punishments they mete out to
 > If you hear a baby crying in an alley, walk the other way. That's my advice to you.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Kenku
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Kenku.webp#token)
-*Medium humanoid (kenku), Chaotic Neutral*
-
-- **Armor Class** 13 
-- **Hit Points** 13 (`3d8`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|16 (+3)|10 (+0)|11 (+0)|10 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Deception +4, Perception +2, Stealth +5
-- **Senses** passive Perception 12
-- **Languages** understands Auran and Common but speaks only through the use of its Mimicry trait
-- **Challenge** 1/4
-
-## Traits
-
-***Ambusher.*** In the first round of a combat, the kenku has advantage on attack rolls against any creature it surprised.
-
-***Mimicry.*** The kenku can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.
-
-## Actions
-
-***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
-
-***Shortbow.*** *Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
+```statblock
+"name": "Kenku"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "kenku"
+"alignment": "Chaotic Neutral"
+"ac": !!int "13"
+"hp": !!int "13"
+"hit_dice": "3d8"
+"stats":
+- !!int "10"
+- !!int "16"
+- !!int "10"
+- !!int "11"
+- !!int "10"
+- !!int "10"
+"speed": "30 ft."
+"skillsaves":
+  "Deception": !!int "4"
+  "Stealth": !!int "5"
+  "Perception": !!int "2"
+"senses": "passive Perception 12"
+"languages": "understands Auran and Common but speaks only through the use of its\
+  \ Mimicry trait"
+"cr": "1/4"
+"traits":
+- "desc": "In the first round of a combat, the kenku has advantage on attack rolls\
+    \ against any creature it surprised."
+  "name": "Ambusher"
+- "desc": "The kenku can mimic any sounds it has heard, including voices. A creature\
+    \ that hears the sounds can tell they are imitations with a successful DC 14 Wisdom\
+    \ (Insight) check."
+  "name": "Mimicry"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) piercing damage."
+  "name": "Shortsword"
+- "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+    \ 6 (1d6 + 3) piercing damage."
+  "name": "Shortbow"
+"source":
+- "MM"
+- "PotA"
+- "WDH"
+- "WDMM"
+- "BGDIA"
+- "ERLW"
+- "CM"
+- "JttRC"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Kenku.webp"
 ```
 ^statblock
 

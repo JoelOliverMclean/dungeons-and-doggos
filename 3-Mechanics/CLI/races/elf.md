@@ -11,7 +11,6 @@ aliases: ["Elf"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Elf.webp#right)  
 
 - **Ability Scores**: Dexterity +2
-- **Type**: race
 - **Size**: Medium
 - **Speed**: 30 ft.
 

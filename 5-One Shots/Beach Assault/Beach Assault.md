@@ -1,0 +1,1 @@
+Taking a break from adventuring and dungeon diving, you find yourselves on the golden beaches of [seaside place]. Sinking your toes into the sand, armour aside, sun warming you as you 

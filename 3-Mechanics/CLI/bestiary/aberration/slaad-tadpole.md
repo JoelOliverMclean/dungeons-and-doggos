@@ -6,12 +6,12 @@ tags:
 - monster/cr/1-8
 - monster/size/tiny
 - monster/type/aberration
+statblock: inline
 aliases: ["Slaad Tadpole"]
 ---
-# Slaad Tadpole
+# [Slaad Tadpole](3-Mechanics\CLI\bestiary\aberration/slaad-tadpole.md)
 *Source: Monster Manual p. 276*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Slaad%20Tadpole.webp#right)  
 ## Slaadi
 
 In the Ever-Changing Chaos of Limbo, bits of forest and meadow, ruined castles, and isolated islands drift through a tumult of fire, water, earth, and wind. The foremost inhabitants of this inhospitable plane are the toad-like slaadi. Slaadi are undisciplined and have no formal hierarchy, although weaker slaadi obey stronger ones under threat of annihilation.
@@ -50,34 +50,45 @@ Some slaadi can transform into the humanoid creatures from which they were origi
 > Embedded in a slaad's brain is a magic gem. Acquire it, and the slaad is yours to command.
 
 
-
-```ad-statblock
-title: Slaad Tadpole
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Slaad%20Tadpole.webp#token)
-*Tiny aberration, Chaotic Neutral*
-
-- **Armor Class** 12 
-- **Hit Points** 10 (`4d4`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 7 (-2)|15 (+2)|10 (+0)| 3 (-4)| 5 (-3)| 3 (-4)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +4
-- **Senses** darkvision 60 ft., passive Perception 7
-- **Damage Resistances** acid, cold, fire, lightning, thunder
-- **Languages** understands Slaad but can't speak
-- **Challenge** 1/8
-
-## Traits
-
-***Magic Resistance.*** The slaad has advantage on saving throws against spells and other magical effects.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.
+```statblock
+"name": "Slaad Tadpole"
+"size": "Tiny"
+"type": "aberration"
+"alignment": "Chaotic Neutral"
+"ac": !!int "12"
+"hp": !!int "10"
+"hit_dice": "4d4"
+"stats":
+- !!int "7"
+- !!int "15"
+- !!int "10"
+- !!int "3"
+- !!int "5"
+- !!int "3"
+"speed": "30 ft."
+"skillsaves":
+  "Stealth": !!int "4"
+"damage_resistances": "acid, cold, fire, lightning, thunder"
+"senses": "darkvision 60 ft., passive Perception 7"
+"languages": "understands Slaad but can't speak"
+"cr": "1/8"
+"traits":
+- "desc": "The slaad has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
+    \ + 2) piercing damage."
+  "name": "Bite"
+"source":
+- "MM"
+- "EGW"
+- "IDRotF"
+- "CM"
+- "DSotDQ"
+- "KftGV"
+- "PaBTSO"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Slaad%20Tadpole.webp"
 ```
 ^statblock

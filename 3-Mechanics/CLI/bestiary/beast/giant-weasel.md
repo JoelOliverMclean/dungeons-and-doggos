@@ -9,39 +9,47 @@ tags:
 - monster/environment/hill
 - monster/size/medium
 - monster/type/beast
+statblock: inline
 aliases: ["Giant Weasel"]
 ---
-# Giant Weasel
+# [Giant Weasel](3-Mechanics\CLI\bestiary\beast/giant-weasel.md)
 *Source: Monster Manual p. 329. Available in the SRD and the Basic Rules.*  
 
-
-```ad-statblock
-title: Giant Weasel
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Giant%20Weasel.webp#token)
-*Medium beast, Unaligned*
-
-- **Armor Class** 13 
-- **Hit Points** 9 (`2d8`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|11 (+0)|16 (+3)|10 (+0)| 4 (-3)|12 (+1)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +3, Stealth +5
-- **Senses** darkvision 60 ft., passive Perception 13
-- **Languages** —
-- **Challenge** 1/8
-
-## Traits
-
-***Keen Hearing and Smell.*** The weasel has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on hearing or smell.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) piercing damage.
+```statblock
+"name": "Giant Weasel"
+"size": "Medium"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "13"
+"hp": !!int "9"
+"hit_dice": "2d8"
+"stats":
+- !!int "11"
+- !!int "16"
+- !!int "10"
+- !!int "4"
+- !!int "12"
+- !!int "5"
+"speed": "40 ft."
+"skillsaves":
+  "Stealth": !!int "5"
+  "Perception": !!int "3"
+"senses": "darkvision 60 ft., passive Perception 13"
+"languages": ""
+"cr": "1/8"
+"traits":
+- "desc": "The weasel has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on hearing or smell."
+  "name": "Keen Hearing and Smell"
+"actions":
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
+    \ + 3) piercing damage."
+  "name": "Bite"
+"source":
+- "MM"
+- "TftYP"
+- "GoS"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Giant%20Weasel.webp"
 ```
 ^statblock
 

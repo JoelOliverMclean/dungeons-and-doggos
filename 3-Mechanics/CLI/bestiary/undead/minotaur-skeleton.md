@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/undead
+statblock: inline
 aliases: ["Minotaur Skeleton"]
 ---
-# Minotaur Skeleton
+# [Minotaur Skeleton](3-Mechanics\CLI\bestiary\undead/minotaur-skeleton.md)
 *Source: Monster Manual p. 273, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Minotaur%20Skeleton.webp#right)  
 Skeletons arise when animated by dark magic. They heed the summons of spellcasters who call them from their stony tombs and ancient battlefields, or rise of their own accord in places saturated with death and loss, awakened by stirrings of necromantic energy or the presence of corrupting evil.
 
 ## Animated Dead
@@ -39,41 +39,57 @@ When skeletons encounter living creatures, the necromantic energy that drives th
 
 A skeleton doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Minotaur Skeleton
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Minotaur%20Skeleton.webp#token)
-*Large undead, Lawful Evil*
-
-- **Armor Class** 12 (natural armor)
-- **Hit Points** 67 (`9d10 + 18`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|11 (+0)|15 (+2)| 6 (-2)| 8 (-1)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Damage Vulnerabilities** bludgeoning
-- **Damage Immunities** poison
-- **Condition Immunities** [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands Abyssal but can't speak
-- **Challenge** 2
-
-## Traits
-
-***Charge.*** If the skeleton moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (`2d8`) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
-
-## Actions
-
-***Greataxe.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17 (`2d12 + 4`) slashing damage.
-
-***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) piercing damage.
+```statblock
+"name": "Minotaur Skeleton"
+"size": "Large"
+"type": "undead"
+"alignment": "Lawful Evil"
+"ac": !!int "12"
+"ac_class": "natural armor"
+"hp": !!int "67"
+"hit_dice": "9d10 + 18"
+"stats":
+- !!int "18"
+- !!int "11"
+- !!int "15"
+- !!int "6"
+- !!int "8"
+- !!int "5"
+"speed": "40 ft."
+"damage_vulnerabilities": "bludgeoning"
+"damage_immunities": "poison"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "understands Abyssal but can't speak"
+"cr": "2"
+"traits":
+- "desc": "If the skeleton moves at least 10 feet straight toward a target and then\
+    \ hits it with a gore attack on the same turn, the target takes an extra 9 (2d8)\
+    \ piercing damage. If the target is a creature, it must succeed on a DC 14 Strength\
+    \ saving throw or be pushed up to 10 feet away and knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Charge"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
+    \ (2d12 + 4) slashing damage."
+  "name": "Greataxe"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d8 + 4) piercing damage."
+  "name": "Gore"
+"source":
+- "MM"
+- "ToA"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "DIP"
+- "SDW"
+- "BGDIA"
+- "IMR"
+- "DSotDQ"
+- "KftGV"
+- "AATM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Minotaur%20Skeleton.webp"
 ```
 ^statblock
 

@@ -9,12 +9,12 @@ tags:
 - monster/environment/mountain
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Bulette"]
 ---
-# Bulette
+# [Bulette](3-Mechanics\CLI\bestiary\monstrosity/bulette.md)
 *Source: Monster Manual p. 34. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Bulette.webp#right)  
 A bulette is a massive predator that terrorizes any lands it inhabits. Also called a "land shark," it lives only to feed. Irascible and rapacious, bulettes fear no other creature, and they attack with no regard for superior numbers or strength.
 
 ## Underground Hunters
@@ -33,38 +33,56 @@ All creatures shun bulettes, which treat anything that moves as food-even other 
 
 Some sages believe the bulette is the result of a mad wizard's experiments at crossbreeding snapping turtles and armadillos, within fusions of demon ichor. Bulettes have been thought to be extinct at different times, but after years without a sighting, the creatures inevitably reappear. Because their young are almost never seen, some sages suspect that bulettes maintain secret nesting grounds from which adults strike out into the world.
 
-
-## Statblock
-
-```ad-statblock
-title: Bulette
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bulette.webp#token)
-*Large monstrosity, Unaligned*
-
-- **Armor Class** 17 (natural armor)
-- **Hit Points** 94 (`9d10 + 45`) 
-- **Speed** 40 ft., burrow 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|11 (+0)|21 (+5)| 2 (-4)|10 (+0)| 5 (-3)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** ⏤
-- **Skills** Perception +6
-- **Senses** darkvision 60 ft., tremorsense 60 ft., passive Perception 16
-- **Languages** —
-- **Challenge** 5
-
-## Traits
-
-***Standing Leap.*** The bulette's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 30 (`4d12 + 4`) piercing damage.
-
-***Deadly Leap.*** If the bulette jumps at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone) and take 14 (`3d6 + 4`) bludgeoning damage plus 14 (`3d6 + 4`) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone), and is pushed 5 feet out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls [prone](/3-Mechanics/CLI/rules/conditions.md#prone) in the bulette's space.
+```statblock
+"name": "Bulette"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Unaligned"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "94"
+"hit_dice": "9d10 + 45"
+"stats":
+- !!int "19"
+- !!int "11"
+- !!int "21"
+- !!int "2"
+- !!int "10"
+- !!int "5"
+"speed": "40 ft., burrow 40 ft."
+"skillsaves":
+  "Perception": !!int "6"
+"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16"
+"languages": ""
+"cr": "5"
+"traits":
+- "desc": "The bulette's long jump is up to 30 feet and its high jump is up to 15\
+    \ feet, with or without a running start."
+  "name": "Standing Leap"
+"actions":
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30\
+    \ (4d12 + 4) piercing damage."
+  "name": "Bite"
+- "desc": "If the bulette jumps at least 15 feet as part of its movement, it can then\
+    \ use this action to land on its feet in a space that contains one or more other\
+    \ creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity\
+    \ saving throw (target's choice) or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)\
+    \ and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage.\
+    \ On a successful save, the creature takes only half the damage, isn't knocked\
+    \ [prone](/3-Mechanics/CLI/rules/conditions.md#prone), and is pushed 5 feet out\
+    \ of the bulette's space into an unoccupied space of the creature's choice. If\
+    \ no unoccupied space is within range, the creature instead falls [prone](/3-Mechanics/CLI/rules/conditions.md#prone)\
+    \ in the bulette's space."
+  "name": "Deadly Leap"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "IDRotF"
+- "JttRC"
+- "LoX"
+- "DSotDQ"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bulette.webp"
 ```
 ^statblock
 

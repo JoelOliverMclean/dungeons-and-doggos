@@ -6,12 +6,12 @@ tags:
 - monster/cr/1-8
 - monster/size/small
 - monster/type/fiend/demon
+statblock: inline
 aliases: ["Manes"]
 ---
-# Manes
+# [Manes](3-Mechanics\CLI\bestiary\fiend/manes.md)
 *Source: Monster Manual p. 60*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Manes.webp#right)  
 Souls of evil creatures that descend to the Lower Planes are transformed into manes-the lowest form of demonkind. These wretched fiends attack any non-demon they see, and they are called to the Material Plane by those seeking to sow death and chaos.
 
 Orcus, the Prince of Undeath, has the power to transform manes into undead monsters, most often ghouls and shadows. Other demon lords feed on manes, destroying them utterly. Otherwise, killing a manes causes it to dissipate into a cloud of reeking vapor that reforms into another manes after one day.
@@ -187,34 +187,45 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > Demons are painfully difficult to summon and control. It is not a burden for the weak of heart or the weak of spirit.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Manes
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Manes.webp#token)
-*Small fiend (demon), Chaotic Evil*
-
-- **Armor Class** 9 (natural armor)
-- **Hit Points** 9 (`2d6 + 2`) 
-- **Speed** 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)| 9 (-1)|13 (+1)| 3 (-4)| 8 (-1)| 4 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Damage Resistances** cold, fire, lightning
-- **Damage Immunities** poison
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands Abyssal but can't speak
-- **Challenge** 1/8
-
-## Actions
-
-***Claws.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 5 (`2d4`) slashing damage.
+```statblock
+"name": "Manes"
+"size": "Small"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Chaotic Evil"
+"ac": !!int "9"
+"ac_class": "natural armor"
+"hp": !!int "9"
+"hit_dice": "2d6 + 2"
+"stats":
+- !!int "10"
+- !!int "9"
+- !!int "13"
+- !!int "3"
+- !!int "8"
+- !!int "4"
+"speed": "20 ft."
+"damage_resistances": "cold, fire, lightning"
+"damage_immunities": "poison"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "understands Abyssal but can't speak"
+"cr": "1/8"
+"actions":
+- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4)\
+    \ slashing damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "TftYP"
+- "GoS"
+- "BGDIA"
+- "IMR"
+- "WBtW"
+- "CRCotN"
+- "PSI"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Manes.webp"
 ```
 ^statblock

@@ -21,7 +21,7 @@ As an Aberrant Mind sorcerer, you decide how you acquired your powers. Were you 
 
 **Aberrant Origins**
 
-`dice: [](sorcerer.md#^aberrant-origins)`
+`dice: [](sorcerer-aberrant-mind-tce.md#^aberrant-origins)`
 
 | dice: d6 | Origin |
 |----------|--------|

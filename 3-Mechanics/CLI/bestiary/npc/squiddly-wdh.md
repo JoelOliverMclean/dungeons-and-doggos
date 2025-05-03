@@ -6,31 +6,33 @@ tags:
 - monster/cr/unknown
 - monster/size/small
 - monster/type/humanoid/tiefling
+statblock: inline
 aliases: ["Squiddly"]
 ---
-# Squiddly
+# [Squiddly](3-Mechanics\CLI\bestiary\npc/squiddly-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 63*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/WDH/Autumn-Scene.webp#center) 
-
-```ad-statblock
-title: Squiddly
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Squiddly.webp#token)
-*Small humanoid (tiefling), Neutral*
-
-- **Armor Class** 10 
-- **Hit Points** 1  
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +25002
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** passive Perception 10
-- **Languages** —
-- **Challenge** Unknown
+```statblock
+"name": "Squiddly (WDH)"
+"size": "Small"
+"type": "humanoid"
+"subtype": "tiefling"
+"alignment": "Neutral"
+"ac": !!int "10"
+"hp": !!int "1"
+"stats":
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+"speed": "30 ft."
+"senses": "passive Perception 10"
+"languages": ""
+"cr": "Unknown"
+"source":
+- "WDH"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/WDH/Squiddly.webp"
 ```
 ^statblock

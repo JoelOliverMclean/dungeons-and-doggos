@@ -6,12 +6,12 @@ tags:
 - monster/cr/4
 - monster/size/medium
 - monster/type/construct
+statblock: inline
 aliases: ["Helmed Horror"]
 ---
-# Helmed Horror
+# [Helmed Horror](3-Mechanics\CLI\bestiary\construct/helmed-horror.md)
 *Source: Monster Manual p. 183, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Helmed%20Horror.webp#right)  
 This construct possesses intelligence, the ability to reason and adjust its tactics, and an unswerving devotion to its maker that persists even after its maker's demise. Resembling an animated suit of empty plate armor, a helmed horror serves without ambition or emotion.
 
 ## Magical Purpose
@@ -26,42 +26,65 @@ A helmed horror fights with the cunning of a skilled warrior, taking to the air 
 
 A helmed horror doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Helmed Horror
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Helmed%20Horror.webp#token)
-*Medium construct, Unaligned*
-
-- **Armor Class** 20 ([plate armor](/3-Mechanics/CLI/items/plate-armor.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 60 (`8d8 + 24`) 
-- **Speed** 30 ft., fly 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|13 (+1)|16 (+3)|10 (+0)|10 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +4
-- **Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 14
-- **Damage Resistances** bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine
-- **Damage Immunities** force, necrotic, poison
-- **Condition Immunities** [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded), [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned), [stunned](/3-Mechanics/CLI/rules/conditions.md#stunned)
-- **Languages** understands the languages of its creator but can't speak
-- **Challenge** 4
-
-## Traits
-
-***Magic Resistance.*** The helmed horror has advantage on saving throws against spells and other magical effects.
-
-***Spell Immunity.*** The helmed horror is immune to three spells chosen by its creator. Typical immunities include [fireball](/3-Mechanics/CLI/spells/fireball.md), [heat metal](/3-Mechanics/CLI/spells/heat-metal.md), and [lightning bolt](/3-Mechanics/CLI/spells/lightning-bolt.md).
-
-## Actions
-
-***Multiattack.*** The helmed horror makes two longsword attacks.
-
-***Longsword.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) slashing damage, or 9 (`1d10 + 4`) slashing damage if used with two hands.
+```statblock
+"name": "Helmed Horror"
+"size": "Medium"
+"type": "construct"
+"alignment": "Unaligned"
+"ac": !!int "20"
+"ac_class": "[plate armor](/3-Mechanics/CLI/items/plate-armor.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "60"
+"hit_dice": "8d8 + 24"
+"stats":
+- !!int "18"
+- !!int "13"
+- !!int "16"
+- !!int "10"
+- !!int "10"
+- !!int "10"
+"speed": "30 ft., fly 30 ft."
+"skillsaves":
+  "Perception": !!int "4"
+"damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
+  \ aren't adamantine"
+"damage_immunities": "force, necrotic, poison"
+"condition_immunities": "[blinded](/3-Mechanics/CLI/rules/conditions.md#blinded),\
+  \ [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened),\
+  \ [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed),\
+  \ [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned),\
+  \ [stunned](/3-Mechanics/CLI/rules/conditions.md#stunned)"
+"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 14"
+"languages": "understands the languages of its creator but can't speak"
+"cr": "4"
+"traits":
+- "desc": "The helmed horror has advantage on saving throws against spells and other\
+    \ magical effects."
+  "name": "Magic Resistance"
+- "desc": "The helmed horror is immune to three spells chosen by its creator. Typical\
+    \ immunities include [fireball](/3-Mechanics/CLI/spells/fireball.md), [heat metal](/3-Mechanics/CLI/spells/heat-metal.md),\
+    \ and [lightning bolt](/3-Mechanics/CLI/spells/lightning-bolt.md)."
+  "name": "Spell Immunity"
+"actions":
+- "desc": "The helmed horror makes two longsword attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
+    \ + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+  "name": "Longsword"
+"source":
+- "MM"
+- "HotDQ"
+- "PotA"
+- "RoT"
+- "SKT"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "BGDIA"
+- "IDRotF"
+- "JttRC"
+- "KftGV"
+- "PaBTSO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Helmed%20Horror.webp"
 ```
 ^statblock

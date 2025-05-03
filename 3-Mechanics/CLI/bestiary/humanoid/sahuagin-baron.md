@@ -8,12 +8,12 @@ tags:
 - monster/environment/underwater
 - monster/size/large
 - monster/type/humanoid/sahuagin
+statblock: inline
 aliases: ["Sahuagin Baron"]
 ---
-# Sahuagin Baron
+# [Sahuagin Baron](3-Mechanics\CLI\bestiary\humanoid/sahuagin-baron.md)
 *Source: Monster Manual p. 264, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Sahuagin%20Baron.webp#right)  
 Across fog-shrouded coasts or endless ocean swells, an ominous drone sounded on a conch shell chills the blood of all who hear it. This is the sound of the sahuagin hunting horn-a call to raid and battle. Coastal settlers refer to sahuagin as "sea devils," for sahuagin have no compassion in them, slaughtering the crews of ships and decimating coastal villages.
 
 ## Devils of the Deep
@@ -41,46 +41,66 @@ The sahuagin put the malenti to good use as spies and assassins in aquatic elf c
 > TThe village was empty, the seagulls were strangely quiet, and all we could hear was the surge of the sea.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Sahuagin Baron
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Sahuagin%20Baron.webp#token)
-*Large humanoid (sahuagin), Lawful Evil*
-
-- **Armor Class** 16 ([breastplate](/3-Mechanics/CLI/items/breastplate.md))
-- **Hit Points** 76 (`9d10 + 27`) 
-- **Speed** 30 ft., swim 50 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|15 (+2)|16 (+3)|14 (+2)|13 (+1)|17 (+3)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Dexterity +5, Constitution +6, Intelligence +5, Wisdom +4
-- **Skills** Perception +7
-- **Senses** darkvision 120 ft., passive Perception 17
-- **Languages** Sahuagin
-- **Challenge** 5
-
-## Traits
-
-***Blood Frenzy.*** The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points.
-
-***Limited Amphibiousness.*** The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.
-
-***Shark Telepathy.*** The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy.
-
-## Actions
-
-***Multiattack.*** The sahuagin makes three attacks: one with his bite and two with his claws or trident.
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9 (`2d4 + 4`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) slashing damage.
-
-***Trident.*** *Melee or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 11 (`2d6 + 4`) piercing damage, or 13 (`2d8 + 4`) piercing damage if used with two hands to make a melee attack.
+```statblock
+"name": "Sahuagin Baron"
+"size": "Large"
+"type": "humanoid"
+"subtype": "sahuagin"
+"alignment": "Lawful Evil"
+"ac": !!int "16"
+"ac_class": "[breastplate](/3-Mechanics/CLI/items/breastplate.md)"
+"hp": !!int "76"
+"hit_dice": "9d10 + 27"
+"stats":
+- !!int "19"
+- !!int "15"
+- !!int "16"
+- !!int "14"
+- !!int "13"
+- !!int "17"
+"speed": "30 ft., swim 50 ft."
+"saves":
+  "Dexterity": !!int "5"
+  "Wisdom": !!int "4"
+  "Intelligence": !!int "5"
+  "Constitution": !!int "6"
+"skillsaves":
+  "Perception": !!int "7"
+"senses": "darkvision 120 ft., passive Perception 17"
+"languages": "Sahuagin"
+"cr": "5"
+"traits":
+- "desc": "The sahuagin has advantage on melee attack rolls against any creature that\
+    \ doesn't have all its hit points."
+  "name": "Blood Frenzy"
+- "desc": "The sahuagin can breathe air and water, but it needs to be submerged at\
+    \ least once every 4 hours to avoid suffocating."
+  "name": "Limited Amphibiousness"
+- "desc": "The sahuagin can magically command any shark within 120 feet of it, using\
+    \ a limited telepathy."
+  "name": "Shark Telepathy"
+"actions":
+- "desc": "The sahuagin makes three attacks: one with his bite and two with his claws\
+    \ or trident."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (2d4\
+    \ + 4) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) slashing damage."
+  "name": "Claws"
+- "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing\
+    \ damage if used with two hands to make a melee attack."
+  "name": "Trident"
+"source":
+- "MM"
+- "TftYP"
+- "WDMM"
+- "GoS"
+- "JttRC"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Sahuagin%20Baron.webp"
 ```
 ^statblock
 

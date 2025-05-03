@@ -10,7 +10,6 @@ aliases: ["Aasimar (DMG)"]
 *Source: Dungeon Master's Guide p. 286*  
 
 - **Ability Scores**: Wisdom +1, Charisma +2
-- **Type**: race
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma

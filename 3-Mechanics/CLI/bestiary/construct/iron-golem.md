@@ -6,12 +6,12 @@ tags:
 - monster/cr/16
 - monster/size/large
 - monster/type/construct
+statblock: inline
 aliases: ["Iron Golem"]
 ---
-# Iron Golem
+# [Iron Golem](3-Mechanics\CLI\bestiary\construct/iron-golem.md)
 *Source: Monster Manual p. 170, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Iron%20Golem.webp#right)  
 The mightiest of the golems, the iron golem is a massive, towering giant wrought of heavy metal. An iron golem's shape can be worked into any form, though most are fashioned to look like giant suits of armor. Its fist can destroy creatures with a single blow, and its clanging steps shake the earth beneath its feet. Iron golems wield enormous blades to extend their reach, and all can belch clouds of deadly poison.
 
 An iron golem's body is smelted with rare tinctures and admixtures. Though other golems bear weaknesses inherent in their materials or the power of the elemental spirit bound within them, iron golems were designed to be nearly invulnerable. Their iron bodies imprison the spirits that drive them, and are susceptible only to weapons imbued with magic or the strength of adamantine.
@@ -48,49 +48,68 @@ When its creator or possessor is on hand to command it, a golem performs flawles
 
 A golem doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Iron Golem
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Iron%20Golem.webp#token)
-*Large construct, Unaligned*
-
-- **Armor Class** 20 (natural armor)
-- **Hit Points** 210 (`20d10 + 100`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|24 (+7)| 9 (-1)|20 (+5)| 3 (-4)|11 (+0)| 1 (-5)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 10
-- **Damage Immunities** fire; poison; psychic; bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine
-- **Condition Immunities** [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** understands the languages of its creator but can't speak
-- **Challenge** 16
-
-## Traits
-
-***Fire Absorption.*** Whenever the golem is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt.
-
-***Immutable Form.*** The golem is immune to any spell or effect that would alter its form.
-
-***Magic Resistance.*** The golem has advantage on saving throws against spells and other magical effects.
-
-***Magic Weapons.*** The golem's weapon attacks are magical.
-
-## Actions
-
-***Multiattack.*** The golem makes two melee attacks.
-
-***Slam.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 20 (`3d8 + 7`) bludgeoning damage.
-
-***Sword.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 23 (`3d10 + 7`) slashing damage.
-
-***Poison Breath (Recharge 5-6).*** The golem exhales poisonous gas in a 15-foot cone. Each creature in that area must make a DC 19 Constitution saving throw, taking 45 (`10d8`) poison damage on a failed save, or half as much damage on a successful one.
+```statblock
+"name": "Iron Golem"
+"size": "Large"
+"type": "construct"
+"alignment": "Unaligned"
+"ac": !!int "20"
+"ac_class": "natural armor"
+"hp": !!int "210"
+"hit_dice": "20d10 + 100"
+"stats":
+- !!int "24"
+- !!int "9"
+- !!int "20"
+- !!int "3"
+- !!int "11"
+- !!int "1"
+"speed": "30 ft."
+"damage_immunities": "fire; poison; psychic; bludgeoning, piercing, slashing from\
+  \ nonmagical attacks that aren't adamantine"
+"condition_immunities": "[charmed](/3-Mechanics/CLI/rules/conditions.md#charmed),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened),\
+  \ [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), [petrified](/3-Mechanics/CLI/rules/conditions.md#petrified),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 10"
+"languages": "understands the languages of its creator but can't speak"
+"cr": "16"
+"traits":
+- "desc": "Whenever the golem is subjected to fire damage, it takes no damage and\
+    \ instead regains a number of hit points equal to the fire damage dealt."
+  "name": "Fire Absorption"
+- "desc": "The golem is immune to any spell or effect that would alter its form."
+  "name": "Immutable Form"
+- "desc": "The golem has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The golem's weapon attacks are magical."
+  "name": "Magic Weapons"
+"actions":
+- "desc": "The golem makes two melee attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 20\
+    \ (3d8 + 7) bludgeoning damage."
+  "name": "Slam"
+- "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 23\
+    \ (3d10 + 7) slashing damage."
+  "name": "Sword"
+- "desc": "The golem exhales poisonous gas in a 15-foot cone. Each creature in that\
+    \ area must make a DC 19 Constitution saving throw, taking 45 (10d8) poison\
+    \ damage on a failed save, or half as much damage on a successful one."
+  "name": "Poison Breath (Recharge 5-6)"
+"source":
+- "MM"
+- "CoS"
+- "SKT"
+- "WDMM"
+- "GoS"
+- "EGW"
+- "MOT"
+- "IDRotF"
+- "SatO"
+- "BMT"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Iron%20Golem.webp"
 ```
 ^statblock

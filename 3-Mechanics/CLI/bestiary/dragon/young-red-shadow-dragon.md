@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/dragon
+statblock: inline
 aliases: ["Young Red Shadow Dragon"]
 ---
-# Young Red Shadow Dragon
+# [Young Red Shadow Dragon](3-Mechanics\CLI\bestiary\dragon/young-red-shadow-dragon.md)
 *Source: Monster Manual p. 85*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Shadow%20Dragon.webp#right)  
 Shadow dragons are true dragons that were either born in the Shadowfell or transformed by years spent within its dismal confines. Some shadow dragons embrace the Shadowfell for its bleak landscapes and desolation. Others seek to return to the Material Plane, hungry to spread the darkness and evil of the Plane of Shadow.
 
 ## Dark Portals
@@ -61,48 +61,67 @@ If the dragon deals acid, cold, fire, lightning, or poison damage with its bite,
 
 Any damage-dealing breath weapon possessed by the dragon deals necrotic damage instead of its original damage type. A humanoid reduced to 0 hit points by this damage dies, and an undead shadow rises from its corpse and acts immediately after the dragon in the initiative count. The shadow is under the dragon's control.
 
-
-## Statblock
-
-```ad-statblock
-title: Young Red Shadow Dragon
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Red%20Shadow%20Dragon.webp#token)
-*Large dragon, Chaotic Evil*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 178 (`17d10 + 85`) 
-- **Speed** 40 ft., climb 40 ft., fly 80 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|23 (+6)|10 (+0)|21 (+5)|14 (+2)|11 (+0)|19 (+4)|
-
-- **Proficiency Bonus** +5
-- **Saving Throws** Dexterity +5, Constitution +10, Wisdom +5, Charisma +9
-- **Skills** Perception +10, Stealth +10
-- **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 18
-- **Damage Resistances** necrotic
-- **Damage Immunities** fire
-- **Languages** Common, Draconic
-- **Challenge** 13
-
-## Traits
-
-***Living Shadow.*** While in dim light or darkness, the dragon has resistance to damage that isn't force, psychic, or radiant.
-
-***Shadow Stealth.*** While in dim light or darkness, the dragon can take the Hide action as a bonus action.
-
-***Sunlight Sensitivity.*** While in sunlight, the dragon has disadvantage on attack rolls, as well as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
-
-## Actions
-
-***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (`2d10 + 6`) piercing damage plus 3 (`1d6`) necrotic damage.
-
-***Claw.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 13 (`2d6 + 6`) slashing damage.
-
-***Shadow Breath (Recharge 5-6).*** The dragon exhales shadowy fire in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 56 (`16d6`) necrotic damage on a failed save, or half as much damage on a successful one. A humanoid reduced to 0 hit points by this damage dies, and an undead [shadow](/3-Mechanics/CLI/bestiary/undead/shadow.md) rises from its corpse and acts immediately after the dragon in the initiative count. The shadow is under the dragon's control.
+```statblock
+"name": "Young Red Shadow Dragon"
+"size": "Large"
+"type": "dragon"
+"alignment": "Chaotic Evil"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "178"
+"hit_dice": "17d10 + 85"
+"stats":
+- !!int "23"
+- !!int "10"
+- !!int "21"
+- !!int "14"
+- !!int "11"
+- !!int "19"
+"speed": "40 ft., climb 40 ft., fly 80 ft."
+"saves":
+  "Charisma": !!int "9"
+  "Dexterity": !!int "5"
+  "Wisdom": !!int "5"
+  "Constitution": !!int "10"
+"skillsaves":
+  "Stealth": !!int "10"
+  "Perception": !!int "10"
+"damage_resistances": "necrotic"
+"damage_immunities": "fire"
+"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+"languages": "Common, Draconic"
+"cr": "13"
+"traits":
+- "desc": "While in dim light or darkness, the dragon has resistance to damage that\
+    \ isn't force, psychic, or radiant."
+  "name": "Living Shadow"
+- "desc": "While in dim light or darkness, the dragon can take the Hide action as\
+    \ a bonus action."
+  "name": "Shadow Stealth"
+- "desc": "While in sunlight, the dragon has disadvantage on attack rolls, as well\
+    \ as on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks\
+    \ that rely on sight."
+  "name": "Sunlight Sensitivity"
+"actions":
+- "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17\
+    \ (2d10 + 6) piercing damage plus 3 (1d6) necrotic damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13\
+    \ (2d6 + 6) slashing damage."
+  "name": "Claw"
+- "desc": "The dragon exhales shadowy fire in a 30-foot cone. Each creature in that\
+    \ area must make a DC 18 Dexterity saving throw, taking 56 (16d6) necrotic damage\
+    \ on a failed save, or half as much damage on a successful one. A humanoid reduced\
+    \ to 0 hit points by this damage dies, and an undead [shadow](/3-Mechanics/CLI/bestiary/undead/shadow.md)\
+    \ rises from its corpse and acts immediately after the dragon in the initiative\
+    \ count. The shadow is under the dragon's control."
+  "name": "Shadow Breath (Recharge 5-6)"
+"source":
+- "MM"
+- "AATM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Young%20Red%20Shadow%20Dragon.webp"
 ```
 ^statblock
 

@@ -16,44 +16,44 @@ An illusion of one or more creatures forms over the thrown card and remains unti
 
 The illusion lasts until its card is moved or the illusion is dispelled. When the illusion ends, the image on its card disappears, and that card can't be used again.
 
-`dice: [](deck-of-illusions.md#^1-illusion)`
+`dice: [](deck-of-illusions.md#^1-playing-card-illusion)`
 
-| dice: 1d33 | Illusion |
-|------------|----------|
-| 1 | [Red dragon](/3-Mechanics/CLI/bestiary/dragon/adult-red-dragon.md) |
-| 2 | [Knight](/3-Mechanics/CLI/bestiary/humanoid/knight.md) and four [guards](/3-Mechanics/CLI/bestiary/humanoid/guard.md) |
-| 3 | [Succubus/Incubus](/3-Mechanics/CLI/bestiary/fiend/succubus.md) |
-| 4 | [Druid](/3-Mechanics/CLI/bestiary/humanoid/druid.md) |
-| 5 | [Cloud giant](/3-Mechanics/CLI/bestiary/giant/cloud-giant.md) |
-| 6 | [Ettin](/3-Mechanics/CLI/bestiary/giant/ettin.md) |
-| 7 | [Bugbear](/3-Mechanics/CLI/bestiary/humanoid/bugbear.md) |
-| 8 | [Goblin](/3-Mechanics/CLI/bestiary/humanoid/goblin.md) |
-| 9 | [Beholder](/3-Mechanics/CLI/bestiary/aberration/beholder.md) |
-| 10 | [Archmage](/3-Mechanics/CLI/bestiary/humanoid/archmage.md) and [mage](/3-Mechanics/CLI/bestiary/humanoid/mage.md) apprentice |
-| 11 | [Night hag](/3-Mechanics/CLI/bestiary/fiend/night-hag.md) |
-| 12 | [Assassin](/3-Mechanics/CLI/bestiary/humanoid/assassin.md) |
-| 13 | [Fire giant](/3-Mechanics/CLI/bestiary/giant/fire-giant.md) |
-| 14 | [Ogre mage](/3-Mechanics/CLI/bestiary/giant/oni.md) |
-| 15 | [Gnoll](/3-Mechanics/CLI/bestiary/humanoid/gnoll.md) |
-| 16 | [Kobold](/3-Mechanics/CLI/bestiary/humanoid/kobold.md) |
-| 17 | [Lich](/3-Mechanics/CLI/bestiary/undead/lich.md) |
-| 18 | [Priest](/3-Mechanics/CLI/bestiary/humanoid/priest.md) and two [acolytes](/3-Mechanics/CLI/bestiary/humanoid/acolyte.md) |
-| 19 | [Medusa](/3-Mechanics/CLI/bestiary/monstrosity/medusa.md) |
-| 20 | [Veteran](/3-Mechanics/CLI/bestiary/humanoid/veteran.md) |
-| 21 | [Frost giant](/3-Mechanics/CLI/bestiary/giant/frost-giant.md) |
-| 22 | [Troll](/3-Mechanics/CLI/bestiary/giant/troll.md) |
-| 23 | [Hobgoblin](/3-Mechanics/CLI/bestiary/humanoid/hobgoblin.md) |
-| 24 | [Goblin](/3-Mechanics/CLI/bestiary/humanoid/goblin.md) |
-| 25 | [Iron golem](/3-Mechanics/CLI/bestiary/construct/iron-golem.md) |
-| 26 | [Bandit captain](/3-Mechanics/CLI/bestiary/humanoid/bandit-captain.md) and three [bandits](/3-Mechanics/CLI/bestiary/humanoid/bandit.md) |
-| 27 | [Erinyes](/3-Mechanics/CLI/bestiary/fiend/erinyes.md) |
-| 28 | [Berserker](/3-Mechanics/CLI/bestiary/humanoid/berserker.md) |
-| 29 | [Hill giant](/3-Mechanics/CLI/bestiary/giant/hill-giant.md) |
-| 30 | [Ogre](/3-Mechanics/CLI/bestiary/giant/ogre.md) |
-| 31 | [Orc](/3-Mechanics/CLI/bestiary/humanoid/orc.md) |
-| 32 | [Kobold](/3-Mechanics/CLI/bestiary/humanoid/kobold.md) |
-| 33-34 | You (the deck's owner) |
-^1-illusion
+| dice: 1d33 | Playing Card | Illusion |
+|------------|--------------|----------|
+| 1 | Ace of hearts | [Red dragon](/3-Mechanics/CLI/bestiary/dragon/adult-red-dragon.md) |
+| 2 | King of hearts | [Knight](/3-Mechanics/CLI/bestiary/humanoid/knight.md) and four [guards](/3-Mechanics/CLI/bestiary/humanoid/guard.md) |
+| 3 | Queen of hearts | [Succubus/Incubus](/3-Mechanics/CLI/bestiary/fiend/succubus.md) |
+| 4 | Jack of hearts | [Druid](/3-Mechanics/CLI/bestiary/humanoid/druid.md) |
+| 5 | Ten of hearts | [Cloud giant](/3-Mechanics/CLI/bestiary/giant/cloud-giant.md) |
+| 6 | Nine of hearts | [Ettin](/3-Mechanics/CLI/bestiary/giant/ettin.md) |
+| 7 | Eight of hearts | [Bugbear](/3-Mechanics/CLI/bestiary/humanoid/bugbear.md) |
+| 8 | Two of hearts | [Goblin](/3-Mechanics/CLI/bestiary/humanoid/goblin.md) |
+| 9 | Ace of diamonds | [Beholder](/3-Mechanics/CLI/bestiary/aberration/beholder.md) |
+| 10 | King of diamonds | [Archmage](/3-Mechanics/CLI/bestiary/humanoid/archmage.md) and [mage](/3-Mechanics/CLI/bestiary/humanoid/mage.md) apprentice |
+| 11 | Queen of diamonds | [Night hag](/3-Mechanics/CLI/bestiary/fiend/night-hag.md) |
+| 12 | Jack of diamonds | [Assassin](/3-Mechanics/CLI/bestiary/humanoid/assassin.md) |
+| 13 | Ten of diamonds | [Fire giant](/3-Mechanics/CLI/bestiary/giant/fire-giant.md) |
+| 14 | Nine of diamonds | [Ogre mage](/3-Mechanics/CLI/bestiary/giant/oni.md) |
+| 15 | Eight of diamonds | [Gnoll](/3-Mechanics/CLI/bestiary/humanoid/gnoll.md) |
+| 16 | Two of diamonds | [Kobold](/3-Mechanics/CLI/bestiary/humanoid/kobold.md) |
+| 17 | Ace of spades | [Lich](/3-Mechanics/CLI/bestiary/undead/lich.md) |
+| 18 | King of spades | [Priest](/3-Mechanics/CLI/bestiary/humanoid/priest.md) and two [acolytes](/3-Mechanics/CLI/bestiary/humanoid/acolyte.md) |
+| 19 | Queen of spades | [Medusa](/3-Mechanics/CLI/bestiary/monstrosity/medusa.md) |
+| 20 | Jack of spades | [Veteran](/3-Mechanics/CLI/bestiary/humanoid/veteran.md) |
+| 21 | Ten of spades | [Frost giant](/3-Mechanics/CLI/bestiary/giant/frost-giant.md) |
+| 22 | Nine of spades | [Troll](/3-Mechanics/CLI/bestiary/giant/troll.md) |
+| 23 | Eight of spades | [Hobgoblin](/3-Mechanics/CLI/bestiary/humanoid/hobgoblin.md) |
+| 24 | Two of spades | [Goblin](/3-Mechanics/CLI/bestiary/humanoid/goblin.md) |
+| 25 | Ace of clubs | [Iron golem](/3-Mechanics/CLI/bestiary/construct/iron-golem.md) |
+| 26 | King of clubs | [Bandit captain](/3-Mechanics/CLI/bestiary/humanoid/bandit-captain.md) and three [bandits](/3-Mechanics/CLI/bestiary/humanoid/bandit.md) |
+| 27 | Queen of clubs | [Erinyes](/3-Mechanics/CLI/bestiary/fiend/erinyes.md) |
+| 28 | Jack of clubs | [Berserker](/3-Mechanics/CLI/bestiary/humanoid/berserker.md) |
+| 29 | Ten of clubs | [Hill giant](/3-Mechanics/CLI/bestiary/giant/hill-giant.md) |
+| 30 | Nine of clubs | [Ogre](/3-Mechanics/CLI/bestiary/giant/ogre.md) |
+| 31 | Eight of clubs | [Orc](/3-Mechanics/CLI/bestiary/humanoid/orc.md) |
+| 32 | Two of clubs | [Kobold](/3-Mechanics/CLI/bestiary/humanoid/kobold.md) |
+| 33-34 | jokers (2) | You (the deck's owner) |
+^1-playing-card-illusion
 
 ## Cards
 

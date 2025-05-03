@@ -11,7 +11,6 @@ aliases: ["Aasimar"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/MPMM/Aasimar.webp#right)  
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
-- **Type**: race
 - **Size**: Small or Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Choose one of Intelligence, Wisdom, Charisma

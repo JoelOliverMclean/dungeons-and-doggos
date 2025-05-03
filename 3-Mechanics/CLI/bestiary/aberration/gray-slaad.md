@@ -7,12 +7,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/aberration/shapechanger
+statblock: inline
 aliases: ["Gray Slaad"]
 ---
-# Gray Slaad
+# [Gray Slaad](3-Mechanics\CLI\bestiary\aberration/gray-slaad.md)
 *Source: Monster Manual p. 277, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Gray%20Slaad.webp#right)  
 Outside of Limbo, gray slaadi act as living extensions of the will of their masters, the death slaadi. A gray slaad journeys to the Material Plane on errands of doom, often taking humanoid form. A gray slaad learns how to master the use of a greatsword and imbue it with its own innate magic.
 
 A gray slaad that eats the entire corpse of a dead death slaad instantly transforms into a death slaad.
@@ -55,57 +55,77 @@ Some slaadi can transform into the humanoid creatures from which they were origi
 > Embedded in a slaad's brain is a magic gem. Acquire it, and the slaad is yours to command.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Gray Slaad
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Gray%20Slaad.webp#token)
-*Medium aberration (shapechanger), Chaotic Neutral*
-
-- **Armor Class** 18 (natural armor)
-- **Hit Points** 127 (`17d8 + 51`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|17 (+3)|16 (+3)|13 (+1)| 8 (-1)|14 (+2)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** ⏤
-- **Skills** Arcana +5, Perception +7
-- **Senses** blindsight 60 ft., darkvision 60 ft., passive Perception 17
-- **Damage Resistances** acid, cold, fire, lightning, thunder
-- **Languages** Slaad, telepathy 60 ft.
-- **Challenge** 9
-
-## Traits
-
-***Shapechanger.*** The slaad can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
-
-***Magic Resistance.*** The slaad has advantage on saving throws against spells and other magical effects.
-
-***Magic Weapons.*** The slaad's weapon attacks are magical.
-
-***Regeneration.*** The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point.
-
-***Innate Spellcasting.*** The slaad's innate spellcasting ability is Charisma (spell save DC 14). The slaad can innately cast the following spells, requiring no material components:
-
-**At will**: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [detect thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md) (self only), [mage hand](/3-Mechanics/CLI/spells/mage-hand.md), [major image](/3-Mechanics/CLI/spells/major-image.md)
-
-**1/day**: [plane shift](/3-Mechanics/CLI/spells/plane-shift.md) (self only)
-
-**2/day each**: [fear](/3-Mechanics/CLI/spells/fear.md), [fly](/3-Mechanics/CLI/spells/fly.md), [fireball](/3-Mechanics/CLI/spells/fireball.md), [tongues](/3-Mechanics/CLI/spells/tongues.md)
-
-## Actions
-
-***Multiattack.*** The slaad makes three attacks: one with its bite and two with its claws or greatsword.
-
-***Bite (Slaad Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
-
-***Claws (Slaad Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (`1d10 + 3`) slashing damage.
-
-***Greatsword.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (`2d6 + 3`) slashing damage.
+```statblock
+"name": "Gray Slaad"
+"size": "Medium"
+"type": "aberration"
+"subtype": "shapechanger"
+"alignment": "Chaotic Neutral"
+"ac": !!int "18"
+"ac_class": "natural armor"
+"hp": !!int "127"
+"hit_dice": "17d8 + 51"
+"stats":
+- !!int "17"
+- !!int "17"
+- !!int "16"
+- !!int "13"
+- !!int "8"
+- !!int "14"
+"speed": "30 ft."
+"skillsaves":
+  "Perception": !!int "7"
+  "Arcana": !!int "5"
+"damage_resistances": "acid, cold, fire, lightning, thunder"
+"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 17"
+"languages": "Slaad, telepathy 60 ft."
+"cr": "9"
+"traits":
+- "desc": "The slaad's innate spellcasting ability is Charisma (spell save DC 14).\
+    \ The slaad can innately cast the following spells, requiring no material components:\n\
+    \nAt will: [detect magic](/3-Mechanics/CLI/spells/detect-magic.md), [detect\
+    \ thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md), [invisibility](/3-Mechanics/CLI/spells/invisibility.md)\
+    \ (self only), [mage hand](/3-Mechanics/CLI/spells/mage-hand.md), [major image](/3-Mechanics/CLI/spells/major-image.md)\n\
+    \n1/day: [plane shift](/3-Mechanics/CLI/spells/plane-shift.md) (self only)\n\
+    \n2/day each: [fear](/3-Mechanics/CLI/spells/fear.md), [fly](/3-Mechanics/CLI/spells/fly.md),\
+    \ [fireball](/3-Mechanics/CLI/spells/fireball.md), [tongues](/3-Mechanics/CLI/spells/tongues.md)"
+  "name": "Innate Spellcasting"
+- "desc": "The slaad can use its action to polymorph into a Small or Medium humanoid,\
+    \ or back into its true form. Its statistics, other than its size, are the same\
+    \ in each form. Any equipment it is wearing or carrying isn't transformed. It\
+    \ reverts to its true form if it dies."
+  "name": "Shapechanger"
+- "desc": "The slaad has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The slaad's weapon attacks are magical."
+  "name": "Magic Weapons"
+- "desc": "The slaad regains 10 hit points at the start of its turn if it has at least\
+    \ 1 hit point."
+  "name": "Regeneration"
+"actions":
+- "desc": "The slaad makes three attacks: one with its bite and two with its claws\
+    \ or greatsword."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) piercing damage."
+  "name": "Bite (Slaad Form Only)"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d10\
+    \ + 3) slashing damage."
+  "name": "Claws (Slaad Form Only)"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
+    \ (2d6 + 3) slashing damage."
+  "name": "Greatsword"
+"source":
+- "MM"
+- "ToA"
+- "WDMM"
+- "WBtW"
+- "KftGV"
+- "PaBTSO"
+- "ToFW"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Gray%20Slaad.webp"
 ```
 ^statblock
 

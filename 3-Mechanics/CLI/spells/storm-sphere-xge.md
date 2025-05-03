@@ -31,7 +31,7 @@ Until the spell ends, you can use a bonus action on each of your turns to cause 
 
 Creatures within 30 feet of the sphere have disadvantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks made to listen.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage for each of its effects increases by 1d6 for each slot level above 4th.
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage for each of its effects increases by `1d6` for each slot level above 4th.
 
 **Classes**: [Fighter (Eldritch Knight)](/3-Mechanics/CLI/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](/3-Mechanics/CLI/classes/rogue-arcane-trickster.md), [Sorcerer](/3-Mechanics/CLI/classes/sorcerer.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

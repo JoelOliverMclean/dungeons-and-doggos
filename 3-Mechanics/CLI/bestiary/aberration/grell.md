@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/aberration
+statblock: inline
 aliases: ["Grell"]
 ---
-# Grell
+# [Grell](3-Mechanics\CLI\bestiary\aberration/grell.md)
 *Source: Monster Manual p. 172, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Grell.webp#right)  
 A grell resembles a bulbous floating brain with a wide, sharp beak. Its ten long tentacles are made of hundreds of ring-shaped muscles sheathed in tough fibrous hide. Sharp barbs line the tip each tentacle and inject paralytic venom. The grell can partially retract its barbs into its tentacles to handle or manipulate objects it doesn't want to pierce or tear.
 
 Grells have no eyes and floats by means of a sort of levitation. They have keen hearing, however, and their skin is sensitive to vibrations and electrical fields, allowing them to detect the presence of creatures and objects in their immediate vicinity. The creature's ability to manipulate electricity to sense and move also allow it to absorb lightning without harm.
@@ -34,40 +34,63 @@ A grell will sometimes allow adventurers to wage war on the other monstrous inha
 > Our intrepid rogue climbed up the shaft to secure a rope. There was a gasp, and the rope fell. We never saw her again.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Grell
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Grell.webp#token)
-*Medium aberration, Neutral Evil*
-
-- **Armor Class** 12 
-- **Hit Points** 55 (`10d8 + 10`) 
-- **Speed** 10 ft., fly 30 ft. (hover)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|14 (+2)|13 (+1)|12 (+1)|11 (+0)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +4, Stealth +6
-- **Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 14
-- **Damage Immunities** lightning
-- **Condition Immunities** [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded), [prone](/3-Mechanics/CLI/rules/conditions.md#prone)
-- **Languages** Grell
-- **Challenge** 3
-
-## Actions
-
-***Multiattack.*** The grell makes two attacks: one with its tentacles and one with its beak.
-
-***Tentacles.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one creature. *Hit:* 7 (`1d10 + 2`) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) for 1 minute. The [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) target is [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), and it can repeat the saving throw at the end of each of its turns, ending the effect on a success.
-
-The target is also [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled) (escape DC 15). If the target is Medium or smaller, it is also [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained) until this grapple ends. While grappling the target, the grell has advantage on attack rolls against it and can 't use this attack against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it.
-
-***Beak.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (`2d4 + 2`) piercing damage.
+```statblock
+"name": "Grell"
+"size": "Medium"
+"type": "aberration"
+"alignment": "Neutral Evil"
+"ac": !!int "12"
+"hp": !!int "55"
+"hit_dice": "10d8 + 10"
+"stats":
+- !!int "15"
+- !!int "14"
+- !!int "13"
+- !!int "12"
+- !!int "11"
+- !!int "9"
+"speed": "10 ft., fly 30 ft. (hover)"
+"skillsaves":
+  "Stealth": !!int "6"
+  "Perception": !!int "4"
+"damage_immunities": "lightning"
+"condition_immunities": "[blinded](/3-Mechanics/CLI/rules/conditions.md#blinded),\
+  \ [prone](/3-Mechanics/CLI/rules/conditions.md#prone)"
+"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 14"
+"languages": "Grell"
+"cr": "3"
+"actions":
+- "desc": "The grell makes two attacks: one with its tentacles and one with its beak."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit:\
+    \ 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution\
+    \ saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ for 1 minute. The [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ target is [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed), and it\
+    \ can repeat the saving throw at the end of each of its turns, ending the effect\
+    \ on a success.\n\nThe target is also [grappled](/3-Mechanics/CLI/rules/conditions.md#grappled)\
+    \ (escape DC 15). If the target is Medium or smaller, it is also [restrained](/3-Mechanics/CLI/rules/conditions.md#restrained)\
+    \ until this grapple ends. While grappling the target, the grell has advantage\
+    \ on attack rolls against it and can 't use this attack against other targets.\
+    \ When the grell moves, any Medium or smaller target it is grappling moves with\
+    \ it."
+  "name": "Tentacles"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4\
+    \ + 2) piercing damage."
+  "name": "Beak"
+"source":
+- "MM"
+- "PotA"
+- "TftYP"
+- "WDH"
+- "WDMM"
+- "IMR"
+- "IDRotF"
+- "CM"
+- "KftGV"
+- "PaBTSO"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Grell.webp"
 ```
 ^statblock
 

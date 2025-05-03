@@ -9,12 +9,12 @@ tags:
 - monster/environment/underdark
 - monster/size/large
 - monster/type/giant
+statblock: inline
 aliases: ["Ettin"]
 ---
-# Ettin
+# [Ettin](3-Mechanics\CLI\bestiary\giant/ettin.md)
 *Source: Monster Manual p. 132, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Ettin.webp#right)  
 An ettin is a foul, two-headed giant with the crude characteristics of an orc. It never bathes if it can help it, and its thick skin is usually encrusted with a thick layer of dirt and grime beneath the stinking hides it wears. Its long stringy hair hangs in an unkempt mess about its faces, and its breath reeks from mouths filled with crooked teeth and tusks.
 
 ## Dual Personality
@@ -41,42 +41,56 @@ In ancient dialects of Common, the word "ettin" translates as "ugly giant." Lege
 
 Whatever the truth of the ettins' origin, orcs treat them as distant cousins, and orc tribes often entice ettins to serve as guards, scouts, and marauders. An ettin isn't particularly loyal to its orc handlers, but the orcs can win it over with the promise of food and loot.
 
-
-## Statblock
-
-```ad-statblock
-title: Ettin
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ettin.webp#token)
-*Large giant, Chaotic Evil*
-
-- **Armor Class** 12 (natural armor)
-- **Hit Points** 85 (`10d10 + 30`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|21 (+5)| 8 (-1)|17 (+3)| 6 (-2)|10 (+0)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +4
-- **Senses** darkvision 60 ft., passive Perception 14
-- **Languages** Giant, Orc
-- **Challenge** 4
-
-## Traits
-
-***Two Heads.*** The ettin has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks and on saving throws against being [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded), [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [stunned](/3-Mechanics/CLI/rules/conditions.md#stunned), and knocked [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious).
-
-***Wakeful.*** When one of the ettin's heads is asleep, its other head is awake.
-
-## Actions
-
-***Multiattack.*** The ettin makes two attacks: one with its battleaxe and one with its morningstar.
-
-***Battleaxe.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (`2d8 + 5`) slashing damage.
-
-***Morningstar.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (`2d8 + 5`) piercing damage.
+```statblock
+"name": "Ettin"
+"size": "Large"
+"type": "giant"
+"alignment": "Chaotic Evil"
+"ac": !!int "12"
+"ac_class": "natural armor"
+"hp": !!int "85"
+"hit_dice": "10d10 + 30"
+"stats":
+- !!int "21"
+- !!int "8"
+- !!int "17"
+- !!int "6"
+- !!int "10"
+- !!int "8"
+"speed": "40 ft."
+"skillsaves":
+  "Perception": !!int "4"
+"senses": "darkvision 60 ft., passive Perception 14"
+"languages": "Giant, Orc"
+"cr": "4"
+"traits":
+- "desc": "The ettin has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks and on saving throws against being [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded),\
+    \ [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened),\
+    \ [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [stunned](/3-Mechanics/CLI/rules/conditions.md#stunned),\
+    \ and knocked [unconscious](/3-Mechanics/CLI/rules/conditions.md#unconscious)."
+  "name": "Two Heads"
+- "desc": "When one of the ettin's heads is asleep, its other head is awake."
+  "name": "Wakeful"
+"actions":
+- "desc": "The ettin makes two attacks: one with its battleaxe and one with its morningstar."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+    \ (2d8 + 5) slashing damage."
+  "name": "Battleaxe"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+    \ (2d8 + 5) piercing damage."
+  "name": "Morningstar"
+"source":
+- "MM"
+- "PotA"
+- "RoT"
+- "SKT"
+- "TftYP"
+- "WDMM"
+- "JttRC"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Ettin.webp"
 ```
 ^statblock
 

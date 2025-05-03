@@ -8,12 +8,12 @@ tags:
 - monster/environment/underwater
 - monster/size/large
 - monster/type/monstrosity
+statblock: inline
 aliases: ["Merrow"]
 ---
-# Merrow
+# [Merrow](3-Mechanics\CLI\bestiary\monstrosity/merrow.md)
 *Source: Monster Manual p. 219, Waterdeep: Dragon Heist. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Merrow.webp#right)  
 Merrow haunt coastal waters, preying on fisherfolk, merfolk, and any other edible creature that crosses their path. These savage monsters snatch and devour unwary prey, hauling drowned corpses back to their underwater grottoes to feed.
 
 ## Transformed Merfolk
@@ -28,42 +28,57 @@ Whenever an opportunity presents itself, the Prince of Demons sends merrow back 
 
 Merrow dwell in undersea caves filled with treasures and trophies, taken from their victims and sunken ships. They tie the rotting corpses of dead enemies and drowned sailors to strands of kelp to mark the borders of their territory.
 
-
-## Statblock
-
-```ad-statblock
-title: Merrow
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Merrow.webp#token)
-*Large monstrosity, Chaotic Evil*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 45 (`6d10 + 12`) 
-- **Speed** 10 ft., swim 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|10 (+0)|15 (+2)| 8 (-1)|10 (+0)| 9 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Languages** Abyssal, Aquan
-- **Challenge** 2
-
-## Traits
-
-***Amphibious.*** The merrow can breathe air and water.
-
-## Actions
-
-***Multiattack.*** The merrow makes two attacks: one with its bite and one with its claws or harpoon.
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (`2d4 + 4`) slashing damage.
-
-***Harpoon.*** *Melee or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 11 (`2d6 + 4`) piercing damage. If the target is a Huge or smaller creature, it must succeed on a Strength contest against the merrow or be pulled up to 20 feet toward the merrow.
+```statblock
+"name": "Merrow"
+"size": "Large"
+"type": "monstrosity"
+"alignment": "Chaotic Evil"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "45"
+"hit_dice": "6d10 + 12"
+"stats":
+- !!int "18"
+- !!int "10"
+- !!int "15"
+- !!int "8"
+- !!int "10"
+- !!int "9"
+"speed": "10 ft., swim 40 ft."
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Abyssal, Aquan"
+"cr": "2"
+"traits":
+- "desc": "The merrow can breathe air and water."
+  "name": "Amphibious"
+"actions":
+- "desc": "The merrow makes two attacks: one with its bite and one with its claws\
+    \ or harpoon."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
+    \ + 4) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4\
+    \ + 4) slashing damage."
+  "name": "Claws"
+- "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
+    \ ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a Huge\
+    \ or smaller creature, it must succeed on a Strength contest against the merrow\
+    \ or be pulled up to 20 feet toward the merrow."
+  "name": "Harpoon"
+"source":
+- "MM"
+- "PotA"
+- "RoT"
+- "SKT"
+- "TftYP"
+- "WDH"
+- "GoS"
+- "IDRotF"
+- "WBtW"
+- "DSotDQ"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Merrow.webp"
 ```
 ^statblock
 

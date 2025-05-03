@@ -1,21 +1,22 @@
 {
   "accentColor": "",
   "cssTheme": "ITS Theme",
-  "theme": "obsidian",
+  "nativeMenus": false,
   "enabledCssSnippets": [
-    "S - Encoded Fonts",
-    "S - Encoded Icons",
-    "HoverProperties_-_Columns",
+    "supercharged-links-gen",
     "dnd5e-compendium",
-    "dnd5e-float-images",
     "dnd5e-only-admonitions",
+    "dnd5e-float-images",
     "dnd5e-only-statblock",
     "FantasyFonts",
     "hide-markdown-link-url",
-    "supercharged-links-gen",
+    "S - Encoded Fonts",
+    "HoverProperties_-_Columns",
+    "S - Encoded Icons",
     "Tab_Icons",
-    "image_widths"
+    "print-no-bg",
+    "strip_embed_title",
+    "print_seemless_embeds"
   ],
-  "baseFontSize": 14,
-  "baseFontSizeAction": true
+  "theme": "system"
 }

@@ -8,12 +8,12 @@ tags:
 - monster/environment/urban
 - monster/size/medium
 - monster/type/humanoid
+statblock: inline
 aliases: ["Champion"]
 ---
-# Champion
+# [Champion](3-Mechanics\CLI\bestiary\humanoid/champion-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 74, Volo's Guide to Monsters p. 212*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MPMM/Champion.webp#right)  
 > [!quote]- A quote from Mordenkainen  
 > 
 > Bountiful and overrated. You can't spit in this realm without hitting one. I have witnessed the birth, death, and unlife of more champions than I dare recount. Few are worth remembering.
@@ -42,42 +42,54 @@ A typical champion bears a coat of arms, heraldry that is associated with the ch
 | 12 | Black anvil cracked down the middle on an orange field |
 ^champions-coat-of-arms
 
-
-```ad-statblock
-title: Champion
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Champion.webp#token)
-*Medium humanoid, Any alignment*
-
-- **Armor Class** 18 ([plate](/3-Mechanics/CLI/items/plate-armor.md))
-- **Hit Points** 143 (`22d8 + 44`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|20 (+5)|15 (+2)|14 (+2)|10 (+0)|14 (+2)|12 (+1)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Strength +9, Constitution +6
-- **Skills** Athletics +9, Intimidation +5, Perception +6
-- **Senses** passive Perception 16
-- **Languages** any one language (usually Common)
-- **Challenge** 9
-
-## Traits
-
-***Indomitable (2/Day).*** The champion rerolls a failed saving throw.
-
-## Actions
-
-***Multiattack.*** The champion makes three Greatsword or Shortbow attacks.
-
-***Greatsword.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12 (`2d6 + 5`) slashing damage, plus 7 (`2d6`) slashing damage if the champion has more than half of its total hit points remaining.
-
-***Shortbow.*** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage, plus 7 (`2d6`) piercing damage if the champion has more than half of its total hit points remaining.
-
-## Bonus Actions
-
-***Second Wind (Recharges after a Short or Long Rest).*** The champion regains 20 hit points.
+```statblock
+"name": "Champion (MPMM)"
+"size": "Medium"
+"type": "humanoid"
+"alignment": "Any alignment"
+"ac": !!int "18"
+"ac_class": "[plate](/3-Mechanics/CLI/items/plate-armor.md)"
+"hp": !!int "143"
+"hit_dice": "22d8 + 44"
+"stats":
+- !!int "20"
+- !!int "15"
+- !!int "14"
+- !!int "10"
+- !!int "14"
+- !!int "12"
+"speed": "30 ft."
+"saves":
+  "Strength": !!int "9"
+  "Constitution": !!int "6"
+"skillsaves":
+  "Intimidation": !!int "5"
+  "Athletics": !!int "9"
+  "Perception": !!int "6"
+"senses": "passive Perception 16"
+"languages": "any one language (usually Common)"
+"cr": "9"
+"traits":
+- "desc": "The champion rerolls a failed saving throw."
+  "name": "Indomitable (2/Day)"
+"actions":
+- "desc": "The champion makes three Greatsword or Shortbow attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+    \ (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if the champion\
+    \ has more than half of its total hit points remaining."
+  "name": "Greatsword"
+- "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+    \ 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if the champion\
+    \ has more than half of its total hit points remaining."
+  "name": "Shortbow"
+"bonus_actions":
+- "desc": "The champion regains 20 hit points."
+  "name": "Second Wind (Recharges after a Short or Long Rest)"
+"source":
+- "MPMM"
+- "VGM"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MPMM/Champion.webp"
 ```
 ^statblock
 

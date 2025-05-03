@@ -6,12 +6,12 @@ tags:
 - monster/cr/1-8
 - monster/size/medium
 - monster/type/construct
+statblock: inline
 aliases: ["Monodrone"]
 ---
-# Monodrone
+# [Monodrone](3-Mechanics\CLI\bestiary\construct/monodrone.md)
 *Source: Monster Manual p. 224*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Monodrone.webp#right)  
 A monodrone can perform one simple task at a time and can relay a single message of up to forty-eight words.
 
 ## Modrons
@@ -46,39 +46,48 @@ When the gears of Mechanus complete seventeen cycles once every 289 years, Primu
 > Every 289 years, the entire multiverse goes mad. Like clockwork.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Monodrone
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Monodrone.webp#token)
-*Medium construct, Lawful Neutral*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 5 (`1d8 + 1`) 
-- **Speed** 30 ft., fly 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|10 (+0)|13 (+1)|12 (+1)| 4 (-3)|10 (+0)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** truesight 120 ft., passive Perception 10
-- **Languages** Modron
-- **Challenge** 1/8
-
-## Traits
-
-***Axiomatic Mind.*** The monodrone can't be compelled to act in a manner contrary to its nature or its instructions.
-
-***Disintegration.*** If the monodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.
-
-## Actions
-
-***Dagger.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) piercing damage.
-
-***Javelin.*** *Melee or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 3 (`1d6`) piercing damage.
+```statblock
+"name": "Monodrone"
+"size": "Medium"
+"type": "construct"
+"alignment": "Lawful Neutral"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "5"
+"hit_dice": "1d8 + 1"
+"stats":
+- !!int "10"
+- !!int "13"
+- !!int "12"
+- !!int "4"
+- !!int "10"
+- !!int "5"
+"speed": "30 ft., fly 30 ft."
+"senses": "truesight 120 ft., passive Perception 10"
+"languages": "Modron"
+"cr": "1/8"
+"traits":
+- "desc": "The monodrone can't be compelled to act in a manner contrary to its nature\
+    \ or its instructions."
+  "name": "Axiomatic Mind"
+- "desc": "If the monodrone dies, its body disintegrates into dust, leaving behind\
+    \ its weapons and anything else it was carrying."
+  "name": "Disintegration"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) piercing damage."
+  "name": "Dagger"
+- "desc": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120\
+    \ ft., one target. Hit: 3 (1d6) piercing damage."
+  "name": "Javelin"
+"source":
+- "MM"
+- "ToA"
+- "BGDIA"
+- "CM"
+- "KftGV"
+- "SatO"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Monodrone.webp"
 ```
 ^statblock

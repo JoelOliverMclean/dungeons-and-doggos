@@ -22,8 +22,8 @@ title: Ram
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/objects/tokens/DMG/Ram.webp#token)
 *Large Siege weapon*
 
-- **Armor Class** 15 
-- **Hit Points** 100 
+- **Armor Class** 15
+- **Hit Points** 100
 - **Speed** 
 
 |STR|DEX|CON|INT|WIS|CHA|
@@ -33,6 +33,6 @@ title: Ram
 
 ## Actions
 
-***Ram.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one object. *Hit:* 16 (`3d10`) bludgeoning damage.
+***Ram.*** *Melee Weapon Attack:* `+8` to hit, reach 5 ft., one object. *Hit:* 16 (`3d10`) bludgeoning damage.
 ```
 ^statblock

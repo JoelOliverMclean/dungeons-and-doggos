@@ -7,12 +7,12 @@ tags:
 - monster/environment/forest
 - monster/size/small
 - monster/type/plant
+statblock: inline
 aliases: ["Twig Blight"]
 ---
-# Twig Blight
+# [Twig Blight](3-Mechanics\CLI\bestiary\plant/twig-blight.md)
 *Source: Monster Manual p. 32, Lost Mine of Phandelver. Available in the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Twig%20Blight.webp#right)  
 Twig blights can root in soil, which they do when living prey are scarce. While rooted, they resemble woody shrubs. When it pulls its roots free of the ground to move, a twig blight's branches twist together to form a humanoid-looking body with a head and limbs.
 
 Twig blights seek out campsites and watering holes, rooting there to set up ambushes for potential victims coming to drink or rest. Huddled together in groups, twig blights blend in with an area's natural vegetation or with piles of debris or firewood.
@@ -42,38 +42,52 @@ Blights are independent creatures, but most act under a Gulthias tree's control,
 > Behold the legacy of Gulthias the vampire: plants with a taste for blood.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Twig Blight
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Twig%20Blight.webp#token)
-*Small plant, Neutral Evil*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 4 (`1d6 + 1`) 
-- **Speed** 20 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 6 (-2)|13 (+1)|12 (+1)| 4 (-3)| 8 (-1)| 3 (-4)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +3
-- **Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 9
-- **Damage Vulnerabilities** fire
-- **Condition Immunities** [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded), [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened)
-- **Languages** understands Common but can't speak
-- **Challenge** 1/8
-
-## Traits
-
-***False Appearance.*** While the blight remains motionless, it is indistinguishable from a dead shrub.
-
-## Actions
-
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) piercing damage.
+```statblock
+"name": "Twig Blight"
+"size": "Small"
+"type": "plant"
+"alignment": "Neutral Evil"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "4"
+"hit_dice": "1d6 + 1"
+"stats":
+- !!int "6"
+- !!int "13"
+- !!int "12"
+- !!int "4"
+- !!int "8"
+- !!int "3"
+"speed": "20 ft."
+"skillsaves":
+  "Stealth": !!int "3"
+"damage_vulnerabilities": "fire"
+"condition_immunities": "[blinded](/3-Mechanics/CLI/rules/conditions.md#blinded),\
+  \ [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened)"
+"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 9"
+"languages": "understands Common but can't speak"
+"cr": "1/8"
+"traits":
+- "desc": "While the blight remains motionless, it is indistinguishable from a dead\
+    \ shrub."
+  "name": "False Appearance"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
+    \ + 1) piercing damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "CoS"
+- "LMoP"
+- "TftYP"
+- "GoS"
+- "RMBRE"
+- "WBtW"
+- "PSI"
+- "HftT"
+- "PaBTSO"
+- "DIP"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Twig%20Blight.webp"
 ```
 ^statblock
 

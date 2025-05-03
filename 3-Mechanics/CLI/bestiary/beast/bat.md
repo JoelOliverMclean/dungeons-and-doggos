@@ -6,41 +6,50 @@ tags:
 - monster/cr/0
 - monster/size/tiny
 - monster/type/beast
+statblock: inline
 aliases: ["Bat"]
 ---
-# Bat
+# [Bat](3-Mechanics\CLI\bestiary\beast/bat.md)
 *Source: Monster Manual p. 318, Waterdeep: Dungeon of the Mad Mage. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Bat.webp#center) 
-
-```ad-statblock
-title: Bat
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bat.webp#token)
-*Tiny beast, Unaligned*
-
-- **Armor Class** 12 
-- **Hit Points** 1 (`1d4 - 1`) 
-- **Speed** 5 ft., fly 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 2 (-4)|15 (+2)| 8 (-1)| 2 (-4)|12 (+1)| 4 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** blindsight 60 ft., passive Perception 11
-- **Languages** —
-- **Challenge** 0
-
-## Traits
-
-***Echolocation.*** The bat can't use its blindsight while [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened).
-
-***Keen Hearing.*** The bat has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on hearing.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one creature. *Hit:* 1 piercing damage.
+```statblock
+"name": "Bat"
+"size": "Tiny"
+"type": "beast"
+"alignment": "Unaligned"
+"ac": !!int "12"
+"hp": !!int "1"
+"hit_dice": "1d4 - 1"
+"stats":
+- !!int "2"
+- !!int "15"
+- !!int "8"
+- !!int "2"
+- !!int "12"
+- !!int "4"
+"speed": "5 ft., fly 30 ft."
+"senses": "blindsight 60 ft., passive Perception 11"
+"languages": ""
+"cr": "0"
+"traits":
+- "desc": "The bat can't use its blindsight while [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened)."
+  "name": "Echolocation"
+- "desc": "The bat has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on hearing."
+  "name": "Keen Hearing"
+"actions":
+- "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1\
+    \ piercing damage."
+  "name": "Bite"
+"source":
+- "MM"
+- "CoS"
+- "ToA"
+- "WDMM"
+- "IDRotF"
+- "WBtW"
+- "PSX"
+- "DoDk"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Bat.webp"
 ```
 ^statblock

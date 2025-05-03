@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/ooze
+statblock: inline
 aliases: ["Gray Ooze"]
 ---
-# Gray Ooze
+# [Gray Ooze](3-Mechanics\CLI\bestiary\ooze/gray-ooze.md)
 *Source: Monster Manual p. 243, Waterdeep: Dragon Heist. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Gray%20Ooze.webp#right)  
 A gray ooze is stone turned to liquid by chaos. When it moves, it slithers like a liquid snake, rising to strike.
 
 ## Oozes
@@ -41,44 +41,61 @@ According to the Demonomicon of Iggwilv and other sources, oozes are scattered f
 
 An ooze doesn't require sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Gray Ooze
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Gray%20Ooze.webp#token)
-*Medium ooze, Unaligned*
-
-- **Armor Class** 8 
-- **Hit Points** 22 (`3d8 + 9`) 
-- **Speed** 10 ft., climb 10 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)| 6 (-2)|16 (+3)| 1 (-5)| 6 (-2)| 2 (-4)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +2
-- **Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 8
-- **Damage Resistances** acid, cold, fire
-- **Condition Immunities** [blinded](/3-Mechanics/CLI/rules/conditions.md#blinded), [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened), [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened), [prone](/3-Mechanics/CLI/rules/conditions.md#prone)
-- **Languages** —
-- **Challenge** 1/2
-
-## Traits
-
-***Amorphous.*** The ooze can move through a space as narrow as 1 inch wide without squeezing.
-
-***Corrode Metal.*** Any nonmagical weapon made of metal that hits the ooze corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the ooze is destroyed after dealing damage.
-
-The ooze can eat through 2-inch-thick, nonmagical metal in 1 round.
-
-***False Appearance.*** While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock.
-
-## Actions
-
-***Pseudopod.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d6 + 1`) bludgeoning damage plus 7 (`2d6`) acid damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.
+```statblock
+"name": "Gray Ooze"
+"size": "Medium"
+"type": "ooze"
+"alignment": "Unaligned"
+"ac": !!int "8"
+"hp": !!int "22"
+"hit_dice": "3d8 + 9"
+"stats":
+- !!int "12"
+- !!int "6"
+- !!int "16"
+- !!int "1"
+- !!int "6"
+- !!int "2"
+"speed": "10 ft., climb 10 ft."
+"skillsaves":
+  "Stealth": !!int "2"
+"damage_resistances": "acid, cold, fire"
+"condition_immunities": "[blinded](/3-Mechanics/CLI/rules/conditions.md#blinded),\
+  \ [charmed](/3-Mechanics/CLI/rules/conditions.md#charmed), [deafened](/3-Mechanics/CLI/rules/conditions.md#deafened),\
+  \ [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened),\
+  \ [prone](/3-Mechanics/CLI/rules/conditions.md#prone)"
+"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
+"languages": ""
+"cr": "1/2"
+"traits":
+- "desc": "The ooze can move through a space as narrow as 1 inch wide without squeezing."
+  "name": "Amorphous"
+- "desc": "Any nonmagical weapon made of metal that hits the ooze corrodes. After\
+    \ dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage\
+    \ rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition\
+    \ made of metal that hits the ooze is destroyed after dealing damage.\n\nThe ooze\
+    \ can eat through 2-inch-thick, nonmagical metal in 1 round."
+  "name": "Corrode Metal"
+- "desc": "While the ooze remains motionless, it is indistinguishable from an oily\
+    \ pool or wet rock."
+  "name": "False Appearance"
+"actions":
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6\
+    \ + 1) bludgeoning damage plus 7 (2d6) acid damage, and if the target is wearing\
+    \ nonmagical metal armor, its armor is partly corroded and takes a permanent and\
+    \ cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty\
+    \ reduces its AC to 10."
+  "name": "Pseudopod"
+"source":
+- "MM"
+- "CoS"
+- "HotDQ"
+- "TftYP"
+- "WDH"
+- "GoS"
+- "KftGV"
+- "PaBTSO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Gray%20Ooze.webp"
 ```
 ^statblock
 

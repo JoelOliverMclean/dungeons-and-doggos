@@ -47,6 +47,7 @@ cssclasses: json5e-note
 - [Specter](specter.md)
 - [Sword Wraith Commander](sword-wraith-commander-mpmm.md)
 - [Sword Wraith Warrior](sword-wraith-warrior-mpmm.md)
+- [Topi](topi-ttp.md)
 - [Undead Bulette](undead-bulette-wdmm.md)
 - [Undead Shambling Mound](undead-shambling-mound-wdmm.md)
 - [Undead Spirit (Ghostly, 3rd-Level Spell)](undead-spirit-ghostly-3rd-level-spell-tce.md)

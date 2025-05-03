@@ -7,12 +7,12 @@ tags:
 - monster/size/medium
 - monster/type/fiend/demon
 - monster/type/fiend/shapechanger
+statblock: inline
 aliases: ["Yochlol"]
 ---
-# Yochlol
+# [Yochlol](3-Mechanics\CLI\bestiary\fiend/yochlol.md)
 *Source: Monster Manual p. 65, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Yochlol.webp#right)  
 The yochlols are the Handmaidens of Lolth-extensions of the Spider Queen's will dedicated to acting as her spies, taskmasters, and agents of villainy. They attend their goddess in the Demonweb Pits, but Lolth sometimes dispatches yochlols to the Material Plane to guard her temples and to aid her most devout priestesses. Yochlols don't form outside Lolth's realm of the Demonweb, and they serve no demon lords except their queen.
 
 Outside the Abyss, a yochlol can assume the guise of a female drow or monstrous spider to conceal its demonic form. In its true form, the fiend appears as a pillar of yellow slime with a single malevolent eye. In its drow and true form, a yochlol's touch carries the same venomous touch as its spider form's bite.
@@ -184,58 +184,83 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > Demons are painfully difficult to summon and control. It is not a burden for the weak of heart or the weak of spirit.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Yochlol
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Yochlol.webp#token)
-*Medium fiend (demon, shapechanger), Chaotic Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 136 (`16d8 + 64`) 
-- **Speed** 30 ft., climb 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|14 (+2)|18 (+4)|13 (+1)|15 (+2)|15 (+2)|
-
-- **Proficiency Bonus** +4
-- **Saving Throws** Dexterity +6, Intelligence +5, Wisdom +6, Charisma +6
-- **Skills** Deception +10, Insight +6
-- **Senses** darkvision 120 ft., passive Perception 12
-- **Damage Resistances** cold; fire; lightning; bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal, Elvish, Undercommon
-- **Challenge** 10
-
-## Traits
-
-***Shapechanger.*** The yochlol can use its action to polymorph into a form that resembles a female drow or giant spider, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
-
-***Magic Resistance.*** The yochlol has advantage on saving throws against spells and other magical effects.
-
-***Spider Climb.*** The yochlol can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-***Web Walker.*** The yochlol ignores movement restrictions caused by webbing.
-
-***Innate Spellcasting.*** The yochlol's spellcasting ability is Charisma (spell save DC 14). The yochlol can innately cast the following spells, requiring no material components:
-
-**At will**: [detect thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md), [web](/3-Mechanics/CLI/spells/web.md)
-
-**1/day**: [dominate person](/3-Mechanics/CLI/spells/dominate-person.md)
-
-## Actions
-
-***Multiattack.*** The yochlol makes two melee attacks.
-
-***Slam (Bite in Spider Form).*** *Melee Weapon Attack:* +6 to hit, reach 5 ft. (10 feet in demon form), one target. *Hit:* 5 (`1d6 + 2`) bludgeoning (piercing in spider form) damage plus 21 (`6d6`) poison damage.
-
-***Mist Form.*** The yochlol transforms into toxic mist or reverts to its true form. Any equipment it is wearing or carrying is also transformed. It reverts to its true form if it dies.
-
-While in mist form, the yochlol is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated) and can't speak. It has a flying speed of 30 feet, can hover, and can pass through any space that isn't airtight. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to nonmagical damage.
-
-While in mist form, the yochlol can enter a creature's space and stop there. Each time that creature starts its turn with the yochlol in its space, the creature must succeed on a DC 14 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) until the start of its next turn. While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way, the target is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated).
+```statblock
+"name": "Yochlol"
+"size": "Medium"
+"type": "fiend"
+"subtype": "demon, shapechanger"
+"alignment": "Chaotic Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "136"
+"hit_dice": "16d8 + 64"
+"stats":
+- !!int "15"
+- !!int "14"
+- !!int "18"
+- !!int "13"
+- !!int "15"
+- !!int "15"
+"speed": "30 ft., climb 30 ft."
+"saves":
+  "Charisma": !!int "6"
+  "Dexterity": !!int "6"
+  "Wisdom": !!int "6"
+  "Intelligence": !!int "5"
+"skillsaves":
+  "Deception": !!int "10"
+  "Insight": !!int "6"
+"damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
+  \ nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 12"
+"languages": "Abyssal, Elvish, Undercommon"
+"cr": "10"
+"traits":
+- "desc": "The yochlol's spellcasting ability is Charisma (spell save DC 14). The\
+    \ yochlol can innately cast the following spells, requiring no material components:\n\
+    \nAt will: [detect thoughts](/3-Mechanics/CLI/spells/detect-thoughts.md),\
+    \ [web](/3-Mechanics/CLI/spells/web.md)\n\n1/day: [dominate person](/3-Mechanics/CLI/spells/dominate-person.md)"
+  "name": "Innate Spellcasting"
+- "desc": "The yochlol can use its action to polymorph into a form that resembles\
+    \ a female drow or giant spider, or back into its true form. Its statistics are\
+    \ the same in each form. Any equipment it is wearing or carrying isn't transformed.\
+    \ It reverts to its true form if it dies."
+  "name": "Shapechanger"
+- "desc": "The yochlol has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "The yochlol can climb difficult surfaces, including upside down on ceilings,\
+    \ without needing to make an ability check."
+  "name": "Spider Climb"
+- "desc": "The yochlol ignores movement restrictions caused by webbing."
+  "name": "Web Walker"
+"actions":
+- "desc": "The yochlol makes two melee attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft. (10 feet in demon form),\
+    \ one target. Hit: 5 (1d6 + 2) bludgeoning (piercing in spider form) damage\
+    \ plus 21 (6d6) poison damage."
+  "name": "Slam (Bite in Spider Form)"
+- "desc": "The yochlol transforms into toxic mist or reverts to its true form. Any\
+    \ equipment it is wearing or carrying is also transformed. It reverts to its true\
+    \ form if it dies.\n\nWhile in mist form, the yochlol is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)\
+    \ and can't speak. It has a flying speed of 30 feet, can hover, and can pass through\
+    \ any space that isn't airtight. It has advantage on Strength, Dexterity, and\
+    \ Constitution saving throws, and it is immune to nonmagical damage.\n\nWhile\
+    \ in mist form, the yochlol can enter a creature's space and stop there. Each\
+    \ time that creature starts its turn with the yochlol in its space, the creature\
+    \ must succeed on a DC 14 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ until the start of its next turn. While [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ in this way, the target is [incapacitated](/3-Mechanics/CLI/rules/conditions.md#incapacitated)."
+  "name": "Mist Form"
+"source":
+- "MM"
+- "WDMM"
+- "EGW"
+- "CRCotN"
+- "PaBTSO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Yochlol.webp"
 ```
 ^statblock

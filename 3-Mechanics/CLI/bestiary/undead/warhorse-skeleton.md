@@ -6,9 +6,10 @@ tags:
 - monster/cr/1-2
 - monster/size/large
 - monster/type/undead
+statblock: inline
 aliases: ["Warhorse Skeleton"]
 ---
-# Warhorse Skeleton
+# [Warhorse Skeleton](3-Mechanics\CLI\bestiary\undead/warhorse-skeleton.md)
 *Source: Monster Manual p. 273. Available in the SRD.*  
 
 Skeletons arise when animated by dark magic. They heed the summons of spellcasters who call them from their stony tombs and ancient battlefields, or rise of their own accord in places saturated with death and loss, awakened by stirrings of necromantic energy or the presence of corrupting evil.
@@ -37,34 +38,41 @@ When skeletons encounter living creatures, the necromantic energy that drives th
 
 A skeleton doesn't require air, food, drink, or sleep.
 
-
-## Statblock
-
-```ad-statblock
-title: Warhorse Skeleton
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Warhorse%20Skeleton.webp#token)
-*Large undead, Lawful Evil*
-
-- **Armor Class** 13 (barding scraps)
-- **Hit Points** 22 (`3d10 + 6`) 
-- **Speed** 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|18 (+4)|12 (+1)|15 (+2)| 2 (-4)| 8 (-1)| 5 (-3)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Damage Vulnerabilities** bludgeoning
-- **Damage Immunities** poison
-- **Condition Immunities** [exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion), [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** —
-- **Challenge** 1/2
-
-## Actions
-
-***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
+```statblock
+"name": "Warhorse Skeleton"
+"size": "Large"
+"type": "undead"
+"alignment": "Lawful Evil"
+"ac": !!int "13"
+"ac_class": "barding scraps"
+"hp": !!int "22"
+"hit_dice": "3d10 + 6"
+"stats":
+- !!int "18"
+- !!int "12"
+- !!int "15"
+- !!int "2"
+- !!int "8"
+- !!int "5"
+"speed": "60 ft."
+"damage_vulnerabilities": "bludgeoning"
+"damage_immunities": "poison"
+"condition_immunities": "[exhaustion](/3-Mechanics/CLI/rules/conditions.md#exhaustion),\
+  \ [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": ""
+"cr": "1/2"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) bludgeoning damage."
+  "name": "Hooves"
+"source":
+- "MM"
+- "CoS"
+- "SKT"
+- "CM"
+- "DSotDQ"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Warhorse%20Skeleton.webp"
 ```
 ^statblock

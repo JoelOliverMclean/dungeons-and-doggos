@@ -6,12 +6,12 @@ tags:
 - monster/cr/8
 - monster/size/large
 - monster/type/fiend/demon
+statblock: inline
 aliases: ["Hezrou"]
 ---
-# Hezrou
+# [Hezrou](3-Mechanics\CLI\bestiary\fiend/hezrou.md)
 *Source: Monster Manual p. 60, Waterdeep: Dungeon of the Mad Mage. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Hezrou.webp#right)  
 Hezrous serve as foot soldiers in the demonic hordes of the Abyss. Although physically powerful, they are weak-minded and hezrous can easily be duped into sacrificing themselves by more powerful demons. As they press their attacks into the heart of an enemy's forces, their foul stench can sicken even the toughest foes.
 
 ## Demons
@@ -181,44 +181,63 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > Demons are painfully difficult to summon and control. It is not a burden for the weak of heart or the weak of spirit.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Hezrou
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Hezrou.webp#token)
-*Large fiend (demon), Chaotic Evil*
-
-- **Armor Class** 16 (natural armor)
-- **Hit Points** 136 (`13d10 + 65`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|17 (+3)|20 (+5)| 5 (-3)|12 (+1)|13 (+1)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Strength +7, Constitution +8, Wisdom +4
-- **Skills** ⏤
-- **Senses** darkvision 120 ft., passive Perception 11
-- **Damage Resistances** cold; fire; lightning; bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Abyssal, telepathy 120 ft.
-- **Challenge** 8
-
-## Traits
-
-***Magic Resistance.*** The hezrou has advantage on saving throws against spells and other magical effects.
-
-***Stench.*** Any creature that starts its turn within 10 feet of the hezrou must succeed on a DC 14 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) until the start of its next turn. On a successful saving throw, the creature is immune to the hezrou's stench for 24 hours.
-
-## Actions
-
-***Multiattack.*** The hezrou makes three attacks: one with its bite and two with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15 (`2d10 + 4`) piercing damage.
-
-***Claws.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) slashing damage.
+```statblock
+"name": "Hezrou"
+"size": "Large"
+"type": "fiend"
+"subtype": "demon"
+"alignment": "Chaotic Evil"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"hp": !!int "136"
+"hit_dice": "13d10 + 65"
+"stats":
+- !!int "19"
+- !!int "17"
+- !!int "20"
+- !!int "5"
+- !!int "12"
+- !!int "13"
+"speed": "30 ft."
+"saves":
+  "Wisdom": !!int "4"
+  "Strength": !!int "7"
+  "Constitution": !!int "8"
+"damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
+  \ nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 11"
+"languages": "Abyssal, telepathy 120 ft."
+"cr": "8"
+"traits":
+- "desc": "The hezrou has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+- "desc": "Any creature that starts its turn within 10 feet of the hezrou must succeed\
+    \ on a DC 14 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ until the start of its next turn. On a successful saving throw, the creature\
+    \ is immune to the hezrou's stench for 24 hours."
+  "name": "Stench"
+"actions":
+- "desc": "The hezrou makes three attacks: one with its bite and two with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+    \ (2d10 + 4) piercing damage."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+    \ (2d6 + 4) slashing damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "PotA"
+- "TftYP"
+- "WDMM"
+- "BGDIA"
+- "EGW"
+- "WBtW"
+- "CRCotN"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Hezrou.webp"
 ```
 ^statblock

@@ -6,12 +6,12 @@ tags:
 - monster/cr/2
 - monster/size/large
 - monster/type/construct
+statblock: inline
 aliases: ["Pentadrone"]
 ---
-# Pentadrone
+# [Pentadrone](3-Mechanics\CLI\bestiary\construct/pentadrone.md)
 *Source: Monster Manual p. 226*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Pentadrone.webp#right)  
 Pentadrones oversee Mechanus's worker populace and can improvise in response to new situations.
 
 ## Modrons
@@ -46,41 +46,52 @@ When the gears of Mechanus complete seventeen cycles once every 289 years, Primu
 > Every 289 years, the entire multiverse goes mad. Like clockwork.
 
 
-
-## Statblock
-
-```ad-statblock
-title: Pentadrone
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Pentadrone.webp#token)
-*Large construct, Lawful Neutral*
-
-- **Armor Class** 16 (natural armor)
-- **Hit Points** 32 (`5d10 + 5`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|15 (+2)|14 (+2)|12 (+1)|10 (+0)|10 (+0)|13 (+1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +4
-- **Senses** truesight 120 ft., passive Perception 14
-- **Languages** Modron
-- **Challenge** 2
-
-## Traits
-
-***Axiomatic Mind.*** The pentadrone can't be compelled to act in a manner contrary to its nature or its instructions.
-
-***Disintegration.*** If the pentadrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.
-
-## Actions
-
-***Multiattack.*** The pentadrone makes five arm attacks.
-
-***Arm.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) bludgeoning damage.
-
-***Paralysis Gas (Recharge 5-6).*** The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a DC 11 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+```statblock
+"name": "Pentadrone"
+"size": "Large"
+"type": "construct"
+"alignment": "Lawful Neutral"
+"ac": !!int "16"
+"ac_class": "natural armor"
+"hp": !!int "32"
+"hit_dice": "5d10 + 5"
+"stats":
+- !!int "15"
+- !!int "14"
+- !!int "12"
+- !!int "10"
+- !!int "10"
+- !!int "13"
+"speed": "40 ft."
+"skillsaves":
+  "Perception": !!int "4"
+"senses": "truesight 120 ft., passive Perception 14"
+"languages": "Modron"
+"cr": "2"
+"traits":
+- "desc": "The pentadrone can't be compelled to act in a manner contrary to its nature\
+    \ or its instructions."
+  "name": "Axiomatic Mind"
+- "desc": "If the pentadrone dies, its body disintegrates into dust, leaving behind\
+    \ its weapons and anything else it was carrying."
+  "name": "Disintegration"
+"actions":
+- "desc": "The pentadrone makes five arm attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) bludgeoning damage."
+  "name": "Arm"
+- "desc": "The pentadrone exhales a 30-foot cone of gas. Each creature in that area\
+    \ must succeed on a DC 11 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed)\
+    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success."
+  "name": "Paralysis Gas (Recharge 5-6)"
+"source":
+- "MM"
+- "ToA"
+- "KftGV"
+- "SatO"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Pentadrone.webp"
 ```
 ^statblock

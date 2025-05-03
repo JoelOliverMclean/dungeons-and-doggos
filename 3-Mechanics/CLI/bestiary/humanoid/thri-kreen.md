@@ -8,12 +8,12 @@ tags:
 - monster/environment/grassland
 - monster/size/medium
 - monster/type/humanoid/thri-kreen
+statblock: inline
 aliases: ["Thri-kreen"]
 ---
-# Thri-kreen
+# [Thri-kreen](3-Mechanics\CLI\bestiary\humanoid/thri-kreen.md)
 *Source: Monster Manual p. 288*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Thri-kreen.webp#right)  
 Thri-kreen wander the deserts and savannas of the world, avoiding all other races.
 
 ## Thri-Kreen Communication
@@ -34,42 +34,59 @@ Thri-kreen consider all other living creatures as potential nourishment, and the
 
 Thri-kreen don't require sleep and can rest while remaining alert and performing light tasks. Their inability to sleep is thought to be the reason why thri-kreen have such short lifespans, the average thri-kreen life expectancy being only thirty years.
 
-
-## Statblock
-
-```ad-statblock
-title: Thri-kreen
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Thri-kreen.webp#token)
-*Medium humanoid (thri-kreen), Chaotic Neutral*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 33 (`6d8 + 6`) 
-- **Speed** 40 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|12 (+1)|15 (+2)|13 (+1)| 8 (-1)|12 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +3, Stealth +4, Survival +3
-- **Senses** darkvision 60 ft., passive Perception 13
-- **Languages** Thri-kreen
-- **Challenge** 1
-
-## Traits
-
-***Chameleon Carapace.*** The thri-kreen can change the color of its carapace to match the color and texture of its surroundings. As a result, it has advantage on Dexterity (Stealth) checks made to hide.
-
-***Standing Leap.*** The thri-kreen's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.
-
-## Actions
-
-***Multiattack.*** The thri-kreen makes two attacks: one with its bite and one with its claws.
-
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 4 (`1d6 + 1`) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) for 1 minute. If the saving throw fails by 5 or more, the target is also [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed) while [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way. The [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6 (`2d4 + 1`) slashing damage.
+```statblock
+"name": "Thri-kreen"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "thri-kreen"
+"alignment": "Chaotic Neutral"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "33"
+"hit_dice": "6d8 + 6"
+"stats":
+- !!int "12"
+- !!int "15"
+- !!int "13"
+- !!int "8"
+- !!int "12"
+- !!int "7"
+"speed": "40 ft."
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "3"
+  "Survival": !!int "3"
+"senses": "darkvision 60 ft., passive Perception 13"
+"languages": "Thri-kreen"
+"cr": "1"
+"traits":
+- "desc": "The thri-kreen can change the color of its carapace to match the color\
+    \ and texture of its surroundings. As a result, it has advantage on Dexterity\
+    \ (Stealth) checks made to hide."
+  "name": "Chameleon Carapace"
+- "desc": "The thri-kreen's long jump is up to 30 feet and its high jump is up to\
+    \ 15 feet, with or without a running start."
+  "name": "Standing Leap"
+"actions":
+- "desc": "The thri-kreen makes two attacks: one with its bite and one with its claws."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4\
+    \ (1d6 + 1) piercing damage, and the target must succeed on a DC 11 Constitution\
+    \ saving throw or be [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)\
+    \ for 1 minute. If the saving throw fails by 5 or more, the target is also [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed)\
+    \ while [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) in this way.\
+    \ The [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned) target can repeat\
+    \ the saving throw at the end of each of its turns, ending the effect on itself\
+    \ on a success."
+  "name": "Bite"
+- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4\
+    \ + 1) slashing damage."
+  "name": "Claws"
+"source":
+- "MM"
+- "JttRC"
+- "LoX"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Thri-kreen.webp"
 ```
 ^statblock
 

@@ -27,8 +27,3 @@ The region containing Baphomet's lair is warped by his magic, creating one or mo
 - **Panicked Beasts.** Beasts within 1 mile of the lair become [frightened](/3-Mechanics/CLI/rules/conditions.md#frightened) and disoriented, as though constantly under threat of being hunted, and might lash out or panic even when no visible threat is nearby.  
 
 If Baphomet dies, these effects fade over the course of `1d10` days.
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false

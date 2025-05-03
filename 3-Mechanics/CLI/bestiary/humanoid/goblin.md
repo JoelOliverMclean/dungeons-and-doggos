@@ -10,12 +10,12 @@ tags:
 - monster/environment/underdark
 - monster/size/small
 - monster/type/humanoid/goblinoid
+statblock: inline
 aliases: ["Goblin"]
 ---
-# Goblin
+# [Goblin](3-Mechanics\CLI\bestiary\humanoid/goblin.md)
 *Source: Monster Manual p. 166, Lost Mine of Phandelver, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Goblin.webp#right)  
 Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large-sometimes overwhelming-numbers. They crave power and regularly abuse whatever authority they obtain.
 
 ## Goblinoids
@@ -47,38 +47,65 @@ Maglubiyet the Mighty One, the Lord of Depths and Darkness, is the greater god o
 > **Bree-Yark!**
 
 
-
-## Statblock
-
-```ad-statblock
-title: Goblin
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Goblin.webp#token)
-*Small humanoid (goblinoid), Neutral Evil*
-
-- **Armor Class** 15 ([leather armor](/3-Mechanics/CLI/items/leather-armor.md), [shield](/3-Mechanics/CLI/items/shield.md))
-- **Hit Points** 7 (`2d6`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (-1)|14 (+2)|10 (+0)|10 (+0)| 8 (-1)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Stealth +6
-- **Senses** darkvision 60 ft., passive Perception 9
-- **Languages** Common, Goblin
-- **Challenge** 1/4
-
-## Traits
-
-***Nimble Escape.*** The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
-
-## Actions
-
-***Scimitar.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) slashing damage.
-
-***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+```statblock
+"name": "Goblin"
+"size": "Small"
+"type": "humanoid"
+"subtype": "goblinoid"
+"alignment": "Neutral Evil"
+"ac": !!int "15"
+"ac_class": "[leather armor](/3-Mechanics/CLI/items/leather-armor.md), [shield](/3-Mechanics/CLI/items/shield.md)"
+"hp": !!int "7"
+"hit_dice": "2d6"
+"stats":
+- !!int "8"
+- !!int "14"
+- !!int "10"
+- !!int "10"
+- !!int "8"
+- !!int "8"
+"speed": "30 ft."
+"skillsaves":
+  "Stealth": !!int "6"
+"senses": "darkvision 60 ft., passive Perception 9"
+"languages": "Common, Goblin"
+"cr": "1/4"
+"traits":
+- "desc": "The goblin can take the Disengage or Hide action as a bonus action on each\
+    \ of its turns."
+  "name": "Nimble Escape"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+    \ + 2) slashing damage."
+  "name": "Scimitar"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+    \ 5 (1d6 + 2) piercing damage."
+  "name": "Shortbow"
+"source":
+- "MM"
+- "LMoP"
+- "PotA"
+- "SKT"
+- "TftYP"
+- "ToA"
+- "WDH"
+- "WDMM"
+- "GoS"
+- "BGDIA"
+- "ERLW"
+- "RMBRE"
+- "EGW"
+- "IDRotF"
+- "TCE"
+- "WBtW"
+- "CRCotN"
+- "DSotDQ"
+- "HftT"
+- "PaBTSO"
+- "SatO"
+- "BMT"
+- "GHLoE"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Goblin.webp"
 ```
 ^statblock
 

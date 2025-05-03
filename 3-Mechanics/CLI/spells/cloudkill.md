@@ -37,7 +37,7 @@ When a creature enters the spell's area for the first time on a turn or starts i
 
 The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.
+**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by `1d8` for each slot level above 5th.
 
 **Classes**: [Artificer (Alchemist)](/3-Mechanics/CLI/classes/artificer-alchemist-tce.md), [Cleric (Death Domain)](/3-Mechanics/CLI/classes/cleric-death-domain.md), [Druid (Circle of Spores)](/3-Mechanics/CLI/classes/druid-circle-of-spores-tce.md), [Druid (Circle of the Land)](/3-Mechanics/CLI/classes/druid-circle-of-the-land.md), [Paladin (Oath of Conquest)](/3-Mechanics/CLI/classes/paladin-oath-of-conquest-xge.md), [Sorcerer](/3-Mechanics/CLI/classes/sorcerer.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

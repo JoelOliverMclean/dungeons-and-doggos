@@ -11,7 +11,6 @@ aliases: ["Halfling"]
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Halfling.webp#right)  
 
 - **Ability Scores**: Dexterity +2
-- **Type**: race
 - **Size**: Small
 - **Speed**: 25 ft.
 

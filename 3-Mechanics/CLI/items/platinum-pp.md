@@ -9,7 +9,7 @@ aliases:
 ---
 # Platinum (pp)
 *Treasure*  
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Platinum%20(pp).webp#right)  
+![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/items/PHB/Platinum%20%28pp%29.webp#right)  
 
 - **Cost**: 10 gp
 - **Weight**: 0.02 lbs.

@@ -10,12 +10,12 @@ tags:
 - monster/size/medium
 - monster/type/humanoid/human
 - monster/type/humanoid/shapechanger
+statblock: inline
 aliases: ["Wereboar"]
 ---
-# Wereboar
+# [Wereboar](3-Mechanics\CLI\bestiary\humanoid/wereboar.md)
 *Source: Monster Manual p. 209, Tasha's Cauldron of Everything. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Wereboar.webp#right)  
 Wereboars are ill-tempered and vulgar brutes. As humanoids, they are stocky and muscular, with short, stiff hair. In their humanoid and hybrid forms, they use heavy weapons, while in hybrid or animal form, they gain a devastating goring attack through which their curse is spread. A wereboar infects other creatures indiscriminately, relishing the fact that the more its victims resist the curse, the more savage and bestial they become.
 
 Wereboars live in small family groups in remote forest areas, building ramshackle huts or dwelling in caves. They are suspicious of strangers but sometimes ally themselves with orcs.
@@ -53,45 +53,67 @@ Some individuals see little point in fighting the curse and accept what they are
 > **[Werewolf](/3-Mechanics/CLI/bestiary/humanoid/werewolf.md).** The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength.
 ^player-characters-as-lycanthropes
 
-
-## Statblock
-
-```ad-statblock
-title: Wereboar
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Wereboar.webp#token)
-*Medium humanoid (human, shapechanger), Neutral Evil*
-
-- **Armor Class** 10 (11 from natural armor in boar or hybrid form)
-- **Hit Points** 78 (`12d8 + 24`) 
-- **Speed** 30 ft. (40 ft. in boar form)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|10 (+0)|15 (+2)|10 (+0)|11 (+0)| 8 (-1)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +2
-- **Senses** passive Perception 12
-- **Damage Immunities** bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Languages** Common (can't speak in boar form)
-- **Challenge** 4
-
-## Traits
-
-***Shapechanger.*** The wereboar can use its action to polymorph into a boar-humanoid hybrid or into a boar, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
-
-***Charge (Boar or Hybrid Form Only).*** If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 (`2d6`) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).
-
-***Relentless (Recharges after a Short or Long Rest).*** If the wereboar takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.
-
-## Actions
-
-***Multiattack (Humanoid or Hybrid Form Only).*** The wereboar makes two attacks, only one of which can be with its tusks.
-
-***Maul (Humanoid or Hybrid Form Only).*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (`2d6 + 3`) bludgeoning damage.
-
-***Tusks (Boar or Hybrid Form Only).*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (`2d6 + 3`) slashing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy.
+```statblock
+"name": "Wereboar"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "human, shapechanger"
+"alignment": "Neutral Evil"
+"ac": !!int "10"
+"ac_class": "11 from natural armor in boar or hybrid form"
+"hp": !!int "78"
+"hit_dice": "12d8 + 24"
+"stats":
+- !!int "17"
+- !!int "10"
+- !!int "15"
+- !!int "10"
+- !!int "11"
+- !!int "8"
+"speed": "30 ft. (40 ft. in boar form)"
+"skillsaves":
+  "Perception": !!int "2"
+"damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
+  \ aren't silvered"
+"senses": "passive Perception 12"
+"languages": "Common (can't speak in boar form)"
+"cr": "4"
+"traits":
+- "desc": "The wereboar can use its action to polymorph into a boar-humanoid hybrid\
+    \ or into a boar, or back into its true form, which is humanoid. Its statistics,\
+    \ other than its AC, are the same in each form. Any equipment it is wearing or\
+    \ carrying isn't transformed. It reverts to its true form if it dies."
+  "name": "Shapechanger"
+- "desc": "If the wereboar moves at least 15 feet straight toward a target and then\
+    \ hits it with its tusks on the same turn, the target takes an extra 7 (2d6)\
+    \ slashing damage. If the target is a creature, it must succeed on a DC 13 Strength\
+    \ saving throw or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone)."
+  "name": "Charge (Boar or Hybrid Form Only)"
+- "desc": "If the wereboar takes 14 damage or less that would reduce it to 0 hit points,\
+    \ it is reduced to 1 hit point instead."
+  "name": "Relentless (Recharges after a Short or Long Rest)"
+"actions":
+- "desc": "The wereboar makes two attacks, only one of which can be with its tusks."
+  "name": "Multiattack (Humanoid or Hybrid Form Only)"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+    \ (2d6 + 3) bludgeoning damage."
+  "name": "Maul (Humanoid or Hybrid Form Only)"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+    \ (2d6 + 3) slashing damage. If the target is a humanoid, it must succeed on\
+    \ a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy."
+  "name": "Tusks (Boar or Hybrid Form Only)"
+"source":
+- "MM"
+- "ToA"
+- "DC"
+- "DIP"
+- "BGDIA"
+- "IMR"
+- "EGW"
+- "TCE"
+- "CM"
+- "BMT"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Wereboar.webp"
 ```
 ^statblock
 

@@ -20,8 +20,8 @@ title: Suspended Cauldron
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/objects/tokens/DMG/Suspended%20Cauldron.webp#token)
 *Large Siege weapon*
 
-- **Armor Class** 19 
-- **Hit Points** 20 
+- **Armor Class** 19
+- **Hit Points** 20
 - **Speed** 
 
 |STR|DEX|CON|INT|WIS|CHA|

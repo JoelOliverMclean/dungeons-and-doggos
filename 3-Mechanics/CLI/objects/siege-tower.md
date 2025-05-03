@@ -18,8 +18,8 @@ title: Siege Tower
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/objects/tokens/DMG/Siege%20Tower.webp#token)
 *Gargantuan Siege weapon*
 
-- **Armor Class** 15 
-- **Hit Points** 200 
+- **Armor Class** 15
+- **Hit Points** 200
 - **Speed** 
 
 |STR|DEX|CON|INT|WIS|CHA|

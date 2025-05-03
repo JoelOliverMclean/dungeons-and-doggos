@@ -38,7 +38,7 @@ A sudden loud ringing noise, painfully intense, erupts from a point of your choi
 
 A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `1d8` for each slot level above 2nd.
 
 **Classes**: [Artificer (Armorer)](/3-Mechanics/CLI/classes/artificer-armorer-tce.md), [Artificer (Artillerist)](/3-Mechanics/CLI/classes/artificer-artillerist-tce.md), [Bard](/3-Mechanics/CLI/classes/bard.md), [Cleric (Tempest Domain)](/3-Mechanics/CLI/classes/cleric-tempest-domain.md), [Fighter (Eldritch Knight)](/3-Mechanics/CLI/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](/3-Mechanics/CLI/classes/rogue-arcane-trickster.md), [Sorcerer](/3-Mechanics/CLI/classes/sorcerer.md), [Warlock](/3-Mechanics/CLI/classes/warlock.md), [Wizard](/3-Mechanics/CLI/classes/wizard.md)
 

@@ -6,12 +6,12 @@ tags:
 - monster/cr/2
 - monster/size/medium
 - monster/type/dragon
+statblock: inline
 aliases: ["Silver Dragon Wyrmling"]
 ---
-# Silver Dragon Wyrmling
+# [Silver Dragon Wyrmling](3-Mechanics\CLI\bestiary\dragon/silver-dragon-wyrmling.md)
 *Source: Monster Manual p. 118. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Silver%20Dragon.webp#right)  
 The friendliest and most social of the metallic dragons, silver dragons cheerfully assist good creatures in need.
 
 A silver dragon shimmers as if sculpted from pure metal, its face given a noble cast by its high eyes and sweeping beard-like chin spikes. A spiny frill rises high over its head, tracing down its neck to the tip of its tail. A silver wyrmling's scales are blue-gray with silver highlights. As the dragon approaches adulthood, its color gradually brightens until its individual scales are barely visible. As a silver dragon grows older, its pupils fade until its eyes resemble orbs of mercury.
@@ -84,37 +84,52 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 | Ancient | Gargantuan | 801 years or more |
 ^dragon-age-categories
 
-
-## Statblock
-
-```ad-statblock
-title: Silver Dragon Wyrmling
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Silver%20Dragon%20Wyrmling.webp#token)
-*Medium dragon, Lawful Good*
-
-- **Armor Class** 17 (natural armor)
-- **Hit Points** 45 (`6d8 + 18`) 
-- **Speed** 30 ft., fly 60 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|19 (+4)|10 (+0)|17 (+3)|12 (+1)|11 (+0)|15 (+2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** Dexterity +2, Constitution +5, Wisdom +2, Charisma +4
-- **Skills** Perception +4, Stealth +2
-- **Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 14
-- **Damage Immunities** cold
-- **Languages** Draconic
-- **Challenge** 2
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (`1d10 + 4`) piercing damage.
-
-***Breath Weapons (Recharge 5-6).*** The dragon uses one of the following breath weapons.
-
-- **Cold Breath.** The dragon exhales an icy blast in a 15-foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 18 (`4d8`) cold damage on a failed save, or half as much damage on a successful one.  
-- **Paralyzing Breath.** The dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
+```statblock
+"name": "Silver Dragon Wyrmling"
+"size": "Medium"
+"type": "dragon"
+"alignment": "Lawful Good"
+"ac": !!int "17"
+"ac_class": "natural armor"
+"hp": !!int "45"
+"hit_dice": "6d8 + 18"
+"stats":
+- !!int "19"
+- !!int "10"
+- !!int "17"
+- !!int "12"
+- !!int "11"
+- !!int "15"
+"speed": "30 ft., fly 60 ft."
+"saves":
+  "Charisma": !!int "4"
+  "Dexterity": !!int "2"
+  "Wisdom": !!int "2"
+  "Constitution": !!int "5"
+"skillsaves":
+  "Stealth": !!int "2"
+  "Perception": !!int "4"
+"damage_immunities": "cold"
+"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"languages": "Draconic"
+"cr": "2"
+"actions":
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10\
+    \ + 4) piercing damage."
+  "name": "Bite"
+- "desc": "The dragon uses one of the following breath weapons.\n\n- Cold Breath.\
+    \ The dragon exhales an icy blast in a 15-foot cone. Each creature in that area\
+    \ must make a DC 13 Constitution saving throw, taking 18 (4d8) cold damage on\
+    \ a failed save, or half as much damage on a successful one.  \n- Paralyzing\
+    \ Breath. The dragon exhales paralyzing gas in a 15-foot cone. Each creature\
+    \ in that area must succeed on a DC 13 Constitution saving throw or be [paralyzed](/3-Mechanics/CLI/rules/conditions.md#paralyzed)\
+    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
+    \ turns, ending the effect on itself on a success.  "
+  "name": "Breath Weapons (Recharge 5-6)"
+"source":
+- "MM"
+- "SKT"
+- "IDRotF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Silver%20Dragon%20Wyrmling.webp"
 ```
 ^statblock

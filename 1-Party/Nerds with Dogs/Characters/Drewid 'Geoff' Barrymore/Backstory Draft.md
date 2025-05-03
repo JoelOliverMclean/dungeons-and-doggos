@@ -1,0 +1,1 @@
+Drewid Barrymore grew up in the pleasant riverside village of Thistlewood 

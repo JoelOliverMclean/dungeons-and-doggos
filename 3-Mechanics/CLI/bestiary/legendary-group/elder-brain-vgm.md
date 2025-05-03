@@ -27,8 +27,3 @@ The territory within 5 miles of an elder brain is altered by the creature's psio
 - Any creature with which the elder brain has formed a psychic link hears faint, incomprehensible whispers in the deepest recesses of its mind. This psychic detritus consists of the elder brain's stray thoughts commingled with those of other creatures to which it is linked.  
 
 If the elder brain dies, these effects immediately end.
-
-## Is homebrew
-_Source: Volo's Guide to Monsters_
-
-false

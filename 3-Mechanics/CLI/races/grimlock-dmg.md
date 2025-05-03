@@ -10,7 +10,6 @@ aliases: ["Grimlock (DMG)"]
 *Source: Dungeon Master's Guide p. 282*  
 
 - **Ability Scores**: Strength +2, Charisma -2
-- **Type**: race
 - **Size**: Medium
 - **Speed**: 30 ft.
 

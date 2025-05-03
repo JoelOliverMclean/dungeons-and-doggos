@@ -8,11 +8,6 @@ aliases: ["Annis Hag"]
 ---
 # Annis Hag
 
-## Is homebrew
-_Source: Volo's Guide to Monsters_
-
-false
-
 ## Lair actions
 _Source: Volo's Guide to Monsters_
 

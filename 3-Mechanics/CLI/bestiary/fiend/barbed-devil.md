@@ -6,12 +6,12 @@ tags:
 - monster/cr/5
 - monster/size/medium
 - monster/type/fiend/devil
+statblock: inline
 aliases: ["Barbed Devil"]
 ---
-# Barbed Devil
+# [Barbed Devil](3-Mechanics\CLI\bestiary\fiend/barbed-devil.md)
 *Source: Monster Manual p. 70, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Barbed%20Devil.webp#right)  
 Creatures of unbridled greed and desire, barbed devils act as guards to the more powerful denizens of the Nine Hells and their vaults. Resembling a tall humanoid covered in sharp barbs, spines, and hooks, a barbed devil has gleaming eyes that are ever watchful for objects and creatures it might claim for itself. These fiends welcome any chance to fight when victory promises reward.
 
 Barbed devils are known for an alertness that makes them difficult to surprise, and they attend to their duties without boredom or distraction. They use their sharp claws as weapons or hurl balls of flame at foes that try to flee them.
@@ -136,48 +136,74 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
 
-
-## Statblock
-
-```ad-statblock
-title: Barbed Devil
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Barbed%20Devil.webp#token)
-*Medium fiend (devil), Lawful Evil*
-
-- **Armor Class** 15 (natural armor)
-- **Hit Points** 110 (`13d8 + 52`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|16 (+3)|17 (+3)|18 (+4)|12 (+1)|14 (+2)|14 (+2)|
-
-- **Proficiency Bonus** +3
-- **Saving Throws** Strength +6, Constitution +7, Wisdom +5, Charisma +5
-- **Skills** Deception +5, Insight +5, Perception +8
-- **Senses** darkvision 120 ft., passive Perception 18
-- **Damage Resistances** cold; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Damage Immunities** fire, poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Infernal, telepathy 120 ft.
-- **Challenge** 5
-
-## Traits
-
-***Barbed Hide.*** At the start of each of its turns, the barbed devil deals 5 (`1d10`) piercing damage to any creature grappling it.
-
-***Devil's Sight.*** Magical darkness doesn't impede the devil's darkvision.
-
-***Magic Resistance.*** The devil has advantage on saving throws against spells and other magical effects.
-
-## Actions
-
-***Multiattack.*** The devil makes three melee attacks: one with its tail and two with its claws. Alternatively, it can use Hurl Flame twice.
-
-***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
-
-***Tail.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (`2d6 + 3`) piercing damage.
-
-***Hurl Flame.*** *Ranged Spell Attack:* +5 to hit, range 150 ft., one target. *Hit:* 10 (`3d6`) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.
+```statblock
+"name": "Barbed Devil"
+"size": "Medium"
+"type": "fiend"
+"subtype": "devil"
+"alignment": "Lawful Evil"
+"ac": !!int "15"
+"ac_class": "natural armor"
+"hp": !!int "110"
+"hit_dice": "13d8 + 52"
+"stats":
+- !!int "16"
+- !!int "17"
+- !!int "18"
+- !!int "12"
+- !!int "14"
+- !!int "14"
+"speed": "30 ft."
+"saves":
+  "Charisma": !!int "5"
+  "Wisdom": !!int "5"
+  "Strength": !!int "6"
+  "Constitution": !!int "7"
+"skillsaves":
+  "Deception": !!int "5"
+  "Insight": !!int "5"
+  "Perception": !!int "8"
+"damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
+  \ that aren't silvered"
+"damage_immunities": "fire, poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 18"
+"languages": "Infernal, telepathy 120 ft."
+"cr": "5"
+"traits":
+- "desc": "At the start of each of its turns, the barbed devil deals 5 (1d10) piercing\
+    \ damage to any creature grappling it."
+  "name": "Barbed Hide"
+- "desc": "Magical darkness doesn't impede the devil's darkvision."
+  "name": "Devil's Sight"
+- "desc": "The devil has advantage on saving throws against spells and other magical\
+    \ effects."
+  "name": "Magic Resistance"
+"actions":
+- "desc": "The devil makes three melee attacks: one with its tail and two with its\
+    \ claws. Alternatively, it can use Hurl Flame twice."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) piercing damage."
+  "name": "Claw"
+- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+    \ (2d6 + 3) piercing damage."
+  "name": "Tail"
+- "desc": "Ranged Spell Attack: +5 to hit, range 150 ft., one target. Hit: 10\
+    \ (3d6) fire damage. If the target is a flammable object that isn't being worn\
+    \ or carried, it also catches fire."
+  "name": "Hurl Flame"
+"source":
+- "MM"
+- "RoT"
+- "ToA"
+- "WDH"
+- "WDMM"
+- "BGDIA"
+- "EGW"
+- "IDRotF"
+- "TCE"
+- "GHLoE"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Barbed%20Devil.webp"
 ```
 ^statblock

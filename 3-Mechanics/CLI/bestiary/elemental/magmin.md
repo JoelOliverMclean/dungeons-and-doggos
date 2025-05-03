@@ -6,12 +6,12 @@ tags:
 - monster/cr/1-2
 - monster/size/small
 - monster/type/elemental
+statblock: inline
 aliases: ["Magmin"]
 ---
-# Magmin
+# [Magmin](3-Mechanics\CLI\bestiary\elemental/magmin.md)
 *Source: Monster Manual p. 212. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Magmin.webp#right)  
 A grinning, mischievous magmin resembles a stumpy humanoid sculpted from a black shell of magma. Even when it isn't ablaze and radiating heat like a bonfire, small jets of flame erupt from its porous skin.
 
 ## Summoned Pyromaniacs
@@ -24,39 +24,52 @@ Although its flame is potent, the magmin's hard magma shell prevents it from ins
 
 If it has the opportunity while in service to its master, a magmin seeks out areas of great heat, such as forest fires or the bubbling magma of an active volcano. At other times, a magmin compulsively looses fire from its fingertips, delighting in setting objects ablaze.
 
-
-## Statblock
-
-```ad-statblock
-title: Magmin
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Magmin.webp#token)
-*Small elemental, Chaotic Neutral*
-
-- **Armor Class** 14 (natural armor)
-- **Hit Points** 9 (`2d6 + 2`) 
-- **Speed** 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 7 (-2)|15 (+2)|12 (+1)| 8 (-1)|11 (+0)|10 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** ⏤
-- **Senses** darkvision 60 ft., passive Perception 10
-- **Damage Resistances** bludgeoning, piercing, slashing from nonmagical attacks
-- **Damage Immunities** fire
-- **Languages** Ignan
-- **Challenge** 1/2
-
-## Traits
-
-***Death Burst.*** When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 feet of it must make a DC 11 Dexterity saving throw, taking 7 (`2d6`) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren't being worn or carried in that area are ignited.
-
-***Ignited Illumination.*** As a bonus action, the magmin can set itself ablaze or extinguish its flames. While ablaze, the magmin sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-
-## Actions
-
-***Touch.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (`2d6`) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 3 (`1d6`) fire damage at the end of each of its turns.
+```statblock
+"name": "Magmin"
+"size": "Small"
+"type": "elemental"
+"alignment": "Chaotic Neutral"
+"ac": !!int "14"
+"ac_class": "natural armor"
+"hp": !!int "9"
+"hit_dice": "2d6 + 2"
+"stats":
+- !!int "7"
+- !!int "15"
+- !!int "12"
+- !!int "8"
+- !!int "11"
+- !!int "10"
+"speed": "30 ft."
+"damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
+"damage_immunities": "fire"
+"senses": "darkvision 60 ft., passive Perception 10"
+"languages": "Ignan"
+"cr": "1/2"
+"traits":
+- "desc": "When the magmin dies, it explodes in a burst of fire and magma. Each creature\
+    \ within 10 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6)\
+    \ fire damage on a failed save, or half as much damage on a successful one. Flammable\
+    \ objects that aren't being worn or carried in that area are ignited."
+  "name": "Death Burst"
+- "desc": "As a bonus action, the magmin can set itself ablaze or extinguish its flames.\
+    \ While ablaze, the magmin sheds bright light in a 10-foot radius and dim light\
+    \ for an additional 10 feet."
+  "name": "Ignited Illumination"
+"actions":
+- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6)\
+    \ fire damage. If the target is a creature or a flammable object, it ignites.\
+    \ Until a creature takes an action to douse the fire, the target takes 3 (1d6)\
+    \ fire damage at the end of each of its turns."
+  "name": "Touch"
+"source":
+- "MM"
+- "PotA"
+- "SKT"
+- "ToA"
+- "BGDIA"
+- "WBtW"
+- "SatO"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Magmin.webp"
 ```
 ^statblock

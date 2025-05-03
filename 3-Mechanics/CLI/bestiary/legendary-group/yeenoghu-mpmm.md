@@ -24,9 +24,4 @@ The region containing Yeenoghu's lair is warped by his magic, creating one or mo
 
 - **Savage Predators.** Predatory beasts within 6 miles of the lair become unusually savage, killing far more than what they need for food. Carcasses of prey are left to rot in an unnatural display of wasteful slaughter.  
 - **Spiky Terrain.** Within 1 mile of the lair, large iron spikes grow out of the ground and stone surfaces. Yeenoghu impales the bodies of the slain on these spikes.  
-- If Yeenoghu dies, these effects fade over the course of `1d10` days.  
-
-## Is homebrew
-_Source: Mordenkainen Presents: Monsters of the Multiverse_
-
-false
+- If Yeenoghu dies, these effects fade over the course of `1d10` days.

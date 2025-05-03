@@ -7,12 +7,12 @@ tags:
 - monster/environment/underdark
 - monster/size/medium
 - monster/type/humanoid/quaggoth
+statblock: inline
 aliases: ["Quaggoth Thonot"]
 ---
-# Quaggoth Thonot
+# [Quaggoth Thonot](3-Mechanics\CLI\bestiary\humanoid/quaggoth-thonot.md)
 *Source: Monster Manual p. 256, Waterdeep: Dungeon of the Mad Mage*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Quaggoth.webp#right)  
 Savage and territorial, quaggoths climb the chasms of the Underdark. They maul their foes in a frenzy, becoming even more murderous in the face of death.
 
 ## Quaggoth Origins
@@ -35,46 +35,54 @@ A thonots keep a tribe's lore and ensures its superiority against enemies. A tho
 
 Generations of hunting venomous subterranean creatures and perpetual exposure to the molds and fungi that grow in the depths have forced quaggoths to adapt immunities to poisons of all kinds.
 
-
-## Statblock
-
-```ad-statblock
-title: Quaggoth Thonot
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Quaggoth%20Thonot.webp#token)
-*Medium humanoid (quaggoth), Chaotic Neutral*
-
-- **Armor Class** 13 (natural armor)
-- **Hit Points** 45 (`6d8 + 18`) 
-- **Speed** 30 ft., climb 30 ft.
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|12 (+1)|16 (+3)| 6 (-2)|12 (+1)| 7 (-2)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Athletics +5
-- **Senses** darkvision 120 ft., passive Perception 10
-- **Damage Immunities** poison
-- **Condition Immunities** [poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)
-- **Languages** Undercommon
-- **Challenge** 3
-
-## Traits
-
-***Wounded Fury.*** While it has 10 hit points or fewer, the quaggoth has advantage on attack rolls. In addition, it deals an extra 7 (`2d6`) damage to any target it hits with a melee attack.
-
-***Innate Spellcasting (Psionics).*** The quaggoth's innate spellcasting ability is Wisdom (spell save DC 11). The quaggoth can innately cast the following spells, requiring no components:
-
-**At will**: [feather fall](/3-Mechanics/CLI/spells/feather-fall.md), [mage hand](/3-Mechanics/CLI/spells/mage-hand.md) (the hand is invisible)
-
-**1/day each**: [cure wounds](/3-Mechanics/CLI/spells/cure-wounds.md), [enlarge/reduce](/3-Mechanics/CLI/spells/enlarge-reduce.md), [heat metal](/3-Mechanics/CLI/spells/heat-metal.md), [mirror image](/3-Mechanics/CLI/spells/mirror-image.md)
-
-## Actions
-
-***Multiattack.*** The quaggoth makes two claw attacks.
-
-***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) slashing damage.
+```statblock
+"name": "Quaggoth Thonot"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "quaggoth"
+"alignment": "Chaotic Neutral"
+"ac": !!int "13"
+"ac_class": "natural armor"
+"hp": !!int "45"
+"hit_dice": "6d8 + 18"
+"stats":
+- !!int "17"
+- !!int "12"
+- !!int "16"
+- !!int "6"
+- !!int "12"
+- !!int "7"
+"speed": "30 ft., climb 30 ft."
+"skillsaves":
+  "Athletics": !!int "5"
+"damage_immunities": "poison"
+"condition_immunities": "[poisoned](/3-Mechanics/CLI/rules/conditions.md#poisoned)"
+"senses": "darkvision 120 ft., passive Perception 10"
+"languages": "Undercommon"
+"cr": "3"
+"traits":
+- "desc": "The quaggoth's innate spellcasting ability is Wisdom (spell save DC 11).\
+    \ The quaggoth can innately cast the following spells, requiring no components:\n\
+    \nAt will: [feather fall](/3-Mechanics/CLI/spells/feather-fall.md), [mage\
+    \ hand](/3-Mechanics/CLI/spells/mage-hand.md) (the hand is invisible)\n\n1/day\
+    \ each: [cure wounds](/3-Mechanics/CLI/spells/cure-wounds.md), [enlarge/reduce](/3-Mechanics/CLI/spells/enlarge-reduce.md),\
+    \ [heat metal](/3-Mechanics/CLI/spells/heat-metal.md), [mirror image](/3-Mechanics/CLI/spells/mirror-image.md)"
+  "name": "Innate Spellcasting (Psionics)"
+- "desc": "While it has 10 hit points or fewer, the quaggoth has advantage on attack\
+    \ rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits\
+    \ with a melee attack."
+  "name": "Wounded Fury"
+"actions":
+- "desc": "The quaggoth makes two claw attacks."
+  "name": "Multiattack"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) slashing damage."
+  "name": "Claw"
+"source":
+- "MM"
+- "WDMM"
+- "IDRotF"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Quaggoth%20Thonot.webp"
 ```
 ^statblock
 

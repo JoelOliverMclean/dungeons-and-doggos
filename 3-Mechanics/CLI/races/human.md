@@ -7,11 +7,10 @@ tags:
 aliases: ["Human"]
 ---
 # Human
-*Source: Player's Handbook p. 29. Available in the Basic Rules.*  
+*Source: Player's Handbook p. 29. Available in the SRD and the Basic Rules.*  
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/PHB/Human.webp#right)  
 
 - **Ability Scores**: Strength +1, Dexterity +1, Constitution +1, Intelligence +1, Wisdom +1, Charisma +1
-- **Type**: subrace
 - **Size**: Medium
 - **Speed**: 30 ft.
 

@@ -10,12 +10,12 @@ tags:
 - monster/size/medium
 - monster/type/humanoid/human
 - monster/type/humanoid/shapechanger
+statblock: inline
 aliases: ["Weretiger"]
 ---
-# Weretiger
+# [Weretiger](3-Mechanics\CLI\bestiary\humanoid/weretiger.md)
 *Source: Monster Manual p. 210. Available in the SRD.*  
 
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Weretiger.webp#right)  
 Weretigers are ferocious hunters and warriors with a haughty and fastidious nature. Lithe and sleekly muscular in humanoid form, they are taller than average and meticulously groomed. Weretigers grow to enormous size in animal and hybrid form, but they fight in their more refined humanoid form when they can.
 
 They don't like to pass on their curse, because every new weretiger means competition for territory and prey.
@@ -55,49 +55,70 @@ Some individuals see little point in fighting the curse and accept what they are
 > **[Werewolf](/3-Mechanics/CLI/bestiary/humanoid/werewolf.md).** The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength.
 ^player-characters-as-lycanthropes
 
-
-## Statblock
-
-```ad-statblock
-title: Weretiger
-![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Weretiger.webp#token)
-*Medium humanoid (human, shapechanger), Neutral*
-
-- **Armor Class** 12 
-- **Hit Points** 120 (`16d8 + 48`) 
-- **Speed** 30 ft. (40 ft. in tiger form)
-
-|STR|DEX|CON|INT|WIS|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|17 (+3)|15 (+2)|16 (+3)|10 (+0)|13 (+1)|11 (+0)|
-
-- **Proficiency Bonus** +2
-- **Saving Throws** ⏤
-- **Skills** Perception +5, Stealth +4
-- **Senses** darkvision 60 ft., passive Perception 15
-- **Damage Immunities** bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered
-- **Languages** Common (can't speak in tiger form)
-- **Challenge** 4
-
-## Traits
-
-***Shapechanger.*** The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
-
-***Keen Hearing and Smell.*** The weretiger has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception)) checks that rely on hearing or smell.
-
-***Pounce (Tiger or Hybrid Form Only).*** If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone). If the target is [prone](/3-Mechanics/CLI/rules/conditions.md#prone), the weretiger can make one bite attack against it as a bonus action.
-
-## Actions
-
-***Multiattack (Humanoid or Hybrid Form Only).*** In humanoid form, the weretiger makes two scimitar attacks or two longbow attacks. In hybrid form, it can attack like a humanoid or make two claw attacks.
-
-***Bite (Tiger or Hybrid Form Only).*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (`1d10 + 3`) piercing damage. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or be cursed with weretiger lycanthropy.
-
-***Claw (Tiger or Hybrid Form Only).*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) slashing damage.
-
-***Scimitar (Humanoid or Hybrid Form Only).*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) slashing damage.
-
-***Longbow (Humanoid or Hybrid Form Only).*** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage.
+```statblock
+"name": "Weretiger"
+"size": "Medium"
+"type": "humanoid"
+"subtype": "human, shapechanger"
+"alignment": "Neutral"
+"ac": !!int "12"
+"hp": !!int "120"
+"hit_dice": "16d8 + 48"
+"stats":
+- !!int "17"
+- !!int "15"
+- !!int "16"
+- !!int "10"
+- !!int "13"
+- !!int "11"
+"speed": "30 ft. (40 ft. in tiger form)"
+"skillsaves":
+  "Stealth": !!int "4"
+  "Perception": !!int "5"
+"damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
+  \ aren't silvered"
+"senses": "darkvision 60 ft., passive Perception 15"
+"languages": "Common (can't speak in tiger form)"
+"cr": "4"
+"traits":
+- "desc": "The weretiger can use its action to polymorph into a tiger-humanoid hybrid\
+    \ or into a tiger, or back into its true form, which is humanoid. Its statistics,\
+    \ other than its size, are the same in each form. Any equipment it is wearing\
+    \ or carrying isn't transformed. It reverts to its true form if it dies."
+  "name": "Shapechanger"
+- "desc": "The weretiger has advantage on Wisdom ([Perception](/3-Mechanics/CLI/rules/skills.md#Perception))\
+    \ checks that rely on hearing or smell."
+  "name": "Keen Hearing and Smell"
+- "desc": "If the weretiger moves at least 15 feet straight toward a creature and\
+    \ then hits it with a claw attack on the same turn, that target must succeed on\
+    \ a DC 14 Strength saving throw or be knocked [prone](/3-Mechanics/CLI/rules/conditions.md#prone).\
+    \ If the target is [prone](/3-Mechanics/CLI/rules/conditions.md#prone), the weretiger\
+    \ can make one bite attack against it as a bonus action."
+  "name": "Pounce (Tiger or Hybrid Form Only)"
+"actions":
+- "desc": "In humanoid form, the weretiger makes two scimitar attacks or two longbow\
+    \ attacks. In hybrid form, it can attack like a humanoid or make two claw attacks."
+  "name": "Multiattack (Humanoid or Hybrid Form Only)"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10\
+    \ + 3) piercing damage. If the target is a humanoid, it must succeed on a DC\
+    \ 13 Constitution saving throw or be cursed with weretiger lycanthropy."
+  "name": "Bite (Tiger or Hybrid Form Only)"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8\
+    \ + 3) slashing damage."
+  "name": "Claw (Tiger or Hybrid Form Only)"
+- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
+    \ + 3) slashing damage."
+  "name": "Scimitar (Humanoid or Hybrid Form Only)"
+- "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+    \ 6 (1d8 + 2) piercing damage."
+  "name": "Longbow (Humanoid or Hybrid Form Only)"
+"source":
+- "MM"
+- "ToA"
+- "EGW"
+- "JttRC"
+- "ToFW"
+"image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Weretiger.webp"
 ```
 ^statblock
 
