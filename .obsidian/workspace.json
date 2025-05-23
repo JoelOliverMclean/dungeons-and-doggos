@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b4908603dce8b117",
+        "id": "6ca6b43c797faf9f",
         "type": "tabs",
         "children": [
           {
-            "id": "86cba1c7224c463e",
+            "id": "56b65560d9df1427",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-Planning/Session 19 Plan.md",
-                "mode": "source",
+                "file": "3-Mechanics/Items/Shocking Dagger.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 19 Plan"
+              "title": "Shocking Dagger"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nar'l",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -254,7 +254,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       },
       {
         "id": "4ea24be3058e8490",
@@ -317,12 +317,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86cba1c7224c463e",
+  "active": "56b65560d9df1427",
   "lastOpenFiles": [
-    "4-Planning/Session 18 Plan.md",
     "4-Planning/Session 19 Plan.md",
-    "2-World/Marcel Beniven's Magical Joke Shop.md",
     "3-Mechanics/NPCs/Claus Irons.md",
+    "4-Planning/Session 16 Plan.md",
+    "4-Planning/Session 18 Plan.md",
+    "1-DM Toolkit/Home.md",
+    "2-World/Marcel Beniven's Magical Joke Shop.md",
     "1-DM Toolkit/DM Board.md",
     "4-Planning/Session 17 Plan/Possibilities without Mhazhique.md",
     "4-Planning/Session 17 Plan/Session 17 Plan.md",
@@ -337,14 +339,12 @@
     "3-Mechanics/CLI/bestiary/npc/narl-xibrindas-wdh.md",
     "3-Mechanics/CLI/adventures/waterdeep-dragon-heist/01-foreword.md",
     "3-Mechanics/CLI/bestiary/aberration/grell.md",
-    "1-DM Toolkit/Home.md",
     "3-Mechanics/CLI/books/monster-manual/1-introduction.md",
     "1-Session Journals/2025-02-21.md",
     "1-Session Journals/2025-03-01.md",
     "1-Party/Nerds with Dogs/Quests/Mhazhique & The Dwayne Dilemma.md",
     "1-Party/Nerds with Dogs/Quests/The Trilbi Genesis.md",
     "1-Party/Nerds with Dogs/Quests/Missing Cat - Lord Fluffington.md",
-    "4-Planning/Session 16 Plan.md",
     "1-Session Journals/2023-09-15.md",
     "1-Session Journals/2023-07-08.md",
     "1-Session Journals/2023-06-02.md",
