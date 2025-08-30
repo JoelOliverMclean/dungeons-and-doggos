@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "4-Planning/The Stag Dupe/The Stag Dupe.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "The Stag Dupe"
@@ -229,8 +229,8 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           },
           {
@@ -312,7 +312,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 470.5
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
