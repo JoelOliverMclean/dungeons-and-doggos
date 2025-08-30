@@ -24,7 +24,7 @@ At some point in the near future maybe, the party finds themselves gathered at [
 ##### Setup
 - Each PC gets a small glass filled with **sobriety coins**.
 - Empty central pool.
-- Each round another player makes up a story about Flick for the table.
+- Each round another player makes up a story about Flick for the table and then they all drink to cheers.
 ##### Turn Sequence
 1. **Cheers!** Player takes a “drink” → make a Con save (DC starts at 10, goes +1 each round to simulate getting tipsier).
 2. **Roll the Pour:** Roll 2d6.
