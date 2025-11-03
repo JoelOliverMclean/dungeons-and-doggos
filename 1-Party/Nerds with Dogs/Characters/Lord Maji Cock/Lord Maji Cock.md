@@ -3,6 +3,7 @@ NoteIcon: player
 aliases:
   - Ben
   - Maji
+  - Lord Cock
 tags:
   - player
 Player: Ben

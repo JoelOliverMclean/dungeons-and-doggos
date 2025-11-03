@@ -13,12 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-Planning/The Stag Dupe/The Stag Dupe.md",
+                "file": "4-Planning/Session 21 Plan/Session 21 Plan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "The Stag Dupe"
+              "title": "Session 21 Plan"
+            }
+          },
+          {
+            "id": "ab023a885326f364",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Party/Nerds with Dogs/Characters/Flick McPlumbs/Flick McPlumbs.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Flick McPlumbs"
+            }
+          },
+          {
+            "id": "c3ad387512a74d8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4-Planning/Session 14 Plan/Trilbi's Hat.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Trilbi's Hat"
+            }
+          },
+          {
+            "id": "bcd219dc415208b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4-Planning/Session 21 Plan/Mhazhique Re-spec.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Mhazhique Re-spec"
             }
           }
         ]
@@ -340,53 +382,54 @@
   },
   "active": "d5eb0a9c79b40463",
   "lastOpenFiles": [
-    "4-Planning/Session 20 Plan.md",
-    "4-Planning/The Stag Dupe/The Stag Dupe.md",
-    "4-Planning/The Stag Dupe",
-    "4-Planning/Session 19 Plan.md",
-    "4-Planning/Session 18 Plan.md",
-    "2-World/Marcel Beniven's Magical Joke Shop.md",
-    "3-Mechanics/NPCs/Claus Irons.md",
+    "4-Planning/Session 20 Plan/Session 20 Plan.md",
+    "4-Planning/Session 19 Plan/Session 19 Plan.md",
+    "4-Planning/Session 20 Plan",
+    "4-Planning/Session 18 Plan/Session 18 Plan.md",
+    "4-Planning/Session 19 Plan",
+    "4-Planning/Session 16 Plan/Session 16 Plan.md",
+    "4-Planning/Session 18 Plan",
+    "4-Planning/Session 11 Plan/Session 11 Plan.md",
+    "4-Planning/Session 16 Plan",
+    "4-Planning/Session 9 Plan/Session 9 Plan.md",
+    "4-Planning/Session 11 Plan",
+    "4-Planning/Session 8 Plan/Session 8 Plan.md",
+    "4-Planning/Session 9 Plan",
+    "4-Planning/Session 7 Plan/Session 7 Plan.md",
+    "4-Planning/Session 8 Plan",
+    "4-Planning/Session 21 Plan/Session 21 Mind Map.excalidraw.md",
+    "4-Planning/Session 7 Plan",
+    "Jail map.jpg",
+    "4-Planning/Session 21 Plan/Session 21 Plan.md",
+    "4-Planning/Session 21 Plan/Mhazhique Re-spec.md",
+    "4-Planning/Session 14 Plan/Trilbi's Hat.md",
+    "1-Party/Nerds with Dogs/Characters/Flick McPlumbs/Flick McPlumbs.md",
+    "The Mighnuts.md",
+    "1-Party/Nerds with Dogs/Characters/Flick McPlumbs/Family Reunion.md",
+    "3-Mechanics/NPCs/Trilbi the Magnificent.md",
+    "4-Planning/Session 21 Plan/Untitled.canvas",
+    "4-Planning/Session 21 Plan/Untitled.md",
+    "4-Planning/Session 21 Plan",
+    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Mhazhique Waand.md",
+    "3-Mechanics/NPCs/Ignaroch the Ash Tongue.md",
     "1-DM Toolkit/DM Board.md",
-    "4-Planning/Session 17 Plan/Possibilities without Mhazhique.md",
-    "4-Planning/Session 17 Plan/Session 17 Plan.md",
-    "5-One Shots/Beach Assault/Beach Assault.md",
-    "5-One Shots/Beach Assault/Untitled.md",
-    "5-One Shots/Beach Assault",
-    "5-One Shots",
-    "4-Planning/Session 17 Plan",
-    "1-Party/Nerds with Dogs/Quests/Gil & The Zhentarim.md",
-    "3-Mechanics/Guilds and Groups/Waterdeep/Zhentarim.md",
-    "3-Mechanics/NPCs/Dwayne the Elemental.md",
-    "3-Mechanics/CLI/bestiary/npc/narl-xibrindas-wdh.md",
-    "3-Mechanics/CLI/adventures/waterdeep-dragon-heist/01-foreword.md",
-    "3-Mechanics/CLI/bestiary/aberration/grell.md",
-    "1-DM Toolkit/Home.md",
-    "3-Mechanics/CLI/books/monster-manual/1-introduction.md",
-    "1-Session Journals/2025-02-21.md",
+    "3-Mechanics/NPCs/Goblin Dave.md",
+    "3-Mechanics/NPCs/Untitled.md",
     "1-Session Journals/2025-03-01.md",
-    "1-Party/Nerds with Dogs/Quests/Mhazhique & The Dwayne Dilemma.md",
-    "1-Party/Nerds with Dogs/Quests/The Trilbi Genesis.md",
-    "1-Party/Nerds with Dogs/Quests/Missing Cat - Lord Fluffington.md",
-    "4-Planning/Session 16 Plan.md",
-    "1-Session Journals/2023-09-15.md",
+    "1-Session Journals/2024-07-06.md",
+    "1-Session Journals/2024-07-27.md",
+    "1-Session Journals/2025-02-21.md",
+    "4-Planning/The Stag Dupe",
     "Nar'l's HQ_58x20.png",
     "Nar'l's HQ_59x39-1.png",
     "Nar'l's HQ_59x39.png",
-    "2-World/Nar'l's Headquarters",
     "Duun Shadowdwell-20241017193327446.webp",
     "Grizzle Shadowbane-20241017193748895.webp",
     "olmhazan's_jewels_map.png",
-    "z_Assets/drewid _geoff_ barrymore 2025-02-21.pdf",
-    "z_Assets/mhazhique waand 2025-02-21.pdf",
-    "z_Assets/gil lioth 2025-02-21.pdf",
-    "z_Assets/flick mcplumbs 2025-02-21.pdf",
-    "z_Assets/lord magi cock 2025-02-21.pdf",
     "z_Assets/Placeholder Images/ImagePlaceholder.png",
     "Dwayne-3844859483488.png",
     "4-Planning/Session 15 Plan/Session 15 Plan.canvas",
     "z_Assets/Coxswain Dungeon Crawl-20240906174646507.webp",
-    "z_Assets/Session 12 Plan-20240906142314007.webp",
     "4-Planning/Untitled.canvas",
     "2-World/Waterdeep/Southern Ward/Southern Ward.canvas",
     "2-World/Waterdeep/Dock Ward/Dock Ward.canvas",
