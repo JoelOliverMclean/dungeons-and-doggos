@@ -1,10 +1,4 @@
 You all awaken, with sore heads, from the strangest dream about a stag party for Flick. Chained in a dark cell, stripped of all but your clothes (**perception check DC 5** from anyone to notice [[Mhazhique Waand|Mhazhique]] is wearing the hat ([[Trilbi's Hat]]) from the dream), you hear **voices of goblins** down a distant corridor from the same direction as the only beam of light you see, peaking through a small iron barred window in a thick wooden door. The sound of dripping water fills gaps of silence as you all start to try and get your bearings.
-
-## Music
-- Xoblob's Groove - https://suno.com/s/SxDXJJVrdSOuatVP
-- The Purple Gnome Xoblob - https://suno.com/s/WZDICpsWc9iCs0YQ
-- Brass Theme Song - https://suno.com/s/5mahmwksThbEFnJr
-
 ## Act 1
 Wisdom roll **DC 10** to avoid exhaustion from "bad dream".
 ### Goblin Chatter - Perception Check
@@ -19,6 +13,8 @@ Wisdom roll **DC 10** to avoid exhaustion from "bad dream".
 - [[Lord Maji Cock|Lord Cock]] could use any of his spells he has prepared that only require verbal or somatic components.
 - Any of the party is free to make a strength check **DC 18** to try break free of their chains.
 - The goblin the group hired as a mole will try free them from their cell when the coast is clear, if they haven't already escaped.
+### Fight in the mess hall
+If the party break out whilst there are still goblins in the guild hall (didn't wait for Goblin Dave) there will be an encounter to be had. **3d4 goblins present**.
 ### Things of Note
 - [[Mhazhique Waand|Mhazhique]] would notice he still has a feeling of emptiness and lack of power from the events of the "dream".
 - Perhaps the dream and it's events was a consequence of [[Mhazhique Waand|Mhazhique]]'s row with his patron.
