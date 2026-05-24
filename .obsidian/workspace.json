@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "77df3593967ba62c",
+        "id": "fe2d8132c6b6dfa5",
         "type": "tabs",
         "children": [
           {
-            "id": "9f5510253fa1d49b",
+            "id": "7725053b49fa0b7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,62 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Session 21 Plan"
-            }
-          },
-          {
-            "id": "d9511ab96b2fc308",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-World/Waterdeep/Castle Ward/Vicious Vixen.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Vicious Vixen"
-            }
-          },
-          {
-            "id": "ab023a885326f364",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-Party/Nerds with Dogs/Characters/Flick McPlumbs/Flick McPlumbs.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Flick McPlumbs"
-            }
-          },
-          {
-            "id": "c3ad387512a74d8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4-Planning/Session 14 Plan/Trilbi's Hat.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Trilbi's Hat"
-            }
-          },
-          {
-            "id": "bcd219dc415208b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4-Planning/Session 21 Plan/Mhazhique Re-spec.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Mhazhique Re-spec"
             }
           }
         ]
@@ -367,34 +311,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5eb0a9c79b40463",
+  "active": "7725053b49fa0b7e",
   "lastOpenFiles": [
+    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Welcome to Warlock Level 4.md",
+    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Level 3 Warlock Spell Progression.md",
+    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Level 4 Warlock Spell Progression.md",
+    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Impulse Control.md",
+    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Impulse Tables.md",
+    "1-Party/Nerds with Dogs/Characters/Lord Maji Cock/Welcome to Wizard Level 4.md",
+    "1-Party/Nerds with Dogs/Characters/Drewid 'Geoff' Barrymore/Welcome to Druid Level 4.md",
+    "1-Party/Nerds with Dogs/Characters/Flick McPlumbs/Welcome to Fighter Level 4.md",
+    "1-Party/Nerds with Dogs/Characters/Gil Lioth/Welcome to Barbarian Level 4.md",
+    "1-Party/Nerds with Dogs/Characters/Lord Maji Cock/Welcome to Wizard Level 3.md",
+    "1-Party/Nerds with Dogs/Characters/Drewid 'Geoff' Barrymore/Welcome to Druid Level 3.md",
+    "1-Party/Nerds with Dogs/Characters/Gil Lioth/Gil Lioth.md",
+    "1-DM Toolkit/DnD5e-SideScreen.md",
+    "1-DM Toolkit/Home.md",
     "4-Planning/Session 21 Plan/Mhazhique Re-spec.md",
+    "4-Planning/Session 14 Plan/Trilbi's Hat.md",
+    "1-Party/Nerds with Dogs/Characters/Flick McPlumbs/Flick McPlumbs.md",
+    "2-World/Waterdeep/Castle Ward/Vicious Vixen.md",
+    "1-Session Journals/2026-05-30.md",
+    "1-DM Toolkit/DM Board.md",
     "4-Planning/Session 21 Plan/Session 21 Plan.md",
     "4-Planning/Session 21 Plan/Session 21 Mind Map.excalidraw.md",
     "4-Planning/Session 21 Plan/Goblins.md",
-    "2-World/Waterdeep/Castle Ward/Vicious Vixen.md",
     "Untitled.md",
     "4-Planning/The Stag Dupe/The Stag Dupe.md",
     "4-Planning/The Stag Dupe/Continuation.md",
-    "5-One Shots/Beach Assault/Beach Assault.md",
-    "4-Planning/Session 20 Plan/Session 20 Plan.md",
-    "1-Session Journals/2025-03-01.md",
-    "1-Party/Nerds with Dogs/Characters/Lord Maji Cock/Lord Maji Cock.md",
-    "1-Party/Nerds with Dogs/Characters/Lord Maji Cock/Backstory Planning.md",
-    "1-Party/Nerds with Dogs/Quests/Flick & The Harpers.md",
-    "1-Party/Nerds with Dogs/Quests/Geoff & The Emerald Enclave.md",
-    "1-Party/Nerds with Dogs/Quests/Geoff & The Search for Derrin.md",
-    "1-Party/Nerds with Dogs/Quests/Gil & The Zhentarim.md",
-    "1-Party/Nerds with Dogs/Quests/Gil's Tankard.md",
-    "1-Party/Nerds with Dogs/Quests/Maji & The Red Hood.md",
-    "1-Party/Nerds with Dogs/Quests/Mhazhique & The Dwayne Dilemma.md",
-    "1-Party/Nerds with Dogs/Quests/The Trilbi Genesis.md",
-    "1-Party/Nerds with Dogs/Quests/The Troll's Sack Re-opening.md",
-    "1-Party/Nerds with Dogs/Quests/Missing Cat - Lord Fluffington.md",
-    "4-Planning/Session 21 Plan/Code Riddle.md",
-    "4-Planning/Session 21 Plan/Loot.md",
-    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Mhazhique Waand.md",
     "4-Planning/Session 20 Plan",
     "4-Planning/Session 19 Plan",
     "4-Planning/Session 18 Plan",

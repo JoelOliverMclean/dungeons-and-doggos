@@ -61,7 +61,9 @@ As soon as the party leave the vicinity of the HQ, [[Trilbi the Magnificent]] is
 
 He will explain what's going on to the party somewhat and offer Mhazhique a deal. He can restore his former power, mimicking that of his former patron. Or he can "re-spec" to something more Trilbi-esque in the realm of mischief and trickery. See [[Mhazhique Re-spec]].
 
-Ingaroch makes a vocal only appearance, threatening the whole party, and swearing revenge for Mhazhique's betrayal of his "gifts".
+Ignaroch makes a vocal only appearance, threatening the whole party, and swearing revenge for Mhazhique's betrayal of his "gifts".
+- "You pull at chains you do not understand"
+- "If he falls, you all fall with him"
 ### Most Important NPCs
 - [[Goblin Dave]]
 - [[Trilbi the Magnificent]] - new patron
