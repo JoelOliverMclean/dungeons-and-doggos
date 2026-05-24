@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "8dbcc5e620b15521",
+            "id": "d9511ab96b2fc308",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-Planning/Session 21 Plan/Code Riddle.md",
+                "file": "2-World/Waterdeep/Castle Ward/Vicious Vixen.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Code Riddle"
+              "title": "Vicious Vixen"
             }
           },
           {
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Party/Nerds with Dogs/Gil Lioth/Welcome to Barbarian Level 3.md",
+                "file": "4-Planning/Session 21 Plan/Session 21 Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome to Barbarian Level 3"
+              "title": "Backlinks for Session 21 Plan"
             }
           },
           {
@@ -202,12 +202,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Party/Nerds with Dogs/Gil Lioth/Welcome to Barbarian Level 3.md",
+                "file": "4-Planning/Session 21 Plan/Session 21 Plan.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome to Barbarian Level 3"
+              "title": "Outgoing links from Session 21 Plan"
             }
           },
           {
@@ -229,10 +229,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Party/Nerds with Dogs/Gil Lioth/Welcome to Barbarian Level 3.md"
+                "file": "4-Planning/Session 21 Plan/Session 21 Plan.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome to Barbarian Level 3"
+              "title": "Outline of Session 21 Plan"
             }
           },
           {
@@ -241,8 +244,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -251,8 +254,8 @@
             "state": {
               "type": "help-mate",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "life-buoy",
+              "title": "HelpMate"
             }
           },
           {
@@ -275,8 +278,8 @@
             "state": {
               "type": "initiative-tracker-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
             }
           },
           {
@@ -290,16 +293,6 @@
             }
           },
           {
-            "id": "4d67081bbe1d96ba",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
-            }
-          },
-          {
             "id": "d5eb0a9c79b40463",
             "type": "leaf",
             "state": {
@@ -308,29 +301,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "0b4797202727105c",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
-            }
-          },
-          {
-            "id": "fde4814719b4a942",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       },
       {
         "id": "4ea24be3058e8490",
@@ -394,43 +367,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f5510253fa1d49b",
+  "active": "d5eb0a9c79b40463",
   "lastOpenFiles": [
-    "4-Planning/Session 21 Plan/Loot.md",
-    "1-Party/Nerds with Dogs/Quests/Gil's Tankard.md",
-    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Mhazhique Waand.md",
-    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Character Sheet.md",
-    "4-Planning/Session 21 Plan/Session 21 Plan.md",
-    "4-Planning/Session 21 Plan/Code Riddle.md",
-    "3-Mechanics/NPCs/Nar'l Xibrindas.md",
-    "1-DM Toolkit/Home.md",
-    "1-Party/Nerds with Dogs/Characters/Flick McPlumbs/Flick McPlumbs.md",
     "4-Planning/Session 21 Plan/Mhazhique Re-spec.md",
-    "3-Mechanics/NPCs/Friend.md",
-    "1-DM Toolkit/DM Board.md",
-    "1-DM Toolkit/DnD5e-SideScreen.md",
-    "4-Planning/Session 20 Plan/Session 20 Plan.md",
-    "4-Planning/Session 19 Plan/Session 19 Plan.md",
-    "4-Planning/Session 20 Plan",
-    "4-Planning/Session 18 Plan/Session 18 Plan.md",
-    "4-Planning/Session 19 Plan",
-    "4-Planning/Session 16 Plan/Session 16 Plan.md",
-    "4-Planning/Session 18 Plan",
-    "4-Planning/Session 11 Plan/Session 11 Plan.md",
-    "4-Planning/Session 16 Plan",
-    "4-Planning/Session 9 Plan/Session 9 Plan.md",
-    "4-Planning/Session 11 Plan",
-    "4-Planning/Session 8 Plan/Session 8 Plan.md",
-    "4-Planning/Session 9 Plan",
-    "4-Planning/Session 7 Plan/Session 7 Plan.md",
-    "4-Planning/Session 8 Plan",
+    "4-Planning/Session 21 Plan/Session 21 Plan.md",
     "4-Planning/Session 21 Plan/Session 21 Mind Map.excalidraw.md",
+    "4-Planning/Session 21 Plan/Goblins.md",
+    "2-World/Waterdeep/Castle Ward/Vicious Vixen.md",
+    "Untitled.md",
+    "4-Planning/The Stag Dupe/The Stag Dupe.md",
+    "4-Planning/The Stag Dupe/Continuation.md",
+    "5-One Shots/Beach Assault/Beach Assault.md",
+    "4-Planning/Session 20 Plan/Session 20 Plan.md",
+    "1-Session Journals/2025-03-01.md",
+    "1-Party/Nerds with Dogs/Characters/Lord Maji Cock/Lord Maji Cock.md",
+    "1-Party/Nerds with Dogs/Characters/Lord Maji Cock/Backstory Planning.md",
+    "1-Party/Nerds with Dogs/Quests/Flick & The Harpers.md",
+    "1-Party/Nerds with Dogs/Quests/Geoff & The Emerald Enclave.md",
+    "1-Party/Nerds with Dogs/Quests/Geoff & The Search for Derrin.md",
+    "1-Party/Nerds with Dogs/Quests/Gil & The Zhentarim.md",
+    "1-Party/Nerds with Dogs/Quests/Gil's Tankard.md",
+    "1-Party/Nerds with Dogs/Quests/Maji & The Red Hood.md",
+    "1-Party/Nerds with Dogs/Quests/Mhazhique & The Dwayne Dilemma.md",
+    "1-Party/Nerds with Dogs/Quests/The Trilbi Genesis.md",
+    "1-Party/Nerds with Dogs/Quests/The Troll's Sack Re-opening.md",
+    "1-Party/Nerds with Dogs/Quests/Missing Cat - Lord Fluffington.md",
+    "4-Planning/Session 21 Plan/Code Riddle.md",
+    "4-Planning/Session 21 Plan/Loot.md",
+    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Mhazhique Waand.md",
+    "4-Planning/Session 20 Plan",
+    "4-Planning/Session 19 Plan",
+    "4-Planning/Session 18 Plan",
+    "4-Planning/Session 16 Plan",
+    "4-Planning/Session 11 Plan",
+    "4-Planning/Session 9 Plan",
+    "4-Planning/Session 8 Plan",
     "4-Planning/Session 7 Plan",
     "Jail map.jpg",
-    "4-Planning/Session 14 Plan/Trilbi's Hat.md",
-    "The Mighnuts.md",
-    "1-Party/Nerds with Dogs/Characters/Flick McPlumbs/Family Reunion.md",
-    "3-Mechanics/NPCs/Trilbi the Magnificent.md",
     "4-Planning/Session 21 Plan/Untitled.canvas",
     "4-Planning/Session 21 Plan",
     "4-Planning/The Stag Dupe",
