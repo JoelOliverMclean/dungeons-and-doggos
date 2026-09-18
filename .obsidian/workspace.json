@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-Planning/Session 21 Plan/Backup Plan.md",
-                "mode": "preview",
+                "file": "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Mhazhique Waand.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Backup Plan"
+              "title": "Mhazhique Waand"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -313,9 +315,16 @@
   },
   "active": "7725053b49fa0b7e",
   "lastOpenFiles": [
+    "4-Planning/Session 22 Plan/Session 22 Plan.md",
+    "4-Planning/Session 22 Plan/Opening Catch-up.md",
+    "4-Planning/Session 22 Plan/Nar'l Fight.md",
+    "4-Planning/Session 22 Plan/Running Order.md",
+    "4-Planning/Session 22 Plan",
     "4-Planning/Session 21 Plan/Session 21 Plan.md",
-    "4-Planning/Session 21 Plan/Backup Plan.md",
+    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Character Sheet.md",
     "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Welcome to Warlock Level 4.md",
+    "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Mhazhique Waand.md",
+    "4-Planning/Session 21 Plan/Backup Plan.md",
     "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Level 3 Warlock Spell Progression.md",
     "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Level 4 Warlock Spell Progression.md",
     "1-Party/Nerds with Dogs/Characters/Mhazhique Waand/Impulse Control.md",
@@ -333,12 +342,6 @@
     "4-Planning/Session 14 Plan/Trilbi's Hat.md",
     "1-Party/Nerds with Dogs/Characters/Flick McPlumbs/Flick McPlumbs.md",
     "2-World/Waterdeep/Castle Ward/Vicious Vixen.md",
-    "1-Session Journals/2026-05-30.md",
-    "1-DM Toolkit/DM Board.md",
-    "4-Planning/Session 21 Plan/Session 21 Mind Map.excalidraw.md",
-    "4-Planning/Session 21 Plan/Goblins.md",
-    "Untitled.md",
-    "4-Planning/The Stag Dupe/The Stag Dupe.md",
     "4-Planning/Session 20 Plan",
     "4-Planning/Session 19 Plan",
     "4-Planning/Session 18 Plan",
@@ -350,7 +353,6 @@
     "Jail map.jpg",
     "4-Planning/Session 21 Plan/Untitled.canvas",
     "4-Planning/Session 21 Plan",
-    "4-Planning/The Stag Dupe",
     "Nar'l's HQ_58x20.png",
     "Nar'l's HQ_59x39-1.png",
     "Nar'l's HQ_59x39.png",
